@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>German Grammar A1</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 20px;
+      margin-left: 280px;
+      background-color: #f5f5f5;
+      line-height: 1.6;
+      transition: margin-left 0.3s ease;
+    }
+    
+    /* Sidebar Navigation */
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 260px;
+      height: 100vh;
+      background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%);
+      box-shadow: 4px 0 12px rgba(0,0,0,0.3);
+      z-index: 1000;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transition: transform 0.3s ease;
+    }
+    
+    .sidebar-header {
+      padding: 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      border-bottom: 2px solid rgba(255,255,255,0.2);
+    }
+    
+    .sidebar-header h2 {
+      margin: 0;
+      font-size: 1.3em;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+    
+    .sidebar-nav {
+      padding: 10px 0;
+    }
+    
+    .sidebar-nav-item {
+      display: block;
+      padding: 14px 20px;
+      color: #e2e8f0;
+      text-decoration: none;
+      border-left: 4px solid transparent;
+      transition: all 0.2s ease;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    
+    .sidebar-nav-item:hover {
+      background: rgba(102, 126, 234, 0.2);
+      border-left-color: #667eea;
+      color: #ffffff;
+      padding-left: 24px;
+    }
+    
+    .sidebar-nav-item.active {
+      background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+      border-left-color: #667eea;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    
+    .sidebar-nav-item .emoji {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+    
+    .sidebar-toggle {
+      display: none;
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 1001;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+    
+    .sidebar-toggle:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    }
+    
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 999;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .sidebar-overlay.active {
+      display: block;
+      opacity: 1;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #1565c0;
+      margin-bottom: 30px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    h2 {
+      color: #2c3e50;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #667eea;
+    }
+    
+    h3 {
+      color: #2c3e50;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .content {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+      background: white;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    
+    th {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    th small {
+      text-transform: none;
+      font-weight: 400;
+      font-size: 0.85em;
+      opacity: 0.9;
+    }
+    
+    tr:hover {
+      background-color: rgba(102, 126, 234, 0.05);
+    }
+    
+    td strong {
+      color: #1565c0;
+      font-size: 1.1em;
+    }
+    
+    .audio-btn {
+      margin-right: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      display: inline-block;
+      transition: transform 0.2s;
+      vertical-align: middle;
+    }
+    
+    .audio-btn:hover {
+      transform: scale(1.2);
+    }
+    
+    .audio-btn:active {
+      transform: scale(1.1);
+    }
+    
+    .german-word {
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    code {
+      background: #f9f9f9;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      color: #d84315;
+      font-weight: 600;
+    }
+    
+    ul {
+      margin-bottom: 20px;
+    }
+    
+    li {
+      margin-bottom: 8px;
+    }
+    
+    p {
+      margin-bottom: 15px;
+    }
+    
+    /* Mobile Responsive Styles */
+    @media screen and (max-width: 768px) {
+      body {
+        margin: 10px;
+        margin-left: 10px;
+        font-size: 14px;
+      }
+      
+      .sidebar {
+        transform: translateX(-100%);
+      }
+      
+      .sidebar.open {
+        transform: translateX(0);
+      }
+      
+      .sidebar-toggle {
+        display: block;
+      }
+      
+      .sidebar-overlay.active {
+        display: block;
+      }
+      
+      h1 {
+        font-size: 1.8em;
+        padding: 15px;
+      }
+      
+      .content {
+        padding: 20px;
+      }
+      
+      h2 {
+        font-size: 1.4em;
+      }
+      
+      th, td {
+        padding: 10px;
+        font-size: 14px;
+      }
+      
+      .audio-btn {
+        font-size: 18px;
+        margin-right: 4px;
+        min-width: 24px;
+        min-height: 24px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      body {
+        margin: 5px;
+        font-size: 13px;
+      }
+      
+      h1 {
+        font-size: 1.5em;
+        padding: 12px;
+      }
+      
+      .content {
+        padding: 15px;
+      }
+      
+      h2 {
+        font-size: 1.2em;
+      }
+      
+      th, td {
+        padding: 8px;
+        font-size: 12px;
+      }
+      
+      .audio-btn {
+        font-size: 16px;
+        margin-right: 3px;
+        min-width: 20px;
+        min-height: 20px;
+      }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      body {
+        margin: 15px;
+        margin-left: 270px;
+      }
+    }
+    
+    @media print {
+      body {
+        margin: 0;
+        background-color: white;
+      }
+      .sidebar {
+        display: none;
+      }
+      .sidebar-toggle {
+        display: none;
+      }
+      .sidebar-overlay {
+        display: none;
+      }
+    }
+  </style>
+  <script>
+    // German pronunciation function
+    function speakGerman(word) {
+      // Stop any ongoing speech
+      if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+      }
+      
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'de-DE'; // German language
+      utterance.rate = 0.8; // Slightly slower for clarity
+      utterance.pitch = 1;
+      utterance.volume = 1;
+      
+      // Try to use a German voice if available
+      const voices = window.speechSynthesis.getVoices();
+      const germanVoice = voices.find(voice => 
+        voice.lang.startsWith('de') || 
+        voice.name.toLowerCase().includes('german')
+      );
+      
+      if (germanVoice) {
+        utterance.voice = germanVoice;
+      }
+      
+      window.speechSynthesis.speak(utterance);
+    }
+    
+    // Load voices when page loads
+    window.addEventListener('load', function() {
+      if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = function() {
+          // Voices loaded
+        };
+      }
+    });
+    
+    // Sidebar toggle function
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.querySelector('.sidebar-overlay');
+      sidebar.classList.toggle('open');
+      overlay.classList.toggle('active');
+    }
+    
+    // Close sidebar when clicking outside on mobile
+    document.addEventListener('click', function(event) {
+      const sidebar = document.getElementById('sidebar');
+      const toggle = document.querySelector('.sidebar-toggle');
+      const overlay = document.querySelector('.sidebar-overlay');
+      
+      if (window.innerWidth <= 768) {
+        if (!sidebar.contains(event.target) && !toggle.contains(event.target) && sidebar.classList.contains('open')) {
+          sidebar.classList.remove('open');
+          overlay.classList.remove('active');
+        }
+      }
+    });
+    
+    // Highlight current page in sidebar
+    window.addEventListener('load', function() {
+      const currentPage = window.location.pathname.split('/').pop();
+      const navItems = document.querySelectorAll('.sidebar-nav-item');
+      navItems.forEach(item => {
+        const href = item.getAttribute('href');
+        if (href && href.includes(currentPage)) {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Sidebar Navigation -->
+  <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+  <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>🇩🇪 German Learning</h2>
+    </div>
+    <div class="sidebar-nav">
+      <a href="../Goethe-Institut A1 Vocabulary List pdf/Goethe-Institut A1 Vocabulary List.html" class="sidebar-nav-item">
+        <span class="emoji">📚</span> A1 Vocabulary (PDF)
+      </a>
+      <a href="Goethe-Institut A1 Vocabulary List 650.html" class="sidebar-nav-item">
+        <span class="emoji">📖</span> A1 Vocabulary (650)
+      </a>
+      <a href="German Grammar – A1 Level.html" class="sidebar-nav-item active">
+        <span class="emoji">📝</span> A1 Grammar
+      </a>
+      <a href="../Goethe-Institut A2 Vocabulary List/Goethe-Institut A2 Vocabulary List.html" class="sidebar-nav-item">
+        <span class="emoji">📘</span> A2 Vocabulary
+      </a>
+      <a href="../German Numbers 0–100 (A1 Level)/German Numbers 0–100 (A1 Level).html" class="sidebar-nav-item">
+        <span class="emoji">🔢</span> German Numbers
+      </a>
+      <a href="../common word same as english/common word german and english.html.html" class="sidebar-nav-item">
+        <span class="emoji">🔤</span> Common Words
+      </a>
+      <a href="../German Consonant Clusters/German Consonant Clusters for Hindi + English Speakers.html" class="sidebar-nav-item">
+        <span class="emoji">🗣️</span> Consonant Clusters
+      </a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h1>German Grammar – A1 Level</h1>
+
+    <h2>1. Personal Pronouns & Verb Conjugations</h2>
+    <p><strong>Master Table:</strong> Learn pronouns with "sein" (to be), "haben" (to have), and regular verbs together!</p>
+    <table>
+      <tr>
+        <th>Pronoun</th>
+        <th>English</th>
+        <th>sein (to be)</th>
+        <th>haben (to have)</th>
+        <th>Regular Verb<br><small>Example: lernen (to learn)</small></th>
+      </tr>
+      <tr>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('ich')" title="Click to hear pronunciation">🔊</span><strong>ich</strong></span></td>
+        <td>I</td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('bin')" title="Click to hear pronunciation">🔊</span>bin</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('habe')" title="Click to hear pronunciation">🔊</span>habe</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lerne')" title="Click to hear pronunciation">🔊</span>lerne</span></td>
+      </tr>
+      <tr>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('du')" title="Click to hear pronunciation">🔊</span><strong>du</strong></span></td>
+        <td>you (informal)</td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('bist')" title="Click to hear pronunciation">🔊</span>bist</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('hast')" title="Click to hear pronunciation">🔊</span>hast</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lernst')" title="Click to hear pronunciation">🔊</span>lernst</span></td>
+      </tr>
+      <tr>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('er')" title="Click to hear pronunciation">🔊</span><strong>er/sie/es</strong></span></td>
+        <td>he/she/it</td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('ist')" title="Click to hear pronunciation">🔊</span>ist</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('hat')" title="Click to hear pronunciation">🔊</span>hat</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lernt')" title="Click to hear pronunciation">🔊</span>lernt</span></td>
+      </tr>
+      <tr>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('wir')" title="Click to hear pronunciation">🔊</span><strong>wir</strong></span></td>
+        <td>we</td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('sind')" title="Click to hear pronunciation">🔊</span>sind</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('haben')" title="Click to hear pronunciation">🔊</span>haben</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lernen')" title="Click to hear pronunciation">🔊</span>lernen</span></td>
+      </tr>
+      <tr>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('ihr')" title="Click to hear pronunciation">🔊</span><strong>ihr</strong></span></td>
+        <td>you (plural informal)</td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('seid')" title="Click to hear pronunciation">🔊</span>seid</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('habt')" title="Click to hear pronunciation">🔊</span>habt</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lernt')" title="Click to hear pronunciation">🔊</span>lernt</span></td>
+      </tr>
+      <tr>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('Sie')" title="Click to hear pronunciation">🔊</span><strong>Sie</strong></span></td>
+        <td>you (formal)</td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('sind')" title="Click to hear pronunciation">🔊</span>sind</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('haben')" title="Click to hear pronunciation">🔊</span>haben</span></td>
+        <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lernen')" title="Click to hear pronunciation">🔊</span>lernen</span></td>
+      </tr>
+    </table>
+    <div style="margin-top: 20px; padding: 18px; background-color: #e3f2fd; border-radius: 8px; border-left: 4px solid #1565c0;">
+      <strong style="font-size: 1.1em; color: #1565c0;">💡 Learning Tip: Understanding Verb Patterns</strong>
+      <div style="margin-top: 12px; line-height: 1.8;">
+        <p style="margin-bottom: 10px;"><strong>Regular Verbs Pattern:</strong> For most German verbs, remove the <code>-en</code> ending from the infinitive and add these endings:</p>
+        <ul style="margin-left: 20px; margin-bottom: 12px;">
+          <li><strong>ich</strong> → <code>-e</code> (e.g., lernen → <strong>lerne</strong>)</li>
+          <li><strong>du</strong> → <code>-st</code> (e.g., lernen → <strong>lernst</strong>)</li>
+          <li><strong>er/sie/es</strong> → <code>-t</code> (e.g., lernen → <strong>lernt</strong>)</li>
+          <li><strong>wir</strong> → <code>-en</code> (e.g., lernen → <strong>lernen</strong>)</li>
+          <li><strong>ihr</strong> → <code>-t</code> (e.g., lernen → <strong>lernt</strong>)</li>
+          <li><strong>Sie</strong> → <code>-en</code> (e.g., lernen → <strong>lernen</strong>)</li>
+        </ul>
+        <p style="margin-bottom: 8px;"><strong>📝 How to Use:</strong></p>
+        <ol style="margin-left: 20px; margin-bottom: 12px;">
+          <li>Take any regular verb infinitive (e.g., <code>spielen</code> = to play, <code>machen</code> = to make)</li>
+          <li>Remove the <code>-en</code> ending → <code>spiel-</code>, <code>mach-</code></li>
+          <li>Add the appropriate ending based on the pronoun</li>
+          <li>Result: <code>ich spiele</code>, <code>du spielst</code>, <code>er spielt</code>, <code>wir spielen</code>, etc.</li>
+        </ol>
+        <p style="margin-bottom: 8px; padding: 8px; background-color: #fff3cd; border-radius: 4px; border-left: 3px solid #ff9800;"><strong>⚠️ Important:</strong> "sein" and "haben" are <strong>irregular verbs</strong> - they don't follow this pattern! Always memorize their conjugations separately.</p>
+        <p style="margin-top: 10px; margin-bottom: 0;"><strong>🎯 Memory Trick:</strong> The pattern <code>-e, -st, -t, -en, -t, -en</code> works for 90% of German verbs. Once you master this, you can conjugate hundreds of verbs!</p>
+      </div>
+    </div>
+
+    <h2>2. Sentence Structure</h2>
+    <ul>
+      <li>Verb is in position 2</li>
+      <li>Example: <code>Ich lerne Deutsch.</code></li>
+    </ul>
+
+    <h2>3. Articles (Der, Die, Das)</h2>
+    <table>
+      <tr><th>Gender</th><th>Article</th><th>Example</th></tr>
+      <tr><td>Masculine</td><td>der</td><td>der Mann</td></tr>
+      <tr><td>Feminine</td><td>die</td><td>die Frau</td></tr>
+      <tr><td>Neuter</td><td>das</td><td>das Kind</td></tr>
+    </table>
+
+    <h2>4. Plural Forms</h2>
+    <ul>
+      <li>die Männer</li>
+      <li>die Frauen</li>
+      <li>die Kinder</li>
+    </ul>
+
+    <h2>5. Nominative & Accusative</h2>
+    <table>
+      <tr><th>Case</th><th>Masculine</th><th>Feminine</th><th>Neuter</th></tr>
+      <tr><td>Nominative</td><td>der</td><td>die</td><td>das</td></tr>
+      <tr><td>Accusative</td><td>den</td><td>die</td><td>das</td></tr>
+    </table>
+
+    <h2>6. Negation</h2>
+    <ul>
+      <li><code>nicht</code> – not</li>
+      <li><code>kein / keine</code> – no / not a</li>
+    </ul>
+
+    <h2>7. Prepositions (A1)</h2>
+    <ul>
+      <li>mit, ohne, für, von, zu, in, auf</li>
+    </ul>
+
+    <h2>8. Modal Verbs (Basic)</h2>
+    <ul>
+      <li>können – can</li>
+      <li>müssen – must</li>
+      <li>wollen – want</li>
+    </ul>
+
+    <h2>9. Adjectives (Basic)</h2>
+    <ul>
+      <li>groß, klein, gut, schlecht</li>
+    </ul>
+
+    <h2>10. Conjunctions</h2>
+    <ul>
+      <li>und – and</li>
+      <li>oder – or</li>
+      <li>aber – but</li>
+    </ul>
+
+    <h2>11. Separable Verbs (Intro)</h2>
+    <p>Example: <code>ankommen</code> → <code>Ich komme an.</code></p>
+
+    <h2>12. Common A1 Vocabulary Themes</h2>
+    <ul>
+      <li>Family</li>
+      <li>Food</li>
+      <li>Work</li>
+      <li>Daily routine</li>
+    </ul>
+  </div>
+
+</body>
+</html>
