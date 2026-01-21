@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>German Consonant Clusters for Hindi + English Speakers</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 20px auto; 
+            margin-left: 300px;
+            max-width: 1200px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            line-height: 1.8;
+            transition: margin-left 0.3s ease;
+        }
+        
+        /* Sidebar Navigation */
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 260px;
+            height: 100vh;
+            background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%);
+            box-shadow: 4px 0 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .sidebar-header {
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            border-bottom: 2px solid rgba(255,255,255,0.2);
+        }
+        
+        .sidebar-header h2 {
+            margin: 0;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .sidebar-nav {
+            padding: 10px 0;
+        }
+        
+        .sidebar-nav-item {
+            display: block;
+            padding: 14px 20px;
+            color: #e2e8f0;
+            text-decoration: none;
+            border-left: 4px solid transparent;
+            transition: all 0.2s ease;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        
+        .sidebar-nav-item:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-left-color: #667eea;
+            color: #ffffff;
+            padding-left: 24px;
+        }
+        
+        .sidebar-nav-item.active {
+            background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+            border-left-color: #667eea;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        
+        .sidebar-nav-item .emoji {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        
+        .sidebar-toggle {
+            display: none;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            z-index: 1001;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .sidebar-toggle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
+        
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .sidebar-overlay.active {
+            display: block;
+            opacity: 1;
+        }
+        h1 { 
+            text-align: center; 
+            color: #2c3e50; 
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #e74c3c; 
+            margin-top: 60px; 
+            border-bottom: 4px solid #e74c3c; 
+            padding-bottom: 15px;
+            font-size: 2em;
+            background: linear-gradient(90deg, rgba(231,76,60,0.1) 0%, transparent 100%);
+            padding-left: 15px;
+            border-radius: 5px;
+        }
+        p { margin: 15px 0; }
+        .author { 
+            text-align: center; 
+            font-style: italic; 
+            color: #555; 
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .rule { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px; 
+            border-left: 6px solid #ffd700; 
+            margin: 25px 0; 
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            font-weight: 500;
+        }
+        .rule strong {
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+            color: #ffd700;
+        }
+        .memory-tip {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 5px solid #ffd700;
+            font-style: italic;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        .memory-tip strong {
+            color: #ffd700;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-bottom: 50px; 
+            font-size: 15px; 
+            background-color: white; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td { 
+            padding: 15px; 
+            text-align: left; 
+            border: 1px solid #e0e0e0; 
+        }
+        th { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; 
+            font-weight: bold;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        tr:nth-child(even) { 
+            background-color: #f8f9fa; 
+        }
+        tr:hover { 
+            background-color: #e3f2fd; 
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        td:first-child {
+            font-weight: bold;
+            color: #667eea;
+            text-align: center;
+            width: 50px;
+        }
+        .cluster-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-right: 10px;
+        }
+        .ending { 
+            text-align: center; 
+            font-size: 1.6em; 
+            margin-top: 80px; 
+            color: #2c3e50; 
+            font-weight: bold;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .pronunciation-hint {
+            display: inline-block;
+            background: #ffd700;
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        .audio-btn {
+            display: inline-block;
+            cursor: pointer;
+            margin-left: 8px;
+            font-size: 1.2em;
+            color: #667eea;
+            transition: all 0.3s ease;
+            vertical-align: middle;
+            padding: 4px 8px;
+            border-radius: 50%;
+            background: rgba(102, 126, 234, 0.1);
+        }
+        .audio-btn:hover {
+            color: #e74c3c;
+            background: rgba(231, 76, 60, 0.2);
+            transform: scale(1.2);
+        }
+        .audio-btn:active {
+            transform: scale(1.1);
+        }
+        .german-word {
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 768px) {
+            body {
+                margin: 10px;
+                margin-left: 10px;
+                padding: 10px;
+                font-size: 14px;
+            }
+            
+            .sidebar {
+                transform: translateX(-100%);
+            }
+            
+            .sidebar.open {
+                transform: translateX(0);
+            }
+            
+            .sidebar-toggle {
+                display: block;
+            }
+            
+            .sidebar-overlay.active {
+                display: block;
+            }
+            h1 {
+                font-size: 1.8em;
+                margin-bottom: 8px;
+            }
+            h2 {
+                font-size: 1.5em;
+                margin-top: 40px;
+                padding-bottom: 10px;
+            }
+            .author {
+                padding: 15px;
+                margin-bottom: 30px;
+            }
+            .rule {
+                padding: 15px;
+                margin: 20px 0;
+                font-size: 14px;
+            }
+            .rule strong {
+                font-size: 1.1em;
+            }
+            .memory-tip {
+                padding: 12px;
+                margin: 12px 0;
+                font-size: 13px;
+            }
+            table {
+                font-size: 13px;
+                margin-bottom: 30px;
+                display: block;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            th, td {
+                padding: 10px 8px;
+                font-size: 13px;
+            }
+            th {
+                font-size: 12px;
+            }
+            .cluster-name {
+                font-size: 1.2em;
+            }
+            .audio-btn {
+                font-size: 18px;
+                min-width: 30px;
+                min-height: 30px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .ending {
+                padding: 20px;
+                margin-top: 50px;
+                font-size: 1.2em;
+            }
+            tr:hover {
+                background-color: #f8f9fa !important;
+                transform: none;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            body {
+                margin: 5px;
+                padding: 5px;
+                font-size: 13px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.3em;
+                margin-top: 30px;
+            }
+            .rule {
+                padding: 12px;
+                font-size: 13px;
+            }
+            .memory-tip {
+                padding: 10px;
+                font-size: 12px;
+            }
+            th, td {
+                padding: 8px 6px;
+                font-size: 12px;
+            }
+            th {
+                font-size: 11px;
+            }
+            .cluster-name {
+                font-size: 1.1em;
+            }
+            .audio-btn {
+                font-size: 20px;
+                min-width: 36px;
+                min-height: 36px;
+            }
+            .ending {
+                padding: 15px;
+                font-size: 1.1em;
+            }
+        }
+        
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            body {
+                margin: 15px;
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1.8em;
+            }
+            th, td {
+                padding: 12px 10px;
+            }
+        }
+        
+        @media (hover: none) and (pointer: coarse) {
+            .audio-btn {
+                -webkit-tap-highlight-color: rgba(102, 126, 234, 0.3);
+            }
+            tr:hover {
+                background-color: #f8f9fa !important;
+                transform: none;
+            }
+            .audio-btn:hover {
+                transform: none;
+            }
+            .audio-btn:active {
+                transform: scale(1.1);
+                background: rgba(231, 76, 60, 0.3);
+            }
+        }
+    </style>
+    <script>
+        function speakGerman(word) {
+            // Stop any ongoing speech
+            if (window.speechSynthesis.speaking) {
+                window.speechSynthesis.cancel();
+            }
+            
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'de-DE'; // German language
+            utterance.rate = 0.8; // Slightly slower for clarity
+            utterance.pitch = 1;
+            utterance.volume = 1;
+            
+            // Try to use a German voice if available
+            const voices = window.speechSynthesis.getVoices();
+            const germanVoice = voices.find(voice => 
+                voice.lang.startsWith('de') || 
+                voice.name.toLowerCase().includes('german')
+            );
+            
+            if (germanVoice) {
+                utterance.voice = germanVoice;
+            }
+            
+            window.speechSynthesis.speak(utterance);
+        }
+        
+        // Load voices when page loads
+        window.addEventListener('load', function() {
+            if (window.speechSynthesis.onvoiceschanged !== undefined) {
+                window.speechSynthesis.onvoiceschanged = function() {
+                    // Voices loaded
+                };
+            }
+        });
+        
+        // Sidebar toggle function
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.querySelector('.sidebar-overlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('active');
+        }
+        
+        // Close sidebar when clicking outside on mobile
+        document.addEventListener('click', function(event) {
+            const sidebar = document.getElementById('sidebar');
+            const toggle = document.querySelector('.sidebar-toggle');
+            const overlay = document.querySelector('.sidebar-overlay');
+            
+            if (window.innerWidth <= 768) {
+                if (!sidebar.contains(event.target) && !toggle.contains(event.target) && sidebar.classList.contains('open')) {
+                    sidebar.classList.remove('open');
+                    overlay.classList.remove('active');
+                }
+            }
+        });
+        
+        // Highlight current page in sidebar
+        window.addEventListener('load', function() {
+            const currentPage = window.location.pathname.split('/').pop();
+            const navItems = document.querySelectorAll('.sidebar-nav-item');
+            navItems.forEach(item => {
+                const href = item.getAttribute('href');
+                if (href && href.includes(currentPage)) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+    <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>🇩🇪 German Learning</h2>
+        </div>
+        <div class="sidebar-nav">
+            <a href="../Goethe-Institut A1 Vocabulary List pdf/Goethe-Institut A1 Vocabulary List.html" class="sidebar-nav-item">
+                <span class="emoji">📚</span> A1 Vocabulary (PDF)
+            </a>
+            <a href="../Goethe-Institut A1 Vocabulary List 650/Goethe-Institut A1 Vocabulary List 650.html" class="sidebar-nav-item">
+                <span class="emoji">📖</span> A1 Vocabulary (650)
+            </a>
+            <a href="../Goethe-Institut A2 Vocabulary List/Goethe-Institut A2 Vocabulary List.html" class="sidebar-nav-item">
+                <span class="emoji">📘</span> A2 Vocabulary
+            </a>
+            <a href="../German Numbers 0–100 (A1 Level)/German Numbers 0–100 (A1 Level).html" class="sidebar-nav-item">
+                <span class="emoji">🔢</span> German Numbers
+            </a>
+            <a href="../common word same as english/common word german and english.html.html" class="sidebar-nav-item">
+                <span class="emoji">🔤</span> Common Words
+            </a>
+            <a href="German Consonant Clusters for Hindi + English Speakers.html" class="sidebar-nav-item active">
+                <span class="emoji">🗣️</span> Consonant Clusters
+            </a>
+        </div>
+    </nav>
+    
+    <h1>German Consonant Clusters for Hindi + English Speakers</h1>
+    <p class="author"><strong>Author:</strong> Aman Sayeed<br>
+    <strong>Target Audience:</strong> Hindi + English Speakers<br>
+    <strong>Levels Covered:</strong> A1 to C2<br>
+    <strong>Content:</strong> German consonant clusters, pronunciation rules, Hindi pronunciation (देवनागरी), English & Hindi meanings, 3 example words per cluster.</p>
+
+    <div style="background: white; padding: 30px; border-radius: 10px; margin: 30px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <h2 style="color: #e74c3c; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0;">🔤 German Alphabet with Sounds</h2>
+        <p style="margin-bottom: 20px; color: #555; font-style: italic;">Click on any letter to hear its pronunciation! 🔊</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); gap: 12px; margin-bottom: 20px;">
+            <div class="letter-box" onclick="speakGerman('A')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">A</div>
+            <div class="letter-box" onclick="speakGerman('B')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">B</div>
+            <div class="letter-box" onclick="speakGerman('C')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">C</div>
+            <div class="letter-box" onclick="speakGerman('D')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">D</div>
+            <div class="letter-box" onclick="speakGerman('E')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">E</div>
+            <div class="letter-box" onclick="speakGerman('F')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">F</div>
+            <div class="letter-box" onclick="speakGerman('G')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">G</div>
+            <div class="letter-box" onclick="speakGerman('H')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">H</div>
+            <div class="letter-box" onclick="speakGerman('I')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">I</div>
+            <div class="letter-box" onclick="speakGerman('J')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">J</div>
+            <div class="letter-box" onclick="speakGerman('K')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">K</div>
+            <div class="letter-box" onclick="speakGerman('L')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">L</div>
+            <div class="letter-box" onclick="speakGerman('M')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">M</div>
+            <div class="letter-box" onclick="speakGerman('N')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">N</div>
+            <div class="letter-box" onclick="speakGerman('O')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">O</div>
+            <div class="letter-box" onclick="speakGerman('P')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">P</div>
+            <div class="letter-box" onclick="speakGerman('Q')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">Q</div>
+            <div class="letter-box" onclick="speakGerman('R')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">R</div>
+            <div class="letter-box" onclick="speakGerman('S')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">S</div>
+            <div class="letter-box" onclick="speakGerman('T')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">T</div>
+            <div class="letter-box" onclick="speakGerman('U')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">U</div>
+            <div class="letter-box" onclick="speakGerman('V')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">V</div>
+            <div class="letter-box" onclick="speakGerman('W')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">W</div>
+            <div class="letter-box" onclick="speakGerman('X')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">X</div>
+            <div class="letter-box" onclick="speakGerman('Y')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">Y</div>
+            <div class="letter-box" onclick="speakGerman('Z')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">Z</div>
+            <div class="letter-box" onclick="speakGerman('Ä')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">Ä</div>
+            <div class="letter-box" onclick="speakGerman('Ö')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">Ö</div>
+            <div class="letter-box" onclick="speakGerman('Ü')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">Ü</div>
+            <div class="letter-box" onclick="speakGerman('ß')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; font-size: 2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'">ß</div>
+        </div>
+        <p style="margin-top: 15px; font-style: italic; color: #555; text-align: center;">
+            <strong>💡 Tip:</strong> Click any letter to hear its German pronunciation! The special characters (Ä, Ö, Ü, ß) are highlighted in pink.
+        </p>
+    </div>
+
+    <div style="background: white; padding: 30px; border-radius: 10px; margin: 30px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <h2 style="color: #e74c3c; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0;">📚 Quick Reference Guide</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px;">
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; border-radius: 8px;">
+                <strong>🔴 Most Important:</strong><br>
+                SCH = श (always!)<br>
+                CH = ह्य/ख (depends on vowel)<br>
+                ST = श्ट (at start only)<br>
+                SP = श्प (at start only)
+            </div>
+            <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 15px; border-radius: 8px;">
+                <strong>⚠️ Common Mistakes:</strong><br>
+                TH ≠ English "th" (it's "त")<br>
+                KN: K is NOT silent!<br>
+                QU = क्व (not क्यू)<br>
+                PF = प्फ़ (both sounds!)
+            </div>
+            <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 15px; border-radius: 8px;">
+                <strong>💡 Easy Ones:</strong><br>
+                BL = ब्ल (like "blue")<br>
+                BR = ब्र (like "brother")<br>
+                FL = फ्ल (like "fly")<br>
+                FR = फ्र (like "friend")
+            </div>
+        </div>
+        <p style="margin-top: 20px; font-style: italic; color: #555;">
+            <strong>Tip:</strong> Scroll down to see detailed explanations with memory tips and examples for each cluster!
+        </p>
+    </div>
+
+    <div style="background: white; padding: 30px; border-radius: 10px; margin: 30px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        <h2 style="color: #e74c3c; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0;">🔊 Complete Consonant Clusters Grid</h2>
+        <p style="margin-bottom: 20px; color: #555; font-style: italic;">Click on any cluster box to hear its pronunciation! 🔊</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; margin-bottom: 20px;">
+            <div onclick="speakGerman('Blut')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">BL</div><div style="font-size: 0.9em; opacity: 0.9;">ब्ल</div></div>
+            <div onclick="speakGerman('Brot')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">BR</div><div style="font-size: 0.9em; opacity: 0.9;">ब्र</div></div>
+            <div onclick="speakGerman('Buch')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">CH</div><div style="font-size: 0.9em; opacity: 0.9;">ह्य/ख</div></div>
+            <div onclick="speakGerman('Druck')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">DR</div><div style="font-size: 0.9em; opacity: 0.9;">ड्र</div></div>
+            <div onclick="speakGerman('Fluss')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">FL</div><div style="font-size: 0.9em; opacity: 0.9;">फ्ल</div></div>
+            <div onclick="speakGerman('Freund')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">FR</div><div style="font-size: 0.9em; opacity: 0.9;">फ्र</div></div>
+            <div onclick="speakGerman('Glas')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">GL</div><div style="font-size: 0.9em; opacity: 0.9;">ग्ल</div></div>
+            <div onclick="speakGerman('Gras')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">GR</div><div style="font-size: 0.9em; opacity: 0.9;">ग्र</div></div>
+            <div onclick="speakGerman('Klasse')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">KL</div><div style="font-size: 0.9em; opacity: 0.9;">क्ल</div></div>
+            <div onclick="speakGerman('Knie')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">KN</div><div style="font-size: 0.9em; opacity: 0.9;">क्न</div></div>
+            <div onclick="speakGerman('Kraft')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">KR</div><div style="font-size: 0.9em; opacity: 0.9;">क्र</div></div>
+            <div onclick="speakGerman('Pferd')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">PF</div><div style="font-size: 0.9em; opacity: 0.9;">प्फ़</div></div>
+            <div onclick="speakGerman('Phase')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">PH</div><div style="font-size: 0.9em; opacity: 0.9;">फ</div></div>
+            <div onclick="speakGerman('Platz')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">PL</div><div style="font-size: 0.9em; opacity: 0.9;">प्ल</div></div>
+            <div onclick="speakGerman('Preis')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">PR</div><div style="font-size: 0.9em; opacity: 0.9;">प्र</div></div>
+            <div onclick="speakGerman('Quelle')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">QU</div><div style="font-size: 0.9em; opacity: 0.9;">क्व</div></div>
+            <div onclick="speakGerman('Rhein')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">RH</div><div style="font-size: 0.9em; opacity: 0.9;">र</div></div>
+            <div onclick="speakGerman('Schema')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SC</div><div style="font-size: 0.9em; opacity: 0.9;">श</div></div>
+            <div onclick="speakGerman('Schule')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SCH</div><div style="font-size: 0.9em; opacity: 0.9;">श</div></div>
+            <div onclick="speakGerman('Schloss')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SCHL</div><div style="font-size: 0.9em; opacity: 0.9;">श्ल</div></div>
+            <div onclick="speakGerman('Schmuck')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SCHM</div><div style="font-size: 0.9em; opacity: 0.9;">श्म</div></div>
+            <div onclick="speakGerman('Schnee')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SCHN</div><div style="font-size: 0.9em; opacity: 0.9;">श्न</div></div>
+            <div onclick="speakGerman('Schrank')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SCHR</div><div style="font-size: 0.9em; opacity: 0.9;">श्र</div></div>
+            <div onclick="speakGerman('Schwimmen')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SCHW</div><div style="font-size: 0.9em; opacity: 0.9;">श्व</div></div>
+            <div onclick="speakGerman('Sport')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">SP</div><div style="font-size: 0.9em; opacity: 0.9;">श्प</div></div>
+            <div onclick="speakGerman('Stadt')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">ST</div><div style="font-size: 0.9em; opacity: 0.9;">श्ट</div></div>
+            <div onclick="speakGerman('Straße')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">STR</div><div style="font-size: 0.9em; opacity: 0.9;">श्ट्र</div></div>
+            <div onclick="speakGerman('Theater')" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">TH</div><div style="font-size: 0.9em; opacity: 0.9;">त/थ</div></div>
+            <div onclick="speakGerman('Traum')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">TR</div><div style="font-size: 0.9em; opacity: 0.9;">ट्र/त्र</div></div>
+            <div onclick="speakGerman('Katze')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">TS</div><div style="font-size: 0.9em; opacity: 0.9;">त्स/ज़</div></div>
+            <div onclick="speakGerman('Zwei')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 2px 6px rgba(0,0,0,0.2)'"><div style="font-size: 1.8em; font-weight: bold; margin-bottom: 5px;">ZW</div><div style="font-size: 0.9em; opacity: 0.9;">त्स्व</div></div>
+        </div>
+        <p style="margin-top: 15px; font-style: italic; color: #555; text-align: center;">
+            <strong>💡 Tip:</strong> Click any cluster box to hear how it sounds in a real German word! Important clusters (CH, KN, PF, SCH, SP, ST, TH) are highlighted in pink.
+        </p>
+    </div>
+
+    <h2><span class="cluster-name">BL</span> - Like "Blue" in English!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'B' is pronounced as in English 'b', 'L' as in English 'l'.<br>
+        - Soft blend, both letters clearly heard.<br>
+        - <span class="pronunciation-hint">Tip:</span> Think "BL" as in "BLue" or "BLood" - same sound!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> BL = "ब्ल" - Just like saying "blue" but with German words! Remember: Blut (blood) = ब्लूट - both start with BL!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Blatt<span class="audio-btn" onclick="speakGerman('Blatt')" title="Click to hear pronunciation">🔊</span></span></td><td>ब्लाट</td><td>Leaf</td><td>पत्ता</td></tr>
+            <tr><td>2</td><td><span class="german-word">Blut<span class="audio-btn" onclick="speakGerman('Blut')" title="Click to hear pronunciation">🔊</span></span></td><td>ब्लूट</td><td>Blood</td><td>खून</td></tr>
+            <tr><td>3</td><td><span class="german-word">Blume<span class="audio-btn" onclick="speakGerman('Blume')" title="Click to hear pronunciation">🔊</span></span></td><td>ब्लूमे</td><td>Flower</td><td>फूल</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">BR</span> - Like "Brother"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'B' pronounced as English 'b', 'R' slightly rolled or guttural depending on region.<br>
+        - <span class="pronunciation-hint">Tip:</span> BR = "ब्र" - like "brother" but German style!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> BR = "ब्र" - Think "Brother" = Bruder (ब्रूदर). Same sound pattern!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Brot<span class="audio-btn" onclick="speakGerman('Brot')" title="Click to hear pronunciation">🔊</span></span></td><td>ब्रोट</td><td>Bread</td><td>रोटी</td></tr>
+            <tr><td>2</td><td><span class="german-word">Bruder<span class="audio-btn" onclick="speakGerman('Bruder')" title="Click to hear pronunciation">🔊</span></span></td><td>ब्रूदर</td><td>Brother</td><td>भाई</td></tr>
+            <tr><td>3</td><td><span class="german-word">Braun<span class="audio-btn" onclick="speakGerman('Braun')" title="Click to hear pronunciation">🔊</span></span></td><td>ब्राउन</td><td>Brown</td><td>भूरा</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">CH</span> - The Tricky One! 🎯</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - After front vowels (e, i, ä, ö, ü) → soft [ç] (like ह in "ह्य") e.g., ich.<br>
+        - After back vowels (a, o, u) → hard [χ] (guttural, like Scottish 'loch').<br>
+        - <span class="pronunciation-hint">Tip:</span> Front vowels = soft "ह्य" sound, Back vowels = throaty "ख" sound!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> CH has TWO sounds! Front vowels (e, i) = soft like "ich" (इख). Back vowels (a, o, u) = hard like "Buch" (बुख). Remember: "ich" is soft, "Buch" is hard!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Chemie<span class="audio-btn" onclick="speakGerman('Chemie')" title="Click to hear pronunciation">🔊</span></span></td><td>केमी</td><td>Chemistry</td><td>रसायन विज्ञान</td></tr>
+            <tr><td>2</td><td><span class="german-word">Licht<span class="audio-btn" onclick="speakGerman('Licht')" title="Click to hear pronunciation">🔊</span></span></td><td>लिख्ट</td><td>Light</td><td>रोशनी</td></tr>
+            <tr><td>3</td><td><span class="german-word">Buch<span class="audio-btn" onclick="speakGerman('Buch')" title="Click to hear pronunciation">🔊</span></span></td><td>बुख</td><td>Book</td><td>किताब</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">DR</span> - Like "Drama"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'D' as in English 'd', 'R' rolled or guttural, often a soft blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> DR = "ड्र" - soft blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> DR = "ड्र" - Drama = Drama (ड्रामा). Easy to remember!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Drama<span class="audio-btn" onclick="speakGerman('Drama')" title="Click to hear pronunciation">🔊</span></span></td><td>ड्रामा</td><td>Drama</td><td>नाटक</td></tr>
+            <tr><td>2</td><td><span class="german-word">Druck<span class="audio-btn" onclick="speakGerman('Druck')" title="Click to hear pronunciation">🔊</span></span></td><td>ड्रुक</td><td>Pressure</td><td>दबाव</td></tr>
+            <tr><td>3</td><td><span class="german-word">Drache<span class="audio-btn" onclick="speakGerman('Drache')" title="Click to hear pronunciation">🔊</span></span></td><td>ड्राखे</td><td>Dragon</td><td>अजगर/ड्रैगन</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">FL</span> - Like "Fly"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'F' as in English, 'L' soft, both pronounced clearly.<br>
+        - <span class="pronunciation-hint">Tip:</span> FL = "फ्ल" - both sounds clear!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> FL = "फ्ल" - Fliegen (fly) = फ्लीगेन. Think "fly"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Flasche<span class="audio-btn" onclick="speakGerman('Flasche')" title="Click to hear pronunciation">🔊</span></span></td><td>फ्लाशे</td><td>Bottle</td><td>बोतल</td></tr>
+            <tr><td>2</td><td><span class="german-word">Fliegen<span class="audio-btn" onclick="speakGerman('Fliegen')" title="Click to hear pronunciation">🔊</span></span></td><td>फ्लीगेन</td><td>Fly</td><td>उड़ना</td></tr>
+            <tr><td>3</td><td><span class="german-word">Fluss<span class="audio-btn" onclick="speakGerman('Fluss')" title="Click to hear pronunciation">🔊</span></span></td><td>फ्लुस</td><td>River</td><td>नदी</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">FR</span> - Like "Friend"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'F' as English, 'R' slightly rolled or guttural. Often soft and fast blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> FR = "फ्र" - fast blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> FR = "फ्र" - Freund (friend) = फ्रॉइंड. Think "friend"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Frau<span class="audio-btn" onclick="speakGerman('Frau')" title="Click to hear pronunciation">🔊</span></span></td><td>फ्राउ</td><td>Woman</td><td>महिला</td></tr>
+            <tr><td>2</td><td><span class="german-word">Freund<span class="audio-btn" onclick="speakGerman('Freund')" title="Click to hear pronunciation">🔊</span></span></td><td>फ्रॉइंड</td><td>Friend</td><td>मित्र</td></tr>
+            <tr><td>3</td><td><span class="german-word">Freiheit<span class="audio-btn" onclick="speakGerman('Freiheit')" title="Click to hear pronunciation">🔊</span></span></td><td>फ्राइहाइट</td><td>Freedom</td><td>स्वतंत्रता</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">GL</span> - Like "Glass"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'G' hard (like 'ग'), 'L' soft, both pronounced distinctly.<br>
+        - <span class="pronunciation-hint">Tip:</span> GL = "ग्ल" - both distinct!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> GL = "ग्ल" - Glas (glass) = ग्लास. Same word, same sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Glas<span class="audio-btn" onclick="speakGerman('Glas')" title="Click to hear pronunciation">🔊</span></span></td><td>ग्लास</td><td>Glass</td><td>कांच</td></tr>
+            <tr><td>2</td><td><span class="german-word">Gleis<span class="audio-btn" onclick="speakGerman('Gleis')" title="Click to hear pronunciation">🔊</span></span></td><td>ग्लाइस</td><td>Platform</td><td>प्लेटफ़ॉर्म</td></tr>
+            <tr><td>3</td><td><span class="german-word">Glück<span class="audio-btn" onclick="speakGerman('Glück')" title="Click to hear pronunciation">🔊</span></span></td><td>ग्लुक्क</td><td>Luck</td><td>भाग्य</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">GR</span> - Like "Grass"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'G' hard, 'R' guttural or rolled. Blend may soften in fluent speech.<br>
+        - <span class="pronunciation-hint">Tip:</span> GR = "ग्र" - hard G!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> GR = "ग्र" - Gras (grass) = ग्रास. Think "grass"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Gras<span class="audio-btn" onclick="speakGerman('Gras')" title="Click to hear pronunciation">🔊</span></span></td><td>ग्रास</td><td>Grass</td><td>घास</td></tr>
+            <tr><td>2</td><td><span class="german-word">Grenze<span class="audio-btn" onclick="speakGerman('Grenze')" title="Click to hear pronunciation">🔊</span></span></td><td>ग्रेन्ज़े</td><td>Border</td><td>सीमा</td></tr>
+            <tr><td>3</td><td><span class="german-word">Groß<span class="audio-btn" onclick="speakGerman('Groß')" title="Click to hear pronunciation">🔊</span></span></td><td>ग्रॉस</td><td>Big/Large</td><td>बड़ा</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">KL</span> - Like "Class"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'K' as in English 'k', 'L' soft, both pronounced distinctly.<br>
+        - <span class="pronunciation-hint">Tip:</span> KL = "क्ल" - both clear!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> KL = "क्ल" - Klasse (class) = क्लासे. Think "class"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Kleid<span class="audio-btn" onclick="speakGerman('Kleid')" title="Click to hear pronunciation">🔊</span></span></td><td>क्लाइड</td><td>Dress</td><td>पोशाक</td></tr>
+            <tr><td>2</td><td><span class="german-word">Klemme<span class="audio-btn" onclick="speakGerman('Klemme')" title="Click to hear pronunciation">🔊</span></span></td><td>क्लेम्मे</td><td>Clamp</td><td>क्लिप/जकड़न</td></tr>
+            <tr><td>3</td><td><span class="german-word">Klasse<span class="audio-btn" onclick="speakGerman('Klasse')" title="Click to hear pronunciation">🔊</span></span></td><td>क्लासे</td><td>Class</td><td>कक्षा</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">KR</span> - Like "Crown"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'K' hard, 'R' rolled or guttural. Blend pronounced clearly.<br>
+        - <span class="pronunciation-hint">Tip:</span> KR = "क्र" - clear blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> KR = "क्र" - Krone (crown) = क्रोने. Think "crown"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Kraft<span class="audio-btn" onclick="speakGerman('Kraft')" title="Click to hear pronunciation">🔊</span></span></td><td>क्राफ़्ट</td><td>Strength</td><td>शक्ति</td></tr>
+            <tr><td>2</td><td><span class="german-word">Kredit<span class="audio-btn" onclick="speakGerman('Kredit')" title="Click to hear pronunciation">🔊</span></span></td><td>क्रेडिट</td><td>Credit</td><td>ऋण/साख</td></tr>
+            <tr><td>3</td><td><span class="german-word">Krone<span class="audio-btn" onclick="speakGerman('Krone')" title="Click to hear pronunciation">🔊</span></span></td><td>क्रोने</td><td>Crown</td><td>मुकुट</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">PL</span> - Like "Plan"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'P' as English, 'L' soft, both pronounced clearly.<br>
+        - <span class="pronunciation-hint">Tip:</span> PL = "प्ल" - both clear!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> PL = "प्ल" - Plan (plan) = प्लान. Same word!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Plan<span class="audio-btn" onclick="speakGerman('Plan')" title="Click to hear pronunciation">🔊</span></span></td><td>प्लान</td><td>Plan</td><td>योजना</td></tr>
+            <tr><td>2</td><td><span class="german-word">Platz<span class="audio-btn" onclick="speakGerman('Platz')" title="Click to hear pronunciation">🔊</span></span></td><td>प्लात्स</td><td>Place/Square</td><td>स्थान/चौक</td></tr>
+            <tr><td>3</td><td><span class="german-word">Pflanze<span class="audio-btn" onclick="speakGerman('Pflanze')" title="Click to hear pronunciation">🔊</span></span></td><td>प्फ़्लान्ज़े</td><td>Plant</td><td>पौधा</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">PR</span> - Like "Price"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'P' as in English, 'R' guttural or rolled, pronounced in blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> PR = "प्र" - blend sound!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> PR = "प्र" - Preis (price) = प्राइस. Think "price"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Preis<span class="audio-btn" onclick="speakGerman('Preis')" title="Click to hear pronunciation">🔊</span></span></td><td>प्राइस</td><td>Price</td><td>कीमत</td></tr>
+            <tr><td>2</td><td><span class="german-word">Präsent<span class="audio-btn" onclick="speakGerman('Präsent')" title="Click to hear pronunciation">🔊</span></span></td><td>प्रेज़ेंट</td><td>Present</td><td>उपहार</td></tr>
+            <tr><td>3</td><td><span class="german-word">Praxis<span class="audio-btn" onclick="speakGerman('Praxis')" title="Click to hear pronunciation">🔊</span></span></td><td>प्राक्सिस</td><td>Practice</td><td>अभ्यास/क्लिनिक</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SCH</span> - Always "श" Sound! ⭐</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Always [ʃ] like 'श' in Hindi. Never hard 's'.<br>
+        - <span class="pronunciation-hint">Tip:</strong> SCH = "श" - Always! Think "School" = Schule (शुले)!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SCH is ALWAYS "श" - never "स"! Remember: Schule (school) = शुले. It's like "sh" in English "shoe" but written as SCH!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Schule<span class="audio-btn" onclick="speakGerman('Schule')" title="Click to hear pronunciation">🔊</span></span></td><td>शुले</td><td>School</td><td>विद्यालय</td></tr>
+            <tr><td>2</td><td><span class="german-word">Schaf<span class="audio-btn" onclick="speakGerman('Schaf')" title="Click to hear pronunciation">🔊</span></span></td><td>शाफ़</td><td>Sheep</td><td>भेड़</td></tr>
+            <tr><td>3</td><td><span class="german-word">Schatten<span class="audio-btn" onclick="speakGerman('Schatten')" title="Click to hear pronunciation">🔊</span></span></td><td>शाटन</td><td>Shadow</td><td>छाया</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SCHL</span> - "श्ल" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'SCH' = [ʃ], 'L' pronounced lightly. Soft blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> SCHL = "श्ल" - soft blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SCHL = "श्ल" - Schloss (castle) = शलोस. Think "shl" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Schloss<span class="audio-btn" onclick="speakGerman('Schloss')" title="Click to hear pronunciation">🔊</span></span></td><td>शलोस</td><td>Castle/Lock</td><td>किला/ताला</td></tr>
+            <tr><td>2</td><td><span class="german-word">schlagen<span class="audio-btn" onclick="speakGerman('schlagen')" title="Click to hear pronunciation">🔊</span></span></td><td>शलागेन</td><td>Hit/Strike</td><td>मारना</td></tr>
+            <tr><td>3</td><td><span class="german-word">schnell<span class="audio-btn" onclick="speakGerman('schnell')" title="Click to hear pronunciation">🔊</span></span></td><td>शल्नेल</td><td>Fast</td><td>तेज़</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SCHR</span> - "श्र" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'SCH' = [ʃ], 'R' guttural or rolled. Often soft but distinct.<br>
+        - <span class="pronunciation-hint">Tip:</span> SCHR = "श्र" - distinct blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SCHR = "श्र" - schreiben (write) = श्राइबेन. Think "sh" + "r"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">schreiben<span class="audio-btn" onclick="speakGerman('schreiben')" title="Click to hear pronunciation">🔊</span></span></td><td>श्राइबेन</td><td>Write</td><td>लिखना</td></tr>
+            <tr><td>2</td><td><span class="german-word">schrecklich<span class="audio-btn" onclick="speakGerman('schrecklich')" title="Click to hear pronunciation">🔊</span></span></td><td>श्रेक्लिख</td><td>Terrible</td><td>भयानक</td></tr>
+            <tr><td>3</td><td><span class="german-word">Schrank<span class="audio-btn" onclick="speakGerman('Schrank')" title="Click to hear pronunciation">🔊</span></span></td><td>श्रांक</td><td>Cupboard</td><td>अलमारी</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">STR</span> - "श्ट्र" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Initial usually [ʃtʀ] (श्ट्र).<br>
+        - <span class="pronunciation-hint">Tip:</span> STR = "श्ट्र" - at start!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> STR = "श्ट्र" - Straße (street) = श्ट्रासे. Think "shtr" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Straße<span class="audio-btn" onclick="speakGerman('Straße')" title="Click to hear pronunciation">🔊</span></span></td><td>श्ट्रासे</td><td>Street</td><td>सड़क</td></tr>
+            <tr><td>2</td><td><span class="german-word">Strumpf<span class="audio-btn" onclick="speakGerman('Strumpf')" title="Click to hear pronunciation">🔊</span></span></td><td>श्ट्रुम्फ़</td><td>Sock</td><td>मोज़ा</td></tr>
+            <tr><td>3</td><td><span class="german-word">Strom<span class="audio-btn" onclick="speakGerman('Strom')" title="Click to hear pronunciation">🔊</span></span></td><td>श्ट्रोम</td><td>Current/Electricity</td><td>धारा/बिजली</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SP</span> - Starts with "श्प"! 🎬</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Initial 'SP' pronounced as [ʃp] (श्प), not English 'sp'.<br>
+        - <span class="pronunciation-hint">Tip:</span> SP at start = "श्प", NOT "स्प"!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SP at the beginning = "श्प" (like Sport = श्पोर्ट). Don't say "स्प" - it's "श्प"! Think "shp" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Sport<span class="audio-btn" onclick="speakGerman('Sport')" title="Click to hear pronunciation">🔊</span></span></td><td>श्पोर्ट</td><td>Sport</td><td>खेल</td></tr>
+            <tr><td>2</td><td><span class="german-word">Sprache<span class="audio-btn" onclick="speakGerman('Sprache')" title="Click to hear pronunciation">🔊</span></span></td><td>श्प्राह़े</td><td>Language</td><td>भाषा</td></tr>
+            <tr><td>3</td><td><span class="german-word">spannend<span class="audio-btn" onclick="speakGerman('spannend')" title="Click to hear pronunciation">🔊</span></span></td><td>श्पानेन्द</td><td>Exciting</td><td>रोमांचक</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">ST</span> - Changes Position! 🔄</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Initial 'ST' pronounced [ʃt] (श्ट), middle of word as English 'st'.<br>
+        - <span class="pronunciation-hint">Tip:</span> At START = "श्ट", in MIDDLE = normal "st"!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> ST at the BEGINNING = "श्ट" (like Stadt = श्टाट). ST in the MIDDLE = normal "st" (like beste = बेस्टे). Position matters!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Stadt<span class="audio-btn" onclick="speakGerman('Stadt')" title="Click to hear pronunciation">🔊</span></span></td><td>श्टाट</td><td>City</td><td>शहर</td></tr>
+            <tr><td>2</td><td><span class="german-word">Stelle<span class="audio-btn" onclick="speakGerman('Stelle')" title="Click to hear pronunciation">🔊</span></span></td><td>श्टेले</td><td>Place/Position</td><td>स्थान</td></tr>
+            <tr><td>3</td><td><span class="german-word">Stein<span class="audio-btn" onclick="speakGerman('Stein')" title="Click to hear pronunciation">🔊</span></span></td><td>श्टाइन</td><td>Stone</td><td>पत्थर</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">TH</span> - Just "T" Sound! 🎯</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - German 'TH' is always pronounced as [t] (like English 't'), never as English 'th'.<br>
+        - <span class="pronunciation-hint">Tip:</span> TH = "त" or "थ" - NEVER English "th" sound!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> German TH = "T" sound only! Theater = थिएटर (not "thee-ater" like English). Think "T" not "TH"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Theater<span class="audio-btn" onclick="speakGerman('Theater')" title="Click to hear pronunciation">🔊</span></span></td><td>थिएटर</td><td>Theater</td><td>रंगमंच</td></tr>
+            <tr><td>2</td><td><span class="german-word">Thema<span class="audio-btn" onclick="speakGerman('Thema')" title="Click to hear pronunciation">🔊</span></span></td><td>थीमा</td><td>Topic/Theme</td><td>विषय</td></tr>
+            <tr><td>3</td><td><span class="german-word">Theorie<span class="audio-btn" onclick="speakGerman('Theorie')" title="Click to hear pronunciation">🔊</span></span></td><td>थियोरी</td><td>Theory</td><td>सिद्धांत</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">TS</span> - Like "ज़" Sound! 🎵</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'TS' pronounced as [ts], like 'ज़' in Hindi.<br>
+        - <span class="pronunciation-hint">Tip:</strong> TS = "त्स" or "ज़" - like "cats" but sharper!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> TS = "त्स" or "ज़" sound! Katze (cat) = कात्ज़े. Think "ts" like the end of "cats"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Katze<span class="audio-btn" onclick="speakGerman('Katze')" title="Click to hear pronunciation">🔊</span></span></td><td>कात्ज़े</td><td>Cat</td><td>बिल्ली</td></tr>
+            <tr><td>2</td><td><span class="german-word">Platz<span class="audio-btn" onclick="speakGerman('Platz')" title="Click to hear pronunciation">🔊</span></span></td><td>प्लात्ज़</td><td>Place/Square</td><td>स्थान/चौक</td></tr>
+            <tr><td>3</td><td><span class="german-word">Satz<span class="audio-btn" onclick="speakGerman('Satz')" title="Click to hear pronunciation">🔊</span></span></td><td>ज़ात्ज़</td><td>Sentence</td><td>वाक्य</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">ZW</span> - "त्स्व" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Pronounced as [tsv] or [tv].<br>
+        - <span class="pronunciation-hint">Tip:</span> ZW = "त्स्व" - like "tsv"!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> ZW = "त्स्व" - Zwei (two) = त्स्वाई. Think "tsv" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Zwei<span class="audio-btn" onclick="speakGerman('Zwei')" title="Click to hear pronunciation">🔊</span></span></td><td>त्स्वाई</td><td>Two</td><td>दो</td></tr>
+            <tr><td>2</td><td><span class="german-word">Zwanzig<span class="audio-btn" onclick="speakGerman('Zwanzig')" title="Click to hear pronunciation">🔊</span></span></td><td>त्स्वानज़िग</td><td>Twenty</td><td>बीस</td></tr>
+            <tr><td>3</td><td><span class="german-word">Zwischen<span class="audio-btn" onclick="speakGerman('Zwischen')" title="Click to hear pronunciation">🔊</span></span></td><td>त्स्विश्चेन</td><td>Between</td><td>बीच में</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">PF</span> - Both Letters! 🔊</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'PF' pronounced [pf], both letters clearly.<br>
+        - <span class="pronunciation-hint">Tip:</strong> Say BOTH "प" and "फ़" - don't skip!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> PF = "प्फ़" - Both sounds! Pferd (horse) = प्फ़ेर्ड. Think "p" + "f" together - like "puff" but German style!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Pflanze<span class="audio-btn" onclick="speakGerman('Pflanze')" title="Click to hear pronunciation">🔊</span></span></td><td>प्फ़्लान्ज़े</td><td>Plant</td><td>पौधा</td></tr>
+            <tr><td>2</td><td><span class="german-word">Pferd<span class="audio-btn" onclick="speakGerman('Pferd')" title="Click to hear pronunciation">🔊</span></span></td><td>प्फ़ेर्ड</td><td>Horse</td><td>घोड़ा</td></tr>
+            <tr><td>3</td><td><span class="german-word">Pfad<span class="audio-btn" onclick="speakGerman('Pfad')" title="Click to hear pronunciation">🔊</span></span></td><td>प्फ़ाड</td><td>Path</td><td>पथ</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">KN</span> - K is NOT Silent! ⚠️</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Both 'K' and 'N' are pronounced (क्न), unlike English where 'K' is silent.<br>
+        - <span class="pronunciation-hint">Tip:</strong> Say "क" + "न" - K is NOT silent like in English!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> In English "knee" = "nee" (K silent). In German "Knie" = "क्नी" (K is pronounced!). Always say the K!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Knie<span class="audio-btn" onclick="speakGerman('Knie')" title="Click to hear pronunciation">🔊</span></span></td><td>क्नी</td><td>Knee</td><td>घुटना</td></tr>
+            <tr><td>2</td><td><span class="german-word">Knopf<span class="audio-btn" onclick="speakGerman('Knopf')" title="Click to hear pronunciation">🔊</span></span></td><td>क्नोप्फ़</td><td>Button</td><td>बटन</td></tr>
+            <tr><td>3</td><td><span class="german-word">Knabe<span class="audio-btn" onclick="speakGerman('Knabe')" title="Click to hear pronunciation">🔊</span></span></td><td>क्नाबे</td><td>Boy</td><td>लड़का</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">PH</span> - Always "फ" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Always pronounced as [f] (like 'फ').<br>
+        - <span class="pronunciation-hint">Tip:</span> PH = "फ" - always!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> PH = "फ" - Philosophie (philosophy) = फिलोसोफी. Think "f" sound, not "ph"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Philosophie<span class="audio-btn" onclick="speakGerman('Philosophie')" title="Click to hear pronunciation">🔊</span></span></td><td>फिलोसोफी</td><td>Philosophy</td><td>दर्शनशास्त्र</td></tr>
+            <tr><td>2</td><td><span class="german-word">Phänomen<span class="audio-btn" onclick="speakGerman('Phänomen')" title="Click to hear pronunciation">🔊</span></span></td><td>फेनोमें</td><td>Phenomenon</td><td>घटना</td></tr>
+            <tr><td>3</td><td><span class="german-word">Phase<span class="audio-btn" onclick="speakGerman('Phase')" title="Click to hear pronunciation">🔊</span></span></td><td>फाज़े</td><td>Phase</td><td>चरण</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">QU</span> - Sounds Like "KV"! 🔄</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'QU' pronounced [kv] in German.<br>
+        - <span class="pronunciation-hint">Tip:</strong> QU = "क्व" - like "kv" sound!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> QU = "क्व" not "क्यू"! Quelle (source) = क्वेले. Think "kv" not "kw"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Quelle<span class="audio-btn" onclick="speakGerman('Quelle')" title="Click to hear pronunciation">🔊</span></span></td><td>क्वेले</td><td>Source</td><td>स्रोत</td></tr>
+            <tr><td>2</td><td><span class="german-word">quer<span class="audio-btn" onclick="speakGerman('quer')" title="Click to hear pronunciation">🔊</span></span></td><td>क्वेयर</td><td>Across/Diagonal</td><td>तिरछा</td></tr>
+            <tr><td>3</td><td><span class="german-word">Qualität<span class="audio-btn" onclick="speakGerman('Qualität')" title="Click to hear pronunciation">🔊</span></span></td><td>क्वालितात</td><td>Quality</td><td>गुणवत्ता</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">RH</span> - "R" Sound, H Silent!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'R' pronounced guttural, 'H' usually silent.<br>
+        - <span class="pronunciation-hint">Tip:</span> RH = "र" - H is silent!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> RH = "र" - Rhythmus (rhythm) = रिथ्मुस. H is silent, just say "R"!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Rhythmus<span class="audio-btn" onclick="speakGerman('Rhythmus')" title="Click to hear pronunciation">🔊</span></span></td><td>रिथ्मुस</td><td>Rhythm</td><td>ताल</td></tr>
+            <tr><td>2</td><td><span class="german-word">Rhapsodie<span class="audio-btn" onclick="speakGerman('Rhapsodie')" title="Click to hear pronunciation">🔊</span></span></td><td>राप्सोदी</td><td>Rhapsody</td><td>राग/काव्य</td></tr>
+            <tr><td>3</td><td><span class="german-word">Rhein<span class="audio-btn" onclick="speakGerman('Rhein')" title="Click to hear pronunciation">🔊</span></span></td><td>राइन</td><td>Rhine</td><td>राइन नदी</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SC</span> - Usually "श" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - Usually pronounced as [ʃ] (श) in native or assimilated words.<br>
+        - <span class="pronunciation-hint">Tip:</span> SC = "श" - usually!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SC = "श" - Usually sounds like "श" in German words. Think "sh" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Schauspiel<span class="audio-btn" onclick="speakGerman('Schauspiel')" title="Click to hear pronunciation">🔊</span></span></td><td>शौश्पील</td><td>Play/Performance</td><td>नाटक</td></tr>
+            <tr><td>2</td><td><span class="german-word">Schaufenster<span class="audio-btn" onclick="speakGerman('Schaufenster')" title="Click to hear pronunciation">🔊</span></span></td><td>शौफेनस्टर</td><td>Shop window</td><td>दुकान की खिड़की</td></tr>
+            <tr><td>3</td><td><span class="german-word">Schema<span class="audio-btn" onclick="speakGerman('Schema')" title="Click to hear pronunciation">🔊</span></span></td><td>शीमा</td><td>Scheme/Plan</td><td>योजना</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">TR</span> - Like "Tree"!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'T' as in English 't', 'R' guttural or rolled. Clear blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> TR = "ट्र" or "त्र" - clear blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> TR = "ट्र" or "त्र" - Traum (dream) = ट्राउम. Think "tree" but German style!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Traum<span class="audio-btn" onclick="speakGerman('Traum')" title="Click to hear pronunciation">🔊</span></span></td><td>ट्राउम</td><td>Dream</td><td>सपना</td></tr>
+            <tr><td>2</td><td><span class="german-word">Tragen<span class="audio-btn" onclick="speakGerman('Tragen')" title="Click to hear pronunciation">🔊</span></span></td><td>ट्रागेन</td><td>Carry</td><td>उठाना</td></tr>
+            <tr><td>3</td><td><span class="german-word">Trauer<span class="audio-btn" onclick="speakGerman('Trauer')" title="Click to hear pronunciation">🔊</span></span></td><td>ट्राउर</td><td>Mourning</td><td>शोक</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SCHM</span> - "श्म" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'SCH' = [ʃ], 'M' pronounced clearly. Soft blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> SCHM = "श्म" - soft blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SCHM = "श्म" - Schmuck (jewelry) = श्मुक. Think "shm" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Schmuck<span class="audio-btn" onclick="speakGerman('Schmuck')" title="Click to hear pronunciation">🔊</span></span></td><td>श्मुक</td><td>Jewelry</td><td>गहना</td></tr>
+            <tr><td>2</td><td><span class="german-word">schmecken<span class="audio-btn" onclick="speakGerman('schmecken')" title="Click to hear pronunciation">🔊</span></span></td><td>श्मेक्केन</td><td>Taste</td><td>स्वाद</td></tr>
+            <tr><td>3</td><td><span class="german-word">schmieren<span class="audio-btn" onclick="speakGerman('schmieren')" title="Click to hear pronunciation">🔊</span></span></td><td>श्मीरेन</td><td>Spread/Smear</td><td>लगाना</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SCHN</span> - "श्न" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'SCH' = [ʃ], 'N' pronounced clearly. Soft blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> SCHN = "श्न" - soft blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SCHN = "श्न" - schnell (fast) = श्नेल. Think "shn" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">schnell<span class="audio-btn" onclick="speakGerman('schnell')" title="Click to hear pronunciation">🔊</span></span></td><td>श्नेल</td><td>Fast</td><td>तेज़</td></tr>
+            <tr><td>2</td><td><span class="german-word">Schnee<span class="audio-btn" onclick="speakGerman('Schnee')" title="Click to hear pronunciation">🔊</span></span></td><td>श्नी</td><td>Snow</td><td>बर्फ</td></tr>
+            <tr><td>3</td><td><span class="german-word">Schneider<span class="audio-btn" onclick="speakGerman('Schneider')" title="Click to hear pronunciation">🔊</span></span></td><td>श्नाइडर</td><td>Tailor</td><td>दर्जी</td></tr>
+        </tbody>
+    </table>
+
+    <h2><span class="cluster-name">SCHW</span> - "श्व" Sound!</h2>
+    <div class="rule">
+        <strong>🔊 Pronunciation Rule:</strong><br>
+        - 'SCH' = [ʃ], 'W' pronounced as [v]. Soft blend.<br>
+        - <span class="pronunciation-hint">Tip:</span> SCHW = "श्व" - soft blend!
+    </div>
+    <div class="memory-tip">
+        <strong>💡 Memory Tip:</strong> SCHW = "श्व" - Schwimmen (swim) = श्विम्मेन. Think "shv" sound!
+    </div>
+    <table>
+        <thead>
+            <tr><th>#</th><th>German Word</th><th>Pronunciation (Hindi में)</th><th>English</th><th>Hindi Meaning</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><span class="german-word">Schwimmen<span class="audio-btn" onclick="speakGerman('Schwimmen')" title="Click to hear pronunciation">🔊</span></span></td><td>श्विम्मेन</td><td>Swim</td><td>तैरना</td></tr>
+            <tr><td>2</td><td><span class="german-word">Schwester<span class="audio-btn" onclick="speakGerman('Schwester')" title="Click to hear pronunciation">🔊</span></span></td><td>श्वेस्टर</td><td>Sister</td><td>बहन</td></tr>
+            <tr><td>3</td><td><span class="german-word">schwarz<span class="audio-btn" onclick="speakGerman('schwarz')" title="Click to hear pronunciation">🔊</span></span></td><td>श्वार्त्स</td><td>Black</td><td>काला</td></tr>
+        </tbody>
+    </table>
+
+    <p class="ending"><strong>End of German Consonant Clusters Chart</strong><br><br>
+    Viel Erfolg beim Deutschlernen! (Good luck learning German!)</p>
+</body>
+</html>
