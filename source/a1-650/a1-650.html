@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <title>German A1 Vocabulary - Organized by Themes</title>
+    <link rel="stylesheet" href="../../css/common.css">
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
@@ -491,78 +492,7 @@
             .category { page-break-inside: avoid; }
         }
     </style>
-    <script>
-        function speakGerman(word) {
-            // Stop any ongoing speech
-            if (window.speechSynthesis.speaking) {
-                window.speechSynthesis.cancel();
-            }
-            
-            const utterance = new SpeechSynthesisUtterance(word);
-            utterance.lang = 'de-DE'; // German language
-            utterance.rate = 0.8; // Slightly slower for clarity
-            utterance.pitch = 1;
-            utterance.volume = 1;
-            
-            // Try to use a German voice if available
-            const voices = window.speechSynthesis.getVoices();
-            const germanVoice = voices.find(voice => 
-                voice.lang.startsWith('de') || 
-                voice.name.toLowerCase().includes('german')
-            );
-            
-            if (germanVoice) {
-                utterance.voice = germanVoice;
-            }
-            
-            window.speechSynthesis.speak(utterance);
-        }
-        
-        // Load voices when page loads
-        window.addEventListener('load', function() {
-            if (window.speechSynthesis.onvoiceschanged !== undefined) {
-                window.speechSynthesis.onvoiceschanged = function() {
-                    // Voices loaded
-                };
-            }
-        });
-        
-        // Sidebar toggle function
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            const overlay = document.querySelector('.sidebar-overlay');
-            sidebar.classList.toggle('open');
-            overlay.classList.toggle('active');
-        }
-        
-        // Close sidebar when clicking outside on mobile
-        document.addEventListener('click', function(event) {
-            const sidebar = document.getElementById('sidebar');
-            const toggle = document.querySelector('.sidebar-toggle');
-            const overlay = document.querySelector('.sidebar-overlay');
-            
-            if (window.innerWidth <= 768) {
-                if (!sidebar.contains(event.target) && !toggle.contains(event.target) && sidebar.classList.contains('open')) {
-                    sidebar.classList.remove('open');
-                    overlay.classList.remove('active');
-                }
-            }
-        });
-        
-        // Highlight current page in sidebar
-        window.addEventListener('load', function() {
-            const currentPage = window.location.pathname.split('/').pop();
-            const navItems = document.querySelectorAll('.sidebar-nav-item');
-            navItems.forEach(item => {
-                const href = item.getAttribute('href');
-                if (href && href.includes(currentPage)) {
-                    item.classList.add('active');
-                } else {
-                    item.classList.remove('active');
-                }
-            });
-        });
-    </script>
+    <script src="../../js/common.js"></script>
 </head>
 <body>
     <!-- Sidebar Navigation -->
@@ -573,25 +503,28 @@
             <h2>🇩🇪 German Learning</h2>
         </div>
         <div class="sidebar-nav">
-            <a href="../Goethe-Institut A1 Vocabulary List pdf/Goethe-Institut A1 Vocabulary List.html" class="sidebar-nav-item">
+            <a href="../../index.html" class="sidebar-nav-item">
+                <span class="emoji">🏠</span> Home
+            </a>
+            <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item">
                 <span class="emoji">📚</span> A1 Vocabulary (PDF)
             </a>
-            <a href="Goethe-Institut A1 Vocabulary List 650.html" class="sidebar-nav-item active">
+            <a href="a1-650.html" class="sidebar-nav-item active">
                 <span class="emoji">📖</span> A1 Vocabulary (650)
             </a>
-            <a href="German Grammar – A1 Level.html" class="sidebar-nav-item">
+            <a href="grammar.html" class="sidebar-nav-item">
                 <span class="emoji">📝</span> A1 Grammar
             </a>
-            <a href="../Goethe-Institut A2 Vocabulary List/Goethe-Institut A2 Vocabulary List.html" class="sidebar-nav-item">
+            <a href="../a2/a2.html" class="sidebar-nav-item">
                 <span class="emoji">📘</span> A2 Vocabulary
             </a>
-            <a href="../German Numbers 0–100 (A1 Level)/German Numbers 0–100 (A1 Level).html" class="sidebar-nav-item">
+            <a href="../numbers/numbers.html" class="sidebar-nav-item">
                 <span class="emoji">🔢</span> German Numbers
             </a>
-            <a href="../common word same as english/common word german and english.html.html" class="sidebar-nav-item">
+            <a href="../common-words/common-words.html" class="sidebar-nav-item">
                 <span class="emoji">🔤</span> Common Words
             </a>
-            <a href="../German Consonant Clusters/German Consonant Clusters for Hindi + English Speakers.html" class="sidebar-nav-item">
+            <a href="../clusters/clusters.html" class="sidebar-nav-item">
                 <span class="emoji">🗣️</span> Consonant Clusters
             </a>
         </div>

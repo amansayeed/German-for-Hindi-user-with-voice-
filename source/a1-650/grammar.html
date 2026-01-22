@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <title>German Grammar A1</title>
+  <link rel="stylesheet" href="../../css/common.css">
   <style>
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
@@ -338,79 +339,7 @@
       }
     }
   </style>
-  <script>
-    // German pronunciation function
-    function speakGerman(word) {
-      // Stop any ongoing speech
-      if (window.speechSynthesis.speaking) {
-        window.speechSynthesis.cancel();
-      }
-      
-      const utterance = new SpeechSynthesisUtterance(word);
-      utterance.lang = 'de-DE'; // German language
-      utterance.rate = 0.8; // Slightly slower for clarity
-      utterance.pitch = 1;
-      utterance.volume = 1;
-      
-      // Try to use a German voice if available
-      const voices = window.speechSynthesis.getVoices();
-      const germanVoice = voices.find(voice => 
-        voice.lang.startsWith('de') || 
-        voice.name.toLowerCase().includes('german')
-      );
-      
-      if (germanVoice) {
-        utterance.voice = germanVoice;
-      }
-      
-      window.speechSynthesis.speak(utterance);
-    }
-    
-    // Load voices when page loads
-    window.addEventListener('load', function() {
-      if (window.speechSynthesis.onvoiceschanged !== undefined) {
-        window.speechSynthesis.onvoiceschanged = function() {
-          // Voices loaded
-        };
-      }
-    });
-    
-    // Sidebar toggle function
-    function toggleSidebar() {
-      const sidebar = document.getElementById('sidebar');
-      const overlay = document.querySelector('.sidebar-overlay');
-      sidebar.classList.toggle('open');
-      overlay.classList.toggle('active');
-    }
-    
-    // Close sidebar when clicking outside on mobile
-    document.addEventListener('click', function(event) {
-      const sidebar = document.getElementById('sidebar');
-      const toggle = document.querySelector('.sidebar-toggle');
-      const overlay = document.querySelector('.sidebar-overlay');
-      
-      if (window.innerWidth <= 768) {
-        if (!sidebar.contains(event.target) && !toggle.contains(event.target) && sidebar.classList.contains('open')) {
-          sidebar.classList.remove('open');
-          overlay.classList.remove('active');
-        }
-      }
-    });
-    
-    // Highlight current page in sidebar
-    window.addEventListener('load', function() {
-      const currentPage = window.location.pathname.split('/').pop();
-      const navItems = document.querySelectorAll('.sidebar-nav-item');
-      navItems.forEach(item => {
-        const href = item.getAttribute('href');
-        if (href && href.includes(currentPage)) {
-          item.classList.add('active');
-        } else {
-          item.classList.remove('active');
-        }
-      });
-    });
-  </script>
+  <script src="../../js/common.js"></script>
 </head>
 <body>
   <!-- Sidebar Navigation -->
@@ -421,36 +350,39 @@
       <h2>🇩🇪 German Learning</h2>
     </div>
     <div class="sidebar-nav">
-      <a href="../Goethe-Institut A1 Vocabulary List pdf/Goethe-Institut A1 Vocabulary List.html" class="sidebar-nav-item">
+      <a href="../../index.html" class="sidebar-nav-item">
+        <span class="emoji">🏠</span> Home
+      </a>
+      <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item">
         <span class="emoji">📚</span> A1 Vocabulary (PDF)
       </a>
-      <a href="Goethe-Institut A1 Vocabulary List 650.html" class="sidebar-nav-item">
+      <a href="a1-650.html" class="sidebar-nav-item">
         <span class="emoji">📖</span> A1 Vocabulary (650)
       </a>
-      <a href="German Grammar – A1 Level.html" class="sidebar-nav-item active">
+      <a href="grammar.html" class="sidebar-nav-item active">
         <span class="emoji">📝</span> A1 Grammar
       </a>
-      <a href="../Goethe-Institut A2 Vocabulary List/Goethe-Institut A2 Vocabulary List.html" class="sidebar-nav-item">
+      <a href="../a2/a2.html" class="sidebar-nav-item">
         <span class="emoji">📘</span> A2 Vocabulary
       </a>
-      <a href="../German Numbers 0–100 (A1 Level)/German Numbers 0–100 (A1 Level).html" class="sidebar-nav-item">
+      <a href="../numbers/numbers.html" class="sidebar-nav-item">
         <span class="emoji">🔢</span> German Numbers
       </a>
-      <a href="../common word same as english/common word german and english.html.html" class="sidebar-nav-item">
+      <a href="../common-words/common-words.html" class="sidebar-nav-item">
         <span class="emoji">🔤</span> Common Words
       </a>
-      <a href="../German Consonant Clusters/German Consonant Clusters for Hindi + English Speakers.html" class="sidebar-nav-item">
+      <a href="../clusters/clusters.html" class="sidebar-nav-item">
         <span class="emoji">🗣️</span> Consonant Clusters
       </a>
     </div>
   </nav>
 
   <div class="content">
-    <h1>German Grammar – A1 Level</h1>
+<h1>German Grammar – A1 Level</h1>
 
     <h2>1. Personal Pronouns & Verb Conjugations</h2>
     <p><strong>Master Table:</strong> Learn pronouns with "sein" (to be), "haben" (to have), and regular verbs together!</p>
-    <table>
+<table>
       <tr>
         <th>Pronoun</th>
         <th>English</th>
@@ -500,7 +432,7 @@
         <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('haben')" title="Click to hear pronunciation">🔊</span>haben</span></td>
         <td><span class="german-word"><span class="audio-btn" onclick="speakGerman('lernen')" title="Click to hear pronunciation">🔊</span>lernen</span></td>
       </tr>
-    </table>
+</table>
     <div style="margin-top: 20px; padding: 18px; background-color: #e3f2fd; border-radius: 8px; border-left: 4px solid #1565c0;">
       <strong style="font-size: 1.1em; color: #1565c0;">💡 Learning Tip: Understanding Verb Patterns</strong>
       <div style="margin-top: 12px; line-height: 1.8;">
@@ -512,7 +444,7 @@
           <li><strong>wir</strong> → <code>-en</code> (e.g., lernen → <strong>lernen</strong>)</li>
           <li><strong>ihr</strong> → <code>-t</code> (e.g., lernen → <strong>lernt</strong>)</li>
           <li><strong>Sie</strong> → <code>-en</code> (e.g., lernen → <strong>lernen</strong>)</li>
-        </ul>
+</ul>
         <p style="margin-bottom: 8px;"><strong>📝 How to Use:</strong></p>
         <ol style="margin-left: 20px; margin-bottom: 12px;">
           <li>Take any regular verb infinitive (e.g., <code>spielen</code> = to play, <code>machen</code> = to make)</li>
@@ -526,73 +458,73 @@
     </div>
 
     <h2>2. Sentence Structure</h2>
-    <ul>
-      <li>Verb is in position 2</li>
-      <li>Example: <code>Ich lerne Deutsch.</code></li>
-    </ul>
+<ul>
+  <li>Verb is in position 2</li>
+  <li>Example: <code>Ich lerne Deutsch.</code></li>
+</ul>
 
     <h2>3. Articles (Der, Die, Das)</h2>
-    <table>
-      <tr><th>Gender</th><th>Article</th><th>Example</th></tr>
-      <tr><td>Masculine</td><td>der</td><td>der Mann</td></tr>
-      <tr><td>Feminine</td><td>die</td><td>die Frau</td></tr>
-      <tr><td>Neuter</td><td>das</td><td>das Kind</td></tr>
-    </table>
+<table>
+  <tr><th>Gender</th><th>Article</th><th>Example</th></tr>
+  <tr><td>Masculine</td><td>der</td><td>der Mann</td></tr>
+  <tr><td>Feminine</td><td>die</td><td>die Frau</td></tr>
+  <tr><td>Neuter</td><td>das</td><td>das Kind</td></tr>
+</table>
 
     <h2>4. Plural Forms</h2>
-    <ul>
-      <li>die Männer</li>
-      <li>die Frauen</li>
-      <li>die Kinder</li>
-    </ul>
+<ul>
+  <li>die Männer</li>
+  <li>die Frauen</li>
+  <li>die Kinder</li>
+</ul>
 
     <h2>5. Nominative & Accusative</h2>
-    <table>
-      <tr><th>Case</th><th>Masculine</th><th>Feminine</th><th>Neuter</th></tr>
-      <tr><td>Nominative</td><td>der</td><td>die</td><td>das</td></tr>
-      <tr><td>Accusative</td><td>den</td><td>die</td><td>das</td></tr>
-    </table>
+<table>
+  <tr><th>Case</th><th>Masculine</th><th>Feminine</th><th>Neuter</th></tr>
+  <tr><td>Nominative</td><td>der</td><td>die</td><td>das</td></tr>
+  <tr><td>Accusative</td><td>den</td><td>die</td><td>das</td></tr>
+</table>
 
     <h2>6. Negation</h2>
-    <ul>
-      <li><code>nicht</code> – not</li>
-      <li><code>kein / keine</code> – no / not a</li>
-    </ul>
+<ul>
+  <li><code>nicht</code> – not</li>
+  <li><code>kein / keine</code> – no / not a</li>
+</ul>
 
     <h2>7. Prepositions (A1)</h2>
-    <ul>
-      <li>mit, ohne, für, von, zu, in, auf</li>
-    </ul>
+<ul>
+  <li>mit, ohne, für, von, zu, in, auf</li>
+</ul>
 
     <h2>8. Modal Verbs (Basic)</h2>
-    <ul>
-      <li>können – can</li>
-      <li>müssen – must</li>
-      <li>wollen – want</li>
-    </ul>
+<ul>
+  <li>können – can</li>
+  <li>müssen – must</li>
+  <li>wollen – want</li>
+</ul>
 
     <h2>9. Adjectives (Basic)</h2>
-    <ul>
-      <li>groß, klein, gut, schlecht</li>
-    </ul>
+<ul>
+  <li>groß, klein, gut, schlecht</li>
+</ul>
 
     <h2>10. Conjunctions</h2>
-    <ul>
-      <li>und – and</li>
-      <li>oder – or</li>
-      <li>aber – but</li>
-    </ul>
+<ul>
+  <li>und – and</li>
+  <li>oder – or</li>
+  <li>aber – but</li>
+</ul>
 
     <h2>11. Separable Verbs (Intro)</h2>
-    <p>Example: <code>ankommen</code> → <code>Ich komme an.</code></p>
+<p>Example: <code>ankommen</code> → <code>Ich komme an.</code></p>
 
     <h2>12. Common A1 Vocabulary Themes</h2>
-    <ul>
-      <li>Family</li>
-      <li>Food</li>
-      <li>Work</li>
-      <li>Daily routine</li>
-    </ul>
+<ul>
+  <li>Family</li>
+  <li>Food</li>
+  <li>Work</li>
+  <li>Daily routine</li>
+</ul>
   </div>
 
 </body>
