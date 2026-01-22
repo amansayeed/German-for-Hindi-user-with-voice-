@@ -1,0 +1,436 @@
+/* ============================================
+   RESPONSIVE AUTO-HIDE NAVIGATION SYSTEM
+   Mobile-first, Production-ready
+   
+   Usage: <link rel="stylesheet" href="css/navbar.css">
+   ============================================ */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES
+   Customize these values for your needs
+   ============================================ */
+:root {
+    /* Navigation Dimensions */
+    --nav-width: 260px;
+    --nav-toggle-size: 48px;
+    
+    /* Colors - Gradient Theme */
+    --nav-bg-start: #2d3748;
+    --nav-bg-end: #1a202c;
+    --nav-accent-start: #667eea;
+    --nav-accent-end: #764ba2;
+    
+    /* ⏱️ AUTO-HIDE TIMING CUSTOMIZATION */
+    --nav-transition-speed: 0.3s;
+    --nav-transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+    --nav-auto-hide-delay: 0s;
+    
+    /* 🌐 SAFE AREA INSETS (iOS Notch/Dynamic Island) */
+    --safe-area-top: env(safe-area-inset-top, 0px);
+    --safe-area-left: env(safe-area-inset-left, 0px);
+    --safe-area-right: env(safe-area-inset-right, 0px);
+    --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+    
+    /* 🎨 SHADOW CUSTOMIZATION */
+    --nav-toggle-shadow-default: 0 2px 8px rgba(0,0,0,0.15);
+    --nav-toggle-shadow-scrolling: 0 4px 16px rgba(0,0,0,0.35);
+    --nav-toggle-shadow-hover: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* ============================================
+   BODY STYLES FOR NAVIGATION
+   ============================================ */
+
+/* Mobile First - body needs space for toggle */
+body {
+    margin: 10px;
+    margin-top: calc(10px + var(--safe-area-top));
+    padding-top: 60px; /* Space for fixed toggle button */
+    transition: margin var(--nav-transition-speed) var(--nav-transition-timing),
+                padding var(--nav-transition-speed) var(--nav-transition-timing);
+}
+
+/* Body state when menu is open - prevent scroll */
+body.nav-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+/* ============================================
+   SIDEBAR NAVIGATION
+   ============================================ */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    height: 100dvh;
+    background: linear-gradient(180deg, var(--nav-bg-start) 0%, var(--nav-bg-end) 100%);
+    box-shadow: 4px 0 20px rgba(0,0,0,0.4);
+    z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    transform: translateX(-100%);
+    transition: transform var(--nav-transition-speed) var(--nav-transition-timing);
+    padding-top: var(--safe-area-top);
+    padding-left: var(--safe-area-left);
+    will-change: transform;
+}
+
+/* Sidebar visible state */
+.sidebar.open,
+.sidebar.visible {
+    transform: translateX(0);
+}
+
+.sidebar-header {
+    padding: 20px;
+    padding-top: calc(20px + var(--safe-area-top));
+    background: linear-gradient(135deg, var(--nav-accent-start) 0%, var(--nav-accent-end) 100%);
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.sidebar-nav {
+    padding: 10px 0;
+    padding-bottom: calc(10px + var(--safe-area-bottom));
+}
+
+/* Navigation items with accessibility focus styles */
+.sidebar-nav-item {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    color: #e2e8f0;
+    text-decoration: none;
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+}
+
+.sidebar-nav-item:hover,
+.sidebar-nav-item:focus {
+    background: rgba(102, 126, 234, 0.2);
+    border-left-color: var(--nav-accent-start);
+    color: #ffffff;
+    padding-left: 24px;
+}
+
+/* Focus visible for keyboard navigation */
+.sidebar-nav-item:focus-visible {
+    outline: 2px solid var(--nav-accent-start);
+    outline-offset: -2px;
+    background: rgba(102, 126, 234, 0.3);
+}
+
+.sidebar-nav-item.active {
+    background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+    border-left-color: var(--nav-accent-start);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.sidebar-nav-item .emoji {
+    margin-right: 10px;
+    font-size: 1.2em;
+    flex-shrink: 0;
+}
+
+/* ============================================
+   TOGGLE BUTTON - Auto-hide enabled
+   Features: Dynamic shadow, customizable delay
+   ============================================ */
+.sidebar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: calc(15px + var(--safe-area-top));
+    left: calc(15px + var(--safe-area-left));
+    z-index: 1001;
+    width: var(--nav-toggle-size);
+    height: var(--nav-toggle-size);
+    background: linear-gradient(135deg, var(--nav-accent-start) 0%, var(--nav-accent-end) 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: var(--nav-toggle-shadow-default);
+    transition: transform var(--nav-transition-speed) var(--nav-transition-timing),
+                opacity var(--nav-transition-speed) var(--nav-transition-timing),
+                box-shadow 0.25s ease;
+    transition-delay: var(--nav-auto-hide-delay), var(--nav-auto-hide-delay), 0s;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    will-change: transform, opacity, box-shadow;
+}
+
+/* 🌟 DYNAMIC SHADOW - Enhanced shadow when user is scrolling */
+.sidebar-toggle.is-scrolling {
+    box-shadow: var(--nav-toggle-shadow-scrolling);
+}
+
+.sidebar-toggle:hover {
+    box-shadow: var(--nav-toggle-shadow-hover);
+}
+
+.sidebar-toggle:focus-visible {
+    outline: 3px solid rgba(255,255,255,0.8);
+    outline-offset: 2px;
+    box-shadow: var(--nav-toggle-shadow-hover);
+}
+
+.sidebar-toggle:active {
+    transform: scale(0.95);
+    box-shadow: var(--nav-toggle-shadow-default);
+}
+
+/* Toggle hidden state (scroll down) with customizable delay */
+.sidebar-toggle.auto-hidden {
+    transform: translateY(-80px);
+    opacity: 0;
+    pointer-events: none;
+    transition-delay: var(--nav-auto-hide-delay);
+}
+
+/* Toggle icon transitions */
+.sidebar-toggle .toggle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.sidebar-toggle[aria-expanded="true"] .toggle-icon {
+    transform: rotate(90deg);
+}
+
+/* ============================================
+   OVERLAY
+   ============================================ */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100dvh;
+    background: rgba(0,0,0,0.6);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--nav-transition-speed) var(--nav-transition-timing),
+                visibility var(--nav-transition-speed) var(--nav-transition-timing);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.sidebar-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ============================================
+   RESPONSIVE BREAKPOINTS - Mobile First
+   ============================================ */
+
+/* Mobile Portrait (default - up to 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        margin: 5px;
+        margin-top: calc(5px + var(--safe-area-top));
+        padding-top: 55px;
+    }
+    
+    .sidebar-toggle {
+        top: calc(8px + var(--safe-area-top));
+        left: calc(8px + var(--safe-area-left));
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
+
+/* Mobile Landscape & Small Tablets (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 10px;
+        margin-top: calc(10px + var(--safe-area-top));
+        padding-top: 60px;
+    }
+}
+
+/* Tablet Portrait & Landscape (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        margin: 15px;
+        margin-top: calc(15px + var(--safe-area-top));
+        padding-top: 65px;
+    }
+}
+
+/* Desktop (1025px and up) */
+@media screen and (min-width: 1025px) {
+    body {
+        margin: 20px;
+        margin-left: calc(var(--nav-width) + 20px);
+        padding-top: 0; /* No toggle button on desktop */
+    }
+    
+    .sidebar {
+        transform: translateX(0); /* Always visible */
+    }
+    
+    .sidebar-toggle {
+        display: none !important;
+    }
+    
+    .sidebar-overlay {
+        display: none !important;
+    }
+}
+
+/* ============================================
+   LANDSCAPE ORIENTATION HANDLING
+   ============================================ */
+@media screen and (orientation: landscape) and (max-height: 500px) {
+    body {
+        padding-top: 50px;
+    }
+    
+    .sidebar-toggle {
+        top: calc(10px + var(--safe-area-top));
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .sidebar-header {
+        padding: 12px;
+        padding-top: calc(12px + var(--safe-area-top));
+    }
+    
+    .sidebar-header h2 {
+        font-size: 1.1em;
+    }
+    
+    .sidebar-nav-item {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+/* ============================================
+   TOUCH DEVICE OPTIMIZATIONS
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+    .sidebar-nav-item,
+    .sidebar-toggle {
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .sidebar-nav-item:active {
+        background: rgba(102, 126, 234, 0.4);
+    }
+    
+    .sidebar-toggle:active {
+        transform: scale(0.92);
+    }
+}
+
+/* ============================================
+   REDUCED MOTION ACCESSIBILITY
+   Respects user's system preferences
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .sidebar {
+        transition: none !important;
+    }
+    
+    .sidebar-toggle {
+        transition: none !important;
+    }
+    
+    .sidebar-toggle.auto-hidden {
+        transform: none !important;
+        visibility: hidden;
+    }
+    
+    .sidebar-overlay {
+        transition: none !important;
+    }
+    
+    .sidebar-nav-item {
+        transition: none !important;
+    }
+    
+    .toggle-icon {
+        transition: none !important;
+    }
+    
+    .sidebar-toggle.is-scrolling {
+        box-shadow: var(--nav-toggle-shadow-default) !important;
+    }
+}
+
+/* ============================================
+   HIGH CONTRAST MODE SUPPORT
+   ============================================ */
+@media (prefers-contrast: high) {
+    .sidebar-toggle {
+        border: 2px solid white;
+    }
+    
+    .sidebar-nav-item:focus-visible {
+        outline: 3px solid white;
+        outline-offset: 2px;
+    }
+    
+    .sidebar-overlay.active {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+    .sidebar,
+    .sidebar-toggle,
+    .sidebar-overlay {
+        display: none !important;
+    }
+    
+    body {
+        margin-left: 0 !important;
+        padding-top: 0 !important;
+    }
+}

@@ -2,121 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
     <title>German A1 Vocabulary - Organized by Themes</title>
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
+    
     <style>
+        /* Page-specific styles - works WITH navbar.css */
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
-            margin: 20px;
-            margin-left: 280px;
             background-color: #f5f5f5;
             line-height: 1.6;
-            transition: margin-left 0.3s ease;
-        }
-        
-        /* Sidebar Navigation */
-        .sidebar {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 260px;
-            height: 100vh;
-            background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%);
-            box-shadow: 4px 0 12px rgba(0,0,0,0.3);
-            z-index: 1000;
-            overflow-y: auto;
-            overflow-x: hidden;
-            transition: transform 0.3s ease;
-        }
-        
-        .sidebar-header {
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-            border-bottom: 2px solid rgba(255,255,255,0.2);
-        }
-        
-        .sidebar-header h2 {
-            margin: 0;
-            font-size: 1.3em;
-            font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-        }
-        
-        .sidebar-nav {
-            padding: 10px 0;
-        }
-        
-        .sidebar-nav-item {
-            display: block;
-            padding: 14px 20px;
-            color: #e2e8f0;
-            text-decoration: none;
-            border-left: 4px solid transparent;
-            transition: all 0.2s ease;
-            font-size: 15px;
-            font-weight: 500;
-        }
-        
-        .sidebar-nav-item:hover {
-            background: rgba(102, 126, 234, 0.2);
-            border-left-color: #667eea;
-            color: #ffffff;
-            padding-left: 24px;
-        }
-        
-        .sidebar-nav-item.active {
-            background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
-            border-left-color: #667eea;
-            color: #ffffff;
-            font-weight: 700;
-        }
-        
-        .sidebar-nav-item .emoji {
-            margin-right: 10px;
-            font-size: 1.2em;
-        }
-        
-        .sidebar-toggle {
-            display: none;
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            z-index: 1001;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border: none;
-            padding: 12px 16px;
-            border-radius: 8px;
-            font-size: 20px;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-            transition: all 0.3s ease;
-        }
-        
-        .sidebar-toggle:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
-        }
-        
-        .sidebar-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            z-index: 999;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .sidebar-overlay.active {
-            display: block;
-            opacity: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            /* Margins handled by navbar.css based on screen size */
         }
         h1 {
             text-align: center;
@@ -294,215 +195,102 @@
         .toc-item:hover {
             background: #e3f2fd;
         }
-        /* Mobile Responsive Styles */
-        @media screen and (max-width: 768px) {
-            body {
-                margin: 10px;
-                margin-left: 10px;
-                font-size: 14px;
-            }
-            
-            .sidebar {
-                transform: translateX(-100%);
-            }
-            
-            .sidebar.open {
-                transform: translateX(0);
-            }
-            
-            .sidebar-toggle {
-                display: block;
-            }
-            
-            .sidebar-overlay.active {
-                display: block;
-            }
-            h1 {
-                font-size: 1.8em;
-                margin-bottom: 8px;
-            }
-            .subtitle {
-                font-size: 14px;
-                margin-bottom: 20px;
-            }
-            .category {
-                margin-bottom: 20px;
-                border-radius: 8px;
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-            }
-            .category-header {
-                padding: 12px 15px;
-                font-size: 18px;
-                flex-wrap: wrap;
-            }
-            .category-header .emoji {
-                font-size: 24px;
-            }
-            .category-header .count {
-                font-size: 12px;
-                width: 100%;
-                margin-left: 0;
-                margin-top: 5px;
-            }
-            table {
-                min-width: 600px;
-                width: max-content;
-            }
-            th {
-                padding: 12px 10px;
-                font-size: 13px;
-                white-space: nowrap;
-            }
-            td {
-                padding: 12px 10px;
-                font-size: 14px;
-            }
-            .german {
-                font-size: 16px;
-            }
-            .pronunciation {
-                font-size: 14px;
-            }
-            .english {
-                font-size: 15px;
-            }
-            .hindi {
-                font-size: 15px;
-            }
-            .audio-btn {
-                font-size: 20px;
-                margin-right: 6px;
-                min-width: 30px;
-                min-height: 30px;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .toc {
-                padding: 15px;
-                margin-bottom: 20px;
-            }
-            .toc h2 {
-                font-size: 1.4em;
-            }
-            .toc-grid {
-                grid-template-columns: 1fr;
-                gap: 8px;
-            }
-            .toc-item {
-                padding: 14px 16px;
-                font-size: 15px;
-                min-height: 44px;
-            }
-            .note {
-                padding: 15px;
-                margin-top: 20px;
-            }
-            tr:hover {
-                background-color: transparent !important;
-            }
-        }
         
+        /* ============================================
+           PAGE-SPECIFIC RESPONSIVE STYLES
+           Note: Body margins/padding handled by navbar.css
+           ============================================ */
+        
+        /* Mobile Portrait (up to 480px) */
         @media screen and (max-width: 480px) {
-            body {
-                margin: 5px;
-                font-size: 13px;
-            }
-            h1 {
-                font-size: 1.5em;
-            }
-            .subtitle {
-                font-size: 12px;
-            }
-            .category-header {
-                padding: 10px 12px;
-                font-size: 16px;
-            }
-            .category-header .emoji {
-                font-size: 20px;
-            }
-            th {
-                padding: 10px 8px;
-                font-size: 11px;
-            }
-            td {
-                padding: 10px 8px;
-                font-size: 13px;
-            }
-            .german {
-                font-size: 15px;
-            }
-            .pronunciation {
-                font-size: 13px;
-            }
-            .english {
-                font-size: 14px;
-            }
-            .hindi {
-                font-size: 14px;
-            }
-            .audio-btn {
-                font-size: 22px;
-                min-width: 36px;
-                min-height: 36px;
-            }
-            .toc-item {
-                padding: 12px 14px;
-                font-size: 14px;
-            }
-            table {
-                min-width: 500px;
-            }
+            body { font-size: 13px; }
+            h1 { font-size: 1.5em; }
+            .subtitle { font-size: 12px; }
+            .category-header { padding: 10px 12px; font-size: 16px; }
+            .category-header .emoji { font-size: 20px; }
+            th { padding: 10px 8px; font-size: 11px; }
+            td { padding: 10px 8px; font-size: 13px; }
+            .german { font-size: 15px; }
+            .pronunciation { font-size: 13px; }
+            .english, .hindi { font-size: 14px; }
+            .audio-btn { font-size: 22px; min-width: 40px; min-height: 40px; }
+            .toc-item { padding: 12px 14px; font-size: 14px; min-height: 48px; }
+            table { min-width: 500px; }
         }
         
+        /* Mobile Landscape & Small Tablets (481px - 768px) */
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+            body { font-size: 14px; }
+            h1 { font-size: 1.8em; margin-bottom: 8px; }
+            .subtitle { font-size: 14px; margin-bottom: 20px; }
+            .category { margin-bottom: 20px; border-radius: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            .category-header { padding: 12px 15px; font-size: 18px; flex-wrap: wrap; }
+            .category-header .emoji { font-size: 24px; }
+            .category-header .count { font-size: 12px; width: 100%; margin-left: 0; margin-top: 5px; }
+            table { min-width: 600px; width: max-content; }
+            th { padding: 12px 10px; font-size: 13px; white-space: nowrap; }
+            td { padding: 12px 10px; font-size: 14px; }
+            .german { font-size: 16px; }
+            .pronunciation { font-size: 14px; }
+            .english, .hindi { font-size: 15px; }
+            .audio-btn { font-size: 20px; margin-right: 6px; min-width: 36px; min-height: 36px; }
+            .toc { padding: 15px; margin-bottom: 20px; }
+            .toc h2 { font-size: 1.4em; }
+            .toc-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+            .toc-item { padding: 14px 16px; font-size: 15px; min-height: 48px; }
+            .note { padding: 15px; margin-top: 20px; }
+        }
+        
+        /* Tablet (769px - 1024px) */
         @media screen and (min-width: 769px) and (max-width: 1024px) {
-            body {
-                margin: 15px;
-            }
-            .category-header {
-                font-size: 19px;
-            }
-            th {
-                padding: 13px 14px;
-                font-size: 14px;
-            }
-            td {
-                padding: 13px 14px;
-            }
+            .category-header { font-size: 19px; }
+            th { padding: 13px 14px; font-size: 14px; }
+            td { padding: 13px 14px; }
+            .toc-grid { grid-template-columns: repeat(3, 1fr); }
         }
         
+        /* Desktop (1025px and up) */
+        @media screen and (min-width: 1025px) {
+            .toc-grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+        }
+        
+        /* Touch devices */
         @media (hover: none) and (pointer: coarse) {
-            .audio-btn,
-            .toc-item {
-                -webkit-tap-highlight-color: rgba(13, 71, 161, 0.3);
-            }
-            tr:hover {
-                background-color: transparent !important;
-            }
-            .toc-item:hover {
-                background: #e3f2fd;
-            }
-            .toc-item:active {
-                background: #bbdefb;
-            }
-        }
-        
-        @media print {
-            .category { page-break-inside: avoid; }
+            .audio-btn, .toc-item { -webkit-tap-highlight-color: transparent; }
+            tr:hover { background-color: transparent !important; }
+            .toc-item:active { background: #bbdefb; }
         }
     </style>
+    
+    <!-- Scripts -->
     <script src="../../js/common.js"></script>
+    <script src="../../js/navbar.js"></script>
 </head>
 <body>
+    <!-- ============================================
+         RESPONSIVE AUTO-HIDE NAVIGATION
+         Accessible, Touch & Mouse friendly
+         ============================================ -->
+    
+    <!-- Toggle Button - auto-hides on scroll down, appears on scroll up -->
+    <button 
+        class="sidebar-toggle" 
+        type="button"
+        aria-expanded="false"
+        aria-controls="sidebar"
+        aria-label="Toggle navigation menu">
+        <span class="toggle-icon" aria-hidden="true">☰</span>
+    </button>
+    
+    <!-- Overlay - closes menu when clicked -->
+    <div class="sidebar-overlay" role="presentation"></div>
+    
     <!-- Sidebar Navigation -->
-    <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
-    <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
-    <nav class="sidebar" id="sidebar">
+    <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation" aria-hidden="true">
         <div class="sidebar-header">
             <h2>🇩🇪 German Learning</h2>
         </div>
-        <div class="sidebar-nav">
+        <div class="sidebar-nav" role="menubar">
             <a href="../../index.html" class="sidebar-nav-item">
                 <span class="emoji">🏠</span> Home
             </a>
@@ -537,7 +325,6 @@
         <h2>📑 Categories (विषय)</h2>
         <div class="toc-grid">
             <a href="#Greetings_&_Basics" class="toc-item"><span>👋</span> Greetings & Basics (140)</a>
-            <a href="#Numbers" class="toc-item"><span>🔢</span> Numbers (80)</a>
             <a href="#Colors" class="toc-item"><span>🎨</span> Colors (40)</a>
             <a href="#Family_&_People" class="toc-item"><span>👨‍👩‍👧</span> Family & People (70)</a>
             <a href="#Body_Parts" class="toc-item"><span>🧍</span> Body Parts (45)</a>
@@ -1562,602 +1349,6 @@
                     <td class="pronunciation">दास इस्ट गूट</td>
                     <td class="hindi">यह अच्छा है</td>
                     <td class="english">That's good</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="category" id="Numbers">
-        <div class="category-header" style="background-color: #fff3e0;">
-            <span class="emoji">🔢</span>
-            <span>Numbers (<span class="audio-btn" onclick="speakGerman('Zahlen')" title="Click to hear pronunciation">🔊</span>Zahlen - त्सालेन)</span>
-            <span class="count">80 words</span>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th style="width:40px">#</th>
-                    <th>German</th>
-                    <th>Pronunciation (Hindi)</th>
-                    <th>Hindi</th>
-                    <th>English</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- 0-10 Basic Numbers -->
-                <tr style="background-color: #fff3e020;">
-                    <td>1</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('null')" title="Click to hear pronunciation">🔊</span>null</td>
-                    <td class="pronunciation">नुल</td>
-                    <td class="hindi">शून्य</td>
-                    <td class="english">zero (0)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>2</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('eins')" title="Click to hear pronunciation">🔊</span>eins</td>
-                    <td class="pronunciation">आइंस</td>
-                    <td class="hindi">एक</td>
-                    <td class="english">one (1)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>3</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zwei')" title="Click to hear pronunciation">🔊</span>zwei</td>
-                    <td class="pronunciation">त्स्वाई</td>
-                    <td class="hindi">दो</td>
-                    <td class="english">two (2)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>4</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('drei')" title="Click to hear pronunciation">🔊</span>drei</td>
-                    <td class="pronunciation">ड्राई</td>
-                    <td class="hindi">तीन</td>
-                    <td class="english">three (3)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>5</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('vier')" title="Click to hear pronunciation">🔊</span>vier</td>
-                    <td class="pronunciation">फीर</td>
-                    <td class="hindi">चार</td>
-                    <td class="english">four (4)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>6</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fünf')" title="Click to hear pronunciation">🔊</span>fünf</td>
-                    <td class="pronunciation">फ्यून्फ</td>
-                    <td class="hindi">पाँच</td>
-                    <td class="english">five (5)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>7</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sechs')" title="Click to hear pronunciation">🔊</span>sechs</td>
-                    <td class="pronunciation">ज़ेख्स</td>
-                    <td class="hindi">छह</td>
-                    <td class="english">six (6)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>8</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sieben')" title="Click to hear pronunciation">🔊</span>sieben</td>
-                    <td class="pronunciation">ज़ीबेन</td>
-                    <td class="hindi">सात</td>
-                    <td class="english">seven (7)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>9</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('acht')" title="Click to hear pronunciation">🔊</span>acht</td>
-                    <td class="pronunciation">आख्ट</td>
-                    <td class="hindi">आठ</td>
-                    <td class="english">eight (8)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>10</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('neun')" title="Click to hear pronunciation">🔊</span>neun</td>
-                    <td class="pronunciation">नॉयन</td>
-                    <td class="hindi">नौ</td>
-                    <td class="english">nine (9)</td>
-                </tr>
-                <tr style="background-color: #fff3e020;">
-                    <td>11</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zehn')" title="Click to hear pronunciation">🔊</span>zehn</td>
-                    <td class="pronunciation">त्सेन</td>
-                    <td class="hindi">दस</td>
-                    <td class="english">ten (10)</td>
-                </tr>
-                <!-- 11-20 Teen Numbers -->
-                <tr style="background-color: #fff3e030;">
-                    <td>12</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('elf')" title="Click to hear pronunciation">🔊</span>elf</td>
-                    <td class="pronunciation">एल्फ</td>
-                    <td class="hindi">ग्यारह</td>
-                    <td class="english">eleven (11)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>13</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zwölf')" title="Click to hear pronunciation">🔊</span>zwölf</td>
-                    <td class="pronunciation">त्स्वोल्फ</td>
-                    <td class="hindi">बारह</td>
-                    <td class="english">twelve (12)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>14</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dreizehn')" title="Click to hear pronunciation">🔊</span>dreizehn</td>
-                    <td class="pronunciation">ड्राईत्सेन</td>
-                    <td class="hindi">तेरह</td>
-                    <td class="english">thirteen (13)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>15</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('vierzehn')" title="Click to hear pronunciation">🔊</span>vierzehn</td>
-                    <td class="pronunciation">फीरत्सेन</td>
-                    <td class="hindi">चौदह</td>
-                    <td class="english">fourteen (14)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>16</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fünfzehn')" title="Click to hear pronunciation">🔊</span>fünfzehn</td>
-                    <td class="pronunciation">फ्यून्फत्सेन</td>
-                    <td class="hindi">पंद्रह</td>
-                    <td class="english">fifteen (15)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>17</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sechzehn')" title="Click to hear pronunciation">🔊</span>sechzehn</td>
-                    <td class="pronunciation">ज़ेखत्सेन</td>
-                    <td class="hindi">सोलह</td>
-                    <td class="english">sixteen (16)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>18</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('siebzehn')" title="Click to hear pronunciation">🔊</span>siebzehn</td>
-                    <td class="pronunciation">ज़ीबत्सेन</td>
-                    <td class="hindi">सत्रह</td>
-                    <td class="english">seventeen (17)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>19</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('achtzehn')" title="Click to hear pronunciation">🔊</span>achtzehn</td>
-                    <td class="pronunciation">आख्टत्सेन</td>
-                    <td class="hindi">अठारह</td>
-                    <td class="english">eighteen (18)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>20</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('neunzehn')" title="Click to hear pronunciation">🔊</span>neunzehn</td>
-                    <td class="pronunciation">नॉयनत्सेन</td>
-                    <td class="hindi">उन्नीस</td>
-                    <td class="english">nineteen (19)</td>
-                </tr>
-                <tr style="background-color: #fff3e030;">
-                    <td>21</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zwanzig')" title="Click to hear pronunciation">🔊</span>zwanzig</td>
-                    <td class="pronunciation">त्स्वान्त्सिग</td>
-                    <td class="hindi">बीस</td>
-                    <td class="english">twenty (20)</td>
-                </tr>
-                <!-- Compound Number Example -->
-                <tr style="background-color: #fff3e040;">
-                    <td>22</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('einundzwanzig')" title="Click to hear pronunciation">🔊</span>einundzwanzig</td>
-                    <td class="pronunciation">आइनउंटत्स्वान्त्सिग</td>
-                    <td class="hindi">इक्कीस</td>
-                    <td class="english">twenty-one (21)</td>
-                </tr>
-                <tr style="background-color: #fff3e040;">
-                    <td>23</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zweiundzwanzig')" title="Click to hear pronunciation">🔊</span>zweiundzwanzig</td>
-                    <td class="pronunciation">त्स्वाईउंटत्स्वान्त्सिग</td>
-                    <td class="hindi">बाईस</td>
-                    <td class="english">twenty-two (22)</td>
-                </tr>
-                <!-- Tens (30-90) -->
-                <tr style="background-color: #fff3e050;">
-                    <td>24</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dreißig')" title="Click to hear pronunciation">🔊</span>dreißig</td>
-                    <td class="pronunciation">ड्राईसिग</td>
-                    <td class="hindi">तीस</td>
-                    <td class="english">thirty (30)</td>
-                </tr>
-                <tr style="background-color: #fff3e050;">
-                    <td>25</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('vierzig')" title="Click to hear pronunciation">🔊</span>vierzig</td>
-                    <td class="pronunciation">फीरत्सिग</td>
-                    <td class="hindi">चालीस</td>
-                    <td class="english">forty (40)</td>
-                </tr>
-                <tr style="background-color: #fff3e050;">
-                    <td>26</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fünfzig')" title="Click to hear pronunciation">🔊</span>fünfzig</td>
-                    <td class="pronunciation">फ्यून्फत्सिग</td>
-                    <td class="hindi">पचास</td>
-                    <td class="english">fifty (50)</td>
-                </tr>
-                <tr style="background-color: #fff3e050;">
-                    <td>27</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sechzig')" title="Click to hear pronunciation">🔊</span>sechzig</td>
-                    <td class="pronunciation">ज़ेखत्सिग</td>
-                    <td class="hindi">साठ</td>
-                    <td class="english">sixty (60)</td>
-                </tr>
-                <tr style="background-color: #fff3e050;">
-                    <td>28</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('siebzig')" title="Click to hear pronunciation">🔊</span>siebzig</td>
-                    <td class="pronunciation">ज़ीबत्सिग</td>
-                    <td class="hindi">सत्तर</td>
-                    <td class="english">seventy (70)</td>
-                </tr>
-                <tr style="background-color: #fff3e050;">
-                    <td>29</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('achtzig')" title="Click to hear pronunciation">🔊</span>achtzig</td>
-                    <td class="pronunciation">आख्टत्सिग</td>
-                    <td class="hindi">अस्सी</td>
-                    <td class="english">eighty (80)</td>
-                </tr>
-                <tr style="background-color: #fff3e050;">
-                    <td>30</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('neunzig')" title="Click to hear pronunciation">🔊</span>neunzig</td>
-                    <td class="pronunciation">नॉयनत्सिग</td>
-                    <td class="hindi">नब्बे</td>
-                    <td class="english">ninety (90)</td>
-                </tr>
-                <!-- Big Numbers -->
-                <tr style="background-color: #fff3e060;">
-                    <td>31</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('hundert')" title="Click to hear pronunciation">🔊</span>hundert</td>
-                    <td class="pronunciation">हुंडर्ट</td>
-                    <td class="hindi">सौ</td>
-                    <td class="english">hundred (100)</td>
-                </tr>
-                <tr style="background-color: #fff3e060;">
-                    <td>32</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('tausend')" title="Click to hear pronunciation">🔊</span>tausend</td>
-                    <td class="pronunciation">टाउज़ेंट</td>
-                    <td class="hindi">हज़ार</td>
-                    <td class="english">thousand (1000)</td>
-                </tr>
-                <tr style="background-color: #fff3e060;">
-                    <td>33</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('die Million')" title="Click to hear pronunciation">🔊</span>die Million</td>
-                    <td class="pronunciation">डी मिलियॉन</td>
-                    <td class="hindi">दस लाख</td>
-                    <td class="english">million</td>
-                </tr>
-                <!-- Ordinal Numbers -->
-                <tr style="background-color: #fff3e070;">
-                    <td>34</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('erste / erster')" title="Click to hear pronunciation">🔊</span>erste / erster</td>
-                    <td class="pronunciation">एर्स्टे / एर्स्टर</td>
-                    <td class="hindi">पहला</td>
-                    <td class="english">first (1st)</td>
-                </tr>
-                <tr style="background-color: #fff3e070;">
-                    <td>35</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zweite / zweiter')" title="Click to hear pronunciation">🔊</span>zweite / zweiter</td>
-                    <td class="pronunciation">त्स्वाईटे / त्स्वाईटर</td>
-                    <td class="hindi">दूसरा</td>
-                    <td class="english">second (2nd)</td>
-                </tr>
-                <tr style="background-color: #fff3e070;">
-                    <td>36</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dritte / dritter')" title="Click to hear pronunciation">🔊</span>dritte / dritter</td>
-                    <td class="pronunciation">ड्रिटे / ड्रिटर</td>
-                    <td class="hindi">तीसरा</td>
-                    <td class="english">third (3rd)</td>
-                </tr>
-                <tr style="background-color: #fff3e070;">
-                    <td>37</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('letzte / letzter')" title="Click to hear pronunciation">🔊</span>letzte / letzter</td>
-                    <td class="pronunciation">लेट्सटे / लेट्सटर</td>
-                    <td class="hindi">आखिरी</td>
-                    <td class="english">last</td>
-                </tr>
-                <!-- Number-Related Words -->
-                <tr style="background-color: #fff3e080;">
-                    <td>38</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('die Nummer')" title="Click to hear pronunciation">🔊</span>die Nummer</td>
-                    <td class="pronunciation">डी नुमर</td>
-                    <td class="hindi">नंबर</td>
-                    <td class="english">number (phone/room)</td>
-                </tr>
-                <tr style="background-color: #fff3e080;">
-                    <td>39</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('die Zahl')" title="Click to hear pronunciation">🔊</span>die Zahl</td>
-                    <td class="pronunciation">डी त्साल</td>
-                    <td class="hindi">संख्या</td>
-                    <td class="english">number/digit</td>
-                </tr>
-                <tr style="background-color: #fff3e080;">
-                    <td>40</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('die Hälfte')" title="Click to hear pronunciation">🔊</span>die Hälfte</td>
-                    <td class="pronunciation">डी हेल्फ़्टे</td>
-                    <td class="hindi">आधा</td>
-                    <td class="english">half</td>
-                </tr>
-                <!-- Time-Related Number Words -->
-                <tr style="background-color: #fff3e090;">
-                    <td>41</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('halb')" title="Click to hear pronunciation">🔊</span>halb</td>
-                    <td class="pronunciation">हाल्ब</td>
-                    <td class="hindi">साढ़े (समय के लिए)</td>
-                    <td class="english">half (for time)</td>
-                </tr>
-                <tr style="background-color: #fff3e090;">
-                    <td>42</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('das Viertel')" title="Click to hear pronunciation">🔊</span>das Viertel</td>
-                    <td class="pronunciation">डास फीर्टेल</td>
-                    <td class="hindi">चौथाई / पाव</td>
-                    <td class="english">quarter</td>
-                </tr>
-                <tr style="background-color: #fff3e090;">
-                    <td>43</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fünfundzwanzig')" title="Click to hear pronunciation">🔊</span>fünfundzwanzig</td>
-                    <td class="pronunciation">फ्यून्फउंटत्स्वान्त्सिग</td>
-                    <td class="hindi">पच्चीस</td>
-                    <td class="english">twenty-five (25)</td>
-                </tr>
-                <tr style="background-color: #fff3e090;">
-                    <td>44</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fünfundvierzig')" title="Click to hear pronunciation">🔊</span>fünfundvierzig</td>
-                    <td class="pronunciation">फ्यून्फउंटफीरत्सिग</td>
-                    <td class="hindi">पैंतालीस</td>
-                    <td class="english">forty-five (45)</td>
-                </tr>
-                <!-- More Ordinal Numbers -->
-                <tr style="background-color: #fff3e070;">
-                    <td>45</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('vierte / vierter')" title="Click to hear pronunciation">🔊</span>vierte / vierter</td>
-                    <td class="pronunciation">फीर्टे / फीर्टर</td>
-                    <td class="hindi">चौथा</td>
-                    <td class="english">fourth (4th)</td>
-                </tr>
-                <tr style="background-color: #fff3e070;">
-                    <td>46</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fünfte / fünfter')" title="Click to hear pronunciation">🔊</span>fünfte / fünfter</td>
-                    <td class="pronunciation">फ्यून्फ्टे / फ्यून्फ्टर</td>
-                    <td class="hindi">पाँचवाँ</td>
-                    <td class="english">fifth (5th)</td>
-                </tr>
-                <tr style="background-color: #fff3e070;">
-                    <td>47</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zehnte / zehnter')" title="Click to hear pronunciation">🔊</span>zehnte / zehnter</td>
-                    <td class="pronunciation">त्सेन्टे / त्सेन्टर</td>
-                    <td class="hindi">दसवाँ</td>
-                    <td class="english">tenth (10th)</td>
-                </tr>
-                <tr style="background-color: #fff3e070;">
-                    <td>48</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nächste / nächster')" title="Click to hear pronunciation">🔊</span>nächste / nächster</td>
-                    <td class="pronunciation">नेख्स्टे / नेख्स्टर</td>
-                    <td class="hindi">अगला</td>
-                    <td class="english">next</td>
-                </tr>
-                <!-- Quantity Words -->
-                <tr style="background-color: #fff3e0a0;">
-                    <td>49</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('beide')" title="Click to hear pronunciation">🔊</span>beide</td>
-                    <td class="pronunciation">बाइडे</td>
-                    <td class="hindi">दोनों</td>
-                    <td class="english">both</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>50</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ein paar')" title="Click to hear pronunciation">🔊</span>ein paar</td>
-                    <td class="pronunciation">आइन पार</td>
-                    <td class="hindi">कुछ / एक-दो</td>
-                    <td class="english">a few / a couple</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>51</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('viel')" title="Click to hear pronunciation">🔊</span>viel</td>
-                    <td class="pronunciation">फील</td>
-                    <td class="hindi">बहुत / ज़्यादा</td>
-                    <td class="english">much / a lot</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>52</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wenig')" title="Click to hear pronunciation">🔊</span>wenig</td>
-                    <td class="pronunciation">वेनिग</td>
-                    <td class="hindi">कम / थोड़ा</td>
-                    <td class="english">little / few</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>53</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('mehr')" title="Click to hear pronunciation">🔊</span>mehr</td>
-                    <td class="pronunciation">मेर</td>
-                    <td class="hindi">ज़्यादा / और</td>
-                    <td class="english">more</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>54</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('weniger')" title="Click to hear pronunciation">🔊</span>weniger</td>
-                    <td class="pronunciation">वेनिगर</td>
-                    <td class="hindi">कम</td>
-                    <td class="english">less / fewer</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>55</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('genug')" title="Click to hear pronunciation">🔊</span>genug</td>
-                    <td class="pronunciation">गेनूग</td>
-                    <td class="hindi">काफ़ी / पर्याप्त</td>
-                    <td class="english">enough</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>56</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('alle')" title="Click to hear pronunciation">🔊</span>alle</td>
-                    <td class="pronunciation">आले</td>
-                    <td class="hindi">सब / सभी</td>
-                    <td class="english">all / everyone</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>57</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('alles')" title="Click to hear pronunciation">🔊</span>alles</td>
-                    <td class="pronunciation">आलेस</td>
-                    <td class="hindi">सब कुछ</td>
-                    <td class="english">everything</td>
-                </tr>
-                <tr style="background-color: #fff3e0a0;">
-                    <td>58</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nichts')" title="Click to hear pronunciation">🔊</span>nichts</td>
-                    <td class="pronunciation">निख्ट्स</td>
-                    <td class="hindi">कुछ नहीं</td>
-                    <td class="english">nothing</td>
-                </tr>
-                <!-- Frequency & Counting -->
-                <tr style="background-color: #fff3e0b0;">
-                    <td>59</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('einmal')" title="Click to hear pronunciation">🔊</span>einmal</td>
-                    <td class="pronunciation">आइनमाल</td>
-                    <td class="hindi">एक बार</td>
-                    <td class="english">once / one time</td>
-                </tr>
-                <tr style="background-color: #fff3e0b0;">
-                    <td>60</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zweimal')" title="Click to hear pronunciation">🔊</span>zweimal</td>
-                    <td class="pronunciation">त्स्वाईमाल</td>
-                    <td class="hindi">दो बार</td>
-                    <td class="english">twice / two times</td>
-                </tr>
-                <tr style="background-color: #fff3e0b0;">
-                    <td>61</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dreimal')" title="Click to hear pronunciation">🔊</span>dreimal</td>
-                    <td class="pronunciation">ड्राईमाल</td>
-                    <td class="hindi">तीन बार</td>
-                    <td class="english">three times</td>
-                </tr>
-                <tr style="background-color: #fff3e0b0;">
-                    <td>62</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('manchmal')" title="Click to hear pronunciation">🔊</span>manchmal</td>
-                    <td class="pronunciation">मांखमाल</td>
-                    <td class="hindi">कभी-कभी</td>
-                    <td class="english">sometimes</td>
-                </tr>
-                <tr style="background-color: #fff3e0b0;">
-                    <td>63</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('oft')" title="Click to hear pronunciation">🔊</span>oft</td>
-                    <td class="pronunciation">ऑफ्ट</td>
-                    <td class="hindi">अक्सर</td>
-                    <td class="english">often</td>
-                </tr>
-                <tr style="background-color: #fff3e0b0;">
-                    <td>64</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('immer')" title="Click to hear pronunciation">🔊</span>immer</td>
-                    <td class="pronunciation">इमर</td>
-                    <td class="hindi">हमेशा</td>
-                    <td class="english">always</td>
-                </tr>
-                <tr style="background-color: #fff3e0b0;">
-                    <td>65</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nie')" title="Click to hear pronunciation">🔊</span>nie</td>
-                    <td class="pronunciation">नी</td>
-                    <td class="hindi">कभी नहीं</td>
-                    <td class="english">never</td>
-                </tr>
-                <!-- Currency -->
-                <tr style="background-color: #fff3e0c0;">
-                    <td>66</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('der Euro')" title="Click to hear pronunciation">🔊</span>der Euro</td>
-                    <td class="pronunciation">डेर ऑयरो</td>
-                    <td class="hindi">यूरो</td>
-                    <td class="english">euro (€)</td>
-                </tr>
-                <tr style="background-color: #fff3e0c0;">
-                    <td>67</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('der Cent')" title="Click to hear pronunciation">🔊</span>der Cent</td>
-                    <td class="pronunciation">डेर त्सेंट</td>
-                    <td class="hindi">सेंट</td>
-                    <td class="english">cent</td>
-                </tr>
-                <tr style="background-color: #fff3e0c0;">
-                    <td>68</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('das Geld')" title="Click to hear pronunciation">🔊</span>das Geld</td>
-                    <td class="pronunciation">डास गेल्ट</td>
-                    <td class="hindi">पैसा</td>
-                    <td class="english">money</td>
-                </tr>
-                <tr style="background-color: #fff3e0c0;">
-                    <td>69</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('der Preis')" title="Click to hear pronunciation">🔊</span>der Preis</td>
-                    <td class="pronunciation">डेर प्राइस</td>
-                    <td class="hindi">कीमत / दाम</td>
-                    <td class="english">price</td>
-                </tr>
-                <tr style="background-color: #fff3e0c0;">
-                    <td>70</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('kostenlos')" title="Click to hear pronunciation">🔊</span>kostenlos</td>
-                    <td class="pronunciation">कोस्टेनलोस</td>
-                    <td class="hindi">मुफ़्त</td>
-                    <td class="english">free (no cost)</td>
-                </tr>
-                <tr style="background-color: #fff3e0c0;">
-                    <td>71</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('teuer')" title="Click to hear pronunciation">🔊</span>teuer</td>
-                    <td class="pronunciation">टॉयर</td>
-                    <td class="hindi">महंगा</td>
-                    <td class="english">expensive</td>
-                </tr>
-                <tr style="background-color: #fff3e0c0;">
-                    <td>72</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('billig')" title="Click to hear pronunciation">🔊</span>billig</td>
-                    <td class="pronunciation">बिलिग</td>
-                    <td class="hindi">सस्ता</td>
-                    <td class="english">cheap</td>
-                </tr>
-                <!-- Question Words with Numbers -->
-                <tr style="background-color: #fff3e0d0;">
-                    <td>73</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wie viel?')" title="Click to hear pronunciation">🔊</span>wie viel?</td>
-                    <td class="pronunciation">वी फील?</td>
-                    <td class="hindi">कितना?</td>
-                    <td class="english">how much?</td>
-                </tr>
-                <tr style="background-color: #fff3e0d0;">
-                    <td>74</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wie viele?')" title="Click to hear pronunciation">🔊</span>wie viele?</td>
-                    <td class="pronunciation">वी फीले?</td>
-                    <td class="hindi">कितने?</td>
-                    <td class="english">how many?</td>
-                </tr>
-                <tr style="background-color: #fff3e0d0;">
-                    <td>75</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wie alt?')" title="Click to hear pronunciation">🔊</span>wie alt?</td>
-                    <td class="pronunciation">वी आल्ट?</td>
-                    <td class="hindi">कितने साल का?</td>
-                    <td class="english">how old?</td>
-                </tr>
-                <!-- Math Operations (Basic) -->
-                <tr style="background-color: #fff3e0e0;">
-                    <td>76</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('plus (+)')" title="Click to hear pronunciation">🔊</span>plus (+)</td>
-                    <td class="pronunciation">प्लुस</td>
-                    <td class="hindi">जोड़</td>
-                    <td class="english">plus / add</td>
-                </tr>
-                <tr style="background-color: #fff3e0e0;">
-                    <td>77</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('minus (−)')" title="Click to hear pronunciation">🔊</span>minus (−)</td>
-                    <td class="pronunciation">मीनुस</td>
-                    <td class="hindi">घटाव</td>
-                    <td class="english">minus / subtract</td>
-                </tr>
-                <tr style="background-color: #fff3e0e0;">
-                    <td>78</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ist gleich (=)')" title="Click to hear pronunciation">🔊</span>ist gleich (=)</td>
-                    <td class="pronunciation">इस्ट ग्लाइख</td>
-                    <td class="hindi">बराबर</td>
-                    <td class="english">equals</td>
-                </tr>
-                <!-- Useful Expressions -->
-                <tr style="background-color: #fff3e0f0;">
-                    <td>79</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ein bisschen')" title="Click to hear pronunciation">🔊</span>ein bisschen</td>
-                    <td class="pronunciation">आइन बिसखेन</td>
-                    <td class="hindi">थोड़ा सा</td>
-                    <td class="english">a little bit</td>
-                </tr>
-                <tr style="background-color: #fff3e0f0;">
-                    <td>80</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('doppelt')" title="Click to hear pronunciation">🔊</span>doppelt</td>
-                    <td class="pronunciation">डोपेल्ट</td>
-                    <td class="hindi">दोगुना</td>
-                    <td class="english">double</td>
                 </tr>
             </tbody>
         </table>
@@ -12037,10 +11228,10 @@
 
     <div style="text-align: center; padding: 30px; margin: 20px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
         <h2 style="color: white; margin: 0; font-size: 28px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-            📊 Total Words: <span style="font-size: 36px; font-weight: 900;">1601</span>
+            📊 Total Words: <span style="font-size: 36px; font-weight: 900;">1521</span>
         </h2>
         <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 16px;">
-            कुल शब्द: 1601 | Complete A1 German Vocabulary
+            कुल शब्द: 1521 | Complete A1 German Vocabulary
         </p>
     </div>
 </body>
