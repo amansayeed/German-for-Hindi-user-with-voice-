@@ -4,8 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <title>German A2 Vocabulary - Organized by Themes</title>
-    <link rel="stylesheet" href="../../css/common.css">
-    <link rel="stylesheet" href="../../css/navbar.css">
+    <style>
+        /* Common Styles - Inlined for offline use */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 20px;
+            margin-left: 280px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+            transition: margin-left 0.3s ease;
+        }
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 260px;
+            height: 100vh;
+            background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%);
+            box-shadow: 4px 0 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: transform 0.3s ease;
+        }
+        .sidebar-header {
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            border-bottom: 2px solid rgba(255,255,255,0.2);
+        }
+        .sidebar-header h2 { margin: 0; font-size: 1.3em; font-weight: bold; }
+        .sidebar-nav { padding: 10px 0; }
+        .sidebar-nav-item {
+            display: block;
+            padding: 14px 20px;
+            color: #e2e8f0;
+            text-decoration: none;
+            border-left: 4px solid transparent;
+            transition: all 0.2s ease;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .sidebar-nav-item:hover {
+            background: rgba(102, 126, 234, 0.2);
+            border-left-color: #667eea;
+            color: #ffffff;
+            padding-left: 24px;
+        }
+        .sidebar-nav-item.active {
+            background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+            border-left-color: #667eea;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .sidebar-nav-item .emoji { margin-right: 10px; font-size: 1.2em; }
+        .sidebar-toggle {
+            display: none;
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            z-index: 1001;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .sidebar-overlay.active { display: block; opacity: 1; }
+        h1 { text-align: center; color: #1565c0; margin-bottom: 10px; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 30px; font-size: 16px; }
+        .category { margin-bottom: 30px; background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; }
+        .category-header { padding: 15px 20px; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; gap: 10px; }
+        .category-header .emoji { font-size: 28px; }
+        .category-header .count { font-size: 14px; color: #666; font-weight: normal; margin-left: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background-color: #0d47a1; color: white; padding: 14px 15px; text-align: left; font-weight: 700; font-size: 15px; }
+        td { padding: 14px 15px; border-bottom: 1px solid #ddd; vertical-align: middle; }
+        tr:hover { background-color: rgba(0,0,0,0.03) !important; }
+        .german { font-weight: 900; color: #0d47a1; font-size: 20px; display: inline-flex; align-items: center; }
+        .pronunciation { color: #d84315; font-size: 16px; font-weight: 700; }
+        .english { color: #1b5e20; font-size: 16px; font-weight: 700; }
+        .hindi { color: #4a148c; font-size: 16px; font-weight: 700; }
+        .audio-btn { margin-right: 8px; cursor: pointer; font-size: 18px; display: inline-block; transition: transform 0.2s; }
+        .audio-btn:hover { transform: scale(1.2); }
+        .toc { background: white; padding: 20px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .toc h2 { margin-top: 0; color: #1565c0; }
+        .toc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+        .toc-item { padding: 8px 12px; background: #f5f5f5; border-radius: 5px; text-decoration: none; color: #333; display: flex; align-items: center; gap: 8px; }
+        .toc-item:hover { background: #e3f2fd; }
+        
+        /* Mobile Responsive */
+        @media screen and (max-width: 768px) {
+            body { margin: 10px; margin-left: 10px; padding-top: 60px; font-size: 14px; }
+            .sidebar { transform: translateX(-100%); }
+            .sidebar.open { transform: translateX(0); }
+            .sidebar-toggle { display: block; }
+            h1 { font-size: 1.8em; }
+            .category { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            table { min-width: 600px; }
+            th { padding: 12px 10px; font-size: 13px; }
+            td { padding: 12px 10px; font-size: 14px; }
+            .german { font-size: 16px; }
+            .audio-btn { font-size: 20px; min-width: 30px; min-height: 30px; }
+            .toc-grid { grid-template-columns: 1fr; }
+            .toc-item { padding: 14px 16px; min-height: 44px; }
+        }
+        @media screen and (max-width: 480px) {
+            body { margin: 5px; padding-top: 55px; }
+            h1 { font-size: 1.5em; }
+            th { padding: 10px 8px; font-size: 11px; }
+            td { padding: 10px 8px; font-size: 13px; }
+            .german { font-size: 15px; }
+            .audio-btn { font-size: 22px; min-width: 36px; min-height: 36px; }
+        }
+        @media print {
+            body { margin: 0; margin-left: 0; }
+            .sidebar, .sidebar-toggle, .sidebar-overlay { display: none; }
+        }
+    </style>
 </head>
 <body>
     <!-- Sidebar Navigation -->
@@ -8060,8 +8192,36 @@
         </table>
     </div>
 
-    <!-- Scripts -->
-    <script src="../../js/common.js"></script>
-    <script src="../../js/navbar.js"></script>
+    <!-- Inline Scripts for offline use -->
+    <script>
+        // German pronunciation function
+        function speakGerman(word) {
+            if (window.speechSynthesis.speaking) {
+                window.speechSynthesis.cancel();
+            }
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'de-DE';
+            utterance.rate = 0.8;
+            const voices = window.speechSynthesis.getVoices();
+            const germanVoice = voices.find(v => v.lang.startsWith('de'));
+            if (germanVoice) utterance.voice = germanVoice;
+            window.speechSynthesis.speak(utterance);
+        }
+        
+        // Sidebar toggle function
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.querySelector('.sidebar-overlay');
+            if (sidebar && overlay) {
+                sidebar.classList.toggle('open');
+                overlay.classList.toggle('active');
+            }
+        }
+        
+        // Load voices
+        if (window.speechSynthesis) {
+            window.speechSynthesis.onvoiceschanged = function() {};
+        }
+    </script>
 </body>
 </html>
