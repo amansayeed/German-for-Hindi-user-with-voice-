@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>German Words and Opposites - Wörter und Gegenteile</title>
+    
+    <style>
+        /* Common Styles - Inlined for offline use */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 20px; margin-left: 280px;
+            background-color: #f5f5f5;
+            line-height: 1.6; transition: margin-left 0.3s ease;
+        }
+        .sidebar { position: fixed; left: 0; top: 0; width: 260px; height: 100vh; background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%); box-shadow: 4px 0 12px rgba(0,0,0,0.3); z-index: 1000; overflow-y: auto; transition: transform 0.3s ease; }
+        .sidebar-header { padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; }
+        .sidebar-header h2 { margin: 0; font-size: 1.3em; }
+        .sidebar-nav { padding: 10px 0; }
+        .sidebar-nav-item { display: block; padding: 14px 20px; color: #e2e8f0; text-decoration: none; border-left: 4px solid transparent; font-size: 15px; }
+        .sidebar-nav-item:hover { background: rgba(102, 126, 234, 0.2); border-left-color: #667eea; color: #fff; }
+        .sidebar-nav-item.active { background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%); border-left-color: #667eea; font-weight: 700; }
+        .sidebar-nav-item .emoji { margin-right: 10px; font-size: 1.2em; }
+        .sidebar-toggle { display: none; position: fixed; top: 15px; left: 15px; z-index: 1001; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 12px 16px; border-radius: 8px; font-size: 20px; cursor: pointer; }
+        .sidebar-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 999; opacity: 0; }
+        .sidebar-overlay.active { display: block; opacity: 1; }
+        @media screen and (max-width: 768px) { body { margin: 10px; margin-left: 10px; padding-top: 60px; } .sidebar { transform: translateX(-100%); } .sidebar.open { transform: translateX(0); } .sidebar-toggle { display: block; } }
+        @media screen and (max-width: 480px) { body { margin: 5px; padding-top: 55px; } }
+        @media print { body { margin: 0; } .sidebar, .sidebar-toggle, .sidebar-overlay { display: none; } }
+        
+        /* Page-specific styles */
+        h1 {
+            text-align: center;
+            color: #1565c0;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .category {
+            margin-bottom: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .category-header {
+            padding: 15px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .category-header .emoji {
+            font-size: 28px;
+        }
+        .category-header .count {
+            font-size: 14px;
+            color: #666;
+            font-weight: normal;
+            margin-left: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: #0d47a1;
+            color: white;
+            padding: 14px 15px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        td {
+            padding: 14px 15px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: middle;
+        }
+        tr:hover {
+            background-color: rgba(0,0,0,0.03) !important;
+        }
+        .german {
+            font-weight: 900;
+            color: #0d47a1;
+            font-size: 20px;
+            letter-spacing: 0.3px;
+        }
+        .pronunciation {
+            color: #d84315;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .audio-btn {
+            margin-right: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            display: inline-block;
+            transition: transform 0.2s;
+            vertical-align: middle;
+        }
+        .audio-btn:hover {
+            transform: scale(1.2);
+        }
+        .audio-btn:active {
+            transform: scale(1.1);
+        }
+        .german {
+            display: inline-flex;
+            align-items: center;
+        }
+        .english {
+            color: #1b5e20;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .hindi {
+            color: #4a148c;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+        /* Print-friendly styles */
+        @media print {
+            body {
+                background-color: white;
+            }
+            .german {
+                color: #000000;
+                font-weight: 900;
+                font-size: 18px;
+            }
+            .pronunciation {
+                color: #222222;
+                font-weight: 800;
+            }
+            .english {
+                color: #111111;
+                font-weight: 800;
+            }
+            .hindi {
+                color: #222222;
+                font-weight: 800;
+            }
+            .category {
+                box-shadow: none;
+                border: 1px solid #ccc;
+                page-break-inside: avoid;
+            }
+            th {
+                background-color: #333 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .toc {
+                page-break-after: always;
+            }
+        }
+        .tip {
+            font-size: 12px;
+            color: #888;
+            font-style: italic;
+        }
+        .note {
+            text-align: center;
+            color: #666;
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+        .toc {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .toc h2 {
+            margin-top: 0;
+            color: #1565c0;
+        }
+        .toc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .toc-item {
+            padding: 8px 12px;
+            background: #f5f5f5;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .toc-item:hover {
+            background: #e3f2fd;
+        }
+        
+        /* ============================================
+           PAGE-SPECIFIC RESPONSIVE STYLES
+           Note: Body margins/padding handled by navbar.css
+           ============================================ */
+        
+        /* Mobile Portrait (up to 480px) */
+        @media screen and (max-width: 480px) {
+            body { font-size: 13px; }
+            h1 { font-size: 1.5em; }
+            .subtitle { font-size: 12px; }
+            .category-header { padding: 10px 12px; font-size: 16px; }
+            .category-header .emoji { font-size: 20px; }
+            th { padding: 10px 8px; font-size: 11px; }
+            td { padding: 10px 8px; font-size: 13px; }
+            .german { font-size: 15px; }
+            .pronunciation { font-size: 13px; }
+            .english, .hindi { font-size: 14px; }
+            .audio-btn { font-size: 22px; min-width: 40px; min-height: 40px; }
+            .toc-item { padding: 12px 14px; font-size: 14px; min-height: 48px; }
+            table { min-width: 500px; }
+        }
+        
+        /* Mobile Landscape & Small Tablets (481px - 768px) */
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+            body { font-size: 14px; }
+            h1 { font-size: 1.8em; margin-bottom: 8px; }
+            .subtitle { font-size: 14px; margin-bottom: 20px; }
+            .category { margin-bottom: 20px; border-radius: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+            .category-header { padding: 12px 15px; font-size: 18px; flex-wrap: wrap; }
+            .category-header .emoji { font-size: 24px; }
+            .category-header .count { font-size: 12px; width: 100%; margin-left: 0; margin-top: 5px; }
+            table { min-width: 600px; width: max-content; }
+            th { padding: 12px 10px; font-size: 13px; white-space: nowrap; }
+            td { padding: 12px 10px; font-size: 14px; }
+            .german { font-size: 16px; }
+            .pronunciation { font-size: 14px; }
+            .english, .hindi { font-size: 15px; }
+            .audio-btn { font-size: 20px; margin-right: 6px; min-width: 36px; min-height: 36px; }
+            .toc { padding: 15px; margin-bottom: 20px; }
+            .toc h2 { font-size: 1.4em; }
+            .toc-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+            .toc-item { padding: 14px 16px; font-size: 15px; min-height: 48px; }
+            .note { padding: 15px; margin-top: 20px; }
+        }
+        
+        /* Tablet (769px - 1024px) */
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            .category-header { font-size: 19px; }
+            th { padding: 13px 14px; font-size: 14px; }
+            td { padding: 13px 14px; }
+            .toc-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        
+        /* Desktop (1025px and up) */
+        @media screen and (min-width: 1025px) {
+            .toc-grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+        }
+        
+        /* Touch devices */
+        @media (hover: none) and (pointer: coarse) {
+            .audio-btn, .toc-item { -webkit-tap-highlight-color: transparent; }
+            tr:hover { background-color: transparent !important; }
+            .toc-item:active { background: #bbdefb; }
+        }
+    </style>
+</head>
+<body>
+    <!-- ============================================
+         RESPONSIVE AUTO-HIDE NAVIGATION
+         Accessible, Touch & Mouse friendly
+         ============================================ -->
+    
+    <!-- Toggle Button - auto-hides on scroll down, appears on scroll up -->
+    <button 
+        class="sidebar-toggle" 
+        type="button"
+        aria-expanded="false"
+        aria-controls="sidebar"
+        aria-label="Toggle navigation menu">
+        <span class="toggle-icon" aria-hidden="true">☰</span>
+    </button>
+    
+    <!-- Overlay - closes menu when clicked -->
+    <div class="sidebar-overlay" role="presentation"></div>
+    
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation" aria-hidden="true">
+        <div class="sidebar-header">
+            <h2>🇩🇪 German Learning</h2>
+        </div>
+        <div class="sidebar-nav" role="menubar">
+            <a href="index.html" class="sidebar-nav-item">
+                <span class="emoji">🏠</span> Home
+            </a>
+            <a href="a1-pdf.html" class="sidebar-nav-item">
+                <span class="emoji">📚</span> A1 Vocabulary (PDF)
+            </a>
+            <a href="a1-650.html" class="sidebar-nav-item">
+                <span class="emoji">📖</span> A1 Vocabulary (650)
+            </a>
+            <a href="words-opposites.html" class="sidebar-nav-item active">
+                <span class="emoji">⚖️</span> Words & Opposites
+            </a>
+            <a href="grammar.html" class="sidebar-nav-item">
+                <span class="emoji">📝</span> A1 Grammar
+            </a>
+            <a href="a2.html" class="sidebar-nav-item">
+                <span class="emoji">📘</span> A2 Vocabulary
+            </a>
+            <a href="numbers.html" class="sidebar-nav-item">
+                <span class="emoji">🔢</span> German Numbers
+            </a>
+            <a href="common-words.html" class="sidebar-nav-item">
+                <span class="emoji">🔤</span> Common Words
+            </a>
+            <a href="clusters.html" class="sidebar-nav-item">
+                <span class="emoji">🗣️</span> Consonant Clusters
+            </a>
+        </div>
+    </nav>
+    
+    <h1>⚖️ German Words and Opposites</h1>
+    <p class="subtitle">Wörter und Gegenteile - वोर्टर उंट गेगेंटाइले</p>
+
+    
+    <div class="toc">
+        <h2>📑 Categories (विषय)</h2>
+        <div class="toc-grid">
+            <a href="#Size_&_Dimension" class="toc-item"><span>📏</span> Size & Dimension (10)</a>
+            <a href="#Temperature" class="toc-item"><span>🌡️</span> Temperature (2)</a>
+            <a href="#A1_Level" class="toc-item"><span>📚</span> A1 Level (25)</a>
+        </div>
+    </div>
+
+    
+    <div class="category" id="Size_&_Dimension">
+        <div class="category-header" style="background-color: #e3f2fd;">
+            <span class="emoji">📏</span>
+            <span>Size & Dimension (<span class="audio-btn" onclick="speakGerman('Größe & Dimension')" title="Click to hear pronunciation">🔊</span>Größe & Dimension - ग्रोसे & डिमेंशन)</span>
+            <span class="count">10 pairs</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:40px">#</th>
+                    <th>German Word</th>
+                    <th>Pronunciation (Hindi)</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Opposite (Gegenteil)</th>
+                    <th>Pronunciation</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>1</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('groß')" title="Click to hear pronunciation">🔊</span>groß</td>
+                    <td class="pronunciation">ग्रोस</td>
+                    <td class="hindi">बड़ा</td>
+                    <td class="english">big / large</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('klein')" title="Click to hear pronunciation">🔊</span>klein</td>
+                    <td class="pronunciation">क्लाइन</td>
+                    <td class="hindi">छोटा</td>
+                    <td class="english">small / little</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>2</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('lang')" title="Click to hear pronunciation">🔊</span>lang</td>
+                    <td class="pronunciation">लांग</td>
+                    <td class="hindi">लंबा</td>
+                    <td class="english">long</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kurz')" title="Click to hear pronunciation">🔊</span>kurz</td>
+                    <td class="pronunciation">कुर्त्स</td>
+                    <td class="hindi">छोटा</td>
+                    <td class="english">short</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>3</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hoch')" title="Click to hear pronunciation">🔊</span>hoch</td>
+                    <td class="pronunciation">होख</td>
+                    <td class="hindi">ऊँचा</td>
+                    <td class="english">high / tall</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('niedrig')" title="Click to hear pronunciation">🔊</span>niedrig</td>
+                    <td class="pronunciation">नीड्रिग</td>
+                    <td class="hindi">नीचा</td>
+                    <td class="english">low</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>4</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('breit')" title="Click to hear pronunciation">🔊</span>breit</td>
+                    <td class="pronunciation">ब्राइट</td>
+                    <td class="hindi">चौड़ा</td>
+                    <td class="english">wide / broad</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schmal')" title="Click to hear pronunciation">🔊</span>schmal</td>
+                    <td class="pronunciation">श्माल</td>
+                    <td class="hindi">संकरा</td>
+                    <td class="english">narrow</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>5</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('dick')" title="Click to hear pronunciation">🔊</span>dick</td>
+                    <td class="pronunciation">डिक</td>
+                    <td class="hindi">मोटा</td>
+                    <td class="english">thick / fat</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('dünn')" title="Click to hear pronunciation">🔊</span>dünn</td>
+                    <td class="pronunciation">ड्युन</td>
+                    <td class="hindi">पतला</td>
+                    <td class="english">thin</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>6</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schwer')" title="Click to hear pronunciation">🔊</span>schwer</td>
+                    <td class="pronunciation">श्वेर</td>
+                    <td class="hindi">भारी</td>
+                    <td class="english">heavy</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('leicht')" title="Click to hear pronunciation">🔊</span>leicht</td>
+                    <td class="pronunciation">लाइख्त</td>
+                    <td class="hindi">हल्का</td>
+                    <td class="english">light</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>7</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('tief')" title="Click to hear pronunciation">🔊</span>tief</td>
+                    <td class="pronunciation">टीफ</td>
+                    <td class="hindi">गहरा</td>
+                    <td class="english">deep</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('flach')" title="Click to hear pronunciation">🔊</span>flach</td>
+                    <td class="pronunciation">फ्लाख</td>
+                    <td class="hindi">उथला</td>
+                    <td class="english">shallow</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>8</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('weit')" title="Click to hear pronunciation">🔊</span>weit</td>
+                    <td class="pronunciation">वाइट</td>
+                    <td class="hindi">दूर</td>
+                    <td class="english">far / wide</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('nah')" title="Click to hear pronunciation">🔊</span>nah</td>
+                    <td class="pronunciation">नाह</td>
+                    <td class="hindi">नज़दीक</td>
+                    <td class="english">near / close</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>9</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('breit')" title="Click to hear pronunciation">🔊</span>breit</td>
+                    <td class="pronunciation">ब्राइट</td>
+                    <td class="hindi">चौड़ा</td>
+                    <td class="english">wide</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('eng')" title="Click to hear pronunciation">🔊</span>eng</td>
+                    <td class="pronunciation">एंग</td>
+                    <td class="hindi">तंग</td>
+                    <td class="english">tight / narrow</td>
+                </tr>
+                <tr style="background-color: #e3f2fd20;">
+                    <td>10</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('riesig')" title="Click to hear pronunciation">🔊</span>riesig</td>
+                    <td class="pronunciation">रीज़िग</td>
+                    <td class="hindi">विशाल</td>
+                    <td class="english">huge / enormous</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('winzig')" title="Click to hear pronunciation">🔊</span>winzig</td>
+                    <td class="pronunciation">विंत्सिग</td>
+                    <td class="hindi">छोटा</td>
+                    <td class="english">tiny</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="category" id="Temperature">
+        <div class="category-header" style="background-color: #fff3e0;">
+            <span class="emoji">🌡️</span>
+            <span>Temperature (<span class="audio-btn" onclick="speakGerman('Temperatur')" title="Click to hear pronunciation">🔊</span>Temperatur - टेम्पेरातूर)</span>
+            <span class="count">2 pairs</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:40px">#</th>
+                    <th>German Word</th>
+                    <th>Pronunciation (Hindi)</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Opposite (Gegenteil)</th>
+                    <th>Pronunciation</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #fff3e020;">
+                    <td>1</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('heiß')" title="Click to hear pronunciation">🔊</span>heiß</td>
+                    <td class="pronunciation">हाइस</td>
+                    <td class="hindi">गर्म</td>
+                    <td class="english">hot</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kalt')" title="Click to hear pronunciation">🔊</span>kalt</td>
+                    <td class="pronunciation">काल्ट</td>
+                    <td class="hindi">ठंडा</td>
+                    <td class="english">cold</td>
+                </tr>
+                <tr style="background-color: #fff3e020;">
+                    <td>2</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('warm')" title="Click to hear pronunciation">🔊</span>warm</td>
+                    <td class="pronunciation">वार्म</td>
+                    <td class="hindi">गर्म</td>
+                    <td class="english">warm</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kühl')" title="Click to hear pronunciation">🔊</span>kühl</td>
+                    <td class="pronunciation">क्यूल</td>
+                    <td class="hindi">ठंडा</td>
+                    <td class="english">cool</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="category" id="A1_Level">
+        <div class="category-header" style="background-color: #e8f5e9;">
+            <span class="emoji">📚</span>
+            <span>A1 Level (<span class="audio-btn" onclick="speakGerman('A1 Niveau')" title="Click to hear pronunciation">🔊</span>A1 Niveau - ए1 निवो)</span>
+            <span class="count">25 pairs</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:40px">#</th>
+                    <th>German Word</th>
+                    <th>Pronunciation (Hindi)</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Opposite (Gegenteil)</th>
+                    <th>Pronunciation</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #e8f5e920;">
+                    <td>1</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('gut')" title="Click to hear pronunciation">🔊</span>gut</td>
+                    <td class="pronunciation">गुट</td>
+                    <td class="hindi">अच्छा</td>
+                    <td class="english">good</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schlecht')" title="Click to hear pronunciation">🔊</span>schlecht</td>
+                    <td class="pronunciation">श्लेख्त</td>
+                    <td class="hindi">बुरा</td>
+                    <td class="english">bad</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>2</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('neu')" title="Click to hear pronunciation">🔊</span>neu</td>
+                    <td class="pronunciation">नॉय</td>
+                    <td class="hindi">नया</td>
+                    <td class="english">new</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('alt')" title="Click to hear pronunciation">🔊</span>alt</td>
+                    <td class="pronunciation">आल्ट</td>
+                    <td class="hindi">पुराना</td>
+                    <td class="english">old</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>3</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('richtig')" title="Click to hear pronunciation">🔊</span>richtig</td>
+                    <td class="pronunciation">रिख्तिग</td>
+                    <td class="hindi">सही</td>
+                    <td class="english">right / correct</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('falsch')" title="Click to hear pronunciation">🔊</span>falsch</td>
+                    <td class="pronunciation">फाल्श</td>
+                    <td class="hindi">गलत</td>
+                    <td class="english">wrong / false</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>4</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schnell')" title="Click to hear pronunciation">🔊</span>schnell</td>
+                    <td class="pronunciation">श्नेल</td>
+                    <td class="hindi">तेज़</td>
+                    <td class="english">fast / quick</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('langsam')" title="Click to hear pronunciation">🔊</span>langsam</td>
+                    <td class="pronunciation">लांगज़ाम</td>
+                    <td class="hindi">धीमा</td>
+                    <td class="english">slow</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>5</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('früh')" title="Click to hear pronunciation">🔊</span>früh</td>
+                    <td class="pronunciation">फ्रू</td>
+                    <td class="hindi">जल्दी</td>
+                    <td class="english">early</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('spät')" title="Click to hear pronunciation">🔊</span>spät</td>
+                    <td class="pronunciation">श्पेट</td>
+                    <td class="hindi">देर से</td>
+                    <td class="english">late</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>6</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('jung')" title="Click to hear pronunciation">🔊</span>jung</td>
+                    <td class="pronunciation">युंग</td>
+                    <td class="hindi">जवान</td>
+                    <td class="english">young</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('alt')" title="Click to hear pronunciation">🔊</span>alt</td>
+                    <td class="pronunciation">आल्ट</td>
+                    <td class="hindi">बूढ़ा</td>
+                    <td class="english">old</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>7</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('offen')" title="Click to hear pronunciation">🔊</span>offen</td>
+                    <td class="pronunciation">ओफ़ेन</td>
+                    <td class="hindi">खुला</td>
+                    <td class="english">open</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('geschlossen')" title="Click to hear pronunciation">🔊</span>geschlossen</td>
+                    <td class="pronunciation">गेश्लोसेन</td>
+                    <td class="hindi">बंद</td>
+                    <td class="english">closed</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>8</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('voll')" title="Click to hear pronunciation">🔊</span>voll</td>
+                    <td class="pronunciation">फोल</td>
+                    <td class="hindi">भरा हुआ</td>
+                    <td class="english">full</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('leer')" title="Click to hear pronunciation">🔊</span>leer</td>
+                    <td class="pronunciation">लेर</td>
+                    <td class="hindi">खाली</td>
+                    <td class="english">empty</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>9</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('sauber')" title="Click to hear pronunciation">🔊</span>sauber</td>
+                    <td class="pronunciation">ज़ाउबर</td>
+                    <td class="hindi">साफ</td>
+                    <td class="english">clean</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schmutzig')" title="Click to hear pronunciation">🔊</span>schmutzig</td>
+                    <td class="pronunciation">श्मुत्सिग</td>
+                    <td class="hindi">गंदा</td>
+                    <td class="english">dirty</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>10</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('einfach')" title="Click to hear pronunciation">🔊</span>einfach</td>
+                    <td class="pronunciation">आइन्फाख</td>
+                    <td class="hindi">आसान</td>
+                    <td class="english">easy / simple</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schwer')" title="Click to hear pronunciation">🔊</span>schwer</td>
+                    <td class="pronunciation">श्वेर</td>
+                    <td class="hindi">कठिन</td>
+                    <td class="english">difficult / hard</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>11</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('teuer')" title="Click to hear pronunciation">🔊</span>teuer</td>
+                    <td class="pronunciation">टॉयर</td>
+                    <td class="hindi">महंगा</td>
+                    <td class="english">expensive</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('billig')" title="Click to hear pronunciation">🔊</span>billig</td>
+                    <td class="pronunciation">बिलिग</td>
+                    <td class="hindi">सस्ता</td>
+                    <td class="english">cheap</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>12</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('laut')" title="Click to hear pronunciation">🔊</span>laut</td>
+                    <td class="pronunciation">लाउट</td>
+                    <td class="hindi">ज़ोर से</td>
+                    <td class="english">loud</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('leise')" title="Click to hear pronunciation">🔊</span>leise</td>
+                    <td class="pronunciation">लाइज़े</td>
+                    <td class="hindi">शांत</td>
+                    <td class="english">quiet</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>13</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hell')" title="Click to hear pronunciation">🔊</span>hell</td>
+                    <td class="pronunciation">हेल</td>
+                    <td class="hindi">उज्ज्वल</td>
+                    <td class="english">bright / light</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('dunkel')" title="Click to hear pronunciation">🔊</span>dunkel</td>
+                    <td class="pronunciation">डुंकेल</td>
+                    <td class="hindi">अंधेरा</td>
+                    <td class="english">dark</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>14</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('oben')" title="Click to hear pronunciation">🔊</span>oben</td>
+                    <td class="pronunciation">ओबेन</td>
+                    <td class="hindi">ऊपर</td>
+                    <td class="english">up / above</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('unten')" title="Click to hear pronunciation">🔊</span>unten</td>
+                    <td class="pronunciation">उंटेन</td>
+                    <td class="hindi">नीचे</td>
+                    <td class="english">down / below</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>15</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('links')" title="Click to hear pronunciation">🔊</span>links</td>
+                    <td class="pronunciation">लिंक्स</td>
+                    <td class="hindi">बाएं</td>
+                    <td class="english">left</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('rechts')" title="Click to hear pronunciation">🔊</span>rechts</td>
+                    <td class="pronunciation">रेख्त्स</td>
+                    <td class="hindi">दाएं</td>
+                    <td class="english">right</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>16</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('vorne')" title="Click to hear pronunciation">🔊</span>vorne</td>
+                    <td class="pronunciation">फोर्ने</td>
+                    <td class="hindi">सामने</td>
+                    <td class="english">front / in front</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hinten')" title="Click to hear pronunciation">🔊</span>hinten</td>
+                    <td class="pronunciation">हिंटेन</td>
+                    <td class="hindi">पीछे</td>
+                    <td class="english">back / behind</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>17</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('innen')" title="Click to hear pronunciation">🔊</span>innen</td>
+                    <td class="pronunciation">इन्नेन</td>
+                    <td class="hindi">अंदर</td>
+                    <td class="english">inside</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('außen')" title="Click to hear pronunciation">🔊</span>außen</td>
+                    <td class="pronunciation">आउसेन</td>
+                    <td class="hindi">बाहर</td>
+                    <td class="english">outside</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>18</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hier')" title="Click to hear pronunciation">🔊</span>hier</td>
+                    <td class="pronunciation">हीर</td>
+                    <td class="hindi">यहाँ</td>
+                    <td class="english">here</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('dort')" title="Click to hear pronunciation">🔊</span>dort</td>
+                    <td class="pronunciation">डोर्ट</td>
+                    <td class="hindi">वहाँ</td>
+                    <td class="english">there</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>19</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('heute')" title="Click to hear pronunciation">🔊</span>heute</td>
+                    <td class="pronunciation">हॉयटे</td>
+                    <td class="hindi">आज</td>
+                    <td class="english">today</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('morgen')" title="Click to hear pronunciation">🔊</span>morgen</td>
+                    <td class="pronunciation">मोर्गेन</td>
+                    <td class="hindi">कल</td>
+                    <td class="english">tomorrow</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>20</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('ja')" title="Click to hear pronunciation">🔊</span>ja</td>
+                    <td class="pronunciation">या</td>
+                    <td class="hindi">हाँ</td>
+                    <td class="english">yes</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('nein')" title="Click to hear pronunciation">🔊</span>nein</td>
+                    <td class="pronunciation">नाइन</td>
+                    <td class="hindi">नहीं</td>
+                    <td class="english">no</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>21</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('viel')" title="Click to hear pronunciation">🔊</span>viel</td>
+                    <td class="pronunciation">फील</td>
+                    <td class="hindi">बहुत</td>
+                    <td class="english">much / many</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('wenig')" title="Click to hear pronunciation">🔊</span>wenig</td>
+                    <td class="pronunciation">वेनिग</td>
+                    <td class="hindi">कम</td>
+                    <td class="english">little / few</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>22</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('groß')" title="Click to hear pronunciation">🔊</span>groß</td>
+                    <td class="pronunciation">ग्रोस</td>
+                    <td class="hindi">बड़ा</td>
+                    <td class="english">big / large</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('klein')" title="Click to hear pronunciation">🔊</span>klein</td>
+                    <td class="pronunciation">क्लाइन</td>
+                    <td class="hindi">छोटा</td>
+                    <td class="english">small / little</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>23</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('gut')" title="Click to hear pronunciation">🔊</span>gut</td>
+                    <td class="pronunciation">गुट</td>
+                    <td class="hindi">अच्छा</td>
+                    <td class="english">good / well</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('böse')" title="Click to hear pronunciation">🔊</span>böse</td>
+                    <td class="pronunciation">बोज़े</td>
+                    <td class="hindi">बुरा</td>
+                    <td class="english">evil / bad</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>24</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schön')" title="Click to hear pronunciation">🔊</span>schön</td>
+                    <td class="pronunciation">शोन</td>
+                    <td class="hindi">सुंदर</td>
+                    <td class="english">beautiful / nice</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hässlich')" title="Click to hear pronunciation">🔊</span>hässlich</td>
+                    <td class="pronunciation">हेस्लिख</td>
+                    <td class="hindi">बदसूरत</td>
+                    <td class="english">ugly</td>
+                </tr>
+                <tr style="background-color: #e8f5e920;">
+                    <td>25</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('glücklich')" title="Click to hear pronunciation">🔊</span>glücklich</td>
+                    <td class="pronunciation">ग्लुक्लिख</td>
+                    <td class="hindi">खुश</td>
+                    <td class="english">happy</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('traurig')" title="Click to hear pronunciation">🔊</span>traurig</td>
+                    <td class="pronunciation">ट्राउरिग</td>
+                    <td class="hindi">उदास</td>
+                    <td class="english">sad</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+<p class="note">
+        💡 <strong>Memory Tip:</strong> Learn related words together! Study one category per day.<br>
+        💡 <strong>याद रखने का तरीका:</strong> संबंधित शब्द एक साथ सीखें! प्रतिदिन एक विषय पढ़ें।<br><br>
+          </p>
+
+    <div style="text-align: center; padding: 30px; margin: 20px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+        <h2 style="color: white; margin: 0; font-size: 28px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+            📊 Total Pairs: <span style="font-size: 36px; font-weight: 900;">37</span>
+        </h2>
+        <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 16px;">
+            कुल जोड़े: 37 | German Words and Opposites
+        </p>
+    </div>
+
+    <!-- Inline Scripts for offline use -->
+    <script>
+        function speakGerman(word) {
+            if (window.speechSynthesis.speaking) window.speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(word); u.lang = 'de-DE'; u.rate = 0.8;
+            const v = window.speechSynthesis.getVoices().find(v => v.lang.startsWith('de'));
+            if (v) u.voice = v;
+            window.speechSynthesis.speak(u);
+        }
+        function toggleSidebar() {
+            const s = document.getElementById('sidebar'), o = document.querySelector('.sidebar-overlay');
+            if (s && o) { s.classList.toggle('open'); o.classList.toggle('active'); }
+        }
+        
+        // Universal navigation fix - uses sessionStorage to store base path
+        (function() {
+            function getBasePath() {
+                let storedPath = sessionStorage.getItem('germanAppBasePath');
+                if (storedPath) return storedPath;
+                
+                const currentUrl = window.location.href;
+                let basePath = null;
+                
+                if (currentUrl.startsWith('content://')) {
+                    const fileMatch = currentUrl.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                    if (fileMatch) {
+                        basePath = 'file://' + fileMatch[1] + '/';
+                    } else {
+                        const contentMatch = currentUrl.match(/content:\/\/[^\/]+\/\d+\/(.+)\/[^\/]+\.html/);
+                        if (contentMatch) {
+                            const pathPart = contentMatch[1];
+                            if (pathPart.includes('file://')) {
+                                const filePathMatch = pathPart.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                                if (filePathMatch) {
+                                    basePath = 'file://' + filePathMatch[1] + '/';
+                                }
+                            } else {
+                                const lastSlash = currentUrl.lastIndexOf('/');
+                                basePath = currentUrl.substring(0, lastSlash + 1);
+                            }
+                        } else {
+                            const lastSlash = currentUrl.lastIndexOf('/');
+                            basePath = currentUrl.substring(0, lastSlash + 1);
+                        }
+                    }
+                }
+                else if (currentUrl.includes('INetCache') || currentUrl.includes('Temp') || currentUrl.includes('Cache')) {
+                    basePath = 'file:///D:/german/';
+                }
+                else {
+                    const lastSlash = currentUrl.lastIndexOf('/');
+                    basePath = currentUrl.substring(0, lastSlash + 1);
+                }
+                
+                if (basePath) sessionStorage.setItem('germanAppBasePath', basePath);
+                return basePath;
+            }
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const basePath = getBasePath();
+                const links = document.querySelectorAll('a[href$=".html"]');
+                links.forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        const href = this.getAttribute('href');
+                        if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                            e.preventDefault();
+                            const targetPath = basePath + href;
+                            window.location.href = targetPath;
+                        }
+                    });
+                });
+            });
+        })();
+    </script>
+</body>
+</html>

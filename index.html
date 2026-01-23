@@ -339,48 +339,135 @@
         </div>
         
         <div class="card-grid">
-            <a href="source/a1-pdf/a1-pdf.html" class="card">
+            <a href="a1-pdf.html" class="card">
                 <div class="card-icon">📚</div>
                 <h2>A1 Vocabulary (PDF)</h2>
                 <p>Complete A1 level vocabulary list organized by themes. Perfect for beginners starting their German learning journey.</p>
             </a>
             
-            <a href="source/a1-650/a1-650.html" class="card">
+            <a href="a1-650.html" class="card">
                 <div class="card-icon">📖</div>
                 <h2>A1 Vocabulary (650)</h2>
                 <p>Essential 650 A1 level words with pronunciation guides, Hindi translations, and audio support for better learning.</p>
             </a>
             
-            <a href="source/a1-650/grammar.html" class="card">
+            <a href="grammar.html" class="card">
                 <div class="card-icon">📝</div>
                 <h2>A1 Grammar</h2>
                 <p>Comprehensive A1 level grammar guide covering pronouns, verbs, articles, and sentence structure with examples.</p>
             </a>
             
-            <a href="source/a2/a2.html" class="card">
+            <a href="a2.html" class="card">
                 <div class="card-icon">📘</div>
                 <h2>A2 Vocabulary</h2>
                 <p>Advanced A2 level vocabulary with over 1200 words organized by categories. Build on your A1 foundation.</p>
             </a>
             
-            <a href="source/numbers/numbers.html" class="card">
+            <a href="numbers.html" class="card">
                 <div class="card-icon">🔢</div>
                 <h2>German Numbers</h2>
                 <p>Learn German numbers from 0 to 100 with pronunciation guides and audio support for perfect pronunciation.</p>
             </a>
             
-            <a href="source/common-words/common-words.html" class="card">
+            <a href="common-words.html" class="card">
                 <div class="card-icon">🔤</div>
                 <h2>Common Words</h2>
                 <p>Discover German words that are similar to English. A great way to expand your vocabulary quickly.</p>
             </a>
             
-            <a href="source/clusters/clusters.html" class="card">
+            <a href="clusters.html" class="card">
                 <div class="card-icon">🗣️</div>
                 <h2>Consonant Clusters</h2>
                 <p>Master German pronunciation with consonant clusters guide specifically designed for Hindi and English speakers.</p>
             </a>
+            
+            <a href="words-opposites.html" class="card">
+                <div class="card-icon">⚖️</div>
+                <h2>Words & Opposites</h2>
+                <p>Learn German words with their opposites (Gegenteile). A great way to expand vocabulary by learning pairs together.</p>
+            </a>
+            
+            <a href="adverbs-prepositions.html" class="card">
+                <div class="card-icon">🔗</div>
+                <h2>Adverbs & Connectors</h2>
+                <p>Master German adverbs, prepositions, and connectors. Essential for building complex sentences and expressing relationships.</p>
+            </a>
         </div>
     </div>
+    
+    <script>
+        // Universal navigation fix - handles file://, content:// (Android), and cache folders
+        (function() {
+            function getBasePath() {
+                let storedPath = sessionStorage.getItem('germanAppBasePath');
+                if (storedPath) return storedPath;
+                
+                const currentUrl = window.location.href;
+                let basePath = null;
+                
+                // Handle Android content:// URLs
+                if (currentUrl.startsWith('content://')) {
+                    // Try multiple methods to extract file path
+                    // Method 1: Look for embedded file:// path
+                    const fileMatch = currentUrl.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                    if (fileMatch) {
+                        basePath = 'file://' + fileMatch[1] + '/';
+                    } 
+                    // Method 2: Extract from content:// structure with file://
+                    else {
+                        const contentMatch = currentUrl.match(/content:\/\/[^\/]+\/\d+\/(.+)\/[^\/]+\.html/);
+                        if (contentMatch) {
+                            const pathPart = contentMatch[1];
+                            if (pathPart.includes('file://')) {
+                                const filePathMatch = pathPart.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                                if (filePathMatch) {
+                                    basePath = 'file://' + filePathMatch[1] + '/';
+                                } else {
+                                    // Try to extract directory from file:// path
+                                    const dirMatch = pathPart.match(/file:\/\/\/[^\/]+(.+)\//);
+                                    if (dirMatch) {
+                                        basePath = 'file://' + dirMatch[1] + '/';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    // If still no path found, try to use content:// base (may not work)
+                    if (!basePath) {
+                        const lastSlash = currentUrl.lastIndexOf('/');
+                        basePath = currentUrl.substring(0, lastSlash + 1);
+                    }
+                }
+                // Handle Windows cache folders
+                else if (currentUrl.includes('INetCache') || currentUrl.includes('Temp') || currentUrl.includes('Cache')) {
+                    basePath = 'file:///D:/german/';
+                }
+                // Normal file:// URLs
+                else {
+                    const lastSlash = currentUrl.lastIndexOf('/');
+                    basePath = currentUrl.substring(0, lastSlash + 1);
+                }
+                
+                if (basePath) sessionStorage.setItem('germanAppBasePath', basePath);
+                return basePath;
+            }
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const basePath = getBasePath();
+                const links = document.querySelectorAll('a[href$=".html"]');
+                links.forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        const href = this.getAttribute('href');
+                        if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                            e.preventDefault();
+                            const targetPath = basePath + href;
+                            window.location.href = targetPath;
+                        }
+                    });
+                });
+            });
+        })();
+    </script>
 </body>
 </html>

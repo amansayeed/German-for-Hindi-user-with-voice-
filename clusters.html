@@ -303,25 +303,6 @@
     </style>
 </head>
 <body>
-    <script>
-        // Fix for Android content:// URL navigation
-        document.addEventListener('click', function(e) {
-            const link = e.target.closest('a');
-            if (link) {
-                const href = link.getAttribute('href');
-                if (href && href.endsWith('.html') && !href.startsWith('http') && !href.startsWith('#')) {
-                    e.preventDefault();
-                    try {
-                        const newUrl = new URL(href, window.location.href);
-                        window.location.href = newUrl.href;
-                    } catch(err) {
-                        const base = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1);
-                        window.location.href = base + href;
-                    }
-                }
-            }
-        });
-    </script>
     <!-- Sidebar Navigation -->
     <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
     <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
@@ -330,25 +311,25 @@
             <h2>🇩🇪 German Learning</h2>
         </div>
         <div class="sidebar-nav">
-            <a href="../../index.html" class="sidebar-nav-item">
+            <a href="index.html" class="sidebar-nav-item">
                 <span class="emoji">🏠</span> Home
             </a>
-            <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item">
+            <a href="a1-pdf.html" class="sidebar-nav-item">
                 <span class="emoji">📚</span> A1 Vocabulary (PDF)
             </a>
-            <a href="../a1-650/a1-650.html" class="sidebar-nav-item">
+            <a href="a1-650.html" class="sidebar-nav-item">
                 <span class="emoji">📖</span> A1 Vocabulary (650)
             </a>
-            <a href="../a1-650/grammar.html" class="sidebar-nav-item">
+            <a href="grammar.html" class="sidebar-nav-item">
                 <span class="emoji">📝</span> A1 Grammar
             </a>
-            <a href="../a2/a2.html" class="sidebar-nav-item">
+            <a href="a2.html" class="sidebar-nav-item">
                 <span class="emoji">📘</span> A2 Vocabulary
             </a>
-            <a href="../numbers/numbers.html" class="sidebar-nav-item">
+            <a href="numbers.html" class="sidebar-nav-item">
                 <span class="emoji">🔢</span> German Numbers
             </a>
-            <a href="../common-words/common-words.html" class="sidebar-nav-item">
+            <a href="common-words.html" class="sidebar-nav-item">
                 <span class="emoji">🔤</span> Common Words
             </a>
             <a href="clusters.html" class="sidebar-nav-item active">
@@ -1112,6 +1093,66 @@
             const s = document.getElementById('sidebar'), o = document.querySelector('.sidebar-overlay');
             if (s && o) { s.classList.toggle('open'); o.classList.toggle('active'); }
         }
+        
+        // Universal navigation fix - uses sessionStorage to store base path
+        (function() {
+            function getBasePath() {
+                let storedPath = sessionStorage.getItem('germanAppBasePath');
+                if (storedPath) return storedPath;
+                
+                const currentUrl = window.location.href;
+                let basePath = null;
+                
+                if (currentUrl.startsWith('content://')) {
+                    const fileMatch = currentUrl.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                    if (fileMatch) {
+                        basePath = 'file://' + fileMatch[1] + '/';
+                    } else {
+                        const contentMatch = currentUrl.match(/content:\/\/[^\/]+\/\d+\/(.+)\/[^\/]+\.html/);
+                        if (contentMatch) {
+                            const pathPart = contentMatch[1];
+                            if (pathPart.includes('file://')) {
+                                const filePathMatch = pathPart.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                                if (filePathMatch) {
+                                    basePath = 'file://' + filePathMatch[1] + '/';
+                                }
+                            } else {
+                                const lastSlash = currentUrl.lastIndexOf('/');
+                                basePath = currentUrl.substring(0, lastSlash + 1);
+                            }
+                        } else {
+                            const lastSlash = currentUrl.lastIndexOf('/');
+                            basePath = currentUrl.substring(0, lastSlash + 1);
+                        }
+                    }
+                }
+                else if (currentUrl.includes('INetCache') || currentUrl.includes('Temp') || currentUrl.includes('Cache')) {
+                    basePath = 'file:///D:/german/';
+                }
+                else {
+                    const lastSlash = currentUrl.lastIndexOf('/');
+                    basePath = currentUrl.substring(0, lastSlash + 1);
+                }
+                
+                if (basePath) sessionStorage.setItem('germanAppBasePath', basePath);
+                return basePath;
+            }
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const basePath = getBasePath();
+                const links = document.querySelectorAll('a[href$=".html"]');
+                links.forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        const href = this.getAttribute('href');
+                        if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                            e.preventDefault();
+                            const targetPath = basePath + href;
+                            window.location.href = targetPath;
+                        }
+                    });
+                });
+            });
+        })();
     </script>
 </body>
 </html>

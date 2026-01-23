@@ -273,25 +273,6 @@
     </style>
 </head>
 <body>
-    <script>
-        // Fix for Android content:// URL navigation
-        document.addEventListener('click', function(e) {
-            const link = e.target.closest('a');
-            if (link) {
-                const href = link.getAttribute('href');
-                if (href && href.endsWith('.html') && !href.startsWith('http') && !href.startsWith('#')) {
-                    e.preventDefault();
-                    try {
-                        const newUrl = new URL(href, window.location.href);
-                        window.location.href = newUrl.href;
-                    } catch(err) {
-                        const base = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1);
-                        window.location.href = base + href;
-                    }
-                }
-            }
-        });
-    </script>
     <!-- ============================================
          RESPONSIVE AUTO-HIDE NAVIGATION
          Accessible, Touch & Mouse friendly
@@ -316,10 +297,10 @@
             <h2>🇩🇪 German Learning</h2>
         </div>
         <div class="sidebar-nav" role="menubar">
-            <a href="../../index.html" class="sidebar-nav-item">
+            <a href="index.html" class="sidebar-nav-item">
                 <span class="emoji">🏠</span> Home
             </a>
-            <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item">
+            <a href="a1-pdf.html" class="sidebar-nav-item">
                 <span class="emoji">📚</span> A1 Vocabulary (PDF)
             </a>
             <a href="a1-650.html" class="sidebar-nav-item active">
@@ -328,17 +309,23 @@
             <a href="grammar.html" class="sidebar-nav-item">
                 <span class="emoji">📝</span> A1 Grammar
             </a>
-            <a href="../a2/a2.html" class="sidebar-nav-item">
+            <a href="a2.html" class="sidebar-nav-item">
                 <span class="emoji">📘</span> A2 Vocabulary
             </a>
-            <a href="../numbers/numbers.html" class="sidebar-nav-item">
+            <a href="numbers.html" class="sidebar-nav-item">
                 <span class="emoji">🔢</span> German Numbers
             </a>
-            <a href="../common-words/common-words.html" class="sidebar-nav-item">
+            <a href="common-words.html" class="sidebar-nav-item">
                 <span class="emoji">🔤</span> Common Words
             </a>
-            <a href="../clusters/clusters.html" class="sidebar-nav-item">
+            <a href="clusters.html" class="sidebar-nav-item">
                 <span class="emoji">🗣️</span> Consonant Clusters
+            </a>
+            <a href="words-opposites.html" class="sidebar-nav-item">
+                <span class="emoji">⚖️</span> Words & Opposites
+            </a>
+            <a href="adverbs-prepositions.html" class="sidebar-nav-item">
+                <span class="emoji">🔗</span> Adverbs & Connectors
             </a>
         </div>
     </nav>
@@ -374,8 +361,7 @@
             <a href="#Pronouns" class="toc-item"><span>👤</span> Pronouns (45)</a>
             <a href="#Verbs_(Actions)" class="toc-item"><span>🏃</span> Verbs (80)</a>
             <a href="#Adjectives" class="toc-item"><span>✨</span> Adjectives (40)</a>
-            <a href="#Adverbs_&_Other" class="toc-item"><span>🔗</span> Adverbs & Connectors (57)</a>
-        </div>
+                    </div>
     </div>
 
     <div class="category" id="Greetings_&_Basics">
@@ -10130,58 +10116,62 @@
                     <th>English</th>
                 </tr>
             </thead>
-            <tbody>
-                <!-- Essential Verbs -->
-                
-                <tr style="background-color: #c5cae920;">
+                        <tbody>
+                <tr style="background-color: #c5cae980;">
+                    <td>1</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('aufräumen')" title="Click to hear pronunciation">🔊</span>aufräumen</td>
+                    <td class="pronunciation">आउफरॉयमेन</td>
+                    <td class="hindi">व्यवस्थित करना</td>
+                    <td class="english">to tidy up</td>
+                </tr>
+                <tr style="background-color: #c5cae9d0;">
                     <td>2</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('haben')" title="Click to hear pronunciation">🔊</span>haben</td>
-                    <td class="pronunciation">हाबेन</td>
-                    <td class="hindi">रखना</td>
-                    <td class="english">to have ⭐</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('beenden')" title="Click to hear pronunciation">🔊</span>beenden</td>
+                    <td class="pronunciation">बेएंडेन</td>
+                    <td class="hindi">समाप्त करना</td>
+                    <td class="english">to end / finish</td>
                 </tr>
-                <tr style="background-color: #c5cae920;">
+                <tr style="background-color: #c5cae9d0;">
                     <td>3</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('werden')" title="Click to hear pronunciation">🔊</span>werden</td>
-                    <td class="pronunciation">वेर्डेन</td>
-                    <td class="hindi">बनना</td>
-                    <td class="english">to become</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('beginnen')" title="Click to hear pronunciation">🔊</span>beginnen</td>
+                    <td class="pronunciation">बेगिनेन</td>
+                    <td class="hindi">शुरू करना</td>
+                    <td class="english">to begin / start</td>
                 </tr>
-                <tr style="background-color: #c5cae920;">
+                <tr style="background-color: #c5cae990;">
                     <td>4</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('machen')" title="Click to hear pronunciation">🔊</span>machen</td>
-                    <td class="pronunciation">माखेन</td>
-                    <td class="hindi">करना / बनाना</td>
-                    <td class="english">to do / make</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('bekommen')" title="Click to hear pronunciation">🔊</span>bekommen</td>
+                    <td class="pronunciation">बेकोमेन</td>
+                    <td class="hindi">प्राप्त करना</td>
+                    <td class="english">to get / receive</td>
                 </tr>
-                <!-- Modal Verbs -->
-                <tr style="background-color: #c5cae930;">
+                <tr style="background-color: #c5cae9c0;">
                     <td>5</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('können')" title="Click to hear pronunciation">🔊</span>können</td>
-                    <td class="pronunciation">कोनेन</td>
-                    <td class="hindi">सकना</td>
-                    <td class="english">can / to be able to</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('brauchen')" title="Click to hear pronunciation">🔊</span>brauchen</td>
+                    <td class="pronunciation">ब्राउखेन</td>
+                    <td class="hindi">ज़रूरत होना</td>
+                    <td class="english">to need</td>
                 </tr>
-                <tr style="background-color: #c5cae930;">
+                <tr style="background-color: #c5cae990;">
                     <td>6</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('müssen')" title="Click to hear pronunciation">🔊</span>müssen</td>
-                    <td class="pronunciation">म्युसेन</td>
-                    <td class="hindi">करना पड़ना</td>
-                    <td class="english">must / have to</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('bringen')" title="Click to hear pronunciation">🔊</span>bringen</td>
+                    <td class="pronunciation">ब्रिंगेन</td>
+                    <td class="hindi">लाना</td>
+                    <td class="english">to bring</td>
                 </tr>
-                <tr style="background-color: #c5cae930;">
+                <tr style="background-color: #c5cae9b0;">
                     <td>7</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wollen')" title="Click to hear pronunciation">🔊</span>wollen</td>
-                    <td class="pronunciation">वोलेन</td>
-                    <td class="hindi">चाहना</td>
-                    <td class="english">to want</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('denken')" title="Click to hear pronunciation">🔊</span>denken</td>
+                    <td class="pronunciation">डेंकेन</td>
+                    <td class="hindi">सोचना</td>
+                    <td class="english">to think 🤔</td>
                 </tr>
-                <tr style="background-color: #c5cae930;">
+                <tr style="background-color: #c5cae980;">
                     <td>8</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sollen')" title="Click to hear pronunciation">🔊</span>sollen</td>
-                    <td class="pronunciation">ज़ोलेन</td>
-                    <td class="hindi">चाहिए</td>
-                    <td class="english">should / ought to</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('duschen')" title="Click to hear pronunciation">🔊</span>duschen</td>
+                    <td class="pronunciation">दुशेन</td>
+                    <td class="hindi">नहाना</td>
+                    <td class="english">to shower 🚿</td>
                 </tr>
                 <tr style="background-color: #c5cae930;">
                     <td>9</td>
@@ -10190,60 +10180,223 @@
                     <td class="hindi">... की अनुमति होना</td>
                     <td class="english">may / to be allowed</td>
                 </tr>
-                <tr style="background-color: #c5cae930;">
+                <tr style="background-color: #c5cae950;">
                     <td>10</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('erzählen')" title="Click to hear pronunciation">🔊</span>erzählen</td>
+                    <td class="pronunciation">एर्त्सेलेन</td>
+                    <td class="hindi">बताना</td>
+                    <td class="english">to tell / narrate</td>
+                </tr>
+                <tr style="background-color: #c5cae990;">
+                    <td>11</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('geben')" title="Click to hear pronunciation">🔊</span>geben</td>
+                    <td class="pronunciation">गेबेन</td>
+                    <td class="hindi">देना</td>
+                    <td class="english">to give</td>
+                </tr>
+                <tr style="background-color: #c5cae9b0;">
+                    <td>12</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('glauben')" title="Click to hear pronunciation">🔊</span>glauben</td>
+                    <td class="pronunciation">ग्लाउबेन</td>
+                    <td class="hindi">विश्वास करना</td>
+                    <td class="english">to believe</td>
+                </tr>
+                <tr style="background-color: #c5cae920;">
+                    <td>13</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('haben')" title="Click to hear pronunciation">🔊</span>haben</td>
+                    <td class="pronunciation">हाबेन</td>
+                    <td class="hindi">रखना</td>
+                    <td class="english">to have ⭐</td>
+                </tr>
+                <tr style="background-color: #c5cae9c0;">
+                    <td>14</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('helfen')" title="Click to hear pronunciation">🔊</span>helfen</td>
+                    <td class="pronunciation">हेल्फेन</td>
+                    <td class="hindi">मदद करना</td>
+                    <td class="english">to help 🤝</td>
+                </tr>
+                <tr style="background-color: #c5cae9c0;">
+                    <td>15</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hoffen')" title="Click to hear pronunciation">🔊</span>hoffen</td>
+                    <td class="pronunciation">होफेन</td>
+                    <td class="hindi">उम्मीद करना</td>
+                    <td class="english">to hope</td>
+                </tr>
+                <tr style="background-color: #c5cae990;">
+                    <td>16</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('holen')" title="Click to hear pronunciation">🔊</span>holen</td>
+                    <td class="pronunciation">होलेन</td>
+                    <td class="hindi">ले आना</td>
+                    <td class="english">to fetch / get</td>
+                </tr>
+                <tr style="background-color: #c5cae9b0;">
+                    <td>17</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kennen')" title="Click to hear pronunciation">🔊</span>kennen</td>
+                    <td class="pronunciation">केनेन</td>
+                    <td class="hindi">जानना (व्यक्ति)</td>
+                    <td class="english">to know (person/place)</td>
+                </tr>
+                <tr style="background-color: #c5cae940;">
+                    <td>18</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kommen')" title="Click to hear pronunciation">🔊</span>kommen</td>
+                    <td class="pronunciation">कोमेन</td>
+                    <td class="hindi">आना</td>
+                    <td class="english">to come</td>
+                </tr>
+                <tr style="background-color: #c5cae930;">
+                    <td>19</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('können')" title="Click to hear pronunciation">🔊</span>können</td>
+                    <td class="pronunciation">कोनेन</td>
+                    <td class="hindi">सकना</td>
+                    <td class="english">can / to be able to</td>
+                </tr>
+                <tr style="background-color: #c5cae9d0;">
+                    <td>20</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('leben')" title="Click to hear pronunciation">🔊</span>leben</td>
+                    <td class="pronunciation">लेबेन</td>
+                    <td class="hindi">जीना</td>
+                    <td class="english">to live (be alive)</td>
+                </tr>
+                <tr style="background-color: #c5cae9a0;">
+                    <td>21</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('legen')" title="Click to hear pronunciation">🔊</span>legen</td>
+                    <td class="pronunciation">लेगेन</td>
+                    <td class="hindi">रखना</td>
+                    <td class="english">to lay / put</td>
+                </tr>
+                <tr style="background-color: #c5cae9c0;">
+                    <td>22</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('lieben')" title="Click to hear pronunciation">🔊</span>lieben</td>
+                    <td class="pronunciation">लीबेन</td>
+                    <td class="hindi">प्यार करना</td>
+                    <td class="english">to love ❤️</td>
+                </tr>
+                <tr style="background-color: #c5cae9a0;">
+                    <td>23</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('liegen')" title="Click to hear pronunciation">🔊</span>liegen</td>
+                    <td class="pronunciation">लीगेन</td>
+                    <td class="hindi">लेटना</td>
+                    <td class="english">to lie (down)</td>
+                </tr>
+                <tr style="background-color: #c5cae920;">
+                    <td>24</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('machen')" title="Click to hear pronunciation">🔊</span>machen</td>
+                    <td class="pronunciation">माखेन</td>
+                    <td class="hindi">करना / बनाना</td>
+                    <td class="english">to do / make</td>
+                </tr>
+                <tr style="background-color: #c5cae930;">
+                    <td>25</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('möchten')" title="Click to hear pronunciation">🔊</span>möchten</td>
+                    <td class="pronunciation">मोख्टेन</td>
+                    <td class="hindi">चाहूँगा/चाहूँगी</td>
+                    <td class="english">would like</td>
+                </tr>
+                <tr style="background-color: #c5cae930;">
+                    <td>26</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('mögen')" title="Click to hear pronunciation">🔊</span>mögen</td>
                     <td class="pronunciation">मोगेन</td>
                     <td class="hindi">पसंद करना</td>
                     <td class="english">to like</td>
                 </tr>
                 <tr style="background-color: #c5cae930;">
-                    <td>11</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('möchten')" title="Click to hear pronunciation">🔊</span>möchten</td>
-                    <td class="pronunciation">मोख्टेन</td>
-                    <td class="hindi">चाहूँगा/चाहूँगी</td>
-                    <td class="english">would like</td>
+                    <td>27</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('müssen')" title="Click to hear pronunciation">🔊</span>müssen</td>
+                    <td class="pronunciation">म्युसेन</td>
+                    <td class="hindi">करना पड़ना</td>
+                    <td class="english">must / have to</td>
                 </tr>
-                <!-- Movement Verbs -->
-                
-                <tr style="background-color: #c5cae940;">
-                    <td>13</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('kommen')" title="Click to hear pronunciation">🔊</span>kommen</td>
-                    <td class="pronunciation">कोमेन</td>
-                    <td class="hindi">आना</td>
-                    <td class="english">to come</td>
+                <tr style="background-color: #c5cae990;">
+                    <td>28</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('nehmen')" title="Click to hear pronunciation">🔊</span>nehmen</td>
+                    <td class="pronunciation">नेमेन</td>
+                    <td class="hindi">लेना</td>
+                    <td class="english">to take</td>
                 </tr>
-
-                <!-- Communication -->
-
-                <tr style="background-color: #c5cae950;">
-                    <td>23</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('erzählen')" title="Click to hear pronunciation">🔊</span>erzählen</td>
-                    <td class="pronunciation">एर्त्सेलेन</td>
-                    <td class="hindi">बताना</td>
-                    <td class="english">to tell / narrate</td>
+                <tr style="background-color: #c5cae980;">
+                    <td>29</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('putzen')" title="Click to hear pronunciation">🔊</span>putzen</td>
+                    <td class="pronunciation">पुट्सेन</td>
+                    <td class="hindi">साफ करना</td>
+                    <td class="english">to clean</td>
                 </tr>
                 <tr style="background-color: #c5cae950;">
-                    <td>24</td>
+                    <td>30</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('rufen')" title="Click to hear pronunciation">🔊</span>rufen</td>
                     <td class="pronunciation">रूफेन</td>
                     <td class="hindi">पुकारना</td>
                     <td class="english">to call (out)</td>
                 </tr>
-                
-                <!-- Senses -->
-
-                <!-- Daily Activities -->
-
+                <tr style="background-color: #c5cae990;">
+                    <td>31</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schicken')" title="Click to hear pronunciation">🔊</span>schicken</td>
+                    <td class="pronunciation">शिकेन</td>
+                    <td class="hindi">भेजना</td>
+                    <td class="english">to send 📧</td>
+                </tr>
+                <tr style="background-color: #c5cae9d0;">
+                    <td>32</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schließen')" title="Click to hear pronunciation">🔊</span>schließen</td>
+                    <td class="pronunciation">श्लीसेन</td>
+                    <td class="hindi">बंद करना</td>
+                    <td class="english">to close</td>
+                </tr>
+                <tr style="background-color: #c5cae9a0;">
+                    <td>33</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('setzen')" title="Click to hear pronunciation">🔊</span>setzen</td>
+                    <td class="pronunciation">ज़ेट्सेन</td>
+                    <td class="hindi">बिठाना</td>
+                    <td class="english">to set / put (down)</td>
+                </tr>
+                <tr style="background-color: #c5cae9a0;">
+                    <td>34</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('sitzen')" title="Click to hear pronunciation">🔊</span>sitzen</td>
+                    <td class="pronunciation">ज़िट्सेन</td>
+                    <td class="hindi">बैठना</td>
+                    <td class="english">to sit</td>
+                </tr>
+                <tr style="background-color: #c5cae930;">
+                    <td>35</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('sollen')" title="Click to hear pronunciation">🔊</span>sollen</td>
+                    <td class="pronunciation">ज़ोलेन</td>
+                    <td class="hindi">चाहिए</td>
+                    <td class="english">should / ought to</td>
+                </tr>
                 <tr style="background-color: #c5cae970;">
-                    <td>39</td>
+                    <td>36</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('spielen')" title="Click to hear pronunciation">🔊</span>spielen</td>
                     <td class="pronunciation">श्पीलेन</td>
                     <td class="hindi">खेलना</td>
                     <td class="english">to play 🎮</td>
                 </tr>
-                <!-- Household -->
-                
+                <tr style="background-color: #c5cae9a0;">
+                    <td>37</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('stehen')" title="Click to hear pronunciation">🔊</span>stehen</td>
+                    <td class="pronunciation">श्टेहेन</td>
+                    <td class="hindi">खड़ा होना</td>
+                    <td class="english">to stand</td>
+                </tr>
+                <tr style="background-color: #c5cae9a0;">
+                    <td>38</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('stellen')" title="Click to hear pronunciation">🔊</span>stellen</td>
+                    <td class="pronunciation">श्टेलेन</td>
+                    <td class="hindi">रखना (खड़ा)</td>
+                    <td class="english">to put / place (standing)</td>
+                </tr>
+                <tr style="background-color: #c5cae9c0;">
+                    <td>39</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('treffen')" title="Click to hear pronunciation">🔊</span>treffen</td>
+                    <td class="pronunciation">ट्रेफेन</td>
+                    <td class="hindi">मिलना</td>
+                    <td class="english">to meet</td>
+                </tr>
+                <tr style="background-color: #c5cae9d0;">
+                    <td>40</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('versuchen')" title="Click to hear pronunciation">🔊</span>versuchen</td>
+                    <td class="pronunciation">फेर्ज़ूखेन</td>
+                    <td class="hindi">कोशिश करना</td>
+                    <td class="english">to try</td>
+                </tr>
                 <tr style="background-color: #c5cae980;">
                     <td>41</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('waschen')" title="Click to hear pronunciation">🔊</span>waschen</td>
@@ -10251,226 +10404,33 @@
                     <td class="hindi">धोना</td>
                     <td class="english">to wash</td>
                 </tr>
-                <tr style="background-color: #c5cae980;">
+                <tr style="background-color: #c5cae920;">
                     <td>42</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('putzen')" title="Click to hear pronunciation">🔊</span>putzen</td>
-                    <td class="pronunciation">पुट्सेन</td>
-                    <td class="hindi">साफ करना</td>
-                    <td class="english">to clean</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('werden')" title="Click to hear pronunciation">🔊</span>werden</td>
+                    <td class="pronunciation">वेर्डेन</td>
+                    <td class="hindi">बनना</td>
+                    <td class="english">to become</td>
                 </tr>
-                <tr style="background-color: #c5cae980;">
+                <tr style="background-color: #c5cae9b0;">
                     <td>43</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('aufräumen')" title="Click to hear pronunciation">🔊</span>aufräumen</td>
-                    <td class="pronunciation">आउफरॉयमेन</td>
-                    <td class="hindi">व्यवस्थित करना</td>
-                    <td class="english">to tidy up</td>
-                </tr>
-                <tr style="background-color: #c5cae980;">
-                    <td>44</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('duschen')" title="Click to hear pronunciation">🔊</span>duschen</td>
-                    <td class="pronunciation">दुशेन</td>
-                    <td class="hindi">नहाना</td>
-                    <td class="english">to shower 🚿</td>
-                </tr>
-                <!-- Actions - Give/Take/Bring -->
-                <tr style="background-color: #c5cae990;">
-                    <td>45</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('geben')" title="Click to hear pronunciation">🔊</span>geben</td>
-                    <td class="pronunciation">गेबेन</td>
-                    <td class="hindi">देना</td>
-                    <td class="english">to give</td>
-                </tr>
-                <tr style="background-color: #c5cae990;">
-                    <td>46</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nehmen')" title="Click to hear pronunciation">🔊</span>nehmen</td>
-                    <td class="pronunciation">नेमेन</td>
-                    <td class="hindi">लेना</td>
-                    <td class="english">to take</td>
-                </tr>
-                <tr style="background-color: #c5cae990;">
-                    <td>47</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('bringen')" title="Click to hear pronunciation">🔊</span>bringen</td>
-                    <td class="pronunciation">ब्रिंगेन</td>
-                    <td class="hindi">लाना</td>
-                    <td class="english">to bring</td>
-                </tr>
-                <tr style="background-color: #c5cae990;">
-                    <td>48</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('holen')" title="Click to hear pronunciation">🔊</span>holen</td>
-                    <td class="pronunciation">होलेन</td>
-                    <td class="hindi">ले आना</td>
-                    <td class="english">to fetch / get</td>
-                </tr>
-                <tr style="background-color: #c5cae990;">
-                    <td>49</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('bekommen')" title="Click to hear pronunciation">🔊</span>bekommen</td>
-                    <td class="pronunciation">बेकोमेन</td>
-                    <td class="hindi">प्राप्त करना</td>
-                    <td class="english">to get / receive</td>
-                </tr>
-                <tr style="background-color: #c5cae990;">
-                    <td>50</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schicken')" title="Click to hear pronunciation">🔊</span>schicken</td>
-                    <td class="pronunciation">शिकेन</td>
-                    <td class="hindi">भेजना</td>
-                    <td class="english">to send 📧</td>
-                </tr>
-                <!-- Position Verbs -->
-                <tr style="background-color: #c5cae9a0;">
-                    <td>51</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('stehen')" title="Click to hear pronunciation">🔊</span>stehen</td>
-                    <td class="pronunciation">श्टेहेन</td>
-                    <td class="hindi">खड़ा होना</td>
-                    <td class="english">to stand</td>
-                </tr>
-                <tr style="background-color: #c5cae9a0;">
-                    <td>52</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sitzen')" title="Click to hear pronunciation">🔊</span>sitzen</td>
-                    <td class="pronunciation">ज़िट्सेन</td>
-                    <td class="hindi">बैठना</td>
-                    <td class="english">to sit</td>
-                </tr>
-                <tr style="background-color: #c5cae9a0;">
-                    <td>53</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('liegen')" title="Click to hear pronunciation">🔊</span>liegen</td>
-                    <td class="pronunciation">लीगेन</td>
-                    <td class="hindi">लेटना</td>
-                    <td class="english">to lie (down)</td>
-                </tr>
-                <tr style="background-color: #c5cae9a0;">
-                    <td>54</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('setzen')" title="Click to hear pronunciation">🔊</span>setzen</td>
-                    <td class="pronunciation">ज़ेट्सेन</td>
-                    <td class="hindi">बिठाना</td>
-                    <td class="english">to set / put (down)</td>
-                </tr>
-                <tr style="background-color: #c5cae9a0;">
-                    <td>55</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('legen')" title="Click to hear pronunciation">🔊</span>legen</td>
-                    <td class="pronunciation">लेगेन</td>
-                    <td class="hindi">रखना</td>
-                    <td class="english">to lay / put</td>
-                </tr>
-                <tr style="background-color: #c5cae9a0;">
-                    <td>56</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('stellen')" title="Click to hear pronunciation">🔊</span>stellen</td>
-                    <td class="pronunciation">श्टेलेन</td>
-                    <td class="hindi">रखना (खड़ा)</td>
-                    <td class="english">to put / place (standing)</td>
-                </tr>
-                <!-- Mental / Thinking -->
-                <tr style="background-color: #c5cae9b0;">
-                    <td>57</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('denken')" title="Click to hear pronunciation">🔊</span>denken</td>
-                    <td class="pronunciation">डेंकेन</td>
-                    <td class="hindi">सोचना</td>
-                    <td class="english">to think 🤔</td>
-                </tr>
-                <tr style="background-color: #c5cae9b0;">
-                    <td>58</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('wissen')" title="Click to hear pronunciation">🔊</span>wissen</td>
                     <td class="pronunciation">विसेन</td>
                     <td class="hindi">जानना (तथ्य)</td>
                     <td class="english">to know (fact)</td>
                 </tr>
-                <tr style="background-color: #c5cae9b0;">
-                    <td>59</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('kennen')" title="Click to hear pronunciation">🔊</span>kennen</td>
-                    <td class="pronunciation">केनेन</td>
-                    <td class="hindi">जानना (व्यक्ति)</td>
-                    <td class="english">to know (person/place)</td>
+                <tr style="background-color: #c5cae930;">
+                    <td>44</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('wollen')" title="Click to hear pronunciation">🔊</span>wollen</td>
+                    <td class="pronunciation">वोलेन</td>
+                    <td class="hindi">चाहना</td>
+                    <td class="english">to want</td>
                 </tr>
-                
-                <tr style="background-color: #c5cae9b0;">
-                    <td>61</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('glauben')" title="Click to hear pronunciation">🔊</span>glauben</td>
-                    <td class="pronunciation">ग्लाउबेन</td>
-                    <td class="hindi">विश्वास करना</td>
-                    <td class="english">to believe</td>
-                </tr>
-                
-                <!-- Emotions & Social -->
-                <tr style="background-color: #c5cae9c0;">
-                    <td>63</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('lieben')" title="Click to hear pronunciation">🔊</span>lieben</td>
-                    <td class="pronunciation">लीबेन</td>
-                    <td class="hindi">प्यार करना</td>
-                    <td class="english">to love ❤️</td>
-                </tr>
-                <tr style="background-color: #c5cae9c0;">
-                    <td>64</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('hoffen')" title="Click to hear pronunciation">🔊</span>hoffen</td>
-                    <td class="pronunciation">होफेन</td>
-                    <td class="hindi">उम्मीद करना</td>
-                    <td class="english">to hope</td>
-                </tr>
-                <tr style="background-color: #c5cae9c0;">
-                    <td>65</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('brauchen')" title="Click to hear pronunciation">🔊</span>brauchen</td>
-                    <td class="pronunciation">ब्राउखेन</td>
-                    <td class="hindi">ज़रूरत होना</td>
-                    <td class="english">to need</td>
-                </tr>
-                <tr style="background-color: #c5cae9c0;">
-                    <td>66</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('helfen')" title="Click to hear pronunciation">🔊</span>helfen</td>
-                    <td class="pronunciation">हेल्फेन</td>
-                    <td class="hindi">मदद करना</td>
-                    <td class="english">to help 🤝</td>
-                </tr>
-                <tr style="background-color: #c5cae9c0;">
-                    <td>67</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('treffen')" title="Click to hear pronunciation">🔊</span>treffen</td>
-                    <td class="pronunciation">ट्रेफेन</td>
-                    <td class="hindi">मिलना</td>
-                    <td class="english">to meet</td>
-                </tr>
-                
-                <!-- Other Common Verbs -->
-
                 <tr style="background-color: #c5cae9d0;">
-                    <td>71</td>
+                    <td>45</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('öffnen')" title="Click to hear pronunciation">🔊</span>öffnen</td>
                     <td class="pronunciation">ऑफनेन</td>
                     <td class="hindi">खोलना</td>
                     <td class="english">to open</td>
-                </tr>
-                <tr style="background-color: #c5cae9d0;">
-                    <td>72</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schließen')" title="Click to hear pronunciation">🔊</span>schließen</td>
-                    <td class="pronunciation">श्लीसेन</td>
-                    <td class="hindi">बंद करना</td>
-                    <td class="english">to close</td>
-                </tr>
-
-                <tr style="background-color: #c5cae9d0;">
-                    <td>75</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('leben')" title="Click to hear pronunciation">🔊</span>leben</td>
-                    <td class="pronunciation">लेबेन</td>
-                    <td class="hindi">जीना</td>
-                    <td class="english">to live (be alive)</td>
-                </tr>
-
-                <tr style="background-color: #c5cae9d0;">
-                    <td>78</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('beginnen')" title="Click to hear pronunciation">🔊</span>beginnen</td>
-                    <td class="pronunciation">बेगिनेन</td>
-                    <td class="hindi">शुरू करना</td>
-                    <td class="english">to begin / start</td>
-                </tr>
-                <tr style="background-color: #c5cae9d0;">
-                    <td>79</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('beenden')" title="Click to hear pronunciation">🔊</span>beenden</td>
-                    <td class="pronunciation">बेएंडेन</td>
-                    <td class="hindi">समाप्त करना</td>
-                    <td class="english">to end / finish</td>
-                </tr>
-                <tr style="background-color: #c5cae9d0;">
-                    <td>80</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('versuchen')" title="Click to hear pronunciation">🔊</span>versuchen</td>
-                    <td class="pronunciation">फेर्ज़ूखेन</td>
-                    <td class="hindi">कोशिश करना</td>
-                    <td class="english">to try</td>
                 </tr>
             </tbody>
         </table>
@@ -10492,755 +10452,286 @@
                     <th>English</th>
                 </tr>
             </thead>
-            <tbody>
-                <!-- Size -->
-
-                <tr style="background-color: #ffcc8020;">
-                    <td>3</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('lang')" title="Click to hear pronunciation">🔊</span>lang</td>
-                    <td class="pronunciation">लांग</td>
-                    <td class="hindi">लंबा</td>
-                    <td class="english">long</td>
-                </tr>
-                <tr style="background-color: #ffcc8020;">
-                    <td>4</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('kurz')" title="Click to hear pronunciation">🔊</span>kurz</td>
-                    <td class="pronunciation">कुर्त्स</td>
-                    <td class="hindi">छोटा</td>
-                    <td class="english">short</td>
-                </tr>
-                <tr style="background-color: #ffcc8020;">
-                    <td>5</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('hoch')" title="Click to hear pronunciation">🔊</span>hoch</td>
-                    <td class="pronunciation">होख</td>
-                    <td class="hindi">ऊँचा</td>
-                    <td class="english">high / tall</td>
-                </tr>
-                <tr style="background-color: #ffcc8020;">
-                    <td>6</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('niedrig')" title="Click to hear pronunciation">🔊</span>niedrig</td>
-                    <td class="pronunciation">नीड्रिग</td>
-                    <td class="hindi">नीचा</td>
-                    <td class="english">low</td>
-                </tr>
-                <tr style="background-color: #ffcc8020;">
-                    <td>7</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dick')" title="Click to hear pronunciation">🔊</span>dick</td>
-                    <td class="pronunciation">डिक</td>
-                    <td class="hindi">मोटा</td>
-                    <td class="english">thick / fat</td>
-                </tr>
-                <tr style="background-color: #ffcc8020;">
-                    <td>8</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dünn')" title="Click to hear pronunciation">🔊</span>dünn</td>
-                    <td class="pronunciation">ड्युन</td>
-                    <td class="hindi">पतला</td>
-                    <td class="english">thin</td>
-                </tr>
-                <tr style="background-color: #ffcc8020;">
-                    <td>9</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('breit')" title="Click to hear pronunciation">🔊</span>breit</td>
-                    <td class="pronunciation">ब्राइट</td>
-                    <td class="hindi">चौड़ा</td>
-                    <td class="english">wide / broad</td>
-                </tr>
-                
-                <!-- Quality & Appearance -->
-
-                <tr style="background-color: #ffcc8030;">
-                    <td>13</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schön')" title="Click to hear pronunciation">🔊</span>schön</td>
-                    <td class="pronunciation">शोन</td>
-                    <td class="hindi">सुंदर</td>
-                    <td class="english">beautiful / nice ✨</td>
-                </tr>
-                <tr style="background-color: #ffcc8030;">
-                    <td>14</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('hässlich')" title="Click to hear pronunciation">🔊</span>hässlich</td>
-                    <td class="pronunciation">हेस्लिख</td>
-                    <td class="hindi">बदसूरत</td>
-                    <td class="english">ugly</td>
-                </tr>
-                <tr style="background-color: #ffcc8030;">
-                    <td>15</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('neu')" title="Click to hear pronunciation">🔊</span>neu</td>
-                    <td class="pronunciation">नॉय</td>
-                    <td class="hindi">नया</td>
-                    <td class="english">new 🆕</td>
-                </tr>
-
-                <!-- Speed & Sound -->
-                <tr style="background-color: #ffcc8040;">
-                    <td>18</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schnell')" title="Click to hear pronunciation">🔊</span>schnell</td>
-                    <td class="pronunciation">श्नेल</td>
-                    <td class="hindi">तेज़</td>
-                    <td class="english">fast / quick ⚡</td>
-                </tr>
-                <tr style="background-color: #ffcc8040;">
-                    <td>19</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('langsam')" title="Click to hear pronunciation">🔊</span>langsam</td>
-                    <td class="pronunciation">लांग्ज़ाम</td>
-                    <td class="hindi">धीमा</td>
-                    <td class="english">slow 🐢</td>
-                </tr>
-                <tr style="background-color: #ffcc8040;">
-                    <td>20</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('laut')" title="Click to hear pronunciation">🔊</span>laut</td>
-                    <td class="pronunciation">लाउट</td>
-                    <td class="hindi">तेज़ (आवाज़)</td>
-                    <td class="english">loud 🔊</td>
-                </tr>
-                
-                <!-- Temperature -->
-
-                <!-- State / Condition -->
-
-                <tr style="background-color: #ffcc8060;">
-                    <td>28</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('voll')" title="Click to hear pronunciation">🔊</span>voll</td>
-                    <td class="pronunciation">फोल</td>
-                    <td class="hindi">भरा हुआ</td>
-                    <td class="english">full</td>
-                </tr>
-                <tr style="background-color: #ffcc8060;">
-                    <td>29</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('leer')" title="Click to hear pronunciation">🔊</span>leer</td>
-                    <td class="pronunciation">लेर</td>
-                    <td class="hindi">खाली</td>
-                    <td class="english">empty</td>
-                </tr>
-                <tr style="background-color: #ffcc8060;">
-                    <td>30</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sauber')" title="Click to hear pronunciation">🔊</span>sauber</td>
-                    <td class="pronunciation">ज़ाउबर</td>
-                    <td class="hindi">साफ</td>
-                    <td class="english">clean ✨</td>
-                </tr>
-                <tr style="background-color: #ffcc8060;">
-                    <td>31</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schmutzig')" title="Click to hear pronunciation">🔊</span>schmutzig</td>
-                    <td class="pronunciation">श्मुट्सिग</td>
-                    <td class="hindi">गंदा</td>
-                    <td class="english">dirty</td>
-                </tr>
-                <tr style="background-color: #ffcc8060;">
-                    <td>32</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('kaputt')" title="Click to hear pronunciation">🔊</span>kaputt</td>
-                    <td class="pronunciation">कापुट</td>
-                    <td class="hindi">टूटा हुआ</td>
-                    <td class="english">broken 💔</td>
-                </tr>
-
-                <!-- Difficulty -->
-                
-                <tr style="background-color: #ffcc8070;">
-                    <td>36</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schwer')" title="Click to hear pronunciation">🔊</span>schwer</td>
-                    <td class="pronunciation">श्वेर</td>
-                    <td class="hindi">मुश्किल / भारी</td>
-                    <td class="english">difficult / heavy</td>
-                </tr>
-                
-                <tr style="background-color: #ffcc8070;">
-                    <td>38</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schwierig')" title="Click to hear pronunciation">🔊</span>schwierig</td>
-                    <td class="pronunciation">श्वीरिग</td>
-                    <td class="hindi">कठिन</td>
-                    <td class="english">difficult</td>
-                </tr>
-                <!-- Right / Wrong -->
-
-                <!-- Personality -->
-
-                <tr style="background-color: #ffcc8090;">
-                    <td>45</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('lieb')" title="Click to hear pronunciation">🔊</span>lieb</td>
-                    <td class="pronunciation">लीब</td>
-                    <td class="hindi">प्यारा</td>
-                    <td class="english">dear / sweet 💕</td>
-                </tr>
-                
-                <!-- Importance -->
-                <tr style="background-color: #ffcc80a0;">
-                    <td>47</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wichtig')" title="Click to hear pronunciation">🔊</span>wichtig</td>
-                    <td class="pronunciation">विख्टिग</td>
-                    <td class="hindi">महत्वपूर्ण</td>
-                    <td class="english">important ⭐</td>
-                </tr>
-                <tr style="background-color: #ffcc80a0;">
-                    <td>48</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('interessant')" title="Click to hear pronunciation">🔊</span>interessant</td>
-                    <td class="pronunciation">इंटेरेसांट</td>
-                    <td class="hindi">दिलचस्प</td>
-                    <td class="english">interesting</td>
-                </tr>
-                
-                <tr style="background-color: #ffcc80a0;">
-                    <td>50</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('toll')" title="Click to hear pronunciation">🔊</span>toll</td>
-                    <td class="pronunciation">टोल</td>
-                    <td class="hindi">शानदार</td>
-                    <td class="english">great / awesome 🎉</td>
-                </tr>
-                <tr style="background-color: #ffcc80a0;">
-                    <td>51</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('super')" title="Click to hear pronunciation">🔊</span>super</td>
-                    <td class="pronunciation">ज़ूपर</td>
-                    <td class="hindi">सुपर</td>
-                    <td class="english">super / great</td>
-                </tr>
-                <!-- Other Common -->
+                        <tbody>
                 <tr style="background-color: #ffcc80b0;">
-                    <td>52</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fertig')" title="Click to hear pronunciation">🔊</span>fertig</td>
-                    <td class="pronunciation">फेर्टिग</td>
-                    <td class="hindi">तैयार / समाप्त</td>
-                    <td class="english">ready / finished ✅</td>
-                </tr>
-                <tr style="background-color: #ffcc80b0;">
-                    <td>53</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('frei')" title="Click to hear pronunciation">🔊</span>frei</td>
-                    <td class="pronunciation">फ्राइ</td>
-                    <td class="hindi">फ्री / खाली</td>
-                    <td class="english">free</td>
-                </tr>
-                <tr style="background-color: #ffcc80b0;">
-                    <td>54</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('besetzt')" title="Click to hear pronunciation">🔊</span>besetzt</td>
-                    <td class="pronunciation">बेज़ेट्स्ट</td>
-                    <td class="hindi">व्यस्त</td>
-                    <td class="english">occupied / busy</td>
-                </tr>
-                
-                <tr style="background-color: #ffcc80b0;">
-                    <td>56</td>
+                    <td>1</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('anders')" title="Click to hear pronunciation">🔊</span>anders</td>
                     <td class="pronunciation">आंडर्स</td>
                     <td class="hindi">अलग</td>
                     <td class="english">different</td>
                 </tr>
                 <tr style="background-color: #ffcc80b0;">
-                    <td>57</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('typisch')" title="Click to hear pronunciation">🔊</span>typisch</td>
-                    <td class="pronunciation">ट्युपिश</td>
-                    <td class="hindi">आम / सामान्य</td>
-                    <td class="english">typical</td>
+                    <td>2</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('besetzt')" title="Click to hear pronunciation">🔊</span>besetzt</td>
+                    <td class="pronunciation">बेज़ेट्स्ट</td>
+                    <td class="hindi">व्यस्त</td>
+                    <td class="english">occupied / busy</td>
+                </tr>
+                <tr style="background-color: #ffcc80d0;">
+                    <td>3</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('bitter')" title="Click to hear pronunciation">🔊</span>bitter</td>
+                    <td class="pronunciation">बिटर</td>
+                    <td class="hindi">कड़वा</td>
+                    <td class="english">bitter</td>
+                </tr>
+                <tr style="background-color: #ffcc8020;">
+                    <td>4</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('breit')" title="Click to hear pronunciation">🔊</span>breit</td>
+                    <td class="pronunciation">ब्राइट</td>
+                    <td class="hindi">चौड़ा</td>
+                    <td class="english">wide / broad</td>
+                </tr>
+                <tr style="background-color: #ffcc8020;">
+                    <td>5</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('dick')" title="Click to hear pronunciation">🔊</span>dick</td>
+                    <td class="pronunciation">डिक</td>
+                    <td class="hindi">मोटा</td>
+                    <td class="english">thick / fat</td>
+                </tr>
+                <tr style="background-color: #ffcc8020;">
+                    <td>6</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('dünn')" title="Click to hear pronunciation">🔊</span>dünn</td>
+                    <td class="pronunciation">ड्युन</td>
+                    <td class="hindi">पतला</td>
+                    <td class="english">thin</td>
                 </tr>
                 <tr style="background-color: #ffcc80b0;">
-                    <td>58</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('möglich')" title="Click to hear pronunciation">🔊</span>möglich</td>
-                    <td class="pronunciation">मोग्लिख</td>
-                    <td class="hindi">संभव</td>
-                    <td class="english">possible</td>
+                    <td>7</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('fertig')" title="Click to hear pronunciation">🔊</span>fertig</td>
+                    <td class="pronunciation">फेर्टिग</td>
+                    <td class="hindi">तैयार / समाप्त</td>
+                    <td class="english">ready / finished ✅</td>
                 </tr>
-                <!-- Direction -->
-
-                <tr style="background-color: #ffcc80c0;">
-                    <td>61</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('oben')" title="Click to hear pronunciation">🔊</span>oben</td>
-                    <td class="pronunciation">ओबेन</td>
-                    <td class="hindi">ऊपर</td>
-                    <td class="english">above / up ⬆️</td>
+                <tr style="background-color: #ffcc80b0;">
+                    <td>8</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('frei')" title="Click to hear pronunciation">🔊</span>frei</td>
+                    <td class="pronunciation">फ्राइ</td>
+                    <td class="hindi">फ्री / खाली</td>
+                    <td class="english">free</td>
                 </tr>
                 <tr style="background-color: #ffcc80c0;">
-                    <td>62</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('unten')" title="Click to hear pronunciation">🔊</span>unten</td>
-                    <td class="pronunciation">उंटेन</td>
-                    <td class="hindi">नीचे</td>
-                    <td class="english">below / down ⬇️</td>
-                </tr>
-                <tr style="background-color: #ffcc80c0;">
-                    <td>63</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('vorne')" title="Click to hear pronunciation">🔊</span>vorne</td>
-                    <td class="pronunciation">फोर्ने</td>
-                    <td class="hindi">आगे</td>
-                    <td class="english">in front</td>
-                </tr>
-                <tr style="background-color: #ffcc80c0;">
-                    <td>64</td>
+                    <td>9</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('hinten')" title="Click to hear pronunciation">🔊</span>hinten</td>
                     <td class="pronunciation">हिंटेन</td>
                     <td class="hindi">पीछे</td>
                     <td class="english">behind / back</td>
                 </tr>
-                <!-- Taste -->
-                
+                <tr style="background-color: #ffcc8020;">
+                    <td>10</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hoch')" title="Click to hear pronunciation">🔊</span>hoch</td>
+                    <td class="pronunciation">होख</td>
+                    <td class="hindi">ऊँचा</td>
+                    <td class="english">high / tall</td>
+                </tr>
+                <tr style="background-color: #ffcc8030;">
+                    <td>11</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('hässlich')" title="Click to hear pronunciation">🔊</span>hässlich</td>
+                    <td class="pronunciation">हेस्लिख</td>
+                    <td class="hindi">बदसूरत</td>
+                    <td class="english">ugly</td>
+                </tr>
+                <tr style="background-color: #ffcc80a0;">
+                    <td>12</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('interessant')" title="Click to hear pronunciation">🔊</span>interessant</td>
+                    <td class="pronunciation">इंटेरेसांट</td>
+                    <td class="hindi">दिलचस्प</td>
+                    <td class="english">interesting</td>
+                </tr>
+                <tr style="background-color: #ffcc8060;">
+                    <td>13</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kaputt')" title="Click to hear pronunciation">🔊</span>kaputt</td>
+                    <td class="pronunciation">कापुट</td>
+                    <td class="hindi">टूटा हुआ</td>
+                    <td class="english">broken 💔</td>
+                </tr>
+                <tr style="background-color: #ffcc8020;">
+                    <td>14</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('kurz')" title="Click to hear pronunciation">🔊</span>kurz</td>
+                    <td class="pronunciation">कुर्त्स</td>
+                    <td class="hindi">छोटा</td>
+                    <td class="english">short</td>
+                </tr>
+                <tr style="background-color: #ffcc8020;">
+                    <td>15</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('lang')" title="Click to hear pronunciation">🔊</span>lang</td>
+                    <td class="pronunciation">लांग</td>
+                    <td class="hindi">लंबा</td>
+                    <td class="english">long</td>
+                </tr>
+                <tr style="background-color: #ffcc8040;">
+                    <td>16</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('langsam')" title="Click to hear pronunciation">🔊</span>langsam</td>
+                    <td class="pronunciation">लांग्ज़ाम</td>
+                    <td class="hindi">धीमा</td>
+                    <td class="english">slow 🐢</td>
+                </tr>
+                <tr style="background-color: #ffcc8040;">
+                    <td>17</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('laut')" title="Click to hear pronunciation">🔊</span>laut</td>
+                    <td class="pronunciation">लाउट</td>
+                    <td class="hindi">तेज़ (आवाज़)</td>
+                    <td class="english">loud 🔊</td>
+                </tr>
                 <tr style="background-color: #ffcc80d0;">
-                    <td>66</td>
+                    <td>18</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('lecker')" title="Click to hear pronunciation">🔊</span>lecker</td>
+                    <td class="pronunciation">लेकर</td>
+                    <td class="hindi">स्वादिष्ट</td>
+                    <td class="english">delicious 😋</td>
+                </tr>
+                <tr style="background-color: #ffcc8060;">
+                    <td>19</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('leer')" title="Click to hear pronunciation">🔊</span>leer</td>
+                    <td class="pronunciation">लेर</td>
+                    <td class="hindi">खाली</td>
+                    <td class="english">empty</td>
+                </tr>
+                <tr style="background-color: #ffcc8090;">
+                    <td>20</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('lieb')" title="Click to hear pronunciation">🔊</span>lieb</td>
+                    <td class="pronunciation">लीब</td>
+                    <td class="hindi">प्यारा</td>
+                    <td class="english">dear / sweet 💕</td>
+                </tr>
+                <tr style="background-color: #ffcc80b0;">
+                    <td>21</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('möglich')" title="Click to hear pronunciation">🔊</span>möglich</td>
+                    <td class="pronunciation">मोग्लिख</td>
+                    <td class="hindi">संभव</td>
+                    <td class="english">possible</td>
+                </tr>
+                <tr style="background-color: #ffcc8030;">
+                    <td>22</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('neu')" title="Click to hear pronunciation">🔊</span>neu</td>
+                    <td class="pronunciation">नॉय</td>
+                    <td class="hindi">नया</td>
+                    <td class="english">new 🆕</td>
+                </tr>
+                <tr style="background-color: #ffcc8020;">
+                    <td>23</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('niedrig')" title="Click to hear pronunciation">🔊</span>niedrig</td>
+                    <td class="pronunciation">नीड्रिग</td>
+                    <td class="hindi">नीचा</td>
+                    <td class="english">low</td>
+                </tr>
+                <tr style="background-color: #ffcc80c0;">
+                    <td>24</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('oben')" title="Click to hear pronunciation">🔊</span>oben</td>
+                    <td class="pronunciation">ओबेन</td>
+                    <td class="hindi">ऊपर</td>
+                    <td class="english">above / up ⬆️</td>
+                </tr>
+                <tr style="background-color: #ffcc80d0;">
+                    <td>25</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('salzig')" title="Click to hear pronunciation">🔊</span>salzig</td>
+                    <td class="pronunciation">ज़ाल्त्सिग</td>
+                    <td class="hindi">नमकीन</td>
+                    <td class="english">salty 🧂</td>
+                </tr>
+                <tr style="background-color: #ffcc8060;">
+                    <td>26</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('sauber')" title="Click to hear pronunciation">🔊</span>sauber</td>
+                    <td class="pronunciation">ज़ाउबर</td>
+                    <td class="hindi">साफ</td>
+                    <td class="english">clean ✨</td>
+                </tr>
+                <tr style="background-color: #ffcc80d0;">
+                    <td>27</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('sauer')" title="Click to hear pronunciation">🔊</span>sauer</td>
                     <td class="pronunciation">ज़ाउर</td>
                     <td class="hindi">खट्टा</td>
                     <td class="english">sour 🍋</td>
                 </tr>
                 <tr style="background-color: #ffcc80d0;">
-                    <td>67</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('salzig')" title="Click to hear pronunciation">🔊</span>salzig</td>
-                    <td class="pronunciation">ज़ाल्त्सिग</td>
-                    <td class="hindi">नमकीन</td>
-                    <td class="english">salty 🧂</td>
-                </tr>
-                <tr style="background-color: #ffcc80d0;">
-                    <td>68</td>
+                    <td>28</td>
                     <td class="german"><span class="audio-btn" onclick="speakGerman('scharf')" title="Click to hear pronunciation">🔊</span>scharf</td>
                     <td class="pronunciation">शार्फ</td>
                     <td class="hindi">तीखा</td>
                     <td class="english">spicy / sharp 🌶️</td>
                 </tr>
-                <tr style="background-color: #ffcc80d0;">
-                    <td>69</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('bitter')" title="Click to hear pronunciation">🔊</span>bitter</td>
-                    <td class="pronunciation">बिटर</td>
-                    <td class="hindi">कड़वा</td>
-                    <td class="english">bitter</td>
+                <tr style="background-color: #ffcc8060;">
+                    <td>29</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schmutzig')" title="Click to hear pronunciation">🔊</span>schmutzig</td>
+                    <td class="pronunciation">श्मुट्सिग</td>
+                    <td class="hindi">गंदा</td>
+                    <td class="english">dirty</td>
                 </tr>
-                <tr style="background-color: #ffcc80d0;">
-                    <td>70</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('lecker')" title="Click to hear pronunciation">🔊</span>lecker</td>
-                    <td class="pronunciation">लेकर</td>
-                    <td class="hindi">स्वादिष्ट</td>
-                    <td class="english">delicious 😋</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="category" id="Adverbs_&_Other">
-        <div class="category-header" style="background-color: #b39ddb;">
-            <span class="emoji">🔗</span>
-            <span>Adverbs, Prepositions & Connectors (<span class="audio-btn" onclick="speakGerman('Adverbien, Präpositionen & Konnektoren')" title="Click to hear pronunciation">🔊</span>Adverbien, Präpositionen & Konnektoren - आडवेर्बीन, प्रेपोज़ीत्सियोनेन & कोनेक्टोरेन)</span>
-            <span class="count">57 words</span>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th style="width:40px">#</th>
-                    <th>German</th>
-                    <th>Pronunciation (Hindi)</th>
-                    <th>Hindi</th>
-                    <th>English</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Prepositions - Location -->
-                <tr style="background-color: #b39ddb20;">
-                    <td>1</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('in')" title="Click to hear pronunciation">🔊</span>in</td>
-                    <td class="pronunciation">इन</td>
-                    <td class="hindi">में</td>
-                    <td class="english">in 📍</td>
-                </tr>
-                <tr style="background-color: #b39ddb20;">
-                    <td>2</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('an')" title="Click to hear pronunciation">🔊</span>an</td>
-                    <td class="pronunciation">आन</td>
-                    <td class="hindi">पर</td>
-                    <td class="english">at / on (vertical)</td>
-                </tr>
-                <tr style="background-color: #b39ddb20;">
-                    <td>3</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('auf')" title="Click to hear pronunciation">🔊</span>auf</td>
-                    <td class="pronunciation">आउफ</td>
-                    <td class="hindi">के ऊपर</td>
-                    <td class="english">on (horizontal)</td>
-                </tr>
-                <tr style="background-color: #b39ddb20;">
-                    <td>4</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('unter')" title="Click to hear pronunciation">🔊</span>unter</td>
-                    <td class="pronunciation">उंटर</td>
-                    <td class="hindi">के नीचे</td>
-                    <td class="english">under</td>
-                </tr>
-                <tr style="background-color: #b39ddb20;">
-                    <td>5</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('über')" title="Click to hear pronunciation">🔊</span>über</td>
-                    <td class="pronunciation">युबर</td>
-                    <td class="hindi">के ऊपर</td>
-                    <td class="english">over / above</td>
-                </tr>
-                <tr style="background-color: #b39ddb20;">
-                    <td>6</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('neben')" title="Click to hear pronunciation">🔊</span>neben</td>
-                    <td class="pronunciation">नेबेन</td>
-                    <td class="hindi">के बगल में</td>
-                    <td class="english">next to / beside</td>
-                </tr>
-                
-                <tr style="background-color: #b39ddb20;">
-                    <td>8</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('hinter')" title="Click to hear pronunciation">🔊</span>hinter</td>
-                    <td class="pronunciation">हिंटर</td>
-                    <td class="hindi">के पीछे</td>
-                    <td class="english">behind</td>
-                </tr>
-                <tr style="background-color: #b39ddb20;">
-                    <td>9</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zwischen')" title="Click to hear pronunciation">🔊</span>zwischen</td>
-                    <td class="pronunciation">त्स्विशेन</td>
-                    <td class="hindi">के बीच</td>
-                    <td class="english">between</td>
-                </tr>
-                
-                <!-- Prepositions - Direction/Movement -->
-                <tr style="background-color: #b39ddb30;">
-                    <td>11</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('zu')" title="Click to hear pronunciation">🔊</span>zu</td>
-                    <td class="pronunciation">त्सू</td>
-                    <td class="hindi">को / की ओर</td>
-                    <td class="english">to (place/person)</td>
-                </tr>
-                
-                <tr style="background-color: #b39ddb30;">
-                    <td>13</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('von')" title="Click to hear pronunciation">🔊</span>von</td>
-                    <td class="pronunciation">फॉन</td>
-                    <td class="hindi">से / का</td>
-                    <td class="english">from / of</td>
-                </tr>
-                <tr style="background-color: #b39ddb30;">
-                    <td>14</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('aus')" title="Click to hear pronunciation">🔊</span>aus</td>
-                    <td class="pronunciation">आउस</td>
-                    <td class="hindi">से (बाहर)</td>
-                    <td class="english">out of / from (origin)</td>
-                </tr>
-                <tr style="background-color: #b39ddb30;">
-                    <td>15</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('durch')" title="Click to hear pronunciation">🔊</span>durch</td>
-                    <td class="pronunciation">डुर्ख</td>
-                    <td class="hindi">से होकर</td>
-                    <td class="english">through</td>
-                </tr>
-                <!-- Prepositions - Other -->
-                <tr style="background-color: #b39ddb40;">
-                    <td>16</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('mit')" title="Click to hear pronunciation">🔊</span>mit</td>
-                    <td class="pronunciation">मिट</td>
-                    <td class="hindi">के साथ</td>
-                    <td class="english">with</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>17</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ohne')" title="Click to hear pronunciation">🔊</span>ohne</td>
-                    <td class="pronunciation">ओने</td>
-                    <td class="hindi">के बिना</td>
-                    <td class="english">without</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>18</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('für')" title="Click to hear pronunciation">🔊</span>für</td>
-                    <td class="pronunciation">फ्युर</td>
-                    <td class="hindi">के लिए</td>
-                    <td class="english">for</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>19</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('gegen')" title="Click to hear pronunciation">🔊</span>gegen</td>
-                    <td class="pronunciation">गेगेन</td>
-                    <td class="hindi">के खिलाफ / करीब</td>
-                    <td class="english">against / around (time)</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>20</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('um')" title="Click to hear pronunciation">🔊</span>um</td>
-                    <td class="pronunciation">उम</td>
-                    <td class="hindi">बजे / के आसपास</td>
-                    <td class="english">at (time) / around</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>21</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('bis')" title="Click to hear pronunciation">🔊</span>bis</td>
-                    <td class="pronunciation">बिस</td>
-                    <td class="hindi">तक</td>
-                    <td class="english">until / to</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>22</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ab')" title="Click to hear pronunciation">🔊</span>ab</td>
-                    <td class="pronunciation">आप</td>
-                    <td class="hindi">से (समय)</td>
-                    <td class="english">from (time onwards)</td>
-                </tr>
-                <tr style="background-color: #b39ddb40;">
-                    <td>23</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('seit')" title="Click to hear pronunciation">🔊</span>seit</td>
-                    <td class="pronunciation">ज़ाइट</td>
-                    <td class="hindi">से (समय से)</td>
-                    <td class="english">since / for (duration)</td>
-                </tr>
-                <!-- Time Adverbs -->
-
-                <tr style="background-color: #b39ddb50;">
+                <tr style="background-color: #ffcc8040;">
                     <td>30</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('früher')" title="Click to hear pronunciation">🔊</span>früher</td>
-                    <td class="pronunciation">फ्र्युअर</td>
-                    <td class="hindi">पहले</td>
-                    <td class="english">earlier / formerly</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schnell')" title="Click to hear pronunciation">🔊</span>schnell</td>
+                    <td class="pronunciation">श्नेल</td>
+                    <td class="hindi">तेज़</td>
+                    <td class="english">fast / quick ⚡</td>
                 </tr>
-                
-                <tr style="background-color: #b39ddb50;">
+                <tr style="background-color: #ffcc8070;">
+                    <td>31</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schwer')" title="Click to hear pronunciation">🔊</span>schwer</td>
+                    <td class="pronunciation">श्वेर</td>
+                    <td class="hindi">मुश्किल / भारी</td>
+                    <td class="english">difficult / heavy</td>
+                </tr>
+                <tr style="background-color: #ffcc8070;">
                     <td>32</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('schon')" title="Click to hear pronunciation">🔊</span>schon</td>
-                    <td class="pronunciation">शोन</td>
-                    <td class="hindi">पहले से</td>
-                    <td class="english">already</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schwierig')" title="Click to hear pronunciation">🔊</span>schwierig</td>
+                    <td class="pronunciation">श्वीरिग</td>
+                    <td class="hindi">कठिन</td>
+                    <td class="english">difficult</td>
                 </tr>
-                <tr style="background-color: #b39ddb50;">
+                <tr style="background-color: #ffcc8030;">
                     <td>33</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('noch')" title="Click to hear pronunciation">🔊</span>noch</td>
-                    <td class="pronunciation">नोख</td>
-                    <td class="hindi">अभी भी</td>
-                    <td class="english">still / yet</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('schön')" title="Click to hear pronunciation">🔊</span>schön</td>
+                    <td class="pronunciation">शोन</td>
+                    <td class="hindi">सुंदर</td>
+                    <td class="english">beautiful / nice ✨</td>
                 </tr>
-                <tr style="background-color: #b39ddb50;">
+                <tr style="background-color: #ffcc80a0;">
                     <td>34</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wieder')" title="Click to hear pronunciation">🔊</span>wieder</td>
-                    <td class="pronunciation">वीडर</td>
-                    <td class="hindi">फिर से</td>
-                    <td class="english">again</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('super')" title="Click to hear pronunciation">🔊</span>super</td>
+                    <td class="pronunciation">ज़ूपर</td>
+                    <td class="hindi">सुपर</td>
+                    <td class="english">super / great</td>
                 </tr>
-                <tr style="background-color: #b39ddb50;">
+                <tr style="background-color: #ffcc80a0;">
                     <td>35</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('gerade')" title="Click to hear pronunciation">🔊</span>gerade</td>
-                    <td class="pronunciation">गेराडे</td>
-                    <td class="hindi">अभी-अभी</td>
-                    <td class="english">just now / straight</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('toll')" title="Click to hear pronunciation">🔊</span>toll</td>
+                    <td class="pronunciation">टोल</td>
+                    <td class="hindi">शानदार</td>
+                    <td class="english">great / awesome 🎉</td>
                 </tr>
-                <!-- Frequency Adverbs -->
-
-                <tr style="background-color: #b39ddb60;">
-                    <td>41</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('meistens')" title="Click to hear pronunciation">🔊</span>meistens</td>
-                    <td class="pronunciation">माइस्टेन्स</td>
-                    <td class="hindi">ज्यादातर</td>
-                    <td class="english">mostly / usually</td>
+                <tr style="background-color: #ffcc80b0;">
+                    <td>36</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('typisch')" title="Click to hear pronunciation">🔊</span>typisch</td>
+                    <td class="pronunciation">ट्युपिश</td>
+                    <td class="hindi">आम / सामान्य</td>
+                    <td class="english">typical</td>
                 </tr>
-                <!-- Place Adverbs -->
-
-                <tr style="background-color: #b39ddb70;">
-                    <td>46</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('drinnen')" title="Click to hear pronunciation">🔊</span>drinnen</td>
-                    <td class="pronunciation">ड्रिनेन</td>
-                    <td class="hindi">अंदर</td>
-                    <td class="english">inside</td>
+                <tr style="background-color: #ffcc80c0;">
+                    <td>37</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('unten')" title="Click to hear pronunciation">🔊</span>unten</td>
+                    <td class="pronunciation">उंटेन</td>
+                    <td class="hindi">नीचे</td>
+                    <td class="english">below / down ⬇️</td>
                 </tr>
-                <tr style="background-color: #b39ddb70;">
-                    <td>47</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('überall')" title="Click to hear pronunciation">🔊</span>überall</td>
-                    <td class="pronunciation">युबराल</td>
-                    <td class="hindi">हर जगह</td>
-                    <td class="english">everywhere</td>
+                <tr style="background-color: #ffcc8060;">
+                    <td>38</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('voll')" title="Click to hear pronunciation">🔊</span>voll</td>
+                    <td class="pronunciation">फोल</td>
+                    <td class="hindi">भरा हुआ</td>
+                    <td class="english">full</td>
                 </tr>
-                <tr style="background-color: #b39ddb70;">
-                    <td>48</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nirgendwo')" title="Click to hear pronunciation">🔊</span>nirgendwo</td>
-                    <td class="pronunciation">निर्गेंट्वो</td>
-                    <td class="hindi">कहीं नहीं</td>
-                    <td class="english">nowhere</td>
+                <tr style="background-color: #ffcc80c0;">
+                    <td>39</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('vorne')" title="Click to hear pronunciation">🔊</span>vorne</td>
+                    <td class="pronunciation">फोर्ने</td>
+                    <td class="hindi">आगे</td>
+                    <td class="english">in front</td>
                 </tr>
-                <!-- Degree Adverbs -->
-                <tr style="background-color: #b39ddb80;">
-                    <td>49</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sehr')" title="Click to hear pronunciation">🔊</span>sehr</td>
-                    <td class="pronunciation">ज़ेर</td>
-                    <td class="hindi">बहुत</td>
-                    <td class="english">very</td>
-                </tr>
-                
-                <tr style="background-color: #b39ddb80;">
-                    <td>51</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ganz')" title="Click to hear pronunciation">🔊</span>ganz</td>
-                    <td class="pronunciation">गांत्स</td>
-                    <td class="hindi">काफी / पूरा</td>
-                    <td class="english">quite / whole</td>
-                </tr>
-                <tr style="background-color: #b39ddb80;">
-                    <td>52</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ziemlich')" title="Click to hear pronunciation">🔊</span>ziemlich</td>
-                    <td class="pronunciation">त्सीमलिख</td>
-                    <td class="hindi">काफी</td>
-                    <td class="english">quite / fairly</td>
-                </tr>
-                
-                <tr style="background-color: #b39ddb80;">
-                    <td>54</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('fast')" title="Click to hear pronunciation">🔊</span>fast</td>
-                    <td class="pronunciation">फास्ट</td>
-                    <td class="hindi">लगभग</td>
-                    <td class="english">almost</td>
-                </tr>
-                <tr style="background-color: #b39ddb80;">
-                    <td>55</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nur')" title="Click to hear pronunciation">🔊</span>nur</td>
-                    <td class="pronunciation">नूर</td>
-                    <td class="hindi">केवल</td>
-                    <td class="english">only</td>
-                </tr>
-                <tr style="background-color: #b39ddb80;">
-                    <td>56</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('auch')" title="Click to hear pronunciation">🔊</span>auch</td>
-                    <td class="pronunciation">आउख</td>
-                    <td class="hindi">भी</td>
-                    <td class="english">also / too</td>
-                </tr>
-                <tr style="background-color: #b39ddb80;">
-                    <td>57</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('besonders')" title="Click to hear pronunciation">🔊</span>besonders</td>
-                    <td class="pronunciation">बेज़ोंडर्स</td>
-                    <td class="hindi">खासकर</td>
-                    <td class="english">especially</td>
-                </tr>
-                <!-- Conjunctions -->
-                <tr style="background-color: #b39ddb90;">
-                    <td>58</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('und')" title="Click to hear pronunciation">🔊</span>und</td>
-                    <td class="pronunciation">उंट</td>
-                    <td class="hindi">और</td>
-                    <td class="english">and 🔗</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>59</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('oder')" title="Click to hear pronunciation">🔊</span>oder</td>
-                    <td class="pronunciation">ओडर</td>
-                    <td class="hindi">या</td>
-                    <td class="english">or</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>60</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('aber')" title="Click to hear pronunciation">🔊</span>aber</td>
-                    <td class="pronunciation">आबर</td>
-                    <td class="hindi">लेकिन</td>
-                    <td class="english">but</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>61</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('denn')" title="Click to hear pronunciation">🔊</span>denn</td>
-                    <td class="pronunciation">डेन</td>
-                    <td class="hindi">क्योंकि</td>
-                    <td class="english">because / for</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>62</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('weil')" title="Click to hear pronunciation">🔊</span>weil</td>
-                    <td class="pronunciation">वाइल</td>
-                    <td class="hindi">क्योंकि</td>
-                    <td class="english">because</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>63</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wenn')" title="Click to hear pronunciation">🔊</span>wenn</td>
-                    <td class="pronunciation">वेन</td>
-                    <td class="hindi">अगर / जब</td>
-                    <td class="english">if / when</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>64</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('dass')" title="Click to hear pronunciation">🔊</span>dass</td>
-                    <td class="pronunciation">दास</td>
-                    <td class="hindi">कि</td>
-                    <td class="english">that (conjunction)</td>
-                </tr>
-                
-                <tr style="background-color: #b39ddb90;">
-                    <td>66</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('sondern')" title="Click to hear pronunciation">🔊</span>sondern</td>
-                    <td class="pronunciation">ज़ोंडर्न</td>
-                    <td class="hindi">बल्कि</td>
-                    <td class="english">but rather</td>
-                </tr>
-                <tr style="background-color: #b39ddb90;">
-                    <td>67</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('deshalb')" title="Click to hear pronunciation">🔊</span>deshalb</td>
-                    <td class="pronunciation">देसहाल्प</td>
-                    <td class="hindi">इसलिए</td>
-                    <td class="english">therefore</td>
-                </tr>
-                <!-- Particles & Others -->
-                <tr style="background-color: #b39ddba0;">
-                    <td>68</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nicht')" title="Click to hear pronunciation">🔊</span>nicht</td>
-                    <td class="pronunciation">निख्ट</td>
-                    <td class="hindi">नहीं</td>
-                    <td class="english">not ❌</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>69</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('kein')" title="Click to hear pronunciation">🔊</span>kein</td>
-                    <td class="pronunciation">काइन</td>
-                    <td class="hindi">कोई नहीं</td>
-                    <td class="english">no / not any</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>70</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('ja')" title="Click to hear pronunciation">🔊</span>ja</td>
-                    <td class="pronunciation">या</td>
-                    <td class="hindi">हाँ</td>
-                    <td class="english">yes ✓</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>71</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('nein')" title="Click to hear pronunciation">🔊</span>nein</td>
-                    <td class="pronunciation">नाइन</td>
-                    <td class="hindi">नहीं</td>
-                    <td class="english">no ✗</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>72</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('doch')" title="Click to hear pronunciation">🔊</span>doch</td>
-                    <td class="pronunciation">डोख</td>
-                    <td class="hindi">हाँ (विरोध में)</td>
-                    <td class="english">yes (contradicting) / but</td>
-                </tr>
-                
-                <tr style="background-color: #b39ddba0;">
-                    <td>74</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wahrscheinlich')" title="Click to hear pronunciation">🔊</span>wahrscheinlich</td>
-                    <td class="pronunciation">वारशाइनलिख</td>
-                    <td class="hindi">संभवतः</td>
-                    <td class="english">probably</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>75</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('natürlich')" title="Click to hear pronunciation">🔊</span>natürlich</td>
-                    <td class="pronunciation">नाट्युर्लिख</td>
-                    <td class="hindi">बेशक</td>
-                    <td class="english">of course / naturally</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>76</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('eigentlich')" title="Click to hear pronunciation">🔊</span>eigentlich</td>
-                    <td class="pronunciation">आइगेंट्लिख</td>
-                    <td class="hindi">वास्तव में</td>
-                    <td class="english">actually</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>77</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('wirklich')" title="Click to hear pronunciation">🔊</span>wirklich</td>
-                    <td class="pronunciation">विर्कलिख</td>
-                    <td class="hindi">सच में</td>
-                    <td class="english">really</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>78</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('genau')" title="Click to hear pronunciation">🔊</span>genau</td>
-                    <td class="pronunciation">गेनाउ</td>
-                    <td class="hindi">बिल्कुल</td>
-                    <td class="english">exactly</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>79</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('also')" title="Click to hear pronunciation">🔊</span>also</td>
-                    <td class="pronunciation">आल्ज़ो</td>
-                    <td class="hindi">तो</td>
-                    <td class="english">so / well</td>
-                </tr>
-                <tr style="background-color: #b39ddba0;">
-                    <td>80</td>
-                    <td class="german"><span class="audio-btn" onclick="speakGerman('übrigens')" title="Click to hear pronunciation">🔊</span>übrigens</td>
-                    <td class="pronunciation">युब्रिगेन्स</td>
-                    <td class="hindi">वैसे</td>
-                    <td class="english">by the way</td>
+                <tr style="background-color: #ffcc80a0;">
+                    <td>40</td>
+                    <td class="german"><span class="audio-btn" onclick="speakGerman('wichtig')" title="Click to hear pronunciation">🔊</span>wichtig</td>
+                    <td class="pronunciation">विख्टिग</td>
+                    <td class="hindi">महत्वपूर्ण</td>
+                    <td class="english">important ⭐</td>
                 </tr>
             </tbody>
         </table>
@@ -11253,10 +10744,10 @@
 
     <div style="text-align: center; padding: 30px; margin: 20px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
         <h2 style="color: white; margin: 0; font-size: 28px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-            📊 Total Words: <span style="font-size: 36px; font-weight: 900;">1521</span>
+            📊 Total Words: <span style="font-size: 36px; font-weight: 900;">1464</span>
         </h2>
         <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 16px;">
-            कुल शब्द: 1521 | Complete A1 German Vocabulary
+            कुल शब्द: 1464 | Complete A1 German Vocabulary
         </p>
     </div>
 
@@ -11273,6 +10764,66 @@
             const s = document.getElementById('sidebar'), o = document.querySelector('.sidebar-overlay');
             if (s && o) { s.classList.toggle('open'); o.classList.toggle('active'); }
         }
+        
+        // Universal navigation fix - uses sessionStorage to store base path
+        (function() {
+            function getBasePath() {
+                let storedPath = sessionStorage.getItem('germanAppBasePath');
+                if (storedPath) return storedPath;
+                
+                const currentUrl = window.location.href;
+                let basePath = null;
+                
+                if (currentUrl.startsWith('content://')) {
+                    const fileMatch = currentUrl.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                    if (fileMatch) {
+                        basePath = 'file://' + fileMatch[1] + '/';
+                    } else {
+                        const contentMatch = currentUrl.match(/content:\/\/[^\/]+\/\d+\/(.+)\/[^\/]+\.html/);
+                        if (contentMatch) {
+                            const pathPart = contentMatch[1];
+                            if (pathPart.includes('file://')) {
+                                const filePathMatch = pathPart.match(/file:\/\/\/[^\/]+(.+)\/[^\/]+\.html/);
+                                if (filePathMatch) {
+                                    basePath = 'file://' + filePathMatch[1] + '/';
+                                }
+                            } else {
+                                const lastSlash = currentUrl.lastIndexOf('/');
+                                basePath = currentUrl.substring(0, lastSlash + 1);
+                            }
+                        } else {
+                            const lastSlash = currentUrl.lastIndexOf('/');
+                            basePath = currentUrl.substring(0, lastSlash + 1);
+                        }
+                    }
+                }
+                else if (currentUrl.includes('INetCache') || currentUrl.includes('Temp') || currentUrl.includes('Cache')) {
+                    basePath = 'file:///D:/german/';
+                }
+                else {
+                    const lastSlash = currentUrl.lastIndexOf('/');
+                    basePath = currentUrl.substring(0, lastSlash + 1);
+                }
+                
+                if (basePath) sessionStorage.setItem('germanAppBasePath', basePath);
+                return basePath;
+            }
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const basePath = getBasePath();
+                const links = document.querySelectorAll('a[href$=".html"]');
+                links.forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        const href = this.getAttribute('href');
+                        if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                            e.preventDefault();
+                            const targetPath = basePath + href;
+                            window.location.href = targetPath;
+                        }
+                    });
+                });
+            });
+        })();
     </script>
 </body>
 </html>
