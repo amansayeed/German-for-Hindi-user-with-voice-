@@ -5,118 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <title>German Grammar A1</title>
   <link rel="stylesheet" href="../../css/common.css">
+  <link rel="stylesheet" href="../../css/navbar.css">
   <style>
+    /* Page-specific styles - works WITH navbar.css */
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
-      margin: 20px;
-      margin-left: 280px;
       background-color: #f5f5f5;
       line-height: 1.6;
-      transition: margin-left 0.3s ease;
-    }
-    
-    /* Sidebar Navigation */
-    .sidebar {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 260px;
-      height: 100vh;
-      background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%);
-      box-shadow: 4px 0 12px rgba(0,0,0,0.3);
-      z-index: 1000;
-      overflow-y: auto;
-      overflow-x: hidden;
-      transition: transform 0.3s ease;
-    }
-    
-    .sidebar-header {
-      padding: 20px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      text-align: center;
-      border-bottom: 2px solid rgba(255,255,255,0.2);
-    }
-    
-    .sidebar-header h2 {
-      margin: 0;
-      font-size: 1.3em;
-      font-weight: bold;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-    }
-    
-    .sidebar-nav {
-      padding: 10px 0;
-    }
-    
-    .sidebar-nav-item {
-      display: block;
-      padding: 14px 20px;
-      color: #e2e8f0;
-      text-decoration: none;
-      border-left: 4px solid transparent;
-      transition: all 0.2s ease;
-      font-size: 15px;
-      font-weight: 500;
-    }
-    
-    .sidebar-nav-item:hover {
-      background: rgba(102, 126, 234, 0.2);
-      border-left-color: #667eea;
-      color: #ffffff;
-      padding-left: 24px;
-    }
-    
-    .sidebar-nav-item.active {
-      background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
-      border-left-color: #667eea;
-      color: #ffffff;
-      font-weight: 700;
-    }
-    
-    .sidebar-nav-item .emoji {
-      margin-right: 10px;
-      font-size: 1.2em;
-    }
-    
-    .sidebar-toggle {
-      display: none;
-      position: fixed;
-      top: 15px;
-      left: 15px;
-      z-index: 1001;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      border: none;
-      padding: 12px 16px;
-      border-radius: 8px;
-      font-size: 20px;
-      cursor: pointer;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-      transition: all 0.3s ease;
-    }
-    
-    .sidebar-toggle:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.4);
-    }
-    
-    .sidebar-overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.5);
-      z-index: 999;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    
-    .sidebar-overlay.active {
-      display: block;
-      opacity: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* Margins handled by navbar.css based on screen size */
     }
     
     h1 {
@@ -231,30 +129,9 @@
       margin-bottom: 15px;
     }
     
-    /* Mobile Responsive Styles */
+    /* Mobile Responsive Styles - page-specific only */
+    /* Sidebar responsive behavior handled by navbar.css */
     @media screen and (max-width: 768px) {
-      body {
-        margin: 10px;
-        margin-left: 10px;
-        font-size: 14px;
-      }
-      
-      .sidebar {
-        transform: translateX(-100%);
-      }
-      
-      .sidebar.open {
-        transform: translateX(0);
-      }
-      
-      .sidebar-toggle {
-        display: block;
-      }
-      
-      .sidebar-overlay.active {
-        display: block;
-      }
-      
       h1 {
         font-size: 1.8em;
         padding: 15px;
@@ -285,11 +162,6 @@
     }
     
     @media screen and (max-width: 480px) {
-      body {
-        margin: 5px;
-        font-size: 13px;
-      }
-      
       h1 {
         font-size: 1.5em;
         padding: 12px;
@@ -315,31 +187,7 @@
         min-height: 20px;
       }
     }
-    
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-      body {
-        margin: 15px;
-        margin-left: 270px;
-      }
-    }
-    
-    @media print {
-      body {
-        margin: 0;
-        background-color: white;
-      }
-      .sidebar {
-        display: none;
-      }
-      .sidebar-toggle {
-        display: none;
-      }
-      .sidebar-overlay {
-        display: none;
-      }
-    }
   </style>
-  <script src="../../js/common.js"></script>
 </head>
 <body>
   <!-- Sidebar Navigation -->
@@ -869,5 +717,8 @@
 </ul>
   </div>
 
+  <!-- Scripts -->
+  <script src="../../js/common.js"></script>
+  <script src="../../js/navbar.js"></script>
 </body>
 </html>
