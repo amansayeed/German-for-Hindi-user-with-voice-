@@ -172,6 +172,110 @@
             display: inline-flex;
             align-items: center;
         }
+        .alphabet-diff-chart {
+            background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%);
+            border: 3px solid #e74c3c;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 0 0 30px 0;
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.2);
+        }
+        .alphabet-diff-chart h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .alphabet-diff-chart .subtitle {
+            color: #c0392b;
+            font-size: 0.95em;
+            margin-bottom: 16px;
+            font-style: italic;
+        }
+        .alphabet-diff-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+        }
+        .alphabet-diff-item {
+            background: white;
+            border: 2px solid #e74c3c;
+            border-radius: 8px;
+            padding: 12px 14px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        .alphabet-diff-item:hover {
+            background: #ffe0e0;
+            transform: scale(1.03);
+            box-shadow: 0 4px 10px rgba(231, 76, 60, 0.25);
+        }
+        .alphabet-diff-item .letter {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #e74c3c;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .alphabet-diff-item .en-sound {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 2px;
+        }
+        .alphabet-diff-item .de-sound {
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .diff-table-wrap {
+            overflow-x: auto;
+            margin-top: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .diff-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            font-size: 15px;
+        }
+        .diff-table th {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 14px 12px;
+            text-align: left;
+            font-weight: 700;
+            border: 1px solid #b9291f;
+        }
+        .diff-table td {
+            padding: 12px 14px;
+            border: 1px solid #f0d0d0;
+            vertical-align: top;
+        }
+        .diff-table tr:nth-child(even) { background: #fffafa; }
+        .diff-table tr:hover { background: #ffe8e8; }
+        .diff-table .col-letter {
+            width: 52px;
+            text-align: center;
+            font-size: 1.6em;
+            font-weight: bold;
+            color: #e74c3c;
+            cursor: pointer;
+            background: #fff5f5;
+        }
+        .diff-table .col-letter:hover { background: #ffe0e0; }
+        .diff-table .col-en { color: #555; max-width: 280px; }
+        .diff-table .col-de { font-weight: 600; color: #2c3e50; }
+        .diff-table .col-example { white-space: nowrap; }
+        .diff-table .ex-word {
+            cursor: pointer;
+            color: #c0392b;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .diff-table .ex-word:hover { color: #e74c3c; }
+        .diff-table .ipa { font-size: 0.85em; color: #666; font-family: inherit; }
         
         /* Mobile Responsive Styles - page-specific only */
         /* Sidebar responsive behavior handled by navbar.css */
@@ -236,6 +340,13 @@
                 background-color: #f8f9fa !important;
                 transform: none;
             }
+            .alphabet-diff-chart {
+                padding: 16px;
+                margin-bottom: 24px;
+            }
+            .diff-table { font-size: 13px; }
+            .diff-table th, .diff-table td { padding: 10px 8px; }
+            .diff-table .col-letter { font-size: 1.4em; width: 44px; }
         }
         
         @media screen and (max-width: 480px) {
@@ -273,6 +384,13 @@
                 padding: 15px;
                 font-size: 1.1em;
             }
+            .alphabet-diff-chart {
+                padding: 12px;
+                margin-bottom: 20px;
+            }
+            .diff-table { font-size: 12px; }
+            .diff-table th, .diff-table td { padding: 8px 6px; }
+            .diff-table .col-letter { font-size: 1.3em; width: 40px; }
         }
         
         @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -343,6 +461,133 @@
     <strong>Target Audience:</strong> Hindi + English Speakers<br>
     <strong>Levels Covered:</strong> A1 to C2<br>
     <strong>Content:</strong> German consonant clusters, pronunciation rules, Hindi pronunciation (देवनागरी), English & Hindi meanings, 3 example words per cluster.</p>
+
+    <div class="alphabet-diff-chart">
+        <h2 style="color: #e74c3c; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0;">⚠️ Letters That Sound Different from English</h2>
+        <p class="subtitle">Click a <strong>letter</strong> to hear its name; click an <strong>example word</strong> to hear it in a word. Focus on these first!</p>
+        <div class="diff-table-wrap">
+            <table class="diff-table">
+                <thead>
+                    <tr>
+                        <th>Letter</th>
+                        <th>English sound</th>
+                        <th>German sound</th>
+                        <th>Example (click 🔊)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('A')" title="Click to hear letter">A</td>
+                        <td class="col-en">"ay" (name), "a" (cat), "ah" (father) — varies.</td>
+                        <td class="col-de">Open "ah" — like <em>father</em>. Never "ay". Short [a] in closed syllables.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Tag')" title="Click to hear">Tag</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('Ä')" title="Click to hear letter">Ä</td>
+                        <td class="col-en">No equivalent in English.</td>
+                        <td class="col-de">Like "eh" in <em>air</em> or <em>bed</em> — mouth open. Long or short.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Bär')" title="Click to hear">Bär</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('E')" title="Click to hear letter">E</td>
+                        <td class="col-en">"ee" (see), "eh" (bed), "uh" (the) — varies.</td>
+                        <td class="col-de">Pure "eh" — long [eː] or short open [ɛ]. No glide like English.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Beet')" title="Click to hear">Beet</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('G')" title="Click to hear letter">G</td>
+                        <td class="col-en">"g" (go) or "j" (gem).</td>
+                        <td class="col-de">Hard "g" at start; at end of syllable → "k"; after e/i/ä/ö/ü often soft "ch" [ç].</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('König')" title="Click to hear">König</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('H')" title="Click to hear letter">H</td>
+                        <td class="col-en">"h" (house) — always pronounced.</td>
+                        <td class="col-de">"h" only at <strong>start</strong> of syllable; after a vowel = <strong>silent</strong> (vowel lengthened).</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('gehen')" title="Click to hear">gehen</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('J')" title="Click to hear letter">J</td>
+                        <td class="col-en">"j" [dʒ] (jar, jump).</td>
+                        <td class="col-de">Always "y" [j] like <em>yes</em> — never like English "j".</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Jahr')" title="Click to hear">Jahr</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('K')" title="Click to hear letter">K</td>
+                        <td class="col-en">"k" with a puff of air (key, cat).</td>
+                        <td class="col-de">"k" with <strong>no</strong> puff — crisp, like "k" in <em>ski</em>.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Kind')" title="Click to hear">Kind</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('Ö')" title="Click to hear letter">Ö</td>
+                        <td class="col-en">No equivalent in English.</td>
+                        <td class="col-de">Say "eh" then <strong>round your lips</strong>. Like "er" in British "her" but more rounded.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('schön')" title="Click to hear">schön</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('P')" title="Click to hear letter">P</td>
+                        <td class="col-en">"p" with a puff of air (pin, pet).</td>
+                        <td class="col-de">"p" with <strong>no</strong> puff — like "p" in <em>spin</em> (after s).</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Park')" title="Click to hear">Park</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('Q')" title="Click to hear letter">Q</td>
+                        <td class="col-en">"kw" (queen, quick).</td>
+                        <td class="col-de">Always "kv" — Q only appears as <strong>Qu</strong>. Say "k" + "v".</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Quelle')" title="Click to hear">Quelle</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('T')" title="Click to hear letter">T</td>
+                        <td class="col-en">"t" with a puff of air (top, ten).</td>
+                        <td class="col-de">"t" with <strong>no</strong> puff — crisp, like "t" in <em>stop</em>.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Tag')" title="Click to hear">Tag</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('U')" title="Click to hear letter">U</td>
+                        <td class="col-en">"uh" (cup), "oo" (put), "yoo" (use) — varies.</td>
+                        <td class="col-de">Pure "oo" [uː] like <em>moon</em> — no "y" sound, lips rounded.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('gut')" title="Click to hear">gut</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('Ü')" title="Click to hear letter">Ü</td>
+                        <td class="col-en">No equivalent in English.</td>
+                        <td class="col-de">Say "ee" (see) with <strong>lips rounded</strong> (puckered).</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('über')" title="Click to hear">über</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('V')" title="Click to hear letter">V</td>
+                        <td class="col-en">"v" (very, love).</td>
+                        <td class="col-de">Usually "f" (Vater, von); in loanwords sometimes "v".</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Vater')" title="Click to hear">Vater</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('W')" title="Click to hear letter">W</td>
+                        <td class="col-en">"w" (water) — lips rounded.</td>
+                        <td class="col-de">"v" — lips <strong>not</strong> rounded! Like English <em>v</em> in <em>very</em>.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Wasser')" title="Click to hear">Wasser</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('Y')" title="Click to hear letter">Y</td>
+                        <td class="col-en">"y" (yes) or "i" (myth).</td>
+                        <td class="col-de">In loanwords: like "ü" (Yoga) or "y" (Yacht). Rare in native words.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Yoga')" title="Click to hear">Yoga</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('Z')" title="Click to hear letter">Z</td>
+                        <td class="col-en">"z" [z] (zoo) — voiced.</td>
+                        <td class="col-de">"ts" [ts] — like <em>cats</em> or <em>pizza</em>. Unvoiced, crisp.</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Zwei')" title="Click to hear">Zwei</span> 🔊</td>
+                    </tr>
+                    <tr>
+                        <td class="col-letter" onclick="speakGerman('ß')" title="Click to hear letter">ß</td>
+                        <td class="col-en">No equivalent (we use "ss").</td>
+                        <td class="col-de">Sharp "ss" [s] after a <strong>long vowel</strong>; never voiced. Not "z".</td>
+                        <td class="col-example"><span class="ex-word" onclick="speakGerman('Straße')" title="Click to hear">Straße</span> 🔊</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <div style="background: white; padding: 30px; border-radius: 10px; margin: 30px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
         <h2 style="color: #e74c3c; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-top: 0;">🔤 German Alphabet with Sounds</h2>
