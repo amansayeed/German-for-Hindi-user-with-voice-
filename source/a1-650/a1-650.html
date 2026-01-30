@@ -6,12 +6,44 @@
     <title>German A1 Vocabulary - Organized by Themes</title>
     
     <style>
+        /* Theme: Light (default) and Dark */
+        :root {
+            --bg-main: #f5f5f5;
+            --bg-card: #ffffff;
+            --bg-card-alt: #f8f9fa;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --border-color: #ddd;
+            --accent: #1565c0;
+            --german-color: #0d47a1;
+            --english-color: #1b5e20;
+            --hindi-color: #4a148c;
+            --th-bg: #0d47a1;
+            --toc-bg: #f5f5f5;
+            --toc-hover: #e3f2fd;
+        }
+        body.theme-dark {
+            --bg-main: #1a1a2e;
+            --bg-card: #16213e;
+            --bg-card-alt: #1f2937;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --border-color: #334155;
+            --accent: #60a5fa;
+            --german-color: #93c5fd;
+            --english-color: #86efac;
+            --hindi-color: #c4b5fd;
+            --th-bg: #1e3a5f;
+            --toc-bg: #1f2937;
+            --toc-hover: #334155;
+        }
         /* Common Styles - Inlined for offline use */
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
             margin: 20px; margin-left: 280px;
-            background-color: #f5f5f5;
-            line-height: 1.6; transition: margin-left 0.3s ease;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6; transition: margin-left 0.3s ease, background-color 0.3s ease, color 0.3s ease;
         }
         .sidebar { position: fixed; left: 0; top: 0; width: 260px; height: 100vh; background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%); box-shadow: 4px 0 12px rgba(0,0,0,0.3); z-index: 1000; overflow-y: auto; transition: transform 0.3s ease; }
         .sidebar-header { padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; }
@@ -31,27 +63,29 @@
         /* Page-specific styles */
         h1 {
             text-align: center;
-            color: #1565c0;
+            color: var(--accent);
             margin-bottom: 10px;
         }
         .subtitle {
             text-align: center;
-            color: #666;
+            color: var(--text-secondary);
             margin-bottom: 30px;
             font-size: 16px;
         }
         .category {
             margin-bottom: 30px;
-            background: white;
+            background: var(--bg-card);
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             overflow: hidden;
+            transition: background-color 0.3s ease;
         }
+        body.theme-dark .category { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
         .category-header {
             padding: 15px 20px;
             font-size: 20px;
             font-weight: bold;
-            color: #333;
+            color: var(--text-primary);
             display: flex;
             align-items: center;
             gap: 10px;
@@ -61,7 +95,7 @@
         }
         .category-header .count {
             font-size: 14px;
-            color: #666;
+            color: var(--text-secondary);
             font-weight: normal;
             margin-left: auto;
         }
@@ -70,7 +104,7 @@
             border-collapse: collapse;
         }
         th {
-            background-color: #0d47a1;
+            background-color: var(--th-bg);
             color: white;
             padding: 14px 15px;
             text-align: left;
@@ -81,15 +115,15 @@
         }
         td {
             padding: 14px 15px;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid var(--border-color);
             vertical-align: middle;
         }
         tr:hover {
-            background-color: rgba(0,0,0,0.03) !important;
+            background-color: var(--bg-card-alt) !important;
         }
         .german {
             font-weight: 900;
-            color: #0d47a1;
+            color: var(--german-color);
             font-size: 20px;
             letter-spacing: 0.3px;
         }
@@ -117,12 +151,12 @@
             align-items: center;
         }
         .english {
-            color: #1b5e20;
+            color: var(--english-color);
             font-size: 16px;
             font-weight: 700;
         }
         .hindi {
-            color: #4a148c;
+            color: var(--hindi-color);
             font-size: 16px;
             font-weight: 700;
         }
@@ -165,27 +199,29 @@
         }
         .tip {
             font-size: 12px;
-            color: #888;
+            color: var(--text-secondary);
             font-style: italic;
         }
         .note {
             text-align: center;
-            color: #666;
+            color: var(--text-secondary);
             margin-top: 30px;
             padding: 20px;
-            background: white;
+            background: var(--bg-card);
             border-radius: 10px;
         }
         .toc {
-            background: white;
+            background: var(--bg-card);
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 30px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease;
         }
+        body.theme-dark .toc { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
         .toc h2 {
             margin-top: 0;
-            color: #1565c0;
+            color: var(--accent);
         }
         .toc-grid {
             display: grid;
@@ -194,17 +230,43 @@
         }
         .toc-item {
             padding: 8px 12px;
-            background: #f5f5f5;
+            background: var(--toc-bg);
             border-radius: 5px;
             text-decoration: none;
-            color: #333;
+            color: var(--text-primary);
             display: flex;
             align-items: center;
             gap: 8px;
+            transition: background-color 0.2s ease;
         }
         .toc-item:hover {
-            background: #e3f2fd;
+            background: var(--toc-hover);
         }
+        /* Theme toggle in sidebar */
+        .theme-toggle-wrap {
+            padding: 14px 20px;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            margin-top: 8px;
+        }
+        .theme-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 10px 14px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 8px;
+            color: #e2e8f0;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+        .theme-toggle:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .theme-toggle .icon { font-size: 18px; }
         
         /* ============================================
            PAGE-SPECIFIC RESPONSIVE STYLES
@@ -271,6 +333,7 @@
             .toc-item:active { background: #bbdefb; }
         }
     </style>
+    <link rel="stylesheet" href="../../css/theme.css">
 </head>
 <body>
     <script>
@@ -340,6 +403,12 @@
             <a href="../clusters/clusters.html" class="sidebar-nav-item">
                 <span class="emoji">🗣️</span> Consonant Clusters
             </a>
+            <div class="theme-toggle-wrap">
+                <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme">
+                    <span class="icon" id="theme-icon">🌙</span>
+                    <span id="theme-label">Dark</span>
+                </button>
+            </div>
         </div>
     </nav>
     
@@ -8389,6 +8458,7 @@
     </div>
 
     <!-- Inline Scripts for offline use -->
+    <script src="../../js/theme.js"></script>
     <script>
         function speakGerman(word) {
             if (window.speechSynthesis.speaking) window.speechSynthesis.cancel();
