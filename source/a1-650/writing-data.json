@@ -1,0 +1,6284 @@
+{
+"Greetings_&_Basics": [
+{
+"de": "Hallo",
+"en": "Hello",
+"hi": "हैलो"
+},
+{
+"de": "Guten Morgen",
+"en": "Good morning",
+"hi": "सुप्रभात"
+},
+{
+"de": "Guten Tag",
+"en": "Good day",
+"hi": "नमस्कार"
+},
+{
+"de": "Guten Abend",
+"en": "Good evening",
+"hi": "शुभ संध्या"
+},
+{
+"de": "Gute Nacht",
+"en": "Good night",
+"hi": "शुभ रात्रि"
+},
+{
+"de": "Tschüss",
+"en": "Bye",
+"hi": "बाय"
+},
+{
+"de": "Auf Wiedersehen",
+"en": "Goodbye",
+"hi": "अलविदा"
+},
+{
+"de": "Bis bald",
+"en": "See you soon",
+"hi": "जल्दी मिलते हैं"
+},
+{
+"de": "Bis später",
+"en": "See you later",
+"hi": "बाद में मिलते हैं"
+},
+{
+"de": "Bis morgen",
+"en": "See you tomorrow",
+"hi": "कल मिलते हैं"
+},
+{
+"de": "Wie geht's?",
+"en": "How are you?",
+"hi": "कैसे हो?"
+},
+{
+"de": "Mir geht es gut",
+"en": "I'm fine",
+"hi": "मैं ठीक हूँ"
+},
+{
+"de": "Danke, gut",
+"en": "Thanks, good",
+"hi": "धन्यवाद, अच्छा"
+},
+{
+"de": "Ja",
+"en": "Yes",
+"hi": "हाँ"
+},
+{
+"de": "Nein",
+"en": "No",
+"hi": "नहीं"
+},
+{
+"de": "Bitte",
+"en": "Please / You're welcome",
+"hi": "कृपया"
+},
+{
+"de": "Danke",
+"en": "Thank you",
+"hi": "धन्यवाद"
+},
+{
+"de": "Danke schön",
+"en": "Thank you very much",
+"hi": "बहुत धन्यवाद"
+},
+{
+"de": "Vielen Dank",
+"en": "Many thanks",
+"hi": "बहुत धन्यवाद"
+},
+{
+"de": "Bitte schön",
+"en": "You're welcome",
+"hi": "कोई बात नहीं"
+},
+{
+"de": "Entschuldigung",
+"en": "Sorry / Excuse me",
+"hi": "माफ़ कीजिए"
+},
+{
+"de": "Es tut mir leid",
+"en": "I'm sorry",
+"hi": "मुझे खेद है"
+},
+{
+"de": "Kein Problem",
+"en": "No problem",
+"hi": "कोई बात नहीं"
+},
+{
+"de": "Freut mich",
+"en": "Nice to meet you",
+"hi": "आपसे मिलकर खुशी हुई"
+},
+{
+"de": "Herzlich willkommen",
+"en": "Welcome",
+"hi": "स्वागत है"
+},
+{
+"de": "Guten Appetit",
+"en": "Enjoy your meal",
+"hi": "खाने का आनंद लें"
+},
+{
+"de": "Prost!",
+"en": "Cheers!",
+"hi": "चीयर्स!"
+},
+{
+"de": "Gesundheit!",
+"en": "Bless you!",
+"hi": "भगवान करे!"
+},
+{
+"de": "Alles Gute",
+"en": "All the best",
+"hi": "शुभकामनाएं"
+},
+{
+"de": "Viel Glück",
+"en": "Good luck",
+"hi": "शुभकामनाएं"
+},
+{
+"de": "Viel Spaß",
+"en": "Have fun",
+"hi": "मज़े करो"
+},
+{
+"de": "Gute Reise",
+"en": "Have a good trip",
+"hi": "शुभ यात्रा"
+},
+{
+"de": "Wie bitte?",
+"en": "Pardon?",
+"hi": "क्या कहा?"
+},
+{
+"de": "Ich verstehe nicht",
+"en": "I don't understand",
+"hi": "मुझे समझ नहीं आया"
+},
+{
+"de": "Langsam, bitte",
+"en": "Slowly, please",
+"hi": "धीरे बोलिए"
+},
+{
+"de": "Noch einmal, bitte",
+"en": "Once more, please",
+"hi": "एक बार और"
+},
+{
+"de": "Natürlich!",
+"en": "Of course!",
+"hi": "बिल्कुल!"
+},
+{
+"de": "Genau!",
+"en": "Exactly!",
+"hi": "बिल्कुल सही!"
+},
+{
+"de": "Richtig!",
+"en": "Right!",
+"hi": "सही!"
+},
+{
+"de": "Alles klar",
+"en": "Got it",
+"hi": "समझ गया"
+},
+{
+"de": "Moment mal",
+"en": "Wait a moment",
+"hi": "एक मिनट"
+},
+{
+"de": "Hilfe!",
+"en": "Help!",
+"hi": "मदद!"
+},
+{
+"de": "Achtung!",
+"en": "Watch out!",
+"hi": "ध्यान दो!"
+},
+{
+"de": "Vorsicht!",
+"en": "Careful!",
+"hi": "सावधान!"
+},
+{
+"de": "Toll!",
+"en": "Great!",
+"hi": "बहुत अच्छा!"
+},
+{
+"de": "Super!",
+"en": "Super!",
+"hi": "बढ़िया!"
+},
+{
+"de": "Prima!",
+"en": "Great!",
+"hi": "उत्तम!"
+},
+{
+"de": "Schade!",
+"en": "Too bad!",
+"hi": "अफ़सोस!"
+},
+{
+"de": "Macht nichts",
+"en": "No matter",
+"hi": "कोई बात नहीं"
+},
+{
+"de": "Keine Ahnung",
+"en": "No idea",
+"hi": "पता नहीं"
+},
+{
+"de": "Ich weiß nicht",
+"en": "I don't know",
+"hi": "मुझे नहीं पता"
+},
+{
+"de": "Stimmt!",
+"en": "That's right!",
+"hi": "सही है!"
+},
+{
+"de": "Ich auch",
+"en": "Me too",
+"hi": "मैं भी"
+},
+{
+"de": "Sicher!",
+"en": "Sure!",
+"hi": "ज़रूर!"
+},
+{
+"de": "Gern geschehen",
+"en": "You're welcome",
+"hi": "खुशी से"
+},
+{
+"de": "Einverstanden",
+"en": "Agreed",
+"hi": "मंज़ूर"
+},
+{
+"de": "Es geht",
+"en": "So-so",
+"hi": "ठीक-ठाक"
+},
+{
+"de": "Nicht so gut",
+"en": "Not so good",
+"hi": "इतना अच्छा नहीं"
+},
+{
+"de": "Was ist los?",
+"en": "What's up?",
+"hi": "क्या हुआ?"
+},
+{
+"de": "Bis dann!",
+"en": "See you then!",
+"hi": "फिर मिलेंगे!"
+},
+{
+"de": "Gute Besserung!",
+"en": "Get well soon!",
+"hi": "जल्दी ठीक हो जाओ!"
+},
+{
+"de": "Schönes Wochenende!",
+"en": "Have a nice weekend!",
+"hi": "अच्छा वीकेंड!"
+}
+],
+"Colors": [
+{
+"de": "die Farbe",
+"en": "color",
+"hi": "रंग"
+},
+{
+"de": "rot",
+"en": "red 🔴",
+"hi": "लाल"
+},
+{
+"de": "blau",
+"en": "blue 🔵",
+"hi": "नीला"
+},
+{
+"de": "gelb",
+"en": "yellow 🟡",
+"hi": "पीला"
+},
+{
+"de": "grün",
+"en": "green 🟢",
+"hi": "हरा"
+},
+{
+"de": "orange",
+"en": "orange 🟠",
+"hi": "नारंगी"
+},
+{
+"de": "schwarz",
+"en": "black ⚫",
+"hi": "काला"
+},
+{
+"de": "weiß",
+"en": "white ⚪",
+"hi": "सफ़ेद"
+},
+{
+"de": "grau",
+"en": "gray / grey",
+"hi": "धूसर / स्लेटी"
+},
+{
+"de": "braun",
+"en": "brown 🟤",
+"hi": "भूरा"
+},
+{
+"de": "hellblau",
+"en": "light blue",
+"hi": "हल्का नीला"
+},
+{
+"de": "dunkelblau",
+"en": "dark blue",
+"hi": "गहरा नीला"
+},
+{
+"de": "hellgrün",
+"en": "light green",
+"hi": "हल्का हरा"
+},
+{
+"de": "dunkelgrün",
+"en": "dark green",
+"hi": "गहरा हरा"
+},
+{
+"de": "türkis",
+"en": "turquoise",
+"hi": "फ़िरोज़ी"
+},
+{
+"de": "beige",
+"en": "beige",
+"hi": "बेज / मटमैला"
+},
+{
+"de": "hellrot",
+"en": "light red",
+"hi": "हल्का लाल"
+},
+{
+"de": "dunkelrot",
+"en": "dark red",
+"hi": "गहरा लाल"
+},
+{
+"de": "hellgrau",
+"en": "light gray",
+"hi": "हल्का धूसर"
+},
+{
+"de": "dunkelgrau",
+"en": "dark gray",
+"hi": "गहरा धूसर"
+},
+{
+"de": "hellbraun",
+"en": "light brown / tan",
+"hi": "हल्का भूरा"
+},
+{
+"de": "dunkelbraun",
+"en": "dark brown",
+"hi": "गहरा भूरा"
+},
+{
+"de": "hell",
+"en": "light (color)",
+"hi": "हल्का"
+},
+{
+"de": "dunkel",
+"en": "dark",
+"hi": "गहरा"
+},
+{
+"de": "bunt",
+"en": "colorful",
+"hi": "रंगीन"
+},
+{
+"de": "weinrot",
+"en": "wine red / burgundy",
+"hi": "बरगंडी / वाइन लाल"
+},
+{
+"de": "marineblau",
+"en": "navy blue",
+"hi": "नेवी नीला"
+},
+{
+"de": "olivgrün",
+"en": "olive green",
+"hi": "जैतून हरा"
+},
+{
+"de": "cremefarben",
+"en": "cream colored",
+"hi": "क्रीम रंग"
+},
+{
+"de": "koralle",
+"en": "coral",
+"hi": "मूंगा रंग"
+},
+{
+"de": "mintgrün",
+"en": "mint green",
+"hi": "पुदीना हरा"
+},
+{
+"de": "lachsfarben",
+"en": "salmon",
+"hi": "सैल्मन रंग"
+},
+{
+"de": "flieder",
+"en": "lilac",
+"hi": "हल्का बैंगनी"
+},
+{
+"de": "khaki",
+"en": "khaki",
+"hi": "खाकी"
+},
+{
+"de": "elfenbein",
+"en": "ivory",
+"hi": "हाथी दांत रंग"
+},
+{
+"de": "rostbraun",
+"en": "rust brown",
+"hi": "जंग रंग"
+}
+],
+"Family_&_People": [
+{
+"de": "die Familie",
+"en": "family 👨‍👩‍👧",
+"hi": "परिवार"
+},
+{
+"de": "die Person",
+"en": "person",
+"hi": "व्यक्ति"
+},
+{
+"de": "die Leute",
+"en": "people",
+"hi": "लोग"
+},
+{
+"de": "die Eltern",
+"en": "parents 👨‍👩",
+"hi": "माता-पिता"
+},
+{
+"de": "der Vater",
+"en": "father 👨",
+"hi": "पिता"
+},
+{
+"de": "die Mutter",
+"en": "mother 👩",
+"hi": "माँ"
+},
+{
+"de": "der Papa",
+"en": "dad (informal)",
+"hi": "पापा"
+},
+{
+"de": "die Mama",
+"en": "mom (informal)",
+"hi": "मम्मी"
+},
+{
+"de": "das Kind",
+"en": "child 👶",
+"hi": "बच्चा"
+},
+{
+"de": "die Kinder",
+"en": "children",
+"hi": "बच्चे"
+},
+{
+"de": "der Sohn",
+"en": "son 👦",
+"hi": "बेटा"
+},
+{
+"de": "die Tochter",
+"en": "daughter 👧",
+"hi": "बेटी"
+},
+{
+"de": "das Baby",
+"en": "baby 👶",
+"hi": "शिशु"
+},
+{
+"de": "die Geschwister",
+"en": "siblings",
+"hi": "भाई-बहन"
+},
+{
+"de": "der Bruder",
+"en": "brother 👦",
+"hi": "भाई"
+},
+{
+"de": "die Schwester",
+"en": "sister 👧",
+"hi": "बहन"
+},
+{
+"de": "die Großeltern",
+"en": "grandparents",
+"hi": "दादा-दादी / नाना-नानी"
+},
+{
+"de": "der Großvater",
+"en": "grandfather (formal)",
+"hi": "दादा / नाना"
+},
+{
+"de": "die Großmutter",
+"en": "grandmother (formal)",
+"hi": "दादी / नानी"
+},
+{
+"de": "der Opa",
+"en": "grandpa 👴",
+"hi": "दादा / नाना"
+},
+{
+"de": "die Oma",
+"en": "grandma 👵",
+"hi": "दादी / नानी"
+},
+{
+"de": "der Onkel",
+"en": "uncle",
+"hi": "चाचा / मामा / काका"
+},
+{
+"de": "die Tante",
+"en": "aunt",
+"hi": "चाची / मामी / बुआ"
+},
+{
+"de": "der Cousin",
+"en": "cousin (male)",
+"hi": "चचेरा/ममेरा भाई"
+},
+{
+"de": "die Cousine",
+"en": "cousin (female)",
+"hi": "चचेरी/ममेरी बहन"
+},
+{
+"de": "der Neffe",
+"en": "nephew",
+"hi": "भतीजा / भांजा"
+},
+{
+"de": "die Nichte",
+"en": "niece",
+"hi": "भतीजी / भांजी"
+},
+{
+"de": "das Enkelkind",
+"en": "grandchild",
+"hi": "पोता/पोती / नाती/नातिन"
+},
+{
+"de": "der Mann",
+"en": "man / husband 👨",
+"hi": "आदमी / पति"
+},
+{
+"de": "die Frau",
+"en": "woman / wife 👩",
+"hi": "महिला / पत्नी"
+},
+{
+"de": "der Ehemann",
+"en": "husband",
+"hi": "पति"
+},
+{
+"de": "die Ehefrau",
+"en": "wife",
+"hi": "पत्नी"
+},
+{
+"de": "der Partner",
+"en": "partner (m)",
+"hi": "साथी (पुरुष)"
+},
+{
+"de": "die Partnerin",
+"en": "partner (f)",
+"hi": "साथी (महिला)"
+},
+{
+"de": "der Freund",
+"en": "friend (m) / boyfriend",
+"hi": "दोस्त / बॉयफ्रेंड"
+},
+{
+"de": "die Freundin",
+"en": "friend (f) / girlfriend",
+"hi": "सहेली / गर्लफ्रेंड"
+},
+{
+"de": "der Bekannte",
+"en": "acquaintance (m)",
+"hi": "परिचित (पुरुष)"
+},
+{
+"de": "die Bekannte",
+"en": "acquaintance (f)",
+"hi": "परिचित (महिला)"
+},
+{
+"de": "der Nachbar",
+"en": "neighbor (m)",
+"hi": "पड़ोसी (पुरुष)"
+},
+{
+"de": "die Nachbarin",
+"en": "neighbor (f)",
+"hi": "पड़ोसन"
+},
+{
+"de": "der Gast",
+"en": "guest",
+"hi": "मेहमान"
+},
+{
+"de": "der Junge",
+"en": "boy 👦",
+"hi": "लड़का"
+},
+{
+"de": "das Mädchen",
+"en": "girl 👧",
+"hi": "लड़की"
+},
+{
+"de": "der Jugendliche",
+"en": "teenager / youth",
+"hi": "किशोर"
+},
+{
+"de": "der Erwachsene",
+"en": "adult",
+"hi": "वयस्क"
+},
+{
+"de": "Herr",
+"en": "Mr. / Sir",
+"hi": "श्रीमान"
+},
+{
+"de": "Frau",
+"en": "Mrs. / Ms. / Ma'am",
+"hi": "श्रीमती"
+},
+{
+"de": "der Familienstand",
+"en": "marital status",
+"hi": "वैवाहिक स्थिति"
+},
+{
+"de": "ledig",
+"en": "single (unmarried)",
+"hi": "अविवाहित"
+},
+{
+"de": "verheiratet",
+"en": "married 💍",
+"hi": "विवाहित"
+},
+{
+"de": "geschieden",
+"en": "divorced",
+"hi": "तलाकशुदा"
+},
+{
+"de": "verwitwet",
+"en": "widowed",
+"hi": "विधवा/विधुर"
+},
+{
+"de": "die Ehe",
+"en": "marriage",
+"hi": "विवाह"
+},
+{
+"de": "die Hochzeit",
+"en": "wedding 💒",
+"hi": "शादी"
+},
+{
+"de": "der Name",
+"en": "name",
+"hi": "नाम"
+},
+{
+"de": "der Vorname",
+"en": "first name",
+"hi": "पहला नाम"
+},
+{
+"de": "der Nachname",
+"en": "last name / surname",
+"hi": "उपनाम"
+},
+{
+"de": "das Alter",
+"en": "age",
+"hi": "उम्र"
+},
+{
+"de": "der Geburtstag",
+"en": "birthday 🎂",
+"hi": "जन्मदिन"
+},
+{
+"de": "der Geburtsort",
+"en": "place of birth",
+"hi": "जन्मस्थान"
+},
+{
+"de": "die Nationalität",
+"en": "nationality",
+"hi": "राष्ट्रीयता"
+},
+{
+"de": "die Heimat",
+"en": "homeland",
+"hi": "मातृभूमि"
+},
+{
+"de": "die Herkunft",
+"en": "origin",
+"hi": "मूल"
+},
+{
+"de": "jung",
+"en": "young",
+"hi": "जवान"
+},
+{
+"de": "alt",
+"en": "old",
+"hi": "बूढ़ा / पुराना"
+},
+{
+"de": "freundlich",
+"en": "friendly",
+"hi": "मिलनसार"
+},
+{
+"de": "nett",
+"en": "nice / kind",
+"hi": "अच्छा / दयालु"
+},
+{
+"de": "der Verwandte",
+"en": "relative",
+"hi": "रिश्तेदार"
+},
+{
+"de": "der Zwilling",
+"en": "twin",
+"hi": "जुड़वां"
+},
+{
+"de": "die Generation",
+"en": "generation",
+"hi": "पीढ़ी"
+}
+],
+"Body_Parts": [
+{
+"de": "der Körper",
+"en": "body 🧍",
+"hi": "शरीर"
+},
+{
+"de": "der Kopf",
+"en": "head",
+"hi": "सिर"
+},
+{
+"de": "das Gesicht",
+"en": "face 😊",
+"hi": "चेहरा"
+},
+{
+"de": "die Stirn",
+"en": "forehead",
+"hi": "माथा"
+},
+{
+"de": "das Auge",
+"en": "eye 👁️",
+"hi": "आँख"
+},
+{
+"de": "die Augen",
+"en": "eyes 👀",
+"hi": "आँखें"
+},
+{
+"de": "die Augenbraue",
+"en": "eyebrow",
+"hi": "भौं"
+},
+{
+"de": "das Ohr",
+"en": "ear 👂",
+"hi": "कान"
+},
+{
+"de": "die Ohren",
+"en": "ears",
+"hi": "कान (दोनों)"
+},
+{
+"de": "die Nase",
+"en": "nose 👃",
+"hi": "नाक"
+},
+{
+"de": "der Mund",
+"en": "mouth 👄",
+"hi": "मुँह"
+},
+{
+"de": "die Lippe",
+"en": "lip",
+"hi": "होंठ"
+},
+{
+"de": "die Zunge",
+"en": "tongue 👅",
+"hi": "जीभ"
+},
+{
+"de": "der Zahn",
+"en": "tooth 🦷",
+"hi": "दाँत"
+},
+{
+"de": "die Zähne",
+"en": "teeth",
+"hi": "दाँत (सब)"
+},
+{
+"de": "die Wange",
+"en": "cheek",
+"hi": "गाल"
+},
+{
+"de": "das Kinn",
+"en": "chin",
+"hi": "ठुड्डी"
+},
+{
+"de": "der Bart",
+"en": "beard 🧔",
+"hi": "दाढ़ी"
+},
+{
+"de": "der Hals",
+"en": "neck / throat",
+"hi": "गर्दन / गला"
+},
+{
+"de": "die Schulter",
+"en": "shoulder",
+"hi": "कंधा"
+},
+{
+"de": "der Arm",
+"en": "arm 💪",
+"hi": "बाँह"
+},
+{
+"de": "der Ellbogen",
+"en": "elbow",
+"hi": "कोहनी"
+},
+{
+"de": "die Hand",
+"en": "hand ✋",
+"hi": "हाथ"
+},
+{
+"de": "die Hände",
+"en": "hands",
+"hi": "हाथ (दोनों)"
+},
+{
+"de": "der Finger",
+"en": "finger ☝️",
+"hi": "उंगली"
+},
+{
+"de": "der Daumen",
+"en": "thumb 👍",
+"hi": "अंगूठा"
+},
+{
+"de": "die Brust",
+"en": "chest / breast",
+"hi": "छाती / सीना"
+},
+{
+"de": "der Bauch",
+"en": "stomach / belly",
+"hi": "पेट"
+},
+{
+"de": "der Rücken",
+"en": "back",
+"hi": "पीठ"
+},
+{
+"de": "die Hüfte",
+"en": "hip",
+"hi": "कूल्हा"
+},
+{
+"de": "das Herz",
+"en": "heart ❤️",
+"hi": "दिल"
+},
+{
+"de": "das Blut",
+"en": "blood 🩸",
+"hi": "खून"
+},
+{
+"de": "der Knochen",
+"en": "bone 🦴",
+"hi": "हड्डी"
+},
+{
+"de": "die Haut",
+"en": "skin",
+"hi": "त्वचा / चमड़ी"
+},
+{
+"de": "das Bein",
+"en": "leg 🦵",
+"hi": "टांग"
+},
+{
+"de": "das Knie",
+"en": "knee",
+"hi": "घुटना"
+},
+{
+"de": "der Fuß",
+"en": "foot 🦶",
+"hi": "पैर"
+},
+{
+"de": "die Füße",
+"en": "feet",
+"hi": "पैर (दोनों)"
+},
+{
+"de": "der Zeh",
+"en": "toe",
+"hi": "पैर की उंगली"
+},
+{
+"de": "sehen",
+"en": "to see 👁️",
+"hi": "देखना"
+},
+{
+"de": "hören",
+"en": "to hear 👂",
+"hi": "सुनना"
+},
+{
+"de": "riechen",
+"en": "to smell 👃",
+"hi": "सूँघना"
+},
+{
+"de": "schmecken",
+"en": "to taste 👅",
+"hi": "स्वाद लेना"
+},
+{
+"de": "fühlen",
+"en": "to feel ✋",
+"hi": "महसूस करना"
+}
+],
+"Health_&_Feelings": [
+{
+"de": "die Gesundheit",
+"en": "health 🏥",
+"hi": "स्वास्थ्य"
+},
+{
+"de": "gesund",
+"en": "healthy ✅",
+"hi": "स्वस्थ"
+},
+{
+"de": "krank",
+"en": "sick / ill 🤒",
+"hi": "बीमार"
+},
+{
+"de": "die Krankheit",
+"en": "illness / disease",
+"hi": "बीमारी"
+},
+{
+"de": "der Arzt",
+"en": "doctor (m) 👨‍⚕️",
+"hi": "डॉक्टर (पुरुष)"
+},
+{
+"de": "die Ärztin",
+"en": "doctor (f) 👩‍⚕️",
+"hi": "डॉक्टर (महिला)"
+},
+{
+"de": "der Zahnarzt",
+"en": "dentist 🦷",
+"hi": "दंत चिकित्सक"
+},
+{
+"de": "das Krankenhaus",
+"en": "hospital 🏥",
+"hi": "अस्पताल"
+},
+{
+"de": "die Praxis",
+"en": "doctor's office",
+"hi": "क्लिनिक"
+},
+{
+"de": "die Apotheke",
+"en": "pharmacy 💊",
+"hi": "दवाखाना"
+},
+{
+"de": "der Termin",
+"en": "appointment",
+"hi": "अपॉइंटमेंट"
+},
+{
+"de": "die Medizin",
+"en": "medicine 💊",
+"hi": "दवा"
+},
+{
+"de": "das Medikament",
+"en": "medication",
+"hi": "दवाई"
+},
+{
+"de": "die Tablette",
+"en": "tablet / pill",
+"hi": "गोली"
+},
+{
+"de": "das Rezept",
+"en": "prescription",
+"hi": "पर्चा / नुस्खा"
+},
+{
+"de": "die Erkältung",
+"en": "cold (illness) 🤧",
+"hi": "सर्दी-जुकाम"
+},
+{
+"de": "das Fieber",
+"en": "fever 🤒",
+"hi": "बुखार"
+},
+{
+"de": "der Husten",
+"en": "cough",
+"hi": "खाँसी"
+},
+{
+"de": "der Schnupfen",
+"en": "runny nose / cold",
+"hi": "नज़ला / सर्दी"
+},
+{
+"de": "die Grippe",
+"en": "flu",
+"hi": "फ्लू"
+},
+{
+"de": "der Schmerz",
+"en": "pain",
+"hi": "दर्द"
+},
+{
+"de": "die Schmerzen",
+"en": "pains",
+"hi": "दर्द (बहुवचन)"
+},
+{
+"de": "wehtun",
+"en": "to hurt",
+"hi": "दर्द होना"
+},
+{
+"de": "Kopfschmerzen",
+"en": "headache 🤕",
+"hi": "सिरदर्द"
+},
+{
+"de": "Bauchschmerzen",
+"en": "stomach ache",
+"hi": "पेट दर्द"
+},
+{
+"de": "Zahnschmerzen",
+"en": "toothache",
+"hi": "दाँत दर्द"
+},
+{
+"de": "Halsschmerzen",
+"en": "sore throat",
+"hi": "गले में दर्द"
+},
+{
+"de": "Rückenschmerzen",
+"en": "back pain",
+"hi": "पीठ दर्द"
+},
+{
+"de": "müde",
+"en": "tired 😴",
+"hi": "थका हुआ"
+},
+{
+"de": "der Hunger",
+"en": "hunger",
+"hi": "भूख"
+},
+{
+"de": "hungrig",
+"en": "hungry 🍽️",
+"hi": "भूखा"
+},
+{
+"de": "der Durst",
+"en": "thirst",
+"hi": "प्यास"
+},
+{
+"de": "durstig",
+"en": "thirsty 🥤",
+"hi": "प्यासा"
+},
+{
+"de": "warm",
+"en": "warm",
+"hi": "गर्म"
+},
+{
+"de": "kalt",
+"en": "cold",
+"hi": "ठंडा"
+},
+{
+"de": "das Gefühl",
+"en": "feeling",
+"hi": "भावना"
+},
+{
+"de": "fühlen (sich)",
+"en": "to feel",
+"hi": "महसूस करना"
+},
+{
+"de": "gut",
+"en": "good / well",
+"hi": "अच्छा"
+},
+{
+"de": "schlecht",
+"en": "bad / unwell",
+"hi": "बुरा / खराब"
+},
+{
+"de": "glücklich",
+"en": "happy 😊",
+"hi": "खुश"
+},
+{
+"de": "froh",
+"en": "glad / pleased",
+"hi": "प्रसन्न"
+},
+{
+"de": "zufrieden",
+"en": "satisfied / content",
+"hi": "संतुष्ट"
+},
+{
+"de": "freuen (sich)",
+"en": "to be happy / pleased",
+"hi": "खुश होना"
+},
+{
+"de": "lustig",
+"en": "funny 😄",
+"hi": "मज़ेदार"
+},
+{
+"de": "aufgeregt",
+"en": "excited 🤩",
+"hi": "उत्साहित"
+},
+{
+"de": "stolz",
+"en": "proud",
+"hi": "गर्वित"
+},
+{
+"de": "verliebt",
+"en": "in love 😍",
+"hi": "प्यार में"
+},
+{
+"de": "die Liebe",
+"en": "love ❤️",
+"hi": "प्यार"
+},
+{
+"de": "traurig",
+"en": "sad 😢",
+"hi": "उदास"
+},
+{
+"de": "böse",
+"en": "angry / mad 😠",
+"hi": "गुस्सा / नाराज़"
+},
+{
+"de": "wütend",
+"en": "furious / angry",
+"hi": "क्रोधित"
+},
+{
+"de": "die Angst",
+"en": "fear / anxiety",
+"hi": "डर / चिंता"
+},
+{
+"de": "ängstlich",
+"en": "scared / anxious 😰",
+"hi": "डरा हुआ"
+},
+{
+"de": "nervös",
+"en": "nervous 😬",
+"hi": "घबराया हुआ"
+},
+{
+"de": "der Stress",
+"en": "stress",
+"hi": "तनाव"
+},
+{
+"de": "gestresst",
+"en": "stressed 😫",
+"hi": "तनावग्रस्त"
+},
+{
+"de": "einsam",
+"en": "lonely",
+"hi": "अकेला"
+},
+{
+"de": "langweilig",
+"en": "boring / bored 😑",
+"hi": "उबाऊ / बोर"
+},
+{
+"de": "überrascht",
+"en": "surprised 😮",
+"hi": "हैरान"
+},
+{
+"de": "ruhig",
+"en": "calm / quiet",
+"hi": "शांत"
+},
+{
+"de": "die Ruhe",
+"en": "peace / rest",
+"hi": "आराम / शांति"
+},
+{
+"de": "entspannt",
+"en": "relaxed 😌",
+"hi": "तनावमुक्त"
+},
+{
+"de": "schlafen",
+"en": "to sleep 😴",
+"hi": "सोना"
+},
+{
+"de": "aufwachen",
+"en": "to wake up",
+"hi": "जागना"
+},
+{
+"de": "weinen",
+"en": "to cry 😭",
+"hi": "रोना"
+},
+{
+"de": "lachen",
+"en": "to laugh 😂",
+"hi": "हँसना"
+},
+{
+"de": "lächeln",
+"en": "to smile 😊",
+"hi": "मुस्कुराना"
+},
+{
+"de": "die Allergie",
+"en": "allergy",
+"hi": "एलर्जी"
+}
+],
+"Food": [
+{
+"de": "der Apfel",
+"en": "apple",
+"hi": "सेब"
+},
+{
+"de": "die Banane",
+"en": "banana",
+"hi": "केला"
+},
+{
+"de": "die Birne",
+"en": "pear / light bulb",
+"hi": "नाशपाती / बल्ब"
+},
+{
+"de": "die Brötchen",
+"en": "rolls",
+"hi": "ब्रेड रोल"
+},
+{
+"de": "die Butter",
+"en": "butter",
+"hi": "मक्खन"
+},
+{
+"de": "das Eis",
+"en": "ice / ice cream",
+"hi": "बर्फ / आइसक्रीम"
+},
+{
+"de": "die Erdbeere",
+"en": "strawberry",
+"hi": "स्ट्रॉबेरी"
+},
+{
+"de": "essen",
+"en": "to eat",
+"hi": "खाना"
+},
+{
+"de": "das Essen",
+"en": "food / meal",
+"hi": "भोजन"
+},
+{
+"de": "das Fisch",
+"en": "fish",
+"hi": "मछली"
+},
+{
+"de": "die Fleisch",
+"en": "meat",
+"hi": "मांस"
+},
+{
+"de": "das Frühstück",
+"en": "breakfast",
+"hi": "नाश्ता"
+},
+{
+"de": "frühstücken",
+"en": "to have breakfast",
+"hi": "नाश्ता करना"
+},
+{
+"de": "die Gemüse",
+"en": "vegetables",
+"hi": "सब्ज़ियाँ"
+},
+{
+"de": "der Kuchen",
+"en": "cake",
+"hi": "केक"
+},
+{
+"de": "die Mahlzeit",
+"en": "meal",
+"hi": "भोजन"
+},
+{
+"de": "die Orange",
+"en": "orange",
+"hi": "संतरा"
+},
+{
+"de": "die Sahne",
+"en": "cream",
+"hi": "क्रीम"
+},
+{
+"de": "das Salz",
+"en": "salt",
+"hi": "नमक"
+},
+{
+"de": "die Schokolade",
+"en": "chocolate",
+"hi": "चॉकलेट"
+},
+{
+"de": "die Speisekarte",
+"en": "menu",
+"hi": "मेनू"
+},
+{
+"de": "die Suppe",
+"en": "soup",
+"hi": "सूप"
+},
+{
+"de": "süß",
+"en": "sweet",
+"hi": "मीठा"
+},
+{
+"de": "die Vorspeise",
+"en": "starter / appetizer",
+"hi": "स्टार्टर"
+},
+{
+"de": "die Wurst",
+"en": "sausage",
+"hi": "सॉसेज"
+},
+{
+"de": "die Zwiebel",
+"en": "onion",
+"hi": "प्याज"
+},
+{
+"de": "die Kartoffel",
+"en": "potato",
+"hi": "आलू"
+},
+{
+"de": "der Reis",
+"en": "rice",
+"hi": "चावल"
+},
+{
+"de": "die Nudeln",
+"en": "noodles / pasta",
+"hi": "नूडल्स"
+},
+{
+"de": "der Käse",
+"en": "cheese",
+"hi": "पनीर"
+},
+{
+"de": "das Ei",
+"en": "egg",
+"hi": "अंडा"
+},
+{
+"de": "der Zucker",
+"en": "sugar",
+"hi": "चीनी"
+},
+{
+"de": "der Pfeffer",
+"en": "pepper",
+"hi": "काली मिर्च"
+},
+{
+"de": "das Hähnchen",
+"en": "chicken",
+"hi": "चिकन"
+},
+{
+"de": "der Schinken",
+"en": "ham",
+"hi": "हैम"
+},
+{
+"de": "der Salat",
+"en": "salad",
+"hi": "सलाद"
+},
+{
+"de": "die Gurke",
+"en": "cucumber",
+"hi": "खीरा"
+},
+{
+"de": "die Paprika",
+"en": "bell pepper",
+"hi": "शिमला मिर्च"
+},
+{
+"de": "der Pilz",
+"en": "mushroom",
+"hi": "मशरूम"
+},
+{
+"de": "das Obst",
+"en": "fruit",
+"hi": "फल"
+},
+{
+"de": "die Zitrone",
+"en": "lemon",
+"hi": "नींबू"
+},
+{
+"de": "die Traube",
+"en": "grape",
+"hi": "अंगूर"
+},
+{
+"de": "die Melone",
+"en": "melon",
+"hi": "खरबूजा"
+},
+{
+"de": "die Kirsche",
+"en": "cherry",
+"hi": "चेरी"
+},
+{
+"de": "der Pfirsich",
+"en": "peach",
+"hi": "आड़ू"
+},
+{
+"de": "die Ananas",
+"en": "pineapple",
+"hi": "अनानास"
+},
+{
+"de": "die Karotte",
+"en": "carrot",
+"hi": "गाजर"
+},
+{
+"de": "der Knoblauch",
+"en": "garlic",
+"hi": "लहसुन"
+},
+{
+"de": "der Spinat",
+"en": "spinach",
+"hi": "पालक"
+},
+{
+"de": "der Joghurt",
+"en": "yogurt",
+"hi": "दही"
+}
+],
+"Drinks": [
+{
+"de": "das Getränk",
+"en": "drink / beverage 🥤",
+"hi": "पेय"
+},
+{
+"de": "trinken",
+"en": "to drink",
+"hi": "पीना"
+},
+{
+"de": "das Wasser",
+"en": "water 💧",
+"hi": "पानी"
+},
+{
+"de": "das Mineralwasser",
+"en": "mineral water",
+"hi": "मिनरल वाटर"
+},
+{
+"de": "Wasser mit Kohlensäure",
+"en": "sparkling water",
+"hi": "सोडा वाटर"
+},
+{
+"de": "stilles Wasser",
+"en": "still water (no gas)",
+"hi": "सादा पानी"
+},
+{
+"de": "der Kaffee",
+"en": "coffee ☕",
+"hi": "कॉफ़ी"
+},
+{
+"de": "der Espresso",
+"en": "espresso",
+"hi": "एस्प्रेसो"
+},
+{
+"de": "der Cappuccino",
+"en": "cappuccino",
+"hi": "कैपुचीनो"
+},
+{
+"de": "der Tee",
+"en": "tea 🍵",
+"hi": "चाय"
+},
+{
+"de": "der schwarze Tee",
+"en": "black tea",
+"hi": "काली चाय"
+},
+{
+"de": "der grüne Tee",
+"en": "green tea 🍃",
+"hi": "हरी चाय"
+},
+{
+"de": "der Kakao",
+"en": "hot chocolate 🍫",
+"hi": "कोको / हॉट चॉकलेट"
+},
+{
+"de": "die Milch",
+"en": "milk 🥛",
+"hi": "दूध"
+},
+{
+"de": "der Saft",
+"en": "juice 🧃",
+"hi": "जूस"
+},
+{
+"de": "der Orangensaft",
+"en": "orange juice 🍊",
+"hi": "संतरे का जूस"
+},
+{
+"de": "der Apfelsaft",
+"en": "apple juice 🍎",
+"hi": "सेब का जूस"
+},
+{
+"de": "die Limonade",
+"en": "lemonade / soda 🍋",
+"hi": "नींबू पानी / सोडा"
+},
+{
+"de": "die Cola",
+"en": "cola 🥤",
+"hi": "कोला"
+},
+{
+"de": "die Fanta",
+"en": "Fanta (orange soda)",
+"hi": "फैंटा"
+},
+{
+"de": "die Sprite",
+"en": "Sprite (lemon soda)",
+"hi": "स्प्राइट"
+},
+{
+"de": "das Bier",
+"en": "beer 🍺",
+"hi": "बीयर"
+},
+{
+"de": "der Rotwein",
+"en": "red wine 🍷",
+"hi": "लाल वाइन"
+},
+{
+"de": "der Weißwein",
+"en": "white wine 🥂",
+"hi": "सफ़ेद वाइन"
+},
+{
+"de": "der Sekt",
+"en": "sparkling wine 🍾",
+"hi": "शैम्पेन"
+},
+{
+"de": "das Glas",
+"en": "glass 🥛",
+"hi": "गिलास"
+},
+{
+"de": "die Tasse",
+"en": "cup ☕",
+"hi": "प्याला / कप"
+},
+{
+"de": "die Flasche",
+"en": "bottle 🍼",
+"hi": "बोतल"
+},
+{
+"de": "die Dose",
+"en": "can 🥫",
+"hi": "डिब्बा / कैन"
+},
+{
+"de": "mit Zucker",
+"en": "with sugar",
+"hi": "चीनी के साथ"
+},
+{
+"de": "ohne Zucker",
+"en": "without sugar",
+"hi": "बिना चीनी"
+},
+{
+"de": "mit Milch",
+"en": "with milk",
+"hi": "दूध के साथ"
+},
+{
+"de": "ohne Milch",
+"en": "without milk",
+"hi": "बिना दूध"
+},
+{
+"de": "mit Eis",
+"en": "with ice 🧊",
+"hi": "बर्फ़ के साथ"
+},
+{
+"de": "der Smoothie",
+"en": "smoothie",
+"hi": "स्मूथी"
+},
+{
+"de": "der Eistee",
+"en": "iced tea 🧊",
+"hi": "आइस्ड टी"
+},
+{
+"de": "der Eiskaffee",
+"en": "iced coffee",
+"hi": "आइस्ड कॉफ़ी"
+}
+],
+"House_&_Furniture": [
+{
+"de": "das Haus",
+"en": "house 🏠",
+"hi": "मकान"
+},
+{
+"de": "die Wohnung",
+"en": "apartment / flat 🏢",
+"hi": "फ्लैट"
+},
+{
+"de": "das Gebäude",
+"en": "building",
+"hi": "इमारत"
+},
+{
+"de": "zu Hause",
+"en": "at home",
+"hi": "घर पर"
+},
+{
+"de": "nach Hause",
+"en": "to home (going)",
+"hi": "घर की ओर"
+},
+{
+"de": "das Zimmer",
+"en": "room 🚪",
+"hi": "कमरा"
+},
+{
+"de": "das Wohnzimmer",
+"en": "living room 🛋️",
+"hi": "बैठक"
+},
+{
+"de": "das Schlafzimmer",
+"en": "bedroom 🛏️",
+"hi": "शयनकक्ष"
+},
+{
+"de": "das Kinderzimmer",
+"en": "children's room",
+"hi": "बच्चों का कमरा"
+},
+{
+"de": "das Esszimmer",
+"en": "dining room 🍽️",
+"hi": "खाने का कमरा"
+},
+{
+"de": "die Küche",
+"en": "kitchen 🍳",
+"hi": "रसोई"
+},
+{
+"de": "der Flur",
+"en": "hallway / corridor",
+"hi": "गलियारा"
+},
+{
+"de": "der Keller",
+"en": "basement / cellar",
+"hi": "तहखाना"
+},
+{
+"de": "der Dachboden",
+"en": "attic",
+"hi": "अटारी"
+},
+{
+"de": "die Tür",
+"en": "door 🚪",
+"hi": "दरवाज़ा"
+},
+{
+"de": "das Fenster",
+"en": "window 🪟",
+"hi": "खिड़की"
+},
+{
+"de": "die Wand",
+"en": "wall",
+"hi": "दीवार"
+},
+{
+"de": "die Decke",
+"en": "ceiling",
+"hi": "छत (अंदर)"
+},
+{
+"de": "das Dach",
+"en": "roof",
+"hi": "छत (बाहर)"
+},
+{
+"de": "der Boden",
+"en": "floor",
+"hi": "फर्श"
+},
+{
+"de": "die Treppe",
+"en": "stairs 🪜",
+"hi": "सीढ़ी"
+},
+{
+"de": "der Balkon",
+"en": "balcony",
+"hi": "बालकनी"
+},
+{
+"de": "die Terrasse",
+"en": "terrace / patio",
+"hi": "छत / आंगन"
+},
+{
+"de": "der Garten",
+"en": "garden 🌳",
+"hi": "बगीचा"
+},
+{
+"de": "die Garage",
+"en": "garage 🚗",
+"hi": "गैरेज"
+},
+{
+"de": "die Möbel",
+"en": "furniture",
+"hi": "फर्नीचर"
+},
+{
+"de": "der Tisch",
+"en": "table",
+"hi": "मेज़"
+},
+{
+"de": "der Stuhl",
+"en": "chair 🪑",
+"hi": "कुर्सी"
+},
+{
+"de": "der Sessel",
+"en": "armchair",
+"hi": "आराम कुर्सी"
+},
+{
+"de": "das Bett",
+"en": "bed 🛏️",
+"hi": "बिस्तर"
+},
+{
+"de": "der Schrank",
+"en": "cupboard / wardrobe",
+"hi": "अलमारी"
+},
+{
+"de": "der Kleiderschrank",
+"en": "wardrobe (clothes)",
+"hi": "कपड़ों की अलमारी"
+},
+{
+"de": "das Regal",
+"en": "shelf",
+"hi": "शेल्फ"
+},
+{
+"de": "das Kissen",
+"en": "pillow",
+"hi": "तकिया"
+},
+{
+"de": "das Bettlaken",
+"en": "bed sheet",
+"hi": "चादर"
+},
+{
+"de": "der Fernseher",
+"en": "television 📺",
+"hi": "टीवी"
+},
+{
+"de": "die Lampe",
+"en": "lamp 💡",
+"hi": "लैंप"
+},
+{
+"de": "der Teppich",
+"en": "carpet / rug",
+"hi": "कालीन"
+},
+{
+"de": "der Vorhang",
+"en": "curtain",
+"hi": "पर्दा"
+},
+{
+"de": "der Spiegel",
+"en": "mirror 🪞",
+"hi": "आईना"
+},
+{
+"de": "das Bild",
+"en": "picture / painting 🖼️",
+"hi": "तस्वीर"
+},
+{
+"de": "die Uhr",
+"en": "clock ⏰",
+"hi": "घड़ी"
+},
+{
+"de": "der Kühlschrank",
+"en": "refrigerator 🧊",
+"hi": "फ्रिज"
+},
+{
+"de": "der Herd",
+"en": "stove",
+"hi": "चूल्हा"
+},
+{
+"de": "der Ofen",
+"en": "oven",
+"hi": "ओवन"
+},
+{
+"de": "die Mikrowelle",
+"en": "microwave",
+"hi": "माइक्रोवेव"
+},
+{
+"de": "die Waschmaschine",
+"en": "washing machine 🧺",
+"hi": "वाशिंग मशीन"
+},
+{
+"de": "die Spülmaschine",
+"en": "dishwasher",
+"hi": "डिशवॉशर"
+},
+{
+"de": "die Dusche",
+"en": "shower 🚿",
+"hi": "शॉवर"
+},
+{
+"de": "die Badewanne",
+"en": "bathtub 🛁",
+"hi": "बाथटब"
+},
+{
+"de": "das Waschbecken",
+"en": "sink (bathroom)",
+"hi": "वॉशबेसिन"
+},
+{
+"de": "das Handtuch",
+"en": "towel",
+"hi": "तौलिया"
+},
+{
+"de": "die Miete",
+"en": "rent 💰",
+"hi": "किराया"
+},
+{
+"de": "mieten",
+"en": "to rent",
+"hi": "किराए पर लेना"
+},
+{
+"de": "wohnen",
+"en": "to live (reside)",
+"hi": "रहना"
+},
+{
+"de": "umziehen",
+"en": "to move (house)",
+"hi": "घर बदलना"
+},
+{
+"de": "das Erdgeschoss",
+"en": "ground floor",
+"hi": "भूतल"
+},
+{
+"de": "Wo wohnst du?",
+"en": "Where do you live?",
+"hi": "तुम कहाँ रहते हो?"
+},
+{
+"de": "Wie viele Zimmer?",
+"en": "How many rooms?",
+"hi": "कितने कमरे?"
+},
+{
+"de": "Im ersten Stock",
+"en": "On the first floor",
+"hi": "पहली मंज़िल पर"
+}
+],
+"Kitchen_Items": [
+{
+"de": "das Geschirr",
+"en": "dishes / tableware 🍽️",
+"hi": "बर्तन"
+},
+{
+"de": "der Teller",
+"en": "plate 🍽️",
+"hi": "प्लेट / थाली"
+},
+{
+"de": "die Schüssel",
+"en": "bowl 🥣",
+"hi": "कटोरा"
+},
+{
+"de": "der Becher",
+"en": "mug / beaker",
+"hi": "मग"
+},
+{
+"de": "das Besteck",
+"en": "cutlery 🍴",
+"hi": "छुरी-काँटा"
+},
+{
+"de": "das Messer",
+"en": "knife 🔪",
+"hi": "चाकू"
+},
+{
+"de": "die Gabel",
+"en": "fork 🍴",
+"hi": "काँटा"
+},
+{
+"de": "der Löffel",
+"en": "spoon 🥄",
+"hi": "चम्मच"
+},
+{
+"de": "der Teelöffel",
+"en": "teaspoon",
+"hi": "चाय का चम्मच"
+},
+{
+"de": "der Esslöffel",
+"en": "tablespoon",
+"hi": "बड़ा चम्मच"
+},
+{
+"de": "der Topf",
+"en": "pot 🍲",
+"hi": "बर्तन / पतीला"
+},
+{
+"de": "die Pfanne",
+"en": "pan / frying pan 🍳",
+"hi": "कड़ाही / तवा"
+},
+{
+"de": "der Deckel",
+"en": "lid / cover",
+"hi": "ढक्कन"
+},
+{
+"de": "das Schneidebrett",
+"en": "cutting board",
+"hi": "कटिंग बोर्ड"
+},
+{
+"de": "die Kanne",
+"en": "jug / pot",
+"hi": "जग / केतली"
+},
+{
+"de": "der Kochlöffel",
+"en": "cooking spoon / ladle",
+"hi": "कड़छी"
+},
+{
+"de": "die Kaffeemaschine",
+"en": "coffee machine ☕",
+"hi": "कॉफ़ी मशीन"
+},
+{
+"de": "der Wasserkocher",
+"en": "kettle",
+"hi": "केतली"
+},
+{
+"de": "der Toaster",
+"en": "toaster 🍞",
+"hi": "टोस्टर"
+},
+{
+"de": "der Mixer",
+"en": "mixer / blender",
+"hi": "मिक्सर"
+},
+{
+"de": "die Packung",
+"en": "pack / package 📦",
+"hi": "पैकेट"
+},
+{
+"de": "die Tüte",
+"en": "bag (paper/plastic)",
+"hi": "थैला"
+},
+{
+"de": "der Behälter",
+"en": "container",
+"hi": "डिब्बा / कंटेनर"
+},
+{
+"de": "die Serviette",
+"en": "napkin",
+"hi": "नैपकिन"
+},
+{
+"de": "die Tischdecke",
+"en": "tablecloth",
+"hi": "मेज़पोश"
+},
+{
+"de": "das Spülmittel",
+"en": "dish soap",
+"hi": "बर्तन धोने का साबुन"
+},
+{
+"de": "der Schwamm",
+"en": "sponge",
+"hi": "स्पंज"
+},
+{
+"de": "das Geschirrtuch",
+"en": "dish towel",
+"hi": "बर्तन पोंछने का कपड़ा"
+},
+{
+"de": "der Mülleimer",
+"en": "trash can 🗑️",
+"hi": "कूड़ेदान"
+},
+{
+"de": "kochen",
+"en": "to cook 👨‍🍳",
+"hi": "पकाना"
+},
+{
+"de": "braten",
+"en": "to fry",
+"hi": "तलना"
+},
+{
+"de": "backen",
+"en": "to bake",
+"hi": "सेंकना"
+},
+{
+"de": "schneiden",
+"en": "to cut ✂️",
+"hi": "काटना"
+},
+{
+"de": "mischen",
+"en": "to mix",
+"hi": "मिलाना"
+},
+{
+"de": "rühren",
+"en": "to stir",
+"hi": "हिलाना"
+},
+{
+"de": "abwaschen",
+"en": "to wash dishes",
+"hi": "बर्तन धोना"
+},
+{
+"de": "den Tisch decken",
+"en": "to set the table",
+"hi": "मेज़ लगाना"
+},
+{
+"de": "Guten Appetit!",
+"en": "Enjoy your meal! 🍽️",
+"hi": "खाना खाइए!"
+},
+{
+"de": "Das schmeckt gut!",
+"en": "That tastes good!",
+"hi": "यह स्वादिष्ट है!"
+},
+{
+"de": "Noch etwas?",
+"en": "Anything else?",
+"hi": "और कुछ?"
+},
+{
+"de": "Ich bin satt",
+"en": "I am full",
+"hi": "मेरा पेट भर गया"
+},
+{
+"de": "Es ist lecker!",
+"en": "It's delicious!",
+"hi": "यह मज़ेदार है!"
+},
+{
+"de": "Was kochst du?",
+"en": "What are you cooking?",
+"hi": "तुम क्या पका रहे हो?"
+}
+],
+"Clothing": [
+{
+"de": "das Kleidungsstück",
+"en": "piece of clothing",
+"hi": "कपड़े का टुकड़ा"
+},
+{
+"de": "das Hemd",
+"en": "shirt 👔",
+"hi": "शर्ट"
+},
+{
+"de": "das T-Shirt",
+"en": "t-shirt 👕",
+"hi": "टी-शर्ट"
+},
+{
+"de": "die Bluse",
+"en": "blouse",
+"hi": "ब्लाउज़"
+},
+{
+"de": "die Jacke",
+"en": "jacket 🧥",
+"hi": "जैकेट"
+},
+{
+"de": "der Mantel",
+"en": "coat 🧥",
+"hi": "कोट"
+},
+{
+"de": "die Hose",
+"en": "trousers / pants 👖",
+"hi": "पैंट"
+},
+{
+"de": "die Jeans",
+"en": "jeans 👖",
+"hi": "जींस"
+},
+{
+"de": "der Rock",
+"en": "skirt",
+"hi": "स्कर्ट"
+},
+{
+"de": "der Anzug",
+"en": "suit 🤵",
+"hi": "सूट"
+},
+{
+"de": "die Krawatte",
+"en": "tie 👔",
+"hi": "टाई"
+},
+{
+"de": "der Schuh",
+"en": "shoe 👞",
+"hi": "जूता"
+},
+{
+"de": "die Schuhe",
+"en": "shoes 👟",
+"hi": "जूते"
+},
+{
+"de": "der Stiefel",
+"en": "boot 👢",
+"hi": "बूट"
+},
+{
+"de": "die Sandale",
+"en": "sandal 👡",
+"hi": "सैंडल"
+},
+{
+"de": "die Socke",
+"en": "sock 🧦",
+"hi": "मोज़ा"
+},
+{
+"de": "die Socken",
+"en": "socks",
+"hi": "मोज़े"
+},
+{
+"de": "der Hut",
+"en": "hat 🎩",
+"hi": "हैट"
+},
+{
+"de": "die Mütze",
+"en": "cap / beanie 🧢",
+"hi": "टोपी"
+},
+{
+"de": "der Schal",
+"en": "scarf 🧣",
+"hi": "मफलर / गमछा"
+},
+{
+"de": "der Handschuh",
+"en": "glove 🧤",
+"hi": "दस्ताना"
+},
+{
+"de": "die Handschuhe",
+"en": "gloves",
+"hi": "दस्ताने"
+},
+{
+"de": "der Gürtel",
+"en": "belt",
+"hi": "बेल्ट"
+},
+{
+"de": "die Brille",
+"en": "glasses 👓",
+"hi": "चश्मा"
+},
+{
+"de": "die Sonnenbrille",
+"en": "sunglasses 🕶️",
+"hi": "धूप का चश्मा"
+},
+{
+"de": "die Tasche",
+"en": "bag / purse 👜",
+"hi": "बैग / थैला"
+},
+{
+"de": "der Rucksack",
+"en": "backpack 🎒",
+"hi": "बैकपैक"
+},
+{
+"de": "der Regenschirm",
+"en": "umbrella ☂️",
+"hi": "छाता"
+},
+{
+"de": "die Unterwäsche",
+"en": "underwear",
+"hi": "अंडरवियर"
+},
+{
+"de": "der Badeanzug",
+"en": "swimsuit (f) 👙",
+"hi": "स्विमसूट"
+},
+{
+"de": "die Badehose",
+"en": "swim trunks (m) 🩲",
+"hi": "स्विमिंग शॉर्ट्स"
+},
+{
+"de": "die Größe",
+"en": "size",
+"hi": "साइज़"
+},
+{
+"de": "mittel",
+"en": "medium (M)",
+"hi": "मध्यम"
+},
+{
+"de": "groß",
+"en": "large (L)",
+"hi": "बड़ा"
+},
+{
+"de": "eng",
+"en": "tight",
+"hi": "तंग"
+},
+{
+"de": "weit",
+"en": "loose / wide",
+"hi": "ढीला"
+},
+{
+"de": "tragen",
+"en": "to wear",
+"hi": "पहनना"
+},
+{
+"de": "anziehen",
+"en": "to put on (clothes)",
+"hi": "पहनना"
+},
+{
+"de": "ausziehen",
+"en": "to take off (clothes)",
+"hi": "उतारना"
+},
+{
+"de": "sich umziehen",
+"en": "to change clothes",
+"hi": "कपड़े बदलना"
+},
+{
+"de": "passen",
+"en": "to fit",
+"hi": "फिट होना"
+},
+{
+"de": "anprobieren",
+"en": "to try on",
+"hi": "पहनकर देखना"
+},
+{
+"de": "Das passt mir (nicht)",
+"en": "That fits me (not)",
+"hi": "यह मुझे फिट है (नहीं)"
+},
+{
+"de": "Das steht dir gut!",
+"en": "That looks good on you!",
+"hi": "तुम पर यह अच्छा लग रहा है!"
+}
+],
+"Transport_&_Travel": [
+{
+"de": "der Bus",
+"en": "bus 🚌",
+"hi": "बस"
+},
+{
+"de": "das Taxi",
+"en": "taxi 🚕",
+"hi": "टैक्सी"
+},
+{
+"de": "das Motorrad",
+"en": "motorcycle 🏍️",
+"hi": "मोटरसाइकिल"
+},
+{
+"de": "der Zug",
+"en": "train 🚆",
+"hi": "ट्रेन"
+},
+{
+"de": "die Bahn",
+"en": "train / railway",
+"hi": "रेल"
+},
+{
+"de": "die U-Bahn",
+"en": "metro / subway 🚇",
+"hi": "मेट्रो"
+},
+{
+"de": "die S-Bahn",
+"en": "suburban train",
+"hi": "लोकल ट्रेन"
+},
+{
+"de": "die Straßenbahn",
+"en": "tram 🚃",
+"hi": "ट्राम"
+},
+{
+"de": "das Flugzeug",
+"en": "airplane ✈️",
+"hi": "हवाई जहाज़"
+},
+{
+"de": "das Schiff",
+"en": "ship 🚢",
+"hi": "जहाज़"
+},
+{
+"de": "das Boot",
+"en": "boat ⛵",
+"hi": "नाव"
+},
+{
+"de": "der Bahnhof",
+"en": "train station 🚉",
+"hi": "रेलवे स्टेशन"
+},
+{
+"de": "der Flughafen",
+"en": "airport ✈️",
+"hi": "हवाई अड्डा"
+},
+{
+"de": "die Haltestelle",
+"en": "stop (bus/tram)",
+"hi": "स्टॉप"
+},
+{
+"de": "die Bushaltestelle",
+"en": "bus stop 🚏",
+"hi": "बस स्टॉप"
+},
+{
+"de": "die Tankstelle",
+"en": "gas station ⛽",
+"hi": "पेट्रोल पंप"
+},
+{
+"de": "der Fahrplan",
+"en": "timetable / schedule",
+"hi": "समय-सारणी"
+},
+{
+"de": "die Hin- und Rückfahrt",
+"en": "round trip",
+"hi": "आना-जाना टिकट"
+},
+{
+"de": "einfache Fahrt",
+"en": "one-way trip",
+"hi": "एक तरफ़ का टिकट"
+},
+{
+"de": "buchen",
+"en": "to book",
+"hi": "बुक करना"
+},
+{
+"de": "fahren",
+"en": "to drive / go (vehicle)",
+"hi": "चलाना / जाना"
+},
+{
+"de": "fliegen",
+"en": "to fly",
+"hi": "उड़ना"
+},
+{
+"de": "gehen",
+"en": "to go / walk 🚶",
+"hi": "जाना / चलना"
+},
+{
+"de": "laufen",
+"en": "to walk / run",
+"hi": "चलना / दौड़ना"
+},
+{
+"de": "einsteigen",
+"en": "to get on / board",
+"hi": "चढ़ना"
+},
+{
+"de": "umsteigen",
+"en": "to change / transfer",
+"hi": "बदलना (गाड़ी)"
+},
+{
+"de": "abfahren",
+"en": "to depart",
+"hi": "रवाना होना"
+},
+{
+"de": "ankommen",
+"en": "to arrive",
+"hi": "पहुँचना"
+},
+{
+"de": "die Abfahrt",
+"en": "departure",
+"hi": "प्रस्थान"
+},
+{
+"de": "die Ankunft",
+"en": "arrival",
+"hi": "आगमन"
+},
+{
+"de": "der Urlaub",
+"en": "vacation / holiday 🏖️",
+"hi": "छुट्टी"
+},
+{
+"de": "die Ferien",
+"en": "holidays (school)",
+"hi": "छुट्टियाँ"
+},
+{
+"de": "das Hotel",
+"en": "hotel 🏨",
+"hi": "होटल"
+},
+{
+"de": "das Visum",
+"en": "visa",
+"hi": "वीज़ा"
+},
+{
+"de": "das Gepäck",
+"en": "luggage / baggage 🧳",
+"hi": "सामान"
+},
+{
+"de": "der Koffer",
+"en": "suitcase",
+"hi": "सूटकेस"
+},
+{
+"de": "der Verkehr",
+"en": "traffic",
+"hi": "ट्रैफ़िक"
+},
+{
+"de": "die Straße",
+"en": "street / road",
+"hi": "सड़क"
+},
+{
+"de": "die Ampel",
+"en": "traffic light 🚦",
+"hi": "ट्रैफ़िक लाइट"
+},
+{
+"de": "der Parkplatz",
+"en": "parking lot 🅿️",
+"hi": "पार्किंग"
+},
+{
+"de": "tanken",
+"en": "to refuel",
+"hi": "पेट्रोल भरवाना"
+},
+{
+"de": "das Benzin",
+"en": "petrol / gas",
+"hi": "पेट्रोल"
+},
+{
+"de": "links",
+"en": "left ⬅️",
+"hi": "बाएँ"
+},
+{
+"de": "rechts",
+"en": "right ➡️",
+"hi": "दाएँ"
+},
+{
+"de": "geradeaus",
+"en": "straight ahead ⬆️",
+"hi": "सीधे"
+},
+{
+"de": "die Ecke",
+"en": "corner",
+"hi": "कोना"
+},
+{
+"de": "die Kreuzung",
+"en": "intersection / crossing",
+"hi": "चौराहा"
+},
+{
+"de": "die Verspätung",
+"en": "delay",
+"hi": "देरी"
+},
+{
+"de": "der Stau",
+"en": "traffic jam",
+"hi": "ट्रैफिक जाम"
+},
+{
+"de": "der Passagier",
+"en": "passenger",
+"hi": "यात्री"
+},
+{
+"de": "der Fahrer",
+"en": "driver",
+"hi": "ड्राइवर"
+},
+{
+"de": "der Führerschein",
+"en": "driver's license",
+"hi": "ड्राइविंग लाइसेंस"
+},
+{
+"de": "der Sitzplatz",
+"en": "seat",
+"hi": "सीट"
+}
+],
+"Places_&_City": [
+{
+"de": "die Stadt",
+"en": "city / town 🏙️",
+"hi": "शहर"
+},
+{
+"de": "das Dorf",
+"en": "village 🏘️",
+"hi": "गाँव"
+},
+{
+"de": "die Altstadt",
+"en": "old town",
+"hi": "पुराना शहर"
+},
+{
+"de": "der Platz",
+"en": "square / plaza",
+"hi": "चौक"
+},
+{
+"de": "die Brücke",
+"en": "bridge 🌉",
+"hi": "पुल"
+},
+{
+"de": "der Park",
+"en": "park 🌳",
+"hi": "पार्क"
+},
+{
+"de": "der Spielplatz",
+"en": "playground",
+"hi": "खेल का मैदान"
+},
+{
+"de": "das Rathaus",
+"en": "town hall 🏛️",
+"hi": "नगर पालिका"
+},
+{
+"de": "die Polizeiwache",
+"en": "police station",
+"hi": "पुलिस थाना"
+},
+{
+"de": "die Post",
+"en": "post office 📮",
+"hi": "डाकघर"
+},
+{
+"de": "die Bank",
+"en": "bank 🏦",
+"hi": "बैंक"
+},
+{
+"de": "das Amt",
+"en": "office / authority",
+"hi": "कार्यालय"
+},
+{
+"de": "das Büro",
+"en": "office",
+"hi": "दफ्तर"
+},
+{
+"de": "die Arztpraxis",
+"en": "doctor's office",
+"hi": "डॉक्टर का क्लीनिक"
+},
+{
+"de": "die Schule",
+"en": "school 🏫",
+"hi": "स्कूल"
+},
+{
+"de": "der Kindergarten",
+"en": "kindergarten",
+"hi": "किंडरगार्टन"
+},
+{
+"de": "das Gymnasium",
+"en": "high school",
+"hi": "हाई स्कूल"
+},
+{
+"de": "die Bibliothek",
+"en": "library 📚",
+"hi": "पुस्तकालय"
+},
+{
+"de": "die Mensa",
+"en": "canteen / cafeteria",
+"hi": "कैंटीन"
+},
+{
+"de": "der Supermarkt",
+"en": "supermarket 🛒",
+"hi": "सुपरमार्केट"
+},
+{
+"de": "das Einkaufszentrum",
+"en": "shopping mall 🛍️",
+"hi": "शॉपिंग मॉल"
+},
+{
+"de": "der Markt",
+"en": "market",
+"hi": "बाज़ार"
+},
+{
+"de": "der Flohmarkt",
+"en": "flea market",
+"hi": "पुरानी चीज़ों का बाज़ार"
+},
+{
+"de": "die Metzgerei",
+"en": "butcher shop 🥩",
+"hi": "कसाई की दुकान"
+},
+{
+"de": "der Blumenladen",
+"en": "flower shop 💐",
+"hi": "फूल की दुकान"
+},
+{
+"de": "das Restaurant",
+"en": "restaurant 🍽️",
+"hi": "रेस्तरां"
+},
+{
+"de": "das Café",
+"en": "café ☕",
+"hi": "कैफ़े"
+},
+{
+"de": "der Imbiss",
+"en": "snack bar / fast food",
+"hi": "स्नैक बार"
+},
+{
+"de": "das Kino",
+"en": "cinema 🎬",
+"hi": "सिनेमा"
+},
+{
+"de": "das Theater",
+"en": "theater 🎭",
+"hi": "थिएटर"
+},
+{
+"de": "das Museum",
+"en": "museum 🏛️",
+"hi": "संग्रहालय"
+},
+{
+"de": "das Schwimmbad",
+"en": "swimming pool 🏊",
+"hi": "स्विमिंग पूल"
+},
+{
+"de": "das Fitnessstudio",
+"en": "gym 🏋️",
+"hi": "जिम"
+},
+{
+"de": "das Stadion",
+"en": "stadium 🏟️",
+"hi": "स्टेडियम"
+},
+{
+"de": "die Sporthalle",
+"en": "sports hall",
+"hi": "खेल हॉल"
+},
+{
+"de": "die Kirche",
+"en": "church ⛪",
+"hi": "गिरजाघर"
+},
+{
+"de": "die Moschee",
+"en": "mosque 🕌",
+"hi": "मस्जिद"
+},
+{
+"de": "der Tempel",
+"en": "temple 🛕",
+"hi": "मंदिर"
+},
+{
+"de": "die Reinigung",
+"en": "dry cleaner",
+"hi": "ड्राई क्लीनर"
+},
+{
+"de": "die Werkstatt",
+"en": "workshop / garage",
+"hi": "वर्कशॉप / गैरेज"
+},
+{
+"de": "der Zoo",
+"en": "zoo 🦁",
+"hi": "चिड़ियाघर"
+},
+{
+"de": "das Schloss",
+"en": "castle 🏰",
+"hi": "महल"
+},
+{
+"de": "der Turm",
+"en": "tower",
+"hi": "टावर"
+},
+{
+"de": "die Sehenswürdigkeit",
+"en": "tourist attraction / sight",
+"hi": "दर्शनीय स्थल"
+},
+{
+"de": "der Eingang",
+"en": "entrance 🚪",
+"hi": "प्रवेश द्वार"
+},
+{
+"de": "der Ausgang",
+"en": "exit",
+"hi": "निकास"
+},
+{
+"de": "die Adresse",
+"en": "address 📍",
+"hi": "पता"
+},
+{
+"de": "hier",
+"en": "here",
+"hi": "यहाँ"
+},
+{
+"de": "in der Nähe",
+"en": "nearby",
+"hi": "पास में"
+}
+],
+"Nature_&_Weather": [
+{
+"de": "das Wetter",
+"en": "weather 🌤️",
+"hi": "मौसम"
+},
+{
+"de": "die Temperatur",
+"en": "temperature 🌡️",
+"hi": "तापमान"
+},
+{
+"de": "der Himmel",
+"en": "sky",
+"hi": "आसमान"
+},
+{
+"de": "die Sonne",
+"en": "sun ☀️",
+"hi": "सूरज"
+},
+{
+"de": "sonnig",
+"en": "sunny",
+"hi": "धूप वाला"
+},
+{
+"de": "Die Sonne scheint",
+"en": "The sun is shining",
+"hi": "धूप निकली है"
+},
+{
+"de": "die Wolke",
+"en": "cloud ☁️",
+"hi": "बादल"
+},
+{
+"de": "bewölkt",
+"en": "cloudy",
+"hi": "बादल वाला"
+},
+{
+"de": "der Regen",
+"en": "rain 🌧️",
+"hi": "बारिश"
+},
+{
+"de": "regnen",
+"en": "to rain",
+"hi": "बरसना"
+},
+{
+"de": "Es regnet",
+"en": "It's raining",
+"hi": "बारिश हो रही है"
+},
+{
+"de": "nass",
+"en": "wet",
+"hi": "गीला"
+},
+{
+"de": "der Schnee",
+"en": "snow ❄️",
+"hi": "बर्फ"
+},
+{
+"de": "schneien",
+"en": "to snow",
+"hi": "बर्फ गिरना"
+},
+{
+"de": "Es schneit",
+"en": "It's snowing",
+"hi": "बर्फ गिर रही है"
+},
+{
+"de": "der Wind",
+"en": "wind 💨",
+"hi": "हवा"
+},
+{
+"de": "windig",
+"en": "windy",
+"hi": "हवादार"
+},
+{
+"de": "der Sturm",
+"en": "storm 🌪️",
+"hi": "तूफ़ान"
+},
+{
+"de": "der Nebel",
+"en": "fog 🌫️",
+"hi": "कोहरा"
+},
+{
+"de": "neblig",
+"en": "foggy",
+"hi": "धुंधला"
+},
+{
+"de": "das Gewitter",
+"en": "thunderstorm ⛈️",
+"hi": "आँधी-तूफ़ान"
+},
+{
+"de": "der Blitz",
+"en": "lightning ⚡",
+"hi": "बिजली"
+},
+{
+"de": "der Donner",
+"en": "thunder",
+"hi": "गड़गड़ाहट"
+},
+{
+"de": "kühl",
+"en": "cool",
+"hi": "ठंडा (हल्का)"
+},
+{
+"de": "trocken",
+"en": "dry",
+"hi": "सूखा"
+},
+{
+"de": "die Jahreszeit",
+"en": "season",
+"hi": "मौसम / ऋतु"
+},
+{
+"de": "der Frühling",
+"en": "spring 🌸",
+"hi": "बसंत"
+},
+{
+"de": "der Sommer",
+"en": "summer ☀️",
+"hi": "गर्मी"
+},
+{
+"de": "der Herbst",
+"en": "autumn / fall 🍂",
+"hi": "पतझड़"
+},
+{
+"de": "der Winter",
+"en": "winter ❄️",
+"hi": "सर्दी"
+},
+{
+"de": "die Natur",
+"en": "nature 🌿",
+"hi": "प्रकृति"
+},
+{
+"de": "das Land",
+"en": "countryside / land",
+"hi": "देहात / ज़मीन"
+},
+{
+"de": "der Berg",
+"en": "mountain ⛰️",
+"hi": "पहाड़"
+},
+{
+"de": "das Tal",
+"en": "valley",
+"hi": "घाटी"
+},
+{
+"de": "der Hügel",
+"en": "hill",
+"hi": "पहाड़ी"
+},
+{
+"de": "der Wald",
+"en": "forest 🌲",
+"hi": "जंगल"
+},
+{
+"de": "die Wiese",
+"en": "meadow",
+"hi": "घास का मैदान"
+},
+{
+"de": "das Feld",
+"en": "field",
+"hi": "खेत"
+},
+{
+"de": "das Meer",
+"en": "sea 🌊",
+"hi": "समुद्र"
+},
+{
+"de": "der See",
+"en": "lake",
+"hi": "झील"
+},
+{
+"de": "der Fluss",
+"en": "river 🏞️",
+"hi": "नदी"
+},
+{
+"de": "der Strand",
+"en": "beach 🏖️",
+"hi": "समुद्र तट"
+},
+{
+"de": "die Insel",
+"en": "island 🏝️",
+"hi": "द्वीप"
+},
+{
+"de": "der Baum",
+"en": "tree 🌳",
+"hi": "पेड़"
+},
+{
+"de": "die Pflanze",
+"en": "plant 🌱",
+"hi": "पौधा"
+},
+{
+"de": "die Blume",
+"en": "flower 🌸",
+"hi": "फूल"
+},
+{
+"de": "das Gras",
+"en": "grass 🌿",
+"hi": "घास"
+},
+{
+"de": "das Blatt",
+"en": "leaf 🍃",
+"hi": "पत्ता"
+},
+{
+"de": "die Luft",
+"en": "air",
+"hi": "हवा"
+},
+{
+"de": "die Erde",
+"en": "earth / ground 🌍",
+"hi": "धरती / ज़मीन"
+},
+{
+"de": "das Feuer",
+"en": "fire 🔥",
+"hi": "आग"
+},
+{
+"de": "der Stein",
+"en": "stone / rock 🪨",
+"hi": "पत्थर"
+},
+{
+"de": "der Mond",
+"en": "moon 🌙",
+"hi": "चाँद"
+},
+{
+"de": "der Stern",
+"en": "star ⭐",
+"hi": "तारा"
+},
+{
+"de": "der Regenbogen",
+"en": "rainbow 🌈",
+"hi": "इंद्रधनुष"
+},
+{
+"de": "Das Wetter ist schön",
+"en": "The weather is nice",
+"hi": "मौसम अच्छा है"
+},
+{
+"de": "Das Wetter ist schlecht",
+"en": "The weather is bad",
+"hi": "मौसम खराब है"
+},
+{
+"de": "Es ist heiß/kalt",
+"en": "It's hot/cold",
+"hi": "गर्मी/ठंड है"
+},
+{
+"de": "Es sind 20 Grad",
+"en": "It's 20 degrees",
+"hi": "20 डिग्री है"
+},
+{
+"de": "draußen",
+"en": "outside",
+"hi": "बाहर"
+}
+],
+"Time": [
+{
+"de": "die Sekunde",
+"en": "second",
+"hi": "सेकंड"
+},
+{
+"de": "die Minute",
+"en": "minute",
+"hi": "मिनट"
+},
+{
+"de": "die Stunde",
+"en": "hour",
+"hi": "घंटा"
+},
+{
+"de": "der Tag",
+"en": "day",
+"hi": "दिन"
+},
+{
+"de": "die Woche",
+"en": "week",
+"hi": "सप्ताह"
+},
+{
+"de": "der Monat",
+"en": "month",
+"hi": "महीना"
+},
+{
+"de": "das Jahr",
+"en": "year",
+"hi": "साल"
+},
+{
+"de": "Viertel",
+"en": "quarter",
+"hi": "पौने / सवा"
+},
+{
+"de": "vor",
+"en": "before / to",
+"hi": "पहले"
+},
+{
+"de": "nach",
+"en": "after / past",
+"hi": "बाद"
+},
+{
+"de": "der Morgen",
+"en": "morning 🌅",
+"hi": "सुबह"
+},
+{
+"de": "der Vormittag",
+"en": "late morning",
+"hi": "दोपहर से पहले"
+},
+{
+"de": "der Mittag",
+"en": "noon / midday 🌞",
+"hi": "दोपहर"
+},
+{
+"de": "der Nachmittag",
+"en": "afternoon",
+"hi": "दोपहर बाद"
+},
+{
+"de": "der Abend",
+"en": "evening 🌆",
+"hi": "शाम"
+},
+{
+"de": "die Nacht",
+"en": "night 🌙",
+"hi": "रात"
+},
+{
+"de": "die Mitternacht",
+"en": "midnight",
+"hi": "आधी रात"
+},
+{
+"de": "Montag",
+"en": "Monday",
+"hi": "सोमवार"
+},
+{
+"de": "Dienstag",
+"en": "Tuesday",
+"hi": "मंगलवार"
+},
+{
+"de": "Mittwoch",
+"en": "Wednesday",
+"hi": "बुधवार"
+},
+{
+"de": "Donnerstag",
+"en": "Thursday",
+"hi": "गुरुवार"
+},
+{
+"de": "Samstag",
+"en": "Saturday",
+"hi": "शनिवार"
+},
+{
+"de": "Sonntag",
+"en": "Sunday",
+"hi": "रविवार"
+},
+{
+"de": "das Wochenende",
+"en": "weekend 🗓️",
+"hi": "सप्ताहांत"
+},
+{
+"de": "Januar",
+"en": "January",
+"hi": "जनवरी"
+},
+{
+"de": "Februar",
+"en": "February",
+"hi": "फरवरी"
+},
+{
+"de": "März",
+"en": "March",
+"hi": "मार्च"
+},
+{
+"de": "April",
+"en": "April",
+"hi": "अप्रैल"
+},
+{
+"de": "Mai",
+"en": "May",
+"hi": "मई"
+},
+{
+"de": "Juni",
+"en": "June",
+"hi": "जून"
+},
+{
+"de": "Juli",
+"en": "July",
+"hi": "जुलाई"
+},
+{
+"de": "August",
+"en": "August",
+"hi": "अगस्त"
+},
+{
+"de": "September",
+"en": "September",
+"hi": "सितंबर"
+},
+{
+"de": "Oktober",
+"en": "October",
+"hi": "अक्टूबर"
+},
+{
+"de": "November",
+"en": "November",
+"hi": "नवंबर"
+},
+{
+"de": "Dezember",
+"en": "December",
+"hi": "दिसंबर"
+},
+{
+"de": "heute",
+"en": "today",
+"hi": "आज"
+},
+{
+"de": "morgen",
+"en": "tomorrow",
+"hi": "कल (आने वाला)"
+},
+{
+"de": "gestern",
+"en": "yesterday",
+"hi": "कल (बीता हुआ)"
+},
+{
+"de": "übermorgen",
+"en": "day after tomorrow",
+"hi": "परसों (आने वाला)"
+},
+{
+"de": "vorgestern",
+"en": "day before yesterday",
+"hi": "परसों (बीता हुआ)"
+},
+{
+"de": "das Datum",
+"en": "date 📅",
+"hi": "तारीख"
+},
+{
+"de": "der Kalender",
+"en": "calendar",
+"hi": "कैलेंडर"
+},
+{
+"de": "selten",
+"en": "rarely / seldom",
+"hi": "कभी-कभार"
+},
+{
+"de": "täglich",
+"en": "daily",
+"hi": "रोज़ाना"
+},
+{
+"de": "wöchentlich",
+"en": "weekly",
+"hi": "साप्ताहिक"
+},
+{
+"de": "monatlich",
+"en": "monthly",
+"hi": "मासिक"
+},
+{
+"de": "jetzt",
+"en": "now",
+"hi": "अभी"
+},
+{
+"de": "dann",
+"en": "then",
+"hi": "फिर / तब"
+},
+{
+"de": "bald",
+"en": "soon",
+"hi": "जल्दी"
+},
+{
+"de": "später",
+"en": "later",
+"hi": "बाद में"
+},
+{
+"de": "früh",
+"en": "early",
+"hi": "जल्दी"
+},
+{
+"de": "spät",
+"en": "late",
+"hi": "देर से"
+},
+{
+"de": "pünktlich",
+"en": "on time / punctual",
+"hi": "समय पर"
+},
+{
+"de": "zuerst",
+"en": "first",
+"hi": "पहले"
+},
+{
+"de": "danach",
+"en": "after that",
+"hi": "उसके बाद"
+},
+{
+"de": "zuletzt",
+"en": "lastly / finally",
+"hi": "अंत में"
+},
+{
+"de": "endlich",
+"en": "finally",
+"hi": "आखिरकार"
+},
+{
+"de": "dauern",
+"en": "to last / take time",
+"hi": "समय लगना"
+},
+{
+"de": "warten",
+"en": "to wait",
+"hi": "इंतज़ार करना"
+},
+{
+"de": "aufhören",
+"en": "to stop",
+"hi": "बंद करना"
+},
+{
+"de": "der Anfang",
+"en": "beginning",
+"hi": "शुरुआत"
+},
+{
+"de": "das Ende",
+"en": "end",
+"hi": "अंत"
+},
+{
+"de": "die Dauer",
+"en": "duration",
+"hi": "अवधि"
+},
+{
+"de": "der Kalender",
+"en": "calendar 📅",
+"hi": "कैलेंडर"
+}
+],
+"School_&_Learning": [
+{
+"de": "die Klasse",
+"en": "class / grade",
+"hi": "कक्षा"
+},
+{
+"de": "das Klassenzimmer",
+"en": "classroom",
+"hi": "क्लासरूम"
+},
+{
+"de": "der Unterricht",
+"en": "class / lesson",
+"hi": "पाठ"
+},
+{
+"de": "der Kurs",
+"en": "course",
+"hi": "कोर्स"
+},
+{
+"de": "das Buch",
+"en": "book 📕",
+"hi": "किताब"
+},
+{
+"de": "das Heft",
+"en": "notebook 📓",
+"hi": "कॉपी"
+},
+{
+"de": "das Papier",
+"en": "paper 📄",
+"hi": "कागज़"
+},
+{
+"de": "der Radiergummi",
+"en": "eraser",
+"hi": "रबड़"
+},
+{
+"de": "das Lineal",
+"en": "ruler 📏",
+"hi": "स्केल"
+},
+{
+"de": "die Schere",
+"en": "scissors ✂️",
+"hi": "कैंची"
+},
+{
+"de": "die Tafel",
+"en": "blackboard",
+"hi": "ब्लैकबोर्ड"
+},
+{
+"de": "der Computer",
+"en": "computer 💻",
+"hi": "कंप्यूटर"
+},
+{
+"de": "die Sprache",
+"en": "language 🗣️",
+"hi": "भाषा"
+},
+{
+"de": "Deutsch",
+"en": "German 🇩🇪",
+"hi": "जर्मन"
+},
+{
+"de": "Englisch",
+"en": "English 🇬🇧",
+"hi": "अंग्रेज़ी"
+},
+{
+"de": "das Wort",
+"en": "word",
+"hi": "शब्द"
+},
+{
+"de": "der Satz",
+"en": "sentence",
+"hi": "वाक्य"
+},
+{
+"de": "der Text",
+"en": "text",
+"hi": "पाठ"
+},
+{
+"de": "die Grammatik",
+"en": "grammar",
+"hi": "व्याकरण"
+},
+{
+"de": "lernen",
+"en": "to learn 📖",
+"hi": "सीखना"
+},
+{
+"de": "studieren",
+"en": "to study (uni)",
+"hi": "पढ़ाई करना"
+},
+{
+"de": "lesen",
+"en": "to read",
+"hi": "पढ़ना"
+},
+{
+"de": "sprechen",
+"en": "to speak",
+"hi": "बोलना"
+},
+{
+"de": "verstehen",
+"en": "to understand",
+"hi": "समझना"
+},
+{
+"de": "üben",
+"en": "to practice",
+"hi": "अभ्यास करना"
+},
+{
+"de": "wiederholen",
+"en": "to repeat",
+"hi": "दोहराना"
+},
+{
+"de": "fragen",
+"en": "to ask",
+"hi": "पूछना"
+},
+{
+"de": "die Frage",
+"en": "question ❓",
+"hi": "सवाल"
+},
+{
+"de": "antworten",
+"en": "to answer",
+"hi": "जवाब देना"
+},
+{
+"de": "die Antwort",
+"en": "answer",
+"hi": "जवाब"
+},
+{
+"de": "erklären",
+"en": "to explain",
+"hi": "समझाना"
+},
+{
+"de": "die Aufgabe",
+"en": "task / exercise",
+"hi": "कार्य"
+},
+{
+"de": "die Hausaufgabe",
+"en": "homework 📝",
+"hi": "होमवर्क"
+},
+{
+"de": "die Übung",
+"en": "exercise",
+"hi": "अभ्यास"
+},
+{
+"de": "ausfüllen",
+"en": "to fill in",
+"hi": "भरना"
+},
+{
+"de": "ankreuzen",
+"en": "to tick / check",
+"hi": "टिक करना"
+},
+{
+"de": "die Prüfung",
+"en": "exam 📋",
+"hi": "परीक्षा"
+},
+{
+"de": "der Test",
+"en": "test",
+"hi": "टेस्ट"
+},
+{
+"de": "die Note",
+"en": "grade / mark",
+"hi": "नंबर / ग्रेड"
+},
+{
+"de": "bestehen",
+"en": "to pass (exam)",
+"hi": "पास होना"
+},
+{
+"de": "der Fehler",
+"en": "mistake / error",
+"hi": "गलती"
+},
+{
+"de": "korrigieren",
+"en": "to correct",
+"hi": "सुधारना"
+},
+{
+"de": "richtig",
+"en": "correct / right ✓",
+"hi": "सही"
+},
+{
+"de": "falsch",
+"en": "wrong / false ✗",
+"hi": "गलत"
+},
+{
+"de": "das Studium",
+"en": "studies (uni)",
+"hi": "पढ़ाई"
+},
+{
+"de": "das Zeugnis",
+"en": "report card / certificate",
+"hi": "रिपोर्ट कार्ड"
+},
+{
+"de": "das Diplom",
+"en": "diploma / degree",
+"hi": "डिप्लोमा"
+},
+{
+"de": "Ich verstehe (nicht)",
+"en": "I (don't) understand",
+"hi": "मैं समझ (नहीं) रहा/रही हूँ"
+},
+{
+"de": "Bitte langsamer!",
+"en": "Please slower!",
+"hi": "कृपया धीरे बोलिए!"
+},
+{
+"de": "Ich lerne Deutsch",
+"en": "I'm learning German",
+"hi": "मैं जर्मन सीख रहा/रही हूँ"
+},
+{
+"de": "Auf welcher Seite?",
+"en": "On which page?",
+"hi": "कौन से पेज पर?"
+}
+],
+"Work_&_Job": [
+{
+"de": "der Beruf",
+"en": "profession / occupation",
+"hi": "पेशा"
+},
+{
+"de": "der Job",
+"en": "job",
+"hi": "नौकरी"
+},
+{
+"de": "die Stelle",
+"en": "position / job",
+"hi": "पद"
+},
+{
+"de": "die Firma",
+"en": "company / firm",
+"hi": "कंपनी"
+},
+{
+"de": "der Arbeitsplatz",
+"en": "workplace",
+"hi": "कार्यस्थल"
+},
+{
+"de": "die Fabrik",
+"en": "factory 🏭",
+"hi": "फैक्ट्री"
+},
+{
+"de": "berufstätig",
+"en": "employed / working",
+"hi": "नौकरी वाला"
+},
+{
+"de": "Vollzeit",
+"en": "full-time",
+"hi": "पूर्णकालिक"
+},
+{
+"de": "Teilzeit",
+"en": "part-time",
+"hi": "अंशकालिक"
+},
+{
+"de": "das Gehalt",
+"en": "salary 💰",
+"hi": "वेतन"
+},
+{
+"de": "der Lohn",
+"en": "wage / pay",
+"hi": "मज़दूरी"
+},
+{
+"de": "verdienen",
+"en": "to earn",
+"hi": "कमाना"
+},
+{
+"de": "bezahlen",
+"en": "to pay",
+"hi": "भुगतान करना"
+},
+{
+"de": "die Arbeitszeit",
+"en": "working hours",
+"hi": "काम के घंटे"
+},
+{
+"de": "die Pause",
+"en": "break ☕",
+"hi": "ब्रेक"
+},
+{
+"de": "die Mittagspause",
+"en": "lunch break",
+"hi": "लंच ब्रेक"
+},
+{
+"de": "der Feierabend",
+"en": "end of work day",
+"hi": "छुट्टी का समय"
+},
+{
+"de": "sich bewerben",
+"en": "to apply (for job)",
+"hi": "आवेदन करना"
+},
+{
+"de": "die Bewerbung",
+"en": "application",
+"hi": "आवेदन"
+},
+{
+"de": "der Lebenslauf",
+"en": "CV / resume 📄",
+"hi": "बायोडाटा"
+},
+{
+"de": "das Vorstellungsgespräch",
+"en": "job interview",
+"hi": "इंटरव्यू"
+},
+{
+"de": "die Erfahrung",
+"en": "experience",
+"hi": "अनुभव"
+},
+{
+"de": "der Vertrag",
+"en": "contract 📝",
+"hi": "अनुबंध"
+},
+{
+"de": "die Unterschrift",
+"en": "signature ✍️",
+"hi": "हस्ताक्षर"
+},
+{
+"de": "das Formular",
+"en": "form",
+"hi": "फॉर्म"
+},
+{
+"de": "sich anmelden",
+"en": "to register",
+"hi": "पंजीकरण करना"
+},
+{
+"de": "einen Termin machen",
+"en": "to make an appointment",
+"hi": "अपॉइंटमेंट लेना"
+},
+{
+"de": "kündigen",
+"en": "to quit / resign",
+"hi": "इस्तीफा देना"
+},
+{
+"de": "suchen",
+"en": "to look for / search",
+"hi": "ढूँढना"
+},
+{
+"de": "der Termin",
+"en": "appointment",
+"hi": "अपॉइंटमेंट"
+},
+{
+"de": "die Besprechung",
+"en": "meeting",
+"hi": "मीटिंग"
+},
+{
+"de": "die Überstunden",
+"en": "overtime",
+"hi": "ओवरटाइम"
+},
+{
+"de": "das Team",
+"en": "team",
+"hi": "टीम"
+},
+{
+"de": "das Projekt",
+"en": "project",
+"hi": "प्रोजेक्ट"
+}
+],
+"Shopping_&_Money": [
+{
+"de": "die Münze",
+"en": "coin 🪙",
+"hi": "सिक्का"
+},
+{
+"de": "der Schein",
+"en": "banknote 💵",
+"hi": "नोट"
+},
+{
+"de": "das Geschäft",
+"en": "shop / store 🏪",
+"hi": "दुकान"
+},
+{
+"de": "der Laden",
+"en": "shop / store",
+"hi": "दुकान"
+},
+{
+"de": "das Kaufhaus",
+"en": "department store 🏬",
+"hi": "डिपार्टमेंट स्टोर"
+},
+{
+"de": "die Kasse",
+"en": "cash register / checkout",
+"hi": "कैश काउंटर"
+},
+{
+"de": "der Verkäufer",
+"en": "salesman",
+"hi": "विक्रेता (पुरुष)"
+},
+{
+"de": "die Verkäuferin",
+"en": "saleswoman",
+"hi": "विक्रेता (महिला)"
+},
+{
+"de": "der Kunde",
+"en": "customer (m)",
+"hi": "ग्राहक (पुरुष)"
+},
+{
+"de": "die Kundin",
+"en": "customer (f)",
+"hi": "ग्राहक (महिला)"
+},
+{
+"de": "kaufen",
+"en": "to buy",
+"hi": "खरीदना"
+},
+{
+"de": "verkaufen",
+"en": "to sell",
+"hi": "बेचना"
+},
+{
+"de": "zahlen",
+"en": "to pay",
+"hi": "देना (पैसे)"
+},
+{
+"de": "kosten",
+"en": "to cost",
+"hi": "कीमत होना"
+},
+{
+"de": "bestellen",
+"en": "to order",
+"hi": "ऑर्डर करना"
+},
+{
+"de": "wechseln",
+"en": "to change (money)",
+"hi": "बदलना"
+},
+{
+"de": "sparen",
+"en": "to save (money)",
+"hi": "बचाना"
+},
+{
+"de": "bar",
+"en": "cash (payment)",
+"hi": "नकद"
+},
+{
+"de": "die Karte",
+"en": "card 💳",
+"hi": "कार्ड"
+},
+{
+"de": "die Kreditkarte",
+"en": "credit card",
+"hi": "क्रेडिट कार्ड"
+},
+{
+"de": "die EC-Karte",
+"en": "debit card",
+"hi": "डेबिट कार्ड"
+},
+{
+"de": "die Quittung",
+"en": "receipt 🧾",
+"hi": "रसीद"
+},
+{
+"de": "die Rechnung",
+"en": "bill / invoice",
+"hi": "बिल"
+},
+{
+"de": "das Wechselgeld",
+"en": "change (money back)",
+"hi": "खुल्ले पैसे"
+},
+{
+"de": "günstig",
+"en": "affordable / good value",
+"hi": "किफायती"
+},
+{
+"de": "gratis",
+"en": "free / complimentary",
+"hi": "मुफ्त"
+},
+{
+"de": "das Angebot",
+"en": "offer / deal 🏷️",
+"hi": "ऑफर"
+},
+{
+"de": "der Rabatt",
+"en": "discount",
+"hi": "छूट"
+},
+{
+"de": "reduziert",
+"en": "reduced / on sale",
+"hi": "कम कीमत पर"
+},
+{
+"de": "das Stück",
+"en": "piece",
+"hi": "टुकड़ा"
+},
+{
+"de": "das Gramm",
+"en": "gram",
+"hi": "ग्राम"
+},
+{
+"de": "das Kilo",
+"en": "kilo",
+"hi": "किलो"
+},
+{
+"de": "der Liter",
+"en": "liter",
+"hi": "लीटर"
+},
+{
+"de": "die Ware",
+"en": "goods",
+"hi": "माल"
+},
+{
+"de": "die Bestellung",
+"en": "order",
+"hi": "ऑर्डर"
+},
+{
+"de": "der Einkaufswagen",
+"en": "shopping cart 🛒",
+"hi": "शॉपिंग ट्रॉली"
+},
+{
+"de": "der Korb",
+"en": "basket 🧺",
+"hi": "टोकरी"
+},
+{
+"de": "die Auswahl",
+"en": "choice / selection",
+"hi": "चयन"
+},
+{
+"de": "offen",
+"en": "open",
+"hi": "खुला"
+},
+{
+"de": "geschlossen",
+"en": "closed",
+"hi": "बंद"
+},
+{
+"de": "der Verkauf",
+"en": "sale",
+"hi": "बिक्री"
+},
+{
+"de": "die Tüte",
+"en": "bag 🛍️",
+"hi": "थैला"
+},
+{
+"de": "die Schlange",
+"en": "queue / line",
+"hi": "कतार"
+},
+{
+"de": "das Schaufenster",
+"en": "shop window",
+"hi": "दुकान की खिड़की"
+},
+{
+"de": "die Größe",
+"en": "size",
+"hi": "आकार / साइज़"
+},
+{
+"de": "umtauschen",
+"en": "to exchange",
+"hi": "बदलना / एक्सचेंज करना"
+},
+{
+"de": "zurückgeben",
+"en": "to return",
+"hi": "वापस करना"
+},
+{
+"de": "die Garantie",
+"en": "warranty",
+"hi": "गारंटी"
+}
+],
+"Communication": [
+{
+"de": "das Telefon",
+"en": "telephone 📞",
+"hi": "टेलीफोन"
+},
+{
+"de": "das Handy",
+"en": "mobile phone 📱",
+"hi": "मोबाइल फोन"
+},
+{
+"de": "das Smartphone",
+"en": "smartphone",
+"hi": "स्मार्टफोन"
+},
+{
+"de": "die Telefonnummer",
+"en": "phone number",
+"hi": "फोन नंबर"
+},
+{
+"de": "anrufen",
+"en": "to call (phone)",
+"hi": "फोन करना"
+},
+{
+"de": "der Anruf",
+"en": "phone call",
+"hi": "फोन कॉल"
+},
+{
+"de": "telefonieren",
+"en": "to phone",
+"hi": "फोन पर बात करना"
+},
+{
+"de": "die Nachricht",
+"en": "message 💬",
+"hi": "संदेश"
+},
+{
+"de": "die SMS",
+"en": "text message",
+"hi": "एसएमएस"
+},
+{
+"de": "die E-Mail",
+"en": "email 📧",
+"hi": "ई-मेल"
+},
+{
+"de": "die E-Mail-Adresse",
+"en": "email address",
+"hi": "ई-मेल पता"
+},
+{
+"de": "der Brief",
+"en": "letter ✉️",
+"hi": "पत्र"
+},
+{
+"de": "die Postkarte",
+"en": "postcard 📮",
+"hi": "पोस्टकार्ड"
+},
+{
+"de": "der Absender",
+"en": "sender",
+"hi": "प्रेषक"
+},
+{
+"de": "der Empfänger",
+"en": "recipient",
+"hi": "प्राप्तकर्ता"
+},
+{
+"de": "sagen",
+"en": "to say",
+"hi": "कहना"
+},
+{
+"de": "das Internet",
+"en": "internet 🌐",
+"hi": "इंटरनेट"
+},
+{
+"de": "die Webseite",
+"en": "website",
+"hi": "वेबसाइट"
+},
+{
+"de": "das WLAN",
+"en": "WiFi 📶",
+"hi": "वाई-फाई"
+},
+{
+"de": "die App",
+"en": "app",
+"hi": "ऐप"
+},
+{
+"de": "das Passwort",
+"en": "password 🔐",
+"hi": "पासवर्ड"
+},
+{
+"de": "der Laptop",
+"en": "laptop",
+"hi": "लैपटॉप"
+},
+{
+"de": "das Tablet",
+"en": "tablet",
+"hi": "टैबलेट"
+},
+{
+"de": "der Bildschirm",
+"en": "screen",
+"hi": "स्क्रीन"
+},
+{
+"de": "die Tastatur",
+"en": "keyboard ⌨️",
+"hi": "कीबोर्ड"
+},
+{
+"de": "die Maus",
+"en": "mouse 🖱️",
+"hi": "माउस"
+},
+{
+"de": "der Drucker",
+"en": "printer 🖨️",
+"hi": "प्रिंटर"
+},
+{
+"de": "das Fernsehen",
+"en": "television 📺",
+"hi": "टेलीविज़न"
+},
+{
+"de": "das Radio",
+"en": "radio 📻",
+"hi": "रेडियो"
+},
+{
+"de": "die Zeitschrift",
+"en": "magazine 📖",
+"hi": "पत्रिका"
+},
+{
+"de": "die Nachrichten",
+"en": "news",
+"hi": "खबरें"
+},
+{
+"de": "das Foto",
+"en": "photo 📷",
+"hi": "फोटो"
+},
+{
+"de": "die Kamera",
+"en": "camera 📸",
+"hi": "कैमरा"
+},
+{
+"de": "das Video",
+"en": "video 🎥",
+"hi": "वीडियो"
+},
+{
+"de": "drucken",
+"en": "to print",
+"hi": "प्रिंट करना"
+},
+{
+"de": "klicken",
+"en": "to click",
+"hi": "क्लिक करना"
+},
+{
+"de": "herunterladen",
+"en": "to download ⬇️",
+"hi": "डाउनलोड करना"
+},
+{
+"de": "hochladen",
+"en": "to upload ⬆️",
+"hi": "अपलोड करना"
+},
+{
+"de": "speichern",
+"en": "to save",
+"hi": "सेव करना"
+},
+{
+"de": "löschen",
+"en": "to delete",
+"hi": "डिलीट करना"
+},
+{
+"de": "kopieren",
+"en": "to copy",
+"hi": "कॉपी करना"
+},
+{
+"de": "suchen",
+"en": "to search",
+"hi": "खोजना"
+},
+{
+"de": "die Verbindung",
+"en": "connection",
+"hi": "कनेक्शन"
+},
+{
+"de": "das Signal",
+"en": "signal 📶",
+"hi": "सिग्नल"
+},
+{
+"de": "das Kabel",
+"en": "cable",
+"hi": "केबल"
+},
+{
+"de": "das Ladegerät",
+"en": "charger 🔌",
+"hi": "चार्जर"
+}
+],
+"Animals": [
+{
+"de": "das Tier",
+"en": "animal 🐾",
+"hi": "जानवर"
+},
+{
+"de": "das Haustier",
+"en": "pet",
+"hi": "पालतू जानवर"
+},
+{
+"de": "der Hund",
+"en": "dog 🐕",
+"hi": "कुत्ता"
+},
+{
+"de": "die Katze",
+"en": "cat 🐈",
+"hi": "बिल्ली"
+},
+{
+"de": "der Fisch",
+"en": "fish 🐟",
+"hi": "मछली"
+},
+{
+"de": "der Vogel",
+"en": "bird 🐦",
+"hi": "पक्षी"
+},
+{
+"de": "der Hamster",
+"en": "hamster 🐹",
+"hi": "हैम्स्टर"
+},
+{
+"de": "das Kaninchen",
+"en": "rabbit 🐰",
+"hi": "खरगोश"
+},
+{
+"de": "die Schildkröte",
+"en": "turtle 🐢",
+"hi": "कछुआ"
+},
+{
+"de": "die Kuh",
+"en": "cow 🐄",
+"hi": "गाय"
+},
+{
+"de": "das Pferd",
+"en": "horse 🐴",
+"hi": "घोड़ा"
+},
+{
+"de": "das Schwein",
+"en": "pig 🐷",
+"hi": "सूअर"
+},
+{
+"de": "das Schaf",
+"en": "sheep 🐑",
+"hi": "भेड़"
+},
+{
+"de": "die Ziege",
+"en": "goat 🐐",
+"hi": "बकरी"
+},
+{
+"de": "das Huhn",
+"en": "chicken 🐔",
+"hi": "मुर्गी"
+},
+{
+"de": "der Hahn",
+"en": "rooster 🐓",
+"hi": "मुर्गा"
+},
+{
+"de": "die Ente",
+"en": "duck 🦆",
+"hi": "बत्तख"
+},
+{
+"de": "der Esel",
+"en": "donkey",
+"hi": "गधा"
+},
+{
+"de": "der Löwe",
+"en": "lion 🦁",
+"hi": "शेर"
+},
+{
+"de": "der Tiger",
+"en": "tiger 🐅",
+"hi": "बाघ"
+},
+{
+"de": "der Elefant",
+"en": "elephant 🐘",
+"hi": "हाथी"
+},
+{
+"de": "der Bär",
+"en": "bear 🐻",
+"hi": "भालू"
+},
+{
+"de": "der Affe",
+"en": "monkey 🐒",
+"hi": "बंदर"
+},
+{
+"de": "der Wolf",
+"en": "wolf 🐺",
+"hi": "भेड़िया"
+},
+{
+"de": "der Fuchs",
+"en": "fox 🦊",
+"hi": "लोमड़ी"
+},
+{
+"de": "das Krokodil",
+"en": "crocodile 🐊",
+"hi": "मगरमच्छ"
+},
+{
+"de": "die Schlange",
+"en": "snake 🐍",
+"hi": "साँप"
+},
+{
+"de": "die Giraffe",
+"en": "giraffe 🦒",
+"hi": "जिराफ"
+},
+{
+"de": "das Zebra",
+"en": "zebra 🦓",
+"hi": "ज़ेब्रा"
+},
+{
+"de": "die Biene",
+"en": "bee 🐝",
+"hi": "मधुमक्खी"
+},
+{
+"de": "der Schmetterling",
+"en": "butterfly 🦋",
+"hi": "तितली"
+},
+{
+"de": "die Spinne",
+"en": "spider 🕷️",
+"hi": "मकड़ी"
+},
+{
+"de": "die Fliege",
+"en": "fly",
+"hi": "मक्खी"
+},
+{
+"de": "die Ameise",
+"en": "ant 🐜",
+"hi": "चींटी"
+},
+{
+"de": "der Frosch",
+"en": "frog 🐸",
+"hi": "मेंढक"
+},
+{
+"de": "der Schwanz",
+"en": "tail",
+"hi": "पूँछ"
+},
+{
+"de": "die Pfote",
+"en": "paw 🐾",
+"hi": "पंजा"
+},
+{
+"de": "der Flügel",
+"en": "wing",
+"hi": "पंख"
+},
+{
+"de": "das Fell",
+"en": "fur",
+"hi": "फर / बाल"
+},
+{
+"de": "bellen",
+"en": "to bark",
+"hi": "भौंकना"
+},
+{
+"de": "miauen",
+"en": "to meow",
+"hi": "म्याऊं करना"
+},
+{
+"de": "schwimmen",
+"en": "to swim",
+"hi": "तैरना"
+},
+{
+"de": "füttern",
+"en": "to feed",
+"hi": "खाना खिलाना"
+},
+{
+"de": "der Hirsch",
+"en": "deer 🦌",
+"hi": "हिरण"
+},
+{
+"de": "der Pinguin",
+"en": "penguin 🐧",
+"hi": "पेंगुइन"
+},
+{
+"de": "der Delfin",
+"en": "dolphin 🐬",
+"hi": "डॉल्फिन"
+},
+{
+"de": "der Wal",
+"en": "whale 🐋",
+"hi": "व्हेल"
+},
+{
+"de": "der Hai",
+"en": "shark 🦈",
+"hi": "शार्क"
+}
+],
+"Celebrations": [
+{
+"de": "das Fest",
+"en": "festival / celebration 🎉",
+"hi": "त्योहार"
+},
+{
+"de": "die Feier",
+"en": "celebration / party",
+"hi": "जश्न"
+},
+{
+"de": "die Party",
+"en": "party 🥳",
+"hi": "पार्टी"
+},
+{
+"de": "die Geburtstagsparty",
+"en": "birthday party",
+"hi": "जन्मदिन की पार्टी"
+},
+{
+"de": "die Torte",
+"en": "layer cake / gateau",
+"hi": "टोर्ट केक"
+},
+{
+"de": "die Kerze",
+"en": "candle 🕯️",
+"hi": "मोमबत्ती"
+},
+{
+"de": "die Braut",
+"en": "bride 👰",
+"hi": "दुल्हन"
+},
+{
+"de": "der Bräutigam",
+"en": "groom 🤵",
+"hi": "दूल्हा"
+},
+{
+"de": "Weihnachten",
+"en": "Christmas 🎄",
+"hi": "क्रिसमस"
+},
+{
+"de": "der Weihnachtsbaum",
+"en": "Christmas tree",
+"hi": "क्रिसमस ट्री"
+},
+{
+"de": "der Weihnachtsmann",
+"en": "Santa Claus 🎅",
+"hi": "सांता क्लॉज़"
+},
+{
+"de": "Ostern",
+"en": "Easter 🐰",
+"hi": "ईस्टर"
+},
+{
+"de": "das Osterei",
+"en": "Easter egg 🥚",
+"hi": "ईस्टर अंडा"
+},
+{
+"de": "Silvester",
+"en": "New Year's Eve 🎆",
+"hi": "नए साल की पूर्व संध्या"
+},
+{
+"de": "Neujahr",
+"en": "New Year 🎊",
+"hi": "नया साल"
+},
+{
+"de": "das Feuerwerk",
+"en": "fireworks 🎆",
+"hi": "आतिशबाज़ी"
+},
+{
+"de": "das Geschenk",
+"en": "gift / present 🎁",
+"hi": "उपहार"
+},
+{
+"de": "schenken",
+"en": "to give (gift)",
+"hi": "उपहार देना"
+},
+{
+"de": "der Ballon",
+"en": "balloon 🎈",
+"hi": "गुब्बारा"
+},
+{
+"de": "die Dekoration",
+"en": "decoration",
+"hi": "सजावट"
+},
+{
+"de": "die Blumen",
+"en": "flowers 💐",
+"hi": "फूल"
+},
+{
+"de": "gratulieren",
+"en": "to congratulate",
+"hi": "बधाई देना"
+},
+{
+"de": "wünschen",
+"en": "to wish",
+"hi": "शुभकामना देना"
+},
+{
+"de": "tanzen",
+"en": "to dance 💃",
+"hi": "नाचना"
+},
+{
+"de": "singen",
+"en": "to sing 🎤",
+"hi": "गाना"
+},
+{
+"de": "das Glück",
+"en": "luck / happiness",
+"hi": "खुशी / भाग्य"
+},
+{
+"de": "die Musik",
+"en": "music 🎵",
+"hi": "संगीत"
+},
+{
+"de": "die Überraschung",
+"en": "surprise",
+"hi": "आश्चर्य / सरप्राइज"
+},
+{
+"de": "der Gast",
+"en": "guest",
+"hi": "मेहमान"
+},
+{
+"de": "die Gastgeberin",
+"en": "host (f)",
+"hi": "मेजबान (f)"
+},
+{
+"de": "das Konfetti",
+"en": "confetti 🎊",
+"hi": "कन्फेट्टी"
+},
+{
+"de": "der Champagner",
+"en": "champagne 🍾",
+"hi": "शैंपेन"
+},
+{
+"de": "der Tanz",
+"en": "dance",
+"hi": "नृत्य"
+},
+{
+"de": "das Kostüm",
+"en": "costume",
+"hi": "पोशाक"
+},
+{
+"de": "der Festtag",
+"en": "holiday / festival day",
+"hi": "त्योहार का दिन"
+},
+{
+"de": "die Tradition",
+"en": "tradition",
+"hi": "परंपरा"
+},
+{
+"de": "einladen",
+"en": "to invite",
+"hi": "आमंत्रित करना"
+}
+],
+"Personal_Items": [
+{
+"de": "die Handtasche",
+"en": "handbag / purse",
+"hi": "हैंडबैग"
+},
+{
+"de": "der Beutel",
+"en": "pouch / bag",
+"hi": "थैली"
+},
+{
+"de": "das Portemonnaie",
+"en": "wallet 👛",
+"hi": "बटुआ"
+},
+{
+"de": "die Geldbörse",
+"en": "wallet / purse",
+"hi": "पर्स"
+},
+{
+"de": "der Schlüssel",
+"en": "key 🔑",
+"hi": "चाबी"
+},
+{
+"de": "der Hausschlüssel",
+"en": "house key 🏠🔑",
+"hi": "घर की चाबी"
+},
+{
+"de": "der Autoschlüssel",
+"en": "car key 🚗🔑",
+"hi": "कार की चाबी"
+},
+{
+"de": "der Kopfhörer",
+"en": "headphones 🎧",
+"hi": "हेडफ़ोन"
+},
+{
+"de": "das Ladegerät",
+"en": "charger 🔌",
+"hi": "चार्जर"
+},
+{
+"de": "das Kabel",
+"en": "cable",
+"hi": "केबल"
+},
+{
+"de": "die Armbanduhr",
+"en": "wristwatch",
+"hi": "कलाई घड़ी"
+},
+{
+"de": "der Schmuck",
+"en": "jewelry 💍",
+"hi": "गहने"
+},
+{
+"de": "der Ring",
+"en": "ring 💍",
+"hi": "अंगूठी"
+},
+{
+"de": "die Kette",
+"en": "necklace / chain",
+"hi": "हार / चेन"
+},
+{
+"de": "der Ohrring",
+"en": "earring",
+"hi": "बाली"
+},
+{
+"de": "der Pass",
+"en": "passport 🛂",
+"hi": "पासपोर्ट"
+},
+{
+"de": "die Fahrkarte",
+"en": "ticket (transport) 🎫",
+"hi": "टिकट"
+},
+{
+"de": "der Kamm",
+"en": "comb",
+"hi": "कंघी"
+},
+{
+"de": "die Bürste",
+"en": "brush",
+"hi": "ब्रश"
+},
+{
+"de": "das Taschentuch",
+"en": "tissue / handkerchief",
+"hi": "रुमाल"
+},
+{
+"de": "das Parfüm",
+"en": "perfume",
+"hi": "इत्र"
+},
+{
+"de": "der Stift",
+"en": "pen / pencil ✏️",
+"hi": "कलम / पेंसिल"
+},
+{
+"de": "das Notizbuch",
+"en": "notebook 📓",
+"hi": "नोटबुक"
+},
+{
+"de": "das Feuerzeug",
+"en": "lighter",
+"hi": "लाइटर"
+},
+{
+"de": "die Zigarette",
+"en": "cigarette 🚬",
+"hi": "सिगरेट"
+},
+{
+"de": "mitnehmen",
+"en": "to take along",
+"hi": "साथ ले जाना"
+},
+{
+"de": "verlieren",
+"en": "to lose",
+"hi": "खोना"
+},
+{
+"de": "finden",
+"en": "to find",
+"hi": "पाना"
+},
+{
+"de": "der Regenschirm",
+"en": "umbrella ☔",
+"hi": "छाता"
+},
+{
+"de": "das Foto",
+"en": "photo 📷",
+"hi": "फोटो"
+},
+{
+"de": "der Koffer",
+"en": "suitcase 🧳",
+"hi": "सूटकेस"
+},
+{
+"de": "der Rucksack",
+"en": "backpack 🎒",
+"hi": "बैकपैक"
+}
+],
+"Question_Words": [
+{
+"de": "wer",
+"en": "who ❓",
+"hi": "कौन"
+},
+{
+"de": "was",
+"en": "what",
+"hi": "क्या"
+},
+{
+"de": "wann",
+"en": "when",
+"hi": "कब"
+},
+{
+"de": "wo",
+"en": "where",
+"hi": "कहाँ"
+},
+{
+"de": "wie",
+"en": "how",
+"hi": "कैसे"
+},
+{
+"de": "warum",
+"en": "why",
+"hi": "क्यों"
+},
+{
+"de": "woher",
+"en": "where from",
+"hi": "कहाँ से"
+},
+{
+"de": "wohin",
+"en": "where to",
+"hi": "कहाँ को"
+},
+{
+"de": "welcher",
+"en": "which (m)",
+"hi": "कौन सा"
+},
+{
+"de": "welche",
+"en": "which (f/pl)",
+"hi": "कौन सी"
+},
+{
+"de": "welches",
+"en": "which (n)",
+"hi": "कौन सा"
+},
+{
+"de": "was für",
+"en": "what kind of",
+"hi": "किस तरह का"
+},
+{
+"de": "wie viel",
+"en": "how much",
+"hi": "कितना"
+},
+{
+"de": "wie viele",
+"en": "how many",
+"hi": "कितने"
+},
+{
+"de": "wie lange",
+"en": "how long (duration)",
+"hi": "कितनी देर"
+},
+{
+"de": "wie oft",
+"en": "how often",
+"hi": "कितनी बार"
+},
+{
+"de": "wie spät",
+"en": "what time",
+"hi": "क्या समय"
+},
+{
+"de": "um wie viel Uhr",
+"en": "at what time",
+"hi": "कितने बजे"
+},
+{
+"de": "wie alt",
+"en": "how old",
+"hi": "कितने साल का"
+},
+{
+"de": "wie groß",
+"en": "how tall / big",
+"hi": "कितना बड़ा"
+},
+{
+"de": "wie weit",
+"en": "how far",
+"hi": "कितना दूर"
+},
+{
+"de": "ob",
+"en": "whether / if",
+"hi": "क्या / अगर"
+},
+{
+"de": "Wie heißt du?",
+"en": "What's your name? (informal)",
+"hi": "तुम्हारा नाम क्या है?"
+},
+{
+"de": "Woher kommst du?",
+"en": "Where are you from?",
+"hi": "तुम कहाँ से हो?"
+},
+{
+"de": "Was machst du?",
+"en": "What do you do? / What are you doing?",
+"hi": "तुम क्या करते हो?"
+},
+{
+"de": "Stimmt das?",
+"en": "Is that correct?",
+"hi": "क्या यह सही है?"
+},
+{
+"de": "Verstehen Sie?",
+"en": "Do you understand?",
+"hi": "क्या आप समझे?"
+},
+{
+"de": "Sprechen Sie Deutsch?",
+"en": "Do you speak German?",
+"hi": "क्या आप जर्मन बोलते हैं?"
+}
+],
+"Pronouns": [
+{
+"de": "ich",
+"en": "I 👤",
+"hi": "मैं"
+},
+{
+"de": "du",
+"en": "you (informal)",
+"hi": "तुम"
+},
+{
+"de": "er",
+"en": "he 👨",
+"hi": "वह (पुरुष)"
+},
+{
+"de": "sie",
+"en": "she 👩",
+"hi": "वह (महिला)"
+},
+{
+"de": "es",
+"en": "it",
+"hi": "यह"
+},
+{
+"de": "wir",
+"en": "we 👥",
+"hi": "हम"
+},
+{
+"de": "ihr",
+"en": "you (plural informal)",
+"hi": "तुम लोग"
+},
+{
+"de": "mich",
+"en": "me (accusative)",
+"hi": "मुझे"
+},
+{
+"de": "dich",
+"en": "you (accusative)",
+"hi": "तुझे"
+},
+{
+"de": "ihn",
+"en": "him (accusative)",
+"hi": "उसे (पुरुष)"
+},
+{
+"de": "uns",
+"en": "us (accusative)",
+"hi": "हमें"
+},
+{
+"de": "euch",
+"en": "you all (accusative)",
+"hi": "तुम लोगों को"
+},
+{
+"de": "mir",
+"en": "to me (dative)",
+"hi": "मुझे"
+},
+{
+"de": "dir",
+"en": "to you (dative)",
+"hi": "तुझे"
+},
+{
+"de": "ihm",
+"en": "to him (dative)",
+"hi": "उसे (पुरुष)"
+},
+{
+"de": "ihnen",
+"en": "to them (dative)",
+"hi": "उन्हें"
+},
+{
+"de": "unser",
+"en": "our",
+"hi": "हमारा"
+},
+{
+"de": "euer",
+"en": "your (plural)",
+"hi": "तुम लोगों का"
+},
+{
+"de": "sich",
+"en": "himself/herself/itself/themselves",
+"hi": "खुद को / अपने आप"
+},
+{
+"de": "dieser",
+"en": "this (m)",
+"hi": "यह"
+},
+{
+"de": "diese",
+"en": "this (f)",
+"hi": "यह"
+},
+{
+"de": "dieses",
+"en": "this (n)",
+"hi": "यह"
+},
+{
+"de": "das",
+"en": "that / this",
+"hi": "यह / वह"
+},
+{
+"de": "dort",
+"en": "there",
+"hi": "वहाँ"
+},
+{
+"de": "da",
+"en": "there / here",
+"hi": "वहाँ / यहाँ"
+},
+{
+"de": "man",
+"en": "one / people (general)",
+"hi": "लोग / कोई"
+},
+{
+"de": "jemand",
+"en": "someone",
+"hi": "कोई"
+},
+{
+"de": "niemand",
+"en": "no one",
+"hi": "कोई नहीं"
+},
+{
+"de": "etwas",
+"en": "something",
+"hi": "कुछ"
+},
+{
+"de": "jeder",
+"en": "everyone / each (m)",
+"hi": "हर कोई"
+},
+{
+"de": "jede",
+"en": "every / each (f)",
+"hi": "हर"
+},
+{
+"de": "jedes",
+"en": "every / each (n)",
+"hi": "हर"
+},
+{
+"de": "andere",
+"en": "other / another",
+"hi": "दूसरा"
+},
+{
+"de": "selbst",
+"en": "self / oneself",
+"hi": "खुद / स्वयं"
+},
+{
+"de": "solche",
+"en": "such",
+"hi": "ऐसा / ऐसी"
+},
+{
+"de": "welcher",
+"en": "which (m)",
+"hi": "कौन सा (m)"
+},
+{
+"de": "welche",
+"en": "which (f)",
+"hi": "कौन सी (f)"
+},
+{
+"de": "welches",
+"en": "which (n)",
+"hi": "कौन सा (n)"
+},
+{
+"de": "derselbe",
+"en": "the same (m)",
+"hi": "वही (m)"
+}
+],
+"Verbs_(Actions)": [
+{
+"de": "haben",
+"en": "to have ⭐",
+"hi": "रखना"
+},
+{
+"de": "werden",
+"en": "to become",
+"hi": "बनना"
+},
+{
+"de": "machen",
+"en": "to do / make",
+"hi": "करना / बनाना"
+},
+{
+"de": "können",
+"en": "can / to be able to",
+"hi": "सकना"
+},
+{
+"de": "müssen",
+"en": "must / have to",
+"hi": "करना पड़ना"
+},
+{
+"de": "wollen",
+"en": "to want",
+"hi": "चाहना"
+},
+{
+"de": "sollen",
+"en": "should / ought to",
+"hi": "चाहिए"
+},
+{
+"de": "dürfen",
+"en": "may / to be allowed",
+"hi": "... की अनुमति होना"
+},
+{
+"de": "mögen",
+"en": "to like",
+"hi": "पसंद करना"
+},
+{
+"de": "möchten",
+"en": "would like",
+"hi": "चाहूँगा/चाहूँगी"
+},
+{
+"de": "kommen",
+"en": "to come",
+"hi": "आना"
+},
+{
+"de": "erzählen",
+"en": "to tell / narrate",
+"hi": "बताना"
+},
+{
+"de": "rufen",
+"en": "to call (out)",
+"hi": "पुकारना"
+},
+{
+"de": "spielen",
+"en": "to play 🎮",
+"hi": "खेलना"
+},
+{
+"de": "waschen",
+"en": "to wash",
+"hi": "धोना"
+},
+{
+"de": "putzen",
+"en": "to clean",
+"hi": "साफ करना"
+},
+{
+"de": "aufräumen",
+"en": "to tidy up",
+"hi": "व्यवस्थित करना"
+},
+{
+"de": "duschen",
+"en": "to shower 🚿",
+"hi": "नहाना"
+},
+{
+"de": "geben",
+"en": "to give",
+"hi": "देना"
+},
+{
+"de": "nehmen",
+"en": "to take",
+"hi": "लेना"
+},
+{
+"de": "bringen",
+"en": "to bring",
+"hi": "लाना"
+},
+{
+"de": "holen",
+"en": "to fetch / get",
+"hi": "ले आना"
+},
+{
+"de": "bekommen",
+"en": "to get / receive",
+"hi": "प्राप्त करना"
+},
+{
+"de": "schicken",
+"en": "to send 📧",
+"hi": "भेजना"
+},
+{
+"de": "stehen",
+"en": "to stand",
+"hi": "खड़ा होना"
+},
+{
+"de": "sitzen",
+"en": "to sit",
+"hi": "बैठना"
+},
+{
+"de": "liegen",
+"en": "to lie (down)",
+"hi": "लेटना"
+},
+{
+"de": "setzen",
+"en": "to set / put (down)",
+"hi": "बिठाना"
+},
+{
+"de": "legen",
+"en": "to lay / put",
+"hi": "रखना"
+},
+{
+"de": "stellen",
+"en": "to put / place (standing)",
+"hi": "रखना (खड़ा)"
+},
+{
+"de": "denken",
+"en": "to think 🤔",
+"hi": "सोचना"
+},
+{
+"de": "wissen",
+"en": "to know (fact)",
+"hi": "जानना (तथ्य)"
+},
+{
+"de": "kennen",
+"en": "to know (person/place)",
+"hi": "जानना (व्यक्ति)"
+},
+{
+"de": "glauben",
+"en": "to believe",
+"hi": "विश्वास करना"
+},
+{
+"de": "lieben",
+"en": "to love ❤️",
+"hi": "प्यार करना"
+},
+{
+"de": "hoffen",
+"en": "to hope",
+"hi": "उम्मीद करना"
+},
+{
+"de": "brauchen",
+"en": "to need",
+"hi": "ज़रूरत होना"
+},
+{
+"de": "helfen",
+"en": "to help 🤝",
+"hi": "मदद करना"
+},
+{
+"de": "treffen",
+"en": "to meet",
+"hi": "मिलना"
+},
+{
+"de": "öffnen",
+"en": "to open",
+"hi": "खोलना"
+},
+{
+"de": "schließen",
+"en": "to close",
+"hi": "बंद करना"
+},
+{
+"de": "leben",
+"en": "to live (be alive)",
+"hi": "जीना"
+},
+{
+"de": "beginnen",
+"en": "to begin / start",
+"hi": "शुरू करना"
+},
+{
+"de": "beenden",
+"en": "to end / finish",
+"hi": "समाप्त करना"
+},
+{
+"de": "versuchen",
+"en": "to try",
+"hi": "कोशिश करना"
+}
+],
+"Adjectives": [
+{
+"de": "lang",
+"en": "long",
+"hi": "लंबा"
+},
+{
+"de": "kurz",
+"en": "short",
+"hi": "छोटा"
+},
+{
+"de": "hoch",
+"en": "high / tall",
+"hi": "ऊँचा"
+},
+{
+"de": "niedrig",
+"en": "low",
+"hi": "नीचा"
+},
+{
+"de": "dick",
+"en": "thick / fat",
+"hi": "मोटा"
+},
+{
+"de": "dünn",
+"en": "thin",
+"hi": "पतला"
+},
+{
+"de": "breit",
+"en": "wide / broad",
+"hi": "चौड़ा"
+},
+{
+"de": "schön",
+"en": "beautiful / nice ✨",
+"hi": "सुंदर"
+},
+{
+"de": "hässlich",
+"en": "ugly",
+"hi": "बदसूरत"
+},
+{
+"de": "neu",
+"en": "new 🆕",
+"hi": "नया"
+},
+{
+"de": "schnell",
+"en": "fast / quick ⚡",
+"hi": "तेज़"
+},
+{
+"de": "langsam",
+"en": "slow 🐢",
+"hi": "धीमा"
+},
+{
+"de": "laut",
+"en": "loud 🔊",
+"hi": "तेज़ (आवाज़)"
+},
+{
+"de": "voll",
+"en": "full",
+"hi": "भरा हुआ"
+},
+{
+"de": "leer",
+"en": "empty",
+"hi": "खाली"
+},
+{
+"de": "sauber",
+"en": "clean ✨",
+"hi": "साफ"
+},
+{
+"de": "schmutzig",
+"en": "dirty",
+"hi": "गंदा"
+},
+{
+"de": "kaputt",
+"en": "broken 💔",
+"hi": "टूटा हुआ"
+},
+{
+"de": "schwer",
+"en": "difficult / heavy",
+"hi": "मुश्किल / भारी"
+},
+{
+"de": "schwierig",
+"en": "difficult",
+"hi": "कठिन"
+},
+{
+"de": "lieb",
+"en": "dear / sweet 💕",
+"hi": "प्यारा"
+},
+{
+"de": "wichtig",
+"en": "important ⭐",
+"hi": "महत्वपूर्ण"
+},
+{
+"de": "interessant",
+"en": "interesting",
+"hi": "दिलचस्प"
+},
+{
+"de": "toll",
+"en": "great / awesome 🎉",
+"hi": "शानदार"
+},
+{
+"de": "super",
+"en": "super / great",
+"hi": "सुपर"
+},
+{
+"de": "fertig",
+"en": "ready / finished ✅",
+"hi": "तैयार / समाप्त"
+},
+{
+"de": "frei",
+"en": "free",
+"hi": "फ्री / खाली"
+},
+{
+"de": "besetzt",
+"en": "occupied / busy",
+"hi": "व्यस्त"
+},
+{
+"de": "anders",
+"en": "different",
+"hi": "अलग"
+},
+{
+"de": "typisch",
+"en": "typical",
+"hi": "आम / सामान्य"
+},
+{
+"de": "möglich",
+"en": "possible",
+"hi": "संभव"
+},
+{
+"de": "oben",
+"en": "above / up ⬆️",
+"hi": "ऊपर"
+},
+{
+"de": "unten",
+"en": "below / down ⬇️",
+"hi": "नीचे"
+},
+{
+"de": "vorne",
+"en": "in front",
+"hi": "आगे"
+},
+{
+"de": "hinten",
+"en": "behind / back",
+"hi": "पीछे"
+},
+{
+"de": "sauer",
+"en": "sour 🍋",
+"hi": "खट्टा"
+},
+{
+"de": "salzig",
+"en": "salty 🧂",
+"hi": "नमकीन"
+},
+{
+"de": "scharf",
+"en": "spicy / sharp 🌶️",
+"hi": "तीखा"
+},
+{
+"de": "bitter",
+"en": "bitter",
+"hi": "कड़वा"
+},
+{
+"de": "lecker",
+"en": "delicious 😋",
+"hi": "स्वादिष्ट"
+}
+],
+"Adverbs_&_Other": [
+{
+"de": "in",
+"en": "in 📍",
+"hi": "में"
+},
+{
+"de": "an",
+"en": "at / on (vertical)",
+"hi": "पर"
+},
+{
+"de": "auf",
+"en": "on (horizontal)",
+"hi": "के ऊपर"
+},
+{
+"de": "unter",
+"en": "under",
+"hi": "के नीचे"
+},
+{
+"de": "über",
+"en": "over / above",
+"hi": "के ऊपर"
+},
+{
+"de": "neben",
+"en": "next to / beside",
+"hi": "के बगल में"
+},
+{
+"de": "hinter",
+"en": "behind",
+"hi": "के पीछे"
+},
+{
+"de": "zwischen",
+"en": "between",
+"hi": "के बीच"
+},
+{
+"de": "zu",
+"en": "to (place/person)",
+"hi": "को / की ओर"
+},
+{
+"de": "von",
+"en": "from / of",
+"hi": "से / का"
+},
+{
+"de": "aus",
+"en": "out of / from (origin)",
+"hi": "से (बाहर)"
+},
+{
+"de": "durch",
+"en": "through",
+"hi": "से होकर"
+},
+{
+"de": "mit",
+"en": "with",
+"hi": "के साथ"
+},
+{
+"de": "ohne",
+"en": "without",
+"hi": "के बिना"
+},
+{
+"de": "für",
+"en": "for",
+"hi": "के लिए"
+},
+{
+"de": "gegen",
+"en": "against / around (time)",
+"hi": "के खिलाफ / करीब"
+},
+{
+"de": "um",
+"en": "at (time) / around",
+"hi": "बजे / के आसपास"
+},
+{
+"de": "bis",
+"en": "until / to",
+"hi": "तक"
+},
+{
+"de": "ab",
+"en": "from (time onwards)",
+"hi": "से (समय)"
+},
+{
+"de": "seit",
+"en": "since / for (duration)",
+"hi": "से (समय से)"
+},
+{
+"de": "früher",
+"en": "earlier / formerly",
+"hi": "पहले"
+},
+{
+"de": "schon",
+"en": "already",
+"hi": "पहले से"
+},
+{
+"de": "noch",
+"en": "still / yet",
+"hi": "अभी भी"
+},
+{
+"de": "wieder",
+"en": "again",
+"hi": "फिर से"
+},
+{
+"de": "gerade",
+"en": "just now / straight",
+"hi": "अभी-अभी"
+},
+{
+"de": "meistens",
+"en": "mostly / usually",
+"hi": "ज्यादातर"
+},
+{
+"de": "drinnen",
+"en": "inside",
+"hi": "अंदर"
+},
+{
+"de": "überall",
+"en": "everywhere",
+"hi": "हर जगह"
+},
+{
+"de": "nirgendwo",
+"en": "nowhere",
+"hi": "कहीं नहीं"
+},
+{
+"de": "sehr",
+"en": "very",
+"hi": "बहुत"
+},
+{
+"de": "ganz",
+"en": "quite / whole",
+"hi": "काफी / पूरा"
+},
+{
+"de": "ziemlich",
+"en": "quite / fairly",
+"hi": "काफी"
+},
+{
+"de": "fast",
+"en": "almost",
+"hi": "लगभग"
+},
+{
+"de": "nur",
+"en": "only",
+"hi": "केवल"
+},
+{
+"de": "auch",
+"en": "also / too",
+"hi": "भी"
+},
+{
+"de": "besonders",
+"en": "especially",
+"hi": "खासकर"
+},
+{
+"de": "und",
+"en": "and 🔗",
+"hi": "और"
+},
+{
+"de": "oder",
+"en": "or",
+"hi": "या"
+},
+{
+"de": "aber",
+"en": "but",
+"hi": "लेकिन"
+},
+{
+"de": "denn",
+"en": "because / for",
+"hi": "क्योंकि"
+},
+{
+"de": "weil",
+"en": "because",
+"hi": "क्योंकि"
+},
+{
+"de": "wenn",
+"en": "if / when",
+"hi": "अगर / जब"
+},
+{
+"de": "dass",
+"en": "that (conjunction)",
+"hi": "कि"
+},
+{
+"de": "sondern",
+"en": "but rather",
+"hi": "बल्कि"
+},
+{
+"de": "deshalb",
+"en": "therefore",
+"hi": "इसलिए"
+},
+{
+"de": "nicht",
+"en": "not ❌",
+"hi": "नहीं"
+},
+{
+"de": "kein",
+"en": "no / not any",
+"hi": "कोई नहीं"
+},
+{
+"de": "ja",
+"en": "yes ✓",
+"hi": "हाँ"
+},
+{
+"de": "nein",
+"en": "no ✗",
+"hi": "नहीं"
+},
+{
+"de": "doch",
+"en": "yes (contradicting) / but",
+"hi": "हाँ (विरोध में)"
+},
+{
+"de": "wahrscheinlich",
+"en": "probably",
+"hi": "संभवतः"
+},
+{
+"de": "natürlich",
+"en": "of course / naturally",
+"hi": "बेशक"
+},
+{
+"de": "eigentlich",
+"en": "actually",
+"hi": "वास्तव में"
+},
+{
+"de": "wirklich",
+"en": "really",
+"hi": "सच में"
+},
+{
+"de": "genau",
+"en": "exactly",
+"hi": "बिल्कुल"
+},
+{
+"de": "also",
+"en": "so / well",
+"hi": "तो"
+},
+{
+"de": "übrigens",
+"en": "by the way",
+"hi": "वैसे"
+}
+]
+}

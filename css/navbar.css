@@ -154,6 +154,75 @@ body.nav-open {
 }
 
 /* ============================================
+   SIDEBAR DROPDOWNS (A1, A2, Clusters, etc.)
+   ============================================ */
+.sidebar-dropdown {
+    display: block;
+    border-left: 4px solid transparent;
+}
+
+.sidebar-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    color: #e2e8f0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    list-style: none;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    transition: all 0.2s ease;
+}
+
+.sidebar-dropdown-toggle::-webkit-details-marker,
+.sidebar-dropdown-toggle::marker {
+    display: none;
+}
+
+.sidebar-dropdown-toggle .emoji {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.sidebar-dropdown-toggle::after {
+    content: '▸';
+    margin-left: auto;
+    font-size: 12px;
+    transition: transform 0.2s ease;
+}
+
+.sidebar-dropdown[open] .sidebar-dropdown-toggle::after {
+    transform: rotate(90deg);
+}
+
+.sidebar-dropdown-toggle:hover,
+.sidebar-dropdown-toggle:focus {
+    background: rgba(102, 126, 234, 0.2);
+    border-left-color: var(--nav-accent-start);
+    color: #ffffff;
+    outline: none;
+}
+
+.sidebar-dropdown-menu {
+    padding: 0 0 6px 0;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-dropdown .sidebar-nav-item {
+    padding-left: 44px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.sidebar-dropdown .sidebar-nav-item .emoji {
+    font-size: 1.1em;
+}
+
+/* ============================================
    TOGGLE BUTTON - Auto-hide enabled
    Features: Dynamic shadow, customizable delay
    ============================================ */

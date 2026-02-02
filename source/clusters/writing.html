@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>Cluster Writing – Alphabet & Character Clusters</title>
+    <style>
+        :root {
+            --bg-main: #f5f5f5;
+            --bg-card: #ffffff;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --border-color: #ddd;
+            --accent: #1565c0;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 20px;
+            margin-left: 280px;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: margin-left 0.3s ease;
+        }
+        .sidebar { position: fixed; left: 0; top: 0; width: 260px; height: 100vh; background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%); box-shadow: 4px 0 12px rgba(0,0,0,0.3); z-index: 1000; overflow-y: auto; transition: transform 0.3s ease; }
+        .sidebar-header { padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; }
+        .sidebar-header h2 { margin: 0; font-size: 1.3em; }
+        .sidebar-nav { padding: 10px 0; }
+        .sidebar-nav-item { display: block; padding: 14px 20px; color: #e2e8f0; text-decoration: none; border-left: 4px solid transparent; font-size: 15px; }
+        .sidebar-nav-item:hover { background: rgba(102, 126, 234, 0.2); border-left-color: #667eea; color: #fff; }
+        .sidebar-nav-item.active { background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%); border-left-color: #667eea; font-weight: 700; }
+        .sidebar-nav-item .emoji { margin-right: 10px; font-size: 1.2em; }
+        .sidebar-toggle { display: none; position: fixed; top: 15px; left: 15px; z-index: 1001; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 12px 16px; border-radius: 8px; font-size: 20px; cursor: pointer; }
+        .sidebar-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 999; opacity: 0; }
+        .sidebar-overlay.active { display: block; opacity: 1; }
+        .theme-toggle-wrap { padding: 14px 20px; border-top: 1px solid rgba(255,255,255,0.15); margin-top: 8px; }
+        .theme-toggle { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 10px 14px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); border-radius: 8px; color: #e2e8f0; font-size: 14px; cursor: pointer; }
+        .theme-toggle:hover { background: rgba(255,255,255,0.2); }
+        @media screen and (max-width: 768px) { body { margin: 10px; margin-left: 10px; padding-top: 60px; } .sidebar { transform: translateX(-100%); } .sidebar.open { transform: translateX(0); } .sidebar-toggle { display: block; } }
+        @media print { body { margin: 0; } .sidebar, .sidebar-toggle, .sidebar-overlay { display: none; } }
+
+        h1 { text-align: center; color: var(--accent); margin-bottom: 10px; }
+        .subtitle { text-align: center; color: var(--text-secondary); margin-bottom: 24px; font-size: 16px; }
+
+        .writing-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 28px 30px;
+            margin-bottom: 0;
+            width: 100%;
+            max-width: 100%;
+            min-height: calc(100vh - 180px);
+            box-sizing: border-box;
+        }
+        @media screen and (max-width: 400px) {
+            .inputs-grid { grid-template-columns: 1fr; }
+        }
+        body.theme-dark .writing-card { background: var(--bg-card); box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+
+        .category-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .new-word-btn-top {
+            padding: 10px 18px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .new-word-btn-top:hover { opacity: 0.9; }
+        .category-row label {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .category-select {
+            min-width: 220px;
+            padding: 10px 14px;
+            font-size: 15px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-card);
+            color: var(--text-primary);
+            cursor: pointer;
+        }
+        .category-select:focus { outline: none; border-color: var(--accent); }
+        body.theme-dark .category-select { background: var(--bg-card-alt); border-color: var(--border-color); }
+
+        .word-top {
+            text-align: center;
+            margin-bottom: 18px;
+            padding-bottom: 18px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        body.theme-dark .word-top { border-bottom-color: var(--border-color); }
+        .word-display {
+            font-size: 2em;
+            font-weight: 800;
+            color: #0d47a1;
+            margin-bottom: 8px;
+            letter-spacing: 0.02em;
+        }
+        body.theme-dark .word-display { color: var(--german-color, #93c5fd); }
+        .word-meanings {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 1.05em;
+        }
+        .word-en { color: #1b5e20; font-weight: 600; }
+        body.theme-dark .word-en { color: var(--english-color, #86efac); }
+        .word-hi { color: #4a148c; font-weight: 600; }
+        body.theme-dark .word-hi { color: var(--hindi-color, #c4b5fd); }
+        .word-sep { color: var(--text-secondary); font-weight: 400; }
+        .word-for-box {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 1.15em;
+            font-weight: 600;
+            color: #0d47a1;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+        }
+        .word-for-box:hover { text-decoration: underline; opacity: 0.9; }
+        body.theme-dark .word-for-box { color: var(--german-color, #93c5fd); }
+        .word-hint { text-align: center; color: var(--text-secondary); font-size: 13px; margin-bottom: 16px; }
+        .hear-next-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+        .hear-btn, .hear-next-btn {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .hear-btn:hover, .hear-next-btn:hover { opacity: 0.9; }
+
+        .inputs-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+        .input-cell {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .input-cell label { min-width: 22px; font-weight: 600; color: var(--text-secondary); font-size: 14px; }
+        .writing-input {
+            flex: 1;
+            min-width: 0;
+            padding: 12px 14px;
+            font-size: 17px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-family: inherit;
+            transition: border-color 0.2s, background-color 0.2s;
+        }
+        .writing-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .writing-input.correct {
+            border-color: #2e7d32;
+            background-color: rgba(46, 125, 50, 0.08);
+        }
+        body.theme-dark .writing-input.correct { border-color: #66bb6a; background-color: rgba(102, 187, 106, 0.15); }
+        .writing-input.wrong {
+            border-color: #c62828;
+            background-color: rgba(198, 40, 40, 0.08);
+            animation: shake 0.4s ease;
+        }
+        body.theme-dark .writing-input.wrong { border-color: #ef5350; background-color: rgba(239, 83, 80, 0.15); }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-6px); }
+            75% { transform: translateX(6px); }
+        }
+
+    </style>
+    <link rel="stylesheet" href="../../css/theme.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
+</head>
+<body>
+    <script>
+        document.addEventListener('click', function(e) {
+            var link = e.target.closest('a');
+            if (link) {
+                var href = link.getAttribute('href');
+                if (href && href.endsWith('.html') && !href.startsWith('http') && !href.startsWith('#')) {
+                    e.preventDefault();
+                    try {
+                        window.location.href = new URL(href, window.location.href).href;
+                    } catch(err) {
+                        window.location.href = window.location.href.replace(/[^/]+$/, '') + href;
+                    }
+                }
+            }
+        });
+    </script>
+    <button class="sidebar-toggle" type="button" aria-label="Toggle menu" onclick="toggleSidebar()">☰</button>
+    <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header"><h2>🇩🇪 German Learning</h2></div>
+        <div class="sidebar-nav">
+            <a href="../../index.html" class="sidebar-nav-item"><span class="emoji">🏠</span> Home</a>
+            <details class="sidebar-dropdown" open>
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">📚</span> A1</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item"><span class="emoji">📚</span> A1 Vocabulary (PDF)</a>
+                    <a href="../a1-650/a1-650.html" class="sidebar-nav-item"><span class="emoji">📖</span> A1 Vocabulary (650)</a>
+                    <a href="../a1-650/grammar.html" class="sidebar-nav-item"><span class="emoji">📝</span> A1 Grammar</a>
+                    <a href="../a1-650/writing.html" class="sidebar-nav-item"><span class="emoji">✍️</span> A1 Writing</a>
+                </div>
+            </details>
+            <details class="sidebar-dropdown">
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">📘</span> A2</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../a2/a2.html" class="sidebar-nav-item"><span class="emoji">📘</span> A2 Vocabulary</a>
+                </div>
+            </details>
+            <a href="../numbers/numbers.html" class="sidebar-nav-item"><span class="emoji">🔢</span> German Numbers</a>
+            <a href="../common-words/common-words.html" class="sidebar-nav-item"><span class="emoji">🔤</span> Common Words</a>
+            <details class="sidebar-dropdown" open>
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">🗣️</span> Clusters</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="clusters.html" class="sidebar-nav-item"><span class="emoji">🗣️</span> Consonant Clusters</a>
+                    <a href="writing.html" class="sidebar-nav-item active"><span class="emoji">✍️</span> Cluster Writing</a>
+                </div>
+            </details>
+            <div class="theme-toggle-wrap">
+                <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><span class="icon" id="theme-icon">🌙</span><span id="theme-label">Dark</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="writing-card">
+        <div class="category-row">
+            <label for="categorySelect">Practice:</label>
+            <select id="categorySelect" class="category-select" aria-label="Choose alphabet or clusters">
+                <option value="">Loading…</option>
+            </select>
+        </div>
+        <div class="word-top">
+            <div class="word-display" id="wordDisplay">—</div>
+            <div class="word-meanings">
+                <span class="word-en" id="wordEn"></span>
+                <span class="word-sep">—</span>
+                <span class="word-hi" id="wordHi"></span>
+            </div>
+            <div class="word-for-box" id="wordForBox"></div>
+        </div>
+
+        <div class="hear-next-row">
+            <button type="button" class="hear-next-btn" id="prevBtn">Previous</button>
+            <button type="button" class="hear-btn" id="hearBtn">🔊 Hear</button>
+            <button type="button" class="hear-next-btn" id="nextBtn">Next</button>
+        </div>
+
+        <div class="inputs-grid" id="inputsContainer"></div>
+    </div>
+
+    <script>
+        // Fallback alphabet if JSON fails to load
+        var FALLBACK_ALPHABET = [
+            { de: 'A', en: 'Letter A', hi: '—' }, { de: 'B', en: 'Letter B', hi: '—' }, { de: 'C', en: 'Letter C', hi: '—' },
+            { de: 'D', en: 'Letter D', hi: '—' }, { de: 'E', en: 'Letter E', hi: '—' }, { de: 'F', en: 'Letter F', hi: '—' },
+            { de: 'G', en: 'Letter G', hi: '—' }, { de: 'H', en: 'Letter H', hi: '—' }, { de: 'I', en: 'Letter I', hi: '—' },
+            { de: 'J', en: 'Letter J', hi: '—' }, { de: 'K', en: 'Letter K', hi: '—' }, { de: 'L', en: 'Letter L', hi: '—' },
+            { de: 'M', en: 'Letter M', hi: '—' }, { de: 'N', en: 'Letter N', hi: '—' }, { de: 'O', en: 'Letter O', hi: '—' },
+            { de: 'P', en: 'Letter P', hi: '—' }, { de: 'Q', en: 'Letter Q', hi: '—' }, { de: 'R', en: 'Letter R', hi: '—' },
+            { de: 'S', en: 'Letter S', hi: '—' }, { de: 'T', en: 'Letter T', hi: '—' }, { de: 'U', en: 'Letter U', hi: '—' },
+            { de: 'V', en: 'Letter V', hi: '—' }, { de: 'W', en: 'Letter W', hi: '—' }, { de: 'X', en: 'Letter X', hi: '—' },
+            { de: 'Y', en: 'Letter Y', hi: '—' }, { de: 'Z', en: 'Letter Z', hi: '—' },
+            { de: 'Ä', en: 'Letter Ä', hi: '—' }, { de: 'Ö', en: 'Letter Ö', hi: '—' }, { de: 'Ü', en: 'Letter Ü', hi: '—' },
+            { de: 'ß', en: 'Eszett', hi: '—' }
+        ];
+        var ALPHABET = [];
+
+        // Character clusters: en/hi for display; words = 10 different example words per cluster (different pronunciations)
+        var CLUSTERS = [
+            { de: 'BL', en: 'Blut (blood)', hi: 'ब्ल', words: ['Blut', 'Blatt', 'Blume', 'blind', 'blau', 'Block', 'Blick', 'Blitz', 'Bluse', 'Blüte'] },
+            { de: 'BR', en: 'Brot (bread)', hi: 'ब्र', words: ['Brot', 'Bruder', 'Braun', 'Brief', 'Bräuche', 'Bruch', 'Brille', 'Brücke', 'Brust', 'Bräune'] },
+            { de: 'CH', en: 'Buch (book)', hi: 'ह्य/ख', words: ['Buch', 'Licht', 'ich', 'Chemie', 'machen', 'Nacht', 'Tochter', 'durch', 'sprechen', 'suchen'] },
+            { de: 'DR', en: 'Druck', hi: 'ड्र', words: ['Druck', 'Drama', 'Drache', 'drücken', 'Drohung', 'Drittel', 'Drossel', 'Drucker', 'dringend', 'Dreieck'] },
+            { de: 'FL', en: 'Fluss (river)', hi: 'फ्ल', words: ['Fluss', 'Flasche', 'Fliege', 'fliegen', 'Flug', 'Fläche', 'Flamme', 'Fleck', 'Fleisch', 'flach'] },
+            { de: 'FR', en: 'Freund (friend)', hi: 'फ्र', words: ['Freund', 'Frau', 'Freiheit', 'fragen', 'frisch', 'Frankreich', 'Freitag', 'frieren', 'Frucht', 'früh'] },
+            { de: 'GL', en: 'Glas (glass)', hi: 'ग्ल', words: ['Glas', 'Gleis', 'Glück', 'glatt', 'glänzen', 'Glocke', 'Glied', 'glühen', 'Glaube', 'gleich'] },
+            { de: 'GR', en: 'Gras (grass)', hi: 'ग्र', words: ['Gras', 'Grenze', 'Groß', 'grau', 'Grund', 'Gruppe', 'grün', 'Grab', 'Gramm', 'Grad'] },
+            { de: 'KL', en: 'Klasse (class)', hi: 'क्ल', words: ['Klasse', 'Kleid', 'Klemme', 'klingen', 'Klima', 'Klang', 'klar', 'Kleidung', 'Klären', 'Klick'] },
+            { de: 'KN', en: 'Knie (knee)', hi: 'क्न', words: ['Knie', 'Knopf', 'Knabe', 'kneten', 'Knochen', 'Knast', 'Knoten', 'Knall', 'Knoblauch', 'knabbern'] },
+            { de: 'KR', en: 'Kraft', hi: 'क्र', words: ['Kraft', 'Kredit', 'Krone', 'krank', 'Kreis', 'Krieg', 'kritisieren', 'Krise', 'Kreuz', 'Krähe'] },
+            { de: 'PF', en: 'Pferd (horse)', hi: 'प्फ़', words: ['Pferd', 'Pflanze', 'Pfad', 'Pfennig', 'Pflege', 'Pfand', 'Pfosten', 'Pflaume', 'Pflicht', 'Pfund'] },
+            { de: 'PH', en: 'Phase', hi: 'फ', words: ['Phase', 'Philosophie', 'Phänomen', 'Pharmazie', 'Phantasie', 'Phonetik', 'Photo', 'Phrase', 'Physik', 'Phantom'] },
+            { de: 'PL', en: 'Platz (place)', hi: 'प्ल', words: ['Platz', 'Plan', 'Pflanze', 'plötzlich', 'Platte', 'plus', 'Plastik', 'Platzierung', 'platt', 'Plakat'] },
+            { de: 'PR', en: 'Preis (price)', hi: 'प्र', words: ['Preis', 'Praxis', 'Präsent', 'Problem', 'Programm', 'Professor', 'Prozent', 'Projekt', 'prüfen', 'prima'] },
+            { de: 'QU', en: 'Quelle (source)', hi: 'क्व', words: ['Quelle', 'quer', 'Qualität', 'Quadrat', 'Quittung', 'Quatsch', 'Quark', 'Quelle', 'Querstraße', 'Quittung'] },
+            { de: 'RH', en: 'Rhein', hi: 'र', words: ['Rhein', 'Rhythmus', 'Rhapsodie', 'Rhetorik', 'Rheuma', 'Rhinozeros', 'Rhododendron', 'Rhesus', 'Rheinland', 'Rheumatismus'] },
+            { de: 'SC', en: 'Schema', hi: 'श', words: ['Schema', 'Scene', 'Scent', 'Scherz', 'Schauspiel', 'Schaufenster', 'Schicht', 'Schicksal', 'Schild', 'Schimmer'] },
+            { de: 'SCH', en: 'Schule (school)', hi: 'श', words: ['Schule', 'Schaf', 'Schatten', 'schön', 'schreiben', 'Schnee', 'Schrank', 'schwarz', 'schwer', 'schwimmen'] },
+            { de: 'SCHL', en: 'Schloss', hi: 'श्ल', words: ['Schloss', 'schlagen', 'schlafen', 'Schlüssel', 'schließen', 'Schluss', 'schlecht', 'Schlange', 'schlicht', 'Schlitten'] },
+            { de: 'SCHM', en: 'Schmuck', hi: 'श्म', words: ['Schmuck', 'schmecken', 'schmieren', 'Schmerz', 'schmutzig', 'Schmetterling', 'schmal', 'Schmiede', 'schmunzeln', 'Schmied'] },
+            { de: 'SCHN', en: 'Schnee (snow)', hi: 'श्न', words: ['Schnee', 'schnell', 'Schneider', 'schnappen', 'schnarchen', 'Schnur', 'schnüffeln', 'Schnabel', 'schnippen', 'Schnitte'] },
+            { de: 'SCHR', en: 'Schrank', hi: 'श्र', words: ['Schrank', 'schreiben', 'schrecklich', 'Schritt', 'Schrift', 'schreien', 'Schrei', 'Schraube', 'schräg', 'Schritt'] },
+            { de: 'SCHW', en: 'Schwimmen (swim)', hi: 'श्व', words: ['Schwimmen', 'Schwester', 'schwarz', 'schwer', 'schwächen', 'Schwanz', 'schweigen', 'Schwein', 'schwitzen', 'Schwung'] },
+            { de: 'SP', en: 'Sport', hi: 'श्प', words: ['Sport', 'Sprache', 'spannend', 'Spiel', 'spät', 'Spaß', 'sparen', 'Speise', 'Spiegel', 'spüren'] },
+            { de: 'ST', en: 'Stadt (city)', hi: 'श्ट', words: ['Stadt', 'Stelle', 'Stein', 'stehen', 'Stunde', 'Stuhl', 'Strom', 'Strasse', 'Stück', 'Stimme'] },
+            { de: 'STR', en: 'Straße (street)', hi: 'श्ट्र', words: ['Straße', 'Strumpf', 'Strom', 'Strand', 'streiten', 'Strich', 'Struktur', 'streng', 'Streich', 'Strand'] },
+            { de: 'TH', en: 'Theater', hi: 'त', words: ['Theater', 'Thema', 'Theorie', 'Theke', 'Theologie', 'These', 'Thermometer', 'Thron', 'Thymian', 'Thailand'] },
+            { de: 'TR', en: 'Traum (dream)', hi: 'ट्र', words: ['Traum', 'Tragen', 'Trauer', 'Treppe', 'trinken', 'träumen', 'Trick', 'Trost', 'Tropfen', 'Truhe'] },
+            { de: 'TS', en: 'Katze (cat)', hi: 'त्स', words: ['Katze', 'Platz', 'Satz', 'jetzt', 'setzen', 'Schutz', 'Latz', 'Matze', 'Hitze', 'Netz'] },
+            { de: 'ZW', en: 'Zwei (two)', hi: 'त्स्व', words: ['Zwei', 'Zwanzig', 'zwischen', 'Zweig', 'Zweck', 'Zweifel', 'zwingen', 'Zwilling', 'Zwerg', 'zwar'] }
+        ];
+
+        var CATEGORIES = [
+            { id: 'Alphabet', label: '🔤 Alphabet (A–Z, Ä, Ö, Ü, ß)' },
+            { id: 'Clusters', label: '🔗 Character Clusters' },
+            { id: 'all', label: 'All (Alphabet + Clusters)' }
+        ];
+
+        var wordsByCategory = { Alphabet: [], Clusters: CLUSTERS, all: [] };
+        /** Current position in order for each category (all in order, not random). */
+        var currentIndexByCategory = { Alphabet: 0, Clusters: 0, all: 0 };
+
+        var currentWord = '';
+        var currentEntry = null;
+        var currentCategoryId = 'Alphabet';
+        var currentFocusedBoxIndex = 1;
+        var audioCtx = null;
+
+        function getCurrentWordList() {
+            return wordsByCategory[currentCategoryId] || [];
+        }
+
+        /** Next item in order for current category (all categories in order). */
+        function getNextEntry() {
+            var list = getCurrentWordList();
+            if (!list.length) return null;
+            var idx = currentIndexByCategory[currentCategoryId];
+            var entry = list[idx];
+            currentIndexByCategory[currentCategoryId] = (idx + 1) % list.length;
+            return entry;
+        }
+
+        /** Previous item in order (one step back, wraps to end). */
+        function getPreviousEntry() {
+            var list = getCurrentWordList();
+            if (!list.length) return null;
+            var len = list.length;
+            var idx = currentIndexByCategory[currentCategoryId];  /* next index to show */
+            var prevIdx = (idx - 2 + len) % len;                  /* item before current */
+            currentIndexByCategory[currentCategoryId] = (idx - 1 + len) % len;
+            return list[prevIdx];
+        }
+
+        /** For clusters: different word per input box (1–10) from entry.words; for alphabet: speak letter. */
+        function getWordToSpeak(entry, inputBoxIndex) {
+            if (!entry) return currentWord;
+            if (entry.words && entry.words.length && inputBoxIndex != null) {
+                var i = (inputBoxIndex - 1) % entry.words.length;
+                return entry.words[i];
+            }
+            if (entry.words && entry.words.length) return entry.words[0];
+            var en = (entry.en || '').trim();
+            var paren = en.indexOf(' (');
+            if (paren > 0) return en.substring(0, paren).trim();
+            if (en && en.indexOf(' ') === -1) return en;
+            return entry.de;
+        }
+
+        function speakGerman(text) {
+            if (!text || !window.speechSynthesis) return;
+            window.speechSynthesis.cancel();
+            var u = new SpeechSynthesisUtterance(text);
+            u.lang = 'de-DE';
+            u.rate = 0.9;
+            var voices = window.speechSynthesis.getVoices();
+            var de = voices.find(function(v) { return v.lang.startsWith('de'); });
+            if (de) u.voice = de;
+            window.speechSynthesis.speak(u);
+        }
+
+        function playWrongBuzz() {
+            try {
+                if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                var osc = audioCtx.createOscillator();
+                var gain = audioCtx.createGain();
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.frequency.value = 180;
+                osc.type = 'sawtooth';
+                gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.2);
+                osc.start(audioCtx.currentTime);
+                osc.stop(audioCtx.currentTime + 0.2);
+            } catch (e) {}
+        }
+
+        function checkInput(inputEl, index) {
+            var val = (inputEl.value || '').trim();
+            inputEl.classList.remove('correct', 'wrong');
+            if (val === '') return;
+            var isLast = parseInt(inputEl.dataset.index, 10) === 10;
+            if (val === currentWord) {
+                inputEl.classList.add('correct');
+                speakGerman(getWordToSpeak(currentEntry, parseInt(inputEl.dataset.index, 10)));
+                if (isLast) {
+                    setTimeout(setNewWord, 900);
+                }
+            } else {
+                inputEl.classList.add('wrong');
+                playWrongBuzz();
+            }
+        }
+
+        function buildInputs() {
+            var container = document.getElementById('inputsContainer');
+            container.innerHTML = '';
+            for (var i = 1; i <= 10; i++) {
+                var cell = document.createElement('div');
+                cell.className = 'input-cell';
+                var label = document.createElement('label');
+                label.textContent = i + '.';
+                var input = document.createElement('input');
+                input.type = 'text';
+                input.className = 'writing-input';
+                input.autocomplete = 'off';
+                input.placeholder = '…';
+                input.dataset.index = i;
+                input.addEventListener('focus', function() { updateWordForBox(parseInt(this.dataset.index, 10)); });
+                input.addEventListener('blur', function() { checkInput(this, parseInt(this.dataset.index, 10)); });
+                input.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter') {
+                        checkInput(this, parseInt(this.dataset.index, 10));
+                        var inputs = container.querySelectorAll('.writing-input');
+                        var idx = parseInt(this.dataset.index, 10);
+                        if (idx < 10 && inputs[idx]) inputs[idx].focus();
+                    }
+                });
+                cell.appendChild(label);
+                cell.appendChild(input);
+                container.appendChild(cell);
+            }
+        }
+
+        function setNewWord() {
+            var entry = getNextEntry();
+            showEntry(entry);
+        }
+
+        function setPreviousWord() {
+            var entry = getPreviousEntry();
+            showEntry(entry);
+        }
+
+        function updateWordForBox(boxIndex) {
+            var el = document.getElementById('wordForBox');
+            if (!el) return;
+            currentFocusedBoxIndex = boxIndex;
+            var word = getWordToSpeak(currentEntry, boxIndex);
+            el.textContent = word || '';
+        }
+
+        function showEntry(entry) {
+            if (!entry) {
+                document.getElementById('wordDisplay').textContent = '—';
+                document.getElementById('wordEn').textContent = '';
+                document.getElementById('wordHi').textContent = '';
+                document.getElementById('wordForBox').textContent = '';
+                buildInputs();
+                return;
+            }
+            currentEntry = entry;
+            currentWord = entry.de;
+            document.getElementById('wordDisplay').textContent = currentWord;
+            document.getElementById('wordEn').textContent = entry.en;
+            document.getElementById('wordHi').textContent = entry.hi;
+            buildInputs();
+            updateWordForBox(1);
+        }
+
+        function fillCategorySelect() {
+            var sel = document.getElementById('categorySelect');
+            if (!sel) return;
+            sel.removeEventListener('change', categorySelectListener);
+            sel.innerHTML = '';
+            CATEGORIES.forEach(function(c) {
+                var arr = wordsByCategory[c.id];
+                var count = Array.isArray(arr) ? arr.length : 0;
+                var opt = document.createElement('option');
+                opt.value = c.id;
+                opt.textContent = c.label + ' (' + count + ')';
+                sel.appendChild(opt);
+            });
+            sel.addEventListener('change', categorySelectListener);
+        }
+
+        var categorySelectListener = function() {
+            currentCategoryId = this.value;
+            currentIndexByCategory[currentCategoryId] = 0;
+            setNewWord();
+        };
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.querySelector('.sidebar-overlay').classList.toggle('active');
+        }
+
+        document.getElementById('hearBtn').addEventListener('click', function() { speakGerman(getWordToSpeak(currentEntry, null)); });
+        document.getElementById('prevBtn').addEventListener('click', setPreviousWord);
+        document.getElementById('nextBtn').addEventListener('click', setNewWord);
+        document.getElementById('wordForBox').addEventListener('click', function() {
+            var w = getWordToSpeak(currentEntry, currentFocusedBoxIndex);
+            if (w) speakGerman(w);
+        });
+
+        function applyAlphabet(data) {
+            ALPHABET = Array.isArray(data) ? data : FALLBACK_ALPHABET;
+            wordsByCategory.Alphabet = ALPHABET;
+            wordsByCategory.all = ALPHABET.concat(CLUSTERS);
+            fillCategorySelect();
+            currentCategoryId = 'Alphabet';
+            currentIndexByCategory.Alphabet = 0;
+            currentIndexByCategory.Clusters = 0;
+            currentIndexByCategory.all = 0;
+            setNewWord();
+        }
+
+        fetch('alphabet-data.json')
+            .then(function(r) { return r.json(); })
+            .then(applyAlphabet)
+            .catch(function() { applyAlphabet(FALLBACK_ALPHABET); });
+    </script>
+    <script src="../../js/theme.js"></script>
+</body>
+</html>

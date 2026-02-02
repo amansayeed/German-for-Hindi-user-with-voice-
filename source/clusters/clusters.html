@@ -20,6 +20,9 @@
         .sidebar-nav-item:hover { background: rgba(102, 126, 234, 0.2); border-left-color: #667eea; color: #fff; }
         .sidebar-nav-item.active { background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%); border-left-color: #667eea; font-weight: 700; }
         .sidebar-nav-item .emoji { margin-right: 10px; font-size: 1.2em; }
+        .theme-toggle-wrap { padding: 14px 20px; border-top: 1px solid rgba(255,255,255,0.15); margin-top: 8px; }
+        .theme-toggle { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 10px 14px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); border-radius: 8px; color: #e2e8f0; font-size: 14px; cursor: pointer; }
+        .theme-toggle:hover { background: rgba(255,255,255,0.2); }
         .sidebar-toggle { display: none; position: fixed; top: 15px; left: 15px; z-index: 1001; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 12px 16px; border-radius: 8px; font-size: 20px; cursor: pointer; }
         .sidebar-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 999; opacity: 0; }
         .sidebar-overlay.active { display: block; opacity: 1; }
@@ -302,6 +305,7 @@
         }
     </style>
     <link rel="stylesheet" href="../../css/theme.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
 </head>
 <body>
     <script>
@@ -331,30 +335,34 @@
             <h2>🇩🇪 German Learning</h2>
         </div>
         <div class="sidebar-nav">
-            <a href="../../index.html" class="sidebar-nav-item">
-                <span class="emoji">🏠</span> Home
-            </a>
-            <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item">
-                <span class="emoji">📚</span> A1 Vocabulary (PDF)
-            </a>
-            <a href="../a1-650/a1-650.html" class="sidebar-nav-item">
-                <span class="emoji">📖</span> A1 Vocabulary (650)
-            </a>
-            <a href="../a1-650/grammar.html" class="sidebar-nav-item">
-                <span class="emoji">📝</span> A1 Grammar
-            </a>
-            <a href="../a2/a2.html" class="sidebar-nav-item">
-                <span class="emoji">📘</span> A2 Vocabulary
-            </a>
-            <a href="../numbers/numbers.html" class="sidebar-nav-item">
-                <span class="emoji">🔢</span> German Numbers
-            </a>
-            <a href="../common-words/common-words.html" class="sidebar-nav-item">
-                <span class="emoji">🔤</span> Common Words
-            </a>
-            <a href="clusters.html" class="sidebar-nav-item active">
-                <span class="emoji">🗣️</span> Consonant Clusters
-            </a>
+            <a href="../../index.html" class="sidebar-nav-item"><span class="emoji">🏠</span> Home</a>
+            <details class="sidebar-dropdown" open>
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">📚</span> A1</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item"><span class="emoji">📚</span> A1 Vocabulary (PDF)</a>
+                    <a href="../a1-650/a1-650.html" class="sidebar-nav-item"><span class="emoji">📖</span> A1 Vocabulary (650)</a>
+                    <a href="../a1-650/grammar.html" class="sidebar-nav-item"><span class="emoji">📝</span> A1 Grammar</a>
+                    <a href="../a1-650/writing.html" class="sidebar-nav-item"><span class="emoji">✍️</span> A1 Writing</a>
+                </div>
+            </details>
+            <details class="sidebar-dropdown">
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">📘</span> A2</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../a2/a2.html" class="sidebar-nav-item"><span class="emoji">📘</span> A2 Vocabulary</a>
+                </div>
+            </details>
+            <a href="../numbers/numbers.html" class="sidebar-nav-item"><span class="emoji">🔢</span> German Numbers</a>
+            <a href="../common-words/common-words.html" class="sidebar-nav-item"><span class="emoji">🔤</span> Common Words</a>
+            <details class="sidebar-dropdown" open>
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">🗣️</span> Clusters</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="clusters.html" class="sidebar-nav-item active"><span class="emoji">🗣️</span> Consonant Clusters</a>
+                    <a href="writing.html" class="sidebar-nav-item"><span class="emoji">✍️</span> Cluster Writing</a>
+                </div>
+            </details>
+        </div>
+        <div class="theme-toggle-wrap">
+            <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><span class="icon" id="theme-icon">🌙</span><span id="theme-label">Dark</span></button>
         </div>
     </nav>
     
