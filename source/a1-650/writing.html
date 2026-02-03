@@ -112,18 +112,37 @@
         body.theme-dark .word-hi { color: var(--hindi-color, #c4b5fd); }
         .word-sep { color: var(--text-secondary); font-weight: 400; }
         .word-hint { text-align: center; color: var(--text-secondary); font-size: 13px; margin-bottom: 16px; }
-        .hear-btn {
-            display: block;
-            margin: 0 auto 24px;
+        .word-for-box {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 1.15em;
+            font-weight: 600;
+            color: #0d47a1;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+        }
+        .word-for-box:hover { text-decoration: underline; opacity: 0.9; }
+        body.theme-dark .word-for-box { color: var(--german-color, #93c5fd); }
+        .hear-next-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+        .hear-btn, .hear-next-btn {
             padding: 10px 20px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border: none;
             border-radius: 8px;
             font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
         }
-        .hear-btn:hover { opacity: 0.9; }
+        .hear-btn:hover, .hear-next-btn:hover { opacity: 0.9; }
 
         .inputs-grid {
             display: grid;
@@ -252,13 +271,16 @@
                 <span class="word-sep">—</span>
                 <span class="word-hi" id="wordHi"></span>
             </div>
+            <div class="word-for-box" id="wordForBox" title="Click to hear"></div>
         </div>
-     
-        <button type="button" class="hear-btn" id="hearBtn">🔊 Hear word</button>
+
+        <div class="hear-next-row">
+            <button type="button" class="hear-next-btn" id="prevBtn">Previous</button>
+            <button type="button" class="hear-btn" id="hearBtn">🔊 Hear word</button>
+            <button type="button" class="hear-next-btn" id="nextBtn">Next</button>
+        </div>
 
         <div class="inputs-grid" id="inputsContainer"></div>
-
-        <button type="button" class="new-word-btn" id="newWordBtn">Next word</button>
     </div>
 
     <script src="writing-data.js"></script>
@@ -306,22 +328,40 @@
         var currentEntry = null;
         var currentCategoryId = '';
         var audioCtx = null;
+        /** Current index per category for serial order (no random). */
+        var currentIndexByCategory = {};
 
         function getCurrentWordList() {
             if (currentCategoryId === '' || currentCategoryId === 'all') {
                 var all = [];
-                Object.keys(wordsByCategory).forEach(function(id) {
-                    (wordsByCategory[id] || []).forEach(function(w) { all.push(w); });
+                CATEGORIES.forEach(function(c) {
+                    var arr = wordsByCategory[c.id];
+                    if (Array.isArray(arr)) arr.forEach(function(w) { all.push(w); });
                 });
                 return all;
             }
             return wordsByCategory[currentCategoryId] || [];
         }
 
-        function getRandomWord() {
+        /** Next word in serial order (wraps to start). */
+        function getNextEntry() {
             var list = getCurrentWordList();
             if (!list.length) return null;
-            return list[Math.floor(Math.random() * list.length)];
+            var idx = currentIndexByCategory[currentCategoryId] || 0;
+            var entry = list[idx];
+            currentIndexByCategory[currentCategoryId] = (idx + 1) % list.length;
+            return entry;
+        }
+
+        /** Previous word in serial order (wraps to end). */
+        function getPreviousEntry() {
+            var list = getCurrentWordList();
+            if (!list.length) return null;
+            var len = list.length;
+            var idx = currentIndexByCategory[currentCategoryId] !== undefined ? currentIndexByCategory[currentCategoryId] : 0;
+            var prevIdx = (idx - 2 + len) % len;
+            currentIndexByCategory[currentCategoryId] = (idx - 1 + len) % len;
+            return list[prevIdx];
         }
 
         function speakGerman(text) {
@@ -369,6 +409,15 @@
             }
         }
 
+        function updateWordForBox(boxIndex) {
+            var el = document.getElementById('wordForBox');
+            if (!el || !currentEntry) { if (el) el.textContent = ''; return; }
+            var de = currentWord;
+            var en = currentEntry.en || '';
+            var hi = currentEntry.hi || '';
+            el.textContent = (de ? de + (en || hi ? ' — ' : '') : '') + (en ? en + (hi ? ' — ' : '') : '') + (hi || '');
+        }
+
         function buildInputs() {
             var container = document.getElementById('inputsContainer');
             container.innerHTML = '';
@@ -383,6 +432,7 @@
                 input.autocomplete = 'off';
                 input.placeholder = '…';
                 input.dataset.index = i;
+                input.addEventListener('focus', function() { updateWordForBox(parseInt(this.dataset.index, 10)); });
                 input.addEventListener('blur', function() { checkInput(this, parseInt(this.dataset.index, 10)); });
                 input.addEventListener('keydown', function(e) {
                     if (e.key === 'Enter') {
@@ -399,11 +449,22 @@
         }
 
         function setNewWord() {
-            var entry = getRandomWord();
+            var entry = getNextEntry();
+            showEntry(entry);
+        }
+
+        function setPreviousWord() {
+            var entry = getPreviousEntry();
+            showEntry(entry);
+        }
+
+        function showEntry(entry) {
             if (!entry) {
                 document.getElementById('wordDisplay').textContent = '—';
                 document.getElementById('wordEn').textContent = '';
                 document.getElementById('wordHi').textContent = '';
+                var wfb = document.getElementById('wordForBox');
+                if (wfb) wfb.textContent = '';
                 buildInputs();
                 return;
             }
@@ -413,6 +474,7 @@
             document.getElementById('wordEn').textContent = entry.en;
             document.getElementById('wordHi').textContent = entry.hi;
             buildInputs();
+            updateWordForBox(1);
         }
 
         function parseWordsFromHtml(html) {
@@ -438,6 +500,7 @@
 
         var categorySelectListener = function() {
             currentCategoryId = this.value;
+            currentIndexByCategory[currentCategoryId] = 0;
             setNewWord();
         };
         function fillCategorySelect() {
@@ -471,6 +534,7 @@
                 wordsByCategory = window.EMBEDDED_WORDS;
                 fillCategorySelect();
                 currentCategoryId = 'all';
+                currentIndexByCategory.all = 0;
                 setNewWord();
                 return;
             }
@@ -481,6 +545,7 @@
                     if (Object.keys(wordsByCategory).length === 0) throw new Error('No words');
                     fillCategorySelect();
                     currentCategoryId = 'all';
+                    currentIndexByCategory.all = 0;
                     setNewWord();
                 })
                 .catch(function() {
@@ -496,6 +561,7 @@
                     wordsByCategory = FALLBACK_WORDS || {};
                     fillCategorySelect();
                     currentCategoryId = Object.keys(wordsByCategory)[0] || 'all';
+                    currentIndexByCategory[currentCategoryId] = 0;
                     setNewWord();
                 });
         }
@@ -506,7 +572,9 @@
         }
 
         document.getElementById('hearBtn').addEventListener('click', function() { speakGerman(currentWord); });
-        document.getElementById('newWordBtn').addEventListener('click', setNewWord);
+        document.getElementById('prevBtn').addEventListener('click', setPreviousWord);
+        document.getElementById('nextBtn').addEventListener('click', setNewWord);
+        document.getElementById('wordForBox').addEventListener('click', function() { if (currentWord) speakGerman(currentWord); });
 
         if (window.speechSynthesis) window.speechSynthesis.onvoiceschanged = function() {};
         loadWords();

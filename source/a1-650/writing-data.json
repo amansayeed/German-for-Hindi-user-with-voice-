@@ -3725,11 +3725,6 @@
 "de": "die Dauer",
 "en": "duration",
 "hi": "अवधि"
-},
-{
-"de": "der Kalender",
-"en": "calendar 📅",
-"hi": "कैलेंडर"
 }
 ],
 "School_&_Learning": [
@@ -4136,11 +4131,6 @@
 "hi": "ढूँढना"
 },
 {
-"de": "der Termin",
-"en": "appointment",
-"hi": "अपॉइंटमेंट"
-},
-{
 "de": "die Besprechung",
 "en": "meeting",
 "hi": "मीटिंग"
@@ -4368,11 +4358,6 @@
 "hi": "बिक्री"
 },
 {
-"de": "die Tüte",
-"en": "bag 🛍️",
-"hi": "थैला"
-},
-{
 "de": "die Schlange",
 "en": "queue / line",
 "hi": "कतार"
@@ -4381,11 +4366,6 @@
 "de": "das Schaufenster",
 "en": "shop window",
 "hi": "दुकान की खिड़की"
-},
-{
-"de": "die Größe",
-"en": "size",
-"hi": "आकार / साइज़"
 },
 {
 "de": "umtauschen",
@@ -4610,11 +4590,6 @@
 "hi": "कॉपी करना"
 },
 {
-"de": "suchen",
-"en": "to search",
-"hi": "खोजना"
-},
-{
 "de": "die Verbindung",
 "en": "connection",
 "hi": "कनेक्शन"
@@ -4765,11 +4740,6 @@
 "de": "das Krokodil",
 "en": "crocodile 🐊",
 "hi": "मगरमच्छ"
-},
-{
-"de": "die Schlange",
-"en": "snake 🐍",
-"hi": "साँप"
 },
 {
 "de": "die Giraffe",
@@ -5019,11 +4989,6 @@
 "hi": "आश्चर्य / सरप्राइज"
 },
 {
-"de": "der Gast",
-"en": "guest",
-"hi": "मेहमान"
-},
-{
 "de": "die Gastgeberin",
 "en": "host (f)",
 "hi": "मेजबान (f)"
@@ -5104,16 +5069,6 @@
 "de": "der Kopfhörer",
 "en": "headphones 🎧",
 "hi": "हेडफ़ोन"
-},
-{
-"de": "das Ladegerät",
-"en": "charger 🔌",
-"hi": "चार्जर"
-},
-{
-"de": "das Kabel",
-"en": "cable",
-"hi": "केबल"
 },
 {
 "de": "die Armbanduhr",
@@ -5204,26 +5159,6 @@
 "de": "finden",
 "en": "to find",
 "hi": "पाना"
-},
-{
-"de": "der Regenschirm",
-"en": "umbrella ☔",
-"hi": "छाता"
-},
-{
-"de": "das Foto",
-"en": "photo 📷",
-"hi": "फोटो"
-},
-{
-"de": "der Koffer",
-"en": "suitcase 🧳",
-"hi": "सूटकेस"
-},
-{
-"de": "der Rucksack",
-"en": "backpack 🎒",
-"hi": "बैकपैक"
 }
 ],
 "Question_Words": [
@@ -5543,21 +5478,6 @@
 "de": "solche",
 "en": "such",
 "hi": "ऐसा / ऐसी"
-},
-{
-"de": "welcher",
-"en": "which (m)",
-"hi": "कौन सा (m)"
-},
-{
-"de": "welche",
-"en": "which (f)",
-"hi": "कौन सी (f)"
-},
-{
-"de": "welches",
-"en": "which (n)",
-"hi": "कौन सा (n)"
 },
 {
 "de": "derselbe",

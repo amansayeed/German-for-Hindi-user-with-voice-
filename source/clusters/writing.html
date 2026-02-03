@@ -297,39 +297,194 @@
         ];
         var ALPHABET = [];
 
-        // Character clusters: en/hi for display; words = 10 different example words per cluster (different pronunciations)
+        // Character clusters: en/hi for display; words = 10 example words per cluster (string or { de, en, hi })
         var CLUSTERS = [
-            { de: 'BL', en: 'Blut (blood)', hi: 'ब्ल', words: ['Blut', 'Blatt', 'Blume', 'blind', 'blau', 'Block', 'Blick', 'Blitz', 'Bluse', 'Blüte'] },
-            { de: 'BR', en: 'Brot (bread)', hi: 'ब्र', words: ['Brot', 'Bruder', 'Braun', 'Brief', 'Bräuche', 'Bruch', 'Brille', 'Brücke', 'Brust', 'Bräune'] },
-            { de: 'CH', en: 'Buch (book)', hi: 'ह्य/ख', words: ['Buch', 'Licht', 'ich', 'Chemie', 'machen', 'Nacht', 'Tochter', 'durch', 'sprechen', 'suchen'] },
-            { de: 'DR', en: 'Druck', hi: 'ड्र', words: ['Druck', 'Drama', 'Drache', 'drücken', 'Drohung', 'Drittel', 'Drossel', 'Drucker', 'dringend', 'Dreieck'] },
-            { de: 'FL', en: 'Fluss (river)', hi: 'फ्ल', words: ['Fluss', 'Flasche', 'Fliege', 'fliegen', 'Flug', 'Fläche', 'Flamme', 'Fleck', 'Fleisch', 'flach'] },
-            { de: 'FR', en: 'Freund (friend)', hi: 'फ्र', words: ['Freund', 'Frau', 'Freiheit', 'fragen', 'frisch', 'Frankreich', 'Freitag', 'frieren', 'Frucht', 'früh'] },
-            { de: 'GL', en: 'Glas (glass)', hi: 'ग्ल', words: ['Glas', 'Gleis', 'Glück', 'glatt', 'glänzen', 'Glocke', 'Glied', 'glühen', 'Glaube', 'gleich'] },
-            { de: 'GR', en: 'Gras (grass)', hi: 'ग्र', words: ['Gras', 'Grenze', 'Groß', 'grau', 'Grund', 'Gruppe', 'grün', 'Grab', 'Gramm', 'Grad'] },
-            { de: 'KL', en: 'Klasse (class)', hi: 'क्ल', words: ['Klasse', 'Kleid', 'Klemme', 'klingen', 'Klima', 'Klang', 'klar', 'Kleidung', 'Klären', 'Klick'] },
-            { de: 'KN', en: 'Knie (knee)', hi: 'क्न', words: ['Knie', 'Knopf', 'Knabe', 'kneten', 'Knochen', 'Knast', 'Knoten', 'Knall', 'Knoblauch', 'knabbern'] },
-            { de: 'KR', en: 'Kraft', hi: 'क्र', words: ['Kraft', 'Kredit', 'Krone', 'krank', 'Kreis', 'Krieg', 'kritisieren', 'Krise', 'Kreuz', 'Krähe'] },
-            { de: 'PF', en: 'Pferd (horse)', hi: 'प्फ़', words: ['Pferd', 'Pflanze', 'Pfad', 'Pfennig', 'Pflege', 'Pfand', 'Pfosten', 'Pflaume', 'Pflicht', 'Pfund'] },
-            { de: 'PH', en: 'Phase', hi: 'फ', words: ['Phase', 'Philosophie', 'Phänomen', 'Pharmazie', 'Phantasie', 'Phonetik', 'Photo', 'Phrase', 'Physik', 'Phantom'] },
-            { de: 'PL', en: 'Platz (place)', hi: 'प्ल', words: ['Platz', 'Plan', 'Pflanze', 'plötzlich', 'Platte', 'plus', 'Plastik', 'Platzierung', 'platt', 'Plakat'] },
-            { de: 'PR', en: 'Preis (price)', hi: 'प्र', words: ['Preis', 'Praxis', 'Präsent', 'Problem', 'Programm', 'Professor', 'Prozent', 'Projekt', 'prüfen', 'prima'] },
-            { de: 'QU', en: 'Quelle (source)', hi: 'क्व', words: ['Quelle', 'quer', 'Qualität', 'Quadrat', 'Quittung', 'Quatsch', 'Quark', 'Quelle', 'Querstraße', 'Quittung'] },
-            { de: 'RH', en: 'Rhein', hi: 'र', words: ['Rhein', 'Rhythmus', 'Rhapsodie', 'Rhetorik', 'Rheuma', 'Rhinozeros', 'Rhododendron', 'Rhesus', 'Rheinland', 'Rheumatismus'] },
-            { de: 'SC', en: 'Schema', hi: 'श', words: ['Schema', 'Scene', 'Scent', 'Scherz', 'Schauspiel', 'Schaufenster', 'Schicht', 'Schicksal', 'Schild', 'Schimmer'] },
-            { de: 'SCH', en: 'Schule (school)', hi: 'श', words: ['Schule', 'Schaf', 'Schatten', 'schön', 'schreiben', 'Schnee', 'Schrank', 'schwarz', 'schwer', 'schwimmen'] },
-            { de: 'SCHL', en: 'Schloss', hi: 'श्ल', words: ['Schloss', 'schlagen', 'schlafen', 'Schlüssel', 'schließen', 'Schluss', 'schlecht', 'Schlange', 'schlicht', 'Schlitten'] },
-            { de: 'SCHM', en: 'Schmuck', hi: 'श्म', words: ['Schmuck', 'schmecken', 'schmieren', 'Schmerz', 'schmutzig', 'Schmetterling', 'schmal', 'Schmiede', 'schmunzeln', 'Schmied'] },
-            { de: 'SCHN', en: 'Schnee (snow)', hi: 'श्न', words: ['Schnee', 'schnell', 'Schneider', 'schnappen', 'schnarchen', 'Schnur', 'schnüffeln', 'Schnabel', 'schnippen', 'Schnitte'] },
-            { de: 'SCHR', en: 'Schrank', hi: 'श्र', words: ['Schrank', 'schreiben', 'schrecklich', 'Schritt', 'Schrift', 'schreien', 'Schrei', 'Schraube', 'schräg', 'Schritt'] },
-            { de: 'SCHW', en: 'Schwimmen (swim)', hi: 'श्व', words: ['Schwimmen', 'Schwester', 'schwarz', 'schwer', 'schwächen', 'Schwanz', 'schweigen', 'Schwein', 'schwitzen', 'Schwung'] },
-            { de: 'SP', en: 'Sport', hi: 'श्प', words: ['Sport', 'Sprache', 'spannend', 'Spiel', 'spät', 'Spaß', 'sparen', 'Speise', 'Spiegel', 'spüren'] },
-            { de: 'ST', en: 'Stadt (city)', hi: 'श्ट', words: ['Stadt', 'Stelle', 'Stein', 'stehen', 'Stunde', 'Stuhl', 'Strom', 'Strasse', 'Stück', 'Stimme'] },
-            { de: 'STR', en: 'Straße (street)', hi: 'श्ट्र', words: ['Straße', 'Strumpf', 'Strom', 'Strand', 'streiten', 'Strich', 'Struktur', 'streng', 'Streich', 'Strand'] },
-            { de: 'TH', en: 'Theater', hi: 'त', words: ['Theater', 'Thema', 'Theorie', 'Theke', 'Theologie', 'These', 'Thermometer', 'Thron', 'Thymian', 'Thailand'] },
-            { de: 'TR', en: 'Traum (dream)', hi: 'ट्र', words: ['Traum', 'Tragen', 'Trauer', 'Treppe', 'trinken', 'träumen', 'Trick', 'Trost', 'Tropfen', 'Truhe'] },
-            { de: 'TS', en: 'Katze (cat)', hi: 'त्स', words: ['Katze', 'Platz', 'Satz', 'jetzt', 'setzen', 'Schutz', 'Latz', 'Matze', 'Hitze', 'Netz'] },
-            { de: 'ZW', en: 'Zwei (two)', hi: 'त्स्व', words: ['Zwei', 'Zwanzig', 'zwischen', 'Zweig', 'Zweck', 'Zweifel', 'zwingen', 'Zwilling', 'Zwerg', 'zwar'] }
+            { de: 'BL', en: 'Blut (blood)', hi: 'ब्ल', words: [
+                { de: 'Blut', en: 'blood', hi: 'खून' }, { de: 'Blatt', en: 'leaf', hi: 'पत्ता' }, { de: 'Blume', en: 'flower', hi: 'फूल' },
+                { de: 'blind', en: 'blind', hi: 'अंधा' }, { de: 'blau', en: 'blue', hi: 'नीला' }, { de: 'Block', en: 'block', hi: 'ब्लॉक' },
+                { de: 'Blick', en: 'glance', hi: 'नज़र' }, { de: 'Blitz', en: 'lightning', hi: 'बिजली' }, { de: 'Bluse', en: 'blouse', hi: 'ब्लाउज़' },
+                { de: 'Blüte', en: 'bloom', hi: 'खिलना' }
+            ] },
+            { de: 'BR', en: 'Brot (bread)', hi: 'ब्र', words: [
+                { de: 'Brot', en: 'bread', hi: 'रोटी' }, { de: 'Bruder', en: 'brother', hi: 'भाई' }, { de: 'Braun', en: 'brown', hi: 'भूरा' },
+                { de: 'Brief', en: 'letter', hi: 'पत्र' }, { de: 'Bräuche', en: 'customs', hi: 'रिवाज़' }, { de: 'Bruch', en: 'break/fracture', hi: 'टूटना' },
+                { de: 'Brille', en: 'glasses', hi: 'चश्मा' }, { de: 'Brücke', en: 'bridge', hi: 'पुल' }, { de: 'Brust', en: 'chest', hi: 'छाती' },
+                { de: 'Bräune', en: 'tan/brown', hi: 'कांति' }
+            ] },
+            { de: 'CH', en: 'Buch (book)', hi: 'ह्य/ख', words: [
+                { de: 'Buch', en: 'book', hi: 'किताब' }, { de: 'Licht', en: 'light', hi: 'रोशनी' }, { de: 'ich', en: 'I', hi: 'मैं' },
+                { de: 'Chemie', en: 'chemistry', hi: 'रसायन' }, { de: 'machen', en: 'to make', hi: 'करना' }, { de: 'Nacht', en: 'night', hi: 'रात' },
+                { de: 'Tochter', en: 'daughter', hi: 'बेटी' }, { de: 'durch', en: 'through', hi: 'से होकर' }, { de: 'sprechen', en: 'to speak', hi: 'बोलना' },
+                { de: 'suchen', en: 'to search', hi: 'खोजना' }
+            ] },
+            { de: 'DR', en: 'Druck', hi: 'ड्र', words: [
+                { de: 'Druck', en: 'pressure/print', hi: 'दबाव' }, { de: 'Drama', en: 'drama', hi: 'नाटक' }, { de: 'Drache', en: 'dragon', hi: 'अजगर' },
+                { de: 'drücken', en: 'to press', hi: 'दबाना' }, { de: 'Drohung', en: 'threat', hi: 'धमकी' }, { de: 'Drittel', en: 'third', hi: 'तिहाई' },
+                { de: 'Drossel', en: 'throttle', hi: 'रोक' }, { de: 'Drucker', en: 'printer', hi: 'प्रिंटर' }, { de: 'dringend', en: 'urgent', hi: 'जरूरी' },
+                { de: 'Dreieck', en: 'triangle', hi: 'त्रिभुज' }
+            ] },
+            { de: 'FL', en: 'Fluss (river)', hi: 'फ्ल', words: [
+                { de: 'Fluss', en: 'river', hi: 'नदी' }, { de: 'Flasche', en: 'bottle', hi: 'बोतल' }, { de: 'Fliege', en: 'fly', hi: 'मक्खी' },
+                { de: 'fliegen', en: 'to fly', hi: 'उड़ना' }, { de: 'Flug', en: 'flight', hi: 'उड़ान' }, { de: 'Fläche', en: 'area', hi: 'क्षेत्र' },
+                { de: 'Flamme', en: 'flame', hi: 'लौ' }, { de: 'Fleck', en: 'spot/stain', hi: 'धब्बा' }, { de: 'Fleisch', en: 'meat', hi: 'मांस' },
+                { de: 'flach', en: 'flat', hi: 'समतल' }
+            ] },
+            { de: 'FR', en: 'Freund (friend)', hi: 'फ्र', words: [
+                { de: 'Freund', en: 'friend', hi: 'दोस्त' }, { de: 'Frau', en: 'woman/wife', hi: 'महिला' }, { de: 'Freiheit', en: 'freedom', hi: 'आज़ादी' },
+                { de: 'fragen', en: 'to ask', hi: 'पूछना' }, { de: 'frisch', en: 'fresh', hi: 'ताज़ा' }, { de: 'Frankreich', en: 'France', hi: 'फ्रांस' },
+                { de: 'Freitag', en: 'Friday', hi: 'शुक्रवार' }, { de: 'frieren', en: 'to freeze', hi: 'जमना' }, { de: 'Frucht', en: 'fruit', hi: 'फल' },
+                { de: 'früh', en: 'early', hi: 'जल्दी' }
+            ] },
+            { de: 'GL', en: 'Glas (glass)', hi: 'ग्ल', words: [
+                { de: 'Glas', en: 'glass', hi: 'गिलास' }, { de: 'Gleis', en: 'track', hi: 'पटरी' }, { de: 'Glück', en: 'luck', hi: 'किस्मत' },
+                { de: 'glatt', en: 'smooth', hi: 'चिकना' }, { de: 'glänzen', en: 'to shine', hi: 'चमकना' }, { de: 'Glocke', en: 'bell', hi: 'घंटी' },
+                { de: 'Glied', en: 'limb', hi: 'अंग' }, { de: 'glühen', en: 'to glow', hi: 'चमकना' }, { de: 'Glaube', en: 'belief', hi: 'विश्वास' },
+                { de: 'gleich', en: 'same/equal', hi: 'बराबर' }
+            ] },
+            { de: 'GR', en: 'Gras (grass)', hi: 'ग्र', words: [
+                { de: 'Gras', en: 'grass', hi: 'घास' }, { de: 'Grenze', en: 'border', hi: 'सीमा' }, { de: 'Groß', en: 'big', hi: 'बड़ा' },
+                { de: 'grau', en: 'gray', hi: 'धूसर' }, { de: 'Grund', en: 'reason/ground', hi: 'कारण' }, { de: 'Gruppe', en: 'group', hi: 'समूह' },
+                { de: 'grün', en: 'green', hi: 'हरा' }, { de: 'Grab', en: 'grave', hi: 'कब्र' }, { de: 'Gramm', en: 'gram', hi: 'ग्राम' },
+                { de: 'Grad', en: 'degree', hi: 'डिग्री' }
+            ] },
+            { de: 'KL', en: 'Klasse (class)', hi: 'क्ल', words: [
+                { de: 'Klasse', en: 'class', hi: 'कक्षा' }, { de: 'Kleid', en: 'dress', hi: 'कपड़ा' }, { de: 'Klemme', en: 'clamp', hi: 'क्लैंप' },
+                { de: 'klingen', en: 'to sound', hi: 'बजना' }, { de: 'Klima', en: 'climate', hi: 'जलवायु' }, { de: 'Klang', en: 'sound', hi: 'ध्वनि' },
+                { de: 'klar', en: 'clear', hi: 'स्पष्ट' }, { de: 'Kleidung', en: 'clothing', hi: 'कपड़े' }, { de: 'Klären', en: 'to clarify', hi: 'स्पष्ट करना' },
+                { de: 'Klick', en: 'click', hi: 'क्लिक' }
+            ] },
+            { de: 'KN', en: 'Knie (knee)', hi: 'क्न', words: [
+                { de: 'Knie', en: 'knee', hi: 'घुटना' }, { de: 'Knopf', en: 'button', hi: 'बटन' }, { de: 'Knabe', en: 'boy', hi: 'लड़का' },
+                { de: 'kneten', en: 'to knead', hi: 'गूंथना' }, { de: 'Knochen', en: 'bone', hi: 'हड्डी' }, { de: 'Knast', en: 'jail', hi: 'जेल' },
+                { de: 'Knoten', en: 'knot', hi: 'गांठ' }, { de: 'Knall', en: 'bang', hi: 'धमाका' }, { de: 'Knoblauch', en: 'garlic', hi: 'लहसुन' },
+                { de: 'knabbern', en: 'to nibble', hi: 'कुतरना' }
+            ] },
+            { de: 'KR', en: 'Kraft', hi: 'क्र', words: [
+                { de: 'Kraft', en: 'power/force', hi: 'ताकत' }, { de: 'Kredit', en: 'credit', hi: 'क्रेडिट' }, { de: 'Krone', en: 'crown', hi: 'ताज' },
+                { de: 'krank', en: 'sick', hi: 'बीमार' }, { de: 'Kreis', en: 'circle', hi: 'वृत्त' }, { de: 'Krieg', en: 'war', hi: 'युद्ध' },
+                { de: 'kritisieren', en: 'to criticize', hi: 'आलोचना करना' }, { de: 'Krise', en: 'crisis', hi: 'संकट' }, { de: 'Kreuz', en: 'cross', hi: 'क्रॉस' },
+                { de: 'Krähe', en: 'crow', hi: 'कौआ' }
+            ] },
+            { de: 'PF', en: 'Pferd (horse)', hi: 'प्फ़', words: [
+                { de: 'Pferd', en: 'horse', hi: 'घोड़ा' }, { de: 'Pflanze', en: 'plant', hi: 'पौधा' }, { de: 'Pfad', en: 'path', hi: 'रास्ता' },
+                { de: 'Pfennig', en: 'penny', hi: 'पैसा' }, { de: 'Pflege', en: 'care', hi: 'देखभाल' }, { de: 'Pfand', en: 'deposit', hi: 'जमानत' },
+                { de: 'Pfosten', en: 'post', hi: 'खंभा' }, { de: 'Pflaume', en: 'plum', hi: 'आलू बुखारा' }, { de: 'Pflicht', en: 'duty', hi: 'कर्तव्य' },
+                { de: 'Pfund', en: 'pound', hi: 'पाउंड' }
+            ] },
+            { de: 'PH', en: 'Phase', hi: 'फ', words: [
+                { de: 'Phase', en: 'phase', hi: 'चरण' }, { de: 'Philosophie', en: 'philosophy', hi: 'दर्शन' }, { de: 'Phänomen', en: 'phenomenon', hi: 'घटना' },
+                { de: 'Pharmazie', en: 'pharmacy', hi: 'फार्मेसी' }, { de: 'Phantasie', en: 'fantasy', hi: 'कल्पना' }, { de: 'Phonetik', en: 'phonetics', hi: 'ध्वनि विज्ञान' },
+                { de: 'Photo', en: 'photo', hi: 'फोटो' }, { de: 'Phrase', en: 'phrase', hi: 'वाक्यांश' }, { de: 'Physik', en: 'physics', hi: 'भौतिकी' },
+                { de: 'Phantom', en: 'phantom', hi: 'भूत' }
+            ] },
+            { de: 'PL', en: 'Platz (place)', hi: 'प्ल', words: [
+                { de: 'Platz', en: 'place', hi: 'जगह' }, { de: 'Plan', en: 'plan', hi: 'योजना' }, { de: 'Pflanze', en: 'plant', hi: 'पौधा' },
+                { de: 'plötzlich', en: 'suddenly', hi: 'अचानक' }, { de: 'Platte', en: 'plate', hi: 'प्लेट' }, { de: 'plus', en: 'plus', hi: 'जमा' },
+                { de: 'Plastik', en: 'plastic', hi: 'प्लास्टिक' }, { de: 'Platzierung', en: 'placement', hi: 'स्थान' }, { de: 'platt', en: 'flat', hi: 'समतल' },
+                { de: 'Plakat', en: 'poster', hi: 'पोस्टर' }
+            ] },
+            { de: 'PR', en: 'Preis (price)', hi: 'प्र', words: [
+                { de: 'Preis', en: 'price', hi: 'कीमत' }, { de: 'Praxis', en: 'practice', hi: 'अभ्यास' }, { de: 'Präsent', en: 'present', hi: 'उपहार' },
+                { de: 'Problem', en: 'problem', hi: 'समस्या' }, { de: 'Programm', en: 'program', hi: 'कार्यक्रम' }, { de: 'Professor', en: 'professor', hi: 'प्रोफेसर' },
+                { de: 'Prozent', en: 'percent', hi: 'प्रतिशत' }, { de: 'Projekt', en: 'project', hi: 'परियोजना' }, { de: 'prüfen', en: 'to check', hi: 'जांचना' },
+                { de: 'prima', en: 'great', hi: 'बढ़िया' }
+            ] },
+            { de: 'QU', en: 'Quelle (source)', hi: 'क्व', words: [
+                { de: 'Quelle', en: 'source', hi: 'स्रोत' }, { de: 'quer', en: 'across', hi: 'तिरछा' }, { de: 'Qualität', en: 'quality', hi: 'गुणवत्ता' },
+                { de: 'Quadrat', en: 'square', hi: 'वर्ग' }, { de: 'Quittung', en: 'receipt', hi: 'रसीद' }, { de: 'Quatsch', en: 'nonsense', hi: 'बकवास' },
+                { de: 'Quark', en: 'quark', hi: 'क्वार्क' }, { de: 'Qual', en: 'agony', hi: 'पीड़ा' }, { de: 'Querstraße', en: 'cross street', hi: 'क्रॉस सड़क' },
+                { de: 'Quittung', en: 'receipt', hi: 'रसीद' }
+            ] },
+            { de: 'RH', en: 'Rhein', hi: 'र', words: [
+                { de: 'Rhein', en: 'Rhine', hi: 'राइन नदी' }, { de: 'Rhythmus', en: 'rhythm', hi: 'ताल' }, { de: 'Rhapsodie', en: 'rhapsody', hi: 'राग' },
+                { de: 'Rhetorik', en: 'rhetoric', hi: 'वाक्पटुता' }, { de: 'Rheuma', en: 'rheumatism', hi: 'गठिया' }, { de: 'Rhinozeros', en: 'rhinoceros', hi: 'गैंडा' },
+                { de: 'Rhododendron', en: 'rhododendron', hi: 'बुरांश' }, { de: 'Rhesus', en: 'rhesus', hi: 'रिसस' }, { de: 'Rheinland', en: 'Rhineland', hi: 'राइनलैंड' },
+                { de: 'Rheumatismus', en: 'rheumatism', hi: 'गठिया' }
+            ] },
+            { de: 'SC', en: 'Schema', hi: 'श', words: [
+                { de: 'Schema', en: 'scheme', hi: 'योजना' }, { de: 'Scene', en: 'scene', hi: 'दृश्य' }, { de: 'Scent', en: 'scent', hi: 'खुशबू' },
+                { de: 'Scherz', en: 'joke', hi: 'मज़ाक' }, { de: 'Schauspiel', en: 'play', hi: 'नाटक' }, { de: 'Schaufenster', en: 'shop window', hi: 'दुकान की खिड़की' },
+                { de: 'Schicht', en: 'shift/layer', hi: 'परत' }, { de: 'Schicksal', en: 'fate', hi: 'किस्मत' }, { de: 'Schild', en: 'sign', hi: 'संकेत' },
+                { de: 'Schimmer', en: 'glimmer', hi: 'झलक' }
+            ] },
+            { de: 'SCH', en: 'Schule (school)', hi: 'श', words: [
+                { de: 'Schule', en: 'school', hi: 'स्कूल' }, { de: 'Schaf', en: 'sheep', hi: 'भेड़' }, { de: 'Schatten', en: 'shadow', hi: 'छाया' },
+                { de: 'schön', en: 'beautiful', hi: 'सुंदर' }, { de: 'schreiben', en: 'to write', hi: 'लिखना' }, { de: 'Schnee', en: 'snow', hi: 'बर्फ' },
+                { de: 'Schrank', en: 'cupboard', hi: 'अलमारी' }, { de: 'schwarz', en: 'black', hi: 'काला' }, { de: 'schwer', en: 'heavy', hi: 'भारी' },
+                { de: 'schwimmen', en: 'to swim', hi: 'तैरना' }
+            ] },
+            { de: 'SCHL', en: 'Schloss', hi: 'श्ल', words: [
+                { de: 'Schloss', en: 'castle/lock', hi: 'महल/ताला' }, { de: 'schlagen', en: 'to hit', hi: 'मारना' }, { de: 'schlafen', en: 'to sleep', hi: 'सोना' },
+                { de: 'Schlüssel', en: 'key', hi: 'चाबी' }, { de: 'schließen', en: 'to close', hi: 'बंद करना' }, { de: 'Schluss', en: 'end', hi: 'अंत' },
+                { de: 'schlecht', en: 'bad', hi: 'बुरा' }, { de: 'Schlange', en: 'snake', hi: 'साँप' }, { de: 'schlicht', en: 'simple', hi: 'साधारण' },
+                { de: 'Schlitten', en: 'sledge', hi: 'स्लेज' }
+            ] },
+            { de: 'SCHM', en: 'Schmuck', hi: 'श्म', words: [
+                { de: 'Schmuck', en: 'jewelry', hi: 'गहना' }, { de: 'schmecken', en: 'to taste', hi: 'स्वाद' }, { de: 'schmieren', en: 'to smear', hi: 'लगाना' },
+                { de: 'Schmerz', en: 'pain', hi: 'दर्द' }, { de: 'schmutzig', en: 'dirty', hi: 'गंदा' }, { de: 'Schmetterling', en: 'butterfly', hi: 'तितली' },
+                { de: 'schmal', en: 'narrow', hi: 'संकरा' }, { de: 'Schmiede', en: 'forge', hi: 'लोहार की दुकान' }, { de: 'schmunzeln', en: 'to smile', hi: 'मुस्कुराना' },
+                { de: 'Schmied', en: 'smith', hi: 'लोहार' }
+            ] },
+            { de: 'SCHN', en: 'Schnee (snow)', hi: 'श्न', words: [
+                { de: 'Schnee', en: 'snow', hi: 'बर्फ' }, { de: 'schnell', en: 'fast', hi: 'तेज़' }, { de: 'Schneider', en: 'tailor', hi: 'दर्जी' },
+                { de: 'schnappen', en: 'to snap', hi: 'पकड़ना' }, { de: 'schnarchen', en: 'to snore', hi: 'खर्राटे' }, { de: 'Schnur', en: 'string', hi: 'डोरी' },
+                { de: 'schnüffeln', en: 'to sniff', hi: 'सूँघना' }, { de: 'Schnabel', en: 'beak', hi: 'चोंच' }, { de: 'schnippen', en: 'to flick', hi: 'छिड़कना' },
+                { de: 'Schnitte', en: 'slice', hi: 'टुकड़ा' }
+            ] },
+            { de: 'SCHR', en: 'Schrank', hi: 'श्र', words: [
+                { de: 'Schrank', en: 'cupboard', hi: 'अलमारी' }, { de: 'schreiben', en: 'to write', hi: 'लिखना' }, { de: 'schrecklich', en: 'terrible', hi: 'भयानक' },
+                { de: 'Schritt', en: 'step', hi: 'कदम' }, { de: 'Schrift', en: 'script', hi: 'लिपि' }, { de: 'schreien', en: 'to scream', hi: 'चिल्लाना' },
+                { de: 'Schrei', en: 'scream', hi: 'चीख' }, { de: 'Schraube', en: 'screw', hi: 'पेंच' }, { de: 'schräg', en: 'slanting', hi: 'तिरछा' },
+                { de: 'Schritt', en: 'step', hi: 'कदम' }
+            ] },
+            { de: 'SCHW', en: 'Schwimmen (swim)', hi: 'श्व', words: [
+                { de: 'Schwimmen', en: 'to swim', hi: 'तैरना' }, { de: 'Schwester', en: 'sister', hi: 'बहन' }, { de: 'schwarz', en: 'black', hi: 'काला' },
+                { de: 'schwer', en: 'heavy', hi: 'भारी' }, { de: 'schwächen', en: 'to weaken', hi: 'कमजोर करना' }, { de: 'Schwanz', en: 'tail', hi: 'पूँछ' },
+                { de: 'schweigen', en: 'to be silent', hi: 'चुप रहना' }, { de: 'Schwein', en: 'pig', hi: 'सूअर' }, { de: 'schwitzen', en: 'to sweat', hi: 'पसीना आना' },
+                { de: 'Schwung', en: 'swing', hi: 'झूला' }
+            ] },
+            { de: 'SP', en: 'Sport', hi: 'श्प', words: [
+                { de: 'Sport', en: 'sport', hi: 'खेल' }, { de: 'Sprache', en: 'language', hi: 'भाषा' }, { de: 'spannend', en: 'exciting', hi: 'रोमांचक' },
+                { de: 'Spiel', en: 'game', hi: 'खेल' }, { de: 'spät', en: 'late', hi: 'देर' }, { de: 'Spaß', en: 'fun', hi: 'मज़ा' },
+                { de: 'sparen', en: 'to save', hi: 'बचाना' }, { de: 'Speise', en: 'dish', hi: 'पकवान' }, { de: 'Spiegel', en: 'mirror', hi: 'आईना' },
+                { de: 'spüren', en: 'to feel', hi: 'महसूस करना' }
+            ] },
+            { de: 'ST', en: 'Stadt (city)', hi: 'श्ट', words: [
+                { de: 'Stadt', en: 'city', hi: 'शहर' }, { de: 'Stelle', en: 'place', hi: 'जगह' }, { de: 'Stein', en: 'stone', hi: 'पत्थर' },
+                { de: 'stehen', en: 'to stand', hi: 'खड़ा होना' }, { de: 'Stunde', en: 'hour', hi: 'घंटा' }, { de: 'Stuhl', en: 'chair', hi: 'कुर्सी' },
+                { de: 'Strom', en: 'electricity', hi: 'बिजली' }, { de: 'Strasse', en: 'street', hi: 'सड़क' }, { de: 'Stück', en: 'piece', hi: 'टुकड़ा' },
+                { de: 'Stimme', en: 'voice', hi: 'आवाज़' }
+            ] },
+            { de: 'STR', en: 'Straße (street)', hi: 'श्ट्र', words: [
+                { de: 'Straße', en: 'street', hi: 'सड़क' }, { de: 'Strumpf', en: 'sock', hi: 'मोज़ा' }, { de: 'Strom', en: 'current', hi: 'धारा' },
+                { de: 'Strand', en: 'beach', hi: 'समुद्र तट' }, { de: 'streiten', en: 'to argue', hi: 'झगड़ना' }, { de: 'Strich', en: 'line', hi: 'रेखा' },
+                { de: 'Struktur', en: 'structure', hi: 'संरचना' }, { de: 'streng', en: 'strict', hi: 'सख्त' }, { de: 'Streich', en: 'prank', hi: 'शरारत' },
+                { de: 'Strand', en: 'beach', hi: 'समुद्र तट' }
+            ] },
+            { de: 'TH', en: 'Theater', hi: 'त', words: [
+                { de: 'Theater', en: 'theater', hi: 'थिएटर' }, { de: 'Thema', en: 'topic', hi: 'विषय' }, { de: 'Theorie', en: 'theory', hi: 'सिद्धांत' },
+                { de: 'Theke', en: 'counter', hi: 'काउंटर' }, { de: 'Theologie', en: 'theology', hi: 'धर्मशास्त्र' }, { de: 'These', en: 'thesis', hi: 'थीसिस' },
+                { de: 'Thermometer', en: 'thermometer', hi: 'थर्मामीटर' }, { de: 'Thron', en: 'throne', hi: 'सिंहासन' }, { de: 'Thymian', en: 'thyme', hi: 'अजवायन' },
+                { de: 'Thailand', en: 'Thailand', hi: 'थाईलैंड' }
+            ] },
+            { de: 'TR', en: 'Traum (dream)', hi: 'ट्र', words: [
+                { de: 'Traum', en: 'dream', hi: 'सपना' }, { de: 'Tragen', en: 'to carry', hi: 'उठाना' }, { de: 'Trauer', en: 'mourning', hi: 'शोक' },
+                { de: 'Treppe', en: 'stairs', hi: 'सीढ़ी' }, { de: 'trinken', en: 'to drink', hi: 'पीना' }, { de: 'träumen', en: 'to dream', hi: 'सपना देखना' },
+                { de: 'Trick', en: 'trick', hi: 'चाल' }, { de: 'Trost', en: 'comfort', hi: 'सांत्वना' }, { de: 'Tropfen', en: 'drop', hi: 'बूंद' },
+                { de: 'Truhe', en: 'chest', hi: 'संदूक' }
+            ] },
+            { de: 'TS', en: 'Katze (cat)', hi: 'त्स', words: [
+                { de: 'Katze', en: 'cat', hi: 'बिल्ली' }, { de: 'Platz', en: 'place', hi: 'जगह' }, { de: 'Satz', en: 'sentence', hi: 'वाक्य' },
+                { de: 'jetzt', en: 'now', hi: 'अभी' }, { de: 'setzen', en: 'to set', hi: 'बैठाना' }, { de: 'Schutz', en: 'protection', hi: 'सुरक्षा' },
+                { de: 'Latz', en: 'bib', hi: 'बिब' }, { de: 'Matze', en: 'mat', hi: 'चटाई' }, { de: 'Hitze', en: 'heat', hi: 'गर्मी' },
+                { de: 'Netz', en: 'net', hi: 'जाल' }
+            ] },
+            { de: 'ZW', en: 'Zwei (two)', hi: 'त्स्व', words: [
+                { de: 'Zwei', en: 'two', hi: 'दो' }, { de: 'Zwanzig', en: 'twenty', hi: 'बीस' }, { de: 'zwischen', en: 'between', hi: 'के बीच' },
+                { de: 'Zweig', en: 'branch', hi: 'शाखा' }, { de: 'Zweck', en: 'purpose', hi: 'उद्देश्य' }, { de: 'Zweifel', en: 'doubt', hi: 'संदेह' },
+                { de: 'zwingen', en: 'to force', hi: 'मजबूर करना' }, { de: 'Zwilling', en: 'twin', hi: 'जुड़वां' }, { de: 'Zwerg', en: 'dwarf', hi: 'बौना' },
+                { de: 'zwar', en: 'indeed', hi: 'वास्तव में' }
+            ] }
         ];
 
         var CATEGORIES = [
@@ -378,14 +533,30 @@
             if (!entry) return currentWord;
             if (entry.words && entry.words.length && inputBoxIndex != null) {
                 var i = (inputBoxIndex - 1) % entry.words.length;
-                return entry.words[i];
+                var w = entry.words[i];
+                return typeof w === 'object' && w && w.de ? w.de : w;
             }
-            if (entry.words && entry.words.length) return entry.words[0];
+            if (entry.words && entry.words.length) {
+                var w0 = entry.words[0];
+                return typeof w0 === 'object' && w0 && w0.de ? w0.de : w0;
+            }
             var en = (entry.en || '').trim();
             var paren = en.indexOf(' (');
             if (paren > 0) return en.substring(0, paren).trim();
             if (en && en.indexOf(' ') === -1) return en;
             return entry.de;
+        }
+
+        /** Get { de, en, hi } for the example word at the given input box (for display). */
+        function getWordMeaningForBox(entry, inputBoxIndex) {
+            if (!entry) return { de: '', en: '', hi: '' };
+            if (entry.words && entry.words.length && inputBoxIndex != null) {
+                var i = (inputBoxIndex - 1) % entry.words.length;
+                var w = entry.words[i];
+                if (typeof w === 'object' && w && w.de) return { de: w.de, en: w.en || '', hi: w.hi || '' };
+                return { de: w, en: '', hi: '' };
+            }
+            return { de: entry.de, en: entry.en || '', hi: entry.hi || '' };
         }
 
         function speakGerman(text) {
@@ -477,8 +648,11 @@
             var el = document.getElementById('wordForBox');
             if (!el) return;
             currentFocusedBoxIndex = boxIndex;
-            var word = getWordToSpeak(currentEntry, boxIndex);
-            el.textContent = word || '';
+            var m = getWordMeaningForBox(currentEntry, boxIndex);
+            var parts = [m.de];
+            if (m.en) parts.push(m.en);
+            if (m.hi) parts.push(m.hi);
+            el.textContent = parts.join(' — ') || '';
         }
 
         function showEntry(entry) {
