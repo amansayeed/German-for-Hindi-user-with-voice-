@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>Sentence Practice – Write & Check German</title>
+    <link rel="stylesheet" href="../../css/theme.css">
+    <style>
+        :root {
+            --bg-main: #f5f5f5;
+            --bg-card: #ffffff;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --border-color: #ddd;
+            --accent: #1565c0;
+            --ok: #2e7d32;
+            --warn: #f57c00;
+            --err: #c62828;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 20px;
+            margin-left: 280px;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: margin-left 0.3s ease;
+        }
+        .sidebar { position: fixed; left: 0; top: 0; width: 260px; height: 100vh; background: linear-gradient(180deg, #2d3748 0%, #1a202c 100%); box-shadow: 4px 0 12px rgba(0,0,0,0.3); z-index: 1000; overflow-y: auto; }
+        .sidebar-header { padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; }
+        .sidebar-nav { padding: 10px 0; }
+        .sidebar-nav-item { display: block; padding: 14px 20px; color: #e2e8f0; text-decoration: none; border-left: 4px solid transparent; font-size: 15px; }
+        .sidebar-nav-item:hover { background: rgba(102, 126, 234, 0.2); border-left-color: #667eea; color: #fff; }
+        .sidebar-nav-item.active { background: linear-gradient(90deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%); border-left-color: #667eea; font-weight: 700; }
+        .sidebar-dropdown-menu { padding-left: 0; }
+        .sidebar-toggle { display: none; position: fixed; top: 15px; left: 15px; z-index: 1001; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 12px 16px; border-radius: 8px; font-size: 20px; cursor: pointer; }
+        .sidebar-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 999; }
+        .sidebar-overlay.active { display: block; }
+        .theme-toggle-wrap { padding: 14px 20px; border-top: 1px solid rgba(255,255,255,0.15); margin-top: 8px; }
+        .theme-toggle { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 10px 14px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); border-radius: 8px; color: #e2e8f0; font-size: 14px; cursor: pointer; }
+        @media screen and (max-width: 768px) { body { margin-left: 10px; padding-top: 60px; } .sidebar { transform: translateX(-100%); } .sidebar.open { transform: translateX(0); } .sidebar-toggle { display: block; } }
+        @media print { .sidebar, .sidebar-toggle, .sidebar-overlay { display: none; } body { margin: 0; } }
+
+        h1 { color: var(--accent); margin-bottom: 8px; }
+        .subtitle { color: var(--text-secondary); margin-bottom: 24px; font-size: 16px; }
+
+        .practice-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 28px 30px;
+            margin-bottom: 24px;
+            max-width: 800px;
+        }
+        body.theme-dark .practice-card { background: var(--bg-card); }
+
+        .input-wrap { margin-bottom: 16px; }
+        .input-wrap label { display: block; font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
+        #sentenceInput {
+            width: 100%;
+            min-height: 100px;
+            padding: 14px 18px;
+            font-size: 18px;
+            line-height: 1.6;
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            font-family: inherit;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+        #sentenceInput:focus { outline: none; border-color: var(--accent); }
+        body.theme-dark #sentenceInput { background: var(--bg-card); border-color: var(--border-color); color: var(--text-primary); }
+
+        .btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+        .btn {
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .btn-check {
+            background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+            color: white;
+        }
+        .btn-clear {
+            background: #e0e0e0;
+            color: #333;
+        }
+        body.theme-dark .btn-clear { background: #424242; color: #e0e0e0; }
+
+        .result-box {
+            padding: 16px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--border-color);
+        }
+        .result-box.ok { background: #e8f5e9; border-left-color: var(--ok); }
+        .result-box.warn { background: #fff3e0; border-left-color: var(--warn); }
+        .result-box.err { background: #ffebee; border-left-color: var(--err); }
+        body.theme-dark .result-box.ok { background: rgba(46,125,50,0.2); }
+        body.theme-dark .result-box.warn { background: rgba(245,124,0,0.2); }
+        body.theme-dark .result-box.err { background: rgba(198,40,40,0.2); }
+
+        .result-box h3 { margin: 0 0 8px 0; font-size: 1.1em; }
+        .result-box ul { margin: 0; padding-left: 20px; }
+        .result-box li { margin: 4px 0; }
+
+        .hover-sentence {
+            font-size: 1.35em;
+            line-height: 1.8;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            margin-top: 16px;
+        }
+        body.theme-dark .hover-sentence { background: rgba(0,0,0,0.15); border-color: var(--border-color); }
+        .hover-sentence .word {
+            cursor: help;
+            border-bottom: 1px dotted var(--accent);
+            padding: 0 2px;
+        }
+        .hover-sentence .word:hover { background: rgba(21, 101, 192, 0.12); border-radius: 3px; }
+        .hover-sentence .word.unknown { border-bottom-color: var(--text-secondary); }
+
+        .hint-box {
+            background: #e3f2fd;
+            padding: 14px 18px;
+            border-radius: 8px;
+            border-left: 4px solid #1565c0;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+        body.theme-dark .hint-box { background: rgba(21, 101, 192, 0.15); }
+    </style>
+</head>
+<body>
+    <button class="sidebar-toggle" type="button" aria-label="Toggle menu" onclick="toggleSidebar()">☰</button>
+    <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header"><h2>🇩🇪 German Learning</h2></div>
+        <div class="sidebar-nav">
+            <a href="../../index.html" class="sidebar-nav-item"><span class="emoji">🏠</span> Home</a>
+            <details class="sidebar-dropdown" open>
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">📚</span> A1</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../a1-pdf/a1-pdf.html" class="sidebar-nav-item"><span class="emoji">📚</span> A1 Vocabulary (PDF)</a>
+                    <a href="a1-650.html" class="sidebar-nav-item"><span class="emoji">📖</span> A1 Vocabulary (650)</a>
+                    <a href="grammar.html" class="sidebar-nav-item"><span class="emoji">📝</span> A1 Grammar</a>
+                    <a href="writing.html" class="sidebar-nav-item"><span class="emoji">✍️</span> A1 Writing</a>
+                    <a href="sentence-practice.html" class="sidebar-nav-item active"><span class="emoji">📝</span> Sentence Practice</a>
+                </div>
+            </details>
+            <details class="sidebar-dropdown">
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">📘</span> A2</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../a2/a2.html" class="sidebar-nav-item"><span class="emoji">📘</span> A2 Vocabulary</a>
+                </div>
+            </details>
+            <a href="../numbers/numbers.html" class="sidebar-nav-item"><span class="emoji">🔢</span> German Numbers</a>
+            <a href="../common-words/common-words.html" class="sidebar-nav-item"><span class="emoji">🔤</span> Common Words</a>
+            <details class="sidebar-dropdown">
+                <summary class="sidebar-dropdown-toggle"><span class="emoji">🗣️</span> Clusters</summary>
+                <div class="sidebar-dropdown-menu">
+                    <a href="../clusters/clusters.html" class="sidebar-nav-item"><span class="emoji">🗣️</span> Consonant Clusters</a>
+                    <a href="../clusters/writing.html" class="sidebar-nav-item"><span class="emoji">✍️</span> Cluster Writing</a>
+                </div>
+            </details>
+            <div class="theme-toggle-wrap">
+                <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><span class="icon" id="theme-icon">🌙</span><span id="theme-label">Dark</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <h1>📝 Sentence Practice</h1>
+    <p class="subtitle">Write a German sentence, check structure, and hover over words to see English.</p>
+
+    <div class="practice-card">
+        <div class="input-wrap">
+            <label for="sentenceInput">Your German sentence:</label>
+            <textarea id="sentenceInput" placeholder="e.g. Ich lerne Deutsch. / Er ist mein Freund." aria-label="Type a German sentence"></textarea>
+        </div>
+        <div class="btn-row">
+            <button type="button" class="btn btn-check" id="checkBtn">✓ Check sentence</button>
+            <button type="button" class="btn btn-clear" id="clearBtn">Clear</button>
+        </div>
+
+        <div id="resultBox" class="result-box" style="display: none;" role="status" aria-live="polite"></div>
+        <div id="hoverSentence" class="hover-sentence" style="display: none;"></div>
+    </div>
+
+    <div class="hint-box">
+        <strong>💡 Tips:</strong> In German, the verb is usually in <strong>position 2</strong>. The first position can be the subject, time, or place. Nouns are always capitalized. End sentences with . ! or ?
+    </div>
+
+    <script src="../../js/common.js"></script>
+    <script src="writing-data.js"></script>
+    <script>
+        (function() {
+            var vocabMap = {};
+            if (typeof window.EMBEDDED_WORDS === 'object') {
+                Object.keys(window.EMBEDDED_WORDS).forEach(function(cat) {
+                    (window.EMBEDDED_WORDS[cat] || []).forEach(function(item) {
+                        var de = (item.de || '').trim();
+                        if (de) vocabMap[de.toLowerCase()] = item.en || '?';
+                    });
+                });
+            }
+
+            var COMMON_VERBS = [
+                'bin', 'bist', 'ist', 'sind', 'seid', 'habe', 'hast', 'hat', 'haben', 'habt',
+                'lerne', 'lernst', 'lernt', 'lernen', 'gehe', 'gehst', 'geht', 'gehen',
+                'mache', 'machst', 'macht', 'machen', 'komme', 'kommst', 'kommt', 'kommen',
+                'esse', 'isst', 'esst', 'essen', 'trinke', 'trinkst', 'trinkt', 'trinken',
+                'lese', 'liest', 'lest', 'lesen', 'schreibe', 'schreibst', 'schreibt', 'schreiben',
+                'spiele', 'spielst', 'spielt', 'spielen', 'wohne', 'wohnst', 'wohnt', 'wohnen',
+                'arbeite', 'arbeitest', 'arbeitet', 'arbeiten', 'heisse', 'heißt', 'heissen', 'heißen',
+                'liebe', 'liebst', 'liebt', 'lieben', 'habe', 'hat', 'kann', 'können', 'muss', 'müssen',
+                'will', 'wollen', 'möchte', 'möchten', 'weiß', 'wissen', 'kennt', 'kennen'
+            ].reduce(function(s, v) { s[v.toLowerCase()] = true; return s; }, {});
+
+            function tokenize(text) {
+                var t = text.trim();
+                if (!t) return [];
+                var tokens = [];
+                var re = /[\wäöüßÄÖÜ]+|[.,!?;:]+|\s+/g;
+                var m;
+                while ((m = re.exec(t)) !== null) tokens.push(m[0]);
+                return tokens.filter(function(x) { return x.trim().length > 0; });
+            }
+
+            function structureCheck(tokens) {
+                var messages = [];
+                var hasError = false;
+                var hasWarn = false;
+
+                if (tokens.length === 0) {
+                    return { ok: false, messages: ['Enter a sentence.'], cls: 'err' };
+                }
+
+                var first = tokens[0];
+                if (/^[a-zäöüß]/.test(first)) {
+                    messages.push('Sentence should start with a capital letter.');
+                    hasError = true;
+                }
+
+                var last = tokens[tokens.length - 1];
+                if (!/^[.!?]$/.test(last)) {
+                    messages.push('Sentence should end with . ! or ?');
+                    hasWarn = true;
+                }
+
+                var wordsOnly = tokens.filter(function(t) { return /^[\wäöüßÄÖÜ]+$/.test(t); });
+                if (wordsOnly.length >= 2) {
+                    var second = wordsOnly[1].toLowerCase();
+                    if (!COMMON_VERBS[second]) {
+                        messages.push('In German main clauses, the verb is usually in position 2. Check if the second word is a verb.');
+                        hasWarn = true;
+                    }
+                }
+
+                if (messages.length === 0) {
+                    messages.push('Structure looks good! Verb in position 2, capital letter, and punctuation.');
+                }
+
+                var cls = hasError ? 'err' : (hasWarn ? 'warn' : 'ok');
+                return { ok: !hasError, messages: messages, cls: cls };
+            }
+
+            function renderHoverSentence(tokens) {
+                var html = '';
+                tokens.forEach(function(tok) {
+                    if (/^\s+$/.test(tok)) {
+                        html += ' ';
+                        return;
+                    }
+                    if (/^[.,!?;:]+$/.test(tok)) {
+                        html += '<span class="punct">' + escapeHtml(tok) + '</span>';
+                        return;
+                    }
+                    var key = tok.toLowerCase();
+                    var en = vocabMap[key] || vocabMap[tok] || null;
+                    var title = en ? ('English: ' + en) : 'Translation not in vocabulary';
+                    var cls = 'word' + (en ? '' : ' unknown');
+                    html += '<span class="' + cls + '" title="' + escapeHtml(title) + '">' + escapeHtml(tok) + '</span>';
+                });
+                return html;
+            }
+
+            function escapeHtml(s) {
+                var div = document.createElement('div');
+                div.textContent = s;
+                return div.innerHTML;
+            }
+
+            var sentenceInput = document.getElementById('sentenceInput');
+            var checkBtn = document.getElementById('checkBtn');
+            var clearBtn = document.getElementById('clearBtn');
+            var resultBox = document.getElementById('resultBox');
+            var hoverSentence = document.getElementById('hoverSentence');
+
+            checkBtn.addEventListener('click', function() {
+                var text = sentenceInput.value.trim();
+                var tokens = tokenize(text);
+                resultBox.style.display = 'block';
+                hoverSentence.style.display = 'block';
+
+                var check = structureCheck(tokens);
+                resultBox.className = 'result-box ' + check.cls;
+                resultBox.innerHTML = '<h3>' + (check.ok ? '✓ Structure' : 'Structure check') + '</h3><ul>' +
+                    check.messages.map(function(m) { return '<li>' + escapeHtml(m) + '</li>'; }).join('') + '</ul>';
+
+                hoverSentence.innerHTML = '<strong>Hover for English:</strong><br>' + renderHoverSentence(tokens);
+            });
+
+            clearBtn.addEventListener('click', function() {
+                sentenceInput.value = '';
+                resultBox.style.display = 'none';
+                hoverSentence.style.display = 'none';
+                sentenceInput.focus();
+            });
+        })();
+    </script>
+    <script src="../../js/theme.js"></script>
+</body>
+</html>
