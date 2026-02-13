@@ -1,0 +1,11182 @@
+{
+  "auf": {
+    "en": "on",
+    "hi": "पर"
+  },
+  "auch": {
+    "en": "also",
+    "hi": "भी"
+  },
+  "an": {
+    "en": "to",
+    "hi": "को"
+  },
+  "als": {
+    "en": "as",
+    "hi": "जैसा"
+  },
+  "aber": {
+    "en": "but",
+    "hi": "लेकिन"
+  },
+  "all-": {
+    "en": "all-",
+    "hi": "सभी-"
+  },
+  "aus": {
+    "en": "out of",
+    "hi": "से बाहर"
+  },
+  "also": {
+    "en": "so",
+    "hi": "इसलिए"
+  },
+  "alt": {
+    "en": "old",
+    "hi": "पुराना"
+  },
+  "allerdings": {
+    "en": "however",
+    "hi": "तथापि"
+  },
+  "arbeiten": {
+    "en": "work",
+    "hi": "काम"
+  },
+  "allein": {
+    "en": "alone",
+    "hi": "अकेला"
+  },
+  "aussehen": {
+    "en": "look",
+    "hi": "देखना"
+  },
+  "anders": {
+    "en": "different",
+    "hi": "अलग"
+  },
+  "allgemein": {
+    "en": "generally",
+    "hi": "आम तौर पर"
+  },
+  "außerdem": {
+    "en": "aside from that",
+    "hi": "उससे अलग"
+  },
+  "ausgehen": {
+    "en": "go out",
+    "hi": "बाहर जाओ"
+  },
+  "anfangen": {
+    "en": "begin",
+    "hi": "शुरू"
+  },
+  "ansehen": {
+    "en": "view",
+    "hi": "देखना"
+  },
+  "annehmen": {
+    "en": "assume",
+    "hi": "मान लीजिए"
+  },
+  "aufnehmen": {
+    "en": "to record",
+    "hi": "रिकॉर्ड करने के लिए"
+  },
+  "aktuell": {
+    "en": "current",
+    "hi": "मौजूदा"
+  },
+  "anbieten": {
+    "en": "offer",
+    "hi": "प्रस्ताव"
+  },
+  "ankommen": {
+    "en": "arrive",
+    "hi": "आना"
+  },
+  "auftreten": {
+    "en": "appear",
+    "hi": "के जैसा लगना"
+  },
+  "angeben": {
+    "en": "indicate",
+    "hi": "संकेत देना"
+  },
+  "außer": {
+    "en": "except",
+    "hi": "के अलावा"
+  },
+  "aktiv": {
+    "en": "active",
+    "hi": "सक्रिय"
+  },
+  "absolut": {
+    "en": "absolutely",
+    "hi": "बिल्कुल"
+  },
+  "antworten": {
+    "en": "answer",
+    "hi": "उत्तर"
+  },
+  "aufstehen": {
+    "en": "stand up",
+    "hi": "खड़े हो जाओ"
+  },
+  "aufhören": {
+    "en": "stop",
+    "hi": "रुकना"
+  },
+  "andererseits": {
+    "en": "on the other hand",
+    "hi": "वहीं दूसरी ओर"
+  },
+  "ausreichen": {
+    "en": "sufficient",
+    "hi": "पर्याप्त"
+  },
+  "anrufen": {
+    "en": "call",
+    "hi": "पुकारना"
+  },
+  "auffallen": {
+    "en": "stand out",
+    "hi": "अलग दिखना"
+  },
+  "abgeben": {
+    "en": "hand over",
+    "hi": "सौंप दो"
+  },
+  "ansprechen": {
+    "en": "address",
+    "hi": "पता"
+  },
+  "ablehnen": {
+    "en": "refuse",
+    "hi": "अस्वीकार करना"
+  },
+  "abhängen": {
+    "en": "depend",
+    "hi": "निर्भर करना"
+  },
+  "ausmachen": {
+    "en": "turn off",
+    "hi": "बंद करें"
+  },
+  "abnehmen": {
+    "en": "lose weight",
+    "hi": "वजन कम करो"
+  },
+  "außen": {
+    "en": "outside",
+    "hi": "बाहर"
+  },
+  "ankündigen": {
+    "en": "announce",
+    "hi": "की घोषणा"
+  },
+  "ausschließen": {
+    "en": "exclude",
+    "hi": "बहिष्कृत करें"
+  },
+  "außerhalb": {
+    "en": "outside",
+    "hi": "बाहर"
+  },
+  "aufgeben": {
+    "en": "give up",
+    "hi": "छोड़ देना"
+  },
+  "abhängig": {
+    "en": "dependent",
+    "hi": "आश्रित"
+  },
+  "ausschließlich": {
+    "en": "exclusively",
+    "hi": "केवल"
+  },
+  "ausländisch": {
+    "en": "foreign",
+    "hi": "विदेश"
+  },
+  "anhaben": {
+    "en": "have on",
+    "hi": "पर है"
+  },
+  "ausfallen": {
+    "en": "stand out",
+    "hi": "अलग दिखना"
+  },
+  "anwenden": {
+    "en": "apply",
+    "hi": "आवेदन करना"
+  },
+  "achten": {
+    "en": "regard",
+    "hi": "संबद्ध"
+  },
+  "ab": {
+    "en": "away",
+    "hi": "दूर"
+  },
+  "ausgeben": {
+    "en": "spend",
+    "hi": "खर्च करना"
+  },
+  "akzeptieren": {
+    "en": "accept",
+    "hi": "स्वीकार करना"
+  },
+  "aufführen": {
+    "en": "perform",
+    "hi": "अभिनय करना"
+  },
+  "aussprechen": {
+    "en": "express",
+    "hi": "अभिव्यक्त करना"
+  },
+  "auswählen": {
+    "en": "choose",
+    "hi": "चुनना"
+  },
+  "automatisch": {
+    "en": "automatically",
+    "hi": "खुद ब खुद"
+  },
+  "auflösen": {
+    "en": "dissolve",
+    "hi": "भंग करना"
+  },
+  "aufregen": {
+    "en": "excite",
+    "hi": "उत्तेजित"
+  },
+  "aufpassen": {
+    "en": "watch out",
+    "hi": "ध्यान रहें"
+  },
+  "anmelden": {
+    "en": "register",
+    "hi": "पंजीकरण करवाना"
+  },
+  "aufheben": {
+    "en": "lift",
+    "hi": "उठाना"
+  },
+  "aufhalten": {
+    "en": "stop",
+    "hi": "रुकना"
+  },
+  "ausrichten": {
+    "en": "align",
+    "hi": "संरेखित"
+  },
+  "angenehm": {
+    "en": "pleasant",
+    "hi": "सुखद"
+  },
+  "aufmerksam": {
+    "en": "attentive",
+    "hi": "सचेत"
+  },
+  "atmen": {
+    "en": "breathe",
+    "hi": "साँस लेना"
+  },
+  "analysieren": {
+    "en": "analyze",
+    "hi": "विश्लेषण करें"
+  },
+  "abholen": {
+    "en": "pick up",
+    "hi": "उठाना"
+  },
+  "anzeigen": {
+    "en": "show",
+    "hi": "दिखाओ"
+  },
+  "ausziehen": {
+    "en": "get undressed",
+    "hi": "नंगा होना"
+  },
+  "anerkennen": {
+    "en": "recognize",
+    "hi": "पहचानना"
+  },
+  "anschließen": {
+    "en": "connect",
+    "hi": "जोड़ना"
+  },
+  "anstellen": {
+    "en": "hire",
+    "hi": "किराये पर लेना"
+  },
+  "alternativ": {
+    "en": "alternatively",
+    "hi": "वैकल्पिक"
+  },
+  "arbeitslos": {
+    "en": "unemployed",
+    "hi": "बेरोजगार"
+  },
+  "abstimmen": {
+    "en": "vote",
+    "hi": "वोट"
+  },
+  "aufwachen": {
+    "en": "wake up",
+    "hi": "जागो"
+  },
+  "anfangs": {
+    "en": "initially",
+    "hi": "शुरू में"
+  },
+  "auffordern": {
+    "en": "request",
+    "hi": "अनुरोध"
+  },
+  "anwesend": {
+    "en": "present",
+    "hi": "उपस्थित"
+  },
+  "absagen": {
+    "en": "cancel",
+    "hi": "रद्द करना"
+  },
+  "anstrengend": {
+    "en": "stressful",
+    "hi": "तनावपूर्ण"
+  },
+  "aufschreiben": {
+    "en": "write down",
+    "hi": "लिखो"
+  },
+  "ausstellen": {
+    "en": "exhibit",
+    "hi": "दिखाना"
+  },
+  "abheben": {
+    "en": "lift up",
+    "hi": "उठाना"
+  },
+  "alltäglich": {
+    "en": "everyday",
+    "hi": "रोज रोज"
+  },
+  "ausfüllen": {
+    "en": "fill out",
+    "hi": "भरना"
+  },
+  "ausgezeichnet": {
+    "en": "excellent",
+    "hi": "उत्कृष्ट"
+  },
+  "abgase (pl.)": {
+    "en": "exhaust gases (pl.)",
+    "hi": "निकास गैसें (पी.एल.)"
+  },
+  "ausgebildet": {
+    "en": "trained",
+    "hi": "प्रशिक्षित"
+  },
+  "aufladen": {
+    "en": "charge",
+    "hi": "शुल्क"
+  },
+  "abfahren": {
+    "en": "depart",
+    "hi": "प्रस्थान"
+  },
+  "aufwärts": {
+    "en": "upwards",
+    "hi": "ऊपर की ओर"
+  },
+  "aufräumen": {
+    "en": "clean up",
+    "hi": "साफ - सफाई"
+  },
+  "abwaschen": {
+    "en": "wash off",
+    "hi": "धोकर साफ़ करना"
+  },
+  "ausdrucken": {
+    "en": "print",
+    "hi": "छपाई"
+  },
+  "abbiegen": {
+    "en": "turn",
+    "hi": "मोड़"
+  },
+  "achtung!": {
+    "en": "Danger!",
+    "hi": "खतरा!"
+  },
+  "abmachen": {
+    "en": "settle",
+    "hi": "निपटारा करना"
+  },
+  "als ob": {
+    "en": "as if",
+    "hi": "मानो"
+  },
+  "abwesend": {
+    "en": "absent",
+    "hi": "अनुपस्थित"
+  },
+  "anklicken": {
+    "en": "click",
+    "hi": "क्लिक"
+  },
+  "ausreichend": {
+    "en": "sufficient",
+    "hi": "पर्याप्त"
+  },
+  "abschreiben": {
+    "en": "write off",
+    "hi": "ख़ारिज करना"
+  },
+  "abonnieren": {
+    "en": "subscribe",
+    "hi": "सदस्यता लें"
+  },
+  "abwärts": {
+    "en": "down",
+    "hi": "नीचे"
+  },
+  "auseinander": {
+    "en": "apart",
+    "hi": "अलग"
+  },
+  "ander-": {
+    "en": "at the-",
+    "hi": "पर-"
+  },
+  "aller-": {
+    "en": "all-",
+    "hi": "सभी-"
+  },
+  "anschnallen": {
+    "en": "buckle up",
+    "hi": "सीट बेल्ट लगा लो"
+  },
+  "anschaffen": {
+    "en": "acquire",
+    "hi": "अधिग्रहण करना"
+  },
+  "bei": {
+    "en": "at",
+    "hi": "पर"
+  },
+  "bis": {
+    "en": "until",
+    "hi": "जब तक"
+  },
+  "bleiben": {
+    "en": "remain",
+    "hi": "अवशेष"
+  },
+  "bringen": {
+    "en": "bring",
+    "hi": "लाना"
+  },
+  "bereits": {
+    "en": "already",
+    "hi": "पहले से"
+  },
+  "brauchen": {
+    "en": "need",
+    "hi": "ज़रूरत"
+  },
+  "bekommen": {
+    "en": "receive",
+    "hi": "प्राप्त करें"
+  },
+  "bestehen": {
+    "en": "consist",
+    "hi": "निहित होना"
+  },
+  "beginnen": {
+    "en": "start",
+    "hi": "शुरू"
+  },
+  "besonders": {
+    "en": "particularly",
+    "hi": "विशेष रूप से"
+  },
+  "bestimmt": {
+    "en": "certainly",
+    "hi": "निश्चित रूप से"
+  },
+  "bekannt": {
+    "en": "known",
+    "hi": "ज्ञात"
+  },
+  "bedeuten": {
+    "en": "mean",
+    "hi": "अर्थ"
+  },
+  "beschreiben": {
+    "en": "describe",
+    "hi": "वर्णन करना"
+  },
+  "bisher": {
+    "en": "until now",
+    "hi": "अब तक"
+  },
+  "bitte": {
+    "en": "please",
+    "hi": "कृपया"
+  },
+  "bitten": {
+    "en": "ask",
+    "hi": "पूछना"
+  },
+  "bald": {
+    "en": "soon",
+    "hi": "जल्द ही"
+  },
+  "bieten": {
+    "en": "offer",
+    "hi": "प्रस्ताव"
+  },
+  "bevor": {
+    "en": "before",
+    "hi": "पहले"
+  },
+  "bewegen": {
+    "en": "move",
+    "hi": "कदम"
+  },
+  "besitzen": {
+    "en": "own",
+    "hi": "अपना"
+  },
+  "berichten": {
+    "en": "report",
+    "hi": "प्रतिवेदन"
+  },
+  "bauen": {
+    "en": "build",
+    "hi": "निर्माण"
+  },
+  "beobachten": {
+    "en": "observe",
+    "hi": "निरीक्षण"
+  },
+  "beschäftigen": {
+    "en": "occupy",
+    "hi": "पर कब्जा"
+  },
+  "bloß": {
+    "en": "just",
+    "hi": "अभी"
+  },
+  "bezahlen": {
+    "en": "pay",
+    "hi": "वेतन"
+  },
+  "besuchen": {
+    "en": "visit",
+    "hi": "मिलने जाना"
+  },
+  "breit": {
+    "en": "broad",
+    "hi": "चौड़ा"
+  },
+  "berechnen": {
+    "en": "calculate",
+    "hi": "calculate"
+  },
+  "bestätigen": {
+    "en": "confirm",
+    "hi": "पुष्टि करना"
+  },
+  "benötigen": {
+    "en": "need",
+    "hi": "ज़रूरत"
+  },
+  "blau": {
+    "en": "blue",
+    "hi": "नीला"
+  },
+  "behandeln": {
+    "en": "treat",
+    "hi": "इलाज"
+  },
+  "beschließen": {
+    "en": "decide",
+    "hi": "तय करना"
+  },
+  "behaupten": {
+    "en": "claim",
+    "hi": "दावा"
+  },
+  "benutzen": {
+    "en": "use",
+    "hi": "उपयोग"
+  },
+  "brechen": {
+    "en": "break",
+    "hi": "तोड़ना"
+  },
+  "böse": {
+    "en": "evil",
+    "hi": "बुराई"
+  },
+  "bereit": {
+    "en": "ready",
+    "hi": "तैयार"
+  },
+  "bemerken": {
+    "en": "notice",
+    "hi": "सूचना"
+  },
+  "beeinflussen": {
+    "en": "influence",
+    "hi": "प्रभाव"
+  },
+  "begleiten": {
+    "en": "accompany",
+    "hi": "साथ"
+  },
+  "begründen": {
+    "en": "justify",
+    "hi": "औचित्य"
+  },
+  "berühmt": {
+    "en": "famous",
+    "hi": "प्रसिद्ध"
+  },
+  "beenden": {
+    "en": "finish",
+    "hi": "खत्म करना"
+  },
+  "besetzen": {
+    "en": "occupy",
+    "hi": "पर कब्जा"
+  },
+  "begegnen": {
+    "en": "encounter",
+    "hi": "सामना करना"
+  },
+  "beachten": {
+    "en": "observe",
+    "hi": "निरीक्षण"
+  },
+  "behalten": {
+    "en": "keep",
+    "hi": "रखना"
+  },
+  "beweisen": {
+    "en": "prove",
+    "hi": "सिद्ध करना"
+  },
+  "brennen": {
+    "en": "burn",
+    "hi": "जलाना"
+  },
+  "bestellen": {
+    "en": "order",
+    "hi": "आदेश"
+  },
+  "begrüßen": {
+    "en": "greet",
+    "hi": "अभिवादन करना"
+  },
+  "beschränken": {
+    "en": "restrict",
+    "hi": "प्रतिबंध लगाना"
+  },
+  "beinahe": {
+    "en": "almost",
+    "hi": "लगभग"
+  },
+  "billig": {
+    "en": "cheap",
+    "hi": "सस्ता"
+  },
+  "bunt": {
+    "en": "colorful",
+    "hi": "रंगीन"
+  },
+  "beantworten": {
+    "en": "answer",
+    "hi": "उत्तर"
+  },
+  "beliebt": {
+    "en": "popular",
+    "hi": "लोकप्रिय"
+  },
+  "beruhigen": {
+    "en": "calm",
+    "hi": "शांत"
+  },
+  "beruflich": {
+    "en": "professionally",
+    "hi": "पेशेवर"
+  },
+  "bedienen": {
+    "en": "serve",
+    "hi": "सेवा करना"
+  },
+  "besprechen": {
+    "en": "discuss",
+    "hi": "चर्चा करना"
+  },
+  "braun": {
+    "en": "brown",
+    "hi": "भूरा"
+  },
+  "blind": {
+    "en": "blind",
+    "hi": "अंधा"
+  },
+  "beraten": {
+    "en": "advise",
+    "hi": "सलाह देना"
+  },
+  "bitter": {
+    "en": "bitter",
+    "hi": "कड़वा"
+  },
+  "betreuen": {
+    "en": "look after",
+    "hi": "पर ध्यान रखना"
+  },
+  "beißen": {
+    "en": "bite",
+    "hi": "काटना"
+  },
+  "buchen": {
+    "en": "book",
+    "hi": "किताब"
+  },
+  "bequem": {
+    "en": "comfortable",
+    "hi": "आरामदायक"
+  },
+  "blond": {
+    "en": "blond",
+    "hi": "गोरा"
+  },
+  "blühen": {
+    "en": "bloom",
+    "hi": "खिलना"
+  },
+  "bremsen": {
+    "en": "brake",
+    "hi": "ब्रेक"
+  },
+  "beantragen": {
+    "en": "apply for",
+    "hi": "के लिए आवेदन देना"
+  },
+  "bestrafen": {
+    "en": "punish",
+    "hi": "सज़ा देना"
+  },
+  "blass": {
+    "en": "pale",
+    "hi": "फीका"
+  },
+  "besorgen": {
+    "en": "obtain",
+    "hi": "प्राप्त"
+  },
+  "beleidigen": {
+    "en": "insult",
+    "hi": "अपमान करना"
+  },
+  "beschädigen": {
+    "en": "damage",
+    "hi": "हानि"
+  },
+  "backen": {
+    "en": "bake",
+    "hi": "सेंकना"
+  },
+  "behindern": {
+    "en": "hinder",
+    "hi": "बाधा पहुंचाना"
+  },
+  "begrenzt": {
+    "en": "limited",
+    "hi": "सीमित"
+  },
+  "buchstabieren": {
+    "en": "spell",
+    "hi": "बोलना"
+  },
+  "bio(logisch)": {
+    "en": "organic(logical)",
+    "hi": "जैविक(तार्किक)"
+  },
+  "bluten": {
+    "en": "bleed",
+    "hi": "ब्लीड"
+  },
+  "besichtigen": {
+    "en": "view",
+    "hi": "देखना"
+  },
+  "besonder-": {
+    "en": "special-",
+    "hi": "विशेष-"
+  },
+  "bio-": {
+    "en": "organic",
+    "hi": "जैविक"
+  },
+  "blitzen": {
+    "en": "flash",
+    "hi": "चमक"
+  },
+  "bescheid sagen": {
+    "en": "let me know",
+    "hi": "मुझे बताओ"
+  },
+  "betrunken": {
+    "en": "drunk",
+    "hi": "पिया हुआ"
+  },
+  "baden": {
+    "en": "bathe",
+    "hi": "स्नान"
+  },
+  "beid-": {
+    "en": "both-",
+    "hi": "दोनों-"
+  },
+  "bescheid geben": {
+    "en": "Let me know",
+    "hi": "मुझे बताओ"
+  },
+  "bekannt geben": {
+    "en": "announce",
+    "hi": "की घोषणा"
+  },
+  "betrügen": {
+    "en": "deceive",
+    "hi": "धोखा देना"
+  },
+  "basteln": {
+    "en": "craft",
+    "hi": "शिल्प"
+  },
+  "berufstätig": {
+    "en": "employed",
+    "hi": "नियोजित"
+  },
+  "befreit": {
+    "en": "freed",
+    "hi": "मुक्त किया गया"
+  },
+  "befriedigend": {
+    "en": "satisfactory",
+    "hi": "संतोषजनक"
+  },
+  "begeistert": {
+    "en": "enthusiastic",
+    "hi": "उत्साही"
+  },
+  "bewölkt": {
+    "en": "cloudy",
+    "hi": "बादलों से घिरा"
+  },
+  "chic/schick": {
+    "en": "chic/chic",
+    "hi": "ठाठ/ठाठ"
+  },
+  "dass": {
+    "en": "that",
+    "hi": "वह"
+  },
+  "dies-": {
+    "en": "this-",
+    "hi": "यह-"
+  },
+  "dann": {
+    "en": "then",
+    "hi": "तब"
+  },
+  "da": {
+    "en": "there",
+    "hi": "वहाँ"
+  },
+  "durch": {
+    "en": "through",
+    "hi": "के माध्यम से"
+  },
+  "doch": {
+    "en": "but",
+    "hi": "लेकिन"
+  },
+  "mal": {
+    "en": "the time",
+    "hi": "समय"
+  },
+  "mensch": {
+    "en": "the human being",
+    "hi": "इंसान"
+  },
+  "denn": {
+    "en": "because",
+    "hi": "क्योंकि"
+  },
+  "beispiel": {
+    "en": "the example",
+    "hi": "उदाहरण"
+  },
+  "zeit": {
+    "en": "the time",
+    "hi": "समय"
+  },
+  "frau": {
+    "en": "the woman",
+    "hi": "औरत"
+  },
+  "mann": {
+    "en": "the man",
+    "hi": "मनुष्य"
+  },
+  "denken": {
+    "en": "think",
+    "hi": "सोचना"
+  },
+  "dabei": {
+    "en": "included",
+    "hi": "शामिल"
+  },
+  "kind": {
+    "en": "the child",
+    "hi": "बच्चा"
+  },
+  "land": {
+    "en": "the country",
+    "hi": "देश"
+  },
+  "dort": {
+    "en": "there",
+    "hi": "वहाँ"
+  },
+  "dürfen": {
+    "en": "may",
+    "hi": "मई"
+  },
+  "haus": {
+    "en": "the house",
+    "hi": "घर"
+  },
+  "herr": {
+    "en": "the Lord",
+    "hi": "भगवान"
+  },
+  "frage": {
+    "en": "the question",
+    "hi": "सवाल"
+  },
+  "welt": {
+    "en": "the world",
+    "hi": "दुनिया"
+  },
+  "dafür": {
+    "en": "for that",
+    "hi": "उसके लिए"
+  },
+  "hand": {
+    "en": "the hand",
+    "hi": "हाथ"
+  },
+  "ende": {
+    "en": "the end",
+    "hi": "अंत"
+  },
+  "fall": {
+    "en": "the case",
+    "hi": "मामला"
+  },
+  "wort": {
+    "en": "the word",
+    "hi": "शब्द"
+  },
+  "seite": {
+    "en": "the page",
+    "hi": "पृष्ठ"
+  },
+  "teil": {
+    "en": "the part",
+    "hi": "हिस्सा"
+  },
+  "stadt": {
+    "en": "the city",
+    "hi": "शहर"
+  },
+  "arbeit": {
+    "en": "the work",
+    "hi": "काम"
+  },
+  "problem": {
+    "en": "the problem",
+    "hi": "समस्या"
+  },
+  "mutter": {
+    "en": "the mother",
+    "hi": "मां"
+  },
+  "weg": {
+    "en": "the way",
+    "hi": "रास्ता"
+  },
+  "auge": {
+    "en": "the eye",
+    "hi": "आंख"
+  },
+  "leute (pl.)": {
+    "en": "the people (pl.)",
+    "hi": "लोग (पी.एल.)"
+  },
+  "deshalb": {
+    "en": "for this reason",
+    "hi": "इस कारण से"
+  },
+  "vater": {
+    "en": "the father",
+    "hi": "पिता"
+  },
+  "geld": {
+    "en": "the money",
+    "hi": "धन"
+  },
+  "doktor": {
+    "en": "the doctor",
+    "hi": "डॉक्टर"
+  },
+  "paar": {
+    "en": "the couple",
+    "hi": "युगल"
+  },
+  "recht": {
+    "en": "the right",
+    "hi": "सही"
+  },
+  "wasser": {
+    "en": "the water",
+    "hi": "जल"
+  },
+  "punkt": {
+    "en": "the point",
+    "hi": "मुद्दा"
+  },
+  "grund": {
+    "en": "the reason",
+    "hi": "द रीज़न"
+  },
+  "kopf": {
+    "en": "the head",
+    "hi": "प्रधान"
+  },
+  "bild": {
+    "en": "the picture",
+    "hi": "चित्र"
+  },
+  "name": {
+    "en": "the name",
+    "hi": "नाम"
+  },
+  "aufgabe": {
+    "en": "the task",
+    "hi": "कार्य"
+  },
+  "art": {
+    "en": "the type",
+    "hi": "प्ररूप"
+  },
+  "geschichte": {
+    "en": "the story",
+    "hi": "कहानी"
+  },
+  "abbildung": {
+    "en": "the illustration",
+    "hi": "चित्रण"
+  },
+  "freund": {
+    "en": "the friend",
+    "hi": "मित्र"
+  },
+  "stunde": {
+    "en": "the hour",
+    "hi": "घंटा"
+  },
+  "professor": {
+    "en": "the professor",
+    "hi": "प्रोफेसर"
+  },
+  "damals": {
+    "en": "at that time",
+    "hi": "उस समय"
+  },
+  "wert": {
+    "en": "the value",
+    "hi": "मूल्य"
+  },
+  "zahl": {
+    "en": "the number",
+    "hi": "जो नंबर"
+  },
+  "thema": {
+    "en": "the topic",
+    "hi": "विषय"
+  },
+  "buch": {
+    "en": "the book",
+    "hi": "पुस्तक"
+  },
+  "deutlich": {
+    "en": "clearly",
+    "hi": "स्पष्ट रूप से"
+  },
+  "blick": {
+    "en": "the view",
+    "hi": "दृश्य"
+  },
+  "form": {
+    "en": "the shape",
+    "hi": "आकार"
+  },
+  "lösung": {
+    "en": "the solution",
+    "hi": "समाधान"
+  },
+  "sache": {
+    "en": "the thing",
+    "hi": "बात"
+  },
+  "ziel": {
+    "en": "the goal",
+    "hi": "लक्ष्य"
+  },
+  "platz": {
+    "en": "the space",
+    "hi": "अंतरिक्ष"
+  },
+  "spiel": {
+    "en": "the game",
+    "hi": "खेल"
+  },
+  "familie": {
+    "en": "the family",
+    "hi": "परिवार"
+  },
+  "preis": {
+    "en": "the price",
+    "hi": "क़ीमत"
+  },
+  "staat": {
+    "en": "the State",
+    "hi": "राज्य"
+  },
+  "bereich": {
+    "en": "the area",
+    "hi": "क्षेत्र"
+  },
+  "ort": {
+    "en": "the place",
+    "hi": "स्थान"
+  },
+  "stelle": {
+    "en": "the spot",
+    "hi": "स्थान"
+  },
+  "gesicht": {
+    "en": "the face",
+    "hi": "चेहरा"
+  },
+  "entwicklung": {
+    "en": "the development",
+    "hi": "विकास"
+  },
+  "uhr": {
+    "en": "the clock",
+    "hi": "घड़ी"
+  },
+  "direkt": {
+    "en": "direct",
+    "hi": "प्रत्यक्ष"
+  },
+  "daher": {
+    "en": "therefore",
+    "hi": "इसलिए"
+  },
+  "person": {
+    "en": "the person",
+    "hi": "व्यक्ति"
+  },
+  "moment": {
+    "en": "the moment",
+    "hi": "क्षण"
+  },
+  "schule": {
+    "en": "the school",
+    "hi": "स्कूल"
+  },
+  "auto": {
+    "en": "the car",
+    "hi": "कार"
+  },
+  "gesellschaft": {
+    "en": "the society",
+    "hi": "समाज"
+  },
+  "gruppe": {
+    "en": "the group",
+    "hi": "समूह"
+  },
+  "ding": {
+    "en": "the thing",
+    "hi": "बात"
+  },
+  "damit": {
+    "en": "with it",
+    "hi": "इसके साथ"
+  },
+  "tür": {
+    "en": "the door",
+    "hi": "दरवाजा"
+  },
+  "schritt": {
+    "en": "the step",
+    "hi": "कदम"
+  },
+  "möglichkeit": {
+    "en": "the possibility",
+    "hi": "संभावना"
+  },
+  "sinn": {
+    "en": "the meaning",
+    "hi": "अर्थ"
+  },
+  "vergleich": {
+    "en": "the comparison",
+    "hi": "तुलना"
+  },
+  "system": {
+    "en": "the system",
+    "hi": "प्रणाली"
+  },
+  "rolle": {
+    "en": "the role",
+    "hi": "भूमिका"
+  },
+  "ergebnis": {
+    "en": "the result",
+    "hi": "नतीजा"
+  },
+  "straße": {
+    "en": "the street",
+    "hi": "सड़क"
+  },
+  "angst": {
+    "en": "the fear",
+    "hi": "डर"
+  },
+  "stimme": {
+    "en": "the voice",
+    "hi": "आवाज़"
+  },
+  "reaktion": {
+    "en": "the reaction",
+    "hi": "प्रतिक्रिया"
+  },
+  "darstellen": {
+    "en": "represent",
+    "hi": "प्रतिनिधित्व करना"
+  },
+  "raum": {
+    "en": "the space",
+    "hi": "अंतरिक्ष"
+  },
+  "eltern (pl.)": {
+    "en": "the parents (pl.)",
+    "hi": "माता-पिता (पीएल)"
+  },
+  "universität": {
+    "en": "the university",
+    "hi": "विश्वविद्यालय"
+  },
+  "richtung": {
+    "en": "the direction",
+    "hi": "दिशा"
+  },
+  "sprache": {
+    "en": "the language",
+    "hi": "भाषा"
+  },
+  "produkt": {
+    "en": "the product",
+    "hi": "उत्पाद"
+  },
+  "situation": {
+    "en": "the situation",
+    "hi": "स्थिति"
+  },
+  "anfang": {
+    "en": "the beginning",
+    "hi": "शुरुआत"
+  },
+  "folge": {
+    "en": "the consequence",
+    "hi": "परिणाम"
+  },
+  "satz": {
+    "en": "the sentence",
+    "hi": "वाक्य"
+  },
+  "verbindung": {
+    "en": "the connection",
+    "hi": "कनेक्शन"
+  },
+  "licht": {
+    "en": "the light",
+    "hi": "प्रकाश"
+  },
+  "regel": {
+    "en": "the rule",
+    "hi": "नियम"
+  },
+  "kollege": {
+    "en": "the colleague",
+    "hi": "सहकर्मी"
+  },
+  "grenze": {
+    "en": "the border",
+    "hi": "सीमा"
+  },
+  "entscheidung": {
+    "en": "the decision",
+    "hi": "निर्णय"
+  },
+  "idee": {
+    "en": "the idea",
+    "hi": "विचार"
+  },
+  "energie": {
+    "en": "the energy",
+    "hi": "ऊर्जा"
+  },
+  "danach": {
+    "en": "thereafter",
+    "hi": "फिर"
+  },
+  "kraft": {
+    "en": "the power",
+    "hi": "शक्ति"
+  },
+  "gefühl": {
+    "en": "the feeling",
+    "hi": "अनुभूति"
+  },
+  "information": {
+    "en": "the information",
+    "hi": "जानकारी"
+  },
+  "dagegen": {
+    "en": "against it",
+    "hi": "उसके खिलाफ"
+  },
+  "zukunft": {
+    "en": "the future",
+    "hi": "भविष्य"
+  },
+  "text": {
+    "en": "the text",
+    "hi": "टेक्स्ट"
+  },
+  "markt": {
+    "en": "the market",
+    "hi": "बाजार"
+  },
+  "hilfe": {
+    "en": "the help",
+    "hi": "नौकर"
+  },
+  "kapitel": {
+    "en": "the chapter",
+    "hi": "अध्याय"
+  },
+  "bedeutung": {
+    "en": "the meaning",
+    "hi": "अर्थ"
+  },
+  "chemie": {
+    "en": "the chemistry",
+    "hi": "रसायनशास्त्र"
+  },
+  "luft": {
+    "en": "the air",
+    "hi": "हवा"
+  },
+  "körper": {
+    "en": "the body",
+    "hi": "शरीर"
+  },
+  "wohnung": {
+    "en": "the apartment",
+    "hi": "वह कमरा"
+  },
+  "film": {
+    "en": "the film",
+    "hi": "द फ़िल्म"
+  },
+  "musik": {
+    "en": "the music",
+    "hi": "संगीत"
+  },
+  "stück/-stück": {
+    "en": "the piece/piece",
+    "hi": "टुकड़ा/टुकड़ा"
+  },
+  "gott": {
+    "en": "the god",
+    "hi": "देवता"
+  },
+  "gespräch": {
+    "en": "the conversation",
+    "hi": "बातचीत"
+  },
+  "kunde": {
+    "en": "the customer",
+    "hi": "ग्राहक"
+  },
+  "menge": {
+    "en": "the amount",
+    "hi": "राशि"
+  },
+  "antwort": {
+    "en": "the answer",
+    "hi": "उत्तर"
+  },
+  "zusammenhang": {
+    "en": "the connection",
+    "hi": "कनेक्शन"
+  },
+  "arm": {
+    "en": "the arm",
+    "hi": "द आर्म"
+  },
+  "tisch": {
+    "en": "the table",
+    "hi": "टेबल"
+  },
+  "herz": {
+    "en": "the heart",
+    "hi": "दिल"
+  },
+  "boden": {
+    "en": "the floor",
+    "hi": "मंज़िल"
+  },
+  "politik": {
+    "en": "the politics",
+    "hi": "राजनीति"
+  },
+  "tod": {
+    "en": "the death",
+    "hi": "मृत्यु"
+  },
+  "erfolg": {
+    "en": "the success",
+    "hi": "सफलता"
+  },
+  "bank": {
+    "en": "the Bank",
+    "hi": "बैंक"
+  },
+  "junge": {
+    "en": "the young",
+    "hi": "युवा"
+  },
+  "polizei": {
+    "en": "the police",
+    "hi": "पुलिस"
+  },
+  "chance": {
+    "en": "the chance",
+    "hi": "संयोग"
+  },
+  "kunst": {
+    "en": "art",
+    "hi": "कला"
+  },
+  "lage": {
+    "en": "the location",
+    "hi": "स्थान"
+  },
+  "schüler": {
+    "en": "the student",
+    "hi": "छात्र"
+  },
+  "druck": {
+    "en": "the pressure",
+    "hi": "दबाव"
+  },
+  "kosten (pl.)": {
+    "en": "the costs (pl.)",
+    "hi": "लागत (पीएल)"
+  },
+  "fuß": {
+    "en": "the foot",
+    "hi": "पांव"
+  },
+  "krieg": {
+    "en": "the war",
+    "hi": "युद्ध"
+  },
+  "gast": {
+    "en": "the guest",
+    "hi": "अतिथि"
+  },
+  "gesetz": {
+    "en": "the law",
+    "hi": "कानून"
+  },
+  "gedanke": {
+    "en": "the thought",
+    "hi": "सोचा था कि"
+  },
+  "kultur": {
+    "en": "the culture",
+    "hi": "संस्कृति"
+  },
+  "prozess": {
+    "en": "the process",
+    "hi": "प्रक्रिया"
+  },
+  "sohn": {
+    "en": "the son",
+    "hi": "बेटा"
+  },
+  "dank": {
+    "en": "the thanks",
+    "hi": "धन्यवाद"
+  },
+  "mädchen": {
+    "en": "the girl",
+    "hi": "लड़की"
+  },
+  "interesse": {
+    "en": "the interest",
+    "hi": "ब्याज"
+  },
+  "tier": {
+    "en": "the animal",
+    "hi": "पशु"
+  },
+  "erfahrung": {
+    "en": "the experience",
+    "hi": "अनुभव"
+  },
+  "patient": {
+    "en": "the patient",
+    "hi": "रोगी"
+  },
+  "arzt": {
+    "en": "the doctor",
+    "hi": "डॉक्टर"
+  },
+  "unterschied": {
+    "en": "the difference",
+    "hi": "के अंतर"
+  },
+  "foto": {
+    "en": "the photo",
+    "hi": "फोटो"
+  },
+  "derselbe": {
+    "en": "same",
+    "hi": "वही"
+  },
+  "mitarbeiter": {
+    "en": "the employee",
+    "hi": "कर्मचारी"
+  },
+  "glück": {
+    "en": "the happiness",
+    "hi": "सुख"
+  },
+  "leistung": {
+    "en": "the performance",
+    "hi": "प्रदर्शन"
+  },
+  "beziehung": {
+    "en": "the relationship",
+    "hi": "का रिश्ता"
+  },
+  "bett": {
+    "en": "the bed",
+    "hi": "पलंग"
+  },
+  "höhe": {
+    "en": "the height",
+    "hi": "ऊंचाई"
+  },
+  "zimmer": {
+    "en": "the room",
+    "hi": "कमरा"
+  },
+  "verhältnis": {
+    "en": "the relationship",
+    "hi": "का रिश्ता"
+  },
+  "zeitung": {
+    "en": "the newspaper",
+    "hi": "समाचार - पत्र"
+  },
+  "bedingung": {
+    "en": "the condition",
+    "hi": "स्थिति"
+  },
+  "fenster": {
+    "en": "the window",
+    "hi": "खिड़की"
+  },
+  "zug": {
+    "en": "the train",
+    "hi": "रेल गाड़ी"
+  },
+  "werk": {
+    "en": "the work",
+    "hi": "काम"
+  },
+  "bürger": {
+    "en": "the citizen",
+    "hi": "नागरिक"
+  },
+  "dienen": {
+    "en": "serve",
+    "hi": "सेवा करना"
+  },
+  "firma": {
+    "en": "the Company",
+    "hi": "कंपनी"
+  },
+  "wirtschaft": {
+    "en": "the economy",
+    "hi": "अर्थव्यवस्था"
+  },
+  "mittel": {
+    "en": "the means",
+    "hi": "उपाय"
+  },
+  "tochter": {
+    "en": "the daughter",
+    "hi": "बेटी"
+  },
+  "lehrer": {
+    "en": "the teacher",
+    "hi": "शिक्षक"
+  },
+  "einführung": {
+    "en": "the introduction",
+    "hi": "परिचय"
+  },
+  "dame": {
+    "en": "the lady",
+    "hi": "महिला"
+  },
+  "dunkel": {
+    "en": "dark",
+    "hi": "अँधेरा"
+  },
+  "modell": {
+    "en": "the model",
+    "hi": "मॉडल"
+  },
+  "bewegung": {
+    "en": "the movement",
+    "hi": "आंदोलन"
+  },
+  "mitte": {
+    "en": "the middle",
+    "hi": "मध्य"
+  },
+  "angebot": {
+    "en": "the offer",
+    "hi": "प्रस्ताव"
+  },
+  "projekt": {
+    "en": "the project",
+    "hi": "परियोजना"
+  },
+  "autor": {
+    "en": "the author",
+    "hi": "लेखक"
+  },
+  "größe": {
+    "en": "the size",
+    "hi": "आकार"
+  },
+  "bruder": {
+    "en": "the brother",
+    "hi": "भाई"
+  },
+  "reise": {
+    "en": "the trip",
+    "hi": "यात्रा"
+  },
+  "zustand": {
+    "en": "the condition",
+    "hi": "स्थिति"
+  },
+  "reihe": {
+    "en": "the row",
+    "hi": "झगड़ा"
+  },
+  "natur": {
+    "en": "the nature",
+    "hi": "प्रकृति"
+  },
+  "dauern": {
+    "en": "last",
+    "hi": "अंतिम"
+  },
+  "haar": {
+    "en": "the hair",
+    "hi": "बाल"
+  },
+  "deswegen": {
+    "en": "because of this",
+    "hi": "इसके कारण"
+  },
+  "stoff": {
+    "en": "the fabric",
+    "hi": "कपड़ा"
+  },
+  "rede": {
+    "en": "the speech",
+    "hi": "भाषण"
+  },
+  "geschäft": {
+    "en": "the business",
+    "hi": "व्यवसाय जिस"
+  },
+  "angabe": {
+    "en": "the information",
+    "hi": "जानकारी"
+  },
+  "hotel": {
+    "en": "the hotel",
+    "hi": "होटल"
+  },
+  "alter": {
+    "en": "the age",
+    "hi": "को आयु"
+  },
+  "sicherheit": {
+    "en": "the security",
+    "hi": "सुरक्षा"
+  },
+  "erde": {
+    "en": "the earth",
+    "hi": "पृथ्वी"
+  },
+  "studie": {
+    "en": "the study",
+    "hi": "द स्टडी"
+  },
+  "meinung": {
+    "en": "the opinion",
+    "hi": "राय"
+  },
+  "drehen": {
+    "en": "turn",
+    "hi": "मोड़"
+  },
+  "künstler": {
+    "en": "the artist",
+    "hi": "कलाकार"
+  },
+  "versuch": {
+    "en": "the attempt",
+    "hi": "करने का प्रयास"
+  },
+  "methode": {
+    "en": "the method",
+    "hi": "विधि"
+  },
+  "ordnung": {
+    "en": "the order",
+    "hi": "आदेश"
+  },
+  "wahl": {
+    "en": "the choice",
+    "hi": "विकल्प"
+  },
+  "region": {
+    "en": "the region",
+    "hi": "क्षेत्र"
+  },
+  "nummer": {
+    "en": "the number",
+    "hi": "जो नंबर"
+  },
+  "freiheit": {
+    "en": "the freedom",
+    "hi": "आज़ादी"
+  },
+  "spieler": {
+    "en": "the player",
+    "hi": "खिलाड़ी"
+  },
+  "hund": {
+    "en": "the dog",
+    "hi": "कुत्ता"
+  },
+  "wand": {
+    "en": "the wall",
+    "hi": "दीवार"
+  },
+  "feld": {
+    "en": "the field",
+    "hi": "फील्ड"
+  },
+  "brief": {
+    "en": "the letter",
+    "hi": "अक्षर"
+  },
+  "mitglied": {
+    "en": "the member",
+    "hi": "सदस्य"
+  },
+  "gefahr": {
+    "en": "the danger",
+    "hi": "ख़तरा"
+  },
+  "liebe": {
+    "en": "love",
+    "hi": "प्यार"
+  },
+  "beginn": {
+    "en": "the beginning",
+    "hi": "शुरुआत"
+  },
+  "draußen": {
+    "en": "outside",
+    "hi": "बाहर"
+  },
+  "wirkung": {
+    "en": "the effect",
+    "hi": "प्रभाव"
+  },
+  "blut": {
+    "en": "the blood",
+    "hi": "खून"
+  },
+  "meer": {
+    "en": "the sea",
+    "hi": "ये ए"
+  },
+  "anzahl": {
+    "en": "the number",
+    "hi": "जो नंबर"
+  },
+  "mund": {
+    "en": "the mouth",
+    "hi": "मुँह"
+  },
+  "untersuchung": {
+    "en": "the investigation",
+    "hi": "जांच"
+  },
+  "fehler": {
+    "en": "the error",
+    "hi": "त्रुटि"
+  },
+  "sonne": {
+    "en": "the sun",
+    "hi": "सूरज"
+  },
+  "kampf": {
+    "en": "the fight",
+    "hi": "लड़ाई"
+  },
+  "programm": {
+    "en": "the program",
+    "hi": "कार्यक्रम"
+  },
+  "einfluss": {
+    "en": "the influence",
+    "hi": "प्रभाव"
+  },
+  "temperatur": {
+    "en": "the temperature",
+    "hi": "तापमान"
+  },
+  "danke": {
+    "en": "Thanks",
+    "hi": "धन्यवाद"
+  },
+  "bein": {
+    "en": "the leg",
+    "hi": "पैर"
+  },
+  "glas": {
+    "en": "the glass",
+    "hi": "ये गिलास"
+  },
+  "sorge": {
+    "en": "the worry",
+    "hi": "चिंता"
+  },
+  "himmel": {
+    "en": "the sky",
+    "hi": "आकाश"
+  },
+  "kirche": {
+    "en": "the church",
+    "hi": "चर्च"
+  },
+  "verein": {
+    "en": "the Union",
+    "hi": "संघ"
+  },
+  "vorstellung": {
+    "en": "the idea",
+    "hi": "विचार"
+  },
+  "typ": {
+    "en": "the guy",
+    "hi": "आदमी"
+  },
+  "faktor": {
+    "en": "the factor",
+    "hi": "कारक"
+  },
+  "literatur": {
+    "en": "the literature",
+    "hi": "साहित्य"
+  },
+  "abschnitt": {
+    "en": "the section",
+    "hi": "अनुभाग"
+  },
+  "nähe": {
+    "en": "the nearness",
+    "hi": "निकटता"
+  },
+  "produktion": {
+    "en": "the production",
+    "hi": "उत्पादन"
+  },
+  "drücken": {
+    "en": "press",
+    "hi": "प्रेस"
+  },
+  "linie": {
+    "en": "the line",
+    "hi": "रेखा"
+  },
+  "gas": {
+    "en": "the gas",
+    "hi": "गैस"
+  },
+  "hälfte": {
+    "en": "the half",
+    "hi": "आधा"
+  },
+  "kontakt": {
+    "en": "the contact",
+    "hi": "संपर्क"
+  },
+  "interview": {
+    "en": "the interview",
+    "hi": "साक्षात्कार"
+  },
+  "berg": {
+    "en": "the mountain",
+    "hi": "पहाड़"
+  },
+  "erinnerung": {
+    "en": "the memory",
+    "hi": "स्मृति"
+  },
+  "anspruch": {
+    "en": "the claim",
+    "hi": "दावा"
+  },
+  "sport": {
+    "en": "the sport",
+    "hi": "खेल"
+  },
+  "nachfrage": {
+    "en": "the demand",
+    "hi": "न डिमांड"
+  },
+  "medien (pl.)": {
+    "en": "the media (pl.)",
+    "hi": "मीडिया (पी.एल.)"
+  },
+  "institut": {
+    "en": "the institute",
+    "hi": "संस्थान"
+  },
+  "plan": {
+    "en": "the plan",
+    "hi": "योजना"
+  },
+  "tor": {
+    "en": "the gate",
+    "hi": "द्वार"
+  },
+  "betrieb": {
+    "en": "the operation",
+    "hi": "संचालन"
+  },
+  "dorf": {
+    "en": "the village",
+    "hi": "गांव"
+  },
+  "klasse": {
+    "en": "the class",
+    "hi": "कक्षा"
+  },
+  "vertrag": {
+    "en": "the contract",
+    "hi": "अनुबंध"
+  },
+  "ausdruck": {
+    "en": "the expression",
+    "hi": "इजहार"
+  },
+  "schwester": {
+    "en": "the sister",
+    "hi": "बहन"
+  },
+  "chef": {
+    "en": "the boss",
+    "hi": "मालिक"
+  },
+  "risiko": {
+    "en": "the risk",
+    "hi": "जोखिम"
+  },
+  "tabelle": {
+    "en": "the table",
+    "hi": "टेबल"
+  },
+  "vorteil": {
+    "en": "the advantage",
+    "hi": "फायदा"
+  },
+  "gewinn": {
+    "en": "the profit",
+    "hi": "मुनाफ़ा"
+  },
+  "ruhe": {
+    "en": "the calm",
+    "hi": "शांत"
+  },
+  "darstellung": {
+    "en": "the representation",
+    "hi": "प्रतिनिधित्व"
+  },
+  "traum": {
+    "en": "the dream",
+    "hi": "सपना"
+  },
+  "diskutieren": {
+    "en": "discuss",
+    "hi": "चर्चा करना"
+  },
+  "kritik": {
+    "en": "the criticism",
+    "hi": "आलोचना"
+  },
+  "trainer": {
+    "en": "the coach",
+    "hi": "एक प्रशिक्षक"
+  },
+  "opfer": {
+    "en": "the victim",
+    "hi": "पीड़ित"
+  },
+  "westen": {
+    "en": "the West",
+    "hi": "पश्चिम"
+  },
+  "titel": {
+    "en": "the title",
+    "hi": "शीर्षक"
+  },
+  "eindruck": {
+    "en": "the impression",
+    "hi": "प्रभाव"
+  },
+  "baum": {
+    "en": "the tree",
+    "hi": "पेड़"
+  },
+  "diskussion": {
+    "en": "the discussion",
+    "hi": "चर्चा"
+  },
+  "student": {
+    "en": "the student",
+    "hi": "छात्र"
+  },
+  "bevölkerung": {
+    "en": "the population",
+    "hi": "आबादी"
+  },
+  "finger": {
+    "en": "the finger",
+    "hi": "अंगुली"
+  },
+  "schulter": {
+    "en": "the shoulder",
+    "hi": "कंधा"
+  },
+  "wald": {
+    "en": "the forest",
+    "hi": "वन"
+  },
+  "insel": {
+    "en": "the island",
+    "hi": "द्वीप"
+  },
+  "schluss": {
+    "en": "the conclusion",
+    "hi": "निष्कर्ष"
+  },
+  "beruf": {
+    "en": "the job",
+    "hi": "काम"
+  },
+  "sieg": {
+    "en": "the victory",
+    "hi": "जीत"
+  },
+  "küche": {
+    "en": "the kitchen",
+    "hi": "रसोई"
+  },
+  "spaß": {
+    "en": "the fun",
+    "hi": "मनोरंजन"
+  },
+  "roman": {
+    "en": "the novel",
+    "hi": "उपन्यास"
+  },
+  "rücken": {
+    "en": "the back",
+    "hi": "पीठ"
+  },
+  "theorie": {
+    "en": "the theory",
+    "hi": "सिद्धांत"
+  },
+  "inhalt": {
+    "en": "the content",
+    "hi": "यो विषय वस्तु"
+  },
+  "ereignis": {
+    "en": "the event",
+    "hi": "समारोह"
+  },
+  "rest": {
+    "en": "the rest",
+    "hi": "बाकी का"
+  },
+  "wunsch": {
+    "en": "the desire",
+    "hi": "इच्छा"
+  },
+  "dick": {
+    "en": "thick",
+    "hi": "मोटा"
+  },
+  "museum": {
+    "en": "the museum",
+    "hi": "संग्रहालय"
+  },
+  "farbe": {
+    "en": "the color",
+    "hi": "वो रंग"
+  },
+  "theater": {
+    "en": "the theater",
+    "hi": "नाटकशाला"
+  },
+  "könig": {
+    "en": "the king",
+    "hi": "राजा"
+  },
+  "ohr": {
+    "en": "the ear",
+    "hi": "कान"
+  },
+  "beitrag": {
+    "en": "the contribution",
+    "hi": "योगदान"
+  },
+  "kontrolle": {
+    "en": "the control",
+    "hi": "द कंट्रोल"
+  },
+  "mannschaft": {
+    "en": "the team",
+    "hi": "टीम"
+  },
+  "hoffnung": {
+    "en": "the hope",
+    "hi": "आशा"
+  },
+  "verantwortung": {
+    "en": "the responsibility",
+    "hi": "ज़िम्मेदारी"
+  },
+  "besuch": {
+    "en": "the visit",
+    "hi": "मुलाक़ात"
+  },
+  "gebiet": {
+    "en": "the area",
+    "hi": "क्षेत्र"
+  },
+  "behörde": {
+    "en": "the authority",
+    "hi": "अधिकार"
+  },
+  "organisation": {
+    "en": "the organization",
+    "hi": "संगठन"
+  },
+  "summe": {
+    "en": "the sum",
+    "hi": "योग"
+  },
+  "wind": {
+    "en": "the wind",
+    "hi": "हवा"
+  },
+  "krankheit": {
+    "en": "the disease",
+    "hi": "मर्ज जो"
+  },
+  "voraussetzung": {
+    "en": "the prerequisite",
+    "hi": "पूर्वावश्यकता"
+  },
+  "zeitpunkt": {
+    "en": "the timing",
+    "hi": "समय"
+  },
+  "gang": {
+    "en": "the aisle",
+    "hi": "गलियारा"
+  },
+  "politiker": {
+    "en": "the politician",
+    "hi": "राजनीतिज्ञ"
+  },
+  "unterstützung": {
+    "en": "the support",
+    "hi": "सहारा"
+  },
+  "zentrum": {
+    "en": "the center",
+    "hi": "केंद्र"
+  },
+  "haut": {
+    "en": "the skin",
+    "hi": "त्वचा"
+  },
+  "schutz": {
+    "en": "the protection",
+    "hi": "सुरक्षा"
+  },
+  "generation": {
+    "en": "the generation",
+    "hi": "पीढ़ी"
+  },
+  "zeichen": {
+    "en": "the sign",
+    "hi": "संकेत"
+  },
+  "wahrheit": {
+    "en": "the truth",
+    "hi": "सच्चाई"
+  },
+  "haushalt": {
+    "en": "the household",
+    "hi": "घरेलू"
+  },
+  "garten": {
+    "en": "the garden",
+    "hi": "बगीचा"
+  },
+  "gegensatz": {
+    "en": "the opposite",
+    "hi": "विपरीत"
+  },
+  "papier": {
+    "en": "the paper",
+    "hi": "कागज़"
+  },
+  "partner": {
+    "en": "the partner",
+    "hi": "साथी"
+  },
+  "ausbildung": {
+    "en": "the training",
+    "hi": "प्रशिक्षण"
+  },
+  "wagen": {
+    "en": "the car",
+    "hi": "कार"
+  },
+  "schiff": {
+    "en": "the ship",
+    "hi": "जहाज"
+  },
+  "tat": {
+    "en": "the act",
+    "hi": "अधिनियम"
+  },
+  "stein": {
+    "en": "the stone",
+    "hi": "द स्टोन"
+  },
+  "erklärung": {
+    "en": "the explanation",
+    "hi": "व्याख्या"
+  },
+  "spur": {
+    "en": "the trail",
+    "hi": "निशान"
+  },
+  "herausforderung": {
+    "en": "the challenge",
+    "hi": "चुनौती"
+  },
+  "vergangenheit": {
+    "en": "the past",
+    "hi": "अतीत"
+  },
+  "bericht": {
+    "en": "the report",
+    "hi": "रिपोर्ट"
+  },
+  "qualität": {
+    "en": "the quality",
+    "hi": "यह गुणवत्ता"
+  },
+  "rand": {
+    "en": "the edge",
+    "hi": "किनारा"
+  },
+  "osten": {
+    "en": "the East",
+    "hi": "पूर्व"
+  },
+  "bier": {
+    "en": "the beer",
+    "hi": "शराब"
+  },
+  "forderung": {
+    "en": "the requirement",
+    "hi": "मांग"
+  },
+  "nachricht": {
+    "en": "the message",
+    "hi": "संदेश"
+  },
+  "geschwindigkeit": {
+    "en": "the speed",
+    "hi": "गति"
+  },
+  "augenblick": {
+    "en": "the moment",
+    "hi": "क्षण"
+  },
+  "maschine": {
+    "en": "the machine",
+    "hi": "मशीन"
+  },
+  "saison": {
+    "en": "the season",
+    "hi": "ऋतु"
+  },
+  "nase": {
+    "en": "the nose",
+    "hi": "नाक"
+  },
+  "dicht": {
+    "en": "close",
+    "hi": "बंद करना"
+  },
+  "technik": {
+    "en": "the technology",
+    "hi": "द टेक्नोलॉजी"
+  },
+  "blatt": {
+    "en": "the leaf",
+    "hi": "पत्ता"
+  },
+  "danken": {
+    "en": "thank",
+    "hi": "धन्यवाद"
+  },
+  "fußball": {
+    "en": "the football",
+    "hi": "फ़ुटबॉल"
+  },
+  "integration": {
+    "en": "the integration",
+    "hi": "एकीकरण"
+  },
+  "nachbar": {
+    "en": "the neighbor",
+    "hi": "पड़ोसी"
+  },
+  "figur": {
+    "en": "the figure",
+    "hi": "आंकड़ा"
+  },
+  "freude": {
+    "en": "the joy",
+    "hi": "खुशी"
+  },
+  "kreis": {
+    "en": "the circle",
+    "hi": "वृत्त"
+  },
+  "digital": {
+    "en": "digital",
+    "hi": "डिजिटल"
+  },
+  "gericht": {
+    "en": "the court",
+    "hi": "कोर्ट"
+  },
+  "kaffee": {
+    "en": "the coffee",
+    "hi": "कॉफ़ी"
+  },
+  "vertreter": {
+    "en": "the representative",
+    "hi": "प्रतिनिधि"
+  },
+  "statistik": {
+    "en": "the statistics",
+    "hi": "आँकड़े"
+  },
+  "heimat": {
+    "en": "the homeland",
+    "hi": "मातृभूमि"
+  },
+  "gegenstand": {
+    "en": "the object",
+    "hi": "जो वस्तु"
+  },
+  "zusammenarbeit": {
+    "en": "the collaboration",
+    "hi": "सहयोग"
+  },
+  "see": {
+    "en": "the lake",
+    "hi": "झील"
+  },
+  "tourist": {
+    "en": "the tourist",
+    "hi": "पर्यटक"
+  },
+  "fähigkeit": {
+    "en": "the ability",
+    "hi": "योग्यता"
+  },
+  "jugendliche": {
+    "en": "the young person",
+    "hi": "युवा व्यक्ति"
+  },
+  "netz": {
+    "en": "the network",
+    "hi": "संजाल"
+  },
+  "änderung": {
+    "en": "the change",
+    "hi": "परिवर्तन"
+  },
+  "ursache": {
+    "en": "the cause",
+    "hi": "कारण"
+  },
+  "forschung": {
+    "en": "the research",
+    "hi": "अनुसंधान"
+  },
+  "ahnung": {
+    "en": "the hunch",
+    "hi": "कूबड़"
+  },
+  "szene": {
+    "en": "the scene",
+    "hi": "दृश्य"
+  },
+  "gewalt": {
+    "en": "the violence",
+    "hi": "हिंसा"
+  },
+  "publikum": {
+    "en": "the audience",
+    "hi": "दर्शक"
+  },
+  "verlust": {
+    "en": "the loss",
+    "hi": "हानि"
+  },
+  "ecke": {
+    "en": "the corner",
+    "hi": "कोना"
+  },
+  "artikel": {
+    "en": "the article",
+    "hi": "लेख"
+  },
+  "ausland": {
+    "en": "the foreign country",
+    "hi": "विदेशी देश"
+  },
+  "diesmal": {
+    "en": "this time",
+    "hi": "इस बार"
+  },
+  "gebäude": {
+    "en": "the building",
+    "hi": "इमारत"
+  },
+  "material": {
+    "en": "the material",
+    "hi": "सामग्री"
+  },
+  "strom": {
+    "en": "the stream",
+    "hi": "धारा"
+  },
+  "amt": {
+    "en": "the Office",
+    "hi": "कार्यालय"
+  },
+  "wirklichkeit": {
+    "en": "the reality",
+    "hi": "हकीकत"
+  },
+  "studium": {
+    "en": "the study",
+    "hi": "द स्टडी"
+  },
+  "demokratie": {
+    "en": "the democracy",
+    "hi": "लोकतंत्र"
+  },
+  "aufnahme": {
+    "en": "the recording",
+    "hi": "रिकॉर्डिंग"
+  },
+  "ausnahme": {
+    "en": "the exception",
+    "hi": "अपवाद"
+  },
+  "lust": {
+    "en": "the lust",
+    "hi": "हवस"
+  },
+  "zuschauer": {
+    "en": "the spectator",
+    "hi": "दर्शक"
+  },
+  "konflikt": {
+    "en": "the conflict",
+    "hi": "संघर्ष"
+  },
+  "bahn": {
+    "en": "the train",
+    "hi": "रेल गाड़ी"
+  },
+  "einkommen": {
+    "en": "the income",
+    "hi": "आय"
+  },
+  "aktivität": {
+    "en": "the activity",
+    "hi": "कार्यकलाप"
+  },
+  "auftrag": {
+    "en": "the order",
+    "hi": "आदेश"
+  },
+  "hof": {
+    "en": "the yard",
+    "hi": "यार्ड"
+  },
+  "polizist": {
+    "en": "the policeman",
+    "hi": "पुलिस का सिपाही"
+  },
+  "übung": {
+    "en": "the exercise",
+    "hi": "व्यायाम"
+  },
+  "experte": {
+    "en": "the expert",
+    "hi": "विशेषज्ञ"
+  },
+  "pause": {
+    "en": "the break",
+    "hi": "तोड़"
+  },
+  "fernsehen": {
+    "en": "the television",
+    "hi": "टेलीविज़न"
+  },
+  "bühne": {
+    "en": "the stage",
+    "hi": "मंच"
+  },
+  "schaden": {
+    "en": "the damage",
+    "hi": "क्षति"
+  },
+  "strecke": {
+    "en": "the route",
+    "hi": "रास्ता"
+  },
+  "praxis": {
+    "en": "the practice",
+    "hi": "अभ्यास"
+  },
+  "wissenschaft": {
+    "en": "the science",
+    "hi": "विज्ञान"
+  },
+  "umgebung": {
+    "en": "the environment",
+    "hi": "पर्यावरण"
+  },
+  "öffentlichkeit": {
+    "en": "the public",
+    "hi": "सार्वजनिक"
+  },
+  "spiegel": {
+    "en": "the mirror",
+    "hi": "आईना"
+  },
+  "gegenteil": {
+    "en": "the contrary",
+    "hi": ""
+  },
+  "karte": {
+    "en": "the map",
+    "hi": "वो नक्शा"
+  },
+  "krise": {
+    "en": "the crisis",
+    "hi": "संकट"
+  },
+  "journalist": {
+    "en": "the journalist",
+    "hi": "पत्रकार"
+  },
+  "schmerz": {
+    "en": "the pain",
+    "hi": "दर्द"
+  },
+  "runde": {
+    "en": "the round",
+    "hi": "दौर"
+  },
+  "wettbewerb": {
+    "en": "the competition",
+    "hi": "प्रतियोगिता"
+  },
+  "zweifel": {
+    "en": "the doubt",
+    "hi": "संदेह"
+  },
+  "kamera": {
+    "en": "the camera",
+    "hi": "कैमरा"
+  },
+  "schatten": {
+    "en": "the shadow",
+    "hi": "छाया"
+  },
+  "pferd": {
+    "en": "the horse",
+    "hi": "घोड़ा"
+  },
+  "zugang": {
+    "en": "the access",
+    "hi": "पहुँच"
+  },
+  "doppelt": {
+    "en": "double",
+    "hi": "दोहरा"
+  },
+  "tatsache": {
+    "en": "the fact",
+    "hi": "तथ्य"
+  },
+  "alkohol": {
+    "en": "the alcohol",
+    "hi": "शराब"
+  },
+  "norden": {
+    "en": "the north",
+    "hi": "उत्तर"
+  },
+  "dahin": {
+    "en": "there",
+    "hi": "वहाँ"
+  },
+  "wissenschaftler": {
+    "en": "the scientist",
+    "hi": "वैज्ञानिक"
+  },
+  "kommunikation": {
+    "en": "the communication",
+    "hi": "संचार"
+  },
+  "steuer": {
+    "en": "the tax",
+    "hi": "कर"
+  },
+  "flughafen": {
+    "en": "the airport",
+    "hi": "हवाई अड्डा"
+  },
+  "krankenhaus": {
+    "en": "the hospital",
+    "hi": "अस्पताल"
+  },
+  "gegner": {
+    "en": "the opponent",
+    "hi": "प्रतिद्वंद्वी"
+  },
+  "leser": {
+    "en": "the reader",
+    "hi": "पाठक"
+  },
+  "handel": {
+    "en": "the trade",
+    "hi": "व्यापार"
+  },
+  "schwierigkeit": {
+    "en": "the difficulty",
+    "hi": "कठिनाई"
+  },
+  "bauer": {
+    "en": "the farmer",
+    "hi": "किसान"
+  },
+  "kurs": {
+    "en": "the course",
+    "hi": "पाठ्यक्रम"
+  },
+  "service": {
+    "en": "the service",
+    "hi": "सेवा"
+  },
+  "fahrer": {
+    "en": "the driver",
+    "hi": "ड्राइवर"
+  },
+  "dienst": {
+    "en": "the service",
+    "hi": "सेवा"
+  },
+  "lager": {
+    "en": "the warehouse",
+    "hi": "गोदाम"
+  },
+  "bus": {
+    "en": "the bus",
+    "hi": "बस"
+  },
+  "urlaub": {
+    "en": "the holidays",
+    "hi": "छुट्टियां"
+  },
+  "instrument": {
+    "en": "the instrument",
+    "hi": "साधन"
+  },
+  "gegend": {
+    "en": "the area",
+    "hi": "क्षेत्र"
+  },
+  "feuer": {
+    "en": "the fire",
+    "hi": "आग"
+  },
+  "verständnis": {
+    "en": "the understanding",
+    "hi": "समझ"
+  },
+  "schuld": {
+    "en": "the blame",
+    "hi": "द ब्लेम"
+  },
+  "mehrheit": {
+    "en": "the majority",
+    "hi": "बहुमत"
+  },
+  "hals": {
+    "en": "the neck",
+    "hi": "गर्दन"
+  },
+  "telefon": {
+    "en": "the phone",
+    "hi": "फोन"
+  },
+  "ausstellung": {
+    "en": "the exhibition",
+    "hi": "प्रदर्शनी"
+  },
+  "bau": {
+    "en": "the construction",
+    "hi": "भवन निर्माण"
+  },
+  "keller": {
+    "en": "the cellar",
+    "hi": "तहख़ाना"
+  },
+  "flasche": {
+    "en": "the bottle",
+    "hi": "बॉटल"
+  },
+  "zweck": {
+    "en": "the purpose",
+    "hi": "उद्देश्य"
+  },
+  "fläche": {
+    "en": "the area",
+    "hi": "क्षेत्र"
+  },
+  "vorschlag": {
+    "en": "the suggestion",
+    "hi": "सुझाव"
+  },
+  "leiter": {
+    "en": "the leader",
+    "hi": "नेता"
+  },
+  "fortschritt": {
+    "en": "the progress",
+    "hi": "प्रगति"
+  },
+  "mathematik": {
+    "en": "the mathematics",
+    "hi": "गणित"
+  },
+  "bad": {
+    "en": "the bathroom",
+    "hi": "गुसलखाना"
+  },
+  "gerät": {
+    "en": "the device",
+    "hi": "युक्ति"
+  },
+  "tradition": {
+    "en": "the tradition",
+    "hi": "परंपरा"
+  },
+  "antrag": {
+    "en": "the application",
+    "hi": "आवेदन पत्र"
+  },
+  "gelegenheit": {
+    "en": "the opportunity",
+    "hi": "अवसर"
+  },
+  "mauer": {
+    "en": "the wall",
+    "hi": "दीवार"
+  },
+  "stuhl": {
+    "en": "the chair",
+    "hi": "कुरसी"
+  },
+  "büro": {
+    "en": "the office",
+    "hi": "कार्यालय"
+  },
+  "umwelt": {
+    "en": "the environment",
+    "hi": "पर्यावरण"
+  },
+  "beschreibung": {
+    "en": "the description",
+    "hi": "विवरण"
+  },
+  "pflanze": {
+    "en": "the plant",
+    "hi": "पौधा"
+  },
+  "tätigkeit": {
+    "en": "the activity",
+    "hi": "कार्यकलाप"
+  },
+  "landschaft": {
+    "en": "the landscape",
+    "hi": "परिदृश्य"
+  },
+  "arbeitsplatz": {
+    "en": "the workplace",
+    "hi": "कार्यस्थल"
+  },
+  "laden": {
+    "en": "the store",
+    "hi": "स्टोर"
+  },
+  "stern": {
+    "en": "the star",
+    "hi": "तारा"
+  },
+  "schuh": {
+    "en": "the shoe",
+    "hi": "जूता"
+  },
+  "knie": {
+    "en": "the knee",
+    "hi": "घुटना"
+  },
+  "realität": {
+    "en": "the reality",
+    "hi": "हकीकत"
+  },
+  "fluss": {
+    "en": "the river",
+    "hi": "नदी"
+  },
+  "alternative": {
+    "en": "the alternative",
+    "hi": "विकल्प"
+  },
+  "führung": {
+    "en": "the leadership",
+    "hi": "नेतृत्व"
+  },
+  "handy": {
+    "en": "the phone",
+    "hi": "फोन"
+  },
+  "hauptstadt": {
+    "en": "the capital",
+    "hi": "राजधानी"
+  },
+  "verlag": {
+    "en": "the publisher",
+    "hi": "प्रकाशक"
+  },
+  "vogel": {
+    "en": "the bird",
+    "hi": "पक्षी"
+  },
+  "schauspieler": {
+    "en": "the actor",
+    "hi": "अभिनेता"
+  },
+  "botschaft": {
+    "en": "the message",
+    "hi": "संदेश"
+  },
+  "alltag": {
+    "en": "the everyday",
+    "hi": "हर रोज"
+  },
+  "fahrzeug": {
+    "en": "the vehicle",
+    "hi": "वाहन"
+  },
+  "vorwurf": {
+    "en": "the accusation",
+    "hi": "आरोप"
+  },
+  "schriftsteller": {
+    "en": "the writer",
+    "hi": "लेखक"
+  },
+  "stimmung": {
+    "en": "the mood",
+    "hi": "मनोदशा"
+  },
+  "fach": {
+    "en": "the subject",
+    "hi": "विषय"
+  },
+  "lied": {
+    "en": "the song",
+    "hi": "गीत"
+  },
+  "wein": {
+    "en": "the wine",
+    "hi": "वाइन"
+  },
+  "dünn": {
+    "en": "thin",
+    "hi": "पतला"
+  },
+  "anbieter": {
+    "en": "the provider",
+    "hi": "प्रदाता"
+  },
+  "industrie": {
+    "en": "the industry",
+    "hi": "उद्योग"
+  },
+  "meister": {
+    "en": "the master",
+    "hi": "मालिक"
+  },
+  "stufe": {
+    "en": "the stage",
+    "hi": "मंच"
+  },
+  "urteil": {
+    "en": "the verdict",
+    "hi": "फैसला"
+  },
+  "schnee": {
+    "en": "the snow",
+    "hi": "हिमपात"
+  },
+  "dringend": {
+    "en": "urgent",
+    "hi": "अति आवश्यक"
+  },
+  "konkurrenz": {
+    "en": "the competition",
+    "hi": "प्रतियोगिता"
+  },
+  "muskel": {
+    "en": "the muscle",
+    "hi": "मांसपेशी"
+  },
+  "test": {
+    "en": "the test",
+    "hi": "कसौटी"
+  },
+  "süden": {
+    "en": "the south",
+    "hi": "दक्षिण"
+  },
+  "erzählung": {
+    "en": "the narrative",
+    "hi": "व्याख्या"
+  },
+  "flugzeug": {
+    "en": "The plane",
+    "hi": "विमान"
+  },
+  "flüssigkeit": {
+    "en": "the liquid",
+    "hi": "तरल"
+  },
+  "geburtstag": {
+    "en": "the birthday",
+    "hi": "जन्मदिन"
+  },
+  "kleid": {
+    "en": "the dress",
+    "hi": "पोशाक"
+  },
+  "ball": {
+    "en": "the ball",
+    "hi": "गेंद"
+  },
+  "brust": {
+    "en": "the chest",
+    "hi": "छाती"
+  },
+  "detail": {
+    "en": "the detail",
+    "hi": "विवरण"
+  },
+  "demokratisch": {
+    "en": "democratically",
+    "hi": "लोकतांत्रिक ढंग से"
+  },
+  "fleisch": {
+    "en": "the meat",
+    "hi": "मांस"
+  },
+  "liste": {
+    "en": "the list",
+    "hi": "सूची"
+  },
+  "restaurant": {
+    "en": "the restaurant",
+    "hi": "रेस्टोरेंट"
+  },
+  "tasche": {
+    "en": "the bag",
+    "hi": "बैग"
+  },
+  "beamte": {
+    "en": "the official",
+    "hi": "आधिकारिक"
+  },
+  "streit": {
+    "en": "the dispute",
+    "hi": "विवाद"
+  },
+  "dach": {
+    "en": "the roof",
+    "hi": "छत"
+  },
+  "karriere": {
+    "en": "the career",
+    "hi": "करियर"
+  },
+  "zigarette": {
+    "en": "the cigarette",
+    "hi": "सिगरेट"
+  },
+  "unterricht": {
+    "en": "the lesson",
+    "hi": "सबक"
+  },
+  "tante": {
+    "en": "the aunt",
+    "hi": "आंटी"
+  },
+  "prüfung": {
+    "en": "the exam",
+    "hi": "परीक्षा"
+  },
+  "onkel": {
+    "en": "the uncle",
+    "hi": "चाचा"
+  },
+  "störung": {
+    "en": "the disorder",
+    "hi": "विकार"
+  },
+  "aktion": {
+    "en": "the action",
+    "hi": "कार्रवाई"
+  },
+  "ausgabe": {
+    "en": "the output",
+    "hi": "आउटपुट"
+  },
+  "anlage": {
+    "en": "the attachment",
+    "hi": "लगाव"
+  },
+  "gesundheit": {
+    "en": "the health",
+    "hi": "स्वास्थ्य"
+  },
+  "kandidat": {
+    "en": "the candidate",
+    "hi": "उम्मीदवार"
+  },
+  "rechnung": {
+    "en": "the bill",
+    "hi": "बिल"
+  },
+  "loch": {
+    "en": "the hole",
+    "hi": "छिद्र"
+  },
+  "beweis": {
+    "en": "the proof",
+    "hi": "प्रमाण"
+  },
+  "zahn": {
+    "en": "the tooth",
+    "hi": "दांत"
+  },
+  "eis": {
+    "en": "the ice cream",
+    "hi": "आइसक्रीम"
+  },
+  "länge": {
+    "en": "the length",
+    "hi": "लंबाई"
+  },
+  "wetter": {
+    "en": "the weather",
+    "hi": "मौसम"
+  },
+  "anwalt": {
+    "en": "the lawyer",
+    "hi": "वकील"
+  },
+  "gedicht": {
+    "en": "the poem",
+    "hi": "कविता"
+  },
+  "schloss": {
+    "en": "the castle",
+    "hi": "महल"
+  },
+  "wunder": {
+    "en": "the miracle",
+    "hi": "चमत्कार"
+  },
+  "abschluss": {
+    "en": "the conclusion",
+    "hi": "निष्कर्ष"
+  },
+  "physik": {
+    "en": "the physics",
+    "hi": "भौतिक शास्त्र"
+  },
+  "teilnehmer": {
+    "en": "the participant",
+    "hi": "प्रतिभागी"
+  },
+  "veranstaltung": {
+    "en": "the event",
+    "hi": "समारोह"
+  },
+  "post": {
+    "en": "the post",
+    "hi": "पोस्ट"
+  },
+  "knochen": {
+    "en": "the bone",
+    "hi": "हड्डी"
+  },
+  "brücke": {
+    "en": "the bridge",
+    "hi": "पुल"
+  },
+  "daneben": {
+    "en": "next to it",
+    "hi": "इसके बगल में"
+  },
+  "gewicht": {
+    "en": "the weight",
+    "hi": "भार"
+  },
+  "start": {
+    "en": "the start",
+    "hi": "प्रारंभ"
+  },
+  "treppe": {
+    "en": "the stairs",
+    "hi": "सीढ़ियाँ"
+  },
+  "decke": {
+    "en": "the ceiling",
+    "hi": "छत"
+  },
+  "unfall": {
+    "en": "the accident",
+    "hi": "दुर्घटना"
+  },
+  "regen": {
+    "en": "the rain",
+    "hi": "बारिश"
+  },
+  "fisch": {
+    "en": "the fish",
+    "hi": "मछली"
+  },
+  "medizin": {
+    "en": "the medicine",
+    "hi": "दवाई"
+  },
+  "video": {
+    "en": "the video",
+    "hi": "वीडियो"
+  },
+  "durchschnittlich": {
+    "en": "average",
+    "hi": "औसत"
+  },
+  "strand": {
+    "en": "the beach",
+    "hi": "समुद्र तट"
+  },
+  "religion": {
+    "en": "the religion",
+    "hi": "धर्म"
+  },
+  "ware": {
+    "en": "the goods",
+    "hi": "माल"
+  },
+  "einrichtung": {
+    "en": "the facility",
+    "hi": "सुविधा"
+  },
+  "ei": {
+    "en": "the egg",
+    "hi": "अंडा"
+  },
+  "flucht": {
+    "en": "the escape",
+    "hi": "पलायन"
+  },
+  "übersetzung": {
+    "en": "the translation",
+    "hi": "अनुवाद"
+  },
+  "kino": {
+    "en": "the cinema",
+    "hi": "सिनेमा"
+  },
+  "dauer": {
+    "en": "the duration",
+    "hi": "अवधि"
+  },
+  "bahnhof": {
+    "en": "the station",
+    "hi": "स्टेशन"
+  },
+  "lippe": {
+    "en": "the lip",
+    "hi": "होंठ"
+  },
+  "lehre": {
+    "en": "the teaching",
+    "hi": "शिक्षण"
+  },
+  "verletzung": {
+    "en": "the injury",
+    "hi": "चोट"
+  },
+  "direktor": {
+    "en": "the director",
+    "hi": "निदेशक"
+  },
+  "träne": {
+    "en": "the tear",
+    "hi": "आंसू"
+  },
+  "pflicht": {
+    "en": "the duty",
+    "hi": "कर्तव्य"
+  },
+  "käufer": {
+    "en": "the buyer",
+    "hi": "खरीदार"
+  },
+  "täter": {
+    "en": "the perpetrator",
+    "hi": "अपराधी"
+  },
+  "hersteller": {
+    "en": "the manufacturer",
+    "hi": "निर्माता"
+  },
+  "auswahl": {
+    "en": "the selection",
+    "hi": "चयन"
+  },
+  "schrift": {
+    "en": "the writing",
+    "hi": "लेखन"
+  },
+  "kurve": {
+    "en": "the curve",
+    "hi": "वक्र"
+  },
+  "auftritt": {
+    "en": "the appearance",
+    "hi": "उपस्थिति"
+  },
+  "erhöhung": {
+    "en": "the increase",
+    "hi": "वृद्धि"
+  },
+  "training": {
+    "en": "the training",
+    "hi": "प्रशिक्षण"
+  },
+  "arbeitslosigkeit": {
+    "en": "the unemployment",
+    "hi": "बेरोजगारी"
+  },
+  "brot": {
+    "en": "the bread",
+    "hi": "रोटी"
+  },
+  "geburt": {
+    "en": "the birth",
+    "hi": "जन्म"
+  },
+  "hunger": {
+    "en": "the hunger",
+    "hi": "भूख"
+  },
+  "mühe": {
+    "en": "the effort",
+    "hi": "प्रयास"
+  },
+  "boot": {
+    "en": "the boat",
+    "hi": "नाव"
+  },
+  "wolke": {
+    "en": "the cloud",
+    "hi": "बादल"
+  },
+  "jugend": {
+    "en": "the youth",
+    "hi": "जवानी"
+  },
+  "verkehr": {
+    "en": "the traffic",
+    "hi": "यातायात"
+  },
+  "kauf": {
+    "en": "the purchase",
+    "hi": "ख़रीदारी"
+  },
+  "öl": {
+    "en": "the oil",
+    "hi": "तैल"
+  },
+  "betrag": {
+    "en": "the amount",
+    "hi": "राशि"
+  },
+  "fahrrad": {
+    "en": "the bike",
+    "hi": "बाइक"
+  },
+  "park": {
+    "en": "the park",
+    "hi": "पार्क"
+  },
+  "bauch": {
+    "en": "the stomach",
+    "hi": "पेट"
+  },
+  "vorbereitung": {
+    "en": "the preparation",
+    "hi": "तैयारी"
+  },
+  "hose": {
+    "en": "the pants",
+    "hi": "पैंट"
+  },
+  "metall": {
+    "en": "the metal",
+    "hi": "धातु"
+  },
+  "netzwerk": {
+    "en": "the network",
+    "hi": "संजाल"
+  },
+  "technologie": {
+    "en": "the technology",
+    "hi": "द टेक्नोलॉजी"
+  },
+  "trennung": {
+    "en": "the separation",
+    "hi": "अलगाव"
+  },
+  "oma": {
+    "en": "the grandma",
+    "hi": "दादी"
+  },
+  "umfrage": {
+    "en": "the survey",
+    "hi": "सर्वेक्षण"
+  },
+  "operation": {
+    "en": "the operation",
+    "hi": "संचालन"
+  },
+  "mut": {
+    "en": "the courage",
+    "hi": "साहस"
+  },
+  "marke": {
+    "en": "the brand",
+    "hi": "प्रकार"
+  },
+  "schlüssel": {
+    "en": "the key",
+    "hi": "कुंजी"
+  },
+  "klinik": {
+    "en": "the clinic",
+    "hi": "क्लिनिक"
+  },
+  "zufall": {
+    "en": "the coincidence",
+    "hi": "संयोग"
+  },
+  "nerv": {
+    "en": "the nerve",
+    "hi": "नस"
+  },
+  "termin": {
+    "en": "the appointment",
+    "hi": "नियुक्ति"
+  },
+  "konsum": {
+    "en": "the consumption",
+    "hi": "खपत"
+  },
+  "vorschrift": {
+    "en": "the regulation",
+    "hi": "विनियमन"
+  },
+  "flug": {
+    "en": "the flight",
+    "hi": "उड़ान"
+  },
+  "holz": {
+    "en": "the wood",
+    "hi": "जंगल"
+  },
+  "förderung": {
+    "en": "the funding",
+    "hi": "फंडिंग"
+  },
+  "planung": {
+    "en": "the planning",
+    "hi": "आयोजन"
+  },
+  "verdacht": {
+    "en": "the suspicion",
+    "hi": "संदेह"
+  },
+  "witz": {
+    "en": "the joke",
+    "hi": "मजाक"
+  },
+  "mangel": {
+    "en": "the lack",
+    "hi": "कमी"
+  },
+  "katze": {
+    "en": "the cat",
+    "hi": "बिल्ली"
+  },
+  "halle": {
+    "en": "the hall",
+    "hi": "ये हॉल"
+  },
+  "lohn": {
+    "en": "the wages",
+    "hi": "मजदूरी"
+  },
+  "verwaltung": {
+    "en": "the administration",
+    "hi": "प्रशासन"
+  },
+  "rat": {
+    "en": "the council",
+    "hi": "परिषद"
+  },
+  "bewohner": {
+    "en": "the resident",
+    "hi": "निवासी"
+  },
+  "medikament": {
+    "en": "the medication",
+    "hi": "दवा"
+  },
+  "ring": {
+    "en": "the ring",
+    "hi": "अंगूठी"
+  },
+  "dumm": {
+    "en": "dumb",
+    "hi": "गूंगा"
+  },
+  "stock": {
+    "en": "the stick",
+    "hi": "छड़ी"
+  },
+  "milch": {
+    "en": "the milk",
+    "hi": "दूध"
+  },
+  "reform": {
+    "en": "the reform",
+    "hi": "सुधार"
+  },
+  "richter": {
+    "en": "the judge",
+    "hi": "जज"
+  },
+  "nachteil": {
+    "en": "the disadvantage",
+    "hi": "नुकसान"
+  },
+  "wärme": {
+    "en": "the warmth",
+    "hi": "गर्मी"
+  },
+  "gemeinschaft": {
+    "en": "the community",
+    "hi": "समुदाय"
+  },
+  "unternehmer": {
+    "en": "the entrepreneur",
+    "hi": "उद्यमी"
+  },
+  "einwohner": {
+    "en": "the residents",
+    "hi": "निवासी"
+  },
+  "lebensmittel (pl.)": {
+    "en": "the food (pl.)",
+    "hi": "भोजन (पी.एल.)"
+  },
+  "zeile": {
+    "en": "the line",
+    "hi": "रेखा"
+  },
+  "ehe": {
+    "en": "the marriage",
+    "hi": "शादी"
+  },
+  "passagier": {
+    "en": "the passenger",
+    "hi": "यात्री"
+  },
+  "kindheit": {
+    "en": "childhood",
+    "hi": "बचपन"
+  },
+  "entschuldigung": {
+    "en": "the apology",
+    "hi": "क्षमा - याचना"
+  },
+  "sitz": {
+    "en": "the seat",
+    "hi": "सीट"
+  },
+  "serie": {
+    "en": "the series",
+    "hi": "शृंखला"
+  },
+  "entfernung": {
+    "en": "the distance",
+    "hi": "दूरी"
+  },
+  "schlaf": {
+    "en": "the sleep",
+    "hi": "नींद"
+  },
+  "kette": {
+    "en": "the chain",
+    "hi": "शृंखला"
+  },
+  "strafe": {
+    "en": "the punishment",
+    "hi": "सज़ा"
+  },
+  "konzert": {
+    "en": "the concert",
+    "hi": "संगीत समारोह"
+  },
+  "transport": {
+    "en": "the transport",
+    "hi": "परिवहन"
+  },
+  "kreuz": {
+    "en": "the cross",
+    "hi": "क्रौस"
+  },
+  "motor": {
+    "en": "the engine",
+    "hi": "इंजन"
+  },
+  "sendung": {
+    "en": "the broadcast",
+    "hi": "प्रसारण"
+  },
+  "bibliothek": {
+    "en": "the library",
+    "hi": "पुस्तकालय"
+  },
+  "erwachsene": {
+    "en": "the adult",
+    "hi": "वयस्क"
+  },
+  "verkäufer": {
+    "en": "the seller",
+    "hi": "बेचने वाला"
+  },
+  "koffer": {
+    "en": "the suitcase",
+    "hi": "सूटकेस"
+  },
+  "rad": {
+    "en": "the wheel",
+    "hi": "पहिया"
+  },
+  "überzeugung": {
+    "en": "the conviction",
+    "hi": "दृढ़ विश्वास"
+  },
+  "arbeiter": {
+    "en": "the worker",
+    "hi": "कार्यकर्ता"
+  },
+  "gold": {
+    "en": "the gold",
+    "hi": "स्वर्ण"
+  },
+  "stil": {
+    "en": "the style",
+    "hi": "शैली"
+  },
+  "beschäftigung": {
+    "en": "the employment",
+    "hi": "रोज़गार"
+  },
+  "gewerkschaft": {
+    "en": "the union",
+    "hi": "संघ"
+  },
+  "tourismus": {
+    "en": "tourism",
+    "hi": "पर्यटन"
+  },
+  "geschlecht": {
+    "en": "the gender",
+    "hi": "लिंग"
+  },
+  "aussicht": {
+    "en": "the view",
+    "hi": "दृश्य"
+  },
+  "held": {
+    "en": "the hero",
+    "hi": "नायक"
+  },
+  "geheimnis": {
+    "en": "the secret",
+    "hi": "रहस्य"
+  },
+  "dialog": {
+    "en": "the dialogue",
+    "hi": "संवाद"
+  },
+  "seminar": {
+    "en": "the seminar",
+    "hi": "सेमिनार"
+  },
+  "werbung": {
+    "en": "the advertising",
+    "hi": "विज्ञापन"
+  },
+  "blume": {
+    "en": "the flower",
+    "hi": "फूल"
+  },
+  "schreibtisch": {
+    "en": "the desk",
+    "hi": "डेस्क"
+  },
+  "sand": {
+    "en": "the sand",
+    "hi": "रेत"
+  },
+  "landwirtschaft": {
+    "en": "agriculture",
+    "hi": "कृषि"
+  },
+  "therapie": {
+    "en": "the therapy",
+    "hi": "चिकित्सा"
+  },
+  "angehörige": {
+    "en": "the relative",
+    "hi": "सापेक्ष"
+  },
+  "café": {
+    "en": "the cafe",
+    "hi": "द कैफ़े"
+  },
+  "respekt": {
+    "en": "the respect",
+    "hi": "सम्मान"
+  },
+  "eingang": {
+    "en": "the entrance",
+    "hi": "प्रवेश द्वार"
+  },
+  "kanal": {
+    "en": "the channel",
+    "hi": "द चैनल"
+  },
+  "gefängnis": {
+    "en": "the prison",
+    "hi": "कारागार"
+  },
+  "überraschung": {
+    "en": "the surprise",
+    "hi": "आश्चर्य"
+  },
+  "personal": {
+    "en": "the staff",
+    "hi": "स्टाफ"
+  },
+  "pass": {
+    "en": "the passport",
+    "hi": "पासपोर्ट"
+  },
+  "bedarf": {
+    "en": "the need",
+    "hi": "जरूरत"
+  },
+  "kredit": {
+    "en": "the credit",
+    "hi": "क्रेडिट"
+  },
+  "wohnzimmer": {
+    "en": "the living room",
+    "hi": "बैठक कक्ष"
+  },
+  "leitung": {
+    "en": "the line",
+    "hi": "रेखा"
+  },
+  "zucker": {
+    "en": "the sugar",
+    "hi": "चीनी"
+  },
+  "station": {
+    "en": "the station",
+    "hi": "स्टेशन"
+  },
+  "sportler": {
+    "en": "the athlete",
+    "hi": "एथलीट"
+  },
+  "symbol": {
+    "en": "the symbol",
+    "hi": "प्रतीक"
+  },
+  "radio": {
+    "en": "the radio",
+    "hi": "रेडियो"
+  },
+  "musiker": {
+    "en": "the musician",
+    "hi": "संगीतकार"
+  },
+  "rückkehr": {
+    "en": "the return",
+    "hi": "वापसी"
+  },
+  "bar": {
+    "en": "the bar",
+    "hi": "बार"
+  },
+  "star": {
+    "en": "the star",
+    "hi": "तारा"
+  },
+  "freizeit": {
+    "en": "the free time",
+    "hi": "खाली समय"
+  },
+  "geschenk": {
+    "en": "the gift",
+    "hi": "उपहार"
+  },
+  "dorthin": {
+    "en": "there",
+    "hi": "वहाँ"
+  },
+  "frühstück": {
+    "en": "the breakfast",
+    "hi": "नाश्ता"
+  },
+  "magen": {
+    "en": "the stomach",
+    "hi": "पेट"
+  },
+  "salz": {
+    "en": "the salt",
+    "hi": "नमक"
+  },
+  "tee": {
+    "en": "the tea",
+    "hi": "चाय"
+  },
+  "zeuge": {
+    "en": "the witness",
+    "hi": "गवाह"
+  },
+  "tal": {
+    "en": "the valley",
+    "hi": "घाटी"
+  },
+  "ernährung": {
+    "en": "the diet",
+    "hi": "आहार"
+  },
+  "küste": {
+    "en": "the coast",
+    "hi": "तट"
+  },
+  "protest": {
+    "en": "the protest",
+    "hi": "विरोध"
+  },
+  "angestellte": {
+    "en": "the employee",
+    "hi": "कर्मचारी"
+  },
+  "dankbar": {
+    "en": "thankful",
+    "hi": "आभारी"
+  },
+  "flur": {
+    "en": "the corridor",
+    "hi": "गलियारा"
+  },
+  "hemd": {
+    "en": "the shirt",
+    "hi": "शर्ट"
+  },
+  "begründung": {
+    "en": "the justification",
+    "hi": "औचित्य"
+  },
+  "atem": {
+    "en": "the breath",
+    "hi": "साँस"
+  },
+  "distanz": {
+    "en": "the distance",
+    "hi": "दूरी"
+  },
+  "händler": {
+    "en": "the dealer",
+    "hi": "विक्रेता"
+  },
+  "ärger": {
+    "en": "the anger",
+    "hi": "क्रोध"
+  },
+  "vitamin": {
+    "en": "the vitamin",
+    "hi": "विटामिन"
+  },
+  "abschied": {
+    "en": "the farewell",
+    "hi": "बिदाई"
+  },
+  "hafen": {
+    "en": "the port",
+    "hi": "बंदरगाह"
+  },
+  "messer": {
+    "en": "the knife",
+    "hi": "चाकू"
+  },
+  "herkunft": {
+    "en": "the origin",
+    "hi": "मूल"
+  },
+  "katastrophe": {
+    "en": "the catastrophe",
+    "hi": "प्रलय"
+  },
+  "erlebnis": {
+    "en": "the experience",
+    "hi": "अनुभव"
+  },
+  "ausländer": {
+    "en": "the foreigner",
+    "hi": "विदेशी"
+  },
+  "ufer": {
+    "en": "the shore",
+    "hi": "किनारा"
+  },
+  "virus": {
+    "en": "the virus",
+    "hi": "वाइरस"
+  },
+  "maler": {
+    "en": "the painter",
+    "hi": "पेंटर"
+  },
+  "saal": {
+    "en": "the hall",
+    "hi": "ये हॉल"
+  },
+  "zustimmung": {
+    "en": "the consent",
+    "hi": "सहमति"
+  },
+  "absicht": {
+    "en": "the intention",
+    "hi": "इरादा"
+  },
+  "adresse": {
+    "en": "the address",
+    "hi": "ये पता"
+  },
+  "stress": {
+    "en": "the stress",
+    "hi": "तनाव"
+  },
+  "bildschirm": {
+    "en": "the screen",
+    "hi": "पर्दा डालना"
+  },
+  "hut": {
+    "en": "the hat",
+    "hi": "टोपी"
+  },
+  "abteilung": {
+    "en": "the Department",
+    "hi": "विभाग"
+  },
+  "opa": {
+    "en": "the grandpa",
+    "hi": "दादाजी"
+  },
+  "gras": {
+    "en": "the grass",
+    "hi": "घास"
+  },
+  "scheibe": {
+    "en": "the disc",
+    "hi": "डिस्क"
+  },
+  "presse": {
+    "en": "the press",
+    "hi": "प्रेस"
+  },
+  "party": {
+    "en": "the party",
+    "hi": "पार्टी"
+  },
+  "kleidung": {
+    "en": "the clothing",
+    "hi": "कपड़े"
+  },
+  "fernseher": {
+    "en": "the TV",
+    "hi": "टीवी"
+  },
+  "verwandte": {
+    "en": "the relative",
+    "hi": "सापेक्ष"
+  },
+  "kasse": {
+    "en": "the cash register",
+    "hi": "नकद पंजी"
+  },
+  "schulden (pl.)": {
+    "en": "the debts (pl.)",
+    "hi": "ऋण (पीएल)"
+  },
+  "zuhause": {
+    "en": "the home",
+    "hi": "घर"
+  },
+  "einladung": {
+    "en": "the invitation",
+    "hi": "आमंत्रण"
+  },
+  "einnahme": {
+    "en": "the intake",
+    "hi": "सेवन"
+  },
+  "vortrag": {
+    "en": "the lecture",
+    "hi": "व्याख्यान"
+  },
+  "zelt": {
+    "en": "the tent",
+    "hi": "टेंट"
+  },
+  "brille": {
+    "en": "the glasses",
+    "hi": "चश्मा"
+  },
+  "intelligenz": {
+    "en": "the intelligence",
+    "hi": "बुद्धिमत्ता"
+  },
+  "migrant": {
+    "en": "the migrant",
+    "hi": "प्रवासी"
+  },
+  "übersetzer": {
+    "en": "the translator",
+    "hi": "अनुवादक"
+  },
+  "buchstabe": {
+    "en": "the letter",
+    "hi": "अक्षर"
+  },
+  "sturm": {
+    "en": "the storm",
+    "hi": "तूफान"
+  },
+  "gehalt": {
+    "en": "the salary",
+    "hi": "वेतन"
+  },
+  "philosophie": {
+    "en": "the philosophy",
+    "hi": "दर्शन"
+  },
+  "sender": {
+    "en": "the transmitter",
+    "hi": "ट्रांसमीटर"
+  },
+  "talent": {
+    "en": "the talent",
+    "hi": "प्रतिभा"
+  },
+  "fleck": {
+    "en": "the stain",
+    "hi": "दाग"
+  },
+  "beratung": {
+    "en": "the advice",
+    "hi": "सलाह"
+  },
+  "kuh": {
+    "en": "the cow",
+    "hi": "गाय"
+  },
+  "drüben": {
+    "en": "over",
+    "hi": "ऊपर"
+  },
+  "note": {
+    "en": "the note",
+    "hi": "नोट"
+  },
+  "wiese": {
+    "en": "the meadow",
+    "hi": "घास का मैदान"
+  },
+  "autobahn": {
+    "en": "the highway",
+    "hi": "राजमार्ग"
+  },
+  "anschluss": {
+    "en": "the connection",
+    "hi": "कनेक्शन"
+  },
+  "schwein": {
+    "en": "the pig",
+    "hi": "सुअर"
+  },
+  "freundschaft": {
+    "en": "the friendship",
+    "hi": "मित्रता"
+  },
+  "hütte": {
+    "en": "the hut",
+    "hi": "कुटिया"
+  },
+  "mantel": {
+    "en": "the coat",
+    "hi": "कोट"
+  },
+  "geschmack": {
+    "en": "the taste",
+    "hi": "स्वाद"
+  },
+  "rente": {
+    "en": "the pension",
+    "hi": "पेंशन"
+  },
+  "mond": {
+    "en": "the moon",
+    "hi": "चांद"
+  },
+  "semester": {
+    "en": "the semester",
+    "hi": "सेमेस्टर"
+  },
+  "sänger": {
+    "en": "the singer",
+    "hi": "गायक"
+  },
+  "fett": {
+    "en": "the fat",
+    "hi": "चर्बी"
+  },
+  "vorname": {
+    "en": "the first name",
+    "hi": "पहला नाम"
+  },
+  "zeitschrift": {
+    "en": "the magazine",
+    "hi": "पत्रिका"
+  },
+  "zeug/-zeug": {
+    "en": "the stuff/stuff",
+    "hi": "सामान/सामान"
+  },
+  "tipp": {
+    "en": "the tip",
+    "hi": "नोक"
+  },
+  "hügel": {
+    "en": "the hill",
+    "hi": "पहाड़ी"
+  },
+  "tempo": {
+    "en": "the pace",
+    "hi": "गति"
+  },
+  "turm": {
+    "en": "the tower",
+    "hi": "मीनार"
+  },
+  "gewissen": {
+    "en": "the conscience",
+    "hi": "विवेक"
+  },
+  "export": {
+    "en": "the export",
+    "hi": "निर्यात"
+  },
+  "phantasie/fantasie": {
+    "en": "the imagination/fantasy",
+    "hi": "कल्पना/फंतासी"
+  },
+  "stadion": {
+    "en": "the stadium",
+    "hi": "स्टेडियम"
+  },
+  "durchschnitt": {
+    "en": "the average",
+    "hi": "औसत"
+  },
+  "klima": {
+    "en": "the climate",
+    "hi": "जलवायु"
+  },
+  "grafik": {
+    "en": "the graphic",
+    "hi": "ग्राफ़िक"
+  },
+  "grundstück": {
+    "en": "the property",
+    "hi": "संपत्ति"
+  },
+  "architekt": {
+    "en": "the architect",
+    "hi": "वास्तुकार"
+  },
+  "regal": {
+    "en": "the shelf",
+    "hi": "अलमारी"
+  },
+  "rucksack": {
+    "en": "the backpack",
+    "hi": "बैकपैक"
+  },
+  "teller": {
+    "en": "the dish",
+    "hi": "थाली"
+  },
+  "datum": {
+    "en": "the date",
+    "hi": "तारीख"
+  },
+  "kellner": {
+    "en": "the waiter",
+    "hi": "वेटर"
+  },
+  "pilz": {
+    "en": "the mushroom",
+    "hi": "मशरूम"
+  },
+  "supermarkt": {
+    "en": "the supermarket",
+    "hi": "सुपर बाज़ार"
+  },
+  "ausgang": {
+    "en": "the exit",
+    "hi": "बाहर जाएं"
+  },
+  "dokument": {
+    "en": "the document",
+    "hi": "दस्तावेज़"
+  },
+  "schrank": {
+    "en": "the cupboard",
+    "hi": "अलमारी"
+  },
+  "bescheid": {
+    "en": "the notice",
+    "hi": "नोटिस"
+  },
+  "rose": {
+    "en": "the rose",
+    "hi": "गुलाब"
+  },
+  "empfänger": {
+    "en": "the recipient",
+    "hi": "प्राप्तकर्ता"
+  },
+  "hochzeit": {
+    "en": "the wedding",
+    "hi": "शादी"
+  },
+  "zettel": {
+    "en": "the note",
+    "hi": "नोट"
+  },
+  "jacke": {
+    "en": "the jacket",
+    "hi": "मिरजई"
+  },
+  "droge": {
+    "en": "the drug",
+    "hi": "दवा"
+  },
+  "reihenfolge": {
+    "en": "the chronological order",
+    "hi": "कालानुक्रमिक क्रम"
+  },
+  "zahlung": {
+    "en": "the payment",
+    "hi": "भुगतान"
+  },
+  "kneipe": {
+    "en": "the pub",
+    "hi": "पब"
+  },
+  "frucht": {
+    "en": "the fruit",
+    "hi": "फल"
+  },
+  "anzeige": {
+    "en": "the ad",
+    "hi": "विज्ञापन"
+  },
+  "hitze": {
+    "en": "the heat",
+    "hi": "गरमी"
+  },
+  "konto": {
+    "en": "the account",
+    "hi": "खाता"
+  },
+  "lärm": {
+    "en": "the noise",
+    "hi": "ये शोर"
+  },
+  "rechner": {
+    "en": "the computer",
+    "hi": "कंप्यूटर"
+  },
+  "schild": {
+    "en": "the shield",
+    "hi": "ढाल"
+  },
+  "kindergarten": {
+    "en": "the kindergarten",
+    "hi": "बाल विहार"
+  },
+  "rätsel": {
+    "en": "the puzzle",
+    "hi": "पहेली"
+  },
+  "anzug": {
+    "en": "the suit",
+    "hi": "मुकदमा"
+  },
+  "schein": {
+    "en": "the appearance",
+    "hi": "उपस्थिति"
+  },
+  "verbot": {
+    "en": "the ban",
+    "hi": "प्रतिबंध"
+  },
+  "empfehlung": {
+    "en": "the recommendation",
+    "hi": "सिफ़ारिश"
+  },
+  "vermittlung": {
+    "en": "the mediation",
+    "hi": "मध्यस्थता"
+  },
+  "humor": {
+    "en": "the humor",
+    "hi": "हास्य"
+  },
+  "erziehung": {
+    "en": "the education",
+    "hi": "शिक्षा"
+  },
+  "meldung": {
+    "en": "the message",
+    "hi": "संदेश"
+  },
+  "zeichnung": {
+    "en": "the drawing",
+    "hi": "आरेखण"
+  },
+  "mahlzeit": {
+    "en": "the meal",
+    "hi": "भोजन"
+  },
+  "wiederholung": {
+    "en": "the repetition",
+    "hi": "पुनरावृत्ति"
+  },
+  "praktikum": {
+    "en": "the internship",
+    "hi": "इंटर्नशिप"
+  },
+  "vorsicht": {
+    "en": "the caution",
+    "hi": "सावधानी"
+  },
+  "auskunft": {
+    "en": "the information",
+    "hi": "जानकारी"
+  },
+  "bogen": {
+    "en": "the bow",
+    "hi": "धनुष"
+  },
+  "ferien (pl.)": {
+    "en": "the holidays (pl.)",
+    "hi": "छुट्टियाँ (pl.)"
+  },
+  "messe": {
+    "en": "the fair",
+    "hi": "निष्पक्ष"
+  },
+  "maus": {
+    "en": "the mouse",
+    "hi": "चूहा"
+  },
+  "werkstatt": {
+    "en": "the workshop",
+    "hi": "कार्यशाला"
+  },
+  "kälte": {
+    "en": "the cold",
+    "hi": "ठंड"
+  },
+  "laune": {
+    "en": "the mood",
+    "hi": "मनोदशा"
+  },
+  "toilette": {
+    "en": "the toilet",
+    "hi": "शौचालय"
+  },
+  "unglück": {
+    "en": "the misfortune",
+    "hi": "दुर्भाग्य"
+  },
+  "eröffnung": {
+    "en": "the opening",
+    "hi": "द ओपनिंग"
+  },
+  "miete": {
+    "en": "the rent",
+    "hi": "किराया"
+  },
+  "apfel": {
+    "en": "the Apple",
+    "hi": "सेब"
+  },
+  "anruf": {
+    "en": "the call",
+    "hi": "कॉल"
+  },
+  "sieger": {
+    "en": "the winner",
+    "hi": "विजेता"
+  },
+  "unterkunft": {
+    "en": "the accommodation",
+    "hi": "आवास"
+  },
+  "kompromiss": {
+    "en": "the compromise",
+    "hi": "समझौता"
+  },
+  "tasse": {
+    "en": "the cup",
+    "hi": "प्याला"
+  },
+  "profi": {
+    "en": "the professional",
+    "hi": "पेशेवर"
+  },
+  "nebel": {
+    "en": "the fog",
+    "hi": "कोहरा"
+  },
+  "rock": {
+    "en": "the skirt",
+    "hi": "स्कर्ट"
+  },
+  "sofa": {
+    "en": "the sofa",
+    "hi": "सोफ़ा"
+  },
+  "ankunft": {
+    "en": "the arrival",
+    "hi": "आगमन"
+  },
+  "paket": {
+    "en": "the package",
+    "hi": "पैकेज"
+  },
+  "frist": {
+    "en": "the deadline",
+    "hi": "समयसीमा"
+  },
+  "qualifikation": {
+    "en": "the qualification",
+    "hi": "योग्यता"
+  },
+  "schlange": {
+    "en": "the snake",
+    "hi": "साँप"
+  },
+  "hobby": {
+    "en": "the hobby",
+    "hi": "शौक"
+  },
+  "möbel": {
+    "en": "the furniture",
+    "hi": "असबाब"
+  },
+  "zone": {
+    "en": "the zone",
+    "hi": "क्षेत्र"
+  },
+  "biologie": {
+    "en": "the biology",
+    "hi": "जीव विज्ञान"
+  },
+  "abenteuer": {
+    "en": "the adventure",
+    "hi": "साहसिक कार्य"
+  },
+  "teppich": {
+    "en": "the carpet",
+    "hi": "कालीन"
+  },
+  "gemüse": {
+    "en": "the vegetable",
+    "hi": "सब्जी"
+  },
+  "aufenthalt": {
+    "en": "the stay",
+    "hi": "रहना"
+  },
+  "hörer": {
+    "en": "the listener",
+    "hi": "श्रोता"
+  },
+  "werkzeug": {
+    "en": "the tool",
+    "hi": "साधन"
+  },
+  "getränk": {
+    "en": "the drink",
+    "hi": "पेय"
+  },
+  "lüge": {
+    "en": "the lie",
+    "hi": "झूठ"
+  },
+  "wirt": {
+    "en": "the host",
+    "hi": "मेजबान"
+  },
+  "geduld": {
+    "en": "the patience",
+    "hi": "धैर्य"
+  },
+  "dauernd": {
+    "en": "constantly",
+    "hi": "निरंतर"
+  },
+  "wunde": {
+    "en": "the wound",
+    "hi": "घाव"
+  },
+  "reporter": {
+    "en": "the reporter",
+    "hi": "रिपोर्टर"
+  },
+  "ersatz": {
+    "en": "the replacement",
+    "hi": "प्रतिस्थापन"
+  },
+  "fremdsprache": {
+    "en": "the foreign language",
+    "hi": "विदेशी भाषा"
+  },
+  "gepäck": {
+    "en": "the luggage",
+    "hi": "सामान"
+  },
+  "feuerwehr": {
+    "en": "the fire department",
+    "hi": "अग्नि शमन विभाग"
+  },
+  "heim": {
+    "en": "the home",
+    "hi": "घर"
+  },
+  "koch": {
+    "en": "the cook",
+    "hi": "रसोइया"
+  },
+  "kühlschrank": {
+    "en": "the refrigerator",
+    "hi": "रेफ्रिजरेटर"
+  },
+  "empfang": {
+    "en": "the reception",
+    "hi": "वह स्वागत"
+  },
+  "unterschrift": {
+    "en": "the signature",
+    "hi": "द सिगनेचर"
+  },
+  "kartoffel": {
+    "en": "the potato",
+    "hi": "आलू"
+  },
+  "fabrik": {
+    "en": "the factory",
+    "hi": "कारखाना"
+  },
+  "tafel": {
+    "en": "the whiteboard",
+    "hi": ""
+  },
+  "uniform": {
+    "en": "the uniform",
+    "hi": "गणवेश"
+  },
+  "heft": {
+    "en": "the booklet",
+    "hi": "पुस्तिका"
+  },
+  "mode": {
+    "en": "the fashion",
+    "hi": "वह रीति"
+  },
+  "teilnahme": {
+    "en": "the participation",
+    "hi": "भागीदारी"
+  },
+  "münze": {
+    "en": "the coin",
+    "hi": "सिक्का"
+  },
+  "oper": {
+    "en": "the opera",
+    "hi": "ओपेरा"
+  },
+  "kerze": {
+    "en": "the candle",
+    "hi": "मोमबती"
+  },
+  "konferenz": {
+    "en": "the conference",
+    "hi": "सम्मेलन"
+  },
+  "versicherung": {
+    "en": "the insurance",
+    "hi": "बीमा"
+  },
+  "wurst": {
+    "en": "the sausage",
+    "hi": "सॉसेज"
+  },
+  "geschwister (pl.)": {
+    "en": "the siblings (pl.)",
+    "hi": "भाई-बहन (pl.)"
+  },
+  "staub": {
+    "en": "the dust",
+    "hi": "धूल"
+  },
+  "tanz": {
+    "en": "the dance",
+    "hi": "वह नाच"
+  },
+  "rathaus": {
+    "en": "the town hall",
+    "hi": "दी टाउन हॉल"
+  },
+  "lokal": {
+    "en": "the local",
+    "hi": "स्थानीय"
+  },
+  "erfindung": {
+    "en": "the invention",
+    "hi": "आविष्कार"
+  },
+  "sessel": {
+    "en": "the armchair",
+    "hi": "कुर्सी"
+  },
+  "ingenieur": {
+    "en": "the engineer",
+    "hi": "इंजीनियर"
+  },
+  "ausflug": {
+    "en": "the excursion",
+    "hi": "सैर"
+  },
+  "baustelle": {
+    "en": "the construction site",
+    "hi": "निर्माण स्थल"
+  },
+  "kasten": {
+    "en": "the box",
+    "hi": "बक्सा"
+  },
+  "balkon": {
+    "en": "the balcony",
+    "hi": "बालकनी"
+  },
+  "tuch": {
+    "en": "the cloth",
+    "hi": "कपड़ा"
+  },
+  "ozean": {
+    "en": "the ocean",
+    "hi": "सागर"
+  },
+  "fortsetzung": {
+    "en": "the sequel",
+    "hi": "अगली कड़ी"
+  },
+  "infektion": {
+    "en": "the infection",
+    "hi": "संक्रमण"
+  },
+  "käse": {
+    "en": "the cheese",
+    "hi": "पनीर"
+  },
+  "eintritt": {
+    "en": "the entry",
+    "hi": "प्रविष्टि"
+  },
+  "orchester": {
+    "en": "the orchestra",
+    "hi": "आर्केस्ट्रा"
+  },
+  "migration": {
+    "en": "the migration",
+    "hi": "प्रवास"
+  },
+  "topf": {
+    "en": "the pot",
+    "hi": "बरतन"
+  },
+  "enttäuschung": {
+    "en": "the disappointment",
+    "hi": "निराशा"
+  },
+  "lampe": {
+    "en": "the lamp",
+    "hi": "चिराग"
+  },
+  "märchen": {
+    "en": "the fairy tale",
+    "hi": "परी कथा"
+  },
+  "unterhaltung": {
+    "en": "the entertainment",
+    "hi": "मनोरंजन"
+  },
+  "kraftwerk": {
+    "en": "the power plant",
+    "hi": "बिजली संयंत्र"
+  },
+  "rezept": {
+    "en": "the recipe",
+    "hi": "रेसिपी"
+  },
+  "sack": {
+    "en": "the bag",
+    "hi": "बैग"
+  },
+  "drucken": {
+    "en": "press",
+    "hi": "प्रेस"
+  },
+  "plakat": {
+    "en": "the poster",
+    "hi": "पोस्टर"
+  },
+  "terrasse": {
+    "en": "the terrace",
+    "hi": "छत"
+  },
+  "tropfen (pl.)": {
+    "en": "the drops (pl.)",
+    "hi": "बूँदें (पी.एल.)"
+  },
+  "burg": {
+    "en": "the castle",
+    "hi": "महल"
+  },
+  "magazin": {
+    "en": "the magazine",
+    "hi": "पत्रिका"
+  },
+  "zuhörer": {
+    "en": "the listener",
+    "hi": "श्रोता"
+  },
+  "minderheit": {
+    "en": "the minority",
+    "hi": "अल्पसंख्यक"
+  },
+  "bargeld": {
+    "en": "the cash",
+    "hi": "नकद"
+  },
+  "original": {
+    "en": "the original",
+    "hi": "मूल"
+  },
+  "breite": {
+    "en": "the width",
+    "hi": "चौड़ाई"
+  },
+  "lieferung": {
+    "en": "the delivery",
+    "hi": "वितरण"
+  },
+  "dreck": {
+    "en": "the dirt",
+    "hi": "गंदगी"
+  },
+  "fotografie": {
+    "en": "the photography",
+    "hi": "आलोक चित्र विद्या"
+  },
+  "galerie": {
+    "en": "the gallery",
+    "hi": "गैलरी"
+  },
+  "präsentation": {
+    "en": "the presentation",
+    "hi": "प्रस्तुति"
+  },
+  "klavier": {
+    "en": "the piano",
+    "hi": "पियानो"
+  },
+  "gift": {
+    "en": "the poison",
+    "hi": "ज़हर"
+  },
+  "knopf": {
+    "en": "the button",
+    "hi": "बटन"
+  },
+  "abfall": {
+    "en": "the waste",
+    "hi": "बर्बादी"
+  },
+  "betreuung": {
+    "en": "the care",
+    "hi": "देखभाल"
+  },
+  "kuchen": {
+    "en": "the cake",
+    "hi": "केक"
+  },
+  "nachwuchs": {
+    "en": "the offspring",
+    "hi": "संतान"
+  },
+  "sportart": {
+    "en": "the sport",
+    "hi": "खेल"
+  },
+  "abfahrt": {
+    "en": "the farewell",
+    "hi": "बिदाई"
+  },
+  "wanderung": {
+    "en": "the hike",
+    "hi": "बढ़ोतरी"
+  },
+  "zeugnis": {
+    "en": "the testimony",
+    "hi": "गवाही"
+  },
+  "schwangerschaft": {
+    "en": "the pregnancy",
+    "hi": "गर्भावस्था"
+  },
+  "müll": {
+    "en": "the garbage",
+    "hi": "कचरा"
+  },
+  "vergnügen": {
+    "en": "the pleasure",
+    "hi": "ख़ुशी"
+  },
+  "notiz": {
+    "en": "the note",
+    "hi": "नोट"
+  },
+  "rasen": {
+    "en": "the lawn",
+    "hi": "घास का मैदान"
+  },
+  "kabine": {
+    "en": "the cabin",
+    "hi": "केबिन"
+  },
+  "schokolade": {
+    "en": "the chocolate",
+    "hi": "चॉकलेट"
+  },
+  "sekretär": {
+    "en": "the secretary",
+    "hi": "सचिव"
+  },
+  "dusche": {
+    "en": "the shower",
+    "hi": "शावर"
+  },
+  "fotograf": {
+    "en": "the photographer",
+    "hi": "फोटोग्राफर"
+  },
+  "studio": {
+    "en": "the studio",
+    "hi": "स्टूडियो"
+  },
+  "pension": {
+    "en": "the guesthouse",
+    "hi": "गेस्टहाउस"
+  },
+  "rücksicht": {
+    "en": "the consideration",
+    "hi": "विचार"
+  },
+  "enkel": {
+    "en": "the grandson",
+    "hi": "पोता"
+  },
+  "recherche": {
+    "en": "the research",
+    "hi": "अनुसंधान"
+  },
+  "ehepaar": {
+    "en": "the couple",
+    "hi": "युगल"
+  },
+  "motorrad": {
+    "en": "the motorcycle",
+    "hi": "मोटरसाइकिल"
+  },
+  "dialekt": {
+    "en": "the dialect",
+    "hi": "बोली"
+  },
+  "beleg": {
+    "en": "the receipt",
+    "hi": "रसीद"
+  },
+  "rezeption/reception": {
+    "en": "the reception/reception",
+    "hi": "स्वागत/रिसेप्शन"
+  },
+  "tennis": {
+    "en": "the tennis",
+    "hi": "टेनिस"
+  },
+  "puppe": {
+    "en": "the doll",
+    "hi": "गुडिया"
+  },
+  "spaziergang": {
+    "en": "the walk",
+    "hi": "टहलना"
+  },
+  "rekord": {
+    "en": "the record",
+    "hi": "रिकॉर्ड"
+  },
+  "einbruch": {
+    "en": "the break-in",
+    "hi": "तोड़-फोड़"
+  },
+  "gruß": {
+    "en": "the greeting",
+    "hi": "अभिवादन"
+  },
+  "ehefrau": {
+    "en": "the wife",
+    "hi": "पत्नी"
+  },
+  "forum": {
+    "en": "the forum",
+    "hi": "मंच"
+  },
+  "spezialist": {
+    "en": "the specialist",
+    "hi": "विशेषज्ञ"
+  },
+  "apparat": {
+    "en": "the apparatus",
+    "hi": "उपकरण"
+  },
+  "ticket": {
+    "en": "the ticket",
+    "hi": "टिकट"
+  },
+  "fieber": {
+    "en": "the fever",
+    "hi": "बुखार"
+  },
+  "denkmal": {
+    "en": "the monument",
+    "hi": "स्मारक"
+  },
+  "einzelheit": {
+    "en": "the detail",
+    "hi": "विवरण"
+  },
+  "import": {
+    "en": "the import",
+    "hi": "आयात"
+  },
+  "dose": {
+    "en": "the tin",
+    "hi": "टिन"
+  },
+  "cousin": {
+    "en": "the cousin",
+    "hi": "चचेरा भाई"
+  },
+  "asyl": {
+    "en": "the asylum",
+    "hi": "शरणस्थल"
+  },
+  "einkauf": {
+    "en": "the purchase",
+    "hi": "ख़रीदारी"
+  },
+  "nahrungsmittel": {
+    "en": "the food",
+    "hi": "खाना"
+  },
+  "metropole": {
+    "en": "the metropolis",
+    "hi": "महानगर"
+  },
+  "kissen": {
+    "en": "the pillow",
+    "hi": "तकिया"
+  },
+  "kündigung": {
+    "en": "the termination",
+    "hi": "समाप्ति"
+  },
+  "stockwerk": {
+    "en": "the floor",
+    "hi": "मंज़िल"
+  },
+  "jeans (pl.)": {
+    "en": "the jeans (pl.)",
+    "hi": "जीन्स (पी.एल.)"
+  },
+  "kopie": {
+    "en": "the copy",
+    "hi": "प्रतिलिपि"
+  },
+  "umzug": {
+    "en": "the move",
+    "hi": "चाल"
+  },
+  "butter": {
+    "en": "the butter",
+    "hi": "मक्खन"
+  },
+  "obst": {
+    "en": "the fruit",
+    "hi": "फल"
+  },
+  "ofen": {
+    "en": "the oven",
+    "hi": "ओवन"
+  },
+  "kreuzung": {
+    "en": "the crossing",
+    "hi": "क्रोसिंग"
+  },
+  "tablette": {
+    "en": "the tablet",
+    "hi": "गोली"
+  },
+  "gratulation": {
+    "en": "the congratulations",
+    "hi": "बधाई हो"
+  },
+  "geschwindigkeitsbeschränkung": {
+    "en": "the speed limit",
+    "hi": "गति सीमा"
+  },
+  "annonce": {
+    "en": "the advertisement",
+    "hi": "विज्ञापन"
+  },
+  "zange": {
+    "en": "the pliers",
+    "hi": "सरौता"
+  },
+  "kenntnisse (pl.)": {
+    "en": "the knowledge (pl.)",
+    "hi": "ज्ञान (पीएल)"
+  },
+  "haustier": {
+    "en": "the pet",
+    "hi": "पालतू"
+  },
+  "bahnsteig": {
+    "en": "the platform",
+    "hi": "प्लेटफ़ॉर्म"
+  },
+  "nagel": {
+    "en": "the nail",
+    "hi": "नाखून"
+  },
+  "chipkarte": {
+    "en": "the chip card",
+    "hi": "चिप कार्ड"
+  },
+  "dekorieren": {
+    "en": "decorate",
+    "hi": "सजाना"
+  },
+  "kuss": {
+    "en": "the kiss",
+    "hi": "चुम्बन"
+  },
+  "straßenbahn": {
+    "en": "the tram",
+    "hi": "ट्राम"
+  },
+  "blitz": {
+    "en": "the lightning",
+    "hi": "बिजली की चमक"
+  },
+  "vorort": {
+    "en": "the suburb",
+    "hi": "उपनगर"
+  },
+  "mobilität": {
+    "en": "the mobility",
+    "hi": "गतिशीलता"
+  },
+  "gitarre": {
+    "en": "the guitar",
+    "hi": "गिटार"
+  },
+  "prospekt": {
+    "en": "the prospectus",
+    "hi": "प्रॉस्पेक्टस"
+  },
+  "kantine": {
+    "en": "the canteen",
+    "hi": "कैंटीन"
+  },
+  "arbeitserlaubnis": {
+    "en": "the work permit",
+    "hi": "वर्क परमिट"
+  },
+  "drin": {
+    "en": "inside",
+    "hi": "अंदर"
+  },
+  "anrede": {
+    "en": "the salutation",
+    "hi": "नमस्कार"
+  },
+  "einfall": {
+    "en": "the idea",
+    "hi": "विचार"
+  },
+  "zuschlag": {
+    "en": "the surcharge",
+    "hi": "अधिभार"
+  },
+  "leder": {
+    "en": "the leather",
+    "hi": "चमड़ा"
+  },
+  "datei": {
+    "en": "the file",
+    "hi": "फ़ाइल"
+  },
+  "salbe": {
+    "en": "the ointment",
+    "hi": "मरहम"
+  },
+  "badewanne": {
+    "en": "the bathtub",
+    "hi": "बाथटब"
+  },
+  "überschrift": {
+    "en": "the headline",
+    "hi": "शीर्षक"
+  },
+  "wohnort": {
+    "en": "the place of residence",
+    "hi": "निवास स्थान"
+  },
+  "kaffeehaus": {
+    "en": "the coffee house",
+    "hi": "कॉफ़ी हाउस"
+  },
+  "verkehrszeichen": {
+    "en": "the traffic sign",
+    "hi": "यातायात चिन्ह"
+  },
+  "jugendherberge": {
+    "en": "the hostel",
+    "hi": "छात्रावास"
+  },
+  "waschmittel": {
+    "en": "the detergent",
+    "hi": "डिटर्जेंट"
+  },
+  "kugelschreiber": {
+    "en": "the ballpoint pen",
+    "hi": "बॉलपॉइंट कलम"
+  },
+  "einschreiben": {
+    "en": "the registered letter",
+    "hi": "पंजीकृत पत्र"
+  },
+  "gabel": {
+    "en": "the fork",
+    "hi": "कांटा"
+  },
+  "erkältung": {
+    "en": "the cold",
+    "hi": "ठंड"
+  },
+  "braten": {
+    "en": "the roast",
+    "hi": "भूनना"
+  },
+  "mobiltelefon": {
+    "en": "the cell phone",
+    "hi": "सेलफोन"
+  },
+  "kursleiter": {
+    "en": "the course leader",
+    "hi": "पाठ्यक्रम नेता"
+  },
+  "glückwunsch": {
+    "en": "the congratulations",
+    "hi": "बधाई हो"
+  },
+  "kunststoff": {
+    "en": "the plastic",
+    "hi": "प्लास्टिक"
+  },
+  "halbpension": {
+    "en": "the half board",
+    "hi": "आधा बोर्ड"
+  },
+  "klimaanlage": {
+    "en": "the air conditioning",
+    "hi": "एयर कंडीशनिंग"
+  },
+  "radfahrer": {
+    "en": "the cyclist",
+    "hi": "साइकिल चालक"
+  },
+  "taschentuch": {
+    "en": "the handkerchief",
+    "hi": "रूमाल"
+  },
+  "suchtmittel": {
+    "en": "the addictive substance",
+    "hi": "नशीला पदार्थ"
+  },
+  "hausaufgabe": {
+    "en": "the homework",
+    "hi": "ग्रहकार्य"
+  },
+  "kostüm": {
+    "en": "the costume",
+    "hi": "वेशभूषा"
+  },
+  "krankenpfleger": {
+    "en": "the nurse",
+    "hi": "नर्स"
+  },
+  "durcheinander": {
+    "en": "mixed up",
+    "hi": "मिलाया हुआ"
+  },
+  "fachleute (pl.)": {
+    "en": "the experts (pl.)",
+    "hi": "विशेषज्ञ (पी.एल.)"
+  },
+  "rind": {
+    "en": "the beef",
+    "hi": "गोमांस"
+  },
+  "diät": {
+    "en": "the diet",
+    "hi": "आहार"
+  },
+  "tankstelle": {
+    "en": "the gas station",
+    "hi": "गैस स्टेशन"
+  },
+  "durst": {
+    "en": "the thirst",
+    "hi": "प्यास"
+  },
+  "visitenkarte": {
+    "en": "the business card",
+    "hi": "बिज़नेस कार्ड"
+  },
+  "picknick": {
+    "en": "the picnic",
+    "hi": "पिकनिक"
+  },
+  "haltestelle": {
+    "en": "the bus stop",
+    "hi": "बस स्टॉप"
+  },
+  "müllabfuhr": {
+    "en": "the garbage disposal",
+    "hi": "कचरा निपटान"
+  },
+  "gaststätte": {
+    "en": "the restaurant",
+    "hi": "रेस्टोरेंट"
+  },
+  "quittung": {
+    "en": "the receipt",
+    "hi": "रसीद"
+  },
+  "hausmeister": {
+    "en": "the caretaker",
+    "hi": "रखवाला"
+  },
+  "soße/sauce": {
+    "en": "the gravy/sauce",
+    "hi": "ग्रेवी/सॉस"
+  },
+  "essig": {
+    "en": "the vinegar",
+    "hi": "सिरका"
+  },
+  "lerner": {
+    "en": "the learner",
+    "hi": "सीखने वाला"
+  },
+  "anmeldung": {
+    "en": "the registration",
+    "hi": "पंजीकरण"
+  },
+  "pfleger": {
+    "en": "the nurse",
+    "hi": "नर्स"
+  },
+  "krankenschwester": {
+    "en": "the nurse",
+    "hi": "नर्स"
+  },
+  "briefträger": {
+    "en": "the postman",
+    "hi": "डाकिया"
+  },
+  "kalender": {
+    "en": "the calendar",
+    "hi": "द कैलेंडर"
+  },
+  "pullover": {
+    "en": "the sweater",
+    "hi": "स्वेटर"
+  },
+  "bleistift": {
+    "en": "the pencil",
+    "hi": "पेन्सिल"
+  },
+  "weiterbildung": {
+    "en": "the further training",
+    "hi": "आगे का प्रशिक्षण"
+  },
+  "sucht": {
+    "en": "the addiction",
+    "hi": "लत"
+  },
+  "senioren (pl.)": {
+    "en": "the seniors (pl.)",
+    "hi": "वरिष्ठजन (पी.एल.)"
+  },
+  "gleis": {
+    "en": "the track",
+    "hi": "पटरी"
+  },
+  "profisportler": {
+    "en": "the professional athlete",
+    "hi": "पेशेवर एथलीट"
+  },
+  "tomate": {
+    "en": "the tomato",
+    "hi": "टमाटर"
+  },
+  "hammer": {
+    "en": "the hammer",
+    "hi": "हथौड़ा"
+  },
+  "reparatur": {
+    "en": "the repair",
+    "hi": "मरम्मत"
+  },
+  "abonnement": {
+    "en": "the subscription",
+    "hi": "सदस्यता"
+  },
+  "speisewagen": {
+    "en": "the dining car",
+    "hi": "डाइनिंग कार"
+  },
+  "einbrecher": {
+    "en": "the burglar",
+    "hi": "चोर"
+  },
+  "brötchen": {
+    "en": "the bread bun",
+    "hi": "ब्रेड बन"
+  },
+  "cafeteria": {
+    "en": "the cafeteria",
+    "hi": "अल्पाहार गृह"
+  },
+  "schaufenster": {
+    "en": "the shop window",
+    "hi": "दुकान की खिड़की"
+  },
+  "garantie": {
+    "en": "the guarantee",
+    "hi": "गारंटी"
+  },
+  "durchsage": {
+    "en": "the announcement",
+    "hi": "घोषणा"
+  },
+  "kreditkarte": {
+    "en": "the credit card",
+    "hi": "क्रेडिट कार्ड"
+  },
+  "referat": {
+    "en": "the report",
+    "hi": "रिपोर्ट"
+  },
+  "birne": {
+    "en": "the pear",
+    "hi": "नाशपाती"
+  },
+  "bankleitzahl": {
+    "en": "the bank sort number",
+    "hi": "बैंक सॉर्ट नंबर"
+  },
+  "garage": {
+    "en": "the garage",
+    "hi": "गेराज"
+  },
+  "spielzeug": {
+    "en": "the toy",
+    "hi": "खिलौना"
+  },
+  "plastik": {
+    "en": "the plastic",
+    "hi": "प्लास्टिक"
+  },
+  "spielplatz": {
+    "en": "the playground",
+    "hi": "खेल का मैदान"
+  },
+  "u-bahn": {
+    "en": "the subway",
+    "hi": "मेट्रो"
+  },
+  "bart": {
+    "en": "the beard",
+    "hi": "दाढ़ी"
+  },
+  "familienstand": {
+    "en": "the marital status",
+    "hi": "वैवाहिक स्थिति"
+  },
+  "reis": {
+    "en": "the rice",
+    "hi": "चावल"
+  },
+  "feier": {
+    "en": "the party",
+    "hi": "पार्टी"
+  },
+  "visum": {
+    "en": "the visa",
+    "hi": "आज्ञापत्र"
+  },
+  "wolle": {
+    "en": "the wool",
+    "hi": "ऊन"
+  },
+  "feiertag": {
+    "en": "the holiday",
+    "hi": "छुट्टियाँ"
+  },
+  "stecker": {
+    "en": "the plug",
+    "hi": "प्लग"
+  },
+  "müesli/müsli": {
+    "en": "the muesli/muesli",
+    "hi": "मूसली/मूसली"
+  },
+  "trinkgeld": {
+    "en": "the tip",
+    "hi": "नोक"
+  },
+  "geschirr": {
+    "en": "the dishes",
+    "hi": "व्यंजन"
+  },
+  "limonade": {
+    "en": "the lemonade",
+    "hi": "नींबू पानी"
+  },
+  "marmelade": {
+    "en": "the jam",
+    "hi": "जाम"
+  },
+  "vermieter": {
+    "en": "the landlord",
+    "hi": "मकान मालिक"
+  },
+  "kakao": {
+    "en": "the cocoa",
+    "hi": "कोको"
+  },
+  "inserat": {
+    "en": "the advertisement",
+    "hi": "विज्ञापन"
+  },
+  "schinken": {
+    "en": "the ham",
+    "hi": "हैम"
+  },
+  "schnupfen": {
+    "en": "the cold",
+    "hi": "ठंड"
+  },
+  "briefkasten": {
+    "en": "the mailbox",
+    "hi": "मेलबॉक्स"
+  },
+  "friseur": {
+    "en": "the hairdresser",
+    "hi": "केश प्रसाधक"
+  },
+  "schnitzel": {
+    "en": "the schnitzel",
+    "hi": "श्नाइटल"
+  },
+  "konsulat": {
+    "en": "the consulate",
+    "hi": "वाणिज्य दूतावास"
+  },
+  "broschüre": {
+    "en": "the brochure",
+    "hi": "ब्रोशर"
+  },
+  "zweitsprache": {
+    "en": "the second language",
+    "hi": "दूसरी भाषा"
+  },
+  "aufforderung": {
+    "en": "the request",
+    "hi": "प्रार्थना"
+  },
+  "saft": {
+    "en": "the juice",
+    "hi": "रस"
+  },
+  "überstunde": {
+    "en": "the overtime",
+    "hi": "ओवरटाइम"
+  },
+  "einzahlung": {
+    "en": "the deposit",
+    "hi": "जमा"
+  },
+  "fundbüro": {
+    "en": "the lost and found office",
+    "hi": "खोया और पाया कार्यालय"
+  },
+  "bremse": {
+    "en": "the brake",
+    "hi": "ब्रेक"
+  },
+  "schere": {
+    "en": "the scissors",
+    "hi": "कैंची"
+  },
+  "kopierer": {
+    "en": "the copier",
+    "hi": "कापियर"
+  },
+  "torte": {
+    "en": "the cake",
+    "hi": "केक"
+  },
+  "laufwerk": {
+    "en": "the drive",
+    "hi": "ड्राइव"
+  },
+  "grippe": {
+    "en": "the flu",
+    "hi": "फ़्लू"
+  },
+  "schmutz": {
+    "en": "the dirt",
+    "hi": "गंदगी"
+  },
+  "gewohnheit": {
+    "en": "the habit",
+    "hi": "आदत"
+  },
+  "automat": {
+    "en": "the machine",
+    "hi": "मशीन"
+  },
+  "mehrwertsteuer": {
+    "en": "the VAT",
+    "hi": "वैट"
+  },
+  "feuerzeug": {
+    "en": "the lighter",
+    "hi": "हल्का"
+  },
+  "wecker": {
+    "en": "the alarm clock",
+    "hi": "अलार्म घड़ी"
+  },
+  "eile": {
+    "en": "the rush",
+    "hi": "भीड़"
+  },
+  "stadtplan": {
+    "en": "the city map",
+    "hi": "शहर का नक्शा"
+  },
+  "bekannte": {
+    "en": "the acquaintance",
+    "hi": "परिचित"
+  },
+  "aprikose": {
+    "en": "the apricot",
+    "hi": "खुबानी"
+  },
+  "schüssel": {
+    "en": "the bowl",
+    "hi": "कटोरा"
+  },
+  "muttersprache": {
+    "en": "the native language",
+    "hi": "मूल भाषा"
+  },
+  "neuigkeit": {
+    "en": "the news",
+    "hi": "समाचार"
+  },
+  "ordner": {
+    "en": "the folder",
+    "hi": "फ़ोल्डर"
+  },
+  "hausfrau/der hausmann": {
+    "en": "the housewife/husband",
+    "hi": "गृहिणी/पति"
+  },
+  "drogerie": {
+    "en": "the drugstore",
+    "hi": "दवा की दुकान"
+  },
+  "fachmann die fachfrau": {
+    "en": "the expert the expert",
+    "hi": "विशेषज्ञ विशेषज्ञ"
+  },
+  "postleitzahl": {
+    "en": "the zip code",
+    "hi": "ज़िप कोड"
+  },
+  "garderobe": {
+    "en": "the wardrobe",
+    "hi": "अलमारी"
+  },
+  "hühnchen": {
+    "en": "the chicken",
+    "hi": "चिकन"
+  },
+  "fahrbahn": {
+    "en": "the roadway",
+    "hi": "सड़क मार्ग"
+  },
+  "abfalleimer": {
+    "en": "the trash can",
+    "hi": "कूड़ेदान"
+  },
+  "apotheke": {
+    "en": "the pharmacy",
+    "hi": "औषधि विज्ञान"
+  },
+  "spritze": {
+    "en": "the syringe",
+    "hi": "सिरिंज"
+  },
+  "schalter": {
+    "en": "the desk",
+    "hi": "डेस्क"
+  },
+  "praktikant": {
+    "en": "the intern",
+    "hi": "इंटर्न"
+  },
+  "briefumschlag": {
+    "en": "the envelope",
+    "hi": "लिफाफा"
+  },
+  "gewitter": {
+    "en": "the thunderstorm",
+    "hi": "आंधी"
+  },
+  "kriminalpolizei": {
+    "en": "the criminal police",
+    "hi": "आपराधिक पुलिस"
+  },
+  "salon": {
+    "en": "the salon",
+    "hi": "सैलून"
+  },
+  "doppel-": {
+    "en": "double",
+    "hi": "दोहरा"
+  },
+  "klassenarbeit": {
+    "en": "the class work",
+    "hi": "कक्षा का काम"
+  },
+  "umweltverschmutzung": {
+    "en": "the environmental pollution",
+    "hi": "पर्यावरण प्रदूषण"
+  },
+  "vermietung": {
+    "en": "the rental",
+    "hi": "किराया"
+  },
+  "formular": {
+    "en": "the form",
+    "hi": "फार्म"
+  },
+  "herd": {
+    "en": "the stove",
+    "hi": "चूल्हा"
+  },
+  "anleitung": {
+    "en": "the instructions",
+    "hi": "हिदायतें"
+  },
+  "reisebüro": {
+    "en": "the travel agency",
+    "hi": "दि ट्रैवल एजेंसी"
+  },
+  "entlassung": {
+    "en": "the dismissal",
+    "hi": "बर्खास्तगी"
+  },
+  "hackfleisch": {
+    "en": "the minced meat",
+    "hi": "कीमा बनाया हुआ मांस"
+  },
+  "bewerbung": {
+    "en": "the application",
+    "hi": "आवेदन पत्र"
+  },
+  "kuli": {
+    "en": "ballpen",
+    "hi": "बॉलपेन"
+  },
+  "mehl": {
+    "en": "the flour",
+    "hi": "आटा"
+  },
+  "donner": {
+    "en": "the thunder",
+    "hi": "गड़गड़ाहट"
+  },
+  "heimweh": {
+    "en": "the homesickness",
+    "hi": "घर की याद"
+  },
+  "panne": {
+    "en": "the breakdown",
+    "hi": "टूट जाना"
+  },
+  "scheidung": {
+    "en": "the divorce",
+    "hi": "तलाक"
+  },
+  "kranke": {
+    "en": "the sick person",
+    "hi": "बीमार व्यक्ति"
+  },
+  "verbrecher": {
+    "en": "the criminal",
+    "hi": "अपराधी"
+  },
+  "friede": {
+    "en": "the peace",
+    "hi": "शांति"
+  },
+  "socke": {
+    "en": "the sock",
+    "hi": "जुर्राब"
+  },
+  "besserung": {
+    "en": "the improvement",
+    "hi": "सुधार"
+  },
+  "kabel": {
+    "en": "the cable",
+    "hi": "केबल"
+  },
+  "rabatt": {
+    "en": "the discount",
+    "hi": "छूट"
+  },
+  "arbeitsstelle": {
+    "en": "the workplace",
+    "hi": "कार्यस्थल"
+  },
+  "übernachtung": {
+    "en": "the overnight stay",
+    "hi": "रात्रि विश्राम"
+  },
+  "besprechung": {
+    "en": "the meeting",
+    "hi": "बैठक"
+  },
+  "ernte": {
+    "en": "the harvest",
+    "hi": "फ़सल"
+  },
+  "überweisung": {
+    "en": "the transfer",
+    "hi": "स्थानांतरण"
+  },
+  "gasthaus": {
+    "en": "the inn",
+    "hi": "सराय"
+  },
+  "umtausch": {
+    "en": "the exchange",
+    "hi": "आदान-प्रदान"
+  },
+  "vase": {
+    "en": "the vase",
+    "hi": "फूलदान"
+  },
+  "nudel": {
+    "en": "the noodle",
+    "hi": "नूडल"
+  },
+  "aushilfe": {
+    "en": "the temporary help",
+    "hi": "अस्थायी मदद"
+  },
+  "dieb": {
+    "en": "the thief",
+    "hi": "चोर"
+  },
+  "konfitüre": {
+    "en": "the jam",
+    "hi": "जाम"
+  },
+  "tierpark": {
+    "en": "the zoo",
+    "hi": "चिड़ियाघर"
+  },
+  "unterlagen (pl.)": {
+    "en": "the documents (pl.)",
+    "hi": "दस्तावेज़ (पीएल)"
+  },
+  "lehrstelle": {
+    "en": "the apprenticeship",
+    "hi": "प्रशिक्षुता"
+  },
+  "familienname": {
+    "en": "the family name",
+    "hi": "परिवार का नाम"
+  },
+  "einbahnstraße": {
+    "en": "the one-way street",
+    "hi": "एक तरफ़ा सड़क"
+  },
+  "zirkus": {
+    "en": "the circus",
+    "hi": "सर्कस"
+  },
+  "terminkalender": {
+    "en": "the appointment calendar",
+    "hi": "नियुक्ति कैलेंडर"
+  },
+  "landung": {
+    "en": "the landing",
+    "hi": "अवतरण"
+  },
+  "briefmarke": {
+    "en": "the stamp",
+    "hi": "मोहर"
+  },
+  "zwiebel": {
+    "en": "the onion",
+    "hi": "प्याज"
+  },
+  "streik": {
+    "en": "the strike",
+    "hi": "हड़ताल"
+  },
+  "standpunkt": {
+    "en": "the point of view",
+    "hi": "दृष्टिकोण"
+  },
+  "fahrplan": {
+    "en": "the timetable",
+    "hi": "समय सारिणी"
+  },
+  "alphabet": {
+    "en": "the alphabet",
+    "hi": "वर्णमाला"
+  },
+  "kraftfahrzeug": {
+    "en": "the motor vehicle",
+    "hi": "मोटर वाहन"
+  },
+  "rückfahrt": {
+    "en": "the return journey",
+    "hi": "वापसी यात्रा"
+  },
+  "schirm": {
+    "en": "the umbrella",
+    "hi": "छाता"
+  },
+  "gebrauchsanweisung": {
+    "en": "the instructions for use",
+    "hi": "उपयोग के लिए निर्देश"
+  },
+  "schachtel": {
+    "en": "the box",
+    "hi": "बक्सा"
+  },
+  "bäckerei": {
+    "en": "the bakery",
+    "hi": "बेकरी"
+  },
+  "fantasie/phantasie": {
+    "en": "the fantasy/fantasy",
+    "hi": "कल्पना/कल्पना"
+  },
+  "urkunde": {
+    "en": "the certificate",
+    "hi": "प्रमाणपत्र"
+  },
+  "schreck(en)": {
+    "en": "the fright(s)",
+    "hi": "भय"
+  },
+  "laster": {
+    "en": "the vice",
+    "hi": "बुरी आदत"
+  },
+  "tagesablauf": {
+    "en": "the daily routine",
+    "hi": "दैनिक दिनचर्या"
+  },
+  "klick": {
+    "en": "the click",
+    "hi": "क्लिक"
+  },
+  "schmerzmittel": {
+    "en": "the painkiller",
+    "hi": "दर्दनिवारक"
+  },
+  "rufnummer": {
+    "en": "the phone number",
+    "hi": "फ़ोन नंबर"
+  },
+  "buffet": {
+    "en": "the buffet",
+    "hi": "बुफ़े"
+  },
+  "sehenswürdigkeit": {
+    "en": "the sight",
+    "hi": "नज़र"
+  },
+  "pommes frites (pl.)": {
+    "en": "the French fries (pl.)",
+    "hi": "फ्रेंच फ्राइज़ (पीएल)"
+  },
+  "notausgang": {
+    "en": "the emergency exit",
+    "hi": "आपातकालीन निकास"
+  },
+  "gebirge": {
+    "en": "the mountains",
+    "hi": "पहाड़ों"
+  },
+  "einfahrt": {
+    "en": "the entrance",
+    "hi": "प्रवेश द्वार"
+  },
+  "menü": {
+    "en": "the menu",
+    "hi": "मेनू"
+  },
+  "pflaster": {
+    "en": "the pavement",
+    "hi": "फुटपाथ"
+  },
+  "bluse": {
+    "en": "the blouse",
+    "hi": "ब्लाउज"
+  },
+  "zutaten (pl.)": {
+    "en": "the ingredients (pl.)",
+    "hi": "सामग्री (पीएल)"
+  },
+  "buchhandlung": {
+    "en": "the bookstore",
+    "hi": "दी बुकस्टोर"
+  },
+  "wörterbuch": {
+    "en": "the dictionary",
+    "hi": "शब्दकोष"
+  },
+  "nachhilfe": {
+    "en": "the tutoring",
+    "hi": "ट्यूशन"
+  },
+  "hallenbad": {
+    "en": "the indoor swimming pool",
+    "hi": "इनडोर स्विमिंग पूल"
+  },
+  "pech": {
+    "en": "the bad luck",
+    "hi": "दुर्भाग्य"
+  },
+  "sozialarbeiter": {
+    "en": "the social worker",
+    "hi": "सामाजिक कार्यकर्ता"
+  },
+  "fußgänger": {
+    "en": "the pedestrian",
+    "hi": "पदयात्री"
+  },
+  "mülltonne": {
+    "en": "the garbage can",
+    "hi": "कूड़ेदान"
+  },
+  "absender": {
+    "en": "the sender",
+    "hi": "प्रेषक"
+  },
+  "stau": {
+    "en": "the traffic jam",
+    "hi": "ट्रैफ़िक जाम"
+  },
+  "reklame": {
+    "en": "the advertisement",
+    "hi": "विज्ञापन"
+  },
+  "taste": {
+    "en": "the button",
+    "hi": "बटन"
+  },
+  "zahnbürste": {
+    "en": "the toothbrush",
+    "hi": "टूथब्रश"
+  },
+  "fotoapparat": {
+    "en": "the camera",
+    "hi": "कैमरा"
+  },
+  "fernbedienung": {
+    "en": "the remote control",
+    "hi": "रिमोट कंट्रोल"
+  },
+  "fußgängerzone": {
+    "en": "the pedestrian zone",
+    "hi": "पैदल यात्री क्षेत्र"
+  },
+  "stempel": {
+    "en": "the stamp",
+    "hi": "मोहर"
+  },
+  "tüte": {
+    "en": "the bag",
+    "hi": "बैग"
+  },
+  "verabredung": {
+    "en": "the appointment",
+    "hi": "नियुक्ति"
+  },
+  "drucker": {
+    "en": "the printer",
+    "hi": "मुद्रक"
+  },
+  "umweltschutz": {
+    "en": "the environmental protection",
+    "hi": "पर्यावरण संरक्षण"
+  },
+  "notfall": {
+    "en": "the emergency",
+    "hi": "आपातकाल"
+  },
+  "aufzug": {
+    "en": "the elevator",
+    "hi": "लिफ्ट"
+  },
+  "krankenwagen": {
+    "en": "the ambulance",
+    "hi": "एम्बुलेंस"
+  },
+  "ausweis": {
+    "en": "the ID card",
+    "hi": "आईडी कार्ड"
+  },
+  "batterie": {
+    "en": "the battery",
+    "hi": "बैटरी"
+  },
+  "durstig": {
+    "en": "thirsty",
+    "hi": "प्यासा"
+  },
+  "betreuer": {
+    "en": "the supervisor",
+    "hi": "पर्यवेक्षक"
+  },
+  "kassette": {
+    "en": "the cassette",
+    "hi": "कैसेट"
+  },
+  "mineralwasser": {
+    "en": "the mineral water",
+    "hi": "मिनरल वॉटर"
+  },
+  "erdgeschoss/ergeschoß": {
+    "en": "the ground floor/first floor",
+    "hi": "भूतल/पहली मंजिल"
+  },
+  "löffel": {
+    "en": "the spoon",
+    "hi": "चम्मच"
+  },
+  "katalog": {
+    "en": "the catalogue",
+    "hi": "कैटलॉग"
+  },
+  "lehrling": {
+    "en": "the apprentice",
+    "hi": "शिक्षार्थी"
+  },
+  "orange": {
+    "en": "the orange",
+    "hi": "संतरा"
+  },
+  "speisekarte": {
+    "en": "the menu",
+    "hi": "मेनू"
+  },
+  "stiefel": {
+    "en": "the boot",
+    "hi": "उपाय"
+  },
+  "reifen": {
+    "en": "the tire",
+    "hi": "टायर"
+  },
+  "girokonto": {
+    "en": "the checking account",
+    "hi": "चेकिंग खाता"
+  },
+  "anrufbeantworter": {
+    "en": "the answering machine",
+    "hi": "उत्तर देने वाली मशीन"
+  },
+  "basketball": {
+    "en": "the basketball",
+    "hi": "बास्केटबॉल"
+  },
+  "zertifikat": {
+    "en": "the certificate",
+    "hi": "प्रमाणपत्र"
+  },
+  "zinsen (pl.)": {
+    "en": "interest (pl.)",
+    "hi": "ब्याज (पीएल)"
+  },
+  "mobilbox": {
+    "en": "the mobile box",
+    "hi": "मोबाइल बॉक्स"
+  },
+  "quiz": {
+    "en": "the quiz",
+    "hi": "प्रश्नोत्तरी"
+  },
+  "sprechstunde": {
+    "en": "the consultation hour",
+    "hi": "परामर्श का समय"
+  },
+  "salat": {
+    "en": "the salad",
+    "hi": "सलाद"
+  },
+  "monitor": {
+    "en": "the monitor",
+    "hi": "मॉनिटर"
+  },
+  "gebäck": {
+    "en": "the pastry",
+    "hi": "पेस्ट्री"
+  },
+  "hähnchen": {
+    "en": "the chicken",
+    "hi": "चिकन"
+  },
+  "parfüm": {
+    "en": "the perfume",
+    "hi": "इत्र"
+  },
+  "hinweise": {
+    "en": "of the clues",
+    "hi": "सुरागों का"
+  },
+  "margarine": {
+    "en": "the margarine",
+    "hi": "मार्जरीन"
+  },
+  "verkehrsmittel": {
+    "en": "the means of transport",
+    "hi": "परिवहन के साधन"
+  },
+  "mappe": {
+    "en": "the folder",
+    "hi": "फ़ोल्डर"
+  },
+  "fortbildung": {
+    "en": "the training",
+    "hi": "प्रशिक्षण"
+  },
+  "vollzeit": {
+    "en": "the full time",
+    "hi": "पूरा समय"
+  },
+  "reservierung": {
+    "en": "the reservation",
+    "hi": "आरक्षण"
+  },
+  "duzen": {
+    "en": "first name",
+    "hi": "पहला नाम"
+  },
+  "studierende": {
+    "en": "the student",
+    "hi": "छात्र"
+  },
+  "neffe": {
+    "en": "the nephew",
+    "hi": "भतीजा"
+  },
+  "zahncreme/-pasta": {
+    "en": "the toothpaste/paste",
+    "hi": "टूथपेस्ट/पेस्ट"
+  },
+  "taschengeld": {
+    "en": "the pocket money",
+    "hi": "जेब खर्च"
+  },
+  "strumpf": {
+    "en": "the stocking",
+    "hi": "मोजा"
+  },
+  "bedienungsanleitung": {
+    "en": "the operating instructions",
+    "hi": "परिचालन निर्देश"
+  },
+  "apartment": {
+    "en": "the apartment",
+    "hi": "वह कमरा"
+  },
+  "schwimmbad": {
+    "en": "the swimming pool",
+    "hi": "तरणताल"
+  },
+  "treffpunkt": {
+    "en": "the meeting point",
+    "hi": "मिलन स्थल"
+  },
+  "mechaniker": {
+    "en": "the mechanic",
+    "hi": "मैकेनिक"
+  },
+  "streichholz": {
+    "en": "the match",
+    "hi": "मैच"
+  },
+  "erlaubnis": {
+    "en": "the permission",
+    "hi": "अनुमति"
+  },
+  "creme": {
+    "en": "the cream",
+    "hi": "क्रीम"
+  },
+  "ballett": {
+    "en": "the ballet",
+    "hi": "बैले"
+  },
+  "feierabend": {
+    "en": "the end of the day",
+    "hi": "अंतत"
+  },
+  "hauptbahnhof": {
+    "en": "the main station",
+    "hi": "मुख्य स्टेशन"
+  },
+  "vorfahrt": {
+    "en": "the right of way",
+    "hi": "रास्ते का अधिकार"
+  },
+  "fähre": {
+    "en": "the ferry",
+    "hi": "नौका"
+  },
+  "bohne": {
+    "en": "the bean",
+    "hi": "बीन"
+  },
+  "reportage": {
+    "en": "the report",
+    "hi": "रिपोर्ट"
+  },
+  "zoll": {
+    "en": "the customs",
+    "hi": "सीमाशुल्क विभाग"
+  },
+  "zitrone": {
+    "en": "the lemon",
+    "hi": "नींबू"
+  },
+  "krimi": {
+    "en": "the crime thriller",
+    "hi": "अपराध थ्रिलर"
+  },
+  "mahnung": {
+    "en": "the reminder",
+    "hi": "अनुस्मारक"
+  },
+  "suppe": {
+    "en": "the soup",
+    "hi": "सूप"
+  },
+  "verlierer": {
+    "en": "the loser",
+    "hi": "हारने वाला"
+  },
+  "reinigung": {
+    "en": "the cleaning",
+    "hi": "सफ़ाई"
+  },
+  "verspätung": {
+    "en": "the delay",
+    "hi": "विलंब"
+  },
+  "pflaume": {
+    "en": "the plum",
+    "hi": "बेर"
+  },
+  "sonderangebot": {
+    "en": "the special offer",
+    "hi": "विशेष पेशकश"
+  },
+  "verhalten": {
+    "en": "the behavior",
+    "hi": "व्यवहार"
+  },
+  "alarm": {
+    "en": "the alarm",
+    "hi": "अलार्म"
+  },
+  "diskothek": {
+    "en": "the discotheque",
+    "hi": "डिस्कोथेक"
+  },
+  "gymnastik": {
+    "en": "the gymnastics",
+    "hi": "जिम्नास्टिक"
+  },
+  "versichertenkarte": {
+    "en": "the insurance card",
+    "hi": "बीमा कार्ड"
+  },
+  "aussprache": {
+    "en": "the pronunciation",
+    "hi": "इसका उच्चारण"
+  },
+  "lebenslauf": {
+    "en": "the CV",
+    "hi": "सी.वी"
+  },
+  "kloß": {
+    "en": "the dumpling",
+    "hi": "पकौड़ी"
+  },
+  "seife": {
+    "en": "the soap",
+    "hi": "साबुन"
+  },
+  "wohnsitz": {
+    "en": "the residence",
+    "hi": "निवास"
+  },
+  "notaufnahme": {
+    "en": "the emergency room",
+    "hi": "आपातकालीन कक्ष"
+  },
+  "intensivkurs": {
+    "en": "the intensive course",
+    "hi": "गहन पाठ्यक्रम"
+  },
+  "donnern": {
+    "en": "thunder",
+    "hi": "गड़गड़ाहट"
+  },
+  "bestätigung": {
+    "en": "the confirmation",
+    "hi": "पुष्टि"
+  },
+  "nichtraucher": {
+    "en": "the non-smoker",
+    "hi": "धूम्रपान न करने वाला"
+  },
+  "vertretung": {
+    "en": "the representation",
+    "hi": "प्रतिनिधित्व"
+  },
+  "betriebsrat": {
+    "en": "the works council",
+    "hi": "कार्य परिषद"
+  },
+  "gewürz": {
+    "en": "the spice",
+    "hi": "मसाला"
+  },
+  "ampel": {
+    "en": "the traffic light",
+    "hi": "ट्रैफिक लाइट"
+  },
+  "portion": {
+    "en": "the portion",
+    "hi": "भाग"
+  },
+  "wäsche": {
+    "en": "the laundry",
+    "hi": "धोने वाले कपड़े"
+  },
+  "mensa": {
+    "en": "the cafeteria",
+    "hi": "अल्पाहार गृह"
+  },
+  "erholung": {
+    "en": "the recovery",
+    "hi": "वसूली"
+  },
+  "couch": {
+    "en": "the couch",
+    "hi": "सोफ़ा"
+  },
+  "heizung": {
+    "en": "the heating system",
+    "hi": "हीटिंग सिस्टम"
+  },
+  "handwerker": {
+    "en": "the craftsman",
+    "hi": "शिल्पकार"
+  },
+  "kanne": {
+    "en": "the pot",
+    "hi": "बरतन"
+  },
+  "stift": {
+    "en": "the pencil",
+    "hi": "पेन्सिल"
+  },
+  "ansage": {
+    "en": "the announcement",
+    "hi": "घोषणा"
+  },
+  "klingel": {
+    "en": "the bell",
+    "hi": "घंटी"
+  },
+  "frisur": {
+    "en": "the hairstyle",
+    "hi": "केश"
+  },
+  "schmuck": {
+    "en": "the jewelry",
+    "hi": "ज़ेवर"
+  },
+  "appetit": {
+    "en": "the appetite",
+    "hi": "भूख"
+  },
+  "führerschein": {
+    "en": "the driver's license",
+    "hi": "ड्राइवर का लाइसेंस"
+  },
+  "banane": {
+    "en": "the banana",
+    "hi": "केला"
+  },
+  "gebühr": {
+    "en": "the fee",
+    "hi": "शुल्क"
+  },
+  "benzin": {
+    "en": "the gasoline",
+    "hi": "गैसोलीन"
+  },
+  "raucher": {
+    "en": "the smoker",
+    "hi": "धूम्रपान करने वाला"
+  },
+  "souvenir": {
+    "en": "the souvenir",
+    "hi": "स्मारिका"
+  },
+  "umleitung": {
+    "en": "the redirection",
+    "hi": "पुनर्निर्देशन"
+  },
+  "ski/schi": {
+    "en": "the ski/ski",
+    "hi": "स्की/स्की"
+  },
+  "lautsprecher": {
+    "en": "the speaker",
+    "hi": "वक्ता"
+  },
+  "personalien (pl.)": {
+    "en": "the personal details (pl.)",
+    "hi": "व्यक्तिगत विवरण (pl.)"
+  },
+  "versammlung": {
+    "en": "the assembly",
+    "hi": "सभा"
+  },
+  "mieter": {
+    "en": "the tenant",
+    "hi": "किरायेदार"
+  },
+  "zoo": {
+    "en": "the zoo",
+    "hi": "चिड़ियाघर"
+  },
+  "flöte": {
+    "en": "the flute",
+    "hi": "बांसुरी"
+  },
+  "nichte": {
+    "en": "the niece",
+    "hi": "भतीजी"
+  },
+  "flohmarkt": {
+    "en": "the flea market",
+    "hi": "पिस्सू बाजार"
+  },
+  "bauernhof": {
+    "en": "the farm",
+    "hi": "खेत"
+  },
+  "nachspeise": {
+    "en": "the dessert",
+    "hi": "भोजन के बाद मीठा"
+  },
+  "nadel": {
+    "en": "the needle",
+    "hi": "सुई"
+  },
+  "wettervorhersage": {
+    "en": "the weather forecast",
+    "hi": "मौसम के पूर्वानुमान"
+  },
+  "steward": {
+    "en": "the steward",
+    "hi": "भण्डारी"
+  },
+  "grill": {
+    "en": "the grill",
+    "hi": "ग्रिल"
+  },
+  "notruf": {
+    "en": "the emergency call",
+    "hi": "आपातकालीन कॉल"
+  },
+  "honig": {
+    "en": "the honey",
+    "hi": "शहद"
+  },
+  "steckdose": {
+    "en": "the socket",
+    "hi": "सॉकेट"
+  },
+  "lexikon": {
+    "en": "the lexicon",
+    "hi": "शब्दकोष"
+  },
+  "rundfahrt": {
+    "en": "the tour",
+    "hi": "यात्रा"
+  },
+  "kennzeichen": {
+    "en": "the license plate",
+    "hi": "लाइसेंस प्लेट"
+  },
+  "fahrkarte": {
+    "en": "the ticket",
+    "hi": "टिकट"
+  },
+  "ausfahrt": {
+    "en": "the exit",
+    "hi": "बाहर जाएं"
+  },
+  "pille": {
+    "en": "the pill",
+    "hi": "गोली"
+  },
+  "tastatur": {
+    "en": "the keyboard",
+    "hi": "कुंजीपटल"
+  },
+  "eisenbahn": {
+    "en": "the railway",
+    "hi": "रेल"
+  },
+  "vorstellungsgespräch": {
+    "en": "the interview",
+    "hi": "साक्षात्कार"
+  },
+  "kiosk": {
+    "en": "the kiosk",
+    "hi": "कियॉस्क"
+  },
+  "bürste": {
+    "en": "the brush",
+    "hi": "ब्रश"
+  },
+  "krankenkasse": {
+    "en": "the health insurance company",
+    "hi": "स्वास्थ्य बीमा कंपनी"
+  },
+  "pizza": {
+    "en": "the pizza",
+    "hi": "पिज़्ज़ा"
+  },
+  "teilzeit": {
+    "en": "the part time",
+    "hi": "अंशकालिक"
+  },
+  "vorwahl": {
+    "en": "the area code",
+    "hi": "क्षेत्र कोड"
+  },
+  "festplatte": {
+    "en": "the hard drive",
+    "hi": "हार्ड ड्राइव"
+  },
+  "sahne": {
+    "en": "the cream",
+    "hi": "क्रीम"
+  },
+  "pfeffer": {
+    "en": "the pepper",
+    "hi": "कागज"
+  },
+  "diplom": {
+    "en": "the diploma",
+    "hi": "डिप्लोमा"
+  },
+  "strafzettel": {
+    "en": "the traffic ticket",
+    "hi": "यातायात टिकट"
+  },
+  "langeweile": {
+    "en": "the boredom",
+    "hi": "उदासी"
+  },
+  "wetterbericht": {
+    "en": "the weather report",
+    "hi": "मौसम रिपोर्ट"
+  },
+  "ermäßigung": {
+    "en": "the discount",
+    "hi": "छूट"
+  },
+  "tote": {
+    "en": "the dead man",
+    "hi": "मरा हुआ आदमी"
+  },
+  "ein-": {
+    "en": "a-",
+    "hi": "ए-"
+  },
+  "es": {
+    "en": "it",
+    "hi": "यह"
+  },
+  "etwas": {
+    "en": "something",
+    "hi": "कुछ"
+  },
+  "einmal": {
+    "en": "once",
+    "hi": "एक बार"
+  },
+  "einfach": {
+    "en": "simply",
+    "hi": "केवल"
+  },
+  "erst": {
+    "en": "first",
+    "hi": "पहला"
+  },
+  "erst-": {
+    "en": "first-",
+    "hi": "पहला-"
+  },
+  "eigentlich": {
+    "en": "actually",
+    "hi": "वास्तव में"
+  },
+  "eigen-": {
+    "en": "own",
+    "hi": "अपना"
+  },
+  "etwa": {
+    "en": "approximately",
+    "hi": "लगभग"
+  },
+  "eben": {
+    "en": "even",
+    "hi": "यहां तक ​​की"
+  },
+  "erklären": {
+    "en": "explain",
+    "hi": "व्याख्या करना"
+  },
+  "erzählen": {
+    "en": "tell",
+    "hi": "कहना"
+  },
+  "entstehen": {
+    "en": "arise",
+    "hi": "उठना"
+  },
+  "erhalten": {
+    "en": "receive",
+    "hi": "प्राप्त करें"
+  },
+  "einzeln": {
+    "en": "individually",
+    "hi": "व्यक्तिगत रूप से"
+  },
+  "erreichen": {
+    "en": "to reach",
+    "hi": "तक पहुँचने"
+  },
+  "eher": {
+    "en": "rather",
+    "hi": "की अपेक्षा"
+  },
+  "essen": {
+    "en": "eat",
+    "hi": "खाओ"
+  },
+  "einzig-": {
+    "en": "only-",
+    "hi": "केवल-"
+  },
+  "erkennen": {
+    "en": "recognize",
+    "hi": "पहचानना"
+  },
+  "entwickeln": {
+    "en": "develop",
+    "hi": "विकास करना"
+  },
+  "erwarten": {
+    "en": "expect",
+    "hi": "अपेक्षा करना"
+  },
+  "erinnern": {
+    "en": "remember",
+    "hi": "याद करना"
+  },
+  "entscheiden": {
+    "en": "decide",
+    "hi": "तय करना"
+  },
+  "ebenfalls": {
+    "en": "also",
+    "hi": "भी"
+  },
+  "endlich": {
+    "en": "finally",
+    "hi": "अंत में"
+  },
+  "einsetzen": {
+    "en": "insert",
+    "hi": "डालना"
+  },
+  "ebenso": {
+    "en": "as well",
+    "hi": "भी"
+  },
+  "enthalten": {
+    "en": "contain",
+    "hi": "रोकना"
+  },
+  "erleben": {
+    "en": "experience",
+    "hi": "अनुभव"
+  },
+  "eng": {
+    "en": "closely",
+    "hi": "बारीकी से"
+  },
+  "erhöhen": {
+    "en": "increase",
+    "hi": "बढ़ोतरी"
+  },
+  "echt": {
+    "en": "real",
+    "hi": "असली"
+  },
+  "erfahren": {
+    "en": "experience",
+    "hi": "अनुभव"
+  },
+  "erfolgreich": {
+    "en": "successful",
+    "hi": "सफल"
+  },
+  "entdecken": {
+    "en": "discover",
+    "hi": "खोज करना"
+  },
+  "erfüllen": {
+    "en": "fulfill",
+    "hi": "पूरा"
+  },
+  "egal": {
+    "en": "doesn't matter",
+    "hi": "कोई फर्क नहीं पड़ता"
+  },
+  "erlauben": {
+    "en": "allow",
+    "hi": "अनुमति दें"
+  },
+  "ernst": {
+    "en": "serious",
+    "hi": "गंभीर"
+  },
+  "einstellen": {
+    "en": "set",
+    "hi": "तय करना"
+  },
+  "elektrisch": {
+    "en": "electric",
+    "hi": "इलेक्ट्रिक"
+  },
+  "einfallen": {
+    "en": "come up",
+    "hi": "आएं"
+  },
+  "extrem": {
+    "en": "extreme",
+    "hi": "चरम"
+  },
+  "entfernen": {
+    "en": "remove",
+    "hi": "निकालना"
+  },
+  "eindeutig": {
+    "en": "clearly",
+    "hi": "स्पष्ट रूप से"
+  },
+  "eintreten": {
+    "en": "enter",
+    "hi": "प्रवेश करना"
+  },
+  "einladen": {
+    "en": "invite",
+    "hi": "आमंत्रित करना"
+  },
+  "enden": {
+    "en": "end",
+    "hi": "अंत"
+  },
+  "eröffnen": {
+    "en": "open",
+    "hi": "खुला"
+  },
+  "ersetzen": {
+    "en": "substitute",
+    "hi": "विकल्प"
+  },
+  "empfehlen": {
+    "en": "recommend",
+    "hi": "अनुशंसा करना"
+  },
+  "einführen": {
+    "en": "introduce",
+    "hi": "परिचय देना"
+  },
+  "ehrlich": {
+    "en": "honest",
+    "hi": "ईमानदार"
+  },
+  "entlang": {
+    "en": "along",
+    "hi": "साथ में"
+  },
+  "einerseits": {
+    "en": "on the one hand",
+    "hi": "एक ओर"
+  },
+  "erforderlich": {
+    "en": "necessary",
+    "hi": "ज़रूरी"
+  },
+  "elektronisch": {
+    "en": "electronically",
+    "hi": "इलेक्ट्रॉनिक रूप से"
+  },
+  "endgültig": {
+    "en": "finally",
+    "hi": "अंत में"
+  },
+  "ewig": {
+    "en": "forever",
+    "hi": "हमेशा के लिए"
+  },
+  "einnehmen": {
+    "en": "take",
+    "hi": "लेना"
+  },
+  "ergänzen": {
+    "en": "add to",
+    "hi": "इसमें जोड़ें"
+  },
+  "erschrecken": {
+    "en": "scare",
+    "hi": "डराना"
+  },
+  "entschuldigen": {
+    "en": "excuse",
+    "hi": "क्षमा"
+  },
+  "erleichtern": {
+    "en": "facilitate",
+    "hi": "आसान करना"
+  },
+  "enttäuschen": {
+    "en": "disappoint",
+    "hi": "निराश"
+  },
+  "einrichten": {
+    "en": "furnish",
+    "hi": "प्रस्तुत"
+  },
+  "erfinden": {
+    "en": "invent",
+    "hi": "आविष्कार करना"
+  },
+  "erfordern": {
+    "en": "require",
+    "hi": "ज़रूरत होना"
+  },
+  "eventuell": {
+    "en": "possibly",
+    "hi": "संभवत:"
+  },
+  "erledigen": {
+    "en": "complete",
+    "hi": "पूरा"
+  },
+  "erstellen": {
+    "en": "create",
+    "hi": "बनाएं"
+  },
+  "einsam": {
+    "en": "lonely",
+    "hi": "अकेला"
+  },
+  "ernsthaft": {
+    "en": "seriously",
+    "hi": "गंभीरता से"
+  },
+  "empfangen": {
+    "en": "received",
+    "hi": "प्राप्त"
+  },
+  "einziehen": {
+    "en": "move in",
+    "hi": "में स्थानांतरित"
+  },
+  "entlassen": {
+    "en": "dismissed",
+    "hi": "ख़ारिज"
+  },
+  "einsteigen": {
+    "en": "get in",
+    "hi": "अंदर आना"
+  },
+  "einheitlich": {
+    "en": "uniform",
+    "hi": "वर्दी"
+  },
+  "einkaufen": {
+    "en": "shopping",
+    "hi": "खरीदारी"
+  },
+  "eintragen": {
+    "en": "register",
+    "hi": "पंजीकरण करवाना"
+  },
+  "extra": {
+    "en": "extra",
+    "hi": "अतिरिक्त"
+  },
+  "einig-": {
+    "en": "agree-",
+    "hi": "सहमत होना-"
+  },
+  "erwachsen": {
+    "en": "adult",
+    "hi": "वयस्क"
+  },
+  "einschalten": {
+    "en": "turn on",
+    "hi": "चालू करो"
+  },
+  "elegant": {
+    "en": "elegant",
+    "hi": "सुरुचिपूर्ण"
+  },
+  "einschließlich": {
+    "en": "including",
+    "hi": "शामिल"
+  },
+  "ernähren": {
+    "en": "feed",
+    "hi": "खिलाना"
+  },
+  "einverstanden": {
+    "en": "agreed",
+    "hi": "मान गया"
+  },
+  "entgegenkommen": {
+    "en": "accommodate",
+    "hi": "समायोजित करना"
+  },
+  "eilen": {
+    "en": "rush",
+    "hi": "जल्दबाज़ी करना"
+  },
+  "entschlossen": {
+    "en": "determined",
+    "hi": "दृढ़ निश्चय वाला"
+  },
+  "einzahlen": {
+    "en": "deposit",
+    "hi": "जमा"
+  },
+  "ein bisschen": {
+    "en": "a little bit",
+    "hi": "थोड़ा सा"
+  },
+  "entspannend": {
+    "en": "relaxing",
+    "hi": "आराम"
+  },
+  "eilig": {
+    "en": "hurry",
+    "hi": "जल्दी"
+  },
+  "einzel-": {
+    "en": "single",
+    "hi": "अकेला"
+  },
+  "erziehen": {
+    "en": "educate",
+    "hi": "शिक्षित"
+  },
+  "erkältet": {
+    "en": "caught a cold",
+    "hi": "जुकाम ने जकड़ा"
+  },
+  "eckig": {
+    "en": "square",
+    "hi": "वर्ग"
+  },
+  "einfügen": {
+    "en": "insert",
+    "hi": "डालना"
+  },
+  "einpacken": {
+    "en": "pack up",
+    "hi": "छोड़ना"
+  },
+  "entsorgen": {
+    "en": "dispose",
+    "hi": "निपटान"
+  },
+  "(ein) paar": {
+    "en": "(a couple",
+    "hi": "(एक जोड़ी"
+  },
+  "elektro-": {
+    "en": "electrical",
+    "hi": "विद्युतीय"
+  },
+  "erschöpft": {
+    "en": "exhausted",
+    "hi": "थका हुआ"
+  },
+  "einbrechen": {
+    "en": "break in",
+    "hi": "डाका डालना"
+  },
+  "entweder … oder": {
+    "en": "either ... or",
+    "hi": "या तो यह या वह"
+  },
+  "für": {
+    "en": "for",
+    "hi": "के लिए"
+  },
+  "finden": {
+    "en": "find",
+    "hi": "खोजो"
+  },
+  "fragen": {
+    "en": "questions",
+    "hi": "प्रश्न"
+  },
+  "folgen": {
+    "en": "consequences",
+    "hi": "नतीजे"
+  },
+  "führen": {
+    "en": "lead",
+    "hi": "नेतृत्व करना"
+  },
+  "fast": {
+    "en": "almost",
+    "hi": "लगभग"
+  },
+  "fahren": {
+    "en": "drive",
+    "hi": "गाड़ी चलाना"
+  },
+  "frei": {
+    "en": "free",
+    "hi": "मुक्त"
+  },
+  "fallen": {
+    "en": "fall",
+    "hi": "गिरना"
+  },
+  "früh": {
+    "en": "early",
+    "hi": "जल्दी"
+  },
+  "fühlen": {
+    "en": "feel",
+    "hi": "अनुभव करना"
+  },
+  "früher/früher-": {
+    "en": "earlier/earlier-",
+    "hi": "पहले/पहले-"
+  },
+  "fehlen": {
+    "en": "miss",
+    "hi": "याद"
+  },
+  "falsch": {
+    "en": "incorrect",
+    "hi": "गलत"
+  },
+  "fest": {
+    "en": "firmly",
+    "hi": "दृढ़ता से"
+  },
+  "fordern": {
+    "en": "demand",
+    "hi": "माँग"
+  },
+  "funktionieren": {
+    "en": "function",
+    "hi": "समारोह"
+  },
+  "feststellen": {
+    "en": "notice",
+    "hi": "सूचना"
+  },
+  "fliegen": {
+    "en": "fly",
+    "hi": "उड़ना"
+  },
+  "fremd": {
+    "en": "foreign",
+    "hi": "विदेश"
+  },
+  "feiern": {
+    "en": "celebrate",
+    "hi": "जश्न मनाना"
+  },
+  "fördern": {
+    "en": "support financially",
+    "hi": "आर्थिक रूप से समर्थन करें"
+  },
+  "fassen": {
+    "en": "grasp",
+    "hi": "पकड़"
+  },
+  "falls": {
+    "en": "if",
+    "hi": "अगर"
+  },
+  "frisch": {
+    "en": "fresh",
+    "hi": "ताजा"
+  },
+  "finanziell": {
+    "en": "financially",
+    "hi": "आर्थिक रूप से"
+  },
+  "festhalten": {
+    "en": "hold onto",
+    "hi": "पकड़ो"
+  },
+  "froh": {
+    "en": "glad",
+    "hi": "खुश"
+  },
+  "festlegen": {
+    "en": "establish",
+    "hi": "स्थापित करना"
+  },
+  "freundlich": {
+    "en": "friendly",
+    "hi": "दोस्ताना"
+  },
+  "freiwillig": {
+    "en": "voluntarily",
+    "hi": "स्वेच्छा से"
+  },
+  "fließen": {
+    "en": "flow",
+    "hi": "प्रवाह"
+  },
+  "fortsetzen": {
+    "en": "continue",
+    "hi": "जारी रखना"
+  },
+  "fangen": {
+    "en": "catch",
+    "hi": "पकड़ना"
+  },
+  "finanzieren": {
+    "en": "finance",
+    "hi": "वित्त"
+  },
+  "flach": {
+    "en": "flat",
+    "hi": "समतल"
+  },
+  "fliehen": {
+    "en": "flee",
+    "hi": "भाग जाना"
+  },
+  "fair": {
+    "en": "fair",
+    "hi": "गोरा"
+  },
+  "flexibel": {
+    "en": "flexible",
+    "hi": "लचीला"
+  },
+  "fressen": {
+    "en": "eat",
+    "hi": "खाओ"
+  },
+  "feucht": {
+    "en": "moist",
+    "hi": "नम"
+  },
+  "furchtbar": {
+    "en": "terrible",
+    "hi": "भयानक"
+  },
+  "fröhlich": {
+    "en": "cheerful",
+    "hi": "हंसमुख"
+  },
+  "festnehmen": {
+    "en": "arrest",
+    "hi": "गिरफ़्तारी"
+  },
+  "feststehen": {
+    "en": "stand firm",
+    "hi": "दृढ़ रहो"
+  },
+  "fotografieren": {
+    "en": "photograph",
+    "hi": "फोटो"
+  },
+  "fließend": {
+    "en": "fluent",
+    "hi": "प्रवाहमय"
+  },
+  "füttern": {
+    "en": "feed",
+    "hi": "खिलाना"
+  },
+  "faul": {
+    "en": "lazy",
+    "hi": "आलसी"
+  },
+  "fantastisch": {
+    "en": "fantastic",
+    "hi": "ज़बरदस्त"
+  },
+  "frühstücken": {
+    "en": "have breakfast",
+    "hi": "नाश्ता कर लो"
+  },
+  "farbig": {
+    "en": "colored",
+    "hi": "रंगीन"
+  },
+  "fleißig": {
+    "en": "diligent",
+    "hi": "परिश्रमी"
+  },
+  "fertig": {
+    "en": "complete",
+    "hi": "पूरा"
+  },
+  "festsetzen": {
+    "en": "fix",
+    "hi": "हल करना"
+  },
+  "faulenzen": {
+    "en": "laze around",
+    "hi": "चारों ओर आलसी होना"
+  },
+  "folgend": {
+    "en": "following",
+    "hi": "अगले"
+  },
+  "frieren": {
+    "en": "freeze",
+    "hi": "जमाना"
+  },
+  "fällig": {
+    "en": "due",
+    "hi": "देय"
+  },
+  "frech": {
+    "en": "cheeky",
+    "hi": "मुखर"
+  },
+  "geben": {
+    "en": "give",
+    "hi": "देना"
+  },
+  "gehen": {
+    "en": "go",
+    "hi": "जाना"
+  },
+  "groß": {
+    "en": "large",
+    "hi": "बड़ा"
+  },
+  "ganz": {
+    "en": "quite",
+    "hi": "अत्यंत"
+  },
+  "gut": {
+    "en": "good",
+    "hi": "अच्छा"
+  },
+  "gegen": {
+    "en": "against",
+    "hi": "ख़िलाफ़"
+  },
+  "gleich": {
+    "en": "even",
+    "hi": "यहां तक ​​की"
+  },
+  "glauben": {
+    "en": "believe",
+    "hi": "विश्वास"
+  },
+  "gelten": {
+    "en": "apply",
+    "hi": "आवेदन करना"
+  },
+  "gerade": {
+    "en": "straight",
+    "hi": "सीधा"
+  },
+  "gar": {
+    "en": "even",
+    "hi": "यहां तक ​​की"
+  },
+  "genau": {
+    "en": "Exactly",
+    "hi": "बिल्कुल"
+  },
+  "gern/gerne": {
+    "en": "gladly/gladly",
+    "hi": "खुशी से/खुशी से"
+  },
+  "gemeinsam": {
+    "en": "together",
+    "hi": "एक साथ"
+  },
+  "gewinnen": {
+    "en": "win",
+    "hi": "जीतना"
+  },
+  "gegenüber": {
+    "en": "opposite",
+    "hi": "विलोम"
+  },
+  "gehören": {
+    "en": "belong",
+    "hi": "संबंधित"
+  },
+  "genug": {
+    "en": "enough",
+    "hi": "पर्याप्त"
+  },
+  "gelingen": {
+    "en": "succeed",
+    "hi": "सफल होना"
+  },
+  "gering": {
+    "en": "small amount",
+    "hi": "छोटी राशि"
+  },
+  "gesamt-/gesamt-": {
+    "en": "total/total",
+    "hi": "कुल/कुल"
+  },
+  "gefallen": {
+    "en": "fallen",
+    "hi": "गिरा हुआ"
+  },
+  "geschehen": {
+    "en": "happen",
+    "hi": "होना"
+  },
+  "gleichzeitig": {
+    "en": "at the same time",
+    "hi": "एक ही समय पर"
+  },
+  "grün": {
+    "en": "green",
+    "hi": "हरा"
+  },
+  "genauso": {
+    "en": "just as",
+    "hi": "जिस प्रकार"
+  },
+  "gestern": {
+    "en": "yesterday",
+    "hi": "कल"
+  },
+  "greifen": {
+    "en": "grab",
+    "hi": "झपटना"
+  },
+  "glücklich": {
+    "en": "happy",
+    "hi": "खुश"
+  },
+  "gefährlich": {
+    "en": "dangerous",
+    "hi": "खतरनाक"
+  },
+  "gründen": {
+    "en": "found",
+    "hi": "मिला"
+  },
+  "genügen": {
+    "en": "suffice",
+    "hi": "पर्याप्त"
+  },
+  "gesund": {
+    "en": "healthy",
+    "hi": "स्वस्थ"
+  },
+  "gucken": {
+    "en": "look",
+    "hi": "देखना"
+  },
+  "gelb": {
+    "en": "yellow",
+    "hi": "पीला"
+  },
+  "günstig": {
+    "en": "cheap",
+    "hi": "सस्ता"
+  },
+  "genießen": {
+    "en": "enjoy",
+    "hi": "आनंद लेना"
+  },
+  "grau": {
+    "en": "gray",
+    "hi": "स्लेटी"
+  },
+  "gerecht": {
+    "en": "just",
+    "hi": "अभी"
+  },
+  "glatt": {
+    "en": "smooth",
+    "hi": "चिकना"
+  },
+  "gewöhnlich": {
+    "en": "usually",
+    "hi": "आम तौर पर"
+  },
+  "gewöhnen": {
+    "en": "get used to",
+    "hi": "आदत पड़ना"
+  },
+  "garantieren": {
+    "en": "guarantee",
+    "hi": "गारंटी"
+  },
+  "grüßen": {
+    "en": "greet",
+    "hi": "अभिवादन करना"
+  },
+  "geheim": {
+    "en": "secret",
+    "hi": "गुप्त"
+  },
+  "gespannt": {
+    "en": "tense",
+    "hi": "तनावग्रस्त"
+  },
+  "gültig": {
+    "en": "valid",
+    "hi": "वैध"
+  },
+  "gründlich": {
+    "en": "thorough",
+    "hi": "अच्छी तरह"
+  },
+  "gemütlich": {
+    "en": "cozy",
+    "hi": "आरामदायक"
+  },
+  "giftig": {
+    "en": "poisonous",
+    "hi": "जहरीला"
+  },
+  "gießen": {
+    "en": "pour",
+    "hi": "बहना"
+  },
+  "golf": {
+    "en": "golf",
+    "hi": "गोल्फ़"
+  },
+  "gebrauchen": {
+    "en": "use",
+    "hi": "उपयोग"
+  },
+  "geboren werden": {
+    "en": "to be born",
+    "hi": "पैदा होना"
+  },
+  "groß-": {
+    "en": "Large-",
+    "hi": "बड़ा-"
+  },
+  "gleichberechtigt": {
+    "en": "equal",
+    "hi": "बराबर"
+  },
+  "geradeaus": {
+    "en": "straight ahead",
+    "hi": "ठीक सीधे"
+  },
+  "getrennt leben": {
+    "en": "live separately",
+    "hi": "अलग रहते हैं"
+  },
+  "gratis": {
+    "en": "free",
+    "hi": "मुक्त"
+  },
+  "gewohnt": {
+    "en": "used",
+    "hi": "इस्तेमाल किया गया"
+  },
+  "geeignet": {
+    "en": "suitable",
+    "hi": "उपयुक्त"
+  },
+  "grillen": {
+    "en": "grill",
+    "hi": "ग्रिल"
+  },
+  "gleichfalls": {
+    "en": "same to you",
+    "hi": "आपको भी"
+  },
+  "gratulieren": {
+    "en": "congratulate",
+    "hi": "बधाई"
+  },
+  "geschieden": {
+    "en": "divorced",
+    "hi": "तलाकशुदा"
+  },
+  "genehmigen": {
+    "en": "to permit",
+    "hi": "अनुमति देने के लिए"
+  },
+  "geehrt": {
+    "en": "honored",
+    "hi": "सम्मानित"
+  },
+  "haben": {
+    "en": "have",
+    "hi": "पास होना"
+  },
+  "hier/hier-": {
+    "en": "here/here-",
+    "hi": "यहाँ/यहाँ-"
+  },
+  "heute": {
+    "en": "today",
+    "hi": "आज"
+  },
+  "hoch": {
+    "en": "high",
+    "hi": "उच्च"
+  },
+  "heißen": {
+    "en": "be called",
+    "hi": "कहा जाना"
+  },
+  "hören": {
+    "en": "hear",
+    "hi": "सुनो"
+  },
+  "halten": {
+    "en": "hold",
+    "hi": "पकड़ना"
+  },
+  "hinter/hinter-": {
+    "en": "behind/behind-",
+    "hi": "पीछे/पीछे-"
+  },
+  "handeln": {
+    "en": "act",
+    "hi": "कार्य"
+  },
+  "helfen": {
+    "en": "help",
+    "hi": "मदद"
+  },
+  "häufig": {
+    "en": "frequently",
+    "hi": "बार-बार"
+  },
+  "halb": {
+    "en": "half",
+    "hi": "आधा"
+  },
+  "halt": {
+    "en": "stop",
+    "hi": "रुकना"
+  },
+  "holen": {
+    "en": "fetch",
+    "hi": "लाना"
+  },
+  "hängen": {
+    "en": "hang",
+    "hi": "लटकाना"
+  },
+  "hoffen": {
+    "en": "hope",
+    "hi": "आशा"
+  },
+  "hart": {
+    "en": "hard",
+    "hi": "मुश्किल"
+  },
+  "historisch": {
+    "en": "historical",
+    "hi": "ऐतिहासिक"
+  },
+  "herstellen": {
+    "en": "produce",
+    "hi": "उत्पादन करना"
+  },
+  "heben": {
+    "en": "lift",
+    "hi": "उठाना"
+  },
+  "heutig-": {
+    "en": "today-",
+    "hi": "आज-"
+  },
+  "hallo": {
+    "en": "Hello",
+    "hi": "नमस्ते"
+  },
+  "her/her-": {
+    "en": "her/her-",
+    "hi": "उसका/उसका-"
+  },
+  "hinten": {
+    "en": "rear",
+    "hi": "पिछला"
+  },
+  "heiß": {
+    "en": "hot",
+    "hi": "गर्म"
+  },
+  "herzlich": {
+    "en": "heartfelt",
+    "hi": "हार्दिक"
+  },
+  "hell": {
+    "en": "bright",
+    "hi": "चमकदार"
+  },
+  "hinweisen": {
+    "en": "point out",
+    "hi": "इशारा करना"
+  },
+  "heiraten": {
+    "en": "marry",
+    "hi": "शादी करो"
+  },
+  "herausfinden": {
+    "en": "find out",
+    "hi": "पता लगाना"
+  },
+  "hinterlassen": {
+    "en": "leave behind",
+    "hi": "पीछे छोड़ना"
+  },
+  "höchstens": {
+    "en": "at most",
+    "hi": "अधिक से अधिक"
+  },
+  "hoffentlich": {
+    "en": "hopefully",
+    "hi": "उम्मीद है"
+  },
+  "hübsch": {
+    "en": "pretty",
+    "hi": "सुंदर"
+  },
+  "hassen": {
+    "en": "hate",
+    "hi": "घृणा"
+  },
+  "hierher": {
+    "en": "here",
+    "hi": "यहाँ"
+  },
+  "heimlich": {
+    "en": "secretly",
+    "hi": "चोरी चुपके"
+  },
+  "hinterher": {
+    "en": "afterwards",
+    "hi": "उसके बाद"
+  },
+  "hässlich": {
+    "en": "ugly",
+    "hi": "कुरूप"
+  },
+  "höflich": {
+    "en": "polite",
+    "hi": "विनम्र"
+  },
+  "herunterladen": {
+    "en": "download",
+    "hi": "डाउनलोड करना"
+  },
+  "husten": {
+    "en": "cough",
+    "hi": "खाँसी"
+  },
+  "hageln": {
+    "en": "hail",
+    "hi": "ओलों"
+  },
+  "(hinunter) runterwerfen": {
+    "en": "to throw down (down).",
+    "hi": "नीचे (नीचे) फेंकना।"
+  },
+  "herein-": {
+    "en": "in-",
+    "hi": "में-"
+  },
+  "haltbar": {
+    "en": "durable",
+    "hi": "टिकाऊ"
+  },
+  "herunterfahren": {
+    "en": "shut down",
+    "hi": "शट डाउन"
+  },
+  "heizen": {
+    "en": "heat",
+    "hi": "गर्मी"
+  },
+  "hochladen": {
+    "en": "upload",
+    "hi": "अपलोड करें"
+  },
+  "hungrig": {
+    "en": "hungry",
+    "hi": "भूखा"
+  },
+  "halbtags": {
+    "en": "half day",
+    "hi": "आधा दिन"
+  },
+  "hupen": {
+    "en": "honk",
+    "hi": "हार्न"
+  },
+  "in": {
+    "en": "in",
+    "hi": "में"
+  },
+  "immer": {
+    "en": "always",
+    "hi": "हमेशा"
+  },
+  "international": {
+    "en": "international",
+    "hi": "अंतरराष्ट्रीय"
+  },
+  "insgesamt": {
+    "en": "in total",
+    "hi": "कुल मिलाकर"
+  },
+  "inzwischen": {
+    "en": "in the meantime",
+    "hi": "इस बीच में"
+  },
+  "innerhalb": {
+    "en": "within",
+    "hi": "अंदर"
+  },
+  "interessieren": {
+    "en": "interested",
+    "hi": "इच्छुक"
+  },
+  "indem": {
+    "en": "by",
+    "hi": "द्वारा"
+  },
+  "irgendwann": {
+    "en": "sometime",
+    "hi": "कभी कभी"
+  },
+  "interessant": {
+    "en": "interesting",
+    "hi": "दिलचस्प"
+  },
+  "irgendein": {
+    "en": "any",
+    "hi": "कोई"
+  },
+  "ideal": {
+    "en": "ideal",
+    "hi": "आदर्श"
+  },
+  "individuell": {
+    "en": "individually",
+    "hi": "व्यक्तिगत रूप से"
+  },
+  "intensiv": {
+    "en": "intensive",
+    "hi": "गहन"
+  },
+  "informieren": {
+    "en": "inform",
+    "hi": "सूचित करना"
+  },
+  "integrieren": {
+    "en": "integrate",
+    "hi": "एकीकृत करें"
+  },
+  "innen": {
+    "en": "inside",
+    "hi": "अंदर"
+  },
+  "illegal": {
+    "en": "illegal",
+    "hi": "गैरकानूनी"
+  },
+  "interkulturell": {
+    "en": "intercultural",
+    "hi": "सांस्कृतिक"
+  },
+  "intelligent": {
+    "en": "intelligent",
+    "hi": "बुद्धिमान"
+  },
+  "inklusive": {
+    "en": "including",
+    "hi": "शामिल"
+  },
+  "im freien": {
+    "en": "outdoors",
+    "hi": "सड़क पर"
+  },
+  "installieren": {
+    "en": "install",
+    "hi": "स्थापित करना"
+  },
+  "interessiert": {
+    "en": "interested",
+    "hi": "इच्छुक"
+  },
+  "inner-": {
+    "en": "within",
+    "hi": "अंदर"
+  },
+  "ja": {
+    "en": "Yes",
+    "hi": "हाँ"
+  },
+  "jetzt": {
+    "en": "now",
+    "hi": "अब"
+  },
+  "jung": {
+    "en": "young",
+    "hi": "युवा"
+  },
+  "jedoch": {
+    "en": "however",
+    "hi": "तथापि"
+  },
+  "je": {
+    "en": "ever",
+    "hi": "कभी"
+  },
+  "jemand": {
+    "en": "someone",
+    "hi": "कोई"
+  },
+  "jeweils": {
+    "en": "respectively",
+    "hi": "क्रमश:"
+  },
+  "jemals": {
+    "en": "ever",
+    "hi": "कभी"
+  },
+  "jederzeit": {
+    "en": "at any time",
+    "hi": "किसी भी समय"
+  },
+  "jedes mal": {
+    "en": "every time",
+    "hi": "हर बार"
+  },
+  "je … desto …": {
+    "en": "the ... the …",
+    "hi": "यह यह …"
+  },
+  "jeder": {
+    "en": "everyone",
+    "hi": "सब लोग"
+  },
+  "können": {
+    "en": "can",
+    "hi": "कर सकना"
+  },
+  "kein-": {
+    "en": "no-",
+    "hi": "नहीं-"
+  },
+  "kommen": {
+    "en": "come",
+    "hi": "आना"
+  },
+  "klein": {
+    "en": "small",
+    "hi": "छोटा"
+  },
+  "kurz": {
+    "en": "short",
+    "hi": "छोटा"
+  },
+  "kennen": {
+    "en": "know",
+    "hi": "जानना"
+  },
+  "klar": {
+    "en": "clear",
+    "hi": "स्पष्ट"
+  },
+  "kaum": {
+    "en": "barely",
+    "hi": "मुश्किल से"
+  },
+  "knapp": {
+    "en": "meager",
+    "hi": "अल्प"
+  },
+  "klingen": {
+    "en": "sound",
+    "hi": "आवाज़"
+  },
+  "kriegen": {
+    "en": "get",
+    "hi": "पाना"
+  },
+  "kalt": {
+    "en": "cold",
+    "hi": "ठंडा"
+  },
+  "kosten": {
+    "en": "cost",
+    "hi": "लागत"
+  },
+  "kulturell": {
+    "en": "cultural",
+    "hi": "सांस्कृतिक"
+  },
+  "kämpfen": {
+    "en": "battle",
+    "hi": "युद्ध"
+  },
+  "komplett": {
+    "en": "completely",
+    "hi": "पूरी तरह"
+  },
+  "kritisch": {
+    "en": "critical",
+    "hi": "गंभीर"
+  },
+  "krank": {
+    "en": "sick",
+    "hi": "बीमार"
+  },
+  "kritisieren": {
+    "en": "criticize",
+    "hi": "आलोचना करना"
+  },
+  "kochen": {
+    "en": "cook",
+    "hi": "पकाना"
+  },
+  "kontrollieren": {
+    "en": "control",
+    "hi": "नियंत्रण"
+  },
+  "körperlich": {
+    "en": "physically",
+    "hi": "शारीरिक रूप से"
+  },
+  "künstlich": {
+    "en": "artificially",
+    "hi": "कृत्रिम रूप से"
+  },
+  "kompliziert": {
+    "en": "complicated",
+    "hi": "उलझा हुआ"
+  },
+  "komisch": {
+    "en": "funny",
+    "hi": "मज़ेदार"
+  },
+  "korrekt": {
+    "en": "correctly",
+    "hi": "सही ढंग से"
+  },
+  "klappen": {
+    "en": "succeed",
+    "hi": "सफल होना"
+  },
+  "klären": {
+    "en": "clear up",
+    "hi": "साफ़ करो"
+  },
+  "klopfen": {
+    "en": "knock",
+    "hi": "दस्तक"
+  },
+  "kräftig": {
+    "en": "strong",
+    "hi": "मज़बूत"
+  },
+  "kennenlernen": {
+    "en": "get to know",
+    "hi": "जानें"
+  },
+  "kürzlich": {
+    "en": "recently",
+    "hi": "हाल ही में"
+  },
+  "klug": {
+    "en": "smart",
+    "hi": "बुद्धिमान"
+  },
+  "klettern": {
+    "en": "climb",
+    "hi": "चढ़ना"
+  },
+  "klingeln": {
+    "en": "ring",
+    "hi": "अँगूठी"
+  },
+  "küssen": {
+    "en": "kiss",
+    "hi": "चुंबन"
+  },
+  "kreativ": {
+    "en": "creative",
+    "hi": "रचनात्मक"
+  },
+  "kühl": {
+    "en": "cool",
+    "hi": "ठंडा"
+  },
+  "klagen": {
+    "en": "complain",
+    "hi": "शिकायत करना"
+  },
+  "kaputt": {
+    "en": "broken",
+    "hi": "टूटा हुआ"
+  },
+  "korrigieren": {
+    "en": "correct",
+    "hi": "सही"
+  },
+  "kleben": {
+    "en": "stick",
+    "hi": "चिपकना"
+  },
+  "kündigen": {
+    "en": "quit",
+    "hi": "छोड़ना"
+  },
+  "kostenlos": {
+    "en": "for free",
+    "hi": "मुक्त करने के लिए"
+  },
+  "konsumieren": {
+    "en": "consume",
+    "hi": "उपभोग करना"
+  },
+  "klicken": {
+    "en": "click",
+    "hi": "क्लिक"
+  },
+  "kaputtmachen": {
+    "en": "break something",
+    "hi": "कुछ तोड़ो"
+  },
+  "kopieren": {
+    "en": "copy",
+    "hi": "कॉपी"
+  },
+  "kaputtgehen": {
+    "en": "break down",
+    "hi": "टूट - फूट"
+  },
+  "lassen": {
+    "en": "let",
+    "hi": "होने देना"
+  },
+  "lang": {
+    "en": "long",
+    "hi": "लंबा"
+  },
+  "leben": {
+    "en": "life",
+    "hi": "ज़िंदगी"
+  },
+  "liegen": {
+    "en": "lay",
+    "hi": "बिछाना"
+  },
+  "laufen": {
+    "en": "run",
+    "hi": "दौड़ना"
+  },
+  "lernen": {
+    "en": "learn",
+    "hi": "सीखना"
+  },
+  "lesen": {
+    "en": "read",
+    "hi": "पढ़ना"
+  },
+  "leicht": {
+    "en": "light",
+    "hi": "रोशनी"
+  },
+  "legen": {
+    "en": "place",
+    "hi": "जगह"
+  },
+  "lachen": {
+    "en": "laugh",
+    "hi": "हँसना"
+  },
+  "langsam": {
+    "en": "slow",
+    "hi": "धीमा"
+  },
+  "lösen": {
+    "en": "solve",
+    "hi": "हल करना"
+  },
+  "leider": {
+    "en": "unfortunately",
+    "hi": "दुर्भाग्य से"
+  },
+  "los/los-": {
+    "en": "go Go-",
+    "hi": "जाओ जाओ-"
+  },
+  "leisten": {
+    "en": "afford",
+    "hi": "वहन"
+  },
+  "lieben": {
+    "en": "love",
+    "hi": "प्यार"
+  },
+  "laut": {
+    "en": "loud",
+    "hi": "ऊँचा स्वर"
+  },
+  "liefern": {
+    "en": "delivery",
+    "hi": "वितरण"
+  },
+  "längst": {
+    "en": "long ago",
+    "hi": "काफी समय पहले"
+  },
+  "lächeln": {
+    "en": "smile",
+    "hi": "मुस्कान"
+  },
+  "leer": {
+    "en": "empty",
+    "hi": "खाली"
+  },
+  "links": {
+    "en": "left",
+    "hi": "बाएं"
+  },
+  "lieb": {
+    "en": "dear",
+    "hi": "प्रिय"
+  },
+  "leiden": {
+    "en": "suffer",
+    "hi": "पीड़ित"
+  },
+  "leise": {
+    "en": "quiet",
+    "hi": "शांत"
+  },
+  "leiten": {
+    "en": "lead",
+    "hi": "नेतृत्व करना"
+  },
+  "landen": {
+    "en": "land",
+    "hi": "भूमि"
+  },
+  "lustig": {
+    "en": "funny",
+    "hi": "मज़ेदार"
+  },
+  "lügen": {
+    "en": "lie",
+    "hi": "झूठ"
+  },
+  "loben": {
+    "en": "praise",
+    "hi": "प्रशंसा"
+  },
+  "locker": {
+    "en": "loose",
+    "hi": "ढीला"
+  },
+  "langweilig": {
+    "en": "boring",
+    "hi": "उबाऊ"
+  },
+  "löschen": {
+    "en": "delete",
+    "hi": "मिटाना"
+  },
+  "losfahren": {
+    "en": "drive off",
+    "hi": "चला गया"
+  },
+  "letzt-": {
+    "en": "last-",
+    "hi": "अंतिम-"
+  },
+  "leid tun": {
+    "en": "to hurt",
+    "hi": "चोट करने के लिए"
+  },
+  "ledig": {
+    "en": "single",
+    "hi": "अकेला"
+  },
+  "link-": {
+    "en": "link-",
+    "hi": "जोड़ना-"
+  },
+  "leihen": {
+    "en": "lend",
+    "hi": "उधार देना"
+  },
+  "lange": {
+    "en": "long",
+    "hi": "लंबा"
+  },
+  "lieblings-": {
+    "en": "Favorite-",
+    "hi": "पसंदीदा-"
+  },
+  "lecker": {
+    "en": "yummy",
+    "hi": "स्वादिष्ट"
+  },
+  "mit": {
+    "en": "with",
+    "hi": "साथ"
+  },
+  "man": {
+    "en": "man",
+    "hi": "आदमी"
+  },
+  "müssen": {
+    "en": "must",
+    "hi": "अवश्य"
+  },
+  "machen": {
+    "en": "make",
+    "hi": "बनाना"
+  },
+  "mögen": {
+    "en": "like",
+    "hi": "पसंद"
+  },
+  "möglich": {
+    "en": "possible",
+    "hi": "संभव"
+  },
+  "meinen": {
+    "en": "mean",
+    "hi": "अर्थ"
+  },
+  "mehrere": {
+    "en": "several",
+    "hi": "अनेक"
+  },
+  "manchmal": {
+    "en": "sometimes",
+    "hi": "कभी-कभी"
+  },
+  "merken": {
+    "en": "remember",
+    "hi": "याद करना"
+  },
+  "mindestens": {
+    "en": "at least",
+    "hi": "कम से कम"
+  },
+  "meist-": {
+    "en": "mostly-",
+    "hi": "ज्यादातर-"
+  },
+  "miteinander": {
+    "en": "each other",
+    "hi": "एक दूसरे"
+  },
+  "modern": {
+    "en": "modern",
+    "hi": "आधुनिक"
+  },
+  "menschlich": {
+    "en": "human",
+    "hi": "इंसान"
+  },
+  "mittlerweile": {
+    "en": "in the meantime",
+    "hi": "इस बीच में"
+  },
+  "mitteilen": {
+    "en": "communicate",
+    "hi": "बातचीत करना"
+  },
+  "messen": {
+    "en": "measure",
+    "hi": "उपाय"
+  },
+  "melden": {
+    "en": "report",
+    "hi": "प्रतिवेदन"
+  },
+  "maximal": {
+    "en": "maximum",
+    "hi": "अधिकतम"
+  },
+  "mitten": {
+    "en": "middle",
+    "hi": "मध्य"
+  },
+  "malen": {
+    "en": "paint",
+    "hi": "रँगना"
+  },
+  "müde": {
+    "en": "tired",
+    "hi": "थका हुआ"
+  },
+  "markieren": {
+    "en": "mark",
+    "hi": "निशान"
+  },
+  "männlich": {
+    "en": "masculine",
+    "hi": "मदार्ना"
+  },
+  "mischen": {
+    "en": "mix",
+    "hi": "मिक्स"
+  },
+  "mobil/mobil-": {
+    "en": "mobile/mobile",
+    "hi": "मोबाइल/मोबाइल"
+  },
+  "merkwürdig": {
+    "en": "unusual",
+    "hi": "असामान्य"
+  },
+  "mündlich": {
+    "en": "oral",
+    "hi": "मौखिक"
+  },
+  "musikalisch": {
+    "en": "musical",
+    "hi": "म्यूजिकल"
+  },
+  "minimal": {
+    "en": "minimal",
+    "hi": "न्यूनतम"
+  },
+  "mutig": {
+    "en": "brave",
+    "hi": "बहादुर"
+  },
+  "mild": {
+    "en": "mild",
+    "hi": "हल्का"
+  },
+  "möglichst": {
+    "en": "as possible",
+    "hi": "यथासंभव"
+  },
+  "meist(ens)": {
+    "en": "mostly)",
+    "hi": "ज्यादातर)"
+  },
+  "meinetwegen": {
+    "en": "for my sake",
+    "hi": "मेरे लिये"
+  },
+  "möbliert": {
+    "en": "furnished",
+    "hi": "सुसज्जित"
+  },
+  "mittler-": {
+    "en": "medium",
+    "hi": "मध्यम"
+  },
+  "mehr (siehe auch viel)": {
+    "en": "more (see also a lot)",
+    "hi": "और भी (बहुत कुछ देखें)"
+  },
+  "mager": {
+    "en": "lean",
+    "hi": "दुबला"
+  },
+  "mieten": {
+    "en": "rent",
+    "hi": "किराया"
+  },
+  "möchten": {
+    "en": "want",
+    "hi": "चाहना"
+  },
+  "manch-": {
+    "en": "some-",
+    "hi": "कुछ-"
+  },
+  "miss-": {
+    "en": "mis-",
+    "hi": "अ-"
+  },
+  "nicht": {
+    "en": "not",
+    "hi": "नहीं"
+  },
+  "noch": {
+    "en": "still",
+    "hi": "फिर भी"
+  },
+  "nach": {
+    "en": "after",
+    "hi": "बाद"
+  },
+  "nur": {
+    "en": "only",
+    "hi": "केवल"
+  },
+  "neu": {
+    "en": "new",
+    "hi": "नया"
+  },
+  "nichts": {
+    "en": "nothing",
+    "hi": "कुछ नहीं"
+  },
+  "nun": {
+    "en": "so",
+    "hi": "इसलिए"
+  },
+  "natürlich": {
+    "en": "naturally",
+    "hi": "सहज रूप में"
+  },
+  "nehmen": {
+    "en": "take",
+    "hi": "लेना"
+  },
+  "nein": {
+    "en": "no",
+    "hi": "नहीं"
+  },
+  "nie": {
+    "en": "never",
+    "hi": "कभी नहीं"
+  },
+  "nennen": {
+    "en": "to name",
+    "hi": "नाम देने के लिए"
+  },
+  "neben": {
+    "en": "next to",
+    "hi": "के पास"
+  },
+  "niemand": {
+    "en": "no one",
+    "hi": "किसी को भी नहीं"
+  },
+  "nämlich": {
+    "en": "namely",
+    "hi": "अर्थात्"
+  },
+  "nutzen": {
+    "en": "to use",
+    "hi": "उपयोग करने के लिए"
+  },
+  "nachdem": {
+    "en": "after",
+    "hi": "बाद"
+  },
+  "normal": {
+    "en": "normal",
+    "hi": "सामान्य"
+  },
+  "notwendig": {
+    "en": "necessary",
+    "hi": "ज़रूरी"
+  },
+  "niedrig": {
+    "en": "low",
+    "hi": "कम"
+  },
+  "negativ": {
+    "en": "negative",
+    "hi": "नकारात्मक"
+  },
+  "national/national-": {
+    "en": "national/national-",
+    "hi": "राष्ट्रीय/राष्ट्रीय-"
+  },
+  "nötig": {
+    "en": "necessary",
+    "hi": "ज़रूरी"
+  },
+  "nachdenken": {
+    "en": "ponder",
+    "hi": "विचार करें"
+  },
+  "nett": {
+    "en": "nice",
+    "hi": "अच्छा"
+  },
+  "nochmal": {
+    "en": "again",
+    "hi": "दोबारा"
+  },
+  "normalerweise": {
+    "en": "normally",
+    "hi": "सामान्यतः"
+  },
+  "nochmals": {
+    "en": "again",
+    "hi": "दोबारा"
+  },
+  "nachher": {
+    "en": "afterward",
+    "hi": "इसके बाद"
+  },
+  "nervös": {
+    "en": "nervous",
+    "hi": "घबराया हुआ"
+  },
+  "neugierig": {
+    "en": "curious",
+    "hi": "जिज्ञासु"
+  },
+  "nass": {
+    "en": "wet",
+    "hi": "गीला"
+  },
+  "notieren": {
+    "en": "note down",
+    "hi": "लिख लें"
+  },
+  "nützlich": {
+    "en": "useful",
+    "hi": "उपयोगी"
+  },
+  "nebenbei": {
+    "en": "alongside",
+    "hi": "साथ में"
+  },
+  "nirgendwo": {
+    "en": "nowhere",
+    "hi": "कहीं नहीं"
+  },
+  "neulich": {
+    "en": "recently",
+    "hi": "हाल ही में"
+  },
+  "nördlich": {
+    "en": "north",
+    "hi": "उत्तर"
+  },
+  "nebenan": {
+    "en": "next door",
+    "hi": "अगला दरवाजा"
+  },
+  "nirgends": {
+    "en": "nowhere",
+    "hi": "कहीं नहीं"
+  },
+  "nah(e)": {
+    "en": "vicinity)",
+    "hi": "आस-पास)"
+  },
+  "nützen": {
+    "en": "use",
+    "hi": "उपयोग"
+  },
+  "nächst": {
+    "en": "next",
+    "hi": "अगला"
+  },
+  "nachschlagen": {
+    "en": "look up",
+    "hi": "ऊपर देखो"
+  },
+  "neblig": {
+    "en": "foggy",
+    "hi": "कोहरे वाला"
+  },
+  "nähen": {
+    "en": "sew",
+    "hi": "सिलना"
+  },
+  "oder": {
+    "en": "or",
+    "hi": "या"
+  },
+  "ohne": {
+    "en": "without",
+    "hi": "बिना"
+  },
+  "ob": {
+    "en": "whether",
+    "hi": "चाहे"
+  },
+  "oft/öfter": {
+    "en": "often/more often",
+    "hi": "अक्सर/अधिक बार"
+  },
+  "offen": {
+    "en": "open",
+    "hi": "खुला"
+  },
+  "obwohl": {
+    "en": "although",
+    "hi": "हालांकि"
+  },
+  "oben": {
+    "en": "above",
+    "hi": "ऊपर"
+  },
+  "offenbar": {
+    "en": "apparently",
+    "hi": "जाहिरा तौर पर"
+  },
+  "offiziell": {
+    "en": "officially",
+    "hi": "आधिकारिक तौर पर"
+  },
+  "organisieren": {
+    "en": "organize",
+    "hi": "आयोजन"
+  },
+  "ordnen": {
+    "en": "arrange",
+    "hi": "व्यवस्थित करना"
+  },
+  "ordentlich": {
+    "en": "orderly",
+    "hi": "व्यवस्थित"
+  },
+  "operieren": {
+    "en": "operate",
+    "hi": "प्रचालन"
+  },
+  "optimistisch": {
+    "en": "optimistic",
+    "hi": "आशावादी"
+  },
+  "ober-": {
+    "en": "upper",
+    "hi": "अपर"
+  },
+  "politisch": {
+    "en": "politically",
+    "hi": "राजनीतिक"
+  },
+  "passieren": {
+    "en": "happen",
+    "hi": "होना"
+  },
+  "pro": {
+    "en": "per",
+    "hi": "प्रति"
+  },
+  "plötzlich": {
+    "en": "suddenly",
+    "hi": "अचानक"
+  },
+  "positiv": {
+    "en": "positive",
+    "hi": "सकारात्मक"
+  },
+  "persönlich": {
+    "en": "personal",
+    "hi": "निजी"
+  },
+  "planen": {
+    "en": "plan",
+    "hi": "योजना"
+  },
+  "passen": {
+    "en": "fit",
+    "hi": "उपयुक्त"
+  },
+  "privat": {
+    "en": "private",
+    "hi": "निजी"
+  },
+  "praktisch": {
+    "en": "practical",
+    "hi": "व्यावहारिक"
+  },
+  "produzieren": {
+    "en": "produce",
+    "hi": "उत्पादन करना"
+  },
+  "per": {
+    "en": "by",
+    "hi": "द्वारा"
+  },
+  "präsentieren": {
+    "en": "present",
+    "hi": "उपस्थित"
+  },
+  "prüfen": {
+    "en": "check",
+    "hi": "जाँच करना"
+  },
+  "perfekt": {
+    "en": "perfect",
+    "hi": "उत्तम"
+  },
+  "packen": {
+    "en": "pack",
+    "hi": "सामान बाँधना"
+  },
+  "pflegen": {
+    "en": "maintain",
+    "hi": "बनाए रखना"
+  },
+  "parallel": {
+    "en": "parallel",
+    "hi": "समानांतर"
+  },
+  "probieren": {
+    "en": "try out",
+    "hi": "कोशिश करें"
+  },
+  "peinlich": {
+    "en": "awkward",
+    "hi": "अजीब"
+  },
+  "putzen": {
+    "en": "cleaning",
+    "hi": "सफाई"
+  },
+  "passiv": {
+    "en": "passive",
+    "hi": "निष्क्रिय"
+  },
+  "protestieren": {
+    "en": "protest",
+    "hi": "विरोध"
+  },
+  "populär": {
+    "en": "popular",
+    "hi": "लोकप्रिय"
+  },
+  "pünktlich": {
+    "en": "on time",
+    "hi": "समय पर"
+  },
+  "pauschal": {
+    "en": "lump sum",
+    "hi": "एकमुश्त"
+  },
+  "parken": {
+    "en": "park",
+    "hi": "पार्क"
+  },
+  "pflanzen": {
+    "en": "plant",
+    "hi": "पौधा"
+  },
+  "preiswert": {
+    "en": "inexpensive",
+    "hi": "सस्ता"
+  },
+  "pensioniert": {
+    "en": "retired",
+    "hi": "सेवानिवृत्त"
+  },
+  "prost": {
+    "en": "Cheers",
+    "hi": "प्रोत्साहित करना"
+  },
+  "prima": {
+    "en": "great",
+    "hi": "महान"
+  },
+  "quer": {
+    "en": "across",
+    "hi": "आर-पार"
+  },
+  "richtig": {
+    "en": "correct",
+    "hi": "सही"
+  },
+  "rund": {
+    "en": "around",
+    "hi": "आस-पास"
+  },
+  "reden": {
+    "en": "talk",
+    "hi": "बात करना"
+  },
+  "rot": {
+    "en": "red",
+    "hi": "लाल"
+  },
+  "rufen": {
+    "en": "call",
+    "hi": "पुकारना"
+  },
+  "relativ": {
+    "en": "relative",
+    "hi": "रिश्तेदार"
+  },
+  "reichen": {
+    "en": "are sufficient",
+    "hi": "पर्याप्त हैं"
+  },
+  "rein": {
+    "en": "pure",
+    "hi": "शुद्ध"
+  },
+  "reagieren": {
+    "en": "react",
+    "hi": "प्रतिक्रिया"
+  },
+  "rechnen": {
+    "en": "calculate",
+    "hi": "calculate"
+  },
+  "rechts": {
+    "en": "right",
+    "hi": "सही"
+  },
+  "reisen": {
+    "en": "travel",
+    "hi": "यात्रा"
+  },
+  "ruhig": {
+    "en": "quiet",
+    "hi": "शांत"
+  },
+  "riesig": {
+    "en": "gigantic",
+    "hi": "विशाल"
+  },
+  "regelmäßig": {
+    "en": "regularly",
+    "hi": "नियमित रूप से"
+  },
+  "reduzieren": {
+    "en": "reduce",
+    "hi": "कम करना"
+  },
+  "retten": {
+    "en": "save",
+    "hi": "बचाना"
+  },
+  "riechen": {
+    "en": "smell",
+    "hi": "गंध"
+  },
+  "reich": {
+    "en": "rich",
+    "hi": "अमीर"
+  },
+  "rauchen": {
+    "en": "smoke",
+    "hi": "धुआँ"
+  },
+  "regeln": {
+    "en": "regulate",
+    "hi": "विनियमित"
+  },
+  "rechtlich": {
+    "en": "legally",
+    "hi": "कानूनी तौर पर"
+  },
+  "regional": {
+    "en": "regional",
+    "hi": "क्षेत्रीय"
+  },
+  "realisieren": {
+    "en": "realize",
+    "hi": "समझना"
+  },
+  "rennen": {
+    "en": "run",
+    "hi": "दौड़ना"
+  },
+  "raten": {
+    "en": "guess",
+    "hi": "अनुमान"
+  },
+  "rechtzeitig": {
+    "en": "punctual",
+    "hi": "समयनिष्ठ"
+  },
+  "realistisch": {
+    "en": "realistic",
+    "hi": "यथार्थवादी"
+  },
+  "reiten": {
+    "en": "ride",
+    "hi": "सवारी"
+  },
+  "regnen": {
+    "en": "rain",
+    "hi": "बारिश"
+  },
+  "reif": {
+    "en": "ripe",
+    "hi": "पका हुआ"
+  },
+  "rückwärts": {
+    "en": "backward",
+    "hi": "पिछड़ा"
+  },
+  "reinigen": {
+    "en": "clean",
+    "hi": "साफ"
+  },
+  "recht-": {
+    "en": "right-",
+    "hi": "सही-"
+  },
+  "reservieren": {
+    "en": "reserve",
+    "hi": "संरक्षित"
+  },
+  "raus/raus-": {
+    "en": "out/out-",
+    "hi": "बाहर/बाहर-"
+  },
+  "roh": {
+    "en": "raw",
+    "hi": "कच्चा"
+  },
+  "reparieren": {
+    "en": "repair",
+    "hi": "मरम्मत"
+  },
+  "ratschlag": {
+    "en": "Advice",
+    "hi": "सलाह"
+  },
+  "rauf/rauf-": {
+    "en": "up/up-",
+    "hi": "ऊपर/ऊपर-"
+  },
+  "so": {
+    "en": "so",
+    "hi": "इसलिए"
+  },
+  "sein": {
+    "en": "be",
+    "hi": "होना"
+  },
+  "sagen": {
+    "en": "say",
+    "hi": "कहना"
+  },
+  "sollen": {
+    "en": "should",
+    "hi": "चाहिए"
+  },
+  "schon": {
+    "en": "already",
+    "hi": "पहले से"
+  },
+  "sehen": {
+    "en": "see",
+    "hi": "देखना"
+  },
+  "sehr": {
+    "en": "very",
+    "hi": "बहुत"
+  },
+  "stehen": {
+    "en": "stand",
+    "hi": "खड़ा होना"
+  },
+  "selbst": {
+    "en": "himself",
+    "hi": "वह स्वयं"
+  },
+  "sondern": {
+    "en": "rather",
+    "hi": "की अपेक्षा"
+  },
+  "seit": {
+    "en": "since",
+    "hi": "तब से"
+  },
+  "stellen": {
+    "en": "place",
+    "hi": "जगह"
+  },
+  "sprechen": {
+    "en": "speak",
+    "hi": "बोलना"
+  },
+  "spät": {
+    "en": "late",
+    "hi": "देर"
+  },
+  "stark": {
+    "en": "strong",
+    "hi": "मज़बूत"
+  },
+  "schreiben": {
+    "en": "write",
+    "hi": "लिखना"
+  },
+  "solch-": {
+    "en": "such-",
+    "hi": "ऐसा-"
+  },
+  "schön": {
+    "en": "nice",
+    "hi": "अच्छा"
+  },
+  "schnell": {
+    "en": "fast",
+    "hi": "तेज़"
+  },
+  "spielen": {
+    "en": "play",
+    "hi": "खेल"
+  },
+  "(sich) verstehen": {
+    "en": "(understand each other",
+    "hi": "(एक दूसरे को समझना"
+  },
+  "sogar": {
+    "en": "even",
+    "hi": "यहां तक ​​की"
+  },
+  "(sich) setzen": {
+    "en": "(to sit down",
+    "hi": "(नीचे बैठने के लिए"
+  },
+  "sitzen": {
+    "en": "sit",
+    "hi": "बैठना"
+  },
+  "schwer": {
+    "en": "difficult",
+    "hi": "कठिन"
+  },
+  "sicher": {
+    "en": "secure",
+    "hi": "सुरक्षित"
+  },
+  "scheinen": {
+    "en": "seem",
+    "hi": "प्रतीत होना"
+  },
+  "schaffen": {
+    "en": "create",
+    "hi": "बनाएं"
+  },
+  "suchen": {
+    "en": "seek",
+    "hi": "तलाश"
+  },
+  "steigen": {
+    "en": "climb",
+    "hi": "चढ़ना"
+  },
+  "schlecht": {
+    "en": "bad",
+    "hi": "खराब"
+  },
+  "sonst": {
+    "en": "otherwise",
+    "hi": "अन्यथा"
+  },
+  "schließen": {
+    "en": "close",
+    "hi": "बंद करना"
+  },
+  "schließlich": {
+    "en": "finally",
+    "hi": "अंत में"
+  },
+  "(sich) vorstellen": {
+    "en": "(to) imagine",
+    "hi": "(करना) कल्पना करना"
+  },
+  "sozial": {
+    "en": "social",
+    "hi": "सामाजिक"
+  },
+  "sofort": {
+    "en": "immediately",
+    "hi": "तुरंत"
+  },
+  "sich befinden": {
+    "en": "to find oneself",
+    "hi": "स्वयं को खोजने के लिए"
+  },
+  "schwarz": {
+    "en": "black",
+    "hi": "काला"
+  },
+  "sterben": {
+    "en": "die",
+    "hi": "मरना"
+  },
+  "stimmen": {
+    "en": "voices",
+    "hi": "आवाज"
+  },
+  "(sich) verändern": {
+    "en": "(change",
+    "hi": "(परिवर्तन"
+  },
+  "(sich etwas) kaufen": {
+    "en": "buy (something).",
+    "hi": "(कुछ) खरीदो।"
+  },
+  "schauen": {
+    "en": "look",
+    "hi": "देखना"
+  },
+  "sogenannt-": {
+    "en": "so-called-",
+    "hi": "तथाकथित-"
+  },
+  "schwierig": {
+    "en": "difficult",
+    "hi": "कठिन"
+  },
+  "sich freuen": {
+    "en": "rejoice",
+    "hi": "आनंद"
+  },
+  "studieren": {
+    "en": "study",
+    "hi": "अध्ययन"
+  },
+  "sich verhalten": {
+    "en": "behave",
+    "hi": "व्यवहार"
+  },
+  "schlagen": {
+    "en": "hit",
+    "hi": "मार"
+  },
+  "sorgen": {
+    "en": "care for",
+    "hi": "के लिए देखभाल"
+  },
+  "(sich) wünschen": {
+    "en": "(make a Wish",
+    "hi": "(एक इच्छा करें"
+  },
+  "stattfinden": {
+    "en": "take place",
+    "hi": "जगह लें"
+  },
+  "selten": {
+    "en": "rarely",
+    "hi": "कभी-कभार"
+  },
+  "schlafen": {
+    "en": "sleep",
+    "hi": "नींद"
+  },
+  "statt": {
+    "en": "instead of",
+    "hi": "के बजाय"
+  },
+  "stecken": {
+    "en": "put",
+    "hi": "रखना"
+  },
+  "sich beteiligen": {
+    "en": "participate",
+    "hi": "हिस्सा लेना"
+  },
+  "spüren": {
+    "en": "sense",
+    "hi": "समझ"
+  },
+  "schlimm": {
+    "en": "terrible",
+    "hi": "भयानक"
+  },
+  "ständig": {
+    "en": "constant",
+    "hi": "स्थिर"
+  },
+  "(sich) überzeugen": {
+    "en": "convince (oneself).",
+    "hi": "(स्वयं को) मनाना।"
+  },
+  "speziell": {
+    "en": "special",
+    "hi": "विशेष"
+  },
+  "sinken": {
+    "en": "sink",
+    "hi": "डूबना"
+  },
+  "stammen": {
+    "en": "originate",
+    "hi": "उत्पन्न करना"
+  },
+  "schicken": {
+    "en": "send",
+    "hi": "भेजना"
+  },
+  "(sich) trennen": {
+    "en": "(separate",
+    "hi": "(अलग"
+  },
+  "sich eignen": {
+    "en": "are suitable",
+    "hi": "उपयुक्त हैं"
+  },
+  "schweigen": {
+    "en": "be silent",
+    "hi": "चुप हो"
+  },
+  "schwach": {
+    "en": "weak",
+    "hi": "कमज़ोर"
+  },
+  "schützen": {
+    "en": "protect",
+    "hi": "रक्षा करना"
+  },
+  "singen": {
+    "en": "sing",
+    "hi": "गाओ"
+  },
+  "(sich) verletzen": {
+    "en": "(get hurt",
+    "hi": "(चोट लगना"
+  },
+  "schreien": {
+    "en": "scream",
+    "hi": "चीख"
+  },
+  "sich kümmern": {
+    "en": "take care",
+    "hi": "अपना ध्यान रखना"
+  },
+  "stören": {
+    "en": "disturb",
+    "hi": "परेशान करना"
+  },
+  "starten": {
+    "en": "start",
+    "hi": "शुरू"
+  },
+  "staatlich": {
+    "en": "state",
+    "hi": "राज्य"
+  },
+  "(sich) verbessern": {
+    "en": "(to) improve",
+    "hi": "(सुधार करने के लिए"
+  },
+  "(sich) zwingen": {
+    "en": "force (oneself).",
+    "hi": "(स्वयं को) मजबूर करना।"
+  },
+  "sammeln": {
+    "en": "collect",
+    "hi": "इकट्ठा करना"
+  },
+  "(sich) stoßen": {
+    "en": "to bump into (oneself).",
+    "hi": "(स्वयं से) टकराना।"
+  },
+  "sich verlaufen": {
+    "en": "get lost",
+    "hi": "भाड़ में जाओ"
+  },
+  "schieben": {
+    "en": "push",
+    "hi": "धकेलना"
+  },
+  "schätzen": {
+    "en": "treasure",
+    "hi": "खज़ाना"
+  },
+  "still": {
+    "en": "silent",
+    "hi": "चुपचाप"
+  },
+  "sich konzentrieren": {
+    "en": "to concentrate",
+    "hi": "ध्यान केंद्रित करने के लिए"
+  },
+  "selbstverständlich": {
+    "en": "of course",
+    "hi": "बिल्कुल"
+  },
+  "schießen": {
+    "en": "shoot",
+    "hi": "गोली मार"
+  },
+  "sinnvoll": {
+    "en": "sensible",
+    "hi": "समझदार"
+  },
+  "stolz": {
+    "en": "proud",
+    "hi": "गर्व"
+  },
+  "streng": {
+    "en": "strictly",
+    "hi": "कठोरता से"
+  },
+  "sichern": {
+    "en": "secure",
+    "hi": "सुरक्षित"
+  },
+  "(sich) fürchten": {
+    "en": "(to be afraid",
+    "hi": "(डरना"
+  },
+  "(sich) vorbereiten": {
+    "en": "(get ready",
+    "hi": "(तैयार हो जाओ"
+  },
+  "springen": {
+    "en": "jump",
+    "hi": "कूदना"
+  },
+  "(sich) anziehen": {
+    "en": "(to get dressed",
+    "hi": "(तैयार होना"
+  },
+  "scharf": {
+    "en": "sharp",
+    "hi": "तीखा"
+  },
+  "schütteln": {
+    "en": "shake",
+    "hi": "हिलाना"
+  },
+  "sodass": {
+    "en": "so that",
+    "hi": "ताकि"
+  },
+  "solange": {
+    "en": "as long as",
+    "hi": "जब तक कि"
+  },
+  "sichtbar": {
+    "en": "visible",
+    "hi": "दृश्यमान"
+  },
+  "sowieso": {
+    "en": "anyway",
+    "hi": "फिर भी"
+  },
+  "(sich) verstecken": {
+    "en": "(to hide oneself",
+    "hi": "(खुद को छुपाने के लिए"
+  },
+  "sich bemühen": {
+    "en": "make an effort",
+    "hi": "चेष्टा करना"
+  },
+  "statistisch": {
+    "en": "statistical",
+    "hi": "सांख्यिकीय"
+  },
+  "schenken": {
+    "en": "give",
+    "hi": "देना"
+  },
+  "stürzen": {
+    "en": "fall",
+    "hi": "गिरना"
+  },
+  "sobald": {
+    "en": "as soon as",
+    "hi": "जैसे ही"
+  },
+  "(sich) umdrehen": {
+    "en": "(to) turn around",
+    "hi": "(करवट बदलना"
+  },
+  "super": {
+    "en": "super",
+    "hi": "बहुत अच्छा"
+  },
+  "(sich) verabschieden": {
+    "en": "(say goodbye",
+    "hi": "(अलविदा कहो"
+  },
+  "schmal": {
+    "en": "narrow",
+    "hi": "सँकरा"
+  },
+  "spannend": {
+    "en": "exciting",
+    "hi": "रोमांचक"
+  },
+  "seltsam": {
+    "en": "strange",
+    "hi": "अजीब"
+  },
+  "schwimmen": {
+    "en": "to swim",
+    "hi": "तैरने के लिए"
+  },
+  "(sich) unterhalten": {
+    "en": "(talk",
+    "hi": "(बात करना"
+  },
+  "seitdem": {
+    "en": "since",
+    "hi": "तब से"
+  },
+  "sparen": {
+    "en": "save",
+    "hi": "बचाना"
+  },
+  "sauber": {
+    "en": "clean",
+    "hi": "साफ"
+  },
+  "sich lohnen": {
+    "en": "be worthwhile",
+    "hi": "उपयुक्त होना"
+  },
+  "sich wundern": {
+    "en": "to wonder",
+    "hi": "विस्मित होना"
+  },
+  "(sich) schneiden": {
+    "en": "to cut (oneself).",
+    "hi": "(स्वयं को) काटना।"
+  },
+  "schmecken": {
+    "en": "taste good",
+    "hi": "अच्छा स्वाद"
+  },
+  "schrecklich": {
+    "en": "terrible",
+    "hi": "भयानक"
+  },
+  "stoppen": {
+    "en": "stop",
+    "hi": "रुकना"
+  },
+  "(sich) streiten": {
+    "en": "(argue",
+    "hi": "(बहस"
+  },
+  "sportlich": {
+    "en": "sporty",
+    "hi": "स्पोर्टी"
+  },
+  "schriftlich": {
+    "en": "in written form",
+    "hi": "लिखित रूप में"
+  },
+  "(sich) waschen": {
+    "en": "(to wash one self",
+    "hi": "(स्वयं को धोने के लिए"
+  },
+  "sauer": {
+    "en": "sour",
+    "hi": "खट्टा"
+  },
+  "spätestens": {
+    "en": "at latest",
+    "hi": "नवीनतम"
+  },
+  "sich entschließen": {
+    "en": "decide",
+    "hi": "तय करना"
+  },
+  "sich verlieben": {
+    "en": "fall in love",
+    "hi": "प्यार में पड़ना"
+  },
+  "selbstständig": {
+    "en": "self-employed",
+    "hi": "स्वनियोजित"
+  },
+  "speichern": {
+    "en": "save",
+    "hi": "बचाना"
+  },
+  "(sich) verbrennen": {
+    "en": "burn (yourself).",
+    "hi": "जलाओ (अपने आप को)।"
+  },
+  "sich nähern": {
+    "en": "approach",
+    "hi": "दृष्टिकोण"
+  },
+  "steil": {
+    "en": "steep",
+    "hi": "खड़ी"
+  },
+  "schade": {
+    "en": "too bad",
+    "hi": "बहुत बुरा"
+  },
+  "süß": {
+    "en": "sweet",
+    "hi": "मिठाई"
+  },
+  "(sich) ärgern": {
+    "en": "(get angry",
+    "hi": "(क्रोध करना"
+  },
+  "sich bedanken": {
+    "en": "to thank",
+    "hi": "धन्यवाद करने"
+  },
+  "senkrecht": {
+    "en": "perpendicular",
+    "hi": "सीधा"
+  },
+  "sich einigen": {
+    "en": "agree",
+    "hi": "सहमत"
+  },
+  "schief": {
+    "en": "wrong",
+    "hi": "गलत"
+  },
+  "schwanger": {
+    "en": "pregnant",
+    "hi": "गर्भवती"
+  },
+  "stehlen": {
+    "en": "steal",
+    "hi": "चुराना"
+  },
+  "(sich etwas) aussuchen": {
+    "en": "choose (something).",
+    "hi": "(कुछ) चुनें।"
+  },
+  "senden": {
+    "en": "send",
+    "hi": "भेजना"
+  },
+  "stumm": {
+    "en": "mute",
+    "hi": "आवाज़ बंद करना"
+  },
+  "soviel": {
+    "en": "so much",
+    "hi": "बहुत ज्यादा"
+  },
+  "südlich": {
+    "en": "south",
+    "hi": "दक्षिण"
+  },
+  "schuldig": {
+    "en": "guilty",
+    "hi": "अपराधी"
+  },
+  "städtisch": {
+    "en": "urban",
+    "hi": "शहरी"
+  },
+  "siegen": {
+    "en": "win",
+    "hi": "जीतना"
+  },
+  "stinken": {
+    "en": "stink",
+    "hi": "बदबू"
+  },
+  "sich bewerben": {
+    "en": "apply",
+    "hi": "आवेदन करना"
+  },
+  "sympathisch": {
+    "en": "friendly",
+    "hi": "दोस्ताना"
+  },
+  "sich weigern": {
+    "en": "refuse",
+    "hi": "अस्वीकार करना"
+  },
+  "schmutzig": {
+    "en": "dirty",
+    "hi": "गंदा"
+  },
+  "satt": {
+    "en": "fed up",
+    "hi": "त्रस्त"
+  },
+  "sich erholen": {
+    "en": "to recover",
+    "hi": "ठीक करने के लिए"
+  },
+  "schimpfen": {
+    "en": "scold",
+    "hi": "डांटना"
+  },
+  "sinnlos": {
+    "en": "pointless",
+    "hi": "व्यर्थ"
+  },
+  "sich beschweren": {
+    "en": "complain",
+    "hi": "शिकायत करना"
+  },
+  "sich erkundigen": {
+    "en": "inquire",
+    "hi": "एंक्वाइयर"
+  },
+  "sich irren": {
+    "en": "be wrong",
+    "hi": "गलत होना"
+  },
+  "schlank": {
+    "en": "slim",
+    "hi": "छरहरा"
+  },
+  "schalten": {
+    "en": "switch",
+    "hi": "बदलना"
+  },
+  "stechen": {
+    "en": "sting",
+    "hi": "डंक मारना"
+  },
+  "(sich) verabreden": {
+    "en": "(arrange to meet",
+    "hi": "(मिलने की व्यवस्था करें"
+  },
+  "spitz": {
+    "en": "pointed",
+    "hi": "नुकीला"
+  },
+  "sich langweilen": {
+    "en": "be bored",
+    "hi": "रसहीन होना"
+  },
+  "sich umziehen": {
+    "en": "get changed",
+    "hi": "बदल जाओ"
+  },
+  "(sich) duschen": {
+    "en": "(take a shower",
+    "hi": "(शॉवर लें"
+  },
+  "sich beeilen": {
+    "en": "hurry up",
+    "hi": "जल्दी करो"
+  },
+  "sonnig": {
+    "en": "sunny",
+    "hi": "धूप वाला"
+  },
+  "salzig": {
+    "en": "salty",
+    "hi": "नमकीन"
+  },
+  "(sich) siezen": {
+    "en": "(to) sit",
+    "hi": "(बेठना"
+  },
+  "sich amüsieren": {
+    "en": "have fun",
+    "hi": "मस्ती करो"
+  },
+  "selb-": {
+    "en": "self-",
+    "hi": "खुद-"
+  },
+  "sich etwas gefallen lassen": {
+    "en": "to put up with something",
+    "hi": "किसी चीज़ को सहना"
+  },
+  "spezial-": {
+    "en": "special",
+    "hi": "विशेष"
+  },
+  "sowohl … als auch": {
+    "en": "as well as",
+    "hi": "साथ ही"
+  },
+  "staubsaugen": {
+    "en": "vacuum",
+    "hi": "वैक्यूम"
+  },
+  "s-bahn": {
+    "en": "S-Bahn",
+    "hi": "एस-बान"
+  },
+  "sparsam": {
+    "en": "thrifty",
+    "hi": "मितव्ययी"
+  },
+  "sich scheiden lassen": {
+    "en": "get divorced",
+    "hi": "तलाक मिलना"
+  },
+  "schwitzen": {
+    "en": "sweat",
+    "hi": "पसीना"
+  },
+  "streiken": {
+    "en": "strike",
+    "hi": "हड़ताल"
+  },
+  "sich anstrengen": {
+    "en": "make an effort",
+    "hi": "चेष्टा करना"
+  },
+  "süchtig": {
+    "en": "addicted",
+    "hi": "आदी"
+  },
+  "speise-/-speise": {
+    "en": "Food/dish",
+    "hi": "खाद्य पकवान"
+  },
+  "schneien": {
+    "en": "snow",
+    "hi": "बर्फ"
+  },
+  "stehen bleiben": {
+    "en": "remain standing",
+    "hi": "खड़े रहते हैं"
+  },
+  "spazieren gehen": {
+    "en": "go for a stroll",
+    "hi": "घूमने जाओ"
+  },
+  "sich ereignen": {
+    "en": "occur",
+    "hi": "घटित होना"
+  },
+  "schminken": {
+    "en": "make up",
+    "hi": "पूरा करना"
+  },
+  "so viel/so viel wie": {
+    "en": "as much/as much as",
+    "hi": "उतना/उतना"
+  },
+  "(sich) rasieren": {
+    "en": "(shave",
+    "hi": "(दाढ़ी बनाना"
+  },
+  "stilistisch": {
+    "en": "stylistically",
+    "hi": "शैलीगत"
+  },
+  "sich erkälten": {
+    "en": "catch a cold",
+    "hi": "सर्दी लगना"
+  },
+  "schädlich": {
+    "en": "harmful",
+    "hi": "हानिकारक"
+  },
+  "selber": {
+    "en": "himself",
+    "hi": "वह स्वयं"
+  },
+  "(sich) ausruhen": {
+    "en": "(rest",
+    "hi": "(आराम"
+  },
+  "schwieger-": {
+    "en": "in-law",
+    "hi": "ससुराल वाले"
+  },
+  "spülen": {
+    "en": "wash",
+    "hi": "धोना"
+  },
+  "strafbar": {
+    "en": "punishable",
+    "hi": "दंडनीय"
+  },
+  "sich vergnügen": {
+    "en": "have fun",
+    "hi": "मस्ती करो"
+  },
+  "sämtliche": {
+    "en": "all",
+    "hi": "सभी"
+  },
+  "tun": {
+    "en": "do",
+    "hi": "करना"
+  },
+  "treffen": {
+    "en": "meet",
+    "hi": "मिलो"
+  },
+  "tragen": {
+    "en": "carry",
+    "hi": "ढोना"
+  },
+  "tatsächlich": {
+    "en": "actually",
+    "hi": "वास्तव में"
+  },
+  "treten": {
+    "en": "step",
+    "hi": "कदम"
+  },
+  "tief": {
+    "en": "deep",
+    "hi": "गहरा"
+  },
+  "trotzdem": {
+    "en": "despite it",
+    "hi": "बावजूद इसके"
+  },
+  "tot": {
+    "en": "dead",
+    "hi": "मृत"
+  },
+  "trotz": {
+    "en": "despite",
+    "hi": "इसके बावजूद"
+  },
+  "trinken": {
+    "en": "drink",
+    "hi": "पीना"
+  },
+  "technisch": {
+    "en": "technically",
+    "hi": "तकनीकी तौर पर"
+  },
+  "teilen": {
+    "en": "split",
+    "hi": "विभाजित करना"
+  },
+  "teuer": {
+    "en": "expensive",
+    "hi": "महँगा"
+  },
+  "treiben": {
+    "en": "to drive",
+    "hi": "गाड़ी चलाना"
+  },
+  "toll": {
+    "en": "great",
+    "hi": "महान"
+  },
+  "traum-": {
+    "en": "Dream-",
+    "hi": "सपना-"
+  },
+  "total": {
+    "en": "total",
+    "hi": "कुल"
+  },
+  "typisch": {
+    "en": "typical",
+    "hi": "ठेठ"
+  },
+  "theoretisch": {
+    "en": "theoretically",
+    "hi": "सैद्धांतिक रूप से"
+  },
+  "tanzen": {
+    "en": "dance",
+    "hi": "नृत्य"
+  },
+  "traditionell": {
+    "en": "traditional",
+    "hi": "परंपरागत"
+  },
+  "tauchen": {
+    "en": "dive",
+    "hi": "गोता लगाना"
+  },
+  "teilnehmen": {
+    "en": "participate",
+    "hi": "हिस्सा लेना"
+  },
+  "traurig": {
+    "en": "sad",
+    "hi": "दुखद"
+  },
+  "träumen": {
+    "en": "dream",
+    "hi": "सपना"
+  },
+  "trainieren": {
+    "en": "train",
+    "hi": "रेलगाड़ी"
+  },
+  "testen": {
+    "en": "test",
+    "hi": "परीक्षा"
+  },
+  "trocken": {
+    "en": "dry",
+    "hi": "सूखा"
+  },
+  "transportieren": {
+    "en": "transport",
+    "hi": "परिवहन"
+  },
+  "telefonieren": {
+    "en": "make a phone call",
+    "hi": "एक फोन करना"
+  },
+  "tödlich": {
+    "en": "fatal",
+    "hi": "घातक"
+  },
+  "treu": {
+    "en": "faithful",
+    "hi": "वफादार"
+  },
+  "tauschen": {
+    "en": "to exchange",
+    "hi": "एक्सचेंज को"
+  },
+  "trocknen": {
+    "en": "dry",
+    "hi": "सूखा"
+  },
+  "tippen": {
+    "en": "tap",
+    "hi": "नल"
+  },
+  "tolerant": {
+    "en": "tolerant",
+    "hi": "सहिष्णु"
+  },
+  "taub": {
+    "en": "deaf",
+    "hi": "बहरा"
+  },
+  "tanken": {
+    "en": "refuel",
+    "hi": "ईधन"
+  },
+  "tee ziehen lassen": {
+    "en": "Let the tea steep",
+    "hi": "चाय को उबलने दीजिये"
+  },
+  "und": {
+    "en": "and",
+    "hi": "और"
+  },
+  "um": {
+    "en": "around",
+    "hi": "आस-पास"
+  },
+  "unter": {
+    "en": "under",
+    "hi": "अंतर्गत"
+  },
+  "unter-": {
+    "en": "under-",
+    "hi": "अंतर्गत-"
+  },
+  "unterschiedlich": {
+    "en": "different",
+    "hi": "अलग"
+  },
+  "unterscheiden": {
+    "en": "differentiate",
+    "hi": "अंतर"
+  },
+  "unten": {
+    "en": "below",
+    "hi": "नीचे"
+  },
+  "unterstützen": {
+    "en": "support",
+    "hi": "सहायता"
+  },
+  "untersuchen": {
+    "en": "investigate",
+    "hi": "जाँच करना"
+  },
+  "unbedingt": {
+    "en": "absolutely",
+    "hi": "बिल्कुल"
+  },
+  "unterwegs": {
+    "en": "on the way",
+    "hi": "रास्ते में"
+  },
+  "umgehen": {
+    "en": "evade",
+    "hi": "बचना"
+  },
+  "ursprünglich": {
+    "en": "originally",
+    "hi": "मौलिक रूप से"
+  },
+  "umgekehrt": {
+    "en": "vice versa",
+    "hi": "विपरीतता से"
+  },
+  "ungefähr": {
+    "en": "approximately",
+    "hi": "लगभग"
+  },
+  "umso": {
+    "en": "all the more",
+    "hi": "सब से अधिक"
+  },
+  "unglaublich": {
+    "en": "incredible",
+    "hi": "अविश्वसनीय"
+  },
+  "ungewöhnlich": {
+    "en": "unusual",
+    "hi": "असामान्य"
+  },
+  "unterbrechen": {
+    "en": "interrupt",
+    "hi": "रुकावट डालना"
+  },
+  "unternehmen": {
+    "en": "company",
+    "hi": "कंपनी"
+  },
+  "unheimlich": {
+    "en": "scary",
+    "hi": "डरावना"
+  },
+  "unterrichten": {
+    "en": "teach",
+    "hi": "पढ़ाना"
+  },
+  "unterschreiben": {
+    "en": "sign",
+    "hi": "संकेत"
+  },
+  "umarmen": {
+    "en": "embrace",
+    "hi": "अपनाना"
+  },
+  "umsonst": {
+    "en": "for free",
+    "hi": "मुक्त करने के लिए"
+  },
+  "unterstreichen": {
+    "en": "underline",
+    "hi": "रेखांकन"
+  },
+  "umziehen": {
+    "en": "move",
+    "hi": "कदम"
+  },
+  "umtauschen": {
+    "en": "exchange",
+    "hi": "अदला-बदली"
+  },
+  "untersagt": {
+    "en": "prohibited",
+    "hi": "निषिद्ध"
+  },
+  "umsteigen": {
+    "en": "transfer",
+    "hi": "स्थानांतरण"
+  },
+  "un-": {
+    "en": "U.N-",
+    "hi": "संयुक्त राष्ट्र-"
+  },
+  "unterlassen": {
+    "en": "refrain from",
+    "hi": "बचना चाहिए"
+  },
+  "um … zu": {
+    "en": "in order to",
+    "hi": "के लिए"
+  },
+  "unentschieden": {
+    "en": "draw",
+    "hi": "खींचना"
+  },
+  "von": {
+    "en": "from",
+    "hi": "से"
+  },
+  "vor": {
+    "en": "before",
+    "hi": "पहले"
+  },
+  "viel/viele": {
+    "en": "much/many",
+    "hi": "बहुत कई"
+  },
+  "vielleicht": {
+    "en": "perhaps",
+    "hi": "शायद"
+  },
+  "versuchen": {
+    "en": "attempt",
+    "hi": "कोशिश करना"
+  },
+  "verschieden": {
+    "en": "different",
+    "hi": "अलग"
+  },
+  "verlieren": {
+    "en": "lose",
+    "hi": "खोना"
+  },
+  "vergleichen": {
+    "en": "compare",
+    "hi": "तुलना करना"
+  },
+  "voll": {
+    "en": "full",
+    "hi": "भरा हुआ"
+  },
+  "verlassen": {
+    "en": "leave",
+    "hi": "छुट्टी"
+  },
+  "verbinden": {
+    "en": "connect",
+    "hi": "जोड़ना"
+  },
+  "völlig": {
+    "en": "fully",
+    "hi": "पूरी तरह"
+  },
+  "verwenden": {
+    "en": "use",
+    "hi": "उपयोग"
+  },
+  "verschwinden": {
+    "en": "disappear",
+    "hi": "गायब"
+  },
+  "vergessen": {
+    "en": "forget",
+    "hi": "भूल जाओ"
+  },
+  "vorkommen": {
+    "en": "happen",
+    "hi": "होना"
+  },
+  "verkaufen": {
+    "en": "sell",
+    "hi": "बेचना"
+  },
+  "verdienen": {
+    "en": "earn",
+    "hi": "कमाना"
+  },
+  "vorher": {
+    "en": "previously",
+    "hi": "इससे पहले"
+  },
+  "verlangen": {
+    "en": "demand",
+    "hi": "माँग"
+  },
+  "verhindern": {
+    "en": "impede",
+    "hi": "बाधा"
+  },
+  "verantwortlich": {
+    "en": "responsible",
+    "hi": "जिम्मेदार"
+  },
+  "versprechen": {
+    "en": "promise",
+    "hi": "वादा"
+  },
+  "vertrauen": {
+    "en": "trust",
+    "hi": "विश्वास"
+  },
+  "verteilen": {
+    "en": "distribute",
+    "hi": "वितरित करें"
+  },
+  "vermutlich": {
+    "en": "allegedly",
+    "hi": "कथित तौर पर"
+  },
+  "vertreten": {
+    "en": "represent",
+    "hi": "प्रतिनिधित्व करना"
+  },
+  "verzichten": {
+    "en": "waive",
+    "hi": "माफ"
+  },
+  "verbieten": {
+    "en": "forbid",
+    "hi": "ना करे"
+  },
+  "verbringen": {
+    "en": "spend",
+    "hi": "खर्च करना"
+  },
+  "veröffentlichen": {
+    "en": "publish",
+    "hi": "प्रकाशित"
+  },
+  "vorbei/vorbei-": {
+    "en": "over/past-",
+    "hi": "अति/अतीत-"
+  },
+  "vermuten": {
+    "en": "assume",
+    "hi": "मान लीजिए"
+  },
+  "vermeiden": {
+    "en": "avoid",
+    "hi": "टालना"
+  },
+  "vorsichtig": {
+    "en": "cautious",
+    "hi": "सावधान"
+  },
+  "vorschlagen": {
+    "en": "suggest",
+    "hi": "सुझाव देना"
+  },
+  "verursachen": {
+    "en": "cause",
+    "hi": "कारण"
+  },
+  "voneinander": {
+    "en": "from each other",
+    "hi": "एक दूसरे से"
+  },
+  "verraten": {
+    "en": "betrayed",
+    "hi": "धोखा दिया"
+  },
+  "vorhaben": {
+    "en": "plan",
+    "hi": "योजना"
+  },
+  "verrückt": {
+    "en": "crazy",
+    "hi": "पागल"
+  },
+  "vereinbaren": {
+    "en": "agree",
+    "hi": "सहमत"
+  },
+  "verschieben": {
+    "en": "move",
+    "hi": "कदम"
+  },
+  "verpassen": {
+    "en": "miss",
+    "hi": "याद"
+  },
+  "verurteilen": {
+    "en": "condemn",
+    "hi": "निंदा करना"
+  },
+  "vernünftig": {
+    "en": "reasonable",
+    "hi": "उचित"
+  },
+  "vermissen": {
+    "en": "miss",
+    "hi": "याद"
+  },
+  "versichern": {
+    "en": "assure",
+    "hi": "आश्वासन"
+  },
+  "verlängern": {
+    "en": "extend",
+    "hi": "बढ़ाना"
+  },
+  "verständlich": {
+    "en": "understandable",
+    "hi": "बोधगम्य"
+  },
+  "vorhin": {
+    "en": "earlier",
+    "hi": "पहले"
+  },
+  "virtuell": {
+    "en": "virtual",
+    "hi": "आभासी"
+  },
+  "verheiratet": {
+    "en": "married",
+    "hi": "विवाहित"
+  },
+  "vergrößern": {
+    "en": "enlarge",
+    "hi": "बड़े आकार में"
+  },
+  "verbrauchen": {
+    "en": "consume",
+    "hi": "उपभोग करना"
+  },
+  "verhaften": {
+    "en": "arrest",
+    "hi": "गिरफ़्तारी"
+  },
+  "vorläufig": {
+    "en": "provisionally",
+    "hi": "प्रावधिक"
+  },
+  "vergeblich": {
+    "en": "vain",
+    "hi": "व्यर्थ"
+  },
+  "vorlesen": {
+    "en": "read aloud",
+    "hi": "जोर से पढ़ें"
+  },
+  "verwandt": {
+    "en": "related",
+    "hi": "संबंधित"
+  },
+  "verdächtig": {
+    "en": "suspicious",
+    "hi": "संदिग्ध"
+  },
+  "voraussichtlich": {
+    "en": "expected",
+    "hi": "अपेक्षित"
+  },
+  "verwechseln": {
+    "en": "confuse with",
+    "hi": "इससे उलझन हुई"
+  },
+  "verzeihen": {
+    "en": "pardon",
+    "hi": "क्षमा"
+  },
+  "vorgestern": {
+    "en": "the day before yesterday",
+    "hi": "परसों"
+  },
+  "vermieten": {
+    "en": "rent",
+    "hi": "किराया"
+  },
+  "verliebt": {
+    "en": "in love",
+    "hi": "प्यार में"
+  },
+  "vorwärts": {
+    "en": "forward",
+    "hi": "आगे"
+  },
+  "vergnügt": {
+    "en": "happy",
+    "hi": "खुश"
+  },
+  "verreisen": {
+    "en": "travel",
+    "hi": "यात्रा"
+  },
+  "verpflichtet": {
+    "en": "obligated",
+    "hi": "बाध्य"
+  },
+  "verboten": {
+    "en": "forbidden",
+    "hi": "निषिद्ध"
+  },
+  "vor allem": {
+    "en": "above all",
+    "hi": "सबसे ऊपर"
+  },
+  "vorder-": {
+    "en": "before the-",
+    "hi": "इससे पहले-"
+  },
+  "verpacken": {
+    "en": "pack",
+    "hi": "सामान बाँधना"
+  },
+  "verabredet": {
+    "en": "have an appointment",
+    "hi": "मिलने का समय लिया था"
+  },
+  "verschmutzen": {
+    "en": "pollute",
+    "hi": "नापाक"
+  },
+  "voraus": {
+    "en": "in advance",
+    "hi": "अग्रिम रूप से"
+  },
+  "vorn": {
+    "en": "front",
+    "hi": "सामने"
+  },
+  "verzeihung": {
+    "en": "forgiveness",
+    "hi": "क्षमा"
+  },
+  "verpflegen": {
+    "en": "verpflegen",
+    "hi": ""
+  },
+  "verschreiben": {
+    "en": "prescribe",
+    "hi": "लिखो"
+  },
+  "versäumen": {
+    "en": "miss",
+    "hi": "याद"
+  },
+  "vegetarisch": {
+    "en": "vegetarian",
+    "hi": "शाकाहारी"
+  },
+  "volleyball": {
+    "en": "volleyball",
+    "hi": "वालीबाल"
+  },
+  "werden": {
+    "en": "become",
+    "hi": "बनना"
+  },
+  "wie": {
+    "en": "How",
+    "hi": "कैसे"
+  },
+  "was": {
+    "en": "What",
+    "hi": "क्या"
+  },
+  "wenn": {
+    "en": "if",
+    "hi": "अगर"
+  },
+  "wollen": {
+    "en": "want",
+    "hi": "चाहना"
+  },
+  "wieder/wieder-": {
+    "en": "again/again-",
+    "hi": "फिर फिर-"
+  },
+  "wissen": {
+    "en": "knowledge",
+    "hi": "ज्ञान"
+  },
+  "weil": {
+    "en": "because",
+    "hi": "क्योंकि"
+  },
+  "wenig/wenige": {
+    "en": "little/few",
+    "hi": "थोड़ा/कुछ"
+  },
+  "wo": {
+    "en": "where",
+    "hi": "कहाँ"
+  },
+  "wichtig": {
+    "en": "important",
+    "hi": "महत्वपूर्ण"
+  },
+  "wer": {
+    "en": "who",
+    "hi": "कौन"
+  },
+  "während": {
+    "en": "while",
+    "hi": "जबकि"
+  },
+  "wirklich": {
+    "en": "really",
+    "hi": "वास्तव में"
+  },
+  "warum": {
+    "en": "Why",
+    "hi": "क्यों"
+  },
+  "weiter/weiter-": {
+    "en": "further/further-",
+    "hi": "आगे/आगे-"
+  },
+  "weit": {
+    "en": "far",
+    "hi": "दूर"
+  },
+  "wegen": {
+    "en": "because of",
+    "hi": "के कारण"
+  },
+  "wohl": {
+    "en": "probably",
+    "hi": "शायद"
+  },
+  "warten": {
+    "en": "wait",
+    "hi": "इंतज़ार"
+  },
+  "wirken": {
+    "en": "works",
+    "hi": "काम करता है"
+  },
+  "wachsen": {
+    "en": "grow",
+    "hi": "बढ़ना"
+  },
+  "weiß": {
+    "en": "white",
+    "hi": "सफ़ेद"
+  },
+  "wahrscheinlich": {
+    "en": "probably",
+    "hi": "शायद"
+  },
+  "wohnen": {
+    "en": "reside",
+    "hi": "रहते हैं"
+  },
+  "wählen": {
+    "en": "choose",
+    "hi": "चुनना"
+  },
+  "wann": {
+    "en": "When",
+    "hi": "कब"
+  },
+  "werfen": {
+    "en": "throw",
+    "hi": "फेंक"
+  },
+  "wahr": {
+    "en": "true",
+    "hi": "सत्य"
+  },
+  "weltweit": {
+    "en": "worldwide",
+    "hi": "दुनिया भर में"
+  },
+  "wieso": {
+    "en": "how come",
+    "hi": "ऐसा कैसे"
+  },
+  "weg/weg-": {
+    "en": "away/away-",
+    "hi": "दूर/दूर-"
+  },
+  "wiederholen": {
+    "en": "repeat",
+    "hi": "दोहराना"
+  },
+  "wechseln": {
+    "en": "change",
+    "hi": "परिवर्तन"
+  },
+  "wenigstens": {
+    "en": "at least",
+    "hi": "कम से कम"
+  },
+  "warm": {
+    "en": "warm",
+    "hi": "गरम"
+  },
+  "warnen": {
+    "en": "warn",
+    "hi": "चेतावनी देना"
+  },
+  "woher": {
+    "en": "from where",
+    "hi": "कहां से"
+  },
+  "wenden": {
+    "en": "turn around",
+    "hi": "मुड़ो"
+  },
+  "weinen": {
+    "en": "cry",
+    "hi": "चिल्लाना"
+  },
+  "wunderbar": {
+    "en": "wonderful",
+    "hi": "आश्चर्यजनक"
+  },
+  "wild": {
+    "en": "wild",
+    "hi": "जंगली"
+  },
+  "wandern": {
+    "en": "hike",
+    "hi": "बढ़ोतरी"
+  },
+  "wohin": {
+    "en": "where",
+    "hi": "कहाँ"
+  },
+  "weshalb": {
+    "en": "for what reason",
+    "hi": "किस कारण के लिए"
+  },
+  "westlich": {
+    "en": "west",
+    "hi": "पश्चिम"
+  },
+  "weiblich": {
+    "en": "female",
+    "hi": "महिला"
+  },
+  "weich": {
+    "en": "soft",
+    "hi": "कोमल"
+  },
+  "wahnsinnig": {
+    "en": "insane",
+    "hi": "पागल"
+  },
+  "wertvoll": {
+    "en": "valuable",
+    "hi": "कीमती"
+  },
+  "winken": {
+    "en": "wave",
+    "hi": "लहर"
+  },
+  "willkommen": {
+    "en": "welcome",
+    "hi": "स्वागत"
+  },
+  "wecken": {
+    "en": "wake up",
+    "hi": "जागो"
+  },
+  "wütend": {
+    "en": "angry",
+    "hi": "गुस्सा"
+  },
+  "widersprechen": {
+    "en": "contradict",
+    "hi": "खंडन"
+  },
+  "wunderschön": {
+    "en": "beautiful",
+    "hi": "सुंदर"
+  },
+  "wach": {
+    "en": "awake",
+    "hi": "जागना"
+  },
+  "wiegen": {
+    "en": "weigh",
+    "hi": "तौलना"
+  },
+  "worum": {
+    "en": "what about",
+    "hi": "किस बारे में"
+  },
+  "worüber": {
+    "en": "about what",
+    "hi": "किस बारे मेँ"
+  },
+  "weder … noch": {
+    "en": "neither nor",
+    "hi": "न तो न ही"
+  },
+  "wetten": {
+    "en": "bet",
+    "hi": "बेट"
+  },
+  "wertlos": {
+    "en": "worthless",
+    "hi": "बेकार"
+  },
+  "wie viel(e)": {
+    "en": "how many)",
+    "hi": "कितने)"
+  },
+  "welcher": {
+    "en": "which",
+    "hi": "कौन"
+  },
+  "windig": {
+    "en": "windy",
+    "hi": "तूफ़ानी"
+  },
+  "was für ein-": {
+    "en": "what a-",
+    "hi": "क्या एक-"
+  },
+  "wehtun": {
+    "en": "hurt",
+    "hi": "आहत"
+  },
+  "-weise": {
+    "en": "-way",
+    "hi": "-रास्ता"
+  },
+  "waagerecht": {
+    "en": "horizontally",
+    "hi": "क्षैतिज"
+  },
+  "zu": {
+    "en": "to",
+    "hi": "को"
+  },
+  "zwischen": {
+    "en": "between",
+    "hi": "बीच में"
+  },
+  "zeigen": {
+    "en": "show",
+    "hi": "दिखाओ"
+  },
+  "ziehen": {
+    "en": "pull",
+    "hi": "खींचो"
+  },
+  "zwar": {
+    "en": "that is",
+    "hi": "वह है"
+  },
+  "zunächst": {
+    "en": "first",
+    "hi": "पहला"
+  },
+  "zusammen/zusammen-": {
+    "en": "together/together-",
+    "hi": "एक साथ/एक साथ-"
+  },
+  "zusätzlich": {
+    "en": "additionally",
+    "hi": "इसके अतिरिक्त"
+  },
+  "ziemlich": {
+    "en": "quite",
+    "hi": "अत्यंत"
+  },
+  "zumindest": {
+    "en": "at least",
+    "hi": "कम से कम"
+  },
+  "zunehmen": {
+    "en": "gain weight",
+    "hi": "वजन बढ़ना"
+  },
+  "zuletzt": {
+    "en": "last",
+    "hi": "अंतिम"
+  },
+  "zählen": {
+    "en": "to count",
+    "hi": "गिनती करने के लिए"
+  },
+  "zentral": {
+    "en": "central",
+    "hi": "केंद्रीय"
+  },
+  "zahlen": {
+    "en": "pay",
+    "hi": "वेतन"
+  },
+  "zuerst": {
+    "en": "first",
+    "hi": "पहला"
+  },
+  "zahlreich": {
+    "en": "numerous",
+    "hi": "बहुत"
+  },
+  "zeichnen": {
+    "en": "draw",
+    "hi": "खींचना"
+  },
+  "zuständig": {
+    "en": "responsible",
+    "hi": "जिम्मेदार"
+  },
+  "zufrieden": {
+    "en": "satisfied",
+    "hi": "संतुष्ट"
+  },
+  "zerstören": {
+    "en": "destroy",
+    "hi": "नष्ट करना"
+  },
+  "zuhören": {
+    "en": "listen",
+    "hi": "सुनना"
+  },
+  "zurück/zurück-": {
+    "en": "back/back-",
+    "hi": "पीछे/पीछे-"
+  },
+  "zufällig": {
+    "en": "randomly",
+    "hi": "बेतरतीब"
+  },
+  "zusammenfassen": {
+    "en": "summarize",
+    "hi": "सारांशित करें"
+  },
+  "zugehen": {
+    "en": "approach",
+    "hi": "दृष्टिकोण"
+  },
+  "zukünftig": {
+    "en": "future",
+    "hi": "भविष्य"
+  },
+  "zustimmen": {
+    "en": "agree",
+    "hi": "सहमत"
+  },
+  "zusagen": {
+    "en": "promise",
+    "hi": "वादा"
+  },
+  "zugänglich": {
+    "en": "accessible",
+    "hi": "पहुंच योग्य"
+  },
+  "zurzeit": {
+    "en": "currently",
+    "hi": "वर्तमान में"
+  },
+  "zuschauen": {
+    "en": "watch",
+    "hi": "घड़ी"
+  },
+  "zumachen": {
+    "en": "close",
+    "hi": "बंद करना"
+  },
+  "zuverlässig": {
+    "en": "reliable",
+    "hi": "भरोसेमंद"
+  },
+  "zweifeln": {
+    "en": "doubt",
+    "hi": "संदेह"
+  },
+  "zubereiten": {
+    "en": "prepare",
+    "hi": "तैयार करना"
+  },
+  "zelten": {
+    "en": "camping",
+    "hi": "डेरा डालना"
+  },
+  "zu sein": {
+    "en": "to be",
+    "hi": "होना"
+  },
+  "zurechtkommen": {
+    "en": "cope",
+    "hi": "सामना करना"
+  },
+  "ähnlich": {
+    "en": "similar",
+    "hi": "समान"
+  },
+  "ändern": {
+    "en": "change",
+    "hi": "परिवर्तन"
+  },
+  "ängstlich": {
+    "en": "fearful",
+    "hi": "भयभीत"
+  },
+  "äußerlich": {
+    "en": "externally",
+    "hi": "बाहर से"
+  },
+  "ärgerlich": {
+    "en": "annoying",
+    "hi": "कष्टप्रद"
+  },
+  "öffentlich": {
+    "en": "public",
+    "hi": "जनता"
+  },
+  "öffnen": {
+    "en": "open",
+    "hi": "खुला"
+  },
+  "östlich": {
+    "en": "east",
+    "hi": "पूर्व"
+  },
+  "öko-": {
+    "en": "Eco-",
+    "hi": "पारिस्थितिकी"
+  },
+  "über": {
+    "en": "above",
+    "hi": "ऊपर"
+  },
+  "überhaupt": {
+    "en": "at all",
+    "hi": "बिल्कुल भी"
+  },
+  "übernehmen": {
+    "en": "take over",
+    "hi": "कब्जा"
+  },
+  "übrigens": {
+    "en": "by the way",
+    "hi": "वैसे"
+  },
+  "überall": {
+    "en": "everywhere",
+    "hi": "हर जगह"
+  },
+  "überraschen": {
+    "en": "surprise",
+    "hi": "आश्चर्य"
+  },
+  "übrig": {
+    "en": "left over",
+    "hi": "बचा खुचा"
+  },
+  "üblich": {
+    "en": "usual",
+    "hi": "साधारण"
+  },
+  "übertragen": {
+    "en": "transmitted",
+    "hi": "संचारित"
+  },
+  "überprüfen": {
+    "en": "check",
+    "hi": "जाँच करना"
+  },
+  "übersetzen": {
+    "en": "translate",
+    "hi": "अनुवाद"
+  },
+  "üben": {
+    "en": "practice",
+    "hi": "अभ्यास"
+  },
+  "übertreiben": {
+    "en": "exaggerate",
+    "hi": "अतिरंजना करना"
+  },
+  "überlegen": {
+    "en": "superior",
+    "hi": "बेहतर"
+  },
+  "überholen": {
+    "en": "overtake",
+    "hi": "आगे निकल"
+  },
+  "übernachten": {
+    "en": "stay overnight",
+    "hi": "रातभर ठहरें"
+  },
+  "überqueren": {
+    "en": "cross over",
+    "hi": "पार करना"
+  },
+  "übermorgen": {
+    "en": "the day after tomorrow",
+    "hi": "परसों"
+  },
+  "überfahren": {
+    "en": "run over",
+    "hi": "कुचल कर निकलना"
+  },
+  "überreden": {
+    "en": "convince",
+    "hi": "राजी करना"
+  },
+  "überweisen": {
+    "en": "transfer",
+    "hi": "स्थानांतरण"
+  }
+}

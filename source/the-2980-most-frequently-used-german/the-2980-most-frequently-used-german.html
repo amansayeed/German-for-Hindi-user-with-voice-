@@ -126,7 +126,7 @@
     </nav>
 
     <h1>📋 2980 Most Frequently Used German Nouns (With Plural)</h1>
-    <p class="subtitle">By category · Click 🔊 to hear German pronunciation</p>
+    <p class="subtitle">All 2980 nouns in order (rank 1–2980) · Article, plural, Hindi · Click 🔊 to hear</p>
 
     <div id="stats-bar" class="stats-bar" style="display:none;">
         <strong id="stats-text">—</strong>
@@ -156,56 +156,59 @@
         document.querySelector('.sidebar-overlay').addEventListener('click', toggleSidebar);
 
         function cap(s) { return s && s.charAt(0).toUpperCase() + s.slice(1).toLowerCase(); }
-        function renderNoun(e) {
+        function escapeForSpeak(s) { return (s || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
+        function soundBtn(text, title) {
+            if (!text || text === '—') return '<span class="audio-btn" style="visibility:hidden">🔊</span>';
+            var safe = escapeForSpeak(text);
+            return '<span class="audio-btn" onclick="speakGerman(\'' + safe + '\')" title="' + (title || 'Listen') + '">🔊</span>';
+        }
+        function renderGermanCell(e) {
             var art = cap(e.article || '');
-            var noun = art + ' ' + e.de;
-            var pluralStr = e.plural ? ' → die ' + e.plural : '';
-            var speakText = noun;
-            var safe = speakText.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;');
-            return '<span class="audio-btn" onclick="speakGerman(\'' + safe + '\')" title="Listen to German pronunciation">🔊</span>' +
-                   '<span class="noun">' + noun + '</span>' +
-                   (e.plural ? '<span class="plural">' + pluralStr + '</span>' : '');
+            var noun = (e.de || '—').trim();
+            var fullNoun = noun ? (art + ' ' + noun) : '—';
+            return soundBtn(fullNoun, 'Listen to noun') + '<span class="noun">' + fullNoun + '</span>';
+        }
+        function renderPluralCell(e) {
+            var pl = (e.plural || '').trim();
+            if (!pl) return '<span class="audio-btn" style="visibility:hidden" aria-hidden="true">🔊</span><span class="plural">—</span>';
+            var fullPlural = 'die ' + pl;
+            return soundBtn(fullPlural, 'Listen to plural') + '<span class="plural">' + fullPlural + '</span>';
         }
 
         (function() {
             var data = typeof NOUNS_DATA !== 'undefined' ? NOUNS_DATA : null;
             document.getElementById('loading').style.display = 'none';
-            if (!data || !data.categories) {
+            if (!data) {
                 document.getElementById('error').style.display = 'block';
                 document.getElementById('error').textContent = 'Data not loaded. Make sure 2980-most-frequent-german-nouns.js is in the same folder.';
                 return;
             }
-            var total = data.total_entries || 0;
-            var cats = data.categories || {};
-            var catOrder = Object.keys(cats).sort();
+            var entries = data.entries || [];
+            var total = data.total_entries || entries.length;
             document.getElementById('stats-bar').style.display = 'block';
-            document.getElementById('stats-text').textContent = 'Total: ' + total + ' nouns (from source list of 2980) · ' + catOrder.length + ' categories';
+            document.getElementById('stats-text').textContent = 'Total: ' + total + ' nouns (rank 1–2980) · German & Plural with 🔊 · Hindi';
 
-            var tocHtml = '<h2>📑 Categories</h2><div class="toc-grid">';
-            catOrder.forEach(function(cat) {
-                var id = cat.replace(/\s+/g, '_').replace(/&/g, '');
-                var count = cats[cat].length;
-                tocHtml += '<a href="#' + id + '" class="toc-item"><span>' + cat + '</span> <span>(' + count + ')</span></a>';
-            });
+            var tocHtml = '<h2>📑 Jump to rank</h2><div class="toc-grid">';
+            for (var r = 1; r <= 2980; r += 500) {
+                var end = Math.min(r + 499, 2980);
+                tocHtml += '<a href="#rank-' + r + '" class="toc-item"><span>' + r + '–' + end + '</span></a>';
+            }
             tocHtml += '</div>';
             document.getElementById('toc').innerHTML = tocHtml;
             document.getElementById('toc').style.display = 'block';
 
-            var content = '';
-            catOrder.forEach(function(cat) {
-                var id = cat.replace(/\s+/g, '_').replace(/&/g, '');
-                var items = cats[cat];
-                content += '<div class="category" id="' + id + '">';
-                content += '<div class="category-header"><span class="emoji">📌</span><span>' + cat + '</span><span class="count">' + items.length + ' nouns</span></div>';
-                content += '<table><thead><tr><th style="width:50px">#</th><th>German (Nouns with Plural)</th><th>English</th><th>Hindi</th></thead><tbody>';
-                items.forEach(function(it, i) {
-                    content += '<tr><td>' + it.rank + '</td>';
-                    content += '<td class="german-cell">' + renderNoun(it) + '</td>';
-                    content += '<td class="english">' + (it.en || '—') + '</td>';
-                    content += '<td class="hindi">' + (it.hi || '—') + '</td></tr>';
-                });
-                content += '</tbody></table></div>';
+            var content = '<div class="category"><table><thead><tr><th style="width:55px">#</th><th>German</th><th>Plural</th><th>English</th><th>Hindi</th></thead><tbody>';
+            entries.forEach(function(it) {
+                var rank = it.rank || 0;
+                if (rank % 500 === 1) content += '<tr id="rank-' + rank + '">';
+                else content += '<tr>';
+                content += '<td>' + rank + '</td>';
+                content += '<td class="german-cell">' + renderGermanCell(it) + '</td>';
+                content += '<td class="german-cell">' + renderPluralCell(it) + '</td>';
+                content += '<td class="english">' + (it.en || '—') + '</td>';
+                content += '<td class="hindi">' + (it.hi || '—') + '</td></tr>';
             });
+            content += '</tbody></table></div>';
             document.getElementById('content').innerHTML = content;
         })();
     </script>
