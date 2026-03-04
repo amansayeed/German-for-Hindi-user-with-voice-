@@ -126,7 +126,7 @@
     </nav>
 
     <h1>📋 2980 Most Frequently Used German Nouns (With Plural)</h1>
-    <p class="subtitle">All 2980 nouns in order (rank 1–2980) · Article, plural, Hindi · Click 🔊 to hear</p>
+    <p class="subtitle">Nouns by article (Der → Die → Das) and A–Z alphabetical · Plural, English, Hindi · Click 🔊 to hear</p>
 
     <div id="stats-bar" class="stats-bar" style="display:none;">
         <strong id="stats-text">—</strong>
@@ -185,24 +185,44 @@
             }
             var entries = data.entries || [];
             var total = data.total_entries || entries.length;
-            document.getElementById('stats-bar').style.display = 'block';
-            document.getElementById('stats-text').textContent = 'Total: ' + total + ' nouns (rank 1–2980) · German & Plural with 🔊 · Hindi';
 
-            var tocHtml = '<h2>📑 Jump to rank</h2><div class="toc-grid">';
-            for (var r = 1; r <= 2980; r += 500) {
-                var end = Math.min(r + 499, 2980);
-                tocHtml += '<a href="#rank-' + r + '" class="toc-item"><span>' + r + '–' + end + '</span></a>';
-            }
+            // Sort by article (Der, Die, Das) then alphabetically by noun (A–Z)
+            var articleOrder = { der: 0, die: 1, das: 2 };
+            var sorted = entries.slice().sort(function(a, b) {
+                var artA = (a.article || '').toLowerCase();
+                var artB = (b.article || '').toLowerCase();
+                var orderA = articleOrder[artA] !== undefined ? articleOrder[artA] : 3;
+                var orderB = articleOrder[artB] !== undefined ? articleOrder[artB] : 3;
+                if (orderA !== orderB) return orderA - orderB;
+                var deA = (a.de || '').trim();
+                var deB = (b.de || '').trim();
+                return (deA || '').localeCompare(deB || '', 'de');
+            });
+
+            document.getElementById('stats-bar').style.display = 'block';
+            document.getElementById('stats-text').textContent = 'Total: ' + total + ' nouns · By article (Der, Die, Das) and A–Z · German & Plural with 🔊 · Hindi';
+
+            // TOC: jump to Der / Die / Das sections (first row of each)
+            var firstDer = -1, firstDie = -1, firstDas = -1;
+            sorted.forEach(function(it, idx) {
+                var art = (it.article || '').toLowerCase();
+                if (art === 'der' && firstDer < 0) firstDer = idx + 1;
+                else if (art === 'die' && firstDie < 0) firstDie = idx + 1;
+                else if (art === 'das' && firstDas < 0) firstDas = idx + 1;
+            });
+            var tocHtml = '<h2>📑 Jump to section</h2><div class="toc-grid">';
+            tocHtml += '<a href="#row-1" class="toc-item"><span>Der (A–Z)</span></a>';
+            if (firstDie > 0) tocHtml += '<a href="#row-' + firstDie + '" class="toc-item"><span>Die (A–Z)</span></a>';
+            if (firstDas > 0) tocHtml += '<a href="#row-' + firstDas + '" class="toc-item"><span>Das (A–Z)</span></a>';
             tocHtml += '</div>';
             document.getElementById('toc').innerHTML = tocHtml;
             document.getElementById('toc').style.display = 'block';
 
             var content = '<div class="category"><table><thead><tr><th style="width:55px">#</th><th>German</th><th>Plural</th><th>English</th><th>Hindi</th></thead><tbody>';
-            entries.forEach(function(it) {
-                var rank = it.rank || 0;
-                if (rank % 500 === 1) content += '<tr id="rank-' + rank + '">';
-                else content += '<tr>';
-                content += '<td>' + rank + '</td>';
+            sorted.forEach(function(it, idx) {
+                var rowNum = idx + 1;
+                var idAttr = (rowNum === 1 || rowNum === firstDie || rowNum === firstDas) ? ' id="row-' + rowNum + '"' : '';
+                content += '<tr' + idAttr + '><td>' + rowNum + '</td>';
                 content += '<td class="german-cell">' + renderGermanCell(it) + '</td>';
                 content += '<td class="german-cell">' + renderPluralCell(it) + '</td>';
                 content += '<td class="english">' + (it.en || '—') + '</td>';
