@@ -184,11 +184,17 @@
                 return;
             }
             var entries = data.entries || [];
-            var total = data.total_entries || entries.length;
+            // Filter out placeholder/empty entries (no real German noun)
+            var isEmpty = function(it) {
+                var de = (it.de || '').trim();
+                return !de || de === '—' || de === '-' || de === '–';
+            };
+            var validEntries = entries.filter(function(it) { return !isEmpty(it); });
+            var total = validEntries.length;
 
             // Sort by article (Der, Die, Das) then alphabetically by noun (A–Z)
             var articleOrder = { der: 0, die: 1, das: 2 };
-            var sorted = entries.slice().sort(function(a, b) {
+            var sorted = validEntries.slice().sort(function(a, b) {
                 var artA = (a.article || '').toLowerCase();
                 var artB = (b.article || '').toLowerCase();
                 var orderA = articleOrder[artA] !== undefined ? articleOrder[artA] : 3;
