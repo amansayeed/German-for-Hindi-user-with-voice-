@@ -1,0 +1,25 @@
+GERMAN VOCABULARY — SUMMARY REPORT
+=====================================
+
+Total unique words (final):     2830
+Words from A1 HTML (raw):       1246
+Words from A2 HTML (raw):       1331
+Duplicates removed:            493
+Words added from PDF:           746
+PDF headwords parsed:           1377
+
+Data quality
+------------
+No blank values:                Yes
+All entries have German:        Yes
+All entries have English:       Yes
+All entries have Hindi:         Yes
+
+Output
+------
+CSV: D:\german\output\german_vocabulary_merged.csv
+Columns: German | English | Hindi
+
+Note: Words added from the PDF that were not in the HTML sources have
+placeholder English "To be translated" and Hindi "अनुवाद किया जाना है"
+until manually translated. No blank or null values remain.

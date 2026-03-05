@@ -1,0 +1,20 @@
+A2 VOCABULARY VALIDATION REPORT
+===============================
+
+Total A2 words (final):              1605
+Words removed (exist in A1):        0
+Words added from PDF:               0
+Duplicates removed within A2:       0
+PDF headwords processed:             1377
+
+Data quality
+------------
+All articles verified (PDF/A1/A2):   Yes
+No null or empty values:             Yes
+Columns: German | English | Hindi   Yes
+Deduplication by word-after-article: Yes (no duplicate base words)
+
+Output
+------
+A2 HTML: D:\german\source\a2\a2.html
+A2 CSV:  D:\german\output\german_a2_vocabulary.csv

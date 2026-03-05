@@ -1,0 +1,17 @@
+=== A2 Vocabulary JSON – Sync from HTML – Report ===
+
+Source: Local source/a2/a2.html + GitHub (amansayeed/German-for-Hindi-user-with-voice-/main/source/a2/a2.html)
+
+Total words in JSON: 1928
+Number of words newly added (from HTML) this run: 0
+Number of categories: 48
+Words extracted from HTML (unique): 1928
+Blanks/placeholders fixed in existing entries: 0
+
+Confirmations:
+- All words from the A2 HTML source(s) have been checked.
+- Every word from HTML that was missing in JSON has been added (no words left unprocessed).
+- No duplicate words: each German word (de) appears only once in the JSON.
+- No blank or placeholder values: no empty "en"/"hi", no "To be translated", no "अनुवाद किया जाना है".
+- Every entry has: German (de), English (en), Hindi (hi), Category (via category id).
+- Category consistency: 48 categories; new themes from GitHub HTML were merged into existing or new logical categories.

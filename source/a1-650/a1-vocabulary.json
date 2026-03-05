@@ -1,0 +1,7743 @@
+{
+  "title": "German A1 Vocabulary",
+  "subtitle": "A1 vocabulary (1246 words) organised by themes. German, English, Hindi.",
+  "totalWords": 1246,
+  "categories": [
+    {
+      "id": "Greetings_&_Basics",
+      "name": "Greetings & Basics",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "👋",
+      "color": "#e8f5e9",
+      "words": [
+        {
+          "de": "Hallo",
+          "pronunciation": "",
+          "hi": "हैलो",
+          "en": "Hello"
+        },
+        {
+          "de": "Guten Morgen",
+          "pronunciation": "",
+          "hi": "सुप्रभात",
+          "en": "Good morning"
+        },
+        {
+          "de": "Guten Tag",
+          "pronunciation": "",
+          "hi": "नमस्कार",
+          "en": "Good day"
+        },
+        {
+          "de": "Guten Abend",
+          "pronunciation": "",
+          "hi": "शुभ संध्या",
+          "en": "Good evening"
+        },
+        {
+          "de": "Gute Nacht",
+          "pronunciation": "",
+          "hi": "शुभ रात्रि",
+          "en": "Good night"
+        },
+        {
+          "de": "Tschüss",
+          "pronunciation": "",
+          "hi": "बाय",
+          "en": "Bye"
+        },
+        {
+          "de": "Auf Wiedersehen",
+          "pronunciation": "",
+          "hi": "अलविदा",
+          "en": "Goodbye"
+        },
+        {
+          "de": "Bis bald",
+          "pronunciation": "",
+          "hi": "जल्दी मिलते हैं",
+          "en": "See you soon"
+        },
+        {
+          "de": "Bis später",
+          "pronunciation": "",
+          "hi": "बाद में मिलते हैं",
+          "en": "See you later"
+        },
+        {
+          "de": "Bis morgen",
+          "pronunciation": "",
+          "hi": "कल मिलते हैं",
+          "en": "See you tomorrow"
+        },
+        {
+          "de": "Wie geht's?",
+          "pronunciation": "",
+          "hi": "कैसे हो?",
+          "en": "How are you?"
+        },
+        {
+          "de": "Mir geht es gut",
+          "pronunciation": "",
+          "hi": "मैं ठीक हूँ",
+          "en": "I'm fine"
+        },
+        {
+          "de": "Danke, gut",
+          "pronunciation": "",
+          "hi": "धन्यवाद, अच्छा",
+          "en": "Thanks, good"
+        },
+        {
+          "de": "Ja",
+          "pronunciation": "",
+          "hi": "हाँ",
+          "en": "Yes"
+        },
+        {
+          "de": "Nein",
+          "pronunciation": "",
+          "hi": "नहीं",
+          "en": "No"
+        },
+        {
+          "de": "Bitte",
+          "pronunciation": "",
+          "hi": "कृपया",
+          "en": "Please / You're welcome"
+        },
+        {
+          "de": "Danke",
+          "pronunciation": "",
+          "hi": "धन्यवाद",
+          "en": "Thank you"
+        },
+        {
+          "de": "Danke schön",
+          "pronunciation": "",
+          "hi": "बहुत धन्यवाद",
+          "en": "Thank you very much"
+        },
+        {
+          "de": "Vielen Dank",
+          "pronunciation": "",
+          "hi": "बहुत धन्यवाद",
+          "en": "Many thanks"
+        },
+        {
+          "de": "Bitte schön",
+          "pronunciation": "",
+          "hi": "कोई बात नहीं",
+          "en": "You're welcome"
+        },
+        {
+          "de": "Entschuldigung",
+          "pronunciation": "",
+          "hi": "माफ़ कीजिए",
+          "en": "Sorry / Excuse me"
+        },
+        {
+          "de": "Es tut mir leid",
+          "pronunciation": "",
+          "hi": "मुझे खेद है",
+          "en": "I'm sorry"
+        },
+        {
+          "de": "Kein Problem",
+          "pronunciation": "",
+          "hi": "कोई बात नहीं",
+          "en": "No problem"
+        },
+        {
+          "de": "Freut mich",
+          "pronunciation": "",
+          "hi": "आपसे मिलकर खुशी हुई",
+          "en": "Nice to meet you"
+        },
+        {
+          "de": "Herzlich willkommen",
+          "pronunciation": "",
+          "hi": "स्वागत है",
+          "en": "Welcome"
+        },
+        {
+          "de": "Guten Appetit",
+          "pronunciation": "",
+          "hi": "खाने का आनंद लें",
+          "en": "Enjoy your meal"
+        },
+        {
+          "de": "Prost!",
+          "pronunciation": "",
+          "hi": "चीयर्स!",
+          "en": "Cheers!"
+        },
+        {
+          "de": "Gesundheit!",
+          "pronunciation": "",
+          "hi": "भगवान करे!",
+          "en": "Bless you!"
+        },
+        {
+          "de": "Alles Gute",
+          "pronunciation": "",
+          "hi": "शुभकामनाएं",
+          "en": "All the best"
+        },
+        {
+          "de": "Viel Glück",
+          "pronunciation": "",
+          "hi": "शुभकामनाएं",
+          "en": "Good luck"
+        },
+        {
+          "de": "Viel Spaß",
+          "pronunciation": "",
+          "hi": "मज़े करो",
+          "en": "Have fun"
+        },
+        {
+          "de": "Gute Reise",
+          "pronunciation": "",
+          "hi": "शुभ यात्रा",
+          "en": "Have a good trip"
+        },
+        {
+          "de": "Wie bitte?",
+          "pronunciation": "",
+          "hi": "क्या कहा?",
+          "en": "Pardon?"
+        },
+        {
+          "de": "Ich verstehe nicht",
+          "pronunciation": "",
+          "hi": "मुझे समझ नहीं आया",
+          "en": "I don't understand"
+        },
+        {
+          "de": "Langsam, bitte",
+          "pronunciation": "",
+          "hi": "धीरे बोलिए",
+          "en": "Slowly, please"
+        },
+        {
+          "de": "Noch einmal, bitte",
+          "pronunciation": "",
+          "hi": "एक बार और",
+          "en": "Once more, please"
+        },
+        {
+          "de": "Natürlich!",
+          "pronunciation": "",
+          "hi": "बिल्कुल!",
+          "en": "Of course!"
+        },
+        {
+          "de": "Genau!",
+          "pronunciation": "",
+          "hi": "बिल्कुल सही!",
+          "en": "Exactly!"
+        },
+        {
+          "de": "Richtig!",
+          "pronunciation": "",
+          "hi": "सही!",
+          "en": "Right!"
+        },
+        {
+          "de": "Alles klar",
+          "pronunciation": "",
+          "hi": "समझ गया",
+          "en": "Got it"
+        },
+        {
+          "de": "Moment mal",
+          "pronunciation": "",
+          "hi": "एक मिनट",
+          "en": "Wait a moment"
+        },
+        {
+          "de": "Hilfe!",
+          "pronunciation": "",
+          "hi": "मदद!",
+          "en": "Help!"
+        },
+        {
+          "de": "Achtung!",
+          "pronunciation": "",
+          "hi": "ध्यान दो!",
+          "en": "Watch out!"
+        },
+        {
+          "de": "Vorsicht!",
+          "pronunciation": "",
+          "hi": "सावधान!",
+          "en": "Careful!"
+        },
+        {
+          "de": "Toll!",
+          "pronunciation": "",
+          "hi": "बहुत अच्छा!",
+          "en": "Great!"
+        },
+        {
+          "de": "Super!",
+          "pronunciation": "",
+          "hi": "बढ़िया!",
+          "en": "Super!"
+        },
+        {
+          "de": "Prima!",
+          "pronunciation": "",
+          "hi": "उत्तम!",
+          "en": "Great!"
+        },
+        {
+          "de": "Schade!",
+          "pronunciation": "",
+          "hi": "अफ़सोस!",
+          "en": "Too bad!"
+        },
+        {
+          "de": "Macht nichts",
+          "pronunciation": "",
+          "hi": "कोई बात नहीं",
+          "en": "No matter"
+        },
+        {
+          "de": "Keine Ahnung",
+          "pronunciation": "",
+          "hi": "पता नहीं",
+          "en": "No idea"
+        },
+        {
+          "de": "Ich weiß nicht",
+          "pronunciation": "",
+          "hi": "मुझे नहीं पता",
+          "en": "I don't know"
+        },
+        {
+          "de": "Stimmt!",
+          "pronunciation": "",
+          "hi": "सही है!",
+          "en": "That's right!"
+        },
+        {
+          "de": "Ich auch",
+          "pronunciation": "",
+          "hi": "मैं भी",
+          "en": "Me too"
+        },
+        {
+          "de": "Sicher!",
+          "pronunciation": "",
+          "hi": "ज़रूर!",
+          "en": "Sure!"
+        },
+        {
+          "de": "Gern geschehen",
+          "pronunciation": "",
+          "hi": "खुशी से",
+          "en": "You're welcome"
+        },
+        {
+          "de": "Einverstanden",
+          "pronunciation": "",
+          "hi": "मंज़ूर",
+          "en": "Agreed"
+        },
+        {
+          "de": "Es geht",
+          "pronunciation": "",
+          "hi": "ठीक-ठाक",
+          "en": "So-so"
+        },
+        {
+          "de": "Nicht so gut",
+          "pronunciation": "",
+          "hi": "इतना अच्छा नहीं",
+          "en": "Not so good"
+        },
+        {
+          "de": "Was ist los?",
+          "pronunciation": "",
+          "hi": "क्या हुआ?",
+          "en": "What's up?"
+        },
+        {
+          "de": "Bis dann!",
+          "pronunciation": "",
+          "hi": "फिर मिलेंगे!",
+          "en": "See you then!"
+        },
+        {
+          "de": "Gute Besserung!",
+          "pronunciation": "",
+          "hi": "जल्दी ठीक हो जाओ!",
+          "en": "Get well soon!"
+        },
+        {
+          "de": "Schönes Wochenende!",
+          "pronunciation": "",
+          "hi": "अच्छा वीकेंड!",
+          "en": "Have a nice weekend!"
+        }
+      ]
+    },
+    {
+      "id": "Colors",
+      "name": "Colors",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🎨",
+      "color": "#fce4ec",
+      "words": [
+        {
+          "de": "die Farbe",
+          "pronunciation": "",
+          "hi": "रंग",
+          "en": "color"
+        },
+        {
+          "de": "rot",
+          "pronunciation": "",
+          "hi": "लाल",
+          "en": "red 🔴"
+        },
+        {
+          "de": "blau",
+          "pronunciation": "",
+          "hi": "नीला",
+          "en": "blue 🔵"
+        },
+        {
+          "de": "gelb",
+          "pronunciation": "",
+          "hi": "पीला",
+          "en": "yellow 🟡"
+        },
+        {
+          "de": "grün",
+          "pronunciation": "",
+          "hi": "हरा",
+          "en": "green 🟢"
+        },
+        {
+          "de": "orange",
+          "pronunciation": "",
+          "hi": "नारंगी",
+          "en": "orange 🟠"
+        },
+        {
+          "de": "schwarz",
+          "pronunciation": "",
+          "hi": "काला",
+          "en": "black ⚫"
+        },
+        {
+          "de": "weiß",
+          "pronunciation": "",
+          "hi": "सफ़ेद",
+          "en": "white ⚪"
+        },
+        {
+          "de": "grau",
+          "pronunciation": "",
+          "hi": "धूसर / स्लेटी",
+          "en": "gray / grey"
+        },
+        {
+          "de": "braun",
+          "pronunciation": "",
+          "hi": "भूरा",
+          "en": "brown 🟤"
+        },
+        {
+          "de": "hellblau",
+          "pronunciation": "",
+          "hi": "हल्का नीला",
+          "en": "light blue"
+        },
+        {
+          "de": "dunkelblau",
+          "pronunciation": "",
+          "hi": "गहरा नीला",
+          "en": "dark blue"
+        },
+        {
+          "de": "hellgrün",
+          "pronunciation": "",
+          "hi": "हल्का हरा",
+          "en": "light green"
+        },
+        {
+          "de": "dunkelgrün",
+          "pronunciation": "",
+          "hi": "गहरा हरा",
+          "en": "dark green"
+        },
+        {
+          "de": "türkis",
+          "pronunciation": "",
+          "hi": "फ़िरोज़ी",
+          "en": "turquoise"
+        },
+        {
+          "de": "beige",
+          "pronunciation": "",
+          "hi": "बेज / मटमैला",
+          "en": "beige"
+        },
+        {
+          "de": "hellrot",
+          "pronunciation": "",
+          "hi": "हल्का लाल",
+          "en": "light red"
+        },
+        {
+          "de": "dunkelrot",
+          "pronunciation": "",
+          "hi": "गहरा लाल",
+          "en": "dark red"
+        },
+        {
+          "de": "hellgrau",
+          "pronunciation": "",
+          "hi": "हल्का धूसर",
+          "en": "light gray"
+        },
+        {
+          "de": "dunkelgrau",
+          "pronunciation": "",
+          "hi": "गहरा धूसर",
+          "en": "dark gray"
+        },
+        {
+          "de": "hellbraun",
+          "pronunciation": "",
+          "hi": "हल्का भूरा",
+          "en": "light brown / tan"
+        },
+        {
+          "de": "dunkelbraun",
+          "pronunciation": "",
+          "hi": "गहरा भूरा",
+          "en": "dark brown"
+        },
+        {
+          "de": "hell",
+          "pronunciation": "",
+          "hi": "हल्का",
+          "en": "light (color)"
+        },
+        {
+          "de": "dunkel",
+          "pronunciation": "",
+          "hi": "गहरा",
+          "en": "dark"
+        },
+        {
+          "de": "bunt",
+          "pronunciation": "",
+          "hi": "रंगीन",
+          "en": "colorful"
+        },
+        {
+          "de": "weinrot",
+          "pronunciation": "",
+          "hi": "बरगंडी / वाइन लाल",
+          "en": "wine red / burgundy"
+        },
+        {
+          "de": "marineblau",
+          "pronunciation": "",
+          "hi": "नेवी नीला",
+          "en": "navy blue"
+        },
+        {
+          "de": "olivgrün",
+          "pronunciation": "",
+          "hi": "जैतून हरा",
+          "en": "olive green"
+        },
+        {
+          "de": "cremefarben",
+          "pronunciation": "",
+          "hi": "क्रीम रंग",
+          "en": "cream colored"
+        },
+        {
+          "de": "koralle",
+          "pronunciation": "",
+          "hi": "मूंगा रंग",
+          "en": "coral"
+        },
+        {
+          "de": "mintgrün",
+          "pronunciation": "",
+          "hi": "पुदीना हरा",
+          "en": "mint green"
+        },
+        {
+          "de": "lachsfarben",
+          "pronunciation": "",
+          "hi": "सैल्मन रंग",
+          "en": "salmon"
+        },
+        {
+          "de": "flieder",
+          "pronunciation": "",
+          "hi": "हल्का बैंगनी",
+          "en": "lilac"
+        },
+        {
+          "de": "khaki",
+          "pronunciation": "",
+          "hi": "खाकी",
+          "en": "khaki"
+        },
+        {
+          "de": "elfenbein",
+          "pronunciation": "",
+          "hi": "हाथी दांत रंग",
+          "en": "ivory"
+        },
+        {
+          "de": "rostbraun",
+          "pronunciation": "",
+          "hi": "जंग रंग",
+          "en": "rust brown"
+        }
+      ]
+    },
+    {
+      "id": "Family_&_People",
+      "name": "Family & People",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "👨‍👩‍👧",
+      "color": "#e3f2fd",
+      "words": [
+        {
+          "de": "die Familie",
+          "pronunciation": "",
+          "hi": "परिवार",
+          "en": "family 👨‍👩‍👧"
+        },
+        {
+          "de": "die Person",
+          "pronunciation": "",
+          "hi": "व्यक्ति",
+          "en": "person"
+        },
+        {
+          "de": "die Leute",
+          "pronunciation": "",
+          "hi": "लोग",
+          "en": "people"
+        },
+        {
+          "de": "die Eltern",
+          "pronunciation": "",
+          "hi": "माता-पिता",
+          "en": "parents 👨‍👩"
+        },
+        {
+          "de": "der Vater",
+          "pronunciation": "",
+          "hi": "पिता",
+          "en": "father 👨"
+        },
+        {
+          "de": "die Mutter",
+          "pronunciation": "",
+          "hi": "माँ",
+          "en": "mother 👩"
+        },
+        {
+          "de": "der Papa",
+          "pronunciation": "",
+          "hi": "पापा",
+          "en": "dad (informal)"
+        },
+        {
+          "de": "die Mama",
+          "pronunciation": "",
+          "hi": "मम्मी",
+          "en": "mom (informal)"
+        },
+        {
+          "de": "das Kind",
+          "pronunciation": "",
+          "hi": "बच्चा",
+          "en": "child 👶"
+        },
+        {
+          "de": "die Kinder",
+          "pronunciation": "",
+          "hi": "बच्चे",
+          "en": "children"
+        },
+        {
+          "de": "der Sohn",
+          "pronunciation": "",
+          "hi": "बेटा",
+          "en": "son 👦"
+        },
+        {
+          "de": "die Tochter",
+          "pronunciation": "",
+          "hi": "बेटी",
+          "en": "daughter 👧"
+        },
+        {
+          "de": "das Baby",
+          "pronunciation": "",
+          "hi": "शिशु",
+          "en": "baby 👶"
+        },
+        {
+          "de": "die Geschwister",
+          "pronunciation": "",
+          "hi": "भाई-बहन",
+          "en": "siblings"
+        },
+        {
+          "de": "der Bruder",
+          "pronunciation": "",
+          "hi": "भाई",
+          "en": "brother 👦"
+        },
+        {
+          "de": "die Schwester",
+          "pronunciation": "",
+          "hi": "बहन",
+          "en": "sister 👧"
+        },
+        {
+          "de": "die Großeltern",
+          "pronunciation": "",
+          "hi": "दादा-दादी / नाना-नानी",
+          "en": "grandparents"
+        },
+        {
+          "de": "der Großvater",
+          "pronunciation": "",
+          "hi": "दादा / नाना",
+          "en": "grandfather (formal)"
+        },
+        {
+          "de": "die Großmutter",
+          "pronunciation": "",
+          "hi": "दादी / नानी",
+          "en": "grandmother (formal)"
+        },
+        {
+          "de": "der Opa",
+          "pronunciation": "",
+          "hi": "दादा / नाना",
+          "en": "grandpa 👴"
+        },
+        {
+          "de": "die Oma",
+          "pronunciation": "",
+          "hi": "दादी / नानी",
+          "en": "grandma 👵"
+        },
+        {
+          "de": "der Onkel",
+          "pronunciation": "",
+          "hi": "चाचा / मामा / काका",
+          "en": "uncle"
+        },
+        {
+          "de": "die Tante",
+          "pronunciation": "",
+          "hi": "चाची / मामी / बुआ",
+          "en": "aunt"
+        },
+        {
+          "de": "der Cousin",
+          "pronunciation": "",
+          "hi": "चचेरा/ममेरा भाई",
+          "en": "cousin (male)"
+        },
+        {
+          "de": "die Cousine",
+          "pronunciation": "",
+          "hi": "चचेरी/ममेरी बहन",
+          "en": "cousin (female)"
+        },
+        {
+          "de": "der Neffe",
+          "pronunciation": "",
+          "hi": "भतीजा / भांजा",
+          "en": "nephew"
+        },
+        {
+          "de": "die Nichte",
+          "pronunciation": "",
+          "hi": "भतीजी / भांजी",
+          "en": "niece"
+        },
+        {
+          "de": "das Enkelkind",
+          "pronunciation": "",
+          "hi": "पोता/पोती / नाती/नातिन",
+          "en": "grandchild"
+        },
+        {
+          "de": "der Mann",
+          "pronunciation": "",
+          "hi": "आदमी / पति",
+          "en": "man / husband 👨"
+        },
+        {
+          "de": "die Frau",
+          "pronunciation": "",
+          "hi": "महिला / पत्नी",
+          "en": "woman / wife 👩"
+        },
+        {
+          "de": "der Ehemann",
+          "pronunciation": "",
+          "hi": "पति",
+          "en": "husband"
+        },
+        {
+          "de": "die Ehefrau",
+          "pronunciation": "",
+          "hi": "पत्नी",
+          "en": "wife"
+        },
+        {
+          "de": "der Partner",
+          "pronunciation": "",
+          "hi": "साथी (पुरुष)",
+          "en": "partner (m)"
+        },
+        {
+          "de": "die Partnerin",
+          "pronunciation": "",
+          "hi": "साथी (महिला)",
+          "en": "partner (f)"
+        },
+        {
+          "de": "der Freund",
+          "pronunciation": "",
+          "hi": "दोस्त / बॉयफ्रेंड",
+          "en": "friend (m) / boyfriend"
+        },
+        {
+          "de": "die Freundin",
+          "pronunciation": "",
+          "hi": "सहेली / गर्लफ्रेंड",
+          "en": "friend (f) / girlfriend"
+        },
+        {
+          "de": "der Bekannte",
+          "pronunciation": "",
+          "hi": "परिचित (पुरुष)",
+          "en": "acquaintance (m)"
+        },
+        {
+          "de": "die Bekannte",
+          "pronunciation": "",
+          "hi": "परिचित (महिला)",
+          "en": "acquaintance (f)"
+        },
+        {
+          "de": "der Nachbar",
+          "pronunciation": "",
+          "hi": "पड़ोसी (पुरुष)",
+          "en": "neighbor (m)"
+        },
+        {
+          "de": "die Nachbarin",
+          "pronunciation": "",
+          "hi": "पड़ोसन",
+          "en": "neighbor (f)"
+        },
+        {
+          "de": "der Gast",
+          "pronunciation": "",
+          "hi": "मेहमान",
+          "en": "guest"
+        },
+        {
+          "de": "der Junge",
+          "pronunciation": "",
+          "hi": "लड़का",
+          "en": "boy 👦"
+        },
+        {
+          "de": "das Mädchen",
+          "pronunciation": "",
+          "hi": "लड़की",
+          "en": "girl 👧"
+        },
+        {
+          "de": "der Jugendliche",
+          "pronunciation": "",
+          "hi": "किशोर",
+          "en": "teenager / youth"
+        },
+        {
+          "de": "der Erwachsene",
+          "pronunciation": "",
+          "hi": "वयस्क",
+          "en": "adult"
+        },
+        {
+          "de": "Herr",
+          "pronunciation": "",
+          "hi": "श्रीमान",
+          "en": "Mr. / Sir"
+        },
+        {
+          "de": "Frau",
+          "pronunciation": "",
+          "hi": "श्रीमती",
+          "en": "Mrs. / Ms. / Ma'am"
+        },
+        {
+          "de": "der Familienstand",
+          "pronunciation": "",
+          "hi": "वैवाहिक स्थिति",
+          "en": "marital status"
+        },
+        {
+          "de": "ledig",
+          "pronunciation": "",
+          "hi": "अविवाहित",
+          "en": "single (unmarried)"
+        },
+        {
+          "de": "verheiratet",
+          "pronunciation": "",
+          "hi": "विवाहित",
+          "en": "married 💍"
+        },
+        {
+          "de": "geschieden",
+          "pronunciation": "",
+          "hi": "तलाकशुदा",
+          "en": "divorced"
+        },
+        {
+          "de": "verwitwet",
+          "pronunciation": "",
+          "hi": "विधवा/विधुर",
+          "en": "widowed"
+        },
+        {
+          "de": "die Ehe",
+          "pronunciation": "",
+          "hi": "विवाह",
+          "en": "marriage"
+        },
+        {
+          "de": "die Hochzeit",
+          "pronunciation": "",
+          "hi": "शादी",
+          "en": "wedding 💒"
+        },
+        {
+          "de": "der Name",
+          "pronunciation": "",
+          "hi": "नाम",
+          "en": "name"
+        },
+        {
+          "de": "der Vorname",
+          "pronunciation": "",
+          "hi": "पहला नाम",
+          "en": "first name"
+        },
+        {
+          "de": "der Nachname",
+          "pronunciation": "",
+          "hi": "उपनाम",
+          "en": "last name / surname"
+        },
+        {
+          "de": "das Alter",
+          "pronunciation": "",
+          "hi": "उम्र",
+          "en": "age"
+        },
+        {
+          "de": "der Geburtstag",
+          "pronunciation": "",
+          "hi": "जन्मदिन",
+          "en": "birthday 🎂"
+        },
+        {
+          "de": "der Geburtsort",
+          "pronunciation": "",
+          "hi": "जन्मस्थान",
+          "en": "place of birth"
+        },
+        {
+          "de": "die Nationalität",
+          "pronunciation": "",
+          "hi": "राष्ट्रीयता",
+          "en": "nationality"
+        },
+        {
+          "de": "die Heimat",
+          "pronunciation": "",
+          "hi": "मातृभूमि",
+          "en": "homeland"
+        },
+        {
+          "de": "die Herkunft",
+          "pronunciation": "",
+          "hi": "मूल",
+          "en": "origin"
+        },
+        {
+          "de": "jung",
+          "pronunciation": "",
+          "hi": "जवान",
+          "en": "young"
+        },
+        {
+          "de": "alt",
+          "pronunciation": "",
+          "hi": "बूढ़ा / पुराना",
+          "en": "old"
+        },
+        {
+          "de": "freundlich",
+          "pronunciation": "",
+          "hi": "मिलनसार",
+          "en": "friendly"
+        },
+        {
+          "de": "nett",
+          "pronunciation": "",
+          "hi": "अच्छा / दयालु",
+          "en": "nice / kind"
+        },
+        {
+          "de": "der Verwandte",
+          "pronunciation": "",
+          "hi": "रिश्तेदार",
+          "en": "relative"
+        },
+        {
+          "de": "der Zwilling",
+          "pronunciation": "",
+          "hi": "जुड़वां",
+          "en": "twin"
+        },
+        {
+          "de": "die Generation",
+          "pronunciation": "",
+          "hi": "पीढ़ी",
+          "en": "generation"
+        }
+      ]
+    },
+    {
+      "id": "Body_Parts",
+      "name": "Body Parts",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🧍",
+      "color": "#f3e5f5",
+      "words": [
+        {
+          "de": "der Körper",
+          "pronunciation": "",
+          "hi": "शरीर",
+          "en": "body 🧍"
+        },
+        {
+          "de": "der Kopf",
+          "pronunciation": "",
+          "hi": "सिर",
+          "en": "head"
+        },
+        {
+          "de": "das Gesicht",
+          "pronunciation": "",
+          "hi": "चेहरा",
+          "en": "face 😊"
+        },
+        {
+          "de": "die Stirn",
+          "pronunciation": "",
+          "hi": "माथा",
+          "en": "forehead"
+        },
+        {
+          "de": "das Auge",
+          "pronunciation": "",
+          "hi": "आँख",
+          "en": "eye 👁️"
+        },
+        {
+          "de": "die Augen",
+          "pronunciation": "",
+          "hi": "आँखें",
+          "en": "eyes 👀"
+        },
+        {
+          "de": "die Augenbraue",
+          "pronunciation": "",
+          "hi": "भौं",
+          "en": "eyebrow"
+        },
+        {
+          "de": "das Ohr",
+          "pronunciation": "",
+          "hi": "कान",
+          "en": "ear 👂"
+        },
+        {
+          "de": "die Ohren",
+          "pronunciation": "",
+          "hi": "कान (दोनों)",
+          "en": "ears"
+        },
+        {
+          "de": "die Nase",
+          "pronunciation": "",
+          "hi": "नाक",
+          "en": "nose 👃"
+        },
+        {
+          "de": "der Mund",
+          "pronunciation": "",
+          "hi": "मुँह",
+          "en": "mouth 👄"
+        },
+        {
+          "de": "die Lippe",
+          "pronunciation": "",
+          "hi": "होंठ",
+          "en": "lip"
+        },
+        {
+          "de": "die Zunge",
+          "pronunciation": "",
+          "hi": "जीभ",
+          "en": "tongue 👅"
+        },
+        {
+          "de": "der Zahn",
+          "pronunciation": "",
+          "hi": "दाँत",
+          "en": "tooth 🦷"
+        },
+        {
+          "de": "die Zähne",
+          "pronunciation": "",
+          "hi": "दाँत (सब)",
+          "en": "teeth"
+        },
+        {
+          "de": "die Wange",
+          "pronunciation": "",
+          "hi": "गाल",
+          "en": "cheek"
+        },
+        {
+          "de": "das Kinn",
+          "pronunciation": "",
+          "hi": "ठुड्डी",
+          "en": "chin"
+        },
+        {
+          "de": "der Bart",
+          "pronunciation": "",
+          "hi": "दाढ़ी",
+          "en": "beard 🧔"
+        },
+        {
+          "de": "der Hals",
+          "pronunciation": "",
+          "hi": "गर्दन / गला",
+          "en": "neck / throat"
+        },
+        {
+          "de": "die Schulter",
+          "pronunciation": "",
+          "hi": "कंधा",
+          "en": "shoulder"
+        },
+        {
+          "de": "der Arm",
+          "pronunciation": "",
+          "hi": "बाँह",
+          "en": "arm 💪"
+        },
+        {
+          "de": "der Ellbogen",
+          "pronunciation": "",
+          "hi": "कोहनी",
+          "en": "elbow"
+        },
+        {
+          "de": "die Hand",
+          "pronunciation": "",
+          "hi": "हाथ",
+          "en": "hand ✋"
+        },
+        {
+          "de": "die Hände",
+          "pronunciation": "",
+          "hi": "हाथ (दोनों)",
+          "en": "hands"
+        },
+        {
+          "de": "der Finger",
+          "pronunciation": "",
+          "hi": "उंगली",
+          "en": "finger ☝️"
+        },
+        {
+          "de": "der Daumen",
+          "pronunciation": "",
+          "hi": "अंगूठा",
+          "en": "thumb 👍"
+        },
+        {
+          "de": "die Brust",
+          "pronunciation": "",
+          "hi": "छाती / सीना",
+          "en": "chest / breast"
+        },
+        {
+          "de": "der Bauch",
+          "pronunciation": "",
+          "hi": "पेट",
+          "en": "stomach / belly"
+        },
+        {
+          "de": "der Rücken",
+          "pronunciation": "",
+          "hi": "पीठ",
+          "en": "back"
+        },
+        {
+          "de": "die Hüfte",
+          "pronunciation": "",
+          "hi": "कूल्हा",
+          "en": "hip"
+        },
+        {
+          "de": "das Herz",
+          "pronunciation": "",
+          "hi": "दिल",
+          "en": "heart ❤️"
+        },
+        {
+          "de": "das Blut",
+          "pronunciation": "",
+          "hi": "खून",
+          "en": "blood 🩸"
+        },
+        {
+          "de": "der Knochen",
+          "pronunciation": "",
+          "hi": "हड्डी",
+          "en": "bone 🦴"
+        },
+        {
+          "de": "die Haut",
+          "pronunciation": "",
+          "hi": "त्वचा / चमड़ी",
+          "en": "skin"
+        },
+        {
+          "de": "das Bein",
+          "pronunciation": "",
+          "hi": "टांग",
+          "en": "leg 🦵"
+        },
+        {
+          "de": "das Knie",
+          "pronunciation": "",
+          "hi": "घुटना",
+          "en": "knee"
+        },
+        {
+          "de": "der Fuß",
+          "pronunciation": "",
+          "hi": "पैर",
+          "en": "foot 🦶"
+        },
+        {
+          "de": "die Füße",
+          "pronunciation": "",
+          "hi": "पैर (दोनों)",
+          "en": "feet"
+        },
+        {
+          "de": "der Zeh",
+          "pronunciation": "",
+          "hi": "पैर की उंगली",
+          "en": "toe"
+        },
+        {
+          "de": "sehen",
+          "pronunciation": "",
+          "hi": "देखना",
+          "en": "to see 👁️"
+        },
+        {
+          "de": "hören",
+          "pronunciation": "",
+          "hi": "सुनना",
+          "en": "to hear 👂"
+        },
+        {
+          "de": "riechen",
+          "pronunciation": "",
+          "hi": "सूँघना",
+          "en": "to smell 👃"
+        },
+        {
+          "de": "schmecken",
+          "pronunciation": "",
+          "hi": "स्वाद लेना",
+          "en": "to taste 👅"
+        },
+        {
+          "de": "fühlen",
+          "pronunciation": "",
+          "hi": "महसूस करना",
+          "en": "to feel ✋"
+        }
+      ]
+    },
+    {
+      "id": "Health_&_Feelings",
+      "name": "Health & Feelings",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🏥",
+      "color": "#ffccbc",
+      "words": [
+        {
+          "de": "die Gesundheit",
+          "pronunciation": "",
+          "hi": "स्वास्थ्य",
+          "en": "health 🏥"
+        },
+        {
+          "de": "gesund",
+          "pronunciation": "",
+          "hi": "स्वस्थ",
+          "en": "healthy ✅"
+        },
+        {
+          "de": "krank",
+          "pronunciation": "",
+          "hi": "बीमार",
+          "en": "sick / ill 🤒"
+        },
+        {
+          "de": "die Krankheit",
+          "pronunciation": "",
+          "hi": "बीमारी",
+          "en": "illness / disease"
+        },
+        {
+          "de": "der Arzt",
+          "pronunciation": "",
+          "hi": "डॉक्टर (पुरुष)",
+          "en": "doctor (m) 👨‍⚕️"
+        },
+        {
+          "de": "die Ärztin",
+          "pronunciation": "",
+          "hi": "डॉक्टर (महिला)",
+          "en": "doctor (f) 👩‍⚕️"
+        },
+        {
+          "de": "der Zahnarzt",
+          "pronunciation": "",
+          "hi": "दंत चिकित्सक",
+          "en": "dentist 🦷"
+        },
+        {
+          "de": "das Krankenhaus",
+          "pronunciation": "",
+          "hi": "अस्पताल",
+          "en": "hospital 🏥"
+        },
+        {
+          "de": "die Praxis",
+          "pronunciation": "",
+          "hi": "क्लिनिक",
+          "en": "doctor's office"
+        },
+        {
+          "de": "die Apotheke",
+          "pronunciation": "",
+          "hi": "दवाखाना",
+          "en": "pharmacy 💊"
+        },
+        {
+          "de": "der Termin",
+          "pronunciation": "",
+          "hi": "अपॉइंटमेंट",
+          "en": "appointment"
+        },
+        {
+          "de": "die Medizin",
+          "pronunciation": "",
+          "hi": "दवा",
+          "en": "medicine 💊"
+        },
+        {
+          "de": "das Medikament",
+          "pronunciation": "",
+          "hi": "दवाई",
+          "en": "medication"
+        },
+        {
+          "de": "die Tablette",
+          "pronunciation": "",
+          "hi": "गोली",
+          "en": "tablet / pill"
+        },
+        {
+          "de": "das Rezept",
+          "pronunciation": "",
+          "hi": "पर्चा / नुस्खा",
+          "en": "prescription"
+        },
+        {
+          "de": "die Erkältung",
+          "pronunciation": "",
+          "hi": "सर्दी-जुकाम",
+          "en": "cold (illness) 🤧"
+        },
+        {
+          "de": "das Fieber",
+          "pronunciation": "",
+          "hi": "बुखार",
+          "en": "fever 🤒"
+        },
+        {
+          "de": "der Husten",
+          "pronunciation": "",
+          "hi": "खाँसी",
+          "en": "cough"
+        },
+        {
+          "de": "der Schnupfen",
+          "pronunciation": "",
+          "hi": "नज़ला / सर्दी",
+          "en": "runny nose / cold"
+        },
+        {
+          "de": "die Grippe",
+          "pronunciation": "",
+          "hi": "फ्लू",
+          "en": "flu"
+        },
+        {
+          "de": "der Schmerz",
+          "pronunciation": "",
+          "hi": "दर्द",
+          "en": "pain"
+        },
+        {
+          "de": "die Schmerzen",
+          "pronunciation": "",
+          "hi": "दर्द (बहुवचन)",
+          "en": "pains"
+        },
+        {
+          "de": "wehtun",
+          "pronunciation": "",
+          "hi": "दर्द होना",
+          "en": "to hurt"
+        },
+        {
+          "de": "Kopfschmerzen",
+          "pronunciation": "",
+          "hi": "सिरदर्द",
+          "en": "headache 🤕"
+        },
+        {
+          "de": "Bauchschmerzen",
+          "pronunciation": "",
+          "hi": "पेट दर्द",
+          "en": "stomach ache"
+        },
+        {
+          "de": "Zahnschmerzen",
+          "pronunciation": "",
+          "hi": "दाँत दर्द",
+          "en": "toothache"
+        },
+        {
+          "de": "Halsschmerzen",
+          "pronunciation": "",
+          "hi": "गले में दर्द",
+          "en": "sore throat"
+        },
+        {
+          "de": "Rückenschmerzen",
+          "pronunciation": "",
+          "hi": "पीठ दर्द",
+          "en": "back pain"
+        },
+        {
+          "de": "müde",
+          "pronunciation": "",
+          "hi": "थका हुआ",
+          "en": "tired 😴"
+        },
+        {
+          "de": "der Hunger",
+          "pronunciation": "",
+          "hi": "भूख",
+          "en": "hunger"
+        },
+        {
+          "de": "hungrig",
+          "pronunciation": "",
+          "hi": "भूखा",
+          "en": "hungry 🍽️"
+        },
+        {
+          "de": "der Durst",
+          "pronunciation": "",
+          "hi": "प्यास",
+          "en": "thirst"
+        },
+        {
+          "de": "durstig",
+          "pronunciation": "",
+          "hi": "प्यासा",
+          "en": "thirsty 🥤"
+        },
+        {
+          "de": "warm",
+          "pronunciation": "",
+          "hi": "गर्म",
+          "en": "warm"
+        },
+        {
+          "de": "kalt",
+          "pronunciation": "",
+          "hi": "ठंडा",
+          "en": "cold"
+        },
+        {
+          "de": "das Gefühl",
+          "pronunciation": "",
+          "hi": "भावना",
+          "en": "feeling"
+        },
+        {
+          "de": "fühlen (sich)",
+          "pronunciation": "",
+          "hi": "महसूस करना",
+          "en": "to feel"
+        },
+        {
+          "de": "gut",
+          "pronunciation": "",
+          "hi": "अच्छा",
+          "en": "good / well"
+        },
+        {
+          "de": "schlecht",
+          "pronunciation": "",
+          "hi": "बुरा / खराब",
+          "en": "bad / unwell"
+        },
+        {
+          "de": "glücklich",
+          "pronunciation": "",
+          "hi": "खुश",
+          "en": "happy 😊"
+        },
+        {
+          "de": "froh",
+          "pronunciation": "",
+          "hi": "प्रसन्न",
+          "en": "glad / pleased"
+        },
+        {
+          "de": "zufrieden",
+          "pronunciation": "",
+          "hi": "संतुष्ट",
+          "en": "satisfied / content"
+        },
+        {
+          "de": "freuen (sich)",
+          "pronunciation": "",
+          "hi": "खुश होना",
+          "en": "to be happy / pleased"
+        },
+        {
+          "de": "lustig",
+          "pronunciation": "",
+          "hi": "मज़ेदार",
+          "en": "funny 😄"
+        },
+        {
+          "de": "aufgeregt",
+          "pronunciation": "",
+          "hi": "उत्साहित",
+          "en": "excited 🤩"
+        },
+        {
+          "de": "stolz",
+          "pronunciation": "",
+          "hi": "गर्वित",
+          "en": "proud"
+        },
+        {
+          "de": "verliebt",
+          "pronunciation": "",
+          "hi": "प्यार में",
+          "en": "in love 😍"
+        },
+        {
+          "de": "die Liebe",
+          "pronunciation": "",
+          "hi": "प्यार",
+          "en": "love ❤️"
+        },
+        {
+          "de": "traurig",
+          "pronunciation": "",
+          "hi": "उदास",
+          "en": "sad 😢"
+        },
+        {
+          "de": "böse",
+          "pronunciation": "",
+          "hi": "गुस्सा / नाराज़",
+          "en": "angry / mad 😠"
+        },
+        {
+          "de": "wütend",
+          "pronunciation": "",
+          "hi": "क्रोधित",
+          "en": "furious / angry"
+        },
+        {
+          "de": "die Angst",
+          "pronunciation": "",
+          "hi": "डर / चिंता",
+          "en": "fear / anxiety"
+        },
+        {
+          "de": "ängstlich",
+          "pronunciation": "",
+          "hi": "डरा हुआ",
+          "en": "scared / anxious 😰"
+        },
+        {
+          "de": "nervös",
+          "pronunciation": "",
+          "hi": "घबराया हुआ",
+          "en": "nervous 😬"
+        },
+        {
+          "de": "der Stress",
+          "pronunciation": "",
+          "hi": "तनाव",
+          "en": "stress"
+        },
+        {
+          "de": "gestresst",
+          "pronunciation": "",
+          "hi": "तनावग्रस्त",
+          "en": "stressed 😫"
+        },
+        {
+          "de": "einsam",
+          "pronunciation": "",
+          "hi": "अकेला",
+          "en": "lonely"
+        },
+        {
+          "de": "langweilig",
+          "pronunciation": "",
+          "hi": "उबाऊ / बोर",
+          "en": "boring / bored 😑"
+        },
+        {
+          "de": "überrascht",
+          "pronunciation": "",
+          "hi": "हैरान",
+          "en": "surprised 😮"
+        },
+        {
+          "de": "ruhig",
+          "pronunciation": "",
+          "hi": "शांत",
+          "en": "calm / quiet"
+        },
+        {
+          "de": "die Ruhe",
+          "pronunciation": "",
+          "hi": "आराम / शांति",
+          "en": "peace / rest"
+        },
+        {
+          "de": "entspannt",
+          "pronunciation": "",
+          "hi": "तनावमुक्त",
+          "en": "relaxed 😌"
+        },
+        {
+          "de": "schlafen",
+          "pronunciation": "",
+          "hi": "सोना",
+          "en": "to sleep 😴"
+        },
+        {
+          "de": "aufwachen",
+          "pronunciation": "",
+          "hi": "जागना",
+          "en": "to wake up"
+        },
+        {
+          "de": "weinen",
+          "pronunciation": "",
+          "hi": "रोना",
+          "en": "to cry 😭"
+        },
+        {
+          "de": "lachen",
+          "pronunciation": "",
+          "hi": "हँसना",
+          "en": "to laugh 😂"
+        },
+        {
+          "de": "lächeln",
+          "pronunciation": "",
+          "hi": "मुस्कुराना",
+          "en": "to smile 😊"
+        },
+        {
+          "de": "die Allergie",
+          "pronunciation": "",
+          "hi": "एलर्जी",
+          "en": "allergy"
+        }
+      ]
+    },
+    {
+      "id": "Food",
+      "name": "Food",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🍎",
+      "color": "#c8e6c9",
+      "words": [
+        {
+          "de": "der Apfel",
+          "pronunciation": "",
+          "hi": "सेब",
+          "en": "apple"
+        },
+        {
+          "de": "die Banane",
+          "pronunciation": "",
+          "hi": "केला",
+          "en": "banana"
+        },
+        {
+          "de": "die Birne",
+          "pronunciation": "",
+          "hi": "नाशपाती / बल्ब",
+          "en": "pear / light bulb"
+        },
+        {
+          "de": "die Brötchen",
+          "pronunciation": "",
+          "hi": "ब्रेड रोल",
+          "en": "rolls"
+        },
+        {
+          "de": "die Butter",
+          "pronunciation": "",
+          "hi": "मक्खन",
+          "en": "butter"
+        },
+        {
+          "de": "das Eis",
+          "pronunciation": "",
+          "hi": "बर्फ / आइसक्रीम",
+          "en": "ice / ice cream"
+        },
+        {
+          "de": "die Erdbeere",
+          "pronunciation": "",
+          "hi": "स्ट्रॉबेरी",
+          "en": "strawberry"
+        },
+        {
+          "de": "essen",
+          "pronunciation": "",
+          "hi": "खाना",
+          "en": "to eat"
+        },
+        {
+          "de": "das Essen",
+          "pronunciation": "",
+          "hi": "भोजन",
+          "en": "food / meal"
+        },
+        {
+          "de": "das Fisch",
+          "pronunciation": "",
+          "hi": "मछली",
+          "en": "fish"
+        },
+        {
+          "de": "die Fleisch",
+          "pronunciation": "",
+          "hi": "मांस",
+          "en": "meat"
+        },
+        {
+          "de": "das Frühstück",
+          "pronunciation": "",
+          "hi": "नाश्ता",
+          "en": "breakfast"
+        },
+        {
+          "de": "frühstücken",
+          "pronunciation": "",
+          "hi": "नाश्ता करना",
+          "en": "to have breakfast"
+        },
+        {
+          "de": "die Gemüse",
+          "pronunciation": "",
+          "hi": "सब्ज़ियाँ",
+          "en": "vegetables"
+        },
+        {
+          "de": "der Kuchen",
+          "pronunciation": "",
+          "hi": "केक",
+          "en": "cake"
+        },
+        {
+          "de": "die Mahlzeit",
+          "pronunciation": "",
+          "hi": "भोजन",
+          "en": "meal"
+        },
+        {
+          "de": "die Orange",
+          "pronunciation": "",
+          "hi": "संतरा",
+          "en": "orange"
+        },
+        {
+          "de": "die Sahne",
+          "pronunciation": "",
+          "hi": "क्रीम",
+          "en": "cream"
+        },
+        {
+          "de": "das Salz",
+          "pronunciation": "",
+          "hi": "नमक",
+          "en": "salt"
+        },
+        {
+          "de": "die Schokolade",
+          "pronunciation": "",
+          "hi": "चॉकलेट",
+          "en": "chocolate"
+        },
+        {
+          "de": "die Speisekarte",
+          "pronunciation": "",
+          "hi": "मेनू",
+          "en": "menu"
+        },
+        {
+          "de": "die Suppe",
+          "pronunciation": "",
+          "hi": "सूप",
+          "en": "soup"
+        },
+        {
+          "de": "süß",
+          "pronunciation": "",
+          "hi": "मीठा",
+          "en": "sweet"
+        },
+        {
+          "de": "die Vorspeise",
+          "pronunciation": "",
+          "hi": "स्टार्टर",
+          "en": "starter / appetizer"
+        },
+        {
+          "de": "die Wurst",
+          "pronunciation": "",
+          "hi": "सॉसेज",
+          "en": "sausage"
+        },
+        {
+          "de": "die Zwiebel",
+          "pronunciation": "",
+          "hi": "प्याज",
+          "en": "onion"
+        },
+        {
+          "de": "die Kartoffel",
+          "pronunciation": "",
+          "hi": "आलू",
+          "en": "potato"
+        },
+        {
+          "de": "der Reis",
+          "pronunciation": "",
+          "hi": "चावल",
+          "en": "rice"
+        },
+        {
+          "de": "die Nudeln",
+          "pronunciation": "",
+          "hi": "नूडल्स",
+          "en": "noodles / pasta"
+        },
+        {
+          "de": "der Käse",
+          "pronunciation": "",
+          "hi": "पनीर",
+          "en": "cheese"
+        },
+        {
+          "de": "das Ei",
+          "pronunciation": "",
+          "hi": "अंडा",
+          "en": "egg"
+        },
+        {
+          "de": "der Zucker",
+          "pronunciation": "",
+          "hi": "चीनी",
+          "en": "sugar"
+        },
+        {
+          "de": "der Pfeffer",
+          "pronunciation": "",
+          "hi": "काली मिर्च",
+          "en": "pepper"
+        },
+        {
+          "de": "das Hähnchen",
+          "pronunciation": "",
+          "hi": "चिकन",
+          "en": "chicken"
+        },
+        {
+          "de": "der Schinken",
+          "pronunciation": "",
+          "hi": "हैम",
+          "en": "ham"
+        },
+        {
+          "de": "der Salat",
+          "pronunciation": "",
+          "hi": "सलाद",
+          "en": "salad"
+        },
+        {
+          "de": "die Gurke",
+          "pronunciation": "",
+          "hi": "खीरा",
+          "en": "cucumber"
+        },
+        {
+          "de": "die Paprika",
+          "pronunciation": "",
+          "hi": "शिमला मिर्च",
+          "en": "bell pepper"
+        },
+        {
+          "de": "der Pilz",
+          "pronunciation": "",
+          "hi": "मशरूम",
+          "en": "mushroom"
+        },
+        {
+          "de": "das Obst",
+          "pronunciation": "",
+          "hi": "फल",
+          "en": "fruit"
+        },
+        {
+          "de": "die Zitrone",
+          "pronunciation": "",
+          "hi": "नींबू",
+          "en": "lemon"
+        },
+        {
+          "de": "die Traube",
+          "pronunciation": "",
+          "hi": "अंगूर",
+          "en": "grape"
+        },
+        {
+          "de": "die Melone",
+          "pronunciation": "",
+          "hi": "खरबूजा",
+          "en": "melon"
+        },
+        {
+          "de": "die Kirsche",
+          "pronunciation": "",
+          "hi": "चेरी",
+          "en": "cherry"
+        },
+        {
+          "de": "der Pfirsich",
+          "pronunciation": "",
+          "hi": "आड़ू",
+          "en": "peach"
+        },
+        {
+          "de": "die Ananas",
+          "pronunciation": "",
+          "hi": "अनानास",
+          "en": "pineapple"
+        },
+        {
+          "de": "die Karotte",
+          "pronunciation": "",
+          "hi": "गाजर",
+          "en": "carrot"
+        },
+        {
+          "de": "der Knoblauch",
+          "pronunciation": "",
+          "hi": "लहसुन",
+          "en": "garlic"
+        },
+        {
+          "de": "der Spinat",
+          "pronunciation": "",
+          "hi": "पालक",
+          "en": "spinach"
+        },
+        {
+          "de": "der Joghurt",
+          "pronunciation": "",
+          "hi": "दही",
+          "en": "yogurt"
+        }
+      ]
+    },
+    {
+      "id": "Drinks",
+      "name": "Drinks",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🥤",
+      "color": "#b2ebf2",
+      "words": [
+        {
+          "de": "das Getränk",
+          "pronunciation": "",
+          "hi": "पेय",
+          "en": "drink / beverage 🥤"
+        },
+        {
+          "de": "trinken",
+          "pronunciation": "",
+          "hi": "पीना",
+          "en": "to drink"
+        },
+        {
+          "de": "das Wasser",
+          "pronunciation": "",
+          "hi": "पानी",
+          "en": "water 💧"
+        },
+        {
+          "de": "das Mineralwasser",
+          "pronunciation": "",
+          "hi": "मिनरल वाटर",
+          "en": "mineral water"
+        },
+        {
+          "de": "Wasser mit Kohlensäure",
+          "pronunciation": "",
+          "hi": "सोडा वाटर",
+          "en": "sparkling water"
+        },
+        {
+          "de": "stilles Wasser",
+          "pronunciation": "",
+          "hi": "सादा पानी",
+          "en": "still water (no gas)"
+        },
+        {
+          "de": "der Kaffee",
+          "pronunciation": "",
+          "hi": "कॉफ़ी",
+          "en": "coffee ☕"
+        },
+        {
+          "de": "der Espresso",
+          "pronunciation": "",
+          "hi": "एस्प्रेसो",
+          "en": "espresso"
+        },
+        {
+          "de": "der Cappuccino",
+          "pronunciation": "",
+          "hi": "कैपुचीनो",
+          "en": "cappuccino"
+        },
+        {
+          "de": "der Tee",
+          "pronunciation": "",
+          "hi": "चाय",
+          "en": "tea 🍵"
+        },
+        {
+          "de": "der schwarze Tee",
+          "pronunciation": "",
+          "hi": "काली चाय",
+          "en": "black tea"
+        },
+        {
+          "de": "der grüne Tee",
+          "pronunciation": "",
+          "hi": "हरी चाय",
+          "en": "green tea 🍃"
+        },
+        {
+          "de": "der Kakao",
+          "pronunciation": "",
+          "hi": "कोको / हॉट चॉकलेट",
+          "en": "hot chocolate 🍫"
+        },
+        {
+          "de": "die Milch",
+          "pronunciation": "",
+          "hi": "दूध",
+          "en": "milk 🥛"
+        },
+        {
+          "de": "der Saft",
+          "pronunciation": "",
+          "hi": "जूस",
+          "en": "juice 🧃"
+        },
+        {
+          "de": "der Orangensaft",
+          "pronunciation": "",
+          "hi": "संतरे का जूस",
+          "en": "orange juice 🍊"
+        },
+        {
+          "de": "der Apfelsaft",
+          "pronunciation": "",
+          "hi": "सेब का जूस",
+          "en": "apple juice 🍎"
+        },
+        {
+          "de": "die Limonade",
+          "pronunciation": "",
+          "hi": "नींबू पानी / सोडा",
+          "en": "lemonade / soda 🍋"
+        },
+        {
+          "de": "die Cola",
+          "pronunciation": "",
+          "hi": "कोला",
+          "en": "cola 🥤"
+        },
+        {
+          "de": "die Fanta",
+          "pronunciation": "",
+          "hi": "फैंटा",
+          "en": "Fanta (orange soda)"
+        },
+        {
+          "de": "die Sprite",
+          "pronunciation": "",
+          "hi": "स्प्राइट",
+          "en": "Sprite (lemon soda)"
+        },
+        {
+          "de": "das Bier",
+          "pronunciation": "",
+          "hi": "बीयर",
+          "en": "beer 🍺"
+        },
+        {
+          "de": "der Rotwein",
+          "pronunciation": "",
+          "hi": "लाल वाइन",
+          "en": "red wine 🍷"
+        },
+        {
+          "de": "der Weißwein",
+          "pronunciation": "",
+          "hi": "सफ़ेद वाइन",
+          "en": "white wine 🥂"
+        },
+        {
+          "de": "der Sekt",
+          "pronunciation": "",
+          "hi": "शैम्पेन",
+          "en": "sparkling wine 🍾"
+        },
+        {
+          "de": "das Glas",
+          "pronunciation": "",
+          "hi": "गिलास",
+          "en": "glass 🥛"
+        },
+        {
+          "de": "die Tasse",
+          "pronunciation": "",
+          "hi": "प्याला / कप",
+          "en": "cup ☕"
+        },
+        {
+          "de": "die Flasche",
+          "pronunciation": "",
+          "hi": "बोतल",
+          "en": "bottle 🍼"
+        },
+        {
+          "de": "die Dose",
+          "pronunciation": "",
+          "hi": "डिब्बा / कैन",
+          "en": "can 🥫"
+        },
+        {
+          "de": "mit Zucker",
+          "pronunciation": "",
+          "hi": "चीनी के साथ",
+          "en": "with sugar"
+        },
+        {
+          "de": "ohne Zucker",
+          "pronunciation": "",
+          "hi": "बिना चीनी",
+          "en": "without sugar"
+        },
+        {
+          "de": "mit Milch",
+          "pronunciation": "",
+          "hi": "दूध के साथ",
+          "en": "with milk"
+        },
+        {
+          "de": "ohne Milch",
+          "pronunciation": "",
+          "hi": "बिना दूध",
+          "en": "without milk"
+        },
+        {
+          "de": "mit Eis",
+          "pronunciation": "",
+          "hi": "बर्फ़ के साथ",
+          "en": "with ice 🧊"
+        },
+        {
+          "de": "der Smoothie",
+          "pronunciation": "",
+          "hi": "स्मूथी",
+          "en": "smoothie"
+        },
+        {
+          "de": "der Eistee",
+          "pronunciation": "",
+          "hi": "आइस्ड टी",
+          "en": "iced tea 🧊"
+        },
+        {
+          "de": "der Eiskaffee",
+          "pronunciation": "",
+          "hi": "आइस्ड कॉफ़ी",
+          "en": "iced coffee"
+        }
+      ]
+    },
+    {
+      "id": "House_&_Furniture",
+      "name": "House & Furniture",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🏠",
+      "color": "#fff9c4",
+      "words": [
+        {
+          "de": "das Haus",
+          "pronunciation": "",
+          "hi": "मकान",
+          "en": "house 🏠"
+        },
+        {
+          "de": "die Wohnung",
+          "pronunciation": "",
+          "hi": "फ्लैट",
+          "en": "apartment / flat 🏢"
+        },
+        {
+          "de": "das Gebäude",
+          "pronunciation": "",
+          "hi": "इमारत",
+          "en": "building"
+        },
+        {
+          "de": "zu Hause",
+          "pronunciation": "",
+          "hi": "घर पर",
+          "en": "at home"
+        },
+        {
+          "de": "nach Hause",
+          "pronunciation": "",
+          "hi": "घर की ओर",
+          "en": "to home (going)"
+        },
+        {
+          "de": "das Zimmer",
+          "pronunciation": "",
+          "hi": "कमरा",
+          "en": "room 🚪"
+        },
+        {
+          "de": "das Wohnzimmer",
+          "pronunciation": "",
+          "hi": "बैठक",
+          "en": "living room 🛋️"
+        },
+        {
+          "de": "das Schlafzimmer",
+          "pronunciation": "",
+          "hi": "शयनकक्ष",
+          "en": "bedroom 🛏️"
+        },
+        {
+          "de": "das Kinderzimmer",
+          "pronunciation": "",
+          "hi": "बच्चों का कमरा",
+          "en": "children's room"
+        },
+        {
+          "de": "das Esszimmer",
+          "pronunciation": "",
+          "hi": "खाने का कमरा",
+          "en": "dining room 🍽️"
+        },
+        {
+          "de": "die Küche",
+          "pronunciation": "",
+          "hi": "रसोई",
+          "en": "kitchen 🍳"
+        },
+        {
+          "de": "der Flur",
+          "pronunciation": "",
+          "hi": "गलियारा",
+          "en": "hallway / corridor"
+        },
+        {
+          "de": "der Keller",
+          "pronunciation": "",
+          "hi": "तहखाना",
+          "en": "basement / cellar"
+        },
+        {
+          "de": "der Dachboden",
+          "pronunciation": "",
+          "hi": "अटारी",
+          "en": "attic"
+        },
+        {
+          "de": "die Tür",
+          "pronunciation": "",
+          "hi": "दरवाज़ा",
+          "en": "door 🚪"
+        },
+        {
+          "de": "das Fenster",
+          "pronunciation": "",
+          "hi": "खिड़की",
+          "en": "window 🪟"
+        },
+        {
+          "de": "die Wand",
+          "pronunciation": "",
+          "hi": "दीवार",
+          "en": "wall"
+        },
+        {
+          "de": "die Decke",
+          "pronunciation": "",
+          "hi": "छत (अंदर)",
+          "en": "ceiling"
+        },
+        {
+          "de": "das Dach",
+          "pronunciation": "",
+          "hi": "छत (बाहर)",
+          "en": "roof"
+        },
+        {
+          "de": "der Boden",
+          "pronunciation": "",
+          "hi": "फर्श",
+          "en": "floor"
+        },
+        {
+          "de": "die Treppe",
+          "pronunciation": "",
+          "hi": "सीढ़ी",
+          "en": "stairs 🪜"
+        },
+        {
+          "de": "der Balkon",
+          "pronunciation": "",
+          "hi": "बालकनी",
+          "en": "balcony"
+        },
+        {
+          "de": "die Terrasse",
+          "pronunciation": "",
+          "hi": "छत / आंगन",
+          "en": "terrace / patio"
+        },
+        {
+          "de": "der Garten",
+          "pronunciation": "",
+          "hi": "बगीचा",
+          "en": "garden 🌳"
+        },
+        {
+          "de": "die Garage",
+          "pronunciation": "",
+          "hi": "गैरेज",
+          "en": "garage 🚗"
+        },
+        {
+          "de": "die Möbel",
+          "pronunciation": "",
+          "hi": "फर्नीचर",
+          "en": "furniture"
+        },
+        {
+          "de": "der Tisch",
+          "pronunciation": "",
+          "hi": "मेज़",
+          "en": "table"
+        },
+        {
+          "de": "der Stuhl",
+          "pronunciation": "",
+          "hi": "कुर्सी",
+          "en": "chair 🪑"
+        },
+        {
+          "de": "der Sessel",
+          "pronunciation": "",
+          "hi": "आराम कुर्सी",
+          "en": "armchair"
+        },
+        {
+          "de": "das Bett",
+          "pronunciation": "",
+          "hi": "बिस्तर",
+          "en": "bed 🛏️"
+        },
+        {
+          "de": "der Schrank",
+          "pronunciation": "",
+          "hi": "अलमारी",
+          "en": "cupboard / wardrobe"
+        },
+        {
+          "de": "der Kleiderschrank",
+          "pronunciation": "",
+          "hi": "कपड़ों की अलमारी",
+          "en": "wardrobe (clothes)"
+        },
+        {
+          "de": "das Regal",
+          "pronunciation": "",
+          "hi": "शेल्फ",
+          "en": "shelf"
+        },
+        {
+          "de": "das Kissen",
+          "pronunciation": "",
+          "hi": "तकिया",
+          "en": "pillow"
+        },
+        {
+          "de": "das Bettlaken",
+          "pronunciation": "",
+          "hi": "चादर",
+          "en": "bed sheet"
+        },
+        {
+          "de": "der Fernseher",
+          "pronunciation": "",
+          "hi": "टीवी",
+          "en": "television 📺"
+        },
+        {
+          "de": "die Lampe",
+          "pronunciation": "",
+          "hi": "लैंप",
+          "en": "lamp 💡"
+        },
+        {
+          "de": "der Teppich",
+          "pronunciation": "",
+          "hi": "कालीन",
+          "en": "carpet / rug"
+        },
+        {
+          "de": "der Vorhang",
+          "pronunciation": "",
+          "hi": "पर्दा",
+          "en": "curtain"
+        },
+        {
+          "de": "der Spiegel",
+          "pronunciation": "",
+          "hi": "आईना",
+          "en": "mirror 🪞"
+        },
+        {
+          "de": "das Bild",
+          "pronunciation": "",
+          "hi": "तस्वीर",
+          "en": "picture / painting 🖼️"
+        },
+        {
+          "de": "die Uhr",
+          "pronunciation": "",
+          "hi": "घड़ी",
+          "en": "clock ⏰"
+        },
+        {
+          "de": "der Kühlschrank",
+          "pronunciation": "",
+          "hi": "फ्रिज",
+          "en": "refrigerator 🧊"
+        },
+        {
+          "de": "der Herd",
+          "pronunciation": "",
+          "hi": "चूल्हा",
+          "en": "stove"
+        },
+        {
+          "de": "der Ofen",
+          "pronunciation": "",
+          "hi": "ओवन",
+          "en": "oven"
+        },
+        {
+          "de": "die Mikrowelle",
+          "pronunciation": "",
+          "hi": "माइक्रोवेव",
+          "en": "microwave"
+        },
+        {
+          "de": "die Waschmaschine",
+          "pronunciation": "",
+          "hi": "वाशिंग मशीन",
+          "en": "washing machine 🧺"
+        },
+        {
+          "de": "die Spülmaschine",
+          "pronunciation": "",
+          "hi": "डिशवॉशर",
+          "en": "dishwasher"
+        },
+        {
+          "de": "die Dusche",
+          "pronunciation": "",
+          "hi": "शॉवर",
+          "en": "shower 🚿"
+        },
+        {
+          "de": "die Badewanne",
+          "pronunciation": "",
+          "hi": "बाथटब",
+          "en": "bathtub 🛁"
+        },
+        {
+          "de": "das Waschbecken",
+          "pronunciation": "",
+          "hi": "वॉशबेसिन",
+          "en": "sink (bathroom)"
+        },
+        {
+          "de": "das Handtuch",
+          "pronunciation": "",
+          "hi": "तौलिया",
+          "en": "towel"
+        },
+        {
+          "de": "die Miete",
+          "pronunciation": "",
+          "hi": "किराया",
+          "en": "rent 💰"
+        },
+        {
+          "de": "mieten",
+          "pronunciation": "",
+          "hi": "किराए पर लेना",
+          "en": "to rent"
+        },
+        {
+          "de": "wohnen",
+          "pronunciation": "",
+          "hi": "रहना",
+          "en": "to live (reside)"
+        },
+        {
+          "de": "umziehen",
+          "pronunciation": "",
+          "hi": "घर बदलना",
+          "en": "to move (house)"
+        },
+        {
+          "de": "das Erdgeschoss",
+          "pronunciation": "",
+          "hi": "भूतल",
+          "en": "ground floor"
+        },
+        {
+          "de": "Wo wohnst du?",
+          "pronunciation": "",
+          "hi": "तुम कहाँ रहते हो?",
+          "en": "Where do you live?"
+        },
+        {
+          "de": "Wie viele Zimmer?",
+          "pronunciation": "",
+          "hi": "कितने कमरे?",
+          "en": "How many rooms?"
+        },
+        {
+          "de": "Im ersten Stock",
+          "pronunciation": "",
+          "hi": "पहली मंज़िल पर",
+          "en": "On the first floor"
+        }
+      ]
+    },
+    {
+      "id": "Kitchen_Items",
+      "name": "Kitchen Items",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🍽️",
+      "color": "#d7ccc8",
+      "words": [
+        {
+          "de": "das Geschirr",
+          "pronunciation": "",
+          "hi": "बर्तन",
+          "en": "dishes / tableware 🍽️"
+        },
+        {
+          "de": "der Teller",
+          "pronunciation": "",
+          "hi": "प्लेट / थाली",
+          "en": "plate 🍽️"
+        },
+        {
+          "de": "die Schüssel",
+          "pronunciation": "",
+          "hi": "कटोरा",
+          "en": "bowl 🥣"
+        },
+        {
+          "de": "der Becher",
+          "pronunciation": "",
+          "hi": "मग",
+          "en": "mug / beaker"
+        },
+        {
+          "de": "das Besteck",
+          "pronunciation": "",
+          "hi": "छुरी-काँटा",
+          "en": "cutlery 🍴"
+        },
+        {
+          "de": "das Messer",
+          "pronunciation": "",
+          "hi": "चाकू",
+          "en": "knife 🔪"
+        },
+        {
+          "de": "die Gabel",
+          "pronunciation": "",
+          "hi": "काँटा",
+          "en": "fork 🍴"
+        },
+        {
+          "de": "der Löffel",
+          "pronunciation": "",
+          "hi": "चम्मच",
+          "en": "spoon 🥄"
+        },
+        {
+          "de": "der Teelöffel",
+          "pronunciation": "",
+          "hi": "चाय का चम्मच",
+          "en": "teaspoon"
+        },
+        {
+          "de": "der Esslöffel",
+          "pronunciation": "",
+          "hi": "बड़ा चम्मच",
+          "en": "tablespoon"
+        },
+        {
+          "de": "der Topf",
+          "pronunciation": "",
+          "hi": "बर्तन / पतीला",
+          "en": "pot 🍲"
+        },
+        {
+          "de": "die Pfanne",
+          "pronunciation": "",
+          "hi": "कड़ाही / तवा",
+          "en": "pan / frying pan 🍳"
+        },
+        {
+          "de": "der Deckel",
+          "pronunciation": "",
+          "hi": "ढक्कन",
+          "en": "lid / cover"
+        },
+        {
+          "de": "das Schneidebrett",
+          "pronunciation": "",
+          "hi": "कटिंग बोर्ड",
+          "en": "cutting board"
+        },
+        {
+          "de": "die Kanne",
+          "pronunciation": "",
+          "hi": "जग / केतली",
+          "en": "jug / pot"
+        },
+        {
+          "de": "der Kochlöffel",
+          "pronunciation": "",
+          "hi": "कड़छी",
+          "en": "cooking spoon / ladle"
+        },
+        {
+          "de": "die Kaffeemaschine",
+          "pronunciation": "",
+          "hi": "कॉफ़ी मशीन",
+          "en": "coffee machine ☕"
+        },
+        {
+          "de": "der Wasserkocher",
+          "pronunciation": "",
+          "hi": "केतली",
+          "en": "kettle"
+        },
+        {
+          "de": "der Toaster",
+          "pronunciation": "",
+          "hi": "टोस्टर",
+          "en": "toaster 🍞"
+        },
+        {
+          "de": "der Mixer",
+          "pronunciation": "",
+          "hi": "मिक्सर",
+          "en": "mixer / blender"
+        },
+        {
+          "de": "die Packung",
+          "pronunciation": "",
+          "hi": "पैकेट",
+          "en": "pack / package 📦"
+        },
+        {
+          "de": "die Tüte",
+          "pronunciation": "",
+          "hi": "थैला",
+          "en": "bag (paper/plastic)"
+        },
+        {
+          "de": "der Behälter",
+          "pronunciation": "",
+          "hi": "डिब्बा / कंटेनर",
+          "en": "container"
+        },
+        {
+          "de": "die Serviette",
+          "pronunciation": "",
+          "hi": "नैपकिन",
+          "en": "napkin"
+        },
+        {
+          "de": "die Tischdecke",
+          "pronunciation": "",
+          "hi": "मेज़पोश",
+          "en": "tablecloth"
+        },
+        {
+          "de": "das Spülmittel",
+          "pronunciation": "",
+          "hi": "बर्तन धोने का साबुन",
+          "en": "dish soap"
+        },
+        {
+          "de": "der Schwamm",
+          "pronunciation": "",
+          "hi": "स्पंज",
+          "en": "sponge"
+        },
+        {
+          "de": "das Geschirrtuch",
+          "pronunciation": "",
+          "hi": "बर्तन पोंछने का कपड़ा",
+          "en": "dish towel"
+        },
+        {
+          "de": "der Mülleimer",
+          "pronunciation": "",
+          "hi": "कूड़ेदान",
+          "en": "trash can 🗑️"
+        },
+        {
+          "de": "kochen",
+          "pronunciation": "",
+          "hi": "पकाना",
+          "en": "to cook 👨‍🍳"
+        },
+        {
+          "de": "braten",
+          "pronunciation": "",
+          "hi": "तलना",
+          "en": "to fry"
+        },
+        {
+          "de": "backen",
+          "pronunciation": "",
+          "hi": "सेंकना",
+          "en": "to bake"
+        },
+        {
+          "de": "schneiden",
+          "pronunciation": "",
+          "hi": "काटना",
+          "en": "to cut ✂️"
+        },
+        {
+          "de": "mischen",
+          "pronunciation": "",
+          "hi": "मिलाना",
+          "en": "to mix"
+        },
+        {
+          "de": "rühren",
+          "pronunciation": "",
+          "hi": "हिलाना",
+          "en": "to stir"
+        },
+        {
+          "de": "abwaschen",
+          "pronunciation": "",
+          "hi": "बर्तन धोना",
+          "en": "to wash dishes"
+        },
+        {
+          "de": "den Tisch decken",
+          "pronunciation": "",
+          "hi": "मेज़ लगाना",
+          "en": "to set the table"
+        },
+        {
+          "de": "Guten Appetit!",
+          "pronunciation": "",
+          "hi": "खाना खाइए!",
+          "en": "Enjoy your meal! 🍽️"
+        },
+        {
+          "de": "Das schmeckt gut!",
+          "pronunciation": "",
+          "hi": "यह स्वादिष्ट है!",
+          "en": "That tastes good!"
+        },
+        {
+          "de": "Noch etwas?",
+          "pronunciation": "",
+          "hi": "और कुछ?",
+          "en": "Anything else?"
+        },
+        {
+          "de": "Ich bin satt",
+          "pronunciation": "",
+          "hi": "मेरा पेट भर गया",
+          "en": "I am full"
+        },
+        {
+          "de": "Es ist lecker!",
+          "pronunciation": "",
+          "hi": "यह मज़ेदार है!",
+          "en": "It's delicious!"
+        },
+        {
+          "de": "Was kochst du?",
+          "pronunciation": "",
+          "hi": "तुम क्या पका रहे हो?",
+          "en": "What are you cooking?"
+        }
+      ]
+    },
+    {
+      "id": "Clothing",
+      "name": "Clothing",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "👕",
+      "color": "#c5cae9",
+      "words": [
+        {
+          "de": "das Kleidungsstück",
+          "pronunciation": "",
+          "hi": "कपड़े का टुकड़ा",
+          "en": "piece of clothing"
+        },
+        {
+          "de": "das Hemd",
+          "pronunciation": "",
+          "hi": "शर्ट",
+          "en": "shirt 👔"
+        },
+        {
+          "de": "das T-Shirt",
+          "pronunciation": "",
+          "hi": "टी-शर्ट",
+          "en": "t-shirt 👕"
+        },
+        {
+          "de": "die Bluse",
+          "pronunciation": "",
+          "hi": "ब्लाउज़",
+          "en": "blouse"
+        },
+        {
+          "de": "die Jacke",
+          "pronunciation": "",
+          "hi": "जैकेट",
+          "en": "jacket 🧥"
+        },
+        {
+          "de": "der Mantel",
+          "pronunciation": "",
+          "hi": "कोट",
+          "en": "coat 🧥"
+        },
+        {
+          "de": "die Hose",
+          "pronunciation": "",
+          "hi": "पैंट",
+          "en": "trousers / pants 👖"
+        },
+        {
+          "de": "die Jeans",
+          "pronunciation": "",
+          "hi": "जींस",
+          "en": "jeans 👖"
+        },
+        {
+          "de": "der Rock",
+          "pronunciation": "",
+          "hi": "स्कर्ट",
+          "en": "skirt"
+        },
+        {
+          "de": "der Anzug",
+          "pronunciation": "",
+          "hi": "सूट",
+          "en": "suit 🤵"
+        },
+        {
+          "de": "die Krawatte",
+          "pronunciation": "",
+          "hi": "टाई",
+          "en": "tie 👔"
+        },
+        {
+          "de": "der Schuh",
+          "pronunciation": "",
+          "hi": "जूता",
+          "en": "shoe 👞"
+        },
+        {
+          "de": "die Schuhe",
+          "pronunciation": "",
+          "hi": "जूते",
+          "en": "shoes 👟"
+        },
+        {
+          "de": "der Stiefel",
+          "pronunciation": "",
+          "hi": "बूट",
+          "en": "boot 👢"
+        },
+        {
+          "de": "die Sandale",
+          "pronunciation": "",
+          "hi": "सैंडल",
+          "en": "sandal 👡"
+        },
+        {
+          "de": "die Socke",
+          "pronunciation": "",
+          "hi": "मोज़ा",
+          "en": "sock 🧦"
+        },
+        {
+          "de": "die Socken",
+          "pronunciation": "",
+          "hi": "मोज़े",
+          "en": "socks"
+        },
+        {
+          "de": "der Hut",
+          "pronunciation": "",
+          "hi": "हैट",
+          "en": "hat 🎩"
+        },
+        {
+          "de": "die Mütze",
+          "pronunciation": "",
+          "hi": "टोपी",
+          "en": "cap / beanie 🧢"
+        },
+        {
+          "de": "der Schal",
+          "pronunciation": "",
+          "hi": "मफलर / गमछा",
+          "en": "scarf 🧣"
+        },
+        {
+          "de": "der Handschuh",
+          "pronunciation": "",
+          "hi": "दस्ताना",
+          "en": "glove 🧤"
+        },
+        {
+          "de": "die Handschuhe",
+          "pronunciation": "",
+          "hi": "दस्ताने",
+          "en": "gloves"
+        },
+        {
+          "de": "der Gürtel",
+          "pronunciation": "",
+          "hi": "बेल्ट",
+          "en": "belt"
+        },
+        {
+          "de": "die Brille",
+          "pronunciation": "",
+          "hi": "चश्मा",
+          "en": "glasses 👓"
+        },
+        {
+          "de": "die Sonnenbrille",
+          "pronunciation": "",
+          "hi": "धूप का चश्मा",
+          "en": "sunglasses 🕶️"
+        },
+        {
+          "de": "die Tasche",
+          "pronunciation": "",
+          "hi": "बैग / थैला",
+          "en": "bag / purse 👜"
+        },
+        {
+          "de": "der Rucksack",
+          "pronunciation": "",
+          "hi": "बैकपैक",
+          "en": "backpack 🎒"
+        },
+        {
+          "de": "der Regenschirm",
+          "pronunciation": "",
+          "hi": "छाता",
+          "en": "umbrella ☂️"
+        },
+        {
+          "de": "die Unterwäsche",
+          "pronunciation": "",
+          "hi": "अंडरवियर",
+          "en": "underwear"
+        },
+        {
+          "de": "der Badeanzug",
+          "pronunciation": "",
+          "hi": "स्विमसूट",
+          "en": "swimsuit (f) 👙"
+        },
+        {
+          "de": "die Badehose",
+          "pronunciation": "",
+          "hi": "स्विमिंग शॉर्ट्स",
+          "en": "swim trunks (m) 🩲"
+        },
+        {
+          "de": "die Größe",
+          "pronunciation": "",
+          "hi": "साइज़",
+          "en": "size"
+        },
+        {
+          "de": "mittel",
+          "pronunciation": "",
+          "hi": "मध्यम",
+          "en": "medium (M)"
+        },
+        {
+          "de": "groß",
+          "pronunciation": "",
+          "hi": "बड़ा",
+          "en": "large (L)"
+        },
+        {
+          "de": "eng",
+          "pronunciation": "",
+          "hi": "तंग",
+          "en": "tight"
+        },
+        {
+          "de": "weit",
+          "pronunciation": "",
+          "hi": "ढीला",
+          "en": "loose / wide"
+        },
+        {
+          "de": "tragen",
+          "pronunciation": "",
+          "hi": "पहनना",
+          "en": "to wear"
+        },
+        {
+          "de": "anziehen",
+          "pronunciation": "",
+          "hi": "पहनना",
+          "en": "to put on (clothes)"
+        },
+        {
+          "de": "ausziehen",
+          "pronunciation": "",
+          "hi": "उतारना",
+          "en": "to take off (clothes)"
+        },
+        {
+          "de": "sich umziehen",
+          "pronunciation": "",
+          "hi": "कपड़े बदलना",
+          "en": "to change clothes"
+        },
+        {
+          "de": "passen",
+          "pronunciation": "",
+          "hi": "फिट होना",
+          "en": "to fit"
+        },
+        {
+          "de": "anprobieren",
+          "pronunciation": "",
+          "hi": "पहनकर देखना",
+          "en": "to try on"
+        },
+        {
+          "de": "Das passt mir (nicht)",
+          "pronunciation": "",
+          "hi": "यह मुझे फिट है (नहीं)",
+          "en": "That fits me (not)"
+        },
+        {
+          "de": "Das steht dir gut!",
+          "pronunciation": "",
+          "hi": "तुम पर यह अच्छा लग रहा है!",
+          "en": "That looks good on you!"
+        }
+      ]
+    },
+    {
+      "id": "Transport_&_Travel",
+      "name": "Transport & Travel",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🚗",
+      "color": "#b2dfdb",
+      "words": [
+        {
+          "de": "der Bus",
+          "pronunciation": "",
+          "hi": "बस",
+          "en": "bus 🚌"
+        },
+        {
+          "de": "das Taxi",
+          "pronunciation": "",
+          "hi": "टैक्सी",
+          "en": "taxi 🚕"
+        },
+        {
+          "de": "das Motorrad",
+          "pronunciation": "",
+          "hi": "मोटरसाइकिल",
+          "en": "motorcycle 🏍️"
+        },
+        {
+          "de": "der Zug",
+          "pronunciation": "",
+          "hi": "ट्रेन",
+          "en": "train 🚆"
+        },
+        {
+          "de": "die Bahn",
+          "pronunciation": "",
+          "hi": "रेल",
+          "en": "train / railway"
+        },
+        {
+          "de": "die U-Bahn",
+          "pronunciation": "",
+          "hi": "मेट्रो",
+          "en": "metro / subway 🚇"
+        },
+        {
+          "de": "die S-Bahn",
+          "pronunciation": "",
+          "hi": "लोकल ट्रेन",
+          "en": "suburban train"
+        },
+        {
+          "de": "die Straßenbahn",
+          "pronunciation": "",
+          "hi": "ट्राम",
+          "en": "tram 🚃"
+        },
+        {
+          "de": "das Flugzeug",
+          "pronunciation": "",
+          "hi": "हवाई जहाज़",
+          "en": "airplane ✈️"
+        },
+        {
+          "de": "das Schiff",
+          "pronunciation": "",
+          "hi": "जहाज़",
+          "en": "ship 🚢"
+        },
+        {
+          "de": "das Boot",
+          "pronunciation": "",
+          "hi": "नाव",
+          "en": "boat ⛵"
+        },
+        {
+          "de": "der Bahnhof",
+          "pronunciation": "",
+          "hi": "रेलवे स्टेशन",
+          "en": "train station 🚉"
+        },
+        {
+          "de": "der Flughafen",
+          "pronunciation": "",
+          "hi": "हवाई अड्डा",
+          "en": "airport ✈️"
+        },
+        {
+          "de": "die Haltestelle",
+          "pronunciation": "",
+          "hi": "स्टॉप",
+          "en": "stop (bus/tram)"
+        },
+        {
+          "de": "die Bushaltestelle",
+          "pronunciation": "",
+          "hi": "बस स्टॉप",
+          "en": "bus stop 🚏"
+        },
+        {
+          "de": "die Tankstelle",
+          "pronunciation": "",
+          "hi": "पेट्रोल पंप",
+          "en": "gas station ⛽"
+        },
+        {
+          "de": "der Fahrplan",
+          "pronunciation": "",
+          "hi": "समय-सारणी",
+          "en": "timetable / schedule"
+        },
+        {
+          "de": "die Hin- und Rückfahrt",
+          "pronunciation": "",
+          "hi": "आना-जाना टिकट",
+          "en": "round trip"
+        },
+        {
+          "de": "einfache Fahrt",
+          "pronunciation": "",
+          "hi": "एक तरफ़ का टिकट",
+          "en": "one-way trip"
+        },
+        {
+          "de": "buchen",
+          "pronunciation": "",
+          "hi": "बुक करना",
+          "en": "to book"
+        },
+        {
+          "de": "fahren",
+          "pronunciation": "",
+          "hi": "चलाना / जाना",
+          "en": "to drive / go (vehicle)"
+        },
+        {
+          "de": "fliegen",
+          "pronunciation": "",
+          "hi": "उड़ना",
+          "en": "to fly"
+        },
+        {
+          "de": "gehen",
+          "pronunciation": "",
+          "hi": "जाना / चलना",
+          "en": "to go / walk 🚶"
+        },
+        {
+          "de": "laufen",
+          "pronunciation": "",
+          "hi": "चलना / दौड़ना",
+          "en": "to walk / run"
+        },
+        {
+          "de": "einsteigen",
+          "pronunciation": "",
+          "hi": "चढ़ना",
+          "en": "to get on / board"
+        },
+        {
+          "de": "umsteigen",
+          "pronunciation": "",
+          "hi": "बदलना (गाड़ी)",
+          "en": "to change / transfer"
+        },
+        {
+          "de": "abfahren",
+          "pronunciation": "",
+          "hi": "रवाना होना",
+          "en": "to depart"
+        },
+        {
+          "de": "ankommen",
+          "pronunciation": "",
+          "hi": "पहुँचना",
+          "en": "to arrive"
+        },
+        {
+          "de": "die Abfahrt",
+          "pronunciation": "",
+          "hi": "प्रस्थान",
+          "en": "departure"
+        },
+        {
+          "de": "die Ankunft",
+          "pronunciation": "",
+          "hi": "आगमन",
+          "en": "arrival"
+        },
+        {
+          "de": "der Urlaub",
+          "pronunciation": "",
+          "hi": "छुट्टी",
+          "en": "vacation / holiday 🏖️"
+        },
+        {
+          "de": "die Ferien",
+          "pronunciation": "",
+          "hi": "छुट्टियाँ",
+          "en": "holidays (school)"
+        },
+        {
+          "de": "das Hotel",
+          "pronunciation": "",
+          "hi": "होटल",
+          "en": "hotel 🏨"
+        },
+        {
+          "de": "das Visum",
+          "pronunciation": "",
+          "hi": "वीज़ा",
+          "en": "visa"
+        },
+        {
+          "de": "das Gepäck",
+          "pronunciation": "",
+          "hi": "सामान",
+          "en": "luggage / baggage 🧳"
+        },
+        {
+          "de": "der Koffer",
+          "pronunciation": "",
+          "hi": "सूटकेस",
+          "en": "suitcase"
+        },
+        {
+          "de": "der Verkehr",
+          "pronunciation": "",
+          "hi": "ट्रैफ़िक",
+          "en": "traffic"
+        },
+        {
+          "de": "die Straße",
+          "pronunciation": "",
+          "hi": "सड़क",
+          "en": "street / road"
+        },
+        {
+          "de": "die Ampel",
+          "pronunciation": "",
+          "hi": "ट्रैफ़िक लाइट",
+          "en": "traffic light 🚦"
+        },
+        {
+          "de": "der Parkplatz",
+          "pronunciation": "",
+          "hi": "पार्किंग",
+          "en": "parking lot 🅿️"
+        },
+        {
+          "de": "tanken",
+          "pronunciation": "",
+          "hi": "पेट्रोल भरवाना",
+          "en": "to refuel"
+        },
+        {
+          "de": "das Benzin",
+          "pronunciation": "",
+          "hi": "पेट्रोल",
+          "en": "petrol / gas"
+        },
+        {
+          "de": "links",
+          "pronunciation": "",
+          "hi": "बाएँ",
+          "en": "left ⬅️"
+        },
+        {
+          "de": "rechts",
+          "pronunciation": "",
+          "hi": "दाएँ",
+          "en": "right ➡️"
+        },
+        {
+          "de": "geradeaus",
+          "pronunciation": "",
+          "hi": "सीधे",
+          "en": "straight ahead ⬆️"
+        },
+        {
+          "de": "die Ecke",
+          "pronunciation": "",
+          "hi": "कोना",
+          "en": "corner"
+        },
+        {
+          "de": "die Kreuzung",
+          "pronunciation": "",
+          "hi": "चौराहा",
+          "en": "intersection / crossing"
+        },
+        {
+          "de": "die Verspätung",
+          "pronunciation": "",
+          "hi": "देरी",
+          "en": "delay"
+        },
+        {
+          "de": "der Stau",
+          "pronunciation": "",
+          "hi": "ट्रैफिक जाम",
+          "en": "traffic jam"
+        },
+        {
+          "de": "der Passagier",
+          "pronunciation": "",
+          "hi": "यात्री",
+          "en": "passenger"
+        },
+        {
+          "de": "der Fahrer",
+          "pronunciation": "",
+          "hi": "ड्राइवर",
+          "en": "driver"
+        },
+        {
+          "de": "der Führerschein",
+          "pronunciation": "",
+          "hi": "ड्राइविंग लाइसेंस",
+          "en": "driver's license"
+        },
+        {
+          "de": "der Sitzplatz",
+          "pronunciation": "",
+          "hi": "सीट",
+          "en": "seat"
+        }
+      ]
+    },
+    {
+      "id": "Places_&_City",
+      "name": "Places & City",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🏙️",
+      "color": "#eceff1",
+      "words": [
+        {
+          "de": "die Stadt",
+          "pronunciation": "",
+          "hi": "शहर",
+          "en": "city / town 🏙️"
+        },
+        {
+          "de": "das Dorf",
+          "pronunciation": "",
+          "hi": "गाँव",
+          "en": "village 🏘️"
+        },
+        {
+          "de": "die Altstadt",
+          "pronunciation": "",
+          "hi": "पुराना शहर",
+          "en": "old town"
+        },
+        {
+          "de": "der Platz",
+          "pronunciation": "",
+          "hi": "चौक",
+          "en": "square / plaza"
+        },
+        {
+          "de": "die Brücke",
+          "pronunciation": "",
+          "hi": "पुल",
+          "en": "bridge 🌉"
+        },
+        {
+          "de": "der Park",
+          "pronunciation": "",
+          "hi": "पार्क",
+          "en": "park 🌳"
+        },
+        {
+          "de": "der Spielplatz",
+          "pronunciation": "",
+          "hi": "खेल का मैदान",
+          "en": "playground"
+        },
+        {
+          "de": "das Rathaus",
+          "pronunciation": "",
+          "hi": "नगर पालिका",
+          "en": "town hall 🏛️"
+        },
+        {
+          "de": "die Polizeiwache",
+          "pronunciation": "",
+          "hi": "पुलिस थाना",
+          "en": "police station"
+        },
+        {
+          "de": "die Post",
+          "pronunciation": "",
+          "hi": "डाकघर",
+          "en": "post office 📮"
+        },
+        {
+          "de": "die Bank",
+          "pronunciation": "",
+          "hi": "बैंक",
+          "en": "bank 🏦"
+        },
+        {
+          "de": "das Amt",
+          "pronunciation": "",
+          "hi": "कार्यालय",
+          "en": "office / authority"
+        },
+        {
+          "de": "das Büro",
+          "pronunciation": "",
+          "hi": "दफ्तर",
+          "en": "office"
+        },
+        {
+          "de": "die Arztpraxis",
+          "pronunciation": "",
+          "hi": "डॉक्टर का क्लीनिक",
+          "en": "doctor's office"
+        },
+        {
+          "de": "die Schule",
+          "pronunciation": "",
+          "hi": "स्कूल",
+          "en": "school 🏫"
+        },
+        {
+          "de": "der Kindergarten",
+          "pronunciation": "",
+          "hi": "किंडरगार्टन",
+          "en": "kindergarten"
+        },
+        {
+          "de": "das Gymnasium",
+          "pronunciation": "",
+          "hi": "हाई स्कूल",
+          "en": "high school"
+        },
+        {
+          "de": "die Bibliothek",
+          "pronunciation": "",
+          "hi": "पुस्तकालय",
+          "en": "library 📚"
+        },
+        {
+          "de": "die Mensa",
+          "pronunciation": "",
+          "hi": "कैंटीन",
+          "en": "canteen / cafeteria"
+        },
+        {
+          "de": "der Supermarkt",
+          "pronunciation": "",
+          "hi": "सुपरमार्केट",
+          "en": "supermarket 🛒"
+        },
+        {
+          "de": "das Einkaufszentrum",
+          "pronunciation": "",
+          "hi": "शॉपिंग मॉल",
+          "en": "shopping mall 🛍️"
+        },
+        {
+          "de": "der Markt",
+          "pronunciation": "",
+          "hi": "बाज़ार",
+          "en": "market"
+        },
+        {
+          "de": "der Flohmarkt",
+          "pronunciation": "",
+          "hi": "पुरानी चीज़ों का बाज़ार",
+          "en": "flea market"
+        },
+        {
+          "de": "die Metzgerei",
+          "pronunciation": "",
+          "hi": "कसाई की दुकान",
+          "en": "butcher shop 🥩"
+        },
+        {
+          "de": "der Blumenladen",
+          "pronunciation": "",
+          "hi": "फूल की दुकान",
+          "en": "flower shop 💐"
+        },
+        {
+          "de": "das Restaurant",
+          "pronunciation": "",
+          "hi": "रेस्तरां",
+          "en": "restaurant 🍽️"
+        },
+        {
+          "de": "das Café",
+          "pronunciation": "",
+          "hi": "कैफ़े",
+          "en": "café ☕"
+        },
+        {
+          "de": "der Imbiss",
+          "pronunciation": "",
+          "hi": "स्नैक बार",
+          "en": "snack bar / fast food"
+        },
+        {
+          "de": "das Kino",
+          "pronunciation": "",
+          "hi": "सिनेमा",
+          "en": "cinema 🎬"
+        },
+        {
+          "de": "das Theater",
+          "pronunciation": "",
+          "hi": "थिएटर",
+          "en": "theater 🎭"
+        },
+        {
+          "de": "das Museum",
+          "pronunciation": "",
+          "hi": "संग्रहालय",
+          "en": "museum 🏛️"
+        },
+        {
+          "de": "das Schwimmbad",
+          "pronunciation": "",
+          "hi": "स्विमिंग पूल",
+          "en": "swimming pool 🏊"
+        },
+        {
+          "de": "das Fitnessstudio",
+          "pronunciation": "",
+          "hi": "जिम",
+          "en": "gym 🏋️"
+        },
+        {
+          "de": "das Stadion",
+          "pronunciation": "",
+          "hi": "स्टेडियम",
+          "en": "stadium 🏟️"
+        },
+        {
+          "de": "die Sporthalle",
+          "pronunciation": "",
+          "hi": "खेल हॉल",
+          "en": "sports hall"
+        },
+        {
+          "de": "die Kirche",
+          "pronunciation": "",
+          "hi": "गिरजाघर",
+          "en": "church ⛪"
+        },
+        {
+          "de": "die Moschee",
+          "pronunciation": "",
+          "hi": "मस्जिद",
+          "en": "mosque 🕌"
+        },
+        {
+          "de": "der Tempel",
+          "pronunciation": "",
+          "hi": "मंदिर",
+          "en": "temple 🛕"
+        },
+        {
+          "de": "die Reinigung",
+          "pronunciation": "",
+          "hi": "ड्राई क्लीनर",
+          "en": "dry cleaner"
+        },
+        {
+          "de": "die Werkstatt",
+          "pronunciation": "",
+          "hi": "वर्कशॉप / गैरेज",
+          "en": "workshop / garage"
+        },
+        {
+          "de": "der Zoo",
+          "pronunciation": "",
+          "hi": "चिड़ियाघर",
+          "en": "zoo 🦁"
+        },
+        {
+          "de": "das Schloss",
+          "pronunciation": "",
+          "hi": "महल",
+          "en": "castle 🏰"
+        },
+        {
+          "de": "der Turm",
+          "pronunciation": "",
+          "hi": "टावर",
+          "en": "tower"
+        },
+        {
+          "de": "die Sehenswürdigkeit",
+          "pronunciation": "",
+          "hi": "दर्शनीय स्थल",
+          "en": "tourist attraction / sight"
+        },
+        {
+          "de": "der Eingang",
+          "pronunciation": "",
+          "hi": "प्रवेश द्वार",
+          "en": "entrance 🚪"
+        },
+        {
+          "de": "der Ausgang",
+          "pronunciation": "",
+          "hi": "निकास",
+          "en": "exit"
+        },
+        {
+          "de": "die Adresse",
+          "pronunciation": "",
+          "hi": "पता",
+          "en": "address 📍"
+        },
+        {
+          "de": "hier",
+          "pronunciation": "",
+          "hi": "यहाँ",
+          "en": "here"
+        },
+        {
+          "de": "in der Nähe",
+          "pronunciation": "",
+          "hi": "पास में",
+          "en": "nearby"
+        }
+      ]
+    },
+    {
+      "id": "Nature_&_Weather",
+      "name": "Nature & Weather",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🌳",
+      "color": "#dcedc8",
+      "words": [
+        {
+          "de": "das Wetter",
+          "pronunciation": "",
+          "hi": "मौसम",
+          "en": "weather 🌤️"
+        },
+        {
+          "de": "die Temperatur",
+          "pronunciation": "",
+          "hi": "तापमान",
+          "en": "temperature 🌡️"
+        },
+        {
+          "de": "der Himmel",
+          "pronunciation": "",
+          "hi": "आसमान",
+          "en": "sky"
+        },
+        {
+          "de": "die Sonne",
+          "pronunciation": "",
+          "hi": "सूरज",
+          "en": "sun ☀️"
+        },
+        {
+          "de": "sonnig",
+          "pronunciation": "",
+          "hi": "धूप वाला",
+          "en": "sunny"
+        },
+        {
+          "de": "Die Sonne scheint",
+          "pronunciation": "",
+          "hi": "धूप निकली है",
+          "en": "The sun is shining"
+        },
+        {
+          "de": "die Wolke",
+          "pronunciation": "",
+          "hi": "बादल",
+          "en": "cloud ☁️"
+        },
+        {
+          "de": "bewölkt",
+          "pronunciation": "",
+          "hi": "बादल वाला",
+          "en": "cloudy"
+        },
+        {
+          "de": "der Regen",
+          "pronunciation": "",
+          "hi": "बारिश",
+          "en": "rain 🌧️"
+        },
+        {
+          "de": "regnen",
+          "pronunciation": "",
+          "hi": "बरसना",
+          "en": "to rain"
+        },
+        {
+          "de": "Es regnet",
+          "pronunciation": "",
+          "hi": "बारिश हो रही है",
+          "en": "It's raining"
+        },
+        {
+          "de": "nass",
+          "pronunciation": "",
+          "hi": "गीला",
+          "en": "wet"
+        },
+        {
+          "de": "der Schnee",
+          "pronunciation": "",
+          "hi": "बर्फ",
+          "en": "snow ❄️"
+        },
+        {
+          "de": "schneien",
+          "pronunciation": "",
+          "hi": "बर्फ गिरना",
+          "en": "to snow"
+        },
+        {
+          "de": "Es schneit",
+          "pronunciation": "",
+          "hi": "बर्फ गिर रही है",
+          "en": "It's snowing"
+        },
+        {
+          "de": "der Wind",
+          "pronunciation": "",
+          "hi": "हवा",
+          "en": "wind 💨"
+        },
+        {
+          "de": "windig",
+          "pronunciation": "",
+          "hi": "हवादार",
+          "en": "windy"
+        },
+        {
+          "de": "der Sturm",
+          "pronunciation": "",
+          "hi": "तूफ़ान",
+          "en": "storm 🌪️"
+        },
+        {
+          "de": "der Nebel",
+          "pronunciation": "",
+          "hi": "कोहरा",
+          "en": "fog 🌫️"
+        },
+        {
+          "de": "neblig",
+          "pronunciation": "",
+          "hi": "धुंधला",
+          "en": "foggy"
+        },
+        {
+          "de": "das Gewitter",
+          "pronunciation": "",
+          "hi": "आँधी-तूफ़ान",
+          "en": "thunderstorm ⛈️"
+        },
+        {
+          "de": "der Blitz",
+          "pronunciation": "",
+          "hi": "बिजली",
+          "en": "lightning ⚡"
+        },
+        {
+          "de": "der Donner",
+          "pronunciation": "",
+          "hi": "गड़गड़ाहट",
+          "en": "thunder"
+        },
+        {
+          "de": "kühl",
+          "pronunciation": "",
+          "hi": "ठंडा (हल्का)",
+          "en": "cool"
+        },
+        {
+          "de": "trocken",
+          "pronunciation": "",
+          "hi": "सूखा",
+          "en": "dry"
+        },
+        {
+          "de": "die Jahreszeit",
+          "pronunciation": "",
+          "hi": "मौसम / ऋतु",
+          "en": "season"
+        },
+        {
+          "de": "der Frühling",
+          "pronunciation": "",
+          "hi": "बसंत",
+          "en": "spring 🌸"
+        },
+        {
+          "de": "der Sommer",
+          "pronunciation": "",
+          "hi": "गर्मी",
+          "en": "summer ☀️"
+        },
+        {
+          "de": "der Herbst",
+          "pronunciation": "",
+          "hi": "पतझड़",
+          "en": "autumn / fall 🍂"
+        },
+        {
+          "de": "der Winter",
+          "pronunciation": "",
+          "hi": "सर्दी",
+          "en": "winter ❄️"
+        },
+        {
+          "de": "die Natur",
+          "pronunciation": "",
+          "hi": "प्रकृति",
+          "en": "nature 🌿"
+        },
+        {
+          "de": "das Land",
+          "pronunciation": "",
+          "hi": "देहात / ज़मीन",
+          "en": "countryside / land"
+        },
+        {
+          "de": "der Berg",
+          "pronunciation": "",
+          "hi": "पहाड़",
+          "en": "mountain ⛰️"
+        },
+        {
+          "de": "das Tal",
+          "pronunciation": "",
+          "hi": "घाटी",
+          "en": "valley"
+        },
+        {
+          "de": "der Hügel",
+          "pronunciation": "",
+          "hi": "पहाड़ी",
+          "en": "hill"
+        },
+        {
+          "de": "der Wald",
+          "pronunciation": "",
+          "hi": "जंगल",
+          "en": "forest 🌲"
+        },
+        {
+          "de": "die Wiese",
+          "pronunciation": "",
+          "hi": "घास का मैदान",
+          "en": "meadow"
+        },
+        {
+          "de": "das Feld",
+          "pronunciation": "",
+          "hi": "खेत",
+          "en": "field"
+        },
+        {
+          "de": "das Meer",
+          "pronunciation": "",
+          "hi": "समुद्र",
+          "en": "sea 🌊"
+        },
+        {
+          "de": "der See",
+          "pronunciation": "",
+          "hi": "झील",
+          "en": "lake"
+        },
+        {
+          "de": "der Fluss",
+          "pronunciation": "",
+          "hi": "नदी",
+          "en": "river 🏞️"
+        },
+        {
+          "de": "der Strand",
+          "pronunciation": "",
+          "hi": "समुद्र तट",
+          "en": "beach 🏖️"
+        },
+        {
+          "de": "die Insel",
+          "pronunciation": "",
+          "hi": "द्वीप",
+          "en": "island 🏝️"
+        },
+        {
+          "de": "der Baum",
+          "pronunciation": "",
+          "hi": "पेड़",
+          "en": "tree 🌳"
+        },
+        {
+          "de": "die Pflanze",
+          "pronunciation": "",
+          "hi": "पौधा",
+          "en": "plant 🌱"
+        },
+        {
+          "de": "die Blume",
+          "pronunciation": "",
+          "hi": "फूल",
+          "en": "flower 🌸"
+        },
+        {
+          "de": "das Gras",
+          "pronunciation": "",
+          "hi": "घास",
+          "en": "grass 🌿"
+        },
+        {
+          "de": "das Blatt",
+          "pronunciation": "",
+          "hi": "पत्ता",
+          "en": "leaf 🍃"
+        },
+        {
+          "de": "die Luft",
+          "pronunciation": "",
+          "hi": "हवा",
+          "en": "air"
+        },
+        {
+          "de": "die Erde",
+          "pronunciation": "",
+          "hi": "धरती / ज़मीन",
+          "en": "earth / ground 🌍"
+        },
+        {
+          "de": "das Feuer",
+          "pronunciation": "",
+          "hi": "आग",
+          "en": "fire 🔥"
+        },
+        {
+          "de": "der Stein",
+          "pronunciation": "",
+          "hi": "पत्थर",
+          "en": "stone / rock 🪨"
+        },
+        {
+          "de": "der Mond",
+          "pronunciation": "",
+          "hi": "चाँद",
+          "en": "moon 🌙"
+        },
+        {
+          "de": "der Stern",
+          "pronunciation": "",
+          "hi": "तारा",
+          "en": "star ⭐"
+        },
+        {
+          "de": "der Regenbogen",
+          "pronunciation": "",
+          "hi": "इंद्रधनुष",
+          "en": "rainbow 🌈"
+        },
+        {
+          "de": "Das Wetter ist schön",
+          "pronunciation": "",
+          "hi": "मौसम अच्छा है",
+          "en": "The weather is nice"
+        },
+        {
+          "de": "Das Wetter ist schlecht",
+          "pronunciation": "",
+          "hi": "मौसम खराब है",
+          "en": "The weather is bad"
+        },
+        {
+          "de": "Es ist heiß/kalt",
+          "pronunciation": "",
+          "hi": "गर्मी/ठंड है",
+          "en": "It's hot/cold"
+        },
+        {
+          "de": "Es sind 20 Grad",
+          "pronunciation": "",
+          "hi": "20 डिग्री है",
+          "en": "It's 20 degrees"
+        },
+        {
+          "de": "draußen",
+          "pronunciation": "",
+          "hi": "बाहर",
+          "en": "outside"
+        }
+      ]
+    },
+    {
+      "id": "Time",
+      "name": "Time",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "⏰",
+      "color": "#e1bee7",
+      "words": [
+        {
+          "de": "die Sekunde",
+          "pronunciation": "",
+          "hi": "सेकंड",
+          "en": "second"
+        },
+        {
+          "de": "die Minute",
+          "pronunciation": "",
+          "hi": "मिनट",
+          "en": "minute"
+        },
+        {
+          "de": "die Stunde",
+          "pronunciation": "",
+          "hi": "घंटा",
+          "en": "hour"
+        },
+        {
+          "de": "der Tag",
+          "pronunciation": "",
+          "hi": "दिन",
+          "en": "day"
+        },
+        {
+          "de": "die Woche",
+          "pronunciation": "",
+          "hi": "सप्ताह",
+          "en": "week"
+        },
+        {
+          "de": "der Monat",
+          "pronunciation": "",
+          "hi": "महीना",
+          "en": "month"
+        },
+        {
+          "de": "das Jahr",
+          "pronunciation": "",
+          "hi": "साल",
+          "en": "year"
+        },
+        {
+          "de": "Viertel",
+          "pronunciation": "",
+          "hi": "पौने / सवा",
+          "en": "quarter"
+        },
+        {
+          "de": "vor",
+          "pronunciation": "",
+          "hi": "पहले",
+          "en": "before / to"
+        },
+        {
+          "de": "nach",
+          "pronunciation": "",
+          "hi": "बाद",
+          "en": "after / past"
+        },
+        {
+          "de": "der Morgen",
+          "pronunciation": "",
+          "hi": "सुबह",
+          "en": "morning 🌅"
+        },
+        {
+          "de": "der Vormittag",
+          "pronunciation": "",
+          "hi": "दोपहर से पहले",
+          "en": "late morning"
+        },
+        {
+          "de": "der Mittag",
+          "pronunciation": "",
+          "hi": "दोपहर",
+          "en": "noon / midday 🌞"
+        },
+        {
+          "de": "der Nachmittag",
+          "pronunciation": "",
+          "hi": "दोपहर बाद",
+          "en": "afternoon"
+        },
+        {
+          "de": "der Abend",
+          "pronunciation": "",
+          "hi": "शाम",
+          "en": "evening 🌆"
+        },
+        {
+          "de": "die Nacht",
+          "pronunciation": "",
+          "hi": "रात",
+          "en": "night 🌙"
+        },
+        {
+          "de": "die Mitternacht",
+          "pronunciation": "",
+          "hi": "आधी रात",
+          "en": "midnight"
+        },
+        {
+          "de": "Montag",
+          "pronunciation": "",
+          "hi": "सोमवार",
+          "en": "Monday"
+        },
+        {
+          "de": "Dienstag",
+          "pronunciation": "",
+          "hi": "मंगलवार",
+          "en": "Tuesday"
+        },
+        {
+          "de": "Mittwoch",
+          "pronunciation": "",
+          "hi": "बुधवार",
+          "en": "Wednesday"
+        },
+        {
+          "de": "Donnerstag",
+          "pronunciation": "",
+          "hi": "गुरुवार",
+          "en": "Thursday"
+        },
+        {
+          "de": "Samstag",
+          "pronunciation": "",
+          "hi": "शनिवार",
+          "en": "Saturday"
+        },
+        {
+          "de": "Sonntag",
+          "pronunciation": "",
+          "hi": "रविवार",
+          "en": "Sunday"
+        },
+        {
+          "de": "das Wochenende",
+          "pronunciation": "",
+          "hi": "सप्ताहांत",
+          "en": "weekend 🗓️"
+        },
+        {
+          "de": "Januar",
+          "pronunciation": "",
+          "hi": "जनवरी",
+          "en": "January"
+        },
+        {
+          "de": "Februar",
+          "pronunciation": "",
+          "hi": "फरवरी",
+          "en": "February"
+        },
+        {
+          "de": "März",
+          "pronunciation": "",
+          "hi": "मार्च",
+          "en": "March"
+        },
+        {
+          "de": "April",
+          "pronunciation": "",
+          "hi": "अप्रैल",
+          "en": "April"
+        },
+        {
+          "de": "Mai",
+          "pronunciation": "",
+          "hi": "मई",
+          "en": "May"
+        },
+        {
+          "de": "Juni",
+          "pronunciation": "",
+          "hi": "जून",
+          "en": "June"
+        },
+        {
+          "de": "Juli",
+          "pronunciation": "",
+          "hi": "जुलाई",
+          "en": "July"
+        },
+        {
+          "de": "August",
+          "pronunciation": "",
+          "hi": "अगस्त",
+          "en": "August"
+        },
+        {
+          "de": "September",
+          "pronunciation": "",
+          "hi": "सितंबर",
+          "en": "September"
+        },
+        {
+          "de": "Oktober",
+          "pronunciation": "",
+          "hi": "अक्टूबर",
+          "en": "October"
+        },
+        {
+          "de": "November",
+          "pronunciation": "",
+          "hi": "नवंबर",
+          "en": "November"
+        },
+        {
+          "de": "Dezember",
+          "pronunciation": "",
+          "hi": "दिसंबर",
+          "en": "December"
+        },
+        {
+          "de": "heute",
+          "pronunciation": "",
+          "hi": "आज",
+          "en": "today"
+        },
+        {
+          "de": "morgen",
+          "pronunciation": "",
+          "hi": "कल (आने वाला)",
+          "en": "tomorrow"
+        },
+        {
+          "de": "gestern",
+          "pronunciation": "",
+          "hi": "कल (बीता हुआ)",
+          "en": "yesterday"
+        },
+        {
+          "de": "übermorgen",
+          "pronunciation": "",
+          "hi": "परसों (आने वाला)",
+          "en": "day after tomorrow"
+        },
+        {
+          "de": "vorgestern",
+          "pronunciation": "",
+          "hi": "परसों (बीता हुआ)",
+          "en": "day before yesterday"
+        },
+        {
+          "de": "das Datum",
+          "pronunciation": "",
+          "hi": "तारीख",
+          "en": "date 📅"
+        },
+        {
+          "de": "der Kalender",
+          "pronunciation": "",
+          "hi": "कैलेंडर",
+          "en": "calendar"
+        },
+        {
+          "de": "selten",
+          "pronunciation": "",
+          "hi": "कभी-कभार",
+          "en": "rarely / seldom"
+        },
+        {
+          "de": "täglich",
+          "pronunciation": "",
+          "hi": "रोज़ाना",
+          "en": "daily"
+        },
+        {
+          "de": "wöchentlich",
+          "pronunciation": "",
+          "hi": "साप्ताहिक",
+          "en": "weekly"
+        },
+        {
+          "de": "monatlich",
+          "pronunciation": "",
+          "hi": "मासिक",
+          "en": "monthly"
+        },
+        {
+          "de": "jetzt",
+          "pronunciation": "",
+          "hi": "अभी",
+          "en": "now"
+        },
+        {
+          "de": "dann",
+          "pronunciation": "",
+          "hi": "फिर / तब",
+          "en": "then"
+        },
+        {
+          "de": "bald",
+          "pronunciation": "",
+          "hi": "जल्दी",
+          "en": "soon"
+        },
+        {
+          "de": "später",
+          "pronunciation": "",
+          "hi": "बाद में",
+          "en": "later"
+        },
+        {
+          "de": "früh",
+          "pronunciation": "",
+          "hi": "जल्दी",
+          "en": "early"
+        },
+        {
+          "de": "spät",
+          "pronunciation": "",
+          "hi": "देर से",
+          "en": "late"
+        },
+        {
+          "de": "pünktlich",
+          "pronunciation": "",
+          "hi": "समय पर",
+          "en": "on time / punctual"
+        },
+        {
+          "de": "zuerst",
+          "pronunciation": "",
+          "hi": "पहले",
+          "en": "first"
+        },
+        {
+          "de": "danach",
+          "pronunciation": "",
+          "hi": "उसके बाद",
+          "en": "after that"
+        },
+        {
+          "de": "zuletzt",
+          "pronunciation": "",
+          "hi": "अंत में",
+          "en": "lastly / finally"
+        },
+        {
+          "de": "endlich",
+          "pronunciation": "",
+          "hi": "आखिरकार",
+          "en": "finally"
+        },
+        {
+          "de": "dauern",
+          "pronunciation": "",
+          "hi": "समय लगना",
+          "en": "to last / take time"
+        },
+        {
+          "de": "warten",
+          "pronunciation": "",
+          "hi": "इंतज़ार करना",
+          "en": "to wait"
+        },
+        {
+          "de": "aufhören",
+          "pronunciation": "",
+          "hi": "बंद करना",
+          "en": "to stop"
+        },
+        {
+          "de": "der Anfang",
+          "pronunciation": "",
+          "hi": "शुरुआत",
+          "en": "beginning"
+        },
+        {
+          "de": "das Ende",
+          "pronunciation": "",
+          "hi": "अंत",
+          "en": "end"
+        },
+        {
+          "de": "die Dauer",
+          "pronunciation": "",
+          "hi": "अवधि",
+          "en": "duration"
+        },
+        {
+          "de": "der Kalender",
+          "pronunciation": "",
+          "hi": "कैलेंडर",
+          "en": "calendar 📅"
+        }
+      ]
+    },
+    {
+      "id": "School_&_Learning",
+      "name": "School & Learning",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "📚",
+      "color": "#bbdefb",
+      "words": [
+        {
+          "de": "die Klasse",
+          "pronunciation": "",
+          "hi": "कक्षा",
+          "en": "class / grade"
+        },
+        {
+          "de": "das Klassenzimmer",
+          "pronunciation": "",
+          "hi": "क्लासरूम",
+          "en": "classroom"
+        },
+        {
+          "de": "der Unterricht",
+          "pronunciation": "",
+          "hi": "पाठ",
+          "en": "class / lesson"
+        },
+        {
+          "de": "der Kurs",
+          "pronunciation": "",
+          "hi": "कोर्स",
+          "en": "course"
+        },
+        {
+          "de": "das Buch",
+          "pronunciation": "",
+          "hi": "किताब",
+          "en": "book 📕"
+        },
+        {
+          "de": "das Heft",
+          "pronunciation": "",
+          "hi": "कॉपी",
+          "en": "notebook 📓"
+        },
+        {
+          "de": "das Papier",
+          "pronunciation": "",
+          "hi": "कागज़",
+          "en": "paper 📄"
+        },
+        {
+          "de": "der Radiergummi",
+          "pronunciation": "",
+          "hi": "रबड़",
+          "en": "eraser"
+        },
+        {
+          "de": "das Lineal",
+          "pronunciation": "",
+          "hi": "स्केल",
+          "en": "ruler 📏"
+        },
+        {
+          "de": "die Schere",
+          "pronunciation": "",
+          "hi": "कैंची",
+          "en": "scissors ✂️"
+        },
+        {
+          "de": "die Tafel",
+          "pronunciation": "",
+          "hi": "ब्लैकबोर्ड",
+          "en": "blackboard"
+        },
+        {
+          "de": "der Computer",
+          "pronunciation": "",
+          "hi": "कंप्यूटर",
+          "en": "computer 💻"
+        },
+        {
+          "de": "die Sprache",
+          "pronunciation": "",
+          "hi": "भाषा",
+          "en": "language 🗣️"
+        },
+        {
+          "de": "Deutsch",
+          "pronunciation": "",
+          "hi": "जर्मन",
+          "en": "German 🇩🇪"
+        },
+        {
+          "de": "Englisch",
+          "pronunciation": "",
+          "hi": "अंग्रेज़ी",
+          "en": "English 🇬🇧"
+        },
+        {
+          "de": "das Wort",
+          "pronunciation": "",
+          "hi": "शब्द",
+          "en": "word"
+        },
+        {
+          "de": "der Satz",
+          "pronunciation": "",
+          "hi": "वाक्य",
+          "en": "sentence"
+        },
+        {
+          "de": "der Text",
+          "pronunciation": "",
+          "hi": "पाठ",
+          "en": "text"
+        },
+        {
+          "de": "die Grammatik",
+          "pronunciation": "",
+          "hi": "व्याकरण",
+          "en": "grammar"
+        },
+        {
+          "de": "lernen",
+          "pronunciation": "",
+          "hi": "सीखना",
+          "en": "to learn 📖"
+        },
+        {
+          "de": "studieren",
+          "pronunciation": "",
+          "hi": "पढ़ाई करना",
+          "en": "to study (uni)"
+        },
+        {
+          "de": "lesen",
+          "pronunciation": "",
+          "hi": "पढ़ना",
+          "en": "to read"
+        },
+        {
+          "de": "sprechen",
+          "pronunciation": "",
+          "hi": "बोलना",
+          "en": "to speak"
+        },
+        {
+          "de": "verstehen",
+          "pronunciation": "",
+          "hi": "समझना",
+          "en": "to understand"
+        },
+        {
+          "de": "üben",
+          "pronunciation": "",
+          "hi": "अभ्यास करना",
+          "en": "to practice"
+        },
+        {
+          "de": "wiederholen",
+          "pronunciation": "",
+          "hi": "दोहराना",
+          "en": "to repeat"
+        },
+        {
+          "de": "fragen",
+          "pronunciation": "",
+          "hi": "पूछना",
+          "en": "to ask"
+        },
+        {
+          "de": "die Frage",
+          "pronunciation": "",
+          "hi": "सवाल",
+          "en": "question ❓"
+        },
+        {
+          "de": "antworten",
+          "pronunciation": "",
+          "hi": "जवाब देना",
+          "en": "to answer"
+        },
+        {
+          "de": "die Antwort",
+          "pronunciation": "",
+          "hi": "जवाब",
+          "en": "answer"
+        },
+        {
+          "de": "erklären",
+          "pronunciation": "",
+          "hi": "समझाना",
+          "en": "to explain"
+        },
+        {
+          "de": "die Aufgabe",
+          "pronunciation": "",
+          "hi": "कार्य",
+          "en": "task / exercise"
+        },
+        {
+          "de": "die Hausaufgabe",
+          "pronunciation": "",
+          "hi": "होमवर्क",
+          "en": "homework 📝"
+        },
+        {
+          "de": "die Übung",
+          "pronunciation": "",
+          "hi": "अभ्यास",
+          "en": "exercise"
+        },
+        {
+          "de": "ausfüllen",
+          "pronunciation": "",
+          "hi": "भरना",
+          "en": "to fill in"
+        },
+        {
+          "de": "ankreuzen",
+          "pronunciation": "",
+          "hi": "टिक करना",
+          "en": "to tick / check"
+        },
+        {
+          "de": "die Prüfung",
+          "pronunciation": "",
+          "hi": "परीक्षा",
+          "en": "exam 📋"
+        },
+        {
+          "de": "der Test",
+          "pronunciation": "",
+          "hi": "टेस्ट",
+          "en": "test"
+        },
+        {
+          "de": "die Note",
+          "pronunciation": "",
+          "hi": "नंबर / ग्रेड",
+          "en": "grade / mark"
+        },
+        {
+          "de": "bestehen",
+          "pronunciation": "",
+          "hi": "पास होना",
+          "en": "to pass (exam)"
+        },
+        {
+          "de": "der Fehler",
+          "pronunciation": "",
+          "hi": "गलती",
+          "en": "mistake / error"
+        },
+        {
+          "de": "korrigieren",
+          "pronunciation": "",
+          "hi": "सुधारना",
+          "en": "to correct"
+        },
+        {
+          "de": "richtig",
+          "pronunciation": "",
+          "hi": "सही",
+          "en": "correct / right ✓"
+        },
+        {
+          "de": "falsch",
+          "pronunciation": "",
+          "hi": "गलत",
+          "en": "wrong / false ✗"
+        },
+        {
+          "de": "das Studium",
+          "pronunciation": "",
+          "hi": "पढ़ाई",
+          "en": "studies (uni)"
+        },
+        {
+          "de": "das Zeugnis",
+          "pronunciation": "",
+          "hi": "रिपोर्ट कार्ड",
+          "en": "report card / certificate"
+        },
+        {
+          "de": "das Diplom",
+          "pronunciation": "",
+          "hi": "डिप्लोमा",
+          "en": "diploma / degree"
+        },
+        {
+          "de": "Ich verstehe (nicht)",
+          "pronunciation": "",
+          "hi": "मैं समझ (नहीं) रहा/रही हूँ",
+          "en": "I (don't) understand"
+        },
+        {
+          "de": "Bitte langsamer!",
+          "pronunciation": "",
+          "hi": "कृपया धीरे बोलिए!",
+          "en": "Please slower!"
+        },
+        {
+          "de": "Ich lerne Deutsch",
+          "pronunciation": "",
+          "hi": "मैं जर्मन सीख रहा/रही हूँ",
+          "en": "I'm learning German"
+        },
+        {
+          "de": "Auf welcher Seite?",
+          "pronunciation": "",
+          "hi": "कौन से पेज पर?",
+          "en": "On which page?"
+        }
+      ]
+    },
+    {
+      "id": "Work_&_Job",
+      "name": "Work & Job",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "💼",
+      "color": "#cfd8dc",
+      "words": [
+        {
+          "de": "der Beruf",
+          "pronunciation": "",
+          "hi": "पेशा",
+          "en": "profession / occupation"
+        },
+        {
+          "de": "der Job",
+          "pronunciation": "",
+          "hi": "नौकरी",
+          "en": "job"
+        },
+        {
+          "de": "die Stelle",
+          "pronunciation": "",
+          "hi": "पद",
+          "en": "position / job"
+        },
+        {
+          "de": "die Firma",
+          "pronunciation": "",
+          "hi": "कंपनी",
+          "en": "company / firm"
+        },
+        {
+          "de": "der Arbeitsplatz",
+          "pronunciation": "",
+          "hi": "कार्यस्थल",
+          "en": "workplace"
+        },
+        {
+          "de": "die Fabrik",
+          "pronunciation": "",
+          "hi": "फैक्ट्री",
+          "en": "factory 🏭"
+        },
+        {
+          "de": "berufstätig",
+          "pronunciation": "",
+          "hi": "नौकरी वाला",
+          "en": "employed / working"
+        },
+        {
+          "de": "Vollzeit",
+          "pronunciation": "",
+          "hi": "पूर्णकालिक",
+          "en": "full-time"
+        },
+        {
+          "de": "Teilzeit",
+          "pronunciation": "",
+          "hi": "अंशकालिक",
+          "en": "part-time"
+        },
+        {
+          "de": "das Gehalt",
+          "pronunciation": "",
+          "hi": "वेतन",
+          "en": "salary 💰"
+        },
+        {
+          "de": "der Lohn",
+          "pronunciation": "",
+          "hi": "मज़दूरी",
+          "en": "wage / pay"
+        },
+        {
+          "de": "verdienen",
+          "pronunciation": "",
+          "hi": "कमाना",
+          "en": "to earn"
+        },
+        {
+          "de": "bezahlen",
+          "pronunciation": "",
+          "hi": "भुगतान करना",
+          "en": "to pay"
+        },
+        {
+          "de": "die Arbeitszeit",
+          "pronunciation": "",
+          "hi": "काम के घंटे",
+          "en": "working hours"
+        },
+        {
+          "de": "die Pause",
+          "pronunciation": "",
+          "hi": "ब्रेक",
+          "en": "break ☕"
+        },
+        {
+          "de": "die Mittagspause",
+          "pronunciation": "",
+          "hi": "लंच ब्रेक",
+          "en": "lunch break"
+        },
+        {
+          "de": "der Feierabend",
+          "pronunciation": "",
+          "hi": "छुट्टी का समय",
+          "en": "end of work day"
+        },
+        {
+          "de": "sich bewerben",
+          "pronunciation": "",
+          "hi": "आवेदन करना",
+          "en": "to apply (for job)"
+        },
+        {
+          "de": "die Bewerbung",
+          "pronunciation": "",
+          "hi": "आवेदन",
+          "en": "application"
+        },
+        {
+          "de": "der Lebenslauf",
+          "pronunciation": "",
+          "hi": "बायोडाटा",
+          "en": "CV / resume 📄"
+        },
+        {
+          "de": "das Vorstellungsgespräch",
+          "pronunciation": "",
+          "hi": "इंटरव्यू",
+          "en": "job interview"
+        },
+        {
+          "de": "die Erfahrung",
+          "pronunciation": "",
+          "hi": "अनुभव",
+          "en": "experience"
+        },
+        {
+          "de": "der Vertrag",
+          "pronunciation": "",
+          "hi": "अनुबंध",
+          "en": "contract 📝"
+        },
+        {
+          "de": "die Unterschrift",
+          "pronunciation": "",
+          "hi": "हस्ताक्षर",
+          "en": "signature ✍️"
+        },
+        {
+          "de": "das Formular",
+          "pronunciation": "",
+          "hi": "फॉर्म",
+          "en": "form"
+        },
+        {
+          "de": "sich anmelden",
+          "pronunciation": "",
+          "hi": "पंजीकरण करना",
+          "en": "to register"
+        },
+        {
+          "de": "einen Termin machen",
+          "pronunciation": "",
+          "hi": "अपॉइंटमेंट लेना",
+          "en": "to make an appointment"
+        },
+        {
+          "de": "kündigen",
+          "pronunciation": "",
+          "hi": "इस्तीफा देना",
+          "en": "to quit / resign"
+        },
+        {
+          "de": "suchen",
+          "pronunciation": "",
+          "hi": "ढूँढना",
+          "en": "to look for / search"
+        },
+        {
+          "de": "der Termin",
+          "pronunciation": "",
+          "hi": "अपॉइंटमेंट",
+          "en": "appointment"
+        },
+        {
+          "de": "die Besprechung",
+          "pronunciation": "",
+          "hi": "मीटिंग",
+          "en": "meeting"
+        },
+        {
+          "de": "die Überstunden",
+          "pronunciation": "",
+          "hi": "ओवरटाइम",
+          "en": "overtime"
+        },
+        {
+          "de": "das Team",
+          "pronunciation": "",
+          "hi": "टीम",
+          "en": "team"
+        },
+        {
+          "de": "das Projekt",
+          "pronunciation": "",
+          "hi": "प्रोजेक्ट",
+          "en": "project"
+        }
+      ]
+    },
+    {
+      "id": "Shopping_&_Money",
+      "name": "Shopping & Money",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🛒",
+      "color": "#fff59d",
+      "words": [
+        {
+          "de": "die Münze",
+          "pronunciation": "",
+          "hi": "सिक्का",
+          "en": "coin 🪙"
+        },
+        {
+          "de": "der Schein",
+          "pronunciation": "",
+          "hi": "नोट",
+          "en": "banknote 💵"
+        },
+        {
+          "de": "das Geschäft",
+          "pronunciation": "",
+          "hi": "दुकान",
+          "en": "shop / store 🏪"
+        },
+        {
+          "de": "der Laden",
+          "pronunciation": "",
+          "hi": "दुकान",
+          "en": "shop / store"
+        },
+        {
+          "de": "das Kaufhaus",
+          "pronunciation": "",
+          "hi": "डिपार्टमेंट स्टोर",
+          "en": "department store 🏬"
+        },
+        {
+          "de": "die Kasse",
+          "pronunciation": "",
+          "hi": "कैश काउंटर",
+          "en": "cash register / checkout"
+        },
+        {
+          "de": "der Verkäufer",
+          "pronunciation": "",
+          "hi": "विक्रेता (पुरुष)",
+          "en": "salesman"
+        },
+        {
+          "de": "die Verkäuferin",
+          "pronunciation": "",
+          "hi": "विक्रेता (महिला)",
+          "en": "saleswoman"
+        },
+        {
+          "de": "der Kunde",
+          "pronunciation": "",
+          "hi": "ग्राहक (पुरुष)",
+          "en": "customer (m)"
+        },
+        {
+          "de": "die Kundin",
+          "pronunciation": "",
+          "hi": "ग्राहक (महिला)",
+          "en": "customer (f)"
+        },
+        {
+          "de": "kaufen",
+          "pronunciation": "",
+          "hi": "खरीदना",
+          "en": "to buy"
+        },
+        {
+          "de": "verkaufen",
+          "pronunciation": "",
+          "hi": "बेचना",
+          "en": "to sell"
+        },
+        {
+          "de": "zahlen",
+          "pronunciation": "",
+          "hi": "देना (पैसे)",
+          "en": "to pay"
+        },
+        {
+          "de": "kosten",
+          "pronunciation": "",
+          "hi": "कीमत होना",
+          "en": "to cost"
+        },
+        {
+          "de": "bestellen",
+          "pronunciation": "",
+          "hi": "ऑर्डर करना",
+          "en": "to order"
+        },
+        {
+          "de": "wechseln",
+          "pronunciation": "",
+          "hi": "बदलना",
+          "en": "to change (money)"
+        },
+        {
+          "de": "sparen",
+          "pronunciation": "",
+          "hi": "बचाना",
+          "en": "to save (money)"
+        },
+        {
+          "de": "bar",
+          "pronunciation": "",
+          "hi": "नकद",
+          "en": "cash (payment)"
+        },
+        {
+          "de": "die Karte",
+          "pronunciation": "",
+          "hi": "कार्ड",
+          "en": "card 💳"
+        },
+        {
+          "de": "die Kreditkarte",
+          "pronunciation": "",
+          "hi": "क्रेडिट कार्ड",
+          "en": "credit card"
+        },
+        {
+          "de": "die EC-Karte",
+          "pronunciation": "",
+          "hi": "डेबिट कार्ड",
+          "en": "debit card"
+        },
+        {
+          "de": "die Quittung",
+          "pronunciation": "",
+          "hi": "रसीद",
+          "en": "receipt 🧾"
+        },
+        {
+          "de": "die Rechnung",
+          "pronunciation": "",
+          "hi": "बिल",
+          "en": "bill / invoice"
+        },
+        {
+          "de": "das Wechselgeld",
+          "pronunciation": "",
+          "hi": "खुल्ले पैसे",
+          "en": "change (money back)"
+        },
+        {
+          "de": "günstig",
+          "pronunciation": "",
+          "hi": "किफायती",
+          "en": "affordable / good value"
+        },
+        {
+          "de": "gratis",
+          "pronunciation": "",
+          "hi": "मुफ्त",
+          "en": "free / complimentary"
+        },
+        {
+          "de": "das Angebot",
+          "pronunciation": "",
+          "hi": "ऑफर",
+          "en": "offer / deal 🏷️"
+        },
+        {
+          "de": "der Rabatt",
+          "pronunciation": "",
+          "hi": "छूट",
+          "en": "discount"
+        },
+        {
+          "de": "reduziert",
+          "pronunciation": "",
+          "hi": "कम कीमत पर",
+          "en": "reduced / on sale"
+        },
+        {
+          "de": "das Stück",
+          "pronunciation": "",
+          "hi": "टुकड़ा",
+          "en": "piece"
+        },
+        {
+          "de": "das Gramm",
+          "pronunciation": "",
+          "hi": "ग्राम",
+          "en": "gram"
+        },
+        {
+          "de": "das Kilo",
+          "pronunciation": "",
+          "hi": "किलो",
+          "en": "kilo"
+        },
+        {
+          "de": "der Liter",
+          "pronunciation": "",
+          "hi": "लीटर",
+          "en": "liter"
+        },
+        {
+          "de": "die Ware",
+          "pronunciation": "",
+          "hi": "माल",
+          "en": "goods"
+        },
+        {
+          "de": "die Bestellung",
+          "pronunciation": "",
+          "hi": "ऑर्डर",
+          "en": "order"
+        },
+        {
+          "de": "der Einkaufswagen",
+          "pronunciation": "",
+          "hi": "शॉपिंग ट्रॉली",
+          "en": "shopping cart 🛒"
+        },
+        {
+          "de": "der Korb",
+          "pronunciation": "",
+          "hi": "टोकरी",
+          "en": "basket 🧺"
+        },
+        {
+          "de": "die Auswahl",
+          "pronunciation": "",
+          "hi": "चयन",
+          "en": "choice / selection"
+        },
+        {
+          "de": "offen",
+          "pronunciation": "",
+          "hi": "खुला",
+          "en": "open"
+        },
+        {
+          "de": "geschlossen",
+          "pronunciation": "",
+          "hi": "बंद",
+          "en": "closed"
+        },
+        {
+          "de": "der Verkauf",
+          "pronunciation": "",
+          "hi": "बिक्री",
+          "en": "sale"
+        },
+        {
+          "de": "die Tüte",
+          "pronunciation": "",
+          "hi": "थैला",
+          "en": "bag 🛍️"
+        },
+        {
+          "de": "die Schlange",
+          "pronunciation": "",
+          "hi": "कतार",
+          "en": "queue / line"
+        },
+        {
+          "de": "das Schaufenster",
+          "pronunciation": "",
+          "hi": "दुकान की खिड़की",
+          "en": "shop window"
+        },
+        {
+          "de": "die Größe",
+          "pronunciation": "",
+          "hi": "आकार / साइज़",
+          "en": "size"
+        },
+        {
+          "de": "umtauschen",
+          "pronunciation": "",
+          "hi": "बदलना / एक्सचेंज करना",
+          "en": "to exchange"
+        },
+        {
+          "de": "zurückgeben",
+          "pronunciation": "",
+          "hi": "वापस करना",
+          "en": "to return"
+        },
+        {
+          "de": "die Garantie",
+          "pronunciation": "",
+          "hi": "गारंटी",
+          "en": "warranty"
+        }
+      ]
+    },
+    {
+      "id": "Communication",
+      "name": "Communication",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "📱",
+      "color": "#e1bee7",
+      "words": [
+        {
+          "de": "das Telefon",
+          "pronunciation": "",
+          "hi": "टेलीफोन",
+          "en": "telephone 📞"
+        },
+        {
+          "de": "das Handy",
+          "pronunciation": "",
+          "hi": "मोबाइल फोन",
+          "en": "mobile phone 📱"
+        },
+        {
+          "de": "das Smartphone",
+          "pronunciation": "",
+          "hi": "स्मार्टफोन",
+          "en": "smartphone"
+        },
+        {
+          "de": "die Telefonnummer",
+          "pronunciation": "",
+          "hi": "फोन नंबर",
+          "en": "phone number"
+        },
+        {
+          "de": "anrufen",
+          "pronunciation": "",
+          "hi": "फोन करना",
+          "en": "to call (phone)"
+        },
+        {
+          "de": "der Anruf",
+          "pronunciation": "",
+          "hi": "फोन कॉल",
+          "en": "phone call"
+        },
+        {
+          "de": "telefonieren",
+          "pronunciation": "",
+          "hi": "फोन पर बात करना",
+          "en": "to phone"
+        },
+        {
+          "de": "die Nachricht",
+          "pronunciation": "",
+          "hi": "संदेश",
+          "en": "message 💬"
+        },
+        {
+          "de": "die SMS",
+          "pronunciation": "",
+          "hi": "एसएमएस",
+          "en": "text message"
+        },
+        {
+          "de": "die E-Mail",
+          "pronunciation": "",
+          "hi": "ई-मेल",
+          "en": "email 📧"
+        },
+        {
+          "de": "die E-Mail-Adresse",
+          "pronunciation": "",
+          "hi": "ई-मेल पता",
+          "en": "email address"
+        },
+        {
+          "de": "der Brief",
+          "pronunciation": "",
+          "hi": "पत्र",
+          "en": "letter ✉️"
+        },
+        {
+          "de": "die Postkarte",
+          "pronunciation": "",
+          "hi": "पोस्टकार्ड",
+          "en": "postcard 📮"
+        },
+        {
+          "de": "der Absender",
+          "pronunciation": "",
+          "hi": "प्रेषक",
+          "en": "sender"
+        },
+        {
+          "de": "der Empfänger",
+          "pronunciation": "",
+          "hi": "प्राप्तकर्ता",
+          "en": "recipient"
+        },
+        {
+          "de": "sagen",
+          "pronunciation": "",
+          "hi": "कहना",
+          "en": "to say"
+        },
+        {
+          "de": "das Internet",
+          "pronunciation": "",
+          "hi": "इंटरनेट",
+          "en": "internet 🌐"
+        },
+        {
+          "de": "die Webseite",
+          "pronunciation": "",
+          "hi": "वेबसाइट",
+          "en": "website"
+        },
+        {
+          "de": "das WLAN",
+          "pronunciation": "",
+          "hi": "वाई-फाई",
+          "en": "WiFi 📶"
+        },
+        {
+          "de": "die App",
+          "pronunciation": "",
+          "hi": "ऐप",
+          "en": "app"
+        },
+        {
+          "de": "das Passwort",
+          "pronunciation": "",
+          "hi": "पासवर्ड",
+          "en": "password 🔐"
+        },
+        {
+          "de": "der Laptop",
+          "pronunciation": "",
+          "hi": "लैपटॉप",
+          "en": "laptop"
+        },
+        {
+          "de": "das Tablet",
+          "pronunciation": "",
+          "hi": "टैबलेट",
+          "en": "tablet"
+        },
+        {
+          "de": "der Bildschirm",
+          "pronunciation": "",
+          "hi": "स्क्रीन",
+          "en": "screen"
+        },
+        {
+          "de": "die Tastatur",
+          "pronunciation": "",
+          "hi": "कीबोर्ड",
+          "en": "keyboard ⌨️"
+        },
+        {
+          "de": "die Maus",
+          "pronunciation": "",
+          "hi": "माउस",
+          "en": "mouse 🖱️"
+        },
+        {
+          "de": "der Drucker",
+          "pronunciation": "",
+          "hi": "प्रिंटर",
+          "en": "printer 🖨️"
+        },
+        {
+          "de": "das Fernsehen",
+          "pronunciation": "",
+          "hi": "टेलीविज़न",
+          "en": "television 📺"
+        },
+        {
+          "de": "das Radio",
+          "pronunciation": "",
+          "hi": "रेडियो",
+          "en": "radio 📻"
+        },
+        {
+          "de": "die Zeitschrift",
+          "pronunciation": "",
+          "hi": "पत्रिका",
+          "en": "magazine 📖"
+        },
+        {
+          "de": "die Nachrichten",
+          "pronunciation": "",
+          "hi": "खबरें",
+          "en": "news"
+        },
+        {
+          "de": "das Foto",
+          "pronunciation": "",
+          "hi": "फोटो",
+          "en": "photo 📷"
+        },
+        {
+          "de": "die Kamera",
+          "pronunciation": "",
+          "hi": "कैमरा",
+          "en": "camera 📸"
+        },
+        {
+          "de": "das Video",
+          "pronunciation": "",
+          "hi": "वीडियो",
+          "en": "video 🎥"
+        },
+        {
+          "de": "drucken",
+          "pronunciation": "",
+          "hi": "प्रिंट करना",
+          "en": "to print"
+        },
+        {
+          "de": "klicken",
+          "pronunciation": "",
+          "hi": "क्लिक करना",
+          "en": "to click"
+        },
+        {
+          "de": "herunterladen",
+          "pronunciation": "",
+          "hi": "डाउनलोड करना",
+          "en": "to download ⬇️"
+        },
+        {
+          "de": "hochladen",
+          "pronunciation": "",
+          "hi": "अपलोड करना",
+          "en": "to upload ⬆️"
+        },
+        {
+          "de": "speichern",
+          "pronunciation": "",
+          "hi": "सेव करना",
+          "en": "to save"
+        },
+        {
+          "de": "löschen",
+          "pronunciation": "",
+          "hi": "डिलीट करना",
+          "en": "to delete"
+        },
+        {
+          "de": "kopieren",
+          "pronunciation": "",
+          "hi": "कॉपी करना",
+          "en": "to copy"
+        },
+        {
+          "de": "suchen",
+          "pronunciation": "",
+          "hi": "खोजना",
+          "en": "to search"
+        },
+        {
+          "de": "die Verbindung",
+          "pronunciation": "",
+          "hi": "कनेक्शन",
+          "en": "connection"
+        },
+        {
+          "de": "das Signal",
+          "pronunciation": "",
+          "hi": "सिग्नल",
+          "en": "signal 📶"
+        },
+        {
+          "de": "das Kabel",
+          "pronunciation": "",
+          "hi": "केबल",
+          "en": "cable"
+        },
+        {
+          "de": "das Ladegerät",
+          "pronunciation": "",
+          "hi": "चार्जर",
+          "en": "charger 🔌"
+        }
+      ]
+    },
+    {
+      "id": "Animals",
+      "name": "Animals",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🐾",
+      "color": "#ffe082",
+      "words": [
+        {
+          "de": "das Tier",
+          "pronunciation": "",
+          "hi": "जानवर",
+          "en": "animal 🐾"
+        },
+        {
+          "de": "das Haustier",
+          "pronunciation": "",
+          "hi": "पालतू जानवर",
+          "en": "pet"
+        },
+        {
+          "de": "der Hund",
+          "pronunciation": "",
+          "hi": "कुत्ता",
+          "en": "dog 🐕"
+        },
+        {
+          "de": "die Katze",
+          "pronunciation": "",
+          "hi": "बिल्ली",
+          "en": "cat 🐈"
+        },
+        {
+          "de": "der Fisch",
+          "pronunciation": "",
+          "hi": "मछली",
+          "en": "fish 🐟"
+        },
+        {
+          "de": "der Vogel",
+          "pronunciation": "",
+          "hi": "पक्षी",
+          "en": "bird 🐦"
+        },
+        {
+          "de": "der Hamster",
+          "pronunciation": "",
+          "hi": "हैम्स्टर",
+          "en": "hamster 🐹"
+        },
+        {
+          "de": "das Kaninchen",
+          "pronunciation": "",
+          "hi": "खरगोश",
+          "en": "rabbit 🐰"
+        },
+        {
+          "de": "die Schildkröte",
+          "pronunciation": "",
+          "hi": "कछुआ",
+          "en": "turtle 🐢"
+        },
+        {
+          "de": "die Kuh",
+          "pronunciation": "",
+          "hi": "गाय",
+          "en": "cow 🐄"
+        },
+        {
+          "de": "das Pferd",
+          "pronunciation": "",
+          "hi": "घोड़ा",
+          "en": "horse 🐴"
+        },
+        {
+          "de": "das Schwein",
+          "pronunciation": "",
+          "hi": "सूअर",
+          "en": "pig 🐷"
+        },
+        {
+          "de": "das Schaf",
+          "pronunciation": "",
+          "hi": "भेड़",
+          "en": "sheep 🐑"
+        },
+        {
+          "de": "die Ziege",
+          "pronunciation": "",
+          "hi": "बकरी",
+          "en": "goat 🐐"
+        },
+        {
+          "de": "das Huhn",
+          "pronunciation": "",
+          "hi": "मुर्गी",
+          "en": "chicken 🐔"
+        },
+        {
+          "de": "der Hahn",
+          "pronunciation": "",
+          "hi": "मुर्गा",
+          "en": "rooster 🐓"
+        },
+        {
+          "de": "die Ente",
+          "pronunciation": "",
+          "hi": "बत्तख",
+          "en": "duck 🦆"
+        },
+        {
+          "de": "der Esel",
+          "pronunciation": "",
+          "hi": "गधा",
+          "en": "donkey"
+        },
+        {
+          "de": "der Löwe",
+          "pronunciation": "",
+          "hi": "शेर",
+          "en": "lion 🦁"
+        },
+        {
+          "de": "der Tiger",
+          "pronunciation": "",
+          "hi": "बाघ",
+          "en": "tiger 🐅"
+        },
+        {
+          "de": "der Elefant",
+          "pronunciation": "",
+          "hi": "हाथी",
+          "en": "elephant 🐘"
+        },
+        {
+          "de": "der Bär",
+          "pronunciation": "",
+          "hi": "भालू",
+          "en": "bear 🐻"
+        },
+        {
+          "de": "der Affe",
+          "pronunciation": "",
+          "hi": "बंदर",
+          "en": "monkey 🐒"
+        },
+        {
+          "de": "der Wolf",
+          "pronunciation": "",
+          "hi": "भेड़िया",
+          "en": "wolf 🐺"
+        },
+        {
+          "de": "der Fuchs",
+          "pronunciation": "",
+          "hi": "लोमड़ी",
+          "en": "fox 🦊"
+        },
+        {
+          "de": "das Krokodil",
+          "pronunciation": "",
+          "hi": "मगरमच्छ",
+          "en": "crocodile 🐊"
+        },
+        {
+          "de": "die Schlange",
+          "pronunciation": "",
+          "hi": "साँप",
+          "en": "snake 🐍"
+        },
+        {
+          "de": "die Giraffe",
+          "pronunciation": "",
+          "hi": "जिराफ",
+          "en": "giraffe 🦒"
+        },
+        {
+          "de": "das Zebra",
+          "pronunciation": "",
+          "hi": "ज़ेब्रा",
+          "en": "zebra 🦓"
+        },
+        {
+          "de": "die Biene",
+          "pronunciation": "",
+          "hi": "मधुमक्खी",
+          "en": "bee 🐝"
+        },
+        {
+          "de": "der Schmetterling",
+          "pronunciation": "",
+          "hi": "तितली",
+          "en": "butterfly 🦋"
+        },
+        {
+          "de": "die Spinne",
+          "pronunciation": "",
+          "hi": "मकड़ी",
+          "en": "spider 🕷️"
+        },
+        {
+          "de": "die Fliege",
+          "pronunciation": "",
+          "hi": "मक्खी",
+          "en": "fly"
+        },
+        {
+          "de": "die Ameise",
+          "pronunciation": "",
+          "hi": "चींटी",
+          "en": "ant 🐜"
+        },
+        {
+          "de": "der Frosch",
+          "pronunciation": "",
+          "hi": "मेंढक",
+          "en": "frog 🐸"
+        },
+        {
+          "de": "der Schwanz",
+          "pronunciation": "",
+          "hi": "पूँछ",
+          "en": "tail"
+        },
+        {
+          "de": "die Pfote",
+          "pronunciation": "",
+          "hi": "पंजा",
+          "en": "paw 🐾"
+        },
+        {
+          "de": "der Flügel",
+          "pronunciation": "",
+          "hi": "पंख",
+          "en": "wing"
+        },
+        {
+          "de": "das Fell",
+          "pronunciation": "",
+          "hi": "फर / बाल",
+          "en": "fur"
+        },
+        {
+          "de": "bellen",
+          "pronunciation": "",
+          "hi": "भौंकना",
+          "en": "to bark"
+        },
+        {
+          "de": "miauen",
+          "pronunciation": "",
+          "hi": "म्याऊं करना",
+          "en": "to meow"
+        },
+        {
+          "de": "schwimmen",
+          "pronunciation": "",
+          "hi": "तैरना",
+          "en": "to swim"
+        },
+        {
+          "de": "füttern",
+          "pronunciation": "",
+          "hi": "खाना खिलाना",
+          "en": "to feed"
+        },
+        {
+          "de": "der Hirsch",
+          "pronunciation": "",
+          "hi": "हिरण",
+          "en": "deer 🦌"
+        },
+        {
+          "de": "der Pinguin",
+          "pronunciation": "",
+          "hi": "पेंगुइन",
+          "en": "penguin 🐧"
+        },
+        {
+          "de": "der Delfin",
+          "pronunciation": "",
+          "hi": "डॉल्फिन",
+          "en": "dolphin 🐬"
+        },
+        {
+          "de": "der Wal",
+          "pronunciation": "",
+          "hi": "व्हेल",
+          "en": "whale 🐋"
+        },
+        {
+          "de": "der Hai",
+          "pronunciation": "",
+          "hi": "शार्क",
+          "en": "shark 🦈"
+        }
+      ]
+    },
+    {
+      "id": "Celebrations",
+      "name": "Celebrations",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🎉",
+      "color": "#f8bbd9",
+      "words": [
+        {
+          "de": "das Fest",
+          "pronunciation": "",
+          "hi": "त्योहार",
+          "en": "festival / celebration 🎉"
+        },
+        {
+          "de": "die Feier",
+          "pronunciation": "",
+          "hi": "जश्न",
+          "en": "celebration / party"
+        },
+        {
+          "de": "die Party",
+          "pronunciation": "",
+          "hi": "पार्टी",
+          "en": "party 🥳"
+        },
+        {
+          "de": "die Geburtstagsparty",
+          "pronunciation": "",
+          "hi": "जन्मदिन की पार्टी",
+          "en": "birthday party"
+        },
+        {
+          "de": "die Torte",
+          "pronunciation": "",
+          "hi": "टोर्ट केक",
+          "en": "layer cake / gateau"
+        },
+        {
+          "de": "die Kerze",
+          "pronunciation": "",
+          "hi": "मोमबत्ती",
+          "en": "candle 🕯️"
+        },
+        {
+          "de": "die Braut",
+          "pronunciation": "",
+          "hi": "दुल्हन",
+          "en": "bride 👰"
+        },
+        {
+          "de": "der Bräutigam",
+          "pronunciation": "",
+          "hi": "दूल्हा",
+          "en": "groom 🤵"
+        },
+        {
+          "de": "Weihnachten",
+          "pronunciation": "",
+          "hi": "क्रिसमस",
+          "en": "Christmas 🎄"
+        },
+        {
+          "de": "der Weihnachtsbaum",
+          "pronunciation": "",
+          "hi": "क्रिसमस ट्री",
+          "en": "Christmas tree"
+        },
+        {
+          "de": "der Weihnachtsmann",
+          "pronunciation": "",
+          "hi": "सांता क्लॉज़",
+          "en": "Santa Claus 🎅"
+        },
+        {
+          "de": "Ostern",
+          "pronunciation": "",
+          "hi": "ईस्टर",
+          "en": "Easter 🐰"
+        },
+        {
+          "de": "das Osterei",
+          "pronunciation": "",
+          "hi": "ईस्टर अंडा",
+          "en": "Easter egg 🥚"
+        },
+        {
+          "de": "Silvester",
+          "pronunciation": "",
+          "hi": "नए साल की पूर्व संध्या",
+          "en": "New Year's Eve 🎆"
+        },
+        {
+          "de": "Neujahr",
+          "pronunciation": "",
+          "hi": "नया साल",
+          "en": "New Year 🎊"
+        },
+        {
+          "de": "das Feuerwerk",
+          "pronunciation": "",
+          "hi": "आतिशबाज़ी",
+          "en": "fireworks 🎆"
+        },
+        {
+          "de": "das Geschenk",
+          "pronunciation": "",
+          "hi": "उपहार",
+          "en": "gift / present 🎁"
+        },
+        {
+          "de": "schenken",
+          "pronunciation": "",
+          "hi": "उपहार देना",
+          "en": "to give (gift)"
+        },
+        {
+          "de": "der Ballon",
+          "pronunciation": "",
+          "hi": "गुब्बारा",
+          "en": "balloon 🎈"
+        },
+        {
+          "de": "die Dekoration",
+          "pronunciation": "",
+          "hi": "सजावट",
+          "en": "decoration"
+        },
+        {
+          "de": "die Blumen",
+          "pronunciation": "",
+          "hi": "फूल",
+          "en": "flowers 💐"
+        },
+        {
+          "de": "gratulieren",
+          "pronunciation": "",
+          "hi": "बधाई देना",
+          "en": "to congratulate"
+        },
+        {
+          "de": "wünschen",
+          "pronunciation": "",
+          "hi": "शुभकामना देना",
+          "en": "to wish"
+        },
+        {
+          "de": "tanzen",
+          "pronunciation": "",
+          "hi": "नाचना",
+          "en": "to dance 💃"
+        },
+        {
+          "de": "singen",
+          "pronunciation": "",
+          "hi": "गाना",
+          "en": "to sing 🎤"
+        },
+        {
+          "de": "das Glück",
+          "pronunciation": "",
+          "hi": "खुशी / भाग्य",
+          "en": "luck / happiness"
+        },
+        {
+          "de": "die Musik",
+          "pronunciation": "",
+          "hi": "संगीत",
+          "en": "music 🎵"
+        },
+        {
+          "de": "die Überraschung",
+          "pronunciation": "",
+          "hi": "आश्चर्य / सरप्राइज",
+          "en": "surprise"
+        },
+        {
+          "de": "der Gast",
+          "pronunciation": "",
+          "hi": "मेहमान",
+          "en": "guest"
+        },
+        {
+          "de": "die Gastgeberin",
+          "pronunciation": "",
+          "hi": "मेजबान (f)",
+          "en": "host (f)"
+        },
+        {
+          "de": "das Konfetti",
+          "pronunciation": "",
+          "hi": "कन्फेट्टी",
+          "en": "confetti 🎊"
+        },
+        {
+          "de": "der Champagner",
+          "pronunciation": "",
+          "hi": "शैंपेन",
+          "en": "champagne 🍾"
+        },
+        {
+          "de": "der Tanz",
+          "pronunciation": "",
+          "hi": "नृत्य",
+          "en": "dance"
+        },
+        {
+          "de": "das Kostüm",
+          "pronunciation": "",
+          "hi": "पोशाक",
+          "en": "costume"
+        },
+        {
+          "de": "der Festtag",
+          "pronunciation": "",
+          "hi": "त्योहार का दिन",
+          "en": "holiday / festival day"
+        },
+        {
+          "de": "die Tradition",
+          "pronunciation": "",
+          "hi": "परंपरा",
+          "en": "tradition"
+        },
+        {
+          "de": "einladen",
+          "pronunciation": "",
+          "hi": "आमंत्रित करना",
+          "en": "to invite"
+        }
+      ]
+    },
+    {
+      "id": "Personal_Items",
+      "name": "Personal Items",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🎒",
+      "color": "#80deea",
+      "words": [
+        {
+          "de": "die Handtasche",
+          "pronunciation": "",
+          "hi": "हैंडबैग",
+          "en": "handbag / purse"
+        },
+        {
+          "de": "der Beutel",
+          "pronunciation": "",
+          "hi": "थैली",
+          "en": "pouch / bag"
+        },
+        {
+          "de": "das Portemonnaie",
+          "pronunciation": "",
+          "hi": "बटुआ",
+          "en": "wallet 👛"
+        },
+        {
+          "de": "die Geldbörse",
+          "pronunciation": "",
+          "hi": "पर्स",
+          "en": "wallet / purse"
+        },
+        {
+          "de": "der Schlüssel",
+          "pronunciation": "",
+          "hi": "चाबी",
+          "en": "key 🔑"
+        },
+        {
+          "de": "der Hausschlüssel",
+          "pronunciation": "",
+          "hi": "घर की चाबी",
+          "en": "house key 🏠🔑"
+        },
+        {
+          "de": "der Autoschlüssel",
+          "pronunciation": "",
+          "hi": "कार की चाबी",
+          "en": "car key 🚗🔑"
+        },
+        {
+          "de": "der Kopfhörer",
+          "pronunciation": "",
+          "hi": "हेडफ़ोन",
+          "en": "headphones 🎧"
+        },
+        {
+          "de": "das Ladegerät",
+          "pronunciation": "",
+          "hi": "चार्जर",
+          "en": "charger 🔌"
+        },
+        {
+          "de": "das Kabel",
+          "pronunciation": "",
+          "hi": "केबल",
+          "en": "cable"
+        },
+        {
+          "de": "die Armbanduhr",
+          "pronunciation": "",
+          "hi": "कलाई घड़ी",
+          "en": "wristwatch"
+        },
+        {
+          "de": "der Schmuck",
+          "pronunciation": "",
+          "hi": "गहने",
+          "en": "jewelry 💍"
+        },
+        {
+          "de": "der Ring",
+          "pronunciation": "",
+          "hi": "अंगूठी",
+          "en": "ring 💍"
+        },
+        {
+          "de": "die Kette",
+          "pronunciation": "",
+          "hi": "हार / चेन",
+          "en": "necklace / chain"
+        },
+        {
+          "de": "der Ohrring",
+          "pronunciation": "",
+          "hi": "बाली",
+          "en": "earring"
+        },
+        {
+          "de": "der Pass",
+          "pronunciation": "",
+          "hi": "पासपोर्ट",
+          "en": "passport 🛂"
+        },
+        {
+          "de": "die Fahrkarte",
+          "pronunciation": "",
+          "hi": "टिकट",
+          "en": "ticket (transport) 🎫"
+        },
+        {
+          "de": "der Kamm",
+          "pronunciation": "",
+          "hi": "कंघी",
+          "en": "comb"
+        },
+        {
+          "de": "die Bürste",
+          "pronunciation": "",
+          "hi": "ब्रश",
+          "en": "brush"
+        },
+        {
+          "de": "das Taschentuch",
+          "pronunciation": "",
+          "hi": "रुमाल",
+          "en": "tissue / handkerchief"
+        },
+        {
+          "de": "das Parfüm",
+          "pronunciation": "",
+          "hi": "इत्र",
+          "en": "perfume"
+        },
+        {
+          "de": "der Stift",
+          "pronunciation": "",
+          "hi": "कलम / पेंसिल",
+          "en": "pen / pencil ✏️"
+        },
+        {
+          "de": "das Notizbuch",
+          "pronunciation": "",
+          "hi": "नोटबुक",
+          "en": "notebook 📓"
+        },
+        {
+          "de": "das Feuerzeug",
+          "pronunciation": "",
+          "hi": "लाइटर",
+          "en": "lighter"
+        },
+        {
+          "de": "die Zigarette",
+          "pronunciation": "",
+          "hi": "सिगरेट",
+          "en": "cigarette 🚬"
+        },
+        {
+          "de": "mitnehmen",
+          "pronunciation": "",
+          "hi": "साथ ले जाना",
+          "en": "to take along"
+        },
+        {
+          "de": "verlieren",
+          "pronunciation": "",
+          "hi": "खोना",
+          "en": "to lose"
+        },
+        {
+          "de": "finden",
+          "pronunciation": "",
+          "hi": "पाना",
+          "en": "to find"
+        },
+        {
+          "de": "der Regenschirm",
+          "pronunciation": "",
+          "hi": "छाता",
+          "en": "umbrella ☔"
+        },
+        {
+          "de": "das Foto",
+          "pronunciation": "",
+          "hi": "फोटो",
+          "en": "photo 📷"
+        },
+        {
+          "de": "der Koffer",
+          "pronunciation": "",
+          "hi": "सूटकेस",
+          "en": "suitcase 🧳"
+        },
+        {
+          "de": "der Rucksack",
+          "pronunciation": "",
+          "hi": "बैकपैक",
+          "en": "backpack 🎒"
+        }
+      ]
+    },
+    {
+      "id": "Question_Words",
+      "name": "Question Words",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "❓",
+      "color": "#ffccbc",
+      "words": [
+        {
+          "de": "wer",
+          "pronunciation": "",
+          "hi": "कौन",
+          "en": "who ❓"
+        },
+        {
+          "de": "was",
+          "pronunciation": "",
+          "hi": "क्या",
+          "en": "what"
+        },
+        {
+          "de": "wann",
+          "pronunciation": "",
+          "hi": "कब",
+          "en": "when"
+        },
+        {
+          "de": "wo",
+          "pronunciation": "",
+          "hi": "कहाँ",
+          "en": "where"
+        },
+        {
+          "de": "wie",
+          "pronunciation": "",
+          "hi": "कैसे",
+          "en": "how"
+        },
+        {
+          "de": "warum",
+          "pronunciation": "",
+          "hi": "क्यों",
+          "en": "why"
+        },
+        {
+          "de": "woher",
+          "pronunciation": "",
+          "hi": "कहाँ से",
+          "en": "where from"
+        },
+        {
+          "de": "wohin",
+          "pronunciation": "",
+          "hi": "कहाँ को",
+          "en": "where to"
+        },
+        {
+          "de": "welcher",
+          "pronunciation": "",
+          "hi": "कौन सा",
+          "en": "which (m)"
+        },
+        {
+          "de": "welche",
+          "pronunciation": "",
+          "hi": "कौन सी",
+          "en": "which (f/pl)"
+        },
+        {
+          "de": "welches",
+          "pronunciation": "",
+          "hi": "कौन सा",
+          "en": "which (n)"
+        },
+        {
+          "de": "was für",
+          "pronunciation": "",
+          "hi": "किस तरह का",
+          "en": "what kind of"
+        },
+        {
+          "de": "wie viel",
+          "pronunciation": "",
+          "hi": "कितना",
+          "en": "how much"
+        },
+        {
+          "de": "wie viele",
+          "pronunciation": "",
+          "hi": "कितने",
+          "en": "how many"
+        },
+        {
+          "de": "wie lange",
+          "pronunciation": "",
+          "hi": "कितनी देर",
+          "en": "how long (duration)"
+        },
+        {
+          "de": "wie oft",
+          "pronunciation": "",
+          "hi": "कितनी बार",
+          "en": "how often"
+        },
+        {
+          "de": "wie spät",
+          "pronunciation": "",
+          "hi": "क्या समय",
+          "en": "what time"
+        },
+        {
+          "de": "um wie viel Uhr",
+          "pronunciation": "",
+          "hi": "कितने बजे",
+          "en": "at what time"
+        },
+        {
+          "de": "wie alt",
+          "pronunciation": "",
+          "hi": "कितने साल का",
+          "en": "how old"
+        },
+        {
+          "de": "wie groß",
+          "pronunciation": "",
+          "hi": "कितना बड़ा",
+          "en": "how tall / big"
+        },
+        {
+          "de": "wie weit",
+          "pronunciation": "",
+          "hi": "कितना दूर",
+          "en": "how far"
+        },
+        {
+          "de": "ob",
+          "pronunciation": "",
+          "hi": "क्या / अगर",
+          "en": "whether / if"
+        },
+        {
+          "de": "Wie heißt du?",
+          "pronunciation": "",
+          "hi": "तुम्हारा नाम क्या है?",
+          "en": "What's your name? (informal)"
+        },
+        {
+          "de": "Woher kommst du?",
+          "pronunciation": "",
+          "hi": "तुम कहाँ से हो?",
+          "en": "Where are you from?"
+        },
+        {
+          "de": "Was machst du?",
+          "pronunciation": "",
+          "hi": "तुम क्या करते हो?",
+          "en": "What do you do? / What are you doing?"
+        },
+        {
+          "de": "Stimmt das?",
+          "pronunciation": "",
+          "hi": "क्या यह सही है?",
+          "en": "Is that correct?"
+        },
+        {
+          "de": "Verstehen Sie?",
+          "pronunciation": "",
+          "hi": "क्या आप समझे?",
+          "en": "Do you understand?"
+        },
+        {
+          "de": "Sprechen Sie Deutsch?",
+          "pronunciation": "",
+          "hi": "क्या आप जर्मन बोलते हैं?",
+          "en": "Do you speak German?"
+        }
+      ]
+    },
+    {
+      "id": "Pronouns",
+      "name": "Pronouns",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "👤",
+      "color": "#d1c4e9",
+      "words": [
+        {
+          "de": "ich",
+          "pronunciation": "",
+          "hi": "मैं",
+          "en": "I 👤"
+        },
+        {
+          "de": "du",
+          "pronunciation": "",
+          "hi": "तुम",
+          "en": "you (informal)"
+        },
+        {
+          "de": "er",
+          "pronunciation": "",
+          "hi": "वह (पुरुष)",
+          "en": "he 👨"
+        },
+        {
+          "de": "sie",
+          "pronunciation": "",
+          "hi": "वह (महिला)",
+          "en": "she 👩"
+        },
+        {
+          "de": "es",
+          "pronunciation": "",
+          "hi": "यह",
+          "en": "it"
+        },
+        {
+          "de": "wir",
+          "pronunciation": "",
+          "hi": "हम",
+          "en": "we 👥"
+        },
+        {
+          "de": "ihr",
+          "pronunciation": "",
+          "hi": "तुम लोग",
+          "en": "you (plural informal)"
+        },
+        {
+          "de": "mich",
+          "pronunciation": "",
+          "hi": "मुझे",
+          "en": "me (accusative)"
+        },
+        {
+          "de": "dich",
+          "pronunciation": "",
+          "hi": "तुझे",
+          "en": "you (accusative)"
+        },
+        {
+          "de": "ihn",
+          "pronunciation": "",
+          "hi": "उसे (पुरुष)",
+          "en": "him (accusative)"
+        },
+        {
+          "de": "uns",
+          "pronunciation": "",
+          "hi": "हमें",
+          "en": "us (accusative)"
+        },
+        {
+          "de": "euch",
+          "pronunciation": "",
+          "hi": "तुम लोगों को",
+          "en": "you all (accusative)"
+        },
+        {
+          "de": "mir",
+          "pronunciation": "",
+          "hi": "मुझे",
+          "en": "to me (dative)"
+        },
+        {
+          "de": "dir",
+          "pronunciation": "",
+          "hi": "तुझे",
+          "en": "to you (dative)"
+        },
+        {
+          "de": "ihm",
+          "pronunciation": "",
+          "hi": "उसे (पुरुष)",
+          "en": "to him (dative)"
+        },
+        {
+          "de": "ihnen",
+          "pronunciation": "",
+          "hi": "उन्हें",
+          "en": "to them (dative)"
+        },
+        {
+          "de": "unser",
+          "pronunciation": "",
+          "hi": "हमारा",
+          "en": "our"
+        },
+        {
+          "de": "euer",
+          "pronunciation": "",
+          "hi": "तुम लोगों का",
+          "en": "your (plural)"
+        },
+        {
+          "de": "sich",
+          "pronunciation": "",
+          "hi": "खुद को / अपने आप",
+          "en": "himself/herself/itself/themselves"
+        },
+        {
+          "de": "dieser",
+          "pronunciation": "",
+          "hi": "यह",
+          "en": "this (m)"
+        },
+        {
+          "de": "diese",
+          "pronunciation": "",
+          "hi": "यह",
+          "en": "this (f)"
+        },
+        {
+          "de": "dieses",
+          "pronunciation": "",
+          "hi": "यह",
+          "en": "this (n)"
+        },
+        {
+          "de": "das",
+          "pronunciation": "",
+          "hi": "यह / वह",
+          "en": "that / this"
+        },
+        {
+          "de": "dort",
+          "pronunciation": "",
+          "hi": "वहाँ",
+          "en": "there"
+        },
+        {
+          "de": "da",
+          "pronunciation": "",
+          "hi": "वहाँ / यहाँ",
+          "en": "there / here"
+        },
+        {
+          "de": "man",
+          "pronunciation": "",
+          "hi": "लोग / कोई",
+          "en": "one / people (general)"
+        },
+        {
+          "de": "jemand",
+          "pronunciation": "",
+          "hi": "कोई",
+          "en": "someone"
+        },
+        {
+          "de": "niemand",
+          "pronunciation": "",
+          "hi": "कोई नहीं",
+          "en": "no one"
+        },
+        {
+          "de": "etwas",
+          "pronunciation": "",
+          "hi": "कुछ",
+          "en": "something"
+        },
+        {
+          "de": "jeder",
+          "pronunciation": "",
+          "hi": "हर कोई",
+          "en": "everyone / each (m)"
+        },
+        {
+          "de": "jede",
+          "pronunciation": "",
+          "hi": "हर",
+          "en": "every / each (f)"
+        },
+        {
+          "de": "jedes",
+          "pronunciation": "",
+          "hi": "हर",
+          "en": "every / each (n)"
+        },
+        {
+          "de": "andere",
+          "pronunciation": "",
+          "hi": "दूसरा",
+          "en": "other / another"
+        },
+        {
+          "de": "selbst",
+          "pronunciation": "",
+          "hi": "खुद / स्वयं",
+          "en": "self / oneself"
+        },
+        {
+          "de": "solche",
+          "pronunciation": "",
+          "hi": "ऐसा / ऐसी",
+          "en": "such"
+        },
+        {
+          "de": "welcher",
+          "pronunciation": "",
+          "hi": "कौन सा (m)",
+          "en": "which (m)"
+        },
+        {
+          "de": "welche",
+          "pronunciation": "",
+          "hi": "कौन सी (f)",
+          "en": "which (f)"
+        },
+        {
+          "de": "welches",
+          "pronunciation": "",
+          "hi": "कौन सा (n)",
+          "en": "which (n)"
+        },
+        {
+          "de": "derselbe",
+          "pronunciation": "",
+          "hi": "वही (m)",
+          "en": "the same (m)"
+        }
+      ]
+    },
+    {
+      "id": "Verbs_(Actions)",
+      "name": "Verbs",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🏃",
+      "color": "#c5cae9",
+      "words": [
+        {
+          "de": "haben",
+          "pronunciation": "",
+          "hi": "रखना",
+          "en": "to have ⭐"
+        },
+        {
+          "de": "werden",
+          "pronunciation": "",
+          "hi": "बनना",
+          "en": "to become"
+        },
+        {
+          "de": "machen",
+          "pronunciation": "",
+          "hi": "करना / बनाना",
+          "en": "to do / make"
+        },
+        {
+          "de": "können",
+          "pronunciation": "",
+          "hi": "सकना",
+          "en": "can / to be able to"
+        },
+        {
+          "de": "müssen",
+          "pronunciation": "",
+          "hi": "करना पड़ना",
+          "en": "must / have to"
+        },
+        {
+          "de": "wollen",
+          "pronunciation": "",
+          "hi": "चाहना",
+          "en": "to want"
+        },
+        {
+          "de": "möchten",
+          "pronunciation": "",
+          "hi": "चाहूँगा/चाहूँगी",
+          "en": "would like"
+        },
+        {
+          "de": "sollen",
+          "pronunciation": "",
+          "hi": "चाहिए",
+          "en": "should / ought to"
+        },
+        {
+          "de": "dürfen",
+          "pronunciation": "",
+          "hi": "... की अनुमति होना",
+          "en": "may / to be allowed"
+        },
+        {
+          "de": "mögen",
+          "pronunciation": "",
+          "hi": "पसंद करना",
+          "en": "to like"
+        },
+        {
+          "de": "kommen",
+          "pronunciation": "",
+          "hi": "आना",
+          "en": "to come"
+        },
+        {
+          "de": "geben",
+          "pronunciation": "",
+          "hi": "देना",
+          "en": "to give"
+        },
+        {
+          "de": "nehmen",
+          "pronunciation": "",
+          "hi": "लेना",
+          "en": "to take"
+        },
+        {
+          "de": "bringen",
+          "pronunciation": "",
+          "hi": "लाना",
+          "en": "to bring"
+        },
+        {
+          "de": "holen",
+          "pronunciation": "",
+          "hi": "ले आना",
+          "en": "to fetch / get"
+        },
+        {
+          "de": "bekommen",
+          "pronunciation": "",
+          "hi": "प्राप्त करना",
+          "en": "to get / receive"
+        },
+        {
+          "de": "schicken",
+          "pronunciation": "",
+          "hi": "भेजना",
+          "en": "to send 📧"
+        },
+        {
+          "de": "erzählen",
+          "pronunciation": "",
+          "hi": "बताना",
+          "en": "to tell / narrate"
+        },
+        {
+          "de": "rufen",
+          "pronunciation": "",
+          "hi": "पुकारना",
+          "en": "to call (out)"
+        },
+        {
+          "de": "denken",
+          "pronunciation": "",
+          "hi": "सोचना",
+          "en": "to think 🤔"
+        },
+        {
+          "de": "wissen",
+          "pronunciation": "",
+          "hi": "जानना (तथ्य)",
+          "en": "to know (fact)"
+        },
+        {
+          "de": "kennen",
+          "pronunciation": "",
+          "hi": "जानना (व्यक्ति)",
+          "en": "to know (person/place)"
+        },
+        {
+          "de": "glauben",
+          "pronunciation": "",
+          "hi": "विश्वास करना",
+          "en": "to believe"
+        },
+        {
+          "de": "spielen",
+          "pronunciation": "",
+          "hi": "खेलना",
+          "en": "to play 🎮"
+        },
+        {
+          "de": "waschen",
+          "pronunciation": "",
+          "hi": "धोना",
+          "en": "to wash"
+        },
+        {
+          "de": "putzen",
+          "pronunciation": "",
+          "hi": "साफ करना",
+          "en": "to clean"
+        },
+        {
+          "de": "aufräumen",
+          "pronunciation": "",
+          "hi": "व्यवस्थित करना",
+          "en": "to tidy up"
+        },
+        {
+          "de": "duschen",
+          "pronunciation": "",
+          "hi": "नहाना",
+          "en": "to shower 🚿"
+        },
+        {
+          "de": "stehen",
+          "pronunciation": "",
+          "hi": "खड़ा होना",
+          "en": "to stand"
+        },
+        {
+          "de": "sitzen",
+          "pronunciation": "",
+          "hi": "बैठना",
+          "en": "to sit"
+        },
+        {
+          "de": "liegen",
+          "pronunciation": "",
+          "hi": "लेटना",
+          "en": "to lie (down)"
+        },
+        {
+          "de": "setzen",
+          "pronunciation": "",
+          "hi": "बिठाना",
+          "en": "to set / put (down)"
+        },
+        {
+          "de": "legen",
+          "pronunciation": "",
+          "hi": "रखना",
+          "en": "to lay / put"
+        },
+        {
+          "de": "stellen",
+          "pronunciation": "",
+          "hi": "रखना (खड़ा)",
+          "en": "to put / place (standing)"
+        },
+        {
+          "de": "lieben",
+          "pronunciation": "",
+          "hi": "प्यार करना",
+          "en": "to love ❤️"
+        },
+        {
+          "de": "hoffen",
+          "pronunciation": "",
+          "hi": "उम्मीद करना",
+          "en": "to hope"
+        },
+        {
+          "de": "brauchen",
+          "pronunciation": "",
+          "hi": "ज़रूरत होना",
+          "en": "to need"
+        },
+        {
+          "de": "helfen",
+          "pronunciation": "",
+          "hi": "मदद करना",
+          "en": "to help 🤝"
+        },
+        {
+          "de": "treffen",
+          "pronunciation": "",
+          "hi": "मिलना",
+          "en": "to meet"
+        },
+        {
+          "de": "öffnen",
+          "pronunciation": "",
+          "hi": "खोलना",
+          "en": "to open"
+        },
+        {
+          "de": "schließen",
+          "pronunciation": "",
+          "hi": "बंद करना",
+          "en": "to close"
+        },
+        {
+          "de": "leben",
+          "pronunciation": "",
+          "hi": "जीना",
+          "en": "to live (be alive)"
+        },
+        {
+          "de": "beginnen",
+          "pronunciation": "",
+          "hi": "शुरू करना",
+          "en": "to begin / start"
+        },
+        {
+          "de": "beenden",
+          "pronunciation": "",
+          "hi": "समाप्त करना",
+          "en": "to end / finish"
+        },
+        {
+          "de": "versuchen",
+          "pronunciation": "",
+          "hi": "कोशिश करना",
+          "en": "to try"
+        }
+      ]
+    },
+    {
+      "id": "Adjectives",
+      "name": "Adjectives",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "✨",
+      "color": "#ffcc80",
+      "words": [
+        {
+          "de": "lang",
+          "pronunciation": "",
+          "hi": "लंबा",
+          "en": "long"
+        },
+        {
+          "de": "kurz",
+          "pronunciation": "",
+          "hi": "छोटा",
+          "en": "short"
+        },
+        {
+          "de": "hoch",
+          "pronunciation": "",
+          "hi": "ऊँचा",
+          "en": "high / tall"
+        },
+        {
+          "de": "niedrig",
+          "pronunciation": "",
+          "hi": "नीचा",
+          "en": "low"
+        },
+        {
+          "de": "dick",
+          "pronunciation": "",
+          "hi": "मोटा",
+          "en": "thick / fat"
+        },
+        {
+          "de": "dünn",
+          "pronunciation": "",
+          "hi": "पतला",
+          "en": "thin"
+        },
+        {
+          "de": "breit",
+          "pronunciation": "",
+          "hi": "चौड़ा",
+          "en": "wide / broad"
+        },
+        {
+          "de": "schön",
+          "pronunciation": "",
+          "hi": "सुंदर",
+          "en": "beautiful / nice ✨"
+        },
+        {
+          "de": "hässlich",
+          "pronunciation": "",
+          "hi": "बदसूरत",
+          "en": "ugly"
+        },
+        {
+          "de": "neu",
+          "pronunciation": "",
+          "hi": "नया",
+          "en": "new 🆕"
+        },
+        {
+          "de": "schnell",
+          "pronunciation": "",
+          "hi": "तेज़",
+          "en": "fast / quick ⚡"
+        },
+        {
+          "de": "langsam",
+          "pronunciation": "",
+          "hi": "धीमा",
+          "en": "slow 🐢"
+        },
+        {
+          "de": "laut",
+          "pronunciation": "",
+          "hi": "तेज़ (आवाज़)",
+          "en": "loud 🔊"
+        },
+        {
+          "de": "voll",
+          "pronunciation": "",
+          "hi": "भरा हुआ",
+          "en": "full"
+        },
+        {
+          "de": "leer",
+          "pronunciation": "",
+          "hi": "खाली",
+          "en": "empty"
+        },
+        {
+          "de": "sauber",
+          "pronunciation": "",
+          "hi": "साफ",
+          "en": "clean ✨"
+        },
+        {
+          "de": "schmutzig",
+          "pronunciation": "",
+          "hi": "गंदा",
+          "en": "dirty"
+        },
+        {
+          "de": "kaputt",
+          "pronunciation": "",
+          "hi": "टूटा हुआ",
+          "en": "broken 💔"
+        },
+        {
+          "de": "schwer",
+          "pronunciation": "",
+          "hi": "मुश्किल / भारी",
+          "en": "difficult / heavy"
+        },
+        {
+          "de": "schwierig",
+          "pronunciation": "",
+          "hi": "कठिन",
+          "en": "difficult"
+        },
+        {
+          "de": "lieb",
+          "pronunciation": "",
+          "hi": "प्यारा",
+          "en": "dear / sweet 💕"
+        },
+        {
+          "de": "wichtig",
+          "pronunciation": "",
+          "hi": "महत्वपूर्ण",
+          "en": "important ⭐"
+        },
+        {
+          "de": "interessant",
+          "pronunciation": "",
+          "hi": "दिलचस्प",
+          "en": "interesting"
+        },
+        {
+          "de": "toll",
+          "pronunciation": "",
+          "hi": "शानदार",
+          "en": "great / awesome 🎉"
+        },
+        {
+          "de": "super",
+          "pronunciation": "",
+          "hi": "सुपर",
+          "en": "super / great"
+        },
+        {
+          "de": "fertig",
+          "pronunciation": "",
+          "hi": "तैयार / समाप्त",
+          "en": "ready / finished ✅"
+        },
+        {
+          "de": "frei",
+          "pronunciation": "",
+          "hi": "फ्री / खाली",
+          "en": "free"
+        },
+        {
+          "de": "besetzt",
+          "pronunciation": "",
+          "hi": "व्यस्त",
+          "en": "occupied / busy"
+        },
+        {
+          "de": "anders",
+          "pronunciation": "",
+          "hi": "अलग",
+          "en": "different"
+        },
+        {
+          "de": "typisch",
+          "pronunciation": "",
+          "hi": "आम / सामान्य",
+          "en": "typical"
+        },
+        {
+          "de": "möglich",
+          "pronunciation": "",
+          "hi": "संभव",
+          "en": "possible"
+        },
+        {
+          "de": "oben",
+          "pronunciation": "",
+          "hi": "ऊपर",
+          "en": "above / up ⬆️"
+        },
+        {
+          "de": "unten",
+          "pronunciation": "",
+          "hi": "नीचे",
+          "en": "below / down ⬇️"
+        },
+        {
+          "de": "vorne",
+          "pronunciation": "",
+          "hi": "आगे",
+          "en": "in front"
+        },
+        {
+          "de": "hinten",
+          "pronunciation": "",
+          "hi": "पीछे",
+          "en": "behind / back"
+        },
+        {
+          "de": "sauer",
+          "pronunciation": "",
+          "hi": "खट्टा",
+          "en": "sour 🍋"
+        },
+        {
+          "de": "salzig",
+          "pronunciation": "",
+          "hi": "नमकीन",
+          "en": "salty 🧂"
+        },
+        {
+          "de": "scharf",
+          "pronunciation": "",
+          "hi": "तीखा",
+          "en": "spicy / sharp 🌶️"
+        },
+        {
+          "de": "bitter",
+          "pronunciation": "",
+          "hi": "कड़वा",
+          "en": "bitter"
+        },
+        {
+          "de": "lecker",
+          "pronunciation": "",
+          "hi": "स्वादिष्ट",
+          "en": "delicious 😋"
+        }
+      ]
+    },
+    {
+      "id": "Adverbs_&_Other",
+      "name": "Adverbs, Prepositions & Connectors",
+      "nameDe": "",
+      "nameHi": "",
+      "emoji": "🔗",
+      "color": "#b39ddb",
+      "words": [
+        {
+          "de": "in",
+          "pronunciation": "",
+          "hi": "में",
+          "en": "in 📍"
+        },
+        {
+          "de": "an",
+          "pronunciation": "",
+          "hi": "पर",
+          "en": "at / on (vertical)"
+        },
+        {
+          "de": "auf",
+          "pronunciation": "",
+          "hi": "के ऊपर",
+          "en": "on (horizontal)"
+        },
+        {
+          "de": "unter",
+          "pronunciation": "",
+          "hi": "के नीचे",
+          "en": "under"
+        },
+        {
+          "de": "über",
+          "pronunciation": "",
+          "hi": "के ऊपर",
+          "en": "over / above"
+        },
+        {
+          "de": "neben",
+          "pronunciation": "",
+          "hi": "के बगल में",
+          "en": "next to / beside"
+        },
+        {
+          "de": "hinter",
+          "pronunciation": "",
+          "hi": "के पीछे",
+          "en": "behind"
+        },
+        {
+          "de": "zwischen",
+          "pronunciation": "",
+          "hi": "के बीच",
+          "en": "between"
+        },
+        {
+          "de": "zu",
+          "pronunciation": "",
+          "hi": "को / की ओर",
+          "en": "to (place/person)"
+        },
+        {
+          "de": "von",
+          "pronunciation": "",
+          "hi": "से / का",
+          "en": "from / of"
+        },
+        {
+          "de": "aus",
+          "pronunciation": "",
+          "hi": "से (बाहर)",
+          "en": "out of / from (origin)"
+        },
+        {
+          "de": "durch",
+          "pronunciation": "",
+          "hi": "से होकर",
+          "en": "through"
+        },
+        {
+          "de": "mit",
+          "pronunciation": "",
+          "hi": "के साथ",
+          "en": "with"
+        },
+        {
+          "de": "ohne",
+          "pronunciation": "",
+          "hi": "के बिना",
+          "en": "without"
+        },
+        {
+          "de": "für",
+          "pronunciation": "",
+          "hi": "के लिए",
+          "en": "for"
+        },
+        {
+          "de": "gegen",
+          "pronunciation": "",
+          "hi": "के खिलाफ / करीब",
+          "en": "against / around (time)"
+        },
+        {
+          "de": "um",
+          "pronunciation": "",
+          "hi": "बजे / के आसपास",
+          "en": "at (time) / around"
+        },
+        {
+          "de": "bis",
+          "pronunciation": "",
+          "hi": "तक",
+          "en": "until / to"
+        },
+        {
+          "de": "ab",
+          "pronunciation": "",
+          "hi": "से (समय)",
+          "en": "from (time onwards)"
+        },
+        {
+          "de": "seit",
+          "pronunciation": "",
+          "hi": "से (समय से)",
+          "en": "since / for (duration)"
+        },
+        {
+          "de": "früher",
+          "pronunciation": "",
+          "hi": "पहले",
+          "en": "earlier / formerly"
+        },
+        {
+          "de": "schon",
+          "pronunciation": "",
+          "hi": "पहले से",
+          "en": "already"
+        },
+        {
+          "de": "noch",
+          "pronunciation": "",
+          "hi": "अभी भी",
+          "en": "still / yet"
+        },
+        {
+          "de": "wieder",
+          "pronunciation": "",
+          "hi": "फिर से",
+          "en": "again"
+        },
+        {
+          "de": "gerade",
+          "pronunciation": "",
+          "hi": "अभी-अभी",
+          "en": "just now / straight"
+        },
+        {
+          "de": "meistens",
+          "pronunciation": "",
+          "hi": "ज्यादातर",
+          "en": "mostly / usually"
+        },
+        {
+          "de": "drinnen",
+          "pronunciation": "",
+          "hi": "अंदर",
+          "en": "inside"
+        },
+        {
+          "de": "überall",
+          "pronunciation": "",
+          "hi": "हर जगह",
+          "en": "everywhere"
+        },
+        {
+          "de": "nirgendwo",
+          "pronunciation": "",
+          "hi": "कहीं नहीं",
+          "en": "nowhere"
+        },
+        {
+          "de": "sehr",
+          "pronunciation": "",
+          "hi": "बहुत",
+          "en": "very"
+        },
+        {
+          "de": "ganz",
+          "pronunciation": "",
+          "hi": "काफी / पूरा",
+          "en": "quite / whole"
+        },
+        {
+          "de": "ziemlich",
+          "pronunciation": "",
+          "hi": "काफी",
+          "en": "quite / fairly"
+        },
+        {
+          "de": "fast",
+          "pronunciation": "",
+          "hi": "लगभग",
+          "en": "almost"
+        },
+        {
+          "de": "nur",
+          "pronunciation": "",
+          "hi": "केवल",
+          "en": "only"
+        },
+        {
+          "de": "auch",
+          "pronunciation": "",
+          "hi": "भी",
+          "en": "also / too"
+        },
+        {
+          "de": "besonders",
+          "pronunciation": "",
+          "hi": "खासकर",
+          "en": "especially"
+        },
+        {
+          "de": "und",
+          "pronunciation": "",
+          "hi": "और",
+          "en": "and 🔗"
+        },
+        {
+          "de": "oder",
+          "pronunciation": "",
+          "hi": "या",
+          "en": "or"
+        },
+        {
+          "de": "aber",
+          "pronunciation": "",
+          "hi": "लेकिन",
+          "en": "but"
+        },
+        {
+          "de": "denn",
+          "pronunciation": "",
+          "hi": "क्योंकि",
+          "en": "because / for"
+        },
+        {
+          "de": "weil",
+          "pronunciation": "",
+          "hi": "क्योंकि",
+          "en": "because"
+        },
+        {
+          "de": "wenn",
+          "pronunciation": "",
+          "hi": "अगर / जब",
+          "en": "if / when"
+        },
+        {
+          "de": "dass",
+          "pronunciation": "",
+          "hi": "कि",
+          "en": "that (conjunction)"
+        },
+        {
+          "de": "sondern",
+          "pronunciation": "",
+          "hi": "बल्कि",
+          "en": "but rather"
+        },
+        {
+          "de": "deshalb",
+          "pronunciation": "",
+          "hi": "इसलिए",
+          "en": "therefore"
+        },
+        {
+          "de": "nicht",
+          "pronunciation": "",
+          "hi": "नहीं",
+          "en": "not ❌"
+        },
+        {
+          "de": "kein",
+          "pronunciation": "",
+          "hi": "कोई नहीं",
+          "en": "no / not any"
+        },
+        {
+          "de": "ja",
+          "pronunciation": "",
+          "hi": "हाँ",
+          "en": "yes ✓"
+        },
+        {
+          "de": "nein",
+          "pronunciation": "",
+          "hi": "नहीं",
+          "en": "no ✗"
+        },
+        {
+          "de": "doch",
+          "pronunciation": "",
+          "hi": "हाँ (विरोध में)",
+          "en": "yes (contradicting) / but"
+        },
+        {
+          "de": "wahrscheinlich",
+          "pronunciation": "",
+          "hi": "संभवतः",
+          "en": "probably"
+        },
+        {
+          "de": "natürlich",
+          "pronunciation": "",
+          "hi": "बेशक",
+          "en": "of course / naturally"
+        },
+        {
+          "de": "eigentlich",
+          "pronunciation": "",
+          "hi": "वास्तव में",
+          "en": "actually"
+        },
+        {
+          "de": "wirklich",
+          "pronunciation": "",
+          "hi": "सच में",
+          "en": "really"
+        },
+        {
+          "de": "genau",
+          "pronunciation": "",
+          "hi": "बिल्कुल",
+          "en": "exactly"
+        },
+        {
+          "de": "also",
+          "pronunciation": "",
+          "hi": "तो",
+          "en": "so / well"
+        },
+        {
+          "de": "übrigens",
+          "pronunciation": "",
+          "hi": "वैसे",
+          "en": "by the way"
+        }
+      ]
+    }
+  ]
+}
