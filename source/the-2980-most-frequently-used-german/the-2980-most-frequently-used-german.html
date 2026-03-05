@@ -70,6 +70,7 @@
         .error { text-align: center; padding: 40px; color: #c62828; font-size: 18px; }
         .stats-bar { text-align: center; padding: 20px; margin: 20px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white; }
         .stats-bar strong { font-size: 1.2em; }
+        tr.letter-section td { background: var(--th-bg); color: white; font-weight: 700; font-size: 1.1em; padding: 12px 15px; border-bottom: 2px solid var(--border-color); }
         @media screen and (max-width: 768px) { .category { overflow-x: auto; } table { min-width: 500px; } }
     </style>
     <link rel="stylesheet" href="../../css/theme.css">
@@ -177,6 +178,15 @@
             var fullPlural = 'die ' + pl;
             return soundBtn(fullPlural, 'Listen to plural') + '<span class="plural">' + fullPlural + '</span>';
         }
+        function firstLetter(de) {
+            var s = (de || '').trim();
+            if (!s) return '?';
+            var c = s.charAt(0).toUpperCase();
+            if (c === '\u00C4') return 'A';
+            if (c === '\u00D6') return 'O';
+            if (c === '\u00DC') return 'U';
+            return c;
+        }
 
         function renderContent(data) {
             var entries = data.entries || [];
@@ -221,7 +231,16 @@
             document.getElementById('toc').style.display = 'block';
 
             var content = '<div class="category"><table><thead><tr><th style="width:55px">#</th><th>German</th><th>Plural</th><th>English</th><th>Hindi</th></thead><tbody>';
+            var lastArt = '', lastLetter = '';
             sorted.forEach(function(it, idx) {
+                var art = (it.article || '').toLowerCase();
+                var artLabel = cap(it.article || '');
+                var letter = firstLetter(it.de || '');
+                if (art !== lastArt || letter !== lastLetter) {
+                    lastArt = art;
+                    lastLetter = letter;
+                    content += '<tr class="letter-section"><td colspan="5">' + artLabel + ' — ' + letter + '</td></tr>';
+                }
                 var rowNum = idx + 1;
                 var idAttr = (rowNum === 1 || rowNum === firstDie || rowNum === firstDas) ? ' id="row-' + rowNum + '"' : '';
                 content += '<tr' + idAttr + '><td>' + rowNum + '</td>';
