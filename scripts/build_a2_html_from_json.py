@@ -6,6 +6,7 @@ Columns: # | German | English | Hindi. No extra columns. Every JSON word appears
 """
 import html as html_module
 import json
+from itertools import groupby
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
@@ -25,6 +26,60 @@ def escape_text(s):
     if s is None:
         return ""
     return html_module.escape(str(s))
+
+
+def _noun_sort_key(de):
+    """Sort key for German noun (der/die/das X): by X, case-insensitive; umlauts after base letter."""
+    if not de:
+        return ""
+    s = (de or "").strip()
+    for prefix in ("der ", "die ", "das "):
+        if s.lower().startswith(prefix):
+            s = s[len(prefix):].strip()
+            break
+    s = s.lower()
+    for a, b in [("\u00e4", "ae"), ("\u00f6", "oe"), ("\u00fc", "ue")]:
+        s = s.replace(a, b)
+    return s
+
+
+def _first_letter(de):
+    """First letter of noun for A–Z grouping (after der/die/das)."""
+    if not de:
+        return "?"
+    s = (de or "").strip()
+    for prefix in ("der ", "die ", "das "):
+        if s.lower().startswith(prefix):
+            s = s[len(prefix):].strip()
+            break
+    if not s:
+        return "?"
+    c = s[0].upper()
+    if c in "\u00c4\u00d6\u00dc":
+        c = {"\u00c4": "A", "\u00d6": "O", "\u00dc": "U"}.get(c, c)
+    return c
+
+
+def _render_table_rows(words, color_alpha, start_index=1):
+    """Emit <tr> rows for word list. Returns list of HTML lines."""
+    lines = []
+    for i, w in enumerate(words, start_index):
+        de = w.get("de", "")
+        en = w.get("en", "")
+        hi = w.get("hi", "")
+        de_attr = escape_attr(de)
+        de_text = escape_text(de)
+        en_text = escape_text(en)
+        hi_text = escape_text(hi)
+        lines.append(
+            f'<tr style="background-color: {color_alpha};">'
+            f'<td>{i}</td>'
+            f'<td class="german"><span class="audio-btn" onclick="speakGerman(\'{de_attr}\')" title="Click to hear pronunciation">\U0001f50a</span>{de_text}</td>'
+            f'<td class="english">{en_text}</td>'
+            f'<td class="hindi">{hi_text}</td>'
+            "</tr>"
+        )
+    return lines
 
 
 def build_main_content(data):
@@ -59,34 +114,55 @@ def build_main_content(data):
         color = cat.get("color", "#e8f5e9")
         color_alpha = color + "20" if len(color) == 7 else color + "20"
         words = cat.get("words", [])
-        out.append(f'<div class="category" id="{cid}">')
-        out.append(f'<div class="category-header" style="background-color: {color};">')
-        out.append(f'<span class="emoji">{emoji}</span>')
-        out.append(f'<span>{name}</span>')
-        out.append(f'<span class="count">{len(words)} words</span>')
-        out.append("</div>")
-        out.append("<table>")
-        out.append("<thead><tr><th style=\"width:40px\">#</th><th>German</th><th>English</th><th>Hindi</th></tr></thead>")
-        out.append("<tbody>")
-        for i, w in enumerate(words, 1):
-            de = w.get("de", "")
-            en = w.get("en", "")
-            hi = w.get("hi", "")
-            de_attr = escape_attr(de)
-            de_text = escape_text(de)
-            en_text = escape_text(en)
-            hi_text = escape_text(hi)
-            out.append(
-                f'<tr style="background-color: {color_alpha};">'
-                f'<td>{i}</td>'
-                f'<td class="german"><span class="audio-btn" onclick="speakGerman(\'{de_attr}\')" title="Click to hear pronunciation">🔊</span>{de_text}</td>'
-                f'<td class="english">{en_text}</td>'
-                f'<td class="hindi">{hi_text}</td>'
-                "</tr>"
-            )
-        out.append("</tbody>")
-        out.append("</table>")
-        out.append("</div>")
+
+        if cid == "Nouns":
+            # Nouns: alphabetical order, sections by letter A–Z
+            words_sorted = sorted(words, key=lambda w: _noun_sort_key(w.get("de", "")))
+            letter_groups = []
+            for letter, group in groupby(words_sorted, key=lambda w: _first_letter(w.get("de", ""))):
+                letter_groups.append((letter, list(group)))
+            letter_groups.sort(key=lambda x: x[0])
+            out.append(f'<div class="category" id="{cid}">')
+            out.append(f'<div class="category-header" style="background-color: {color};">')
+            out.append(f'<span class="emoji">{emoji}</span>')
+            out.append(f'<span>{name}</span>')
+            out.append(f'<span class="count">{len(words)} words</span>')
+            out.append("</div>")
+            row_num = 1
+            for letter, letter_words in letter_groups:
+                lid = escape_attr(f"{cid}-{letter}")
+                out.append(f'<h3 class="letter-section" id="{lid}" style="margin: 16px 0 8px 0; color: {color}; font-size: 1.3em;">{letter}</h3>')
+                out.append("<table>")
+                out.append("<thead><tr><th style=\"width:40px\">#</th><th>German</th><th>English</th><th>Hindi</th></tr></thead>")
+                out.append("<tbody>")
+                for line in _render_table_rows(letter_words, color_alpha, start_index=row_num):
+                    out.append(line)
+                row_num += len(letter_words)
+                out.append("</tbody>")
+                out.append("</table>")
+            out.append("</div>")
+        else:
+            # Verbs and all others: single section, one table (normal)
+            out.append(f'<div class="category" id="{cid}">')
+            out.append(f'<div class="category-header" style="background-color: {color};">')
+            out.append(f'<span class="emoji">{emoji}</span>')
+            out.append(f'<span>{name}</span>')
+            out.append(f'<span class="count">{len(words)} words</span>')
+            out.append("</div>")
+            out.append("<table>")
+            out.append("<thead><tr><th style=\"width:40px\">#</th><th>German</th><th>English</th><th>Hindi</th></tr></thead>")
+            out.append("<tbody>")
+            for line in _render_table_rows(words, color_alpha, start_index=1):
+                out.append(line)
+            out.append("</tbody>")
+            out.append("</table>")
+            out.append("</div>")
+    # Total word count at bottom
+    out.append("")
+    out.append('<div style="text-align: center; padding: 24px; margin: 24px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">')
+    out.append(f'  <p style="color: white; margin: 0; font-size: 18px;">📊 Total words: <strong style="font-size: 28px;">{total}</strong></p>')
+    out.append(f'  <p style="color: rgba(255,255,255,0.9); margin: 8px 0 0 0; font-size: 14px;">कुल शब्द: {total} · A2 Vocabulary</p>')
+    out.append("</div>")
     return "\n".join(out)
 
 
