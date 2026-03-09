@@ -113,6 +113,7 @@
             <a href="../numbers/numbers.html" class="sidebar-nav-item"><span class="emoji">🔢</span> German Numbers</a>
             <a href="../common-words/common-words.html" class="sidebar-nav-item"><span class="emoji">🔤</span> Common Words</a>
             <a href="the-2980-most-frequently-used-german.html" class="sidebar-nav-item active"><span class="emoji">📋</span> 2980 Nouns</a>
+            <a href="../word-patterns-a1-c2/word-patterns-vocabulary.html" class="sidebar-nav-item"><span class="emoji">📐</span> Word Patterns A1–C2</a>
             <details class="sidebar-dropdown">
                 <summary class="sidebar-dropdown-toggle"><span class="emoji">🗣️</span> Clusters</summary>
                 <div class="sidebar-dropdown-menu">
@@ -223,15 +224,16 @@
                 else if (art === 'das' && firstDas < 0) firstDas = idx + 1;
             });
             var tocHtml = '<h2>📑 Jump to section</h2><div class="toc-grid">';
-            tocHtml += '<a href="#row-1" class="toc-item"><span>Der (A–Z)</span></a>';
-            if (firstDie > 0) tocHtml += '<a href="#row-' + firstDie + '" class="toc-item"><span>Die (A–Z)</span></a>';
-            if (firstDas > 0) tocHtml += '<a href="#row-' + firstDas + '" class="toc-item"><span>Das (A–Z)</span></a>';
+            tocHtml += '<a href="#row-der" class="toc-item"><span>Der (A–Z)</span></a>';
+            if (firstDie > 0) tocHtml += '<a href="#row-die" class="toc-item"><span>Die (A–Z)</span></a>';
+            if (firstDas > 0) tocHtml += '<a href="#row-das" class="toc-item"><span>Das (A–Z)</span></a>';
             tocHtml += '</div>';
             document.getElementById('toc').innerHTML = tocHtml;
             document.getElementById('toc').style.display = 'block';
 
             var content = '<div class="category"><table><thead><tr><th style="width:55px">#</th><th>German</th><th>Plural</th><th>English</th><th>Hindi</th></thead><tbody>';
             var lastArt = '', lastLetter = '';
+            var sectionRowNum = 0;
             sorted.forEach(function(it, idx) {
                 var art = (it.article || '').toLowerCase();
                 var artLabel = cap(it.article || '');
@@ -239,11 +241,12 @@
                 if (art !== lastArt || letter !== lastLetter) {
                     lastArt = art;
                     lastLetter = letter;
+                    sectionRowNum = 0;
                     content += '<tr class="letter-section"><td colspan="5">' + artLabel + ' — ' + letter + '</td></tr>';
                 }
-                var rowNum = idx + 1;
-                var idAttr = (rowNum === 1 || rowNum === firstDie || rowNum === firstDas) ? ' id="row-' + rowNum + '"' : '';
-                content += '<tr' + idAttr + '><td>' + rowNum + '</td>';
+                sectionRowNum += 1;
+                var idAttr = (idx === 0) ? ' id="row-der"' : (firstDie > 0 && idx === firstDie - 1) ? ' id="row-die"' : (firstDas > 0 && idx === firstDas - 1) ? ' id="row-das"' : '';
+                content += '<tr' + idAttr + '><td>' + sectionRowNum + '</td>';
                 content += '<td class="german-cell">' + renderGermanCell(it) + '</td>';
                 content += '<td class="german-cell">' + renderPluralCell(it) + '</td>';
                 content += '<td class="english">' + (it.en || '—') + '</td>';

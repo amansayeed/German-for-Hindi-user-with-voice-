@@ -1,0 +1,11051 @@
+{
+  "pattern_1_ance_ence": [
+    [
+      "die Toleranz",
+      "tolerance",
+      "सहनशीलता"
+    ],
+    [
+      "die Acceptanz",
+      "acceptance",
+      "स्वीकृति"
+    ],
+    [
+      "die Distanz",
+      "distance",
+      "दूरी"
+    ],
+    [
+      "die Relevanz",
+      "relevance",
+      "प्रासंगिकता"
+    ],
+    [
+      "die Eleganz",
+      "elegance",
+      "शिष्टता"
+    ],
+    [
+      "die Ignoranz",
+      "ignorance",
+      "अज्ञान"
+    ],
+    [
+      "die Importanz",
+      "importance",
+      "महत्व"
+    ],
+    [
+      "die Abundanz",
+      "abundance",
+      "प्रचुरता"
+    ],
+    [
+      "die Attendanz",
+      "attendance",
+      "उपस्थिति"
+    ],
+    [
+      "die Assistanz",
+      "assistance",
+      "सहायता"
+    ],
+    [
+      "die Resistanz",
+      "resistance",
+      "प्रतिरोध"
+    ],
+    [
+      "die Persistenz",
+      "persistence",
+      "दृढ़ता"
+    ],
+    [
+      "die Substanz",
+      "substance",
+      "पदार्थ"
+    ],
+    [
+      "die Instanz",
+      "instance",
+      "उदाहरण"
+    ],
+    [
+      "die Circumstanz",
+      "circumstance",
+      "परिस्थिति"
+    ],
+    [
+      "die Finanz",
+      "finance",
+      "वित्त"
+    ],
+    [
+      "die Appearanz",
+      "appearance",
+      "उपस्थिति"
+    ],
+    [
+      "die Clearanz",
+      "clearance",
+      "साफ़ करना"
+    ],
+    [
+      "die Insuranz",
+      "insurance",
+      "बीमा"
+    ],
+    [
+      "die Governanz",
+      "governance",
+      "शासन"
+    ],
+    [
+      "die Maintenanz",
+      "maintenance",
+      "रखरखाव"
+    ],
+    [
+      "die Ordinanz",
+      "ordinance",
+      "अध्यादेश"
+    ],
+    [
+      "die Dominanz",
+      "dominance",
+      "प्रभुत्व"
+    ],
+    [
+      "die Continuanz",
+      "continuance",
+      "निरंतरता"
+    ],
+    [
+      "die Existenz",
+      "existence",
+      "अस्तित्व"
+    ],
+    [
+      "die Conferenz",
+      "conference",
+      "सम्मेलन"
+    ],
+    [
+      "die Presenz",
+      "presence",
+      "उपस्थिति"
+    ],
+    [
+      "die Absenz",
+      "absence",
+      "अनुपस्थिति"
+    ],
+    [
+      "die Intelligenz",
+      "intelligence",
+      "बुद्धिमत्ता"
+    ],
+    [
+      "die Differenz",
+      "difference",
+      "अंतर"
+    ],
+    [
+      "die Referenz",
+      "reference",
+      "संदर्भ"
+    ],
+    [
+      "die Sequenz",
+      "sequence",
+      "क्रम"
+    ],
+    [
+      "die Frequency",
+      "frequency",
+      "आवृत्ति"
+    ],
+    [
+      "die Tendency",
+      "tendency",
+      "प्रवृत्ति"
+    ],
+    [
+      "die Evidenz",
+      "evidence",
+      "प्रमाण"
+    ],
+    [
+      "die Residenz",
+      "residence",
+      "निवास"
+    ],
+    [
+      "die Consistency",
+      "consistency",
+      "स्थिरता"
+    ],
+    [
+      "die Consequenz",
+      "consequence",
+      "परिणाम"
+    ],
+    [
+      "die Competenz",
+      "competence",
+      "क्षमता"
+    ],
+    [
+      "die Transparency",
+      "transparency",
+      "पारदर्शिता"
+    ],
+    [
+      "die Permanenz",
+      "permanence",
+      "स्थायित्व"
+    ],
+    [
+      "die Influenz",
+      "influence",
+      "प्रभाव"
+    ],
+    [
+      "die Experienz",
+      "experience",
+      "अनुभव"
+    ],
+    [
+      "die Scienz",
+      "science",
+      "विज्ञान"
+    ],
+    [
+      "die Patienz",
+      "patience",
+      "धैर्य"
+    ],
+    [
+      "die Convenienz",
+      "convenience",
+      "सुविधा"
+    ],
+    [
+      "die Audienz",
+      "audience",
+      "दर्शक"
+    ],
+    [
+      "die Obedienz",
+      "obedience",
+      "आज्ञाकारिता"
+    ],
+    [
+      "die Violenz",
+      "violence",
+      "हिंसा"
+    ],
+    [
+      "die Silenz",
+      "silence",
+      "चुप्पी"
+    ],
+    [
+      "die Confidenz",
+      "confidence",
+      "आत्मविश्वास"
+    ],
+    [
+      "die Independenz",
+      "independence",
+      "स्वतंत्रता"
+    ],
+    [
+      "die Dependenz",
+      "dependence",
+      "निर्भरता"
+    ],
+    [
+      "die Emergenz",
+      "emergence",
+      "उदय"
+    ],
+    [
+      "die Preferenz",
+      "preference",
+      "पसंद"
+    ],
+    [
+      "die Inferenz",
+      "inference",
+      "अनुमान"
+    ],
+    [
+      "die Coherenz",
+      "coherence",
+      "सुसंगतता"
+    ],
+    [
+      "die Adherenz",
+      "adherence",
+      "पालन"
+    ],
+    [
+      "die Recurrenz",
+      "recurrence",
+      "पुनरावृत्ति"
+    ],
+    [
+      "die Occurrenz",
+      "occurrence",
+      "घटना"
+    ],
+    [
+      "die Concurrenz",
+      "concurrence",
+      "सहमति"
+    ],
+    [
+      "die Divergenz",
+      "divergence",
+      "विचलन"
+    ],
+    [
+      "die Convergenz",
+      "convergence",
+      "अभिसरण"
+    ],
+    [
+      "die Insistenz",
+      "insistence",
+      "जोर"
+    ],
+    [
+      "die Resilienz",
+      "resilience",
+      "लचीलापन"
+    ],
+    [
+      "die Excellenz",
+      "excellence",
+      "उत्कृष्टता"
+    ],
+    [
+      "die Negligenz",
+      "negligence",
+      "लापरवाही"
+    ],
+    [
+      "die Prominenz",
+      "prominence",
+      "प्रमुखता"
+    ],
+    [
+      "die Imminenz",
+      "imminence",
+      "निकटता"
+    ],
+    [
+      "die Eminenz",
+      "eminence",
+      "श्रेष्ठता"
+    ],
+    [
+      "die Continenz",
+      "continence",
+      "संयम"
+    ],
+    [
+      "die Abstinenz",
+      "abstinence",
+      "संयम"
+    ],
+    [
+      "die Innocenz",
+      "innocence",
+      "निर्दोषता"
+    ],
+    [
+      "die Magnificenz",
+      "magnificence",
+      "शान"
+    ],
+    [
+      "die Allianz",
+      "alliance",
+      "गठबंधन"
+    ],
+    [
+      "die Allowanz",
+      "allowance",
+      "भत्ता"
+    ],
+    [
+      "die Annoyanz",
+      "annoyance",
+      "झुंझलाहट"
+    ],
+    [
+      "die Assuranz",
+      "assurance",
+      "आश्वासन"
+    ],
+    [
+      "die Balanz",
+      "balance",
+      "संतुलन"
+    ],
+    [
+      "die Brillianz",
+      "brilliance",
+      "चमक"
+    ],
+    [
+      "die Complianz",
+      "compliance",
+      "अनुपालन"
+    ],
+    [
+      "die Defianz",
+      "defiance",
+      "अवज्ञा"
+    ],
+    [
+      "die Disturbanz",
+      "disturbance",
+      "अशांति"
+    ],
+    [
+      "die Enduranz",
+      "endurance",
+      "सहनशीलता"
+    ],
+    [
+      "die Grievanz",
+      "grievance",
+      "शिकायत"
+    ],
+    [
+      "die Guidanz",
+      "guidance",
+      "मार्गदर्शन"
+    ],
+    [
+      "die Inheritanz",
+      "inheritance",
+      "विरासत"
+    ],
+    [
+      "die Nuisanz",
+      "nuisance",
+      "उपद्रव"
+    ],
+    [
+      "die Perseveranz",
+      "perseverance",
+      "दृढ़ता"
+    ],
+    [
+      "die Relianz",
+      "reliance",
+      "भरोसा"
+    ],
+    [
+      "die Resemblanz",
+      "resemblance",
+      "समानता"
+    ],
+    [
+      "die Surveillanz",
+      "surveillance",
+      "निगरानी"
+    ],
+    [
+      "die Vengeanz",
+      "vengeance",
+      "बदला"
+    ],
+    [
+      "die Affluenz",
+      "affluence",
+      "समृद्धि"
+    ],
+    [
+      "die Benevolenz",
+      "benevolence",
+      "परोपकार"
+    ],
+    [
+      "die Circumferenz",
+      "circumference",
+      "परिधि"
+    ],
+    [
+      "die Coincidenz",
+      "coincidence",
+      "संयोग"
+    ],
+    [
+      "die Conscienz",
+      "conscience",
+      "अंतरात्मा"
+    ],
+    [
+      "die Fluorescenz",
+      "fluorescence",
+      "प्रतिदीप्ति"
+    ],
+    [
+      "die Incidenz",
+      "incidence",
+      "घटना"
+    ],
+    [
+      "die Indulgenz",
+      "indulgence",
+      "लिप्तता"
+    ],
+    [
+      "die Licenz",
+      "licence",
+      "लाइसेंस"
+    ],
+    [
+      "die Precedenz",
+      "precedence",
+      "प्राथमिकता"
+    ],
+    [
+      "die Prevalenz",
+      "prevalence",
+      "प्रचलन"
+    ],
+    [
+      "die Sentenz",
+      "sentence",
+      "वाक्य"
+    ],
+    [
+      "die Admittanz",
+      "admittance",
+      "प्रवेश"
+    ],
+    [
+      "die Arroganz",
+      "arrogance",
+      "अहंकार"
+    ],
+    [
+      "die Conductanz",
+      "conductance",
+      "चालकत्व"
+    ],
+    [
+      "die Conveyanz",
+      "conveyance",
+      "वाहन"
+    ],
+    [
+      "die Deliveranz",
+      "deliverance",
+      "मुक्ति"
+    ],
+    [
+      "die Forbearanz",
+      "forbearance",
+      "सहनशीलता"
+    ],
+    [
+      "die Furtheranz",
+      "furtherance",
+      "प्रोत्साहन"
+    ],
+    [
+      "die Hindranz",
+      "hindrance",
+      "बाधा"
+    ],
+    [
+      "die Observanz",
+      "observance",
+      "पालन"
+    ],
+    [
+      "die Reassuranz",
+      "reassurance",
+      "आश्वासन"
+    ],
+    [
+      "die Remembranz",
+      "remembrance",
+      "स्मरण"
+    ],
+    [
+      "die Repentanz",
+      "repentance",
+      "पश्चाताप"
+    ],
+    [
+      "die Riddanz",
+      "riddance",
+      "छुटकारा"
+    ],
+    [
+      "die Acquiescenz",
+      "acquiescence",
+      "सहमति"
+    ],
+    [
+      "die Coalescenz",
+      "coalescence",
+      "एकीकरण"
+    ],
+    [
+      "die Convalescenz",
+      "convalescence",
+      "स्वास्थ्य लाभ"
+    ],
+    [
+      "die Efflorescenz",
+      "efflorescence",
+      "खिलना"
+    ],
+    [
+      "die Concordanz",
+      "concordance",
+      "सहमति"
+    ],
+    [
+      "die Ordination",
+      "ordination",
+      "अभिषेक"
+    ],
+    [
+      "die Protuberanz",
+      "protuberance",
+      "उभार"
+    ],
+    [
+      "die Purveyanz",
+      "purveyance",
+      "आपूर्ति"
+    ],
+    [
+      "die Vigilanz",
+      "vigilance",
+      "सतर्कता"
+    ]
+  ],
+  "pattern_2_ism": [
+    [
+      "der Tourismus",
+      "tourism",
+      "पर्यटन"
+    ],
+    [
+      "der Capitalismus",
+      "capitalism",
+      "पूंजीवाद"
+    ],
+    [
+      "der Socialismus",
+      "socialism",
+      "समाजवाद"
+    ],
+    [
+      "der Communismus",
+      "communism",
+      "साम्यवाद"
+    ],
+    [
+      "der Realismus",
+      "realism",
+      "यथार्थवाद"
+    ],
+    [
+      "der Idealismus",
+      "idealism",
+      "आदर्शवाद"
+    ],
+    [
+      "der Nationalismus",
+      "nationalism",
+      "राष्ट्रवाद"
+    ],
+    [
+      "der Journalismus",
+      "journalism",
+      "पत्रकारिता"
+    ],
+    [
+      "der Optimismus",
+      "optimism",
+      "आशावाद"
+    ],
+    [
+      "der Pessimismus",
+      "pessimism",
+      "निराशावाद"
+    ],
+    [
+      "der Patriotismus",
+      "patriotism",
+      "देशभक्ति"
+    ],
+    [
+      "der Feminismus",
+      "feminism",
+      "नारीवाद"
+    ],
+    [
+      "der Racismus",
+      "racism",
+      "नस्लवाद"
+    ],
+    [
+      "der Terrorismus",
+      "terrorism",
+      "आतंकवाद"
+    ],
+    [
+      "der Mechanismus",
+      "mechanism",
+      "तंत्र"
+    ],
+    [
+      "der Organismus",
+      "organism",
+      "जीव"
+    ],
+    [
+      "der Buddhismus",
+      "Buddhism",
+      "बौद्ध धर्म"
+    ],
+    [
+      "der Hinduismus",
+      "Hinduism",
+      "हिंदू धर्म"
+    ],
+    [
+      "der Protestantismus",
+      "Protestantism",
+      "प्रोटेस्टेंटवाद"
+    ],
+    [
+      "der Catholicismus",
+      "Catholicism",
+      "कैथोलिकवाद"
+    ],
+    [
+      "der Liberalismus",
+      "liberalism",
+      "उदारवाद"
+    ],
+    [
+      "der Conservatismus",
+      "conservatism",
+      "रूढ़िवाद"
+    ],
+    [
+      "der Imperialismus",
+      "imperialism",
+      "साम्राज्यवाद"
+    ],
+    [
+      "der Materialismus",
+      "materialism",
+      "भौतिकवाद"
+    ],
+    [
+      "der Spiritualismus",
+      "spiritualism",
+      "अध्यात्मवाद"
+    ],
+    [
+      "der Criticismus",
+      "criticism",
+      "आलोचना"
+    ],
+    [
+      "der Skepticismus",
+      "skepticism",
+      "संदेहवाद"
+    ],
+    [
+      "der Cynicismus",
+      "cynicism",
+      "निंदकता"
+    ],
+    [
+      "der Heroismus",
+      "heroism",
+      "वीरता"
+    ],
+    [
+      "der Altruismus",
+      "altruism",
+      "परोपकार"
+    ],
+    [
+      "der Egoismus",
+      "egoism",
+      "अहंकार"
+    ],
+    [
+      "der Vandalismus",
+      "vandalism",
+      "विनाश"
+    ],
+    [
+      "der Cannibalismus",
+      "cannibalism",
+      "नरभक्षण"
+    ],
+    [
+      "der Symbolismus",
+      "symbolism",
+      "प्रतीकवाद"
+    ],
+    [
+      "der Surrealismus",
+      "surrealism",
+      "अतियथार्थवाद"
+    ],
+    [
+      "der Expressionismus",
+      "expressionism",
+      "अभिव्यक्तिवाद"
+    ],
+    [
+      "der Impressionismus",
+      "impressionism",
+      "प्रभाववाद"
+    ],
+    [
+      "der Cubismus",
+      "cubism",
+      "क्यूबिज़्म"
+    ],
+    [
+      "der Modernismus",
+      "modernism",
+      "आधुनिकता"
+    ],
+    [
+      "der Postmodernismus",
+      "postmodernism",
+      "उत्तरआधुनिकता"
+    ],
+    [
+      "der Romanticismus",
+      "romanticism",
+      "रोमांटिकता"
+    ],
+    [
+      "der Classicismus",
+      "classicism",
+      "शास्त्रीयता"
+    ],
+    [
+      "der Narcissismus",
+      "narcissism",
+      "आत्ममोह"
+    ],
+    [
+      "der Fatalismus",
+      "fatalism",
+      "भाग्यवाद"
+    ],
+    [
+      "der Determinismus",
+      "determinism",
+      "नियतिवाद"
+    ],
+    [
+      "der Empiricismus",
+      "empiricism",
+      "अनुभववाद"
+    ],
+    [
+      "der Rationalismus",
+      "rationalism",
+      "तर्कवाद"
+    ],
+    [
+      "der Humanismus",
+      "humanism",
+      "मानवतावाद"
+    ],
+    [
+      "der Colonialismus",
+      "colonialism",
+      "उपनिवेशवाद"
+    ],
+    [
+      "der Environmentalismus",
+      "environmentalism",
+      "पर्यावरणवाद"
+    ],
+    [
+      "der Vegetarianismus",
+      "vegetarianism",
+      "शाकाहार"
+    ],
+    [
+      "der Alcoholismus",
+      "alcoholism",
+      "शराबबंदी"
+    ],
+    [
+      "der Professionalismus",
+      "professionalism",
+      "व्यावसायिकता"
+    ],
+    [
+      "der Enthusiasmismus",
+      "enthusiasm",
+      "उत्साह"
+    ],
+    [
+      "der Metabolismus",
+      "metabolism",
+      "चयापचय"
+    ],
+    [
+      "der Catabolismus",
+      "catabolism",
+      "विघटन"
+    ],
+    [
+      "der Anabolismus",
+      "anabolism",
+      "उपचय"
+    ],
+    [
+      "der Embolismus",
+      "embolism",
+      "थ्रोम्बोसिस"
+    ],
+    [
+      "der Euphemismus",
+      "euphemism",
+      "प्रेयोक्ति"
+    ],
+    [
+      "der Anachronismus",
+      "anachronism",
+      "कालभ्रम"
+    ],
+    [
+      "der Solecismus",
+      "solecism",
+      "व्याकरण दोष"
+    ],
+    [
+      "der Sophismus",
+      "sophism",
+      "कुतर्क"
+    ],
+    [
+      "der Aneurysmismus",
+      "aneurysm",
+      "धमनीविस्फार"
+    ],
+    [
+      "der Abysmismus",
+      "abysm",
+      "गहराई"
+    ],
+    [
+      "der Absurdismus",
+      "absurdism",
+      "असंगतिवाद"
+    ],
+    [
+      "der Activismus",
+      "activism",
+      "सक्रियता"
+    ],
+    [
+      "der Adventurismus",
+      "adventurism",
+      "साहसिकता"
+    ],
+    [
+      "der Aestheticismus",
+      "aestheticism",
+      "सौंदर्यवाद"
+    ],
+    [
+      "der Africanismus",
+      "africanism",
+      "अफ्रीकावाद"
+    ],
+    [
+      "der Ageismus",
+      "ageism",
+      "उम्रवाद"
+    ],
+    [
+      "der Americanismus",
+      "americanism",
+      "अमेरिकावाद"
+    ],
+    [
+      "der Anarchismus",
+      "anarchism",
+      "अराजकतावाद"
+    ],
+    [
+      "der Animismus",
+      "animism",
+      "आत्मावाद"
+    ],
+    [
+      "der Antagonismus",
+      "antagonism",
+      "विरोध"
+    ],
+    [
+      "der Asceticismus",
+      "asceticism",
+      "तपस्या"
+    ],
+    [
+      "der Asianismus",
+      "asianism",
+      "एशियावाद"
+    ],
+    [
+      "der Atheismus",
+      "atheism",
+      "नास्तिकता"
+    ],
+    [
+      "der Atomismus",
+      "atomism",
+      "परमाणुवाद"
+    ],
+    [
+      "der Authoritarianismus",
+      "authoritarianism",
+      "सत्तावाद"
+    ],
+    [
+      "der Autismus",
+      "autism",
+      "ऑटिज़्म"
+    ],
+    [
+      "der Bilateralismus",
+      "bilateralism",
+      "द्विपक्षीयता"
+    ],
+    [
+      "der Bilingualismus",
+      "bilingualism",
+      "द्विभाषावाद"
+    ],
+    [
+      "der Biologismus",
+      "biologism",
+      "जीववाद"
+    ],
+    [
+      "der Bipolarismus",
+      "bipolarism",
+      "द्विध्रुवीयता"
+    ],
+    [
+      "der Botulismus",
+      "botulism",
+      "बोटुलिज़्म"
+    ],
+    [
+      "der Centralismus",
+      "centralism",
+      "केंद्रवाद"
+    ],
+    [
+      "der Chauvinismus",
+      "chauvinism",
+      "जोश"
+    ],
+    [
+      "der Collectivismus",
+      "collectivism",
+      "सामूहिकता"
+    ],
+    [
+      "der Conformismus",
+      "conformism",
+      "अनुरूपता"
+    ],
+    [
+      "der Creationismus",
+      "creationism",
+      "सृष्टिवाद"
+    ],
+    [
+      "der Credentialismus",
+      "credentialism",
+      "प्रमाणवाद"
+    ],
+    [
+      "der Cronyismus",
+      "cronyism",
+      "भाई-भतीजावाद"
+    ],
+    [
+      "der Darwinismus",
+      "darwinism",
+      "डार्विनवाद"
+    ],
+    [
+      "der Despotismus",
+      "despotism",
+      "तानाशाही"
+    ],
+    [
+      "der Dogmatismus",
+      "dogmatism",
+      "कट्टरता"
+    ],
+    [
+      "der Dualismus",
+      "dualism",
+      "द्वैतवाद"
+    ],
+    [
+      "der Egalitarianismus",
+      "egalitarianism",
+      "समतावाद"
+    ],
+    [
+      "der Elitismus",
+      "elitism",
+      "कुलीनतावाद"
+    ],
+    [
+      "der Emotionalismus",
+      "emotionalism",
+      "भावुकता"
+    ],
+    [
+      "der Escapismus",
+      "escapism",
+      "पलायनवाद"
+    ],
+    [
+      "der Ethnocentrismus",
+      "ethnocentrism",
+      "नस्ल केंद्रित"
+    ],
+    [
+      "der Eurocentrismus",
+      "eurocentrism",
+      "यूरोकेंद्रवाद"
+    ],
+    [
+      "der Existentialismus",
+      "existentialism",
+      "अस्तित्ववाद"
+    ],
+    [
+      "der Expansionismus",
+      "expansionism",
+      "विस्तारवाद"
+    ],
+    [
+      "der Extremismus",
+      "extremism",
+      "चरमपंथ"
+    ],
+    [
+      "der Fanaticismus",
+      "fanaticism",
+      "कट्टरता"
+    ],
+    [
+      "der Feudalismus",
+      "feudalism",
+      "सामंतवाद"
+    ],
+    [
+      "der Formalismus",
+      "formalism",
+      "औपचारिकता"
+    ],
+    [
+      "der Functionalismus",
+      "functionalism",
+      "कार्यात्मकता"
+    ],
+    [
+      "der Fundamentalismus",
+      "fundamentalism",
+      "कट्टरवाद"
+    ],
+    [
+      "der Globalismus",
+      "globalism",
+      "वैश्विकता"
+    ],
+    [
+      "der Hedonismus",
+      "hedonism",
+      "सुखवाद"
+    ],
+    [
+      "der Holismus",
+      "holism",
+      "समग्रवाद"
+    ],
+    [
+      "der Hypnotismus",
+      "hypnotism",
+      "सम्मोहन"
+    ],
+    [
+      "der Individualismus",
+      "individualism",
+      "व्यक्तिवाद"
+    ],
+    [
+      "der Industrialismus",
+      "industrialism",
+      "औद्योगिकता"
+    ],
+    [
+      "der Intellectualismus",
+      "intellectualism",
+      "बौद्धिकता"
+    ],
+    [
+      "der Interactionismus",
+      "interactionism",
+      "अंतर्क्रियावाद"
+    ],
+    [
+      "der Internationalismus",
+      "internationalism",
+      "अंतर्राष्ट्रवाद"
+    ],
+    [
+      "der Interventionismus",
+      "interventionism",
+      "हस्तक्षेपवाद"
+    ],
+    [
+      "der Isolationismus",
+      "isolationism",
+      "अलगाववाद"
+    ],
+    [
+      "der Legalismus",
+      "legalism",
+      "कानूनवाद"
+    ],
+    [
+      "der Leninismus",
+      "leninism",
+      "लेनिनवाद"
+    ],
+    [
+      "der Literalismus",
+      "literalism",
+      "शाब्दिकता"
+    ],
+    [
+      "der Magnetismus",
+      "magnetism",
+      "चुंबकत्व"
+    ],
+    [
+      "der Malapropismus",
+      "malapropism",
+      "गलत शब्द प्रयोग"
+    ],
+    [
+      "der Mannerismus",
+      "mannerism",
+      "शैली"
+    ],
+    [
+      "der Marxismus",
+      "marxism",
+      "मार्क्सवाद"
+    ],
+    [
+      "der Maximalismus",
+      "maximalism",
+      "अधिकतमवाद"
+    ],
+    [
+      "der Meliorismus",
+      "meliorism",
+      "सुधारवाद"
+    ],
+    [
+      "der Mentalismus",
+      "mentalism",
+      "मानसिकता"
+    ],
+    [
+      "der Minimalismus",
+      "minimalism",
+      "न्यूनतमवाद"
+    ],
+    [
+      "der Monetarismus",
+      "monetarism",
+      "मुद्रावाद"
+    ],
+    [
+      "der Moralismus",
+      "moralism",
+      "नैतिकता"
+    ],
+    [
+      "der Multilateralismus",
+      "multilateralism",
+      "बहुपक्षीयता"
+    ],
+    [
+      "der Mysticismus",
+      "mysticism",
+      "रहस्यवाद"
+    ],
+    [
+      "der Naturalismus",
+      "naturalism",
+      "प्रकृतिवाद"
+    ],
+    [
+      "der Nihilismus",
+      "nihilism",
+      "निराशावाद"
+    ],
+    [
+      "der Nominalismus",
+      "nominalism",
+      "नामवाद"
+    ],
+    [
+      "der Opportunismus",
+      "opportunism",
+      "अवसरवाद"
+    ],
+    [
+      "der Orientalismus",
+      "orientalism",
+      "पूर्ववाद"
+    ],
+    [
+      "der Pacifismus",
+      "pacifism",
+      "शांतिवाद"
+    ],
+    [
+      "der Paganismus",
+      "paganism",
+      "बहुदेववाद"
+    ],
+    [
+      "der Particularismus",
+      "particularism",
+      "विशेषवाद"
+    ],
+    [
+      "der Paternalismus",
+      "paternalism",
+      "पितृसत्तात्मकता"
+    ],
+    [
+      "der Perfectionismus",
+      "perfectionism",
+      "पूर्णतावाद"
+    ],
+    [
+      "der Pluralismus",
+      "pluralism",
+      "बहुलवाद"
+    ],
+    [
+      "der Populismus",
+      "populism",
+      "लोकलुभावनवाद"
+    ],
+    [
+      "der Pragmatismus",
+      "pragmatism",
+      "व्यावहारिकता"
+    ],
+    [
+      "der Progressivismus",
+      "progressivism",
+      "प्रगतिवाद"
+    ],
+    [
+      "der Protectionismus",
+      "protectionism",
+      "संरक्षणवाद"
+    ],
+    [
+      "der Puritanismus",
+      "puritanism",
+      "शुद्धतावाद"
+    ],
+    [
+      "der Radicalismus",
+      "radicalism",
+      "कट्टरवाद"
+    ],
+    [
+      "der Regionalismus",
+      "regionalism",
+      "क्षेत्रवाद"
+    ],
+    [
+      "der Relativismus",
+      "relativism",
+      "सापेक्षवाद"
+    ],
+    [
+      "der Sadismus",
+      "sadism",
+      "सैडिज़्म"
+    ],
+    [
+      "der Scientismus",
+      "scientism",
+      "विज्ञानवाद"
+    ],
+    [
+      "der Sectarianismus",
+      "sectarianism",
+      "संप्रदायवाद"
+    ],
+    [
+      "der Secularismus",
+      "secularism",
+      "धर्मनिरपेक्षता"
+    ],
+    [
+      "der Sensationalismus",
+      "sensationalism",
+      "संवेदनावाद"
+    ],
+    [
+      "der Sexismus",
+      "sexism",
+      "लिंगवाद"
+    ],
+    [
+      "der Shamanismus",
+      "shamanism",
+      "शैमनवाद"
+    ],
+    [
+      "der Specialismus",
+      "specialism",
+      "विशेषज्ञता"
+    ],
+    [
+      "der Statismus",
+      "statism",
+      "राज्यवाद"
+    ],
+    [
+      "der Structuralismus",
+      "structuralism",
+      "संरचनावाद"
+    ],
+    [
+      "der Subjectivismus",
+      "subjectivism",
+      "व्यक्तिपरकता"
+    ],
+    [
+      "der Synergismus",
+      "synergism",
+      "सहक्रियावाद"
+    ],
+    [
+      "der Totalitarianismus",
+      "totalitarianism",
+      "सर्वाधिकारवाद"
+    ],
+    [
+      "der Tribalismus",
+      "tribalism",
+      "जनजातिवाद"
+    ],
+    [
+      "der Triumphalismus",
+      "triumphalism",
+      "विजयवाद"
+    ],
+    [
+      "der Unionismus",
+      "unionism",
+      "संघवाद"
+    ],
+    [
+      "der Universalismus",
+      "universalism",
+      "सार्वभौमिकता"
+    ],
+    [
+      "der Urbanismus",
+      "urbanism",
+      "शहरीकरण"
+    ],
+    [
+      "der Utilitarianismus",
+      "utilitarianism",
+      "उपयोगितावाद"
+    ],
+    [
+      "der Veganismus",
+      "veganism",
+      "शाकाहार"
+    ],
+    [
+      "der Vitalismus",
+      "vitalism",
+      "जीवनवाद"
+    ],
+    [
+      "der Voluntarismus",
+      "voluntarism",
+      "स्वैच्छिकता"
+    ],
+    [
+      "der Voyeurismus",
+      "voyeurism",
+      "दृष्टि काम"
+    ],
+    [
+      "der Vulgarismus",
+      "vulgarism",
+      "अश्लीलता"
+    ],
+    [
+      "der Absolutismus",
+      "absolutism",
+      "निरंकुशता"
+    ],
+    [
+      "der Astigmatismus",
+      "astigmatism",
+      "दृष्टि दोष"
+    ],
+    [
+      "der Barbarismus",
+      "barbarism",
+      "बर्बरता"
+    ],
+    [
+      "der Commercialismus",
+      "commercialism",
+      "व्यावसायिकता"
+    ],
+    [
+      "der Consumerismus",
+      "consumerism",
+      "उपभोक्तावाद"
+    ],
+    [
+      "der Corporatismus",
+      "corporatism",
+      "निगमवाद"
+    ],
+    [
+      "der Dynamismus",
+      "dynamism",
+      "गतिशीलता"
+    ],
+    [
+      "der Evangelismus",
+      "evangelism",
+      "प्रचार"
+    ],
+    [
+      "der Exceptionalismus",
+      "exceptionalism",
+      "विशिष्टता"
+    ],
+    [
+      "der Jingoismus",
+      "jingoism",
+      "कट्टर राष्ट्रवाद"
+    ],
+    [
+      "der Objectivismus",
+      "objectivism",
+      "वस्तुवाद"
+    ],
+    [
+      "der Zealotismus",
+      "zealotism",
+      "कट्टरता"
+    ]
+  ],
+  "pattern_3_sion_tion": [
+    [
+      "die Action",
+      "action",
+      "कार्रवाई"
+    ],
+    [
+      "die Nation",
+      "nation",
+      "राष्ट्र"
+    ],
+    [
+      "die Tradition",
+      "tradition",
+      "परंपरा"
+    ],
+    [
+      "die Position",
+      "position",
+      "स्थिति"
+    ],
+    [
+      "die Information",
+      "information",
+      "जानकारी"
+    ],
+    [
+      "die Situation",
+      "situation",
+      "स्थिति"
+    ],
+    [
+      "die Operation",
+      "operation",
+      "ऑपरेशन"
+    ],
+    [
+      "die Conversation",
+      "conversation",
+      "बातचीत"
+    ],
+    [
+      "die Constitution",
+      "constitution",
+      "संविधान"
+    ],
+    [
+      "die Revolution",
+      "revolution",
+      "क्रांति"
+    ],
+    [
+      "die Evolution",
+      "evolution",
+      "विकास"
+    ],
+    [
+      "die Resolution",
+      "resolution",
+      "संकल्प"
+    ],
+    [
+      "die Production",
+      "production",
+      "उत्पादन"
+    ],
+    [
+      "die Reduction",
+      "reduction",
+      "कमी"
+    ],
+    [
+      "die Construction",
+      "construction",
+      "निर्माण"
+    ],
+    [
+      "die Instruction",
+      "instruction",
+      "निर्देश"
+    ],
+    [
+      "die Confusion",
+      "confusion",
+      "भ्रम"
+    ],
+    [
+      "die Illusion",
+      "illusion",
+      "भ्रम"
+    ],
+    [
+      "die Discussion",
+      "discussion",
+      "चर्चा"
+    ],
+    [
+      "die Mission",
+      "mission",
+      "मिशन"
+    ],
+    [
+      "die Passion",
+      "passion",
+      "जुनून"
+    ],
+    [
+      "die Session",
+      "session",
+      "सत्र"
+    ],
+    [
+      "die Version",
+      "version",
+      "संस्करण"
+    ],
+    [
+      "die Dimension",
+      "dimension",
+      "आयाम"
+    ],
+    [
+      "die Pension",
+      "pension",
+      "पेंशन"
+    ],
+    [
+      "die Profession",
+      "profession",
+      "पेशा"
+    ],
+    [
+      "die Expression",
+      "expression",
+      "अभिव्यक्ति"
+    ],
+    [
+      "die Impression",
+      "impression",
+      "छाप"
+    ],
+    [
+      "die Concession",
+      "concession",
+      "रियायत"
+    ],
+    [
+      "die Lesson",
+      "lesson",
+      "पाठ"
+    ],
+    [
+      "die Addition",
+      "addition",
+      "जोड़"
+    ],
+    [
+      "die Edition",
+      "edition",
+      "संस्करण"
+    ],
+    [
+      "die Condition",
+      "condition",
+      "स्थिति"
+    ],
+    [
+      "die Competition",
+      "competition",
+      "प्रतिस्पर्धा"
+    ],
+    [
+      "die Repetition",
+      "repetition",
+      "दोहराव"
+    ],
+    [
+      "die Petition",
+      "petition",
+      "याचिका"
+    ],
+    [
+      "die Recognition",
+      "recognition",
+      "मान्यता"
+    ],
+    [
+      "die Definition",
+      "definition",
+      "परिभाषा"
+    ],
+    [
+      "die Determination",
+      "determination",
+      "निर्धारण"
+    ],
+    [
+      "die Examination",
+      "examination",
+      "परीक्षा"
+    ],
+    [
+      "die Imagination",
+      "imagination",
+      "कल्पना"
+    ],
+    [
+      "die Explanation",
+      "explanation",
+      "व्याख्या"
+    ],
+    [
+      "die Organization",
+      "organization",
+      "संगठन"
+    ],
+    [
+      "die Civilization",
+      "civilization",
+      "सभ्यता"
+    ],
+    [
+      "die Communication",
+      "communication",
+      "संचार"
+    ],
+    [
+      "die Application",
+      "application",
+      "आवेदन"
+    ],
+    [
+      "die Relation",
+      "relation",
+      "संबंध"
+    ],
+    [
+      "die Population",
+      "population",
+      "जनसंख्या"
+    ],
+    [
+      "die Education",
+      "education",
+      "शिक्षा"
+    ],
+    [
+      "die Location",
+      "location",
+      "स्थान"
+    ],
+    [
+      "die Vacation",
+      "vacation",
+      "छुट्टी"
+    ],
+    [
+      "die Creation",
+      "creation",
+      "रचना"
+    ],
+    [
+      "die Foundation",
+      "foundation",
+      "नींव"
+    ],
+    [
+      "die Donation",
+      "donation",
+      "दान"
+    ],
+    [
+      "die Celebration",
+      "celebration",
+      "उत्सव"
+    ],
+    [
+      "die Preparation",
+      "preparation",
+      "तैयारी"
+    ],
+    [
+      "die Declaration",
+      "declaration",
+      "घोषणा"
+    ],
+    [
+      "die Consideration",
+      "consideration",
+      "विचार"
+    ],
+    [
+      "die Observation",
+      "observation",
+      "अवलोकन"
+    ],
+    [
+      "die Conservation",
+      "conservation",
+      "संरक्षण"
+    ],
+    [
+      "die Reservation",
+      "reservation",
+      "आरक्षण"
+    ],
+    [
+      "die Innovation",
+      "innovation",
+      "नवाचार"
+    ],
+    [
+      "die Motivation",
+      "motivation",
+      "प्रेरणा"
+    ],
+    [
+      "die Elevation",
+      "elevation",
+      "ऊंचाई"
+    ],
+    [
+      "die Evaluation",
+      "evaluation",
+      "मूल्यांकन"
+    ],
+    [
+      "die Variation",
+      "variation",
+      "विविधता"
+    ],
+    [
+      "die Association",
+      "association",
+      "संघ"
+    ],
+    [
+      "die Negotiation",
+      "negotiation",
+      "बातचीत"
+    ],
+    [
+      "die Mediation",
+      "mediation",
+      "मध्यस्थता"
+    ],
+    [
+      "die Radiation",
+      "radiation",
+      "विकिरण"
+    ],
+    [
+      "die Graduation",
+      "graduation",
+      "स्नातक"
+    ],
+    [
+      "die Equation",
+      "equation",
+      "समीकरण"
+    ],
+    [
+      "die Quotation",
+      "quotation",
+      "उद्धरण"
+    ],
+    [
+      "die Rotation",
+      "rotation",
+      "घूर्णन"
+    ],
+    [
+      "die Migration",
+      "migration",
+      "प्रवास"
+    ],
+    [
+      "die Integration",
+      "integration",
+      "एकीकरण"
+    ],
+    [
+      "die Segregation",
+      "segregation",
+      "अलगाव"
+    ],
+    [
+      "die Investigation",
+      "investigation",
+      "जांच"
+    ],
+    [
+      "die Legislation",
+      "legislation",
+      "कानून"
+    ],
+    [
+      "die Regulation",
+      "regulation",
+      "नियमन"
+    ],
+    [
+      "die Calculation",
+      "calculation",
+      "गणना"
+    ],
+    [
+      "die Formulation",
+      "formulation",
+      "सूत्रीकरण"
+    ],
+    [
+      "die Accumulation",
+      "accumulation",
+      "संचय"
+    ],
+    [
+      "die Simulation",
+      "simulation",
+      "सिमुलेशन"
+    ],
+    [
+      "die Manipulation",
+      "manipulation",
+      "हेराफेरी"
+    ],
+    [
+      "die Circulation",
+      "circulation",
+      "संचलन"
+    ],
+    [
+      "die Inflation",
+      "inflation",
+      "मुद्रास्फीति"
+    ],
+    [
+      "die Installation",
+      "installation",
+      "स्थापना"
+    ],
+    [
+      "die Violation",
+      "violation",
+      "उल्लंघन"
+    ],
+    [
+      "die Isolation",
+      "isolation",
+      "अलगाव"
+    ],
+    [
+      "die Contamination",
+      "contamination",
+      "दूषण"
+    ],
+    [
+      "die Elimination",
+      "elimination",
+      "उन्मूलन"
+    ],
+    [
+      "die Destination",
+      "destination",
+      "गंतव्य"
+    ],
+    [
+      "die Designation",
+      "designation",
+      "पदनाम"
+    ],
+    [
+      "die Resignation",
+      "resignation",
+      "इस्तीफा"
+    ],
+    [
+      "die Inclination",
+      "inclination",
+      "झुकाव"
+    ],
+    [
+      "die Ordination",
+      "ordination",
+      "अभिषेक"
+    ],
+    [
+      "die Fascination",
+      "fascination",
+      "मोह"
+    ],
+    [
+      "die Continuation",
+      "continuation",
+      "निरंतरता"
+    ],
+    [
+      "die Attention",
+      "attention",
+      "ध्यान"
+    ],
+    [
+      "die Intention",
+      "intention",
+      "इरादा"
+    ],
+    [
+      "die Convention",
+      "convention",
+      "सम्मेलन"
+    ],
+    [
+      "die Invention",
+      "invention",
+      "आविष्कार"
+    ],
+    [
+      "die Prevention",
+      "prevention",
+      "रोकथाम"
+    ],
+    [
+      "die Intervention",
+      "intervention",
+      "हस्तक्षेप"
+    ],
+    [
+      "die Tension",
+      "tension",
+      "तनाव"
+    ],
+    [
+      "die Extension",
+      "extension",
+      "विस्तार"
+    ],
+    [
+      "die Comprehension",
+      "comprehension",
+      "समझ"
+    ],
+    [
+      "die Apprehension",
+      "apprehension",
+      "आशंका"
+    ],
+    [
+      "die Suspension",
+      "suspension",
+      "निलंबन"
+    ],
+    [
+      "die Expansion",
+      "expansion",
+      "विस्तार"
+    ],
+    [
+      "die Conversion",
+      "conversion",
+      "रूपांतरण"
+    ],
+    [
+      "die Diversion",
+      "diversion",
+      "विचलन"
+    ],
+    [
+      "die Subversion",
+      "subversion",
+      "विध्वंस"
+    ],
+    [
+      "die Reversion",
+      "reversion",
+      "वापसी"
+    ],
+    [
+      "die Aversion",
+      "aversion",
+      "घृणा"
+    ],
+    [
+      "die Immersion",
+      "immersion",
+      "डुबकी"
+    ],
+    [
+      "die Dispersion",
+      "dispersion",
+      "फैलाव"
+    ],
+    [
+      "die Aspersion",
+      "aspersion",
+      "बदनामी"
+    ],
+    [
+      "die Emersion",
+      "emersion",
+      "उभरना"
+    ],
+    [
+      "die Abbreviation",
+      "abbreviation",
+      "संक्षिप्ति"
+    ],
+    [
+      "die Absorption",
+      "absorption",
+      "अवशोषण"
+    ],
+    [
+      "die Abstraction",
+      "abstraction",
+      "अमूर्तता"
+    ],
+    [
+      "die Acceleration",
+      "acceleration",
+      "त्वरण"
+    ],
+    [
+      "die Accommodation",
+      "accommodation",
+      "आवास"
+    ],
+    [
+      "die Accompaniment",
+      "accompaniment",
+      "संगत"
+    ],
+    [
+      "die Accusation",
+      "accusation",
+      "आरोप"
+    ],
+    [
+      "die Activation",
+      "activation",
+      "सक्रियण"
+    ],
+    [
+      "die Adaptation",
+      "adaptation",
+      "अनुकूलन"
+    ],
+    [
+      "die Admiration",
+      "admiration",
+      "प्रशंसा"
+    ],
+    [
+      "die Adoption",
+      "adoption",
+      "गोद लेना"
+    ],
+    [
+      "die Affection",
+      "affection",
+      "स्नेह"
+    ],
+    [
+      "die Affiliation",
+      "affiliation",
+      "संबंध"
+    ],
+    [
+      "die Affirmation",
+      "affirmation",
+      "पुष्टि"
+    ],
+    [
+      "die Aggregation",
+      "aggregation",
+      "समुच्चय"
+    ],
+    [
+      "die Aggression",
+      "aggression",
+      "आक्रामकता"
+    ],
+    [
+      "die Agitation",
+      "agitation",
+      "उत्तेजना"
+    ],
+    [
+      "die Allocation",
+      "allocation",
+      "आवंटन"
+    ],
+    [
+      "die Alteration",
+      "alteration",
+      "परिवर्तन"
+    ],
+    [
+      "die Alternation",
+      "alternation",
+      "बारी"
+    ],
+    [
+      "die Amplification",
+      "amplification",
+      "प्रवर्धन"
+    ],
+    [
+      "die Animation",
+      "animation",
+      "एनिमेशन"
+    ],
+    [
+      "die Annexation",
+      "annexation",
+      "अधिग्रहण"
+    ],
+    [
+      "die Anticipation",
+      "anticipation",
+      "प्रत्याशा"
+    ],
+    [
+      "die Appreciation",
+      "appreciation",
+      "सराहना"
+    ],
+    [
+      "die Appropriation",
+      "appropriation",
+      "विनियोग"
+    ],
+    [
+      "die Arbitration",
+      "arbitration",
+      "मध्यस्थता"
+    ],
+    [
+      "die Articulation",
+      "articulation",
+      "उच्चारण"
+    ],
+    [
+      "die Aspiration",
+      "aspiration",
+      "आकांक्षा"
+    ],
+    [
+      "die Assassination",
+      "assassination",
+      "हत्या"
+    ],
+    [
+      "die Assimilation",
+      "assimilation",
+      "आत्मसात"
+    ],
+    [
+      "die Assumption",
+      "assumption",
+      "धारणा"
+    ],
+    [
+      "die Attachment",
+      "attachment",
+      "लगाव"
+    ],
+    [
+      "die Attainment",
+      "attainment",
+      "प्राप्ति"
+    ],
+    [
+      "die Attribution",
+      "attribution",
+      "आरोपण"
+    ],
+    [
+      "die Authentication",
+      "authentication",
+      "प्रमाणीकरण"
+    ],
+    [
+      "die Authorization",
+      "authorization",
+      "अधिकार"
+    ],
+    [
+      "die Automation",
+      "automation",
+      "स्वचालन"
+    ],
+    [
+      "die Calibration",
+      "calibration",
+      "अंशांकन"
+    ],
+    [
+      "die Cancellation",
+      "cancellation",
+      "रद्दीकरण"
+    ],
+    [
+      "die Cultivation",
+      "cultivation",
+      "खेती"
+    ],
+    [
+      "die Classification",
+      "classification",
+      "वर्गीकरण"
+    ],
+    [
+      "die Collaboration",
+      "collaboration",
+      "सहयोग"
+    ],
+    [
+      "die Collection",
+      "collection",
+      "संग्रह"
+    ],
+    [
+      "die Collision",
+      "collision",
+      "टक्कर"
+    ],
+    [
+      "die Combination",
+      "combination",
+      "संयोजन"
+    ],
+    [
+      "die Combustion",
+      "combustion",
+      "दहन"
+    ],
+    [
+      "die Commendation",
+      "commendation",
+      "प्रशंसा"
+    ],
+    [
+      "die Commentary",
+      "commentary",
+      "टिप्पणी"
+    ],
+    [
+      "die Commission",
+      "commission",
+      "आयोग"
+    ],
+    [
+      "die Compensation",
+      "compensation",
+      "क्षतिपूर्ति"
+    ],
+    [
+      "die Compilation",
+      "compilation",
+      "संकलन"
+    ],
+    [
+      "die Completion",
+      "completion",
+      "पूर्णता"
+    ],
+    [
+      "die Complication",
+      "complication",
+      "जटिलता"
+    ],
+    [
+      "die Composition",
+      "composition",
+      "रचना"
+    ],
+    [
+      "die Compression",
+      "compression",
+      "संपीड़न"
+    ],
+    [
+      "die Computation",
+      "computation",
+      "गणना"
+    ],
+    [
+      "die Concentration",
+      "concentration",
+      "एकाग्रता"
+    ],
+    [
+      "die Conception",
+      "conception",
+      "धारणा"
+    ],
+    [
+      "die Conclusion",
+      "conclusion",
+      "निष्कर्ष"
+    ],
+    [
+      "die Condemnation",
+      "condemnation",
+      "निंदा"
+    ],
+    [
+      "die Conditioning",
+      "conditioning",
+      "अनुकूलन"
+    ],
+    [
+      "die Conduction",
+      "conduction",
+      "चालन"
+    ],
+    [
+      "die Confirmation",
+      "confirmation",
+      "पुष्टि"
+    ],
+    [
+      "die Confrontation",
+      "confrontation",
+      "टकराव"
+    ],
+    [
+      "die Congestion",
+      "congestion",
+      "भीड़"
+    ],
+    [
+      "die Conjunction",
+      "conjunction",
+      "संयोजन"
+    ],
+    [
+      "die Connection",
+      "connection",
+      "संबंध"
+    ],
+    [
+      "die Conquest",
+      "conquest",
+      "विजय"
+    ],
+    [
+      "die Conscience",
+      "conscience",
+      "अंतरात्मा"
+    ],
+    [
+      "die Consciousness",
+      "consciousness",
+      "चेतना"
+    ],
+    [
+      "die Consequence",
+      "consequence",
+      "परिणाम"
+    ],
+    [
+      "die Consolidation",
+      "consolidation",
+      "समेकन"
+    ],
+    [
+      "die Conspiracy",
+      "conspiracy",
+      "षड्यंत्र"
+    ],
+    [
+      "die Consultation",
+      "consultation",
+      "परामर्श"
+    ],
+    [
+      "die Consumption",
+      "consumption",
+      "उपभोग"
+    ],
+    [
+      "die Contemplation",
+      "contemplation",
+      "चिंतन"
+    ],
+    [
+      "die Contention",
+      "contention",
+      "विवाद"
+    ],
+    [
+      "die Contraction",
+      "contraction",
+      "संकुचन"
+    ],
+    [
+      "die Contribution",
+      "contribution",
+      "योगदान"
+    ],
+    [
+      "die Conviction",
+      "conviction",
+      "दोषसिद्धि"
+    ],
+    [
+      "die Coordination",
+      "coordination",
+      "समन्वय"
+    ],
+    [
+      "die Corporation",
+      "corporation",
+      "निगम"
+    ],
+    [
+      "die Correction",
+      "correction",
+      "सुधार"
+    ],
+    [
+      "die Correlation",
+      "correlation",
+      "सहसंबंध"
+    ],
+    [
+      "die Corruption",
+      "corruption",
+      "भ्रष्टाचार"
+    ],
+    [
+      "die Deduction",
+      "deduction",
+      "कटौती"
+    ],
+    [
+      "die Delegation",
+      "delegation",
+      "प्रतिनिधिमंडल"
+    ],
+    [
+      "die Deliberation",
+      "deliberation",
+      "विचार"
+    ],
+    [
+      "die Delivery",
+      "delivery",
+      "वितरण"
+    ],
+    [
+      "die Demonstration",
+      "demonstration",
+      "प्रदर्शन"
+    ],
+    [
+      "die Denomination",
+      "denomination",
+      "संप्रदाय"
+    ],
+    [
+      "die Description",
+      "description",
+      "वर्णन"
+    ],
+    [
+      "die Destruction",
+      "destruction",
+      "विनाश"
+    ],
+    [
+      "die Detection",
+      "detection",
+      "पता लगाना"
+    ],
+    [
+      "die Deviation",
+      "deviation",
+      "विचलन"
+    ],
+    [
+      "die Digestion",
+      "digestion",
+      "पाचन"
+    ],
+    [
+      "die Direction",
+      "direction",
+      "दिशा"
+    ],
+    [
+      "die Disposition",
+      "disposition",
+      "प्रवृत्ति"
+    ],
+    [
+      "die Distribution",
+      "distribution",
+      "वितरण"
+    ],
+    [
+      "die Documentation",
+      "documentation",
+      "दस्तावेज़ीकरण"
+    ],
+    [
+      "die Domination",
+      "domination",
+      "वर्चस्व"
+    ],
+    [
+      "die Duration",
+      "duration",
+      "अवधि"
+    ],
+    [
+      "die Emotion",
+      "emotion",
+      "भावना"
+    ],
+    [
+      "die Encryption",
+      "encryption",
+      "एन्क्रिप्शन"
+    ],
+    [
+      "die Erosion",
+      "erosion",
+      "कटाव"
+    ],
+    [
+      "die Exception",
+      "exception",
+      "अपवाद"
+    ],
+    [
+      "die Exclamation",
+      "exclamation",
+      "विस्मयादिबोधक"
+    ],
+    [
+      "die Execution",
+      "execution",
+      "निष्पादन"
+    ],
+    [
+      "die Exhibition",
+      "exhibition",
+      "प्रदर्शनी"
+    ],
+    [
+      "die Expectation",
+      "expectation",
+      "उम्मीद"
+    ],
+    [
+      "die Expedition",
+      "expedition",
+      "अभियान"
+    ],
+    [
+      "die Experimentation",
+      "experimentation",
+      "प्रयोग"
+    ],
+    [
+      "die Exploration",
+      "exploration",
+      "अन्वेषण"
+    ],
+    [
+      "die Explosion",
+      "explosion",
+      "विस्फोट"
+    ],
+    [
+      "die Fabrication",
+      "fabrication",
+      "निर्माण"
+    ],
+    [
+      "die Federation",
+      "federation",
+      "संघ"
+    ],
+    [
+      "die Fermentation",
+      "fermentation",
+      "किण्वन"
+    ],
+    [
+      "die Filtration",
+      "filtration",
+      "छानना"
+    ],
+    [
+      "die Fixation",
+      "fixation",
+      "स्थिरीकरण"
+    ],
+    [
+      "die Formation",
+      "formation",
+      "निर्माण"
+    ],
+    [
+      "die Fragmentation",
+      "fragmentation",
+      "विखंडन"
+    ],
+    [
+      "die Generation",
+      "generation",
+      "पीढ़ी"
+    ],
+    [
+      "die Germination",
+      "germination",
+      "अंकुरण"
+    ],
+    [
+      "die Gratification",
+      "gratification",
+      "संतुष्टि"
+    ],
+    [
+      "die Gravitation",
+      "gravitation",
+      "गुरुत्व"
+    ],
+    [
+      "die Identification",
+      "identification",
+      "पहचान"
+    ],
+    [
+      "die Imitation",
+      "imitation",
+      "नकल"
+    ],
+    [
+      "die Immigration",
+      "immigration",
+      "आप्रवास"
+    ],
+    [
+      "die Implementation",
+      "implementation",
+      "कार्यान्वयन"
+    ],
+    [
+      "die Implication",
+      "implication",
+      "निहितार्थ"
+    ],
+    [
+      "die Imposition",
+      "imposition",
+      "थोपना"
+    ],
+    [
+      "die Improvisation",
+      "improvisation",
+      "तात्कालिकता"
+    ],
+    [
+      "die Incorporation",
+      "incorporation",
+      "निगमन"
+    ],
+    [
+      "die Indication",
+      "indication",
+      "संकेत"
+    ],
+    [
+      "die Infection",
+      "infection",
+      "संक्रमण"
+    ],
+    [
+      "die Inspiration",
+      "inspiration",
+      "प्रेरणा"
+    ],
+    [
+      "die Institution",
+      "institution",
+      "संस्थान"
+    ],
+    [
+      "die Interaction",
+      "interaction",
+      "पारस्परिक क्रिया"
+    ],
+    [
+      "die Interpretation",
+      "interpretation",
+      "व्याख्या"
+    ],
+    [
+      "die Interrogation",
+      "interrogation",
+      "पूछताछ"
+    ],
+    [
+      "die Introduction",
+      "introduction",
+      "परिचय"
+    ],
+    [
+      "die Intuition",
+      "intuition",
+      "अंतर्ज्ञान"
+    ],
+    [
+      "die Invitation",
+      "invitation",
+      "निमंत्रण"
+    ],
+    [
+      "die Irrigation",
+      "irrigation",
+      "सिंचाई"
+    ],
+    [
+      "die Iteration",
+      "iteration",
+      "पुनरावृत्ति"
+    ],
+    [
+      "die Justification",
+      "justification",
+      "औचित्य"
+    ],
+    [
+      "die Liberation",
+      "liberation",
+      "मुक्ति"
+    ],
+    [
+      "die Limitation",
+      "limitation",
+      "सीमा"
+    ],
+    [
+      "die Liquidation",
+      "liquidation",
+      "परिसमापन"
+    ],
+    [
+      "die Magnification",
+      "magnification",
+      "आवर्धन"
+    ],
+    [
+      "die Manifestation",
+      "manifestation",
+      "अभिव्यक्ति"
+    ],
+    [
+      "die Modification",
+      "modification",
+      "संशोधन"
+    ],
+    [
+      "die Multiplication",
+      "multiplication",
+      "गुणा"
+    ],
+    [
+      "die Narration",
+      "narration",
+      "कथन"
+    ],
+    [
+      "die Navigation",
+      "navigation",
+      "नौवहन"
+    ],
+    [
+      "die Nomination",
+      "nomination",
+      "नामांकन"
+    ],
+    [
+      "die Notification",
+      "notification",
+      "सूचना"
+    ],
+    [
+      "die Nutrition",
+      "nutrition",
+      "पोषण"
+    ],
+    [
+      "die Obligation",
+      "obligation",
+      "दायित्व"
+    ],
+    [
+      "die Opposition",
+      "opposition",
+      "विरोध"
+    ],
+    [
+      "die Optimization",
+      "optimization",
+      "अनुकूलन"
+    ],
+    [
+      "die Option",
+      "option",
+      "विकल्प"
+    ],
+    [
+      "die Orientation",
+      "orientation",
+      "अभिविन्यास"
+    ],
+    [
+      "die Oscillation",
+      "oscillation",
+      "दोलन"
+    ],
+    [
+      "die Participation",
+      "participation",
+      "भागीदारी"
+    ],
+    [
+      "die Partition",
+      "partition",
+      "विभाजन"
+    ],
+    [
+      "die Perception",
+      "perception",
+      "धारणा"
+    ],
+    [
+      "die Perfection",
+      "perfection",
+      "पूर्णता"
+    ],
+    [
+      "die Permission",
+      "permission",
+      "अनुमति"
+    ],
+    [
+      "die Permutation",
+      "permutation",
+      "क्रमचय"
+    ],
+    [
+      "die Persecution",
+      "persecution",
+      "उत्पीड़न"
+    ],
+    [
+      "die Perspiration",
+      "perspiration",
+      "पसीना"
+    ],
+    [
+      "die Persuasion",
+      "persuasion",
+      "समझाना"
+    ],
+    [
+      "die Perturbation",
+      "perturbation",
+      "विक्षोभ"
+    ],
+    [
+      "die Plantation",
+      "plantation",
+      "बागान"
+    ],
+    [
+      "die Polarization",
+      "polarization",
+      "ध्रुवीकरण"
+    ],
+    [
+      "die Pollination",
+      "pollination",
+      "परागण"
+    ],
+    [
+      "die Preservation",
+      "preservation",
+      "संरक्षण"
+    ],
+    [
+      "die Presentation",
+      "presentation",
+      "प्रस्तुति"
+    ],
+    [
+      "die Projection",
+      "projection",
+      "प्रक्षेपण"
+    ],
+    [
+      "die Proliferation",
+      "proliferation",
+      "प्रसार"
+    ],
+    [
+      "die Promotion",
+      "promotion",
+      "पदोन्नति"
+    ],
+    [
+      "die Propagation",
+      "propagation",
+      "प्रसार"
+    ],
+    [
+      "die Proportion",
+      "proportion",
+      "अनुपात"
+    ],
+    [
+      "die Proposition",
+      "proposition",
+      "प्रस्ताव"
+    ],
+    [
+      "die Protection",
+      "protection",
+      "सुरक्षा"
+    ],
+    [
+      "die Qualification",
+      "qualification",
+      "योग्यता"
+    ],
+    [
+      "die Realization",
+      "realization",
+      "प्राप्ति"
+    ],
+    [
+      "die Reception",
+      "reception",
+      "स्वागत"
+    ],
+    [
+      "die Recommendation",
+      "recommendation",
+      "सिफारिश"
+    ],
+    [
+      "die Recreation",
+      "recreation",
+      "मनोरंजन"
+    ],
+    [
+      "die Reflection",
+      "reflection",
+      "प्रतिबिंब"
+    ],
+    [
+      "die Regeneration",
+      "regeneration",
+      "पुनर्जनन"
+    ],
+    [
+      "die Registration",
+      "registration",
+      "पंजीकरण"
+    ],
+    [
+      "die Rehabilitation",
+      "rehabilitation",
+      "पुनर्वास"
+    ],
+    [
+      "die Relaxation",
+      "relaxation",
+      "आराम"
+    ],
+    [
+      "die Representation",
+      "representation",
+      "प्रतिनिधित्व"
+    ],
+    [
+      "die Reproduction",
+      "reproduction",
+      "प्रजनन"
+    ],
+    [
+      "die Respiration",
+      "respiration",
+      "श्वसन"
+    ],
+    [
+      "die Restoration",
+      "restoration",
+      "बहाली"
+    ],
+    [
+      "die Restriction",
+      "restriction",
+      "प्रतिबंध"
+    ],
+    [
+      "die Revelation",
+      "revelation",
+      "रहस्योद्घाटन"
+    ],
+    [
+      "die Sanitation",
+      "sanitation",
+      "स्वच्छता"
+    ],
+    [
+      "die Saturation",
+      "saturation",
+      "संतृप्ति"
+    ],
+    [
+      "die Satisfaction",
+      "satisfaction",
+      "संतुष्टि"
+    ],
+    [
+      "die Selection",
+      "selection",
+      "चयन"
+    ],
+    [
+      "die Separation",
+      "separation",
+      "अलगाव"
+    ],
+    [
+      "die Solution",
+      "solution",
+      "समाधान"
+    ],
+    [
+      "die Specification",
+      "specification",
+      "विनिर्देश"
+    ],
+    [
+      "die Stimulation",
+      "stimulation",
+      "उत्तेजना"
+    ],
+    [
+      "die Substitution",
+      "substitution",
+      "प्रतिस्थापन"
+    ],
+    [
+      "die Succession",
+      "succession",
+      "उत्तराधिकार"
+    ],
+    [
+      "die Suggestion",
+      "suggestion",
+      "सुझाव"
+    ],
+    [
+      "die Summation",
+      "summation",
+      "योग"
+    ],
+    [
+      "die Supervision",
+      "supervision",
+      "पर्यवेक्षण"
+    ],
+    [
+      "die Suppression",
+      "suppression",
+      "दमन"
+    ],
+    [
+      "die Taxation",
+      "taxation",
+      "कराधान"
+    ],
+    [
+      "die Temptation",
+      "temptation",
+      "प्रलोभन"
+    ],
+    [
+      "die Termination",
+      "termination",
+      "समाप्ति"
+    ],
+    [
+      "die Transformation",
+      "transformation",
+      "रूपांतरण"
+    ],
+    [
+      "die Translation",
+      "translation",
+      "अनुवाद"
+    ],
+    [
+      "die Transmission",
+      "transmission",
+      "संचरण"
+    ],
+    [
+      "die Transportation",
+      "transportation",
+      "परिवहन"
+    ],
+    [
+      "die Vaccination",
+      "vaccination",
+      "टीकाकरण"
+    ],
+    [
+      "die Validation",
+      "validation",
+      "सत्यापन"
+    ],
+    [
+      "die Vegetation",
+      "vegetation",
+      "वनस्पति"
+    ],
+    [
+      "die Ventilation",
+      "ventilation",
+      "वेंटिलेशन"
+    ],
+    [
+      "die Verification",
+      "verification",
+      "सत्यापन"
+    ],
+    [
+      "die Vibration",
+      "vibration",
+      "कंपन"
+    ],
+    [
+      "die Vision",
+      "vision",
+      "दृष्टि"
+    ],
+    [
+      "die Abduction",
+      "abduction",
+      "अपहरण"
+    ],
+    [
+      "die Ablution",
+      "ablution",
+      "स्नान"
+    ],
+    [
+      "die Abolition",
+      "abolition",
+      "उन्मूलन"
+    ],
+    [
+      "die Abstention",
+      "abstention",
+      "परहेज"
+    ],
+    [
+      "die Accreditation",
+      "accreditation",
+      "मान्यता"
+    ],
+    [
+      "die Adulation",
+      "adulation",
+      "चापलूसी"
+    ],
+    [
+      "die Affectation",
+      "affectation",
+      "दिखावा"
+    ],
+    [
+      "die Affliction",
+      "affliction",
+      "कष्ट"
+    ],
+    [
+      "die Alienation",
+      "alienation",
+      "अलगाव"
+    ],
+    [
+      "die Alignment",
+      "alignment",
+      "संरेखण"
+    ],
+    [
+      "die Allegation",
+      "allegation",
+      "आरोप"
+    ],
+    [
+      "die Alleviation",
+      "alleviation",
+      "राहत"
+    ],
+    [
+      "die Amalgamation",
+      "amalgamation",
+      "विलय"
+    ],
+    [
+      "die Amelioration",
+      "amelioration",
+      "सुधार"
+    ],
+    [
+      "die Amortization",
+      "amortization",
+      "ऋण शोधन"
+    ],
+    [
+      "die Annihilation",
+      "annihilation",
+      "विनाश"
+    ],
+    [
+      "die Annotation",
+      "annotation",
+      "टिप्पणी"
+    ],
+    [
+      "die Annunciation",
+      "annunciation",
+      "घोषणा"
+    ],
+    [
+      "die Antiquation",
+      "antiquation",
+      "पुराना"
+    ],
+    [
+      "die Appellation",
+      "appellation",
+      "संबोधन"
+    ],
+    [
+      "die Approximation",
+      "approximation",
+      "अनुमान"
+    ],
+    [
+      "die Attestation",
+      "attestation",
+      "प्रमाणन"
+    ],
+    [
+      "die Augmentation",
+      "augmentation",
+      "वृद्धि"
+    ],
+    [
+      "die Balkanization",
+      "balkanization",
+      "विभाजन"
+    ],
+    [
+      "die Beatification",
+      "beatification",
+      "धन्य घोषणा"
+    ],
+    [
+      "die Bifurcation",
+      "bifurcation",
+      "द्विभाजन"
+    ],
+    [
+      "die Canonization",
+      "canonization",
+      "संत घोषणा"
+    ],
+    [
+      "die Capacitation",
+      "capacitation",
+      "सक्षमता"
+    ],
+    [
+      "die Capitulation",
+      "capitulation",
+      "आत्मसमर्पण"
+    ],
+    [
+      "die Castigation",
+      "castigation",
+      "आलोचना"
+    ],
+    [
+      "die Causation",
+      "causation",
+      "कारण"
+    ],
+    [
+      "die Centrifugation",
+      "centrifugation",
+      "अपकेंद्रण"
+    ],
+    [
+      "die Certification",
+      "certification",
+      "प्रमाणन"
+    ],
+    [
+      "die Cessation",
+      "cessation",
+      "समाप्ति"
+    ],
+    [
+      "die Circumcision",
+      "circumcision",
+      "खतना"
+    ],
+    [
+      "die Circumvention",
+      "circumvention",
+      "दरकिनार"
+    ],
+    [
+      "die Clarification",
+      "clarification",
+      "स्पष्टीकरण"
+    ],
+    [
+      "die Coagulation",
+      "coagulation",
+      "जमाव"
+    ],
+    [
+      "die Coeducation",
+      "coeducation",
+      "सहशिक्षा"
+    ],
+    [
+      "die Coercion",
+      "coercion",
+      "बल प्रयोग"
+    ],
+    [
+      "die Cogitation",
+      "cogitation",
+      "विचार"
+    ],
+    [
+      "die Communization",
+      "communization",
+      "समाजीकरण"
+    ],
+    [
+      "die Compaction",
+      "compaction",
+      "संघनन"
+    ],
+    [
+      "die Commodification",
+      "commodification",
+      "वस्तुकरण"
+    ],
+    [
+      "die Compulsion",
+      "compulsion",
+      "मजबूरी"
+    ],
+    [
+      "die Confession",
+      "confession",
+      "इकबाल"
+    ],
+    [
+      "die Consensus",
+      "consensus",
+      "सहमति"
+    ],
+    [
+      "die Contrition",
+      "contrition",
+      "पश्चाताप"
+    ],
+    [
+      "die Culmination",
+      "culmination",
+      "पराकाष्ठा"
+    ],
+    [
+      "die Defection",
+      "defection",
+      "पलायन"
+    ],
+    [
+      "die Deformation",
+      "deformation",
+      "विरूपण"
+    ],
+    [
+      "die Degeneration",
+      "degeneration",
+      "अध:पतन"
+    ],
+    [
+      "die Deletion",
+      "deletion",
+      "मिटाना"
+    ],
+    [
+      "die Delineation",
+      "delineation",
+      "रूपरेखा"
+    ],
+    [
+      "die Demarcation",
+      "demarcation",
+      "सीमांकन"
+    ],
+    [
+      "die Denunciation",
+      "denunciation",
+      "निंदा"
+    ],
+    [
+      "die Deportation",
+      "deportation",
+      "निर्वासन"
+    ],
+    [
+      "die Deposition",
+      "deposition",
+      "बयान"
+    ],
+    [
+      "die Depreciation",
+      "depreciation",
+      "मूल्यह्रास"
+    ],
+    [
+      "die Deprivation",
+      "deprivation",
+      "वंचना"
+    ],
+    [
+      "die Derivation",
+      "derivation",
+      "व्युत्पत्ति"
+    ],
+    [
+      "die Deterioration",
+      "deterioration",
+      "बिगड़ना"
+    ],
+    [
+      "die Detonation",
+      "detonation",
+      "विस्फोटन"
+    ],
+    [
+      "die Devotion",
+      "devotion",
+      "भक्ति"
+    ],
+    [
+      "die Dilution",
+      "dilution",
+      "तनुकरण"
+    ],
+    [
+      "die Diminution",
+      "diminution",
+      "कमी"
+    ],
+    [
+      "die Disablement",
+      "disablement",
+      "अक्षमता"
+    ],
+    [
+      "die Disagreement",
+      "disagreement",
+      "असहमति"
+    ],
+    [
+      "die Disappearance",
+      "disappearance",
+      "गायब"
+    ],
+    [
+      "die Disarmament",
+      "disarmament",
+      "निरस्त्रीकरण"
+    ],
+    [
+      "die Discontinuation",
+      "discontinuation",
+      "बंद"
+    ],
+    [
+      "die Disembarkation",
+      "disembarkation",
+      "उतराई"
+    ],
+    [
+      "die Disinfection",
+      "disinfection",
+      "कीटाणुनाशन"
+    ],
+    [
+      "die Disintegration",
+      "disintegration",
+      "विघटन"
+    ],
+    [
+      "die Dismissal",
+      "dismissal",
+      "बर्खास्तगी"
+    ],
+    [
+      "die Disproportion",
+      "disproportion",
+      "असंतुलन"
+    ],
+    [
+      "die Disruption",
+      "disruption",
+      "अवरोध"
+    ],
+    [
+      "die Dissection",
+      "dissection",
+      "विच्छेदन"
+    ],
+    [
+      "die Dissolution",
+      "dissolution",
+      "विघटन"
+    ],
+    [
+      "die Diversification",
+      "diversification",
+      "विविधीकरण"
+    ],
+    [
+      "die Divination",
+      "divination",
+      "भविष्यवाणी"
+    ],
+    [
+      "die Emulation",
+      "emulation",
+      "अनुकरण"
+    ],
+    [
+      "die Enumeration",
+      "enumeration",
+      "गणना"
+    ],
+    [
+      "die Eradication",
+      "eradication",
+      "उन्मूलन"
+    ],
+    [
+      "die Eruption",
+      "eruption",
+      "विस्फोट"
+    ],
+    [
+      "die Escalation",
+      "escalation",
+      "वृद्धि"
+    ],
+    [
+      "die Evacuation",
+      "evacuation",
+      "खाली करना"
+    ],
+    [
+      "die Evaporation",
+      "evaporation",
+      "वाष्पीकरण"
+    ],
+    [
+      "die Excavation",
+      "excavation",
+      "खुदाई"
+    ],
+    [
+      "die Exemption",
+      "exemption",
+      "छूट"
+    ],
+    [
+      "die Exhaustion",
+      "exhaustion",
+      "थकान"
+    ],
+    [
+      "die Exploitation",
+      "exploitation",
+      "शोषण"
+    ],
+    [
+      "die Exportation",
+      "exportation",
+      "निर्यात"
+    ],
+    [
+      "die Exposition",
+      "exposition",
+      "प्रदर्शनी"
+    ],
+    [
+      "die Extraction",
+      "extraction",
+      "निष्कर्षण"
+    ],
+    [
+      "die Facilitation",
+      "facilitation",
+      "सुविधा"
+    ],
+    [
+      "die Fertilization",
+      "fertilization",
+      "निषेचन"
+    ],
+    [
+      "die Flotation",
+      "flotation",
+      "तैराव"
+    ],
+    [
+      "die Frustration",
+      "frustration",
+      "निराशा"
+    ]
+  ],
+  "pattern_4_ty": [
+    [
+      "die Universität",
+      "university",
+      "विश्वविद्यालय"
+    ],
+    [
+      "die Qualität",
+      "quality",
+      "गुणवत्ता"
+    ],
+    [
+      "die Quantität",
+      "quantity",
+      "मात्रा"
+    ],
+    [
+      "die Identität",
+      "identity",
+      "पहचान"
+    ],
+    [
+      "die Realität",
+      "reality",
+      "वास्तविकता"
+    ],
+    [
+      "die Nationalität",
+      "nationality",
+      "राष्ट्रीयता"
+    ],
+    [
+      "die Priorität",
+      "priority",
+      "प्राथमिकता"
+    ],
+    [
+      "die Capacität",
+      "capacity",
+      "क्षमता"
+    ],
+    [
+      "die Activität",
+      "activity",
+      "गतिविधि"
+    ],
+    [
+      "die Creativität",
+      "creativity",
+      "रचनात्मकता"
+    ],
+    [
+      "die Objectivität",
+      "objectivity",
+      "निष्पक्षता"
+    ],
+    [
+      "die Subjectivität",
+      "subjectivity",
+      "व्यक्तिपरकता"
+    ],
+    [
+      "die Stabilität",
+      "stability",
+      "स्थिरता"
+    ],
+    [
+      "die Mobilität",
+      "mobility",
+      "गतिशीलता"
+    ],
+    [
+      "die Popularität",
+      "popularity",
+      "लोकप्रियता"
+    ],
+    [
+      "die Formalität",
+      "formality",
+      "औपचारिकता"
+    ],
+    [
+      "die Neutralität",
+      "neutrality",
+      "तटस्थता"
+    ],
+    [
+      "die Localität",
+      "locality",
+      "स्थान"
+    ],
+    [
+      "die Moralität",
+      "morality",
+      "नैतिकता"
+    ],
+    [
+      "die Vitalität",
+      "vitality",
+      "जीवन शक्ति"
+    ],
+    [
+      "die Equalität",
+      "equality",
+      "समानता"
+    ],
+    [
+      "die Communität",
+      "community",
+      "समुदाय"
+    ],
+    [
+      "die Opportunität",
+      "opportunity",
+      "अवसर"
+    ],
+    [
+      "die Possibilität",
+      "possibility",
+      "संभावना"
+    ],
+    [
+      "die Responsibilität",
+      "responsibility",
+      "जिम्मेदारी"
+    ],
+    [
+      "die Abilität",
+      "ability",
+      "क्षमता"
+    ],
+    [
+      "die Facilität",
+      "facility",
+      "सुविधा"
+    ],
+    [
+      "die Utilität",
+      "utility",
+      "उपयोगिता"
+    ],
+    [
+      "die Humidität",
+      "humidity",
+      "नमी"
+    ],
+    [
+      "die Densität",
+      "density",
+      "घनत्व"
+    ],
+    [
+      "die Intensität",
+      "intensity",
+      "तीव्रता"
+    ],
+    [
+      "die Curiosität",
+      "curiosity",
+      "जिज्ञासा"
+    ],
+    [
+      "die Anxietät",
+      "anxiety",
+      "चिंता"
+    ],
+    [
+      "die Varietät",
+      "variety",
+      "विविधता"
+    ],
+    [
+      "die Societät",
+      "society",
+      "समाज"
+    ],
+    [
+      "die Prosperität",
+      "prosperity",
+      "समृद्धि"
+    ],
+    [
+      "die Securität",
+      "security",
+      "सुरक्षा"
+    ],
+    [
+      "die Purität",
+      "purity",
+      "शुद्धता"
+    ],
+    [
+      "die Maturität",
+      "maturity",
+      "परिपक्वता"
+    ],
+    [
+      "die Sincerität",
+      "sincerity",
+      "ईमानदारी"
+    ],
+    [
+      "die Severität",
+      "severity",
+      "गंभीरता"
+    ],
+    [
+      "die Clarität",
+      "clarity",
+      "स्पष्टता"
+    ],
+    [
+      "die Adaptabilität",
+      "adaptability",
+      "अनुकूलनशीलता"
+    ],
+    [
+      "die Adversität",
+      "adversity",
+      "विपत्ति"
+    ],
+    [
+      "die Ambiguität",
+      "ambiguity",
+      "अस्पष्टता"
+    ],
+    [
+      "die Amenität",
+      "amenity",
+      "सुविधा"
+    ],
+    [
+      "die Antiquität",
+      "antiquity",
+      "प्राचीनता"
+    ],
+    [
+      "die Authenticität",
+      "authenticity",
+      "प्रामाणिकता"
+    ],
+    [
+      "die Authorität",
+      "authority",
+      "अधिकार"
+    ],
+    [
+      "die Availabilität",
+      "availability",
+      "उपलब्धता"
+    ],
+    [
+      "die Brutalität",
+      "brutality",
+      "क्रूरता"
+    ],
+    [
+      "die Celebrität",
+      "celebrity",
+      "प्रसिद्धि"
+    ],
+    [
+      "die Commodität",
+      "commodity",
+      "वस्तु"
+    ],
+    [
+      "die Compatibilität",
+      "compatibility",
+      "अनुकूलता"
+    ],
+    [
+      "die Complexität",
+      "complexity",
+      "जटिलता"
+    ],
+    [
+      "die Connectivität",
+      "connectivity",
+      "संयोजन"
+    ],
+    [
+      "die Credibilität",
+      "credibility",
+      "विश्वसनीयता"
+    ],
+    [
+      "die Diversität",
+      "diversity",
+      "विविधता"
+    ],
+    [
+      "die Durabilität",
+      "durability",
+      "टिकाऊपन"
+    ],
+    [
+      "die Electricität",
+      "electricity",
+      "बिजली"
+    ],
+    [
+      "die Fragilität",
+      "fragility",
+      "नाजुकता"
+    ],
+    [
+      "die Generalität",
+      "generality",
+      "सामान्यता"
+    ],
+    [
+      "die Humanität",
+      "humanity",
+      "मानवता"
+    ],
+    [
+      "die Immunität",
+      "immunity",
+      "प्रतिरक्षा"
+    ],
+    [
+      "die Integrität",
+      "integrity",
+      "अखंडता"
+    ],
+    [
+      "die Longevität",
+      "longevity",
+      "दीर्घायु"
+    ],
+    [
+      "die Necessität",
+      "necessity",
+      "आवश्यकता"
+    ],
+    [
+      "die Normalität",
+      "normality",
+      "सामान्यता"
+    ],
+    [
+      "die Personalität",
+      "personality",
+      "व्यक्तित्व"
+    ],
+    [
+      "die Probabilität",
+      "probability",
+      "संभावना"
+    ],
+    [
+      "die Productivität",
+      "productivity",
+      "उत्पादकता"
+    ],
+    [
+      "die Rigidität",
+      "rigidity",
+      "कठोरता"
+    ],
+    [
+      "die Sensitivität",
+      "sensitivity",
+      "संवेदनशीलता"
+    ],
+    [
+      "die Similarität",
+      "similarity",
+      "समानता"
+    ],
+    [
+      "die Simplicität",
+      "simplicity",
+      "सरलता"
+    ],
+    [
+      "die Solidarität",
+      "solidarity",
+      "एकजुटता"
+    ],
+    [
+      "die Superiorität",
+      "superiority",
+      "श्रेष्ठता"
+    ],
+    [
+      "die Sustainabilität",
+      "sustainability",
+      "टिकाऊपन"
+    ],
+    [
+      "die Validität",
+      "validity",
+      "वैधता"
+    ],
+    [
+      "die Velocität",
+      "velocity",
+      "वेग"
+    ],
+    [
+      "die Accountabilität",
+      "accountability",
+      "जवाबदेही"
+    ],
+    [
+      "die Affordabilität",
+      "affordability",
+      "किफायत"
+    ],
+    [
+      "die Aggressivität",
+      "aggressivity",
+      "आक्रामकता"
+    ],
+    [
+      "die Amoralität",
+      "amorality",
+      "नैतिकताहीनता"
+    ],
+    [
+      "die Applicabilität",
+      "applicability",
+      "प्रयोज्यता"
+    ],
+    [
+      "die Approachabilität",
+      "approachability",
+      "पहुंच"
+    ],
+    [
+      "die Biocompatibilität",
+      "biocompatibility",
+      "जैव अनुकूलता"
+    ],
+    [
+      "die Capabilität",
+      "capability",
+      "क्षमता"
+    ],
+    [
+      "die Cardiovascularität",
+      "cardiovascularity",
+      "हृदय"
+    ],
+    [
+      "die Causalität",
+      "causality",
+      "कारणता"
+    ],
+    [
+      "die Centralität",
+      "centrality",
+      "केंद्रीयता"
+    ],
+    [
+      "die Certaintät",
+      "certainty",
+      "निश्चितता"
+    ],
+    [
+      "die Circularität",
+      "circularity",
+      "वृत्ताकारता"
+    ],
+    [
+      "die Civilität",
+      "civility",
+      "नागरिकता"
+    ],
+    [
+      "die Commonalität",
+      "commonality",
+      "समानता"
+    ],
+    [
+      "die Compressibilität",
+      "compressibility",
+      "संपीड्यता"
+    ],
+    [
+      "die Conductivität",
+      "conductivity",
+      "चालकता"
+    ],
+    [
+      "die Conspicuität",
+      "conspicuity",
+      "दृश्यता"
+    ],
+    [
+      "die Continuität",
+      "continuity",
+      "निरंतरता"
+    ],
+    [
+      "die Convexität",
+      "convexity",
+      "उत्तलता"
+    ],
+    [
+      "die Culpabilität",
+      "culpability",
+      "दोष"
+    ],
+    [
+      "die Dimensionalität",
+      "dimensionality",
+      "आयाम"
+    ],
+    [
+      "die Disabilität",
+      "disability",
+      "अक्षमता"
+    ],
+    [
+      "die Discontinuität",
+      "discontinuity",
+      "असंततता"
+    ],
+    [
+      "die Elasticität",
+      "elasticity",
+      "लोच"
+    ],
+    [
+      "die Eligibilität",
+      "eligibility",
+      "पात्रता"
+    ],
+    [
+      "die Equanimität",
+      "equanimity",
+      "समभाव"
+    ],
+    [
+      "die Equität",
+      "equity",
+      "इक्विटी"
+    ],
+    [
+      "die Extremität",
+      "extremity",
+      "चरम"
+    ],
+    [
+      "die Familiarität",
+      "familiarity",
+      "परिचितता"
+    ],
+    [
+      "die Feasibilität",
+      "feasibility",
+      "व्यवहार्यता"
+    ],
+    [
+      "die Fertilität",
+      "fertility",
+      "उर्वरता"
+    ],
+    [
+      "die Flexibilität",
+      "flexibility",
+      "लचीलापन"
+    ],
+    [
+      "die Frivolität",
+      "frivolity",
+      "तुच्छता"
+    ],
+    [
+      "die Generosität",
+      "generosity",
+      "उदारता"
+    ],
+    [
+      "die Heterogeneität",
+      "heterogeneity",
+      "विषमता"
+    ],
+    [
+      "die Homogeneität",
+      "homogeneity",
+      "समरूपता"
+    ],
+    [
+      "die Hospitalität",
+      "hospitality",
+      "आतिथ्य"
+    ],
+    [
+      "die Impossibilität",
+      "impossibility",
+      "असंभावना"
+    ],
+    [
+      "die Impunität",
+      "impunity",
+      "दण्डमुक्ति"
+    ],
+    [
+      "die Inabilität",
+      "inability",
+      "अक्षमता"
+    ],
+    [
+      "die Inclusivität",
+      "inclusivity",
+      "समावेशिता"
+    ],
+    [
+      "die Inequalität",
+      "inequality",
+      "असमानता"
+    ],
+    [
+      "die Inferiorität",
+      "inferiority",
+      "निम्नता"
+    ],
+    [
+      "die Infinität",
+      "infinity",
+      "अनंत"
+    ],
+    [
+      "die Inflexibilität",
+      "inflexibility",
+      "अनम्यता"
+    ],
+    [
+      "die Instabilität",
+      "instability",
+      "अस्थिरता"
+    ],
+    [
+      "die Intermittencytät",
+      "intermittency",
+      "रुक-रुक"
+    ],
+    [
+      "die Invisibilität",
+      "invisibility",
+      "अदृश्यता"
+    ],
+    [
+      "die Irregularität",
+      "irregularity",
+      "अनियमितता"
+    ],
+    [
+      "die Legalität",
+      "legality",
+      "वैधता"
+    ],
+    [
+      "die Liabilität",
+      "liability",
+      "देयता"
+    ],
+    [
+      "die Liberalität",
+      "liberality",
+      "उदारता"
+    ],
+    [
+      "die Luminosität",
+      "luminosity",
+      "चमक"
+    ],
+    [
+      "die Majorität",
+      "majority",
+      "बहुमत"
+    ],
+    [
+      "die Minorität",
+      "minority",
+      "अल्पसंख्यक"
+    ],
+    [
+      "die Modalität",
+      "modality",
+      "प्रणाली"
+    ],
+    [
+      "die Mortalität",
+      "mortality",
+      "मृत्यु दर"
+    ],
+    [
+      "die Multiplicität",
+      "multiplicity",
+      "बहुलता"
+    ],
+    [
+      "die Mutualität",
+      "mutuality",
+      "पारस्परिकता"
+    ],
+    [
+      "die Noveltät",
+      "novelty",
+      "नवीनता"
+    ],
+    [
+      "die Opacität",
+      "opacity",
+      "अपारदर्शिता"
+    ],
+    [
+      "die Parität",
+      "parity",
+      "समानता"
+    ],
+    [
+      "die Particularität",
+      "particularity",
+      "विशिष्टता"
+    ],
+    [
+      "die Permeabilität",
+      "permeability",
+      "पारगम्यता"
+    ],
+    [
+      "die Pluralität",
+      "plurality",
+      "बहुलता"
+    ],
+    [
+      "die Polarität",
+      "polarity",
+      "ध्रुवीयता"
+    ],
+    [
+      "die Profitabilität",
+      "profitability",
+      "लाभप्रदता"
+    ],
+    [
+      "die Proximität",
+      "proximity",
+      "निकटता"
+    ],
+    [
+      "die Publicität",
+      "publicity",
+      "प्रचार"
+    ],
+    [
+      "die Reciprocität",
+      "reciprocity",
+      "पारस्परिकता"
+    ],
+    [
+      "die Regularität",
+      "regularity",
+      "नियमितता"
+    ],
+    [
+      "die Reliabilität",
+      "reliability",
+      "विश्वसनीयता"
+    ],
+    [
+      "die Reversibilität",
+      "reversibility",
+      "उत्क्रमणीयता"
+    ],
+    [
+      "die Royaltät",
+      "royalty",
+      "रॉयल्टी"
+    ],
+    [
+      "die Sanität",
+      "sanity",
+      "मानसिक स्वास्थ्य"
+    ],
+    [
+      "die Scarcität",
+      "scarcity",
+      "कमी"
+    ],
+    [
+      "die Solubilität",
+      "solubility",
+      "विलेयता"
+    ],
+    [
+      "die Specificität",
+      "specificity",
+      "विशिष्टता"
+    ],
+    [
+      "die Suitabilität",
+      "suitability",
+      "उपयुक्तता"
+    ],
+    [
+      "die Susceptibilität",
+      "susceptibility",
+      "संवेदनशीलता"
+    ],
+    [
+      "die Symmetrytät",
+      "symmetry",
+      "सममिति"
+    ],
+    [
+      "die Technicalität",
+      "technicality",
+      "तकनीकी"
+    ],
+    [
+      "die Tranquilität",
+      "tranquility",
+      "शांति"
+    ],
+    [
+      "die Uniformität",
+      "uniformity",
+      "एकरूपता"
+    ],
+    [
+      "die Uniquenesstät",
+      "uniqueness",
+      "विशिष्टता"
+    ],
+    [
+      "die Unität",
+      "unity",
+      "एकता"
+    ],
+    [
+      "die Variabilität",
+      "variability",
+      "परिवर्तनशीलता"
+    ],
+    [
+      "die Viabilität",
+      "viability",
+      "व्यवहार्यता"
+    ],
+    [
+      "die Volatilität",
+      "volatility",
+      "अस्थिरता"
+    ]
+  ],
+  "pattern_5_ment": [
+    [
+      "das Document",
+      "document",
+      "दस्तावेज़"
+    ],
+    [
+      "das Instrument",
+      "instrument",
+      "उपकरण"
+    ],
+    [
+      "das Argument",
+      "argument",
+      "तर्क"
+    ],
+    [
+      "das Moment",
+      "moment",
+      "क्षण"
+    ],
+    [
+      "das Element",
+      "element",
+      "तत्व"
+    ],
+    [
+      "das Fragment",
+      "fragment",
+      "टुकड़ा"
+    ],
+    [
+      "das Complement",
+      "complement",
+      "पूरक"
+    ],
+    [
+      "das Medikament",
+      "medication",
+      "दवा"
+    ],
+    [
+      "das Statement",
+      "statement",
+      "बयान"
+    ],
+    [
+      "das Engagement",
+      "engagement",
+      "सगाई"
+    ],
+    [
+      "das Management",
+      "management",
+      "प्रबंधन"
+    ],
+    [
+      "das Department",
+      "department",
+      "विभाग"
+    ],
+    [
+      "das Apartment",
+      "apartment",
+      "अपार्टमेंट"
+    ],
+    [
+      "das Equipment",
+      "equipment",
+      "उपकरण"
+    ],
+    [
+      "das Compartment",
+      "compartment",
+      "डिब्बा"
+    ],
+    [
+      "das Supplement",
+      "supplement",
+      "पूरक"
+    ],
+    [
+      "das Experiment",
+      "experiment",
+      "प्रयोग"
+    ],
+    [
+      "das Parliament",
+      "parliament",
+      "संसद"
+    ],
+    [
+      "das Fundament",
+      "fundament",
+      "नींव"
+    ],
+    [
+      "das Basement",
+      "basement",
+      "तहखाना"
+    ],
+    [
+      "das Replacement",
+      "replacement",
+      "प्रतिस्थापन"
+    ],
+    [
+      "das Assessment",
+      "assessment",
+      "मूल्यांकन"
+    ],
+    [
+      "das Adjustment",
+      "adjustment",
+      "समायोजन"
+    ],
+    [
+      "das Shipment",
+      "shipment",
+      "भेजना"
+    ],
+    [
+      "das Payment",
+      "payment",
+      "भुगतान"
+    ],
+    [
+      "das Employment",
+      "employment",
+      "रोजगार"
+    ],
+    [
+      "das Development",
+      "development",
+      "विकास"
+    ],
+    [
+      "das Movement",
+      "movement",
+      "आंदोलन"
+    ],
+    [
+      "das Improvement",
+      "improvement",
+      "सुधार"
+    ],
+    [
+      "das Agreement",
+      "agreement",
+      "समझौता"
+    ],
+    [
+      "das Treatment",
+      "treatment",
+      "उपचार"
+    ],
+    [
+      "das Investment",
+      "investment",
+      "निवेश"
+    ],
+    [
+      "das Announcement",
+      "announcement",
+      "घोषणा"
+    ],
+    [
+      "das Entertainment",
+      "entertainment",
+      "मनोरंजन"
+    ],
+    [
+      "das Environment",
+      "environment",
+      "पर्यावरण"
+    ],
+    [
+      "das Settlement",
+      "settlement",
+      "समझौता"
+    ],
+    [
+      "das Installment",
+      "installment",
+      "किस्त"
+    ],
+    [
+      "das Commitment",
+      "commitment",
+      "प्रतिबद्धता"
+    ],
+    [
+      "das Enrollment",
+      "enrollment",
+      "नामांकन"
+    ],
+    [
+      "das Achievement",
+      "achievement",
+      "उपलब्धि"
+    ],
+    [
+      "das Acknowledgment",
+      "acknowledgment",
+      "स्वीकृति"
+    ],
+    [
+      "das Advertisement",
+      "advertisement",
+      "विज्ञापन"
+    ],
+    [
+      "das Alignment",
+      "alignment",
+      "संरेखण"
+    ],
+    [
+      "das Allotment",
+      "allotment",
+      "आवंटन"
+    ],
+    [
+      "das Amendment",
+      "amendment",
+      "संशोधन"
+    ],
+    [
+      "das Appointment",
+      "appointment",
+      "नियुक्ति"
+    ],
+    [
+      "das Assignment",
+      "assignment",
+      "असाइनमेंट"
+    ],
+    [
+      "das Attachment",
+      "attachment",
+      "संलग्नक"
+    ],
+    [
+      "das Attainment",
+      "attainment",
+      "प्राप्ति"
+    ],
+    [
+      "das Deployment",
+      "deployment",
+      "तैनाती"
+    ],
+    [
+      "das Disagreement",
+      "disagreement",
+      "असहमति"
+    ],
+    [
+      "das Displacement",
+      "displacement",
+      "विस्थापन"
+    ],
+    [
+      "das Embarrassment",
+      "embarrassment",
+      "शर्मिंदगी"
+    ],
+    [
+      "das Embodiment",
+      "embodiment",
+      "अवतार"
+    ],
+    [
+      "das Enforcement",
+      "enforcement",
+      "प्रवर्तन"
+    ],
+    [
+      "das Enhancement",
+      "enhancement",
+      "सुधार"
+    ],
+    [
+      "das Establishment",
+      "establishment",
+      "स्थापना"
+    ],
+    [
+      "das Excitement",
+      "excitement",
+      "उत्तेजना"
+    ],
+    [
+      "das Government",
+      "government",
+      "सरकार"
+    ],
+    [
+      "das Measurement",
+      "measurement",
+      "माप"
+    ],
+    [
+      "das Placement",
+      "placement",
+      "प्लेसमेंट"
+    ],
+    [
+      "das Punishment",
+      "punishment",
+      "सजा"
+    ],
+    [
+      "das Requirement",
+      "requirement",
+      "आवश्यकता"
+    ],
+    [
+      "das Adjudgment",
+      "adjudgment",
+      "निर्णय"
+    ],
+    [
+      "das Arrangement",
+      "arrangement",
+      "व्यवस्था"
+    ],
+    [
+      "das Augment",
+      "augment",
+      "वृद्धि"
+    ],
+    [
+      "das Bereavement",
+      "bereavement",
+      "शोक"
+    ],
+    [
+      "das Bombardment",
+      "bombardment",
+      "बमबारी"
+    ],
+    [
+      "das Casement",
+      "casement",
+      "खिड़की"
+    ],
+    [
+      "das Compliment",
+      "compliment",
+      "प्रशंसा"
+    ],
+    [
+      "das Confinement",
+      "confinement",
+      "कैद"
+    ],
+    [
+      "das Consignment",
+      "consignment",
+      "भेजना"
+    ],
+    [
+      "das Containment",
+      "containment",
+      "रोक"
+    ],
+    [
+      "das Contentment",
+      "contentment",
+      "संतोष"
+    ],
+    [
+      "das Disarmament",
+      "disarmament",
+      "निरस्त्रीकरण"
+    ],
+    [
+      "das Empowerment",
+      "empowerment",
+      "सशक्तिकरण"
+    ],
+    [
+      "das Encouragement",
+      "encouragement",
+      "प्रोत्साहन"
+    ],
+    [
+      "das Enlargement",
+      "enlargement",
+      "विस्तार"
+    ],
+    [
+      "das Filament",
+      "filament",
+      "तंतु"
+    ],
+    [
+      "das Fulfillment",
+      "fulfillment",
+      "पूर्ति"
+    ],
+    [
+      "das Impairment",
+      "impairment",
+      "कमी"
+    ],
+    [
+      "das Implementation",
+      "implementation",
+      "कार्यान्वयन"
+    ],
+    [
+      "das Involvement",
+      "involvement",
+      "भागीदारी"
+    ],
+    [
+      "das Judgment",
+      "judgment",
+      "निर्णय"
+    ],
+    [
+      "das Misalignment",
+      "misalignment",
+      "गलत संरेखण"
+    ],
+    [
+      "das Misgovernment",
+      "misgovernment",
+      "कुशासन"
+    ],
+    [
+      "das Mismanagement",
+      "mismanagement",
+      "कुप्रबंधन"
+    ],
+    [
+      "das Nourishment",
+      "nourishment",
+      "पोषण"
+    ],
+    [
+      "das Postponement",
+      "postponement",
+      "स्थगन"
+    ],
+    [
+      "das Resentment",
+      "resentment",
+      "नाराजगी"
+    ],
+    [
+      "das Retirement",
+      "retirement",
+      "सेवानिवृत्ति"
+    ],
+    [
+      "das Underdevelopment",
+      "underdevelopment",
+      "अविकसित"
+    ],
+    [
+      "das Underemployment",
+      "underemployment",
+      "अल्परोजगार"
+    ],
+    [
+      "das Unemployment",
+      "unemployment",
+      "बेरोजगारी"
+    ]
+  ],
+  "pattern_6_al": [
+    [
+      "das Signal",
+      "signal",
+      "संकेत"
+    ],
+    [
+      "das Festival",
+      "festival",
+      "त्योहार"
+    ],
+    [
+      "das Hospital",
+      "hospital",
+      "अस्पताल"
+    ],
+    [
+      "das Terminal",
+      "terminal",
+      "टर्मिनल"
+    ],
+    [
+      "das Original",
+      "original",
+      "मूल"
+    ],
+    [
+      "das Material",
+      "material",
+      "सामग्री"
+    ],
+    [
+      "das Potential",
+      "potential",
+      "क्षमता"
+    ],
+    [
+      "das Tutorial",
+      "tutorial",
+      "ट्यूटोरियल"
+    ],
+    [
+      "das Memorial",
+      "memorial",
+      "स्मारक"
+    ],
+    [
+      "das General",
+      "general",
+      "जनरल"
+    ],
+    [
+      "das Admiral",
+      "admiral",
+      "एडमिरल"
+    ],
+    [
+      "das Canal",
+      "canal",
+      "नहर"
+    ],
+    [
+      "das Cardinal",
+      "cardinal",
+      "कार्डिनल"
+    ],
+    [
+      "das Journal",
+      "journal",
+      "जर्नल"
+    ],
+    [
+      "das Portal",
+      "portal",
+      "पोर्टल"
+    ],
+    [
+      "das Capital",
+      "capital",
+      "पूंजी"
+    ],
+    [
+      "das Rival",
+      "rival",
+      "प्रतिद्वंद्वी"
+    ],
+    [
+      "das Vowel",
+      "vowel",
+      "स्वर"
+    ],
+    [
+      "das Principal",
+      "principal",
+      "मुख्य"
+    ],
+    [
+      "das Animal",
+      "animal",
+      "जानवर"
+    ],
+    [
+      "das Mineral",
+      "mineral",
+      "खनिज"
+    ],
+    [
+      "das Criminal",
+      "criminal",
+      "अपराधी"
+    ],
+    [
+      "das Professional",
+      "professional",
+      "पेशेवर"
+    ],
+    [
+      "das Removal",
+      "removal",
+      "हटाना"
+    ],
+    [
+      "das Approval",
+      "approval",
+      "स्वीकृति"
+    ],
+    [
+      "das Survival",
+      "survival",
+      "उत्तरजीविता"
+    ],
+    [
+      "das Arrival",
+      "arrival",
+      "आगमन"
+    ],
+    [
+      "das Proposal",
+      "proposal",
+      "प्रस्ताव"
+    ],
+    [
+      "das Refusal",
+      "refusal",
+      "इनकार"
+    ],
+    [
+      "das Rehearsal",
+      "rehearsal",
+      "पूर्वाभ्यास"
+    ],
+    [
+      "das Betrayal",
+      "betrayal",
+      "विश्वासघात"
+    ],
+    [
+      "das Burial",
+      "burial",
+      "दफन"
+    ],
+    [
+      "das Denial",
+      "denial",
+      "इनकार"
+    ],
+    [
+      "das Dismissal",
+      "dismissal",
+      "बर्खास्तगी"
+    ],
+    [
+      "das Disposal",
+      "disposal",
+      "निपटान"
+    ],
+    [
+      "das Interval",
+      "interval",
+      "अंतराल"
+    ],
+    [
+      "das Recital",
+      "recital",
+      "वादन"
+    ],
+    [
+      "das Referral",
+      "referral",
+      "संदर्भ"
+    ],
+    [
+      "das Renewal",
+      "renewal",
+      "नवीनीकरण"
+    ],
+    [
+      "das Rental",
+      "rental",
+      "किराया"
+    ],
+    [
+      "das Retrieval",
+      "retrieval",
+      "पुनर्प्राप्ति"
+    ],
+    [
+      "das Reversal",
+      "reversal",
+      "उलटफेर"
+    ],
+    [
+      "das Trial",
+      "trial",
+      "परीक्षण"
+    ],
+    [
+      "das Withdrawal",
+      "withdrawal",
+      "निकासी"
+    ],
+    [
+      "das Appraisal",
+      "appraisal",
+      "मूल्यांकन"
+    ],
+    [
+      "das Acquittal",
+      "acquittal",
+      "दोषमुक्ति"
+    ],
+    [
+      "das Arousal",
+      "arousal",
+      "उत्तेजना"
+    ],
+    [
+      "das Bestowal",
+      "bestowal",
+      "प्रदान"
+    ],
+    [
+      "das Committal",
+      "committal",
+      "सुपुर्दगी"
+    ],
+    [
+      "das Deferral",
+      "deferral",
+      "स्थगन"
+    ],
+    [
+      "das Dispersal",
+      "dispersal",
+      "फैलाव"
+    ],
+    [
+      "das Portrayal",
+      "portrayal",
+      "चित्रण"
+    ],
+    [
+      "das Rebuttal",
+      "rebuttal",
+      "खंडन"
+    ],
+    [
+      "das Reprisal",
+      "reprisal",
+      "प्रतिशोध"
+    ]
+  ],
+  "pattern_7_ic": [
+    [
+      "romantisch",
+      "romantic",
+      "रोमांटिक"
+    ],
+    [
+      "dramatisch",
+      "dramatic",
+      "नाटकीय"
+    ],
+    [
+      "automatisch",
+      "automatic",
+      "स्वचालित"
+    ],
+    [
+      "democratisch",
+      "democratic",
+      "लोकतांत्रिक"
+    ],
+    [
+      "energetisch",
+      "energetic",
+      "ऊर्जावान"
+    ],
+    [
+      "historicalisch",
+      "historical",
+      "ऐतिहासिक"
+    ],
+    [
+      "classisch",
+      "classic",
+      "क्लासिक"
+    ],
+    [
+      "musicalisch",
+      "musical",
+      "संगीतमय"
+    ],
+    [
+      "optimistisch",
+      "optimistic",
+      "आशावादी"
+    ],
+    [
+      "pessimistisch",
+      "pessimistic",
+      "निराशावादी"
+    ],
+    [
+      "realistisch",
+      "realistic",
+      "यथार्थवादी"
+    ],
+    [
+      "specifisch",
+      "specific",
+      "विशिष्ट"
+    ],
+    [
+      "strategisch",
+      "strategic",
+      "रणनीतिक"
+    ],
+    [
+      "sympathetisch",
+      "sympathetic",
+      "सहानुभूतिपूर्ण"
+    ],
+    [
+      "synthetisch",
+      "synthetic",
+      "सिंथेटिक"
+    ],
+    [
+      "tragisch",
+      "tragic",
+      "दुखद"
+    ],
+    [
+      "typicalisch",
+      "typical",
+      "विशिष्ट"
+    ],
+    [
+      "electrisch",
+      "electric",
+      "बिजली का"
+    ],
+    [
+      "fantastisch",
+      "fantastic",
+      "शानदार"
+    ],
+    [
+      "heroisch",
+      "heroic",
+      "वीर"
+    ],
+    [
+      "economisch",
+      "economic",
+      "आर्थिक"
+    ],
+    [
+      "politicalisch",
+      "political",
+      "राजनीतिक"
+    ],
+    [
+      "physicalisch",
+      "physical",
+      "शारीरिक"
+    ],
+    [
+      "practicalisch",
+      "practical",
+      "व्यावहारिक"
+    ],
+    [
+      "criticalisch",
+      "critical",
+      "आलोचनात्मक"
+    ],
+    [
+      "mechanicalisch",
+      "mechanical",
+      "यांत्रिक"
+    ],
+    [
+      "chemicalisch",
+      "chemical",
+      "रासायनिक"
+    ],
+    [
+      "artistisch",
+      "artistic",
+      "कलात्मक"
+    ],
+    [
+      "characteristisch",
+      "characteristic",
+      "विशेषता"
+    ],
+    [
+      "diplomatisch",
+      "diplomatic",
+      "कूटनीतिक"
+    ],
+    [
+      "systematisch",
+      "systematic",
+      "व्यवस्थित"
+    ],
+    [
+      "problematisch",
+      "problematic",
+      "समस्यापूर्ण"
+    ],
+    [
+      "symbolisch",
+      "symbolic",
+      "प्रतीकात्मक"
+    ],
+    [
+      "organisch",
+      "organic",
+      "जैविक"
+    ],
+    [
+      "academisch",
+      "academic",
+      "शैक्षणिक"
+    ],
+    [
+      "dynamisch",
+      "dynamic",
+      "गतिशील"
+    ],
+    [
+      "atomisch",
+      "atomic",
+      "परमाणु"
+    ],
+    [
+      "electronisch",
+      "electronic",
+      "इलेक्ट्रॉनिक"
+    ],
+    [
+      "basisch",
+      "basic",
+      "मूलभूत"
+    ],
+    [
+      "plastisch",
+      "plastic",
+      "प्लास्टिक"
+    ],
+    [
+      "publisch",
+      "public",
+      "सार्वजनिक"
+    ],
+    [
+      "republisch",
+      "republic",
+      "गणतंत्र"
+    ],
+    [
+      "topisch",
+      "topic",
+      "विषय"
+    ],
+    [
+      "logisch",
+      "logic",
+      "तर्क"
+    ],
+    [
+      "aerodynamisch",
+      "aerodynamic",
+      "वायुगतिक"
+    ],
+    [
+      "allergisch",
+      "allergic",
+      "एलर्जी"
+    ],
+    [
+      "alphabetisch",
+      "alphabetic",
+      "वर्णमाला"
+    ],
+    [
+      "analytisch",
+      "analytic",
+      "विश्लेषणात्मक"
+    ],
+    [
+      "anatomisch",
+      "anatomic",
+      "शारीरिक"
+    ],
+    [
+      "aristocratisch",
+      "aristocratic",
+      "अभिजात"
+    ],
+    [
+      "aromatisch",
+      "aromatic",
+      "सुगंधित"
+    ],
+    [
+      "asymmetrisch",
+      "asymmetric",
+      "असममित"
+    ],
+    [
+      "athletisch",
+      "athletic",
+      "ऐथलेटिक"
+    ],
+    [
+      "atmospherisch",
+      "atmospheric",
+      "वायुमंडलीय"
+    ],
+    [
+      "ballistisch",
+      "ballistic",
+      "बैलिस्टिक"
+    ],
+    [
+      "biologisch",
+      "biologic",
+      "जैविक"
+    ],
+    [
+      "bureaucratisch",
+      "bureaucratic",
+      "नौकरशाही"
+    ],
+    [
+      "catalytisch",
+      "catalytic",
+      "उत्प्रेरक"
+    ],
+    [
+      "chaotisch",
+      "chaotic",
+      "अराजक"
+    ],
+    [
+      "chromatisch",
+      "chromatic",
+      "रंग"
+    ],
+    [
+      "cinematisch",
+      "cinematic",
+      "सिनेमाई"
+    ],
+    [
+      "civisch",
+      "civic",
+      "नागरिक"
+    ],
+    [
+      "climatisch",
+      "climatic",
+      "जलवायु"
+    ],
+    [
+      "clinisch",
+      "clinic",
+      "क्लिनिक"
+    ],
+    [
+      "comisch",
+      "comic",
+      "कॉमिक"
+    ],
+    [
+      "cosmisch",
+      "cosmic",
+      "वैश्विक"
+    ],
+    [
+      "cyclisch",
+      "cyclic",
+      "चक्रीय"
+    ],
+    [
+      "demographisch",
+      "demographic",
+      "जनसांख्यिक"
+    ],
+    [
+      "diabetisch",
+      "diabetic",
+      "मधुमेह"
+    ],
+    [
+      "diagnostisch",
+      "diagnostic",
+      "नैदानिक"
+    ],
+    [
+      "dialectisch",
+      "dialectic",
+      "द्वंद्वात्मक"
+    ],
+    [
+      "domestisch",
+      "domestic",
+      "घरेलू"
+    ],
+    [
+      "eccentrisch",
+      "eccentric",
+      "विलक्षण"
+    ],
+    [
+      "elastisch",
+      "elastic",
+      "लोचदार"
+    ],
+    [
+      "emphatisch",
+      "emphatic",
+      "जोरदार"
+    ],
+    [
+      "endemisch",
+      "endemic",
+      "स्थानिक"
+    ],
+    [
+      "episch",
+      "epic",
+      "महाकाव्य"
+    ],
+    [
+      "epidemisch",
+      "epidemic",
+      "महामारी"
+    ],
+    [
+      "ethnisch",
+      "ethnic",
+      "जातीय"
+    ],
+    [
+      "euphemistisch",
+      "euphemistic",
+      "प्रेयोक्तिपूर्ण"
+    ],
+    [
+      "exotisch",
+      "exotic",
+      "विदेशी"
+    ],
+    [
+      "explicitisch",
+      "explicit",
+      "स्पष्ट"
+    ],
+    [
+      "genetisch",
+      "genetic",
+      "आनुवंशिक"
+    ],
+    [
+      "geographisch",
+      "geographic",
+      "भौगोलिक"
+    ],
+    [
+      "geometrisch",
+      "geometric",
+      "ज्यामितीय"
+    ],
+    [
+      "historisch",
+      "historic",
+      "ऐतिहासिक"
+    ],
+    [
+      "holistisch",
+      "holistic",
+      "समग्र"
+    ],
+    [
+      "hydraulisch",
+      "hydraulic",
+      "जल"
+    ],
+    [
+      "hyperbolisch",
+      "hyperbolic",
+      "अतिशयोक्तिपूर्ण"
+    ],
+    [
+      "hypnotisch",
+      "hypnotic",
+      "सम्मोहक"
+    ],
+    [
+      "idiomatisch",
+      "idiomatic",
+      "मुहावरेदार"
+    ],
+    [
+      "impracticalisch",
+      "impractical",
+      "अव्यावहारिक"
+    ],
+    [
+      "ironisch",
+      "ironic",
+      "विडंबनापूर्ण"
+    ],
+    [
+      "Islamisch",
+      "Islamic",
+      "इस्लामी"
+    ],
+    [
+      "kinetisch",
+      "kinetic",
+      "गतिज"
+    ],
+    [
+      "linguistisch",
+      "linguistic",
+      "भाषाई"
+    ],
+    [
+      "magnetisch",
+      "magnetic",
+      "चुंबकीय"
+    ],
+    [
+      "majestisch",
+      "majestic",
+      "शानदार"
+    ],
+    [
+      "metabolisch",
+      "metabolic",
+      "चयापचय"
+    ],
+    [
+      "metallisch",
+      "metallic",
+      "धात्विक"
+    ],
+    [
+      "microscopisch",
+      "microscopic",
+      "सूक्ष्म"
+    ],
+    [
+      "monastisch",
+      "monastic",
+      "मठवासी"
+    ],
+    [
+      "neurotisch",
+      "neurotic",
+      "न्यूरोटिक"
+    ],
+    [
+      "numerisch",
+      "numeric",
+      "संख्यात्मक"
+    ],
+    [
+      "panoramisch",
+      "panoramic",
+      "पैनोरामा"
+    ],
+    [
+      "pathetisch",
+      "pathetic",
+      "दयनीय"
+    ],
+    [
+      "patriotisch",
+      "patriotic",
+      "देशभक्तिपूर्ण"
+    ],
+    [
+      "periodisch",
+      "periodic",
+      "आवधिक"
+    ],
+    [
+      "phonetisch",
+      "phonetic",
+      "ध्वन्यात्मक"
+    ],
+    [
+      "photographisch",
+      "photographic",
+      "फोटोग्राफिक"
+    ],
+    [
+      "poetisch",
+      "poetic",
+      "काव्यात्मक"
+    ],
+    [
+      "politisch",
+      "politic",
+      "राजनीतिक"
+    ],
+    [
+      "prophetisch",
+      "prophetic",
+      "भविष्यसूचक"
+    ],
+    [
+      "prosaisch",
+      "prosaic",
+      "गद्यात्मक"
+    ],
+    [
+      "psychiatrisch",
+      "psychiatric",
+      "मनोरोग"
+    ],
+    [
+      "rustisch",
+      "rustic",
+      "ग्रामीण"
+    ],
+    [
+      "sarcastisch",
+      "sarcastic",
+      "व्यंग्यात्मक"
+    ],
+    [
+      "scenisch",
+      "scenic",
+      "प्राकृतिक"
+    ],
+    [
+      "schematisch",
+      "schematic",
+      "योजनाबद्ध"
+    ],
+    [
+      "semantisch",
+      "semantic",
+      "अर्थगत"
+    ],
+    [
+      "sphericalisch",
+      "spherical",
+      "गोलाकार"
+    ],
+    [
+      "statisch",
+      "static",
+      "स्थिर"
+    ],
+    [
+      "tacticalisch",
+      "tactical",
+      "सामरिक"
+    ],
+    [
+      "technicalisch",
+      "technical",
+      "तकनीकी"
+    ],
+    [
+      "thematisch",
+      "thematic",
+      "विषयगत"
+    ],
+    [
+      "theoretisch",
+      "theoretic",
+      "सैद्धांतिक"
+    ],
+    [
+      "typisch",
+      "typic",
+      "विशिष्ट"
+    ],
+    [
+      "volcanisch",
+      "volcanic",
+      "ज्वालामुखी"
+    ],
+    [
+      "algebraisch",
+      "algebraic",
+      "बीजगणितीय"
+    ],
+    [
+      "algorithmisch",
+      "algorithmic",
+      "एल्गोरिदम"
+    ],
+    [
+      "analgesisch",
+      "analgesic",
+      "दर्दनाशक"
+    ],
+    [
+      "anthropogenisch",
+      "anthropogenic",
+      "मानवजनित"
+    ],
+    [
+      "antiseptisch",
+      "antiseptic",
+      "रोगाणुरोधक"
+    ],
+    [
+      "apocalyptisch",
+      "apocalyptic",
+      "सर्वनाश"
+    ],
+    [
+      "archaeologicalisch",
+      "archaeological",
+      "पुरातात्विक"
+    ],
+    [
+      "architectonisch",
+      "architectonic",
+      "वास्तु"
+    ],
+    [
+      "asthmatisch",
+      "asthmatic",
+      "दमा"
+    ],
+    [
+      "astrophysicalisch",
+      "astrophysical",
+      "खगोल भौतिक"
+    ],
+    [
+      "autobiographicalisch",
+      "autobiographical",
+      "आत्मकथात्मक"
+    ],
+    [
+      "autocratisch",
+      "autocratic",
+      "निरंकुश"
+    ],
+    [
+      "axiomatisch",
+      "axiomatic",
+      "स्वयंसिद्ध"
+    ],
+    [
+      "biochemicalisch",
+      "biochemical",
+      "जैव रासायनिक"
+    ],
+    [
+      "biographicalisch",
+      "biographical",
+      "जीवनी"
+    ],
+    [
+      "bronchialisch",
+      "bronchial",
+      "ब्रोंकियल"
+    ],
+    [
+      "cardiovascularisch",
+      "cardiovascular",
+      "हृदय"
+    ],
+    [
+      "catastrophisch",
+      "catastrophic",
+      "विनाशकारी"
+    ],
+    [
+      "chronologicalisch",
+      "chronological",
+      "कालानुक्रमिक"
+    ],
+    [
+      "clinicalisch",
+      "clinical",
+      "नैदानिक"
+    ],
+    [
+      "colloquialisch",
+      "colloquial",
+      "बोलचाल"
+    ],
+    [
+      "cosmologicalisch",
+      "cosmological",
+      "ब्रह्मांड"
+    ],
+    [
+      "cryptographisch",
+      "cryptographic",
+      "क्रिप्टोग्राफिक"
+    ],
+    [
+      "cubisch",
+      "cubic",
+      "घन"
+    ],
+    [
+      "cylindricalisch",
+      "cylindrical",
+      "बेलनाकार"
+    ],
+    [
+      "deterministisch",
+      "deterministic",
+      "नियतिवादी"
+    ],
+    [
+      "didactisch",
+      "didactic",
+      "शिक्षाप्रद"
+    ],
+    [
+      "eclectisch",
+      "eclectic",
+      "उदार"
+    ],
+    [
+      "ecologicalisch",
+      "ecological",
+      "पारिस्थितिक"
+    ],
+    [
+      "econometrisch",
+      "econometric",
+      "अर्थमितीय"
+    ],
+    [
+      "electrolytisch",
+      "electrolytic",
+      "इलेक्ट्रोलाइटिक"
+    ],
+    [
+      "electromagnetisch",
+      "electromagnetic",
+      "विद्युत चुंबकीय"
+    ],
+    [
+      "elliptisch",
+      "elliptic",
+      "दीर्घवृत्तीय"
+    ],
+    [
+      "empiricalisch",
+      "empirical",
+      "अनुभवजन्य"
+    ],
+    [
+      "enzymatisch",
+      "enzymatic",
+      "एंजाइम"
+    ],
+    [
+      "ergonomisch",
+      "ergonomic",
+      "कार्यिक"
+    ],
+    [
+      "ethnographisch",
+      "ethnographic",
+      "नृवंशविज्ञान"
+    ],
+    [
+      "etymologicalisch",
+      "etymological",
+      "व्युत्पत्ति"
+    ],
+    [
+      "evolutionaryisch",
+      "evolutionary",
+      "विकासवादी"
+    ],
+    [
+      "exponentialisch",
+      "exponential",
+      "घातांक"
+    ],
+    [
+      "expressionistisch",
+      "expressionistic",
+      "अभिव्यक्तिवादी"
+    ],
+    [
+      "extrinsisch",
+      "extrinsic",
+      "बाह्य"
+    ],
+    [
+      "ferromagnetisch",
+      "ferromagnetic",
+      "लौहचुंबकीय"
+    ],
+    [
+      "forensisch",
+      "forensic",
+      "फॉरेंसिक"
+    ],
+    [
+      "futuristisch",
+      "futuristic",
+      "भविष्यवादी"
+    ],
+    [
+      "galvanisch",
+      "galvanic",
+      "गैल्वेनिक"
+    ],
+    [
+      "genealogicalisch",
+      "genealogical",
+      "वंशावली"
+    ],
+    [
+      "generisch",
+      "generic",
+      "सामान्य"
+    ],
+    [
+      "genomisch",
+      "genomic",
+      "जीनोम"
+    ],
+    [
+      "geophysicalisch",
+      "geophysical",
+      "भूभौतिक"
+    ],
+    [
+      "grammaticalisch",
+      "grammatical",
+      "व्याकरणिक"
+    ],
+    [
+      "graphisch",
+      "graphic",
+      "ग्राफिक"
+    ],
+    [
+      "gravitationalisch",
+      "gravitational",
+      "गुरुत्वीय"
+    ],
+    [
+      "harmonisch",
+      "harmonic",
+      "सुरीला"
+    ],
+    [
+      "heuristisch",
+      "heuristic",
+      "अनुमानी"
+    ],
+    [
+      "hierarchicalisch",
+      "hierarchical",
+      "पदानुक्रमिक"
+    ],
+    [
+      "holographisch",
+      "holographic",
+      "होलोग्राफिक"
+    ],
+    [
+      "homogeneousisch",
+      "homogeneous",
+      "समांगी"
+    ],
+    [
+      "hydrodynamisch",
+      "hydrodynamic",
+      "जलगतिक"
+    ],
+    [
+      "ideologicalisch",
+      "ideological",
+      "विचारधारात्मक"
+    ],
+    [
+      "idiosyncratisch",
+      "idiosyncratic",
+      "विलक्षण"
+    ],
+    [
+      "immunologicalisch",
+      "immunological",
+      "प्रतिरक्षा"
+    ],
+    [
+      "impressionistisch",
+      "impressionistic",
+      "प्रभाववादी"
+    ],
+    [
+      "improvisationalisch",
+      "improvisational",
+      "तात्कालिक"
+    ],
+    [
+      "inflammatoryisch",
+      "inflammatory",
+      "सूजन"
+    ],
+    [
+      "inflationaryisch",
+      "inflationary",
+      "मुद्रास्फीति"
+    ],
+    [
+      "informativeisch",
+      "informative",
+      "सूचनाप्रद"
+    ],
+    [
+      "infrastructureisch",
+      "infrastructure",
+      "अवसंरचना"
+    ],
+    [
+      "innovativeisch",
+      "innovative",
+      "नवीन"
+    ],
+    [
+      "institutionalisch",
+      "institutional",
+      "संस्थागत"
+    ],
+    [
+      "instrumentalisch",
+      "instrumental",
+      "साधन"
+    ],
+    [
+      "intrinsisch",
+      "intrinsic",
+      "आंतरिक"
+    ],
+    [
+      "isotropisch",
+      "isotropic",
+      "समदैशिक"
+    ],
+    [
+      "lexicalisch",
+      "lexical",
+      "शाब्दिक"
+    ],
+    [
+      "linearisch",
+      "linear",
+      "रैखिक"
+    ],
+    [
+      "logarithmisch",
+      "logarithmic",
+      "लघुगणक"
+    ],
+    [
+      "lyrisch",
+      "lyric",
+      "गीतात्मक"
+    ],
+    [
+      "macroscopisch",
+      "macroscopic",
+      "विस्तृत"
+    ],
+    [
+      "melodramatisch",
+      "melodramatic",
+      "नाटकीय"
+    ],
+    [
+      "metaphoricalisch",
+      "metaphorical",
+      "रूपक"
+    ],
+    [
+      "methodologicalisch",
+      "methodological",
+      "विधिपरक"
+    ],
+    [
+      "mnemonisch",
+      "mnemonic",
+      "स्मृति"
+    ],
+    [
+      "modalisch",
+      "modal",
+      "मॉडल"
+    ],
+    [
+      "molecularisch",
+      "molecular",
+      "आणविक"
+    ],
+    [
+      "monolithisch",
+      "monolithic",
+      "एकाश्म"
+    ],
+    [
+      "monotonisch",
+      "monotonic",
+      "एकस्वर"
+    ],
+    [
+      "morphologicalisch",
+      "morphological",
+      "रूपात्मक"
+    ],
+    [
+      "multimediaisch",
+      "multimedia",
+      "मल्टीमीडिया"
+    ],
+    [
+      "mysticalisch",
+      "mystical",
+      "रहस्यमय"
+    ],
+    [
+      "narcotisch",
+      "narcotic",
+      "नशीला"
+    ],
+    [
+      "narrativeisch",
+      "narrative",
+      "कथात्मक"
+    ],
+    [
+      "neurologicalisch",
+      "neurological",
+      "न्यूरोलॉजिकल"
+    ],
+    [
+      "nominalisch",
+      "nominal",
+      "नाममात्र"
+    ],
+    [
+      "nonlinearisch",
+      "nonlinear",
+      "अरैखिक"
+    ],
+    [
+      "nostalgisch",
+      "nostalgic",
+      "विरासत"
+    ],
+    [
+      "ontologicalisch",
+      "ontological",
+      "अस्तित्ववादी"
+    ],
+    [
+      "operationalisch",
+      "operational",
+      "कार्यात्मक"
+    ],
+    [
+      "opticalisch",
+      "optical",
+      "ऑप्टिकल"
+    ],
+    [
+      "optimalisch",
+      "optimal",
+      "इष्टतम"
+    ],
+    [
+      "orthopedisch",
+      "orthopedic",
+      "ऑर्थोपेडिक"
+    ],
+    [
+      "paradigmatisch",
+      "paradigmatic",
+      "प्रतिमान"
+    ],
+    [
+      "parametrisch",
+      "parametric",
+      "पैरामीट्रिक"
+    ],
+    [
+      "parasitisch",
+      "parasitic",
+      "परजीवी"
+    ],
+    [
+      "parochialisch",
+      "parochial",
+      "संकीर्ण"
+    ],
+    [
+      "pathogenisch",
+      "pathogenic",
+      "रोगजनक"
+    ],
+    [
+      "pedagogicalisch",
+      "pedagogical",
+      "शैक्षणिक"
+    ],
+    [
+      "peripheralisch",
+      "peripheral",
+      "परिधीय"
+    ],
+    [
+      "phylogenetisch",
+      "phylogenetic",
+      "वंशावली"
+    ],
+    [
+      "pneumatisch",
+      "pneumatic",
+      "वायवीय"
+    ],
+    [
+      "polemisch",
+      "polemic",
+      "विवादात्मक"
+    ],
+    [
+      "polyphonisch",
+      "polyphonic",
+      "बहुस्वर"
+    ],
+    [
+      "pragmatisch",
+      "pragmatic",
+      "व्यावहारिक"
+    ],
+    [
+      "prehistorisch",
+      "prehistoric",
+      "प्रागैतिहासिक"
+    ],
+    [
+      "probabilistisch",
+      "probabilistic",
+      "संभाव्य"
+    ],
+    [
+      "prophylactisch",
+      "prophylactic",
+      "निवारक"
+    ],
+    [
+      "prosodisch",
+      "prosodic",
+      "छंद"
+    ],
+    [
+      "prosthetisch",
+      "prosthetic",
+      "कृत्रिम अंग"
+    ],
+    [
+      "psychologicalisch",
+      "psychological",
+      "मनोवैज्ञानिक"
+    ],
+    [
+      "pyrotechnisch",
+      "pyrotechnic",
+      "आतिशबाजी"
+    ],
+    [
+      "quadratisch",
+      "quadratic",
+      "द्विघात"
+    ],
+    [
+      "qualitativeisch",
+      "qualitative",
+      "गुणात्मक"
+    ],
+    [
+      "quantitativeisch",
+      "quantitative",
+      "मात्रात्मक"
+    ],
+    [
+      "recursiveisch",
+      "recursive",
+      "पुनरावर्ती"
+    ],
+    [
+      "relativistisch",
+      "relativistic",
+      "सापेक्ष"
+    ],
+    [
+      "rhetoricalisch",
+      "rhetorical",
+      "वक्रपटु"
+    ],
+    [
+      "rhythmisch",
+      "rhythmic",
+      "लयबद्ध"
+    ],
+    [
+      "satirisch",
+      "satiric",
+      "व्यंग्यात्मक"
+    ],
+    [
+      "semiotisch",
+      "semiotic",
+      "संकेत"
+    ],
+    [
+      "stochastisch",
+      "stochastic",
+      "यादृच्छिक"
+    ],
+    [
+      "stylistisch",
+      "stylistic",
+      "शैलीगत"
+    ],
+    [
+      "syllabisch",
+      "syllabic",
+      "अक्षर"
+    ],
+    [
+      "symptomatisch",
+      "symptomatic",
+      "लक्षणात्मक"
+    ],
+    [
+      "syntactisch",
+      "syntactic",
+      "वाक्यात्मक"
+    ],
+    [
+      "taxonomisch",
+      "taxonomic",
+      "वर्गीकरण"
+    ],
+    [
+      "technologicalisch",
+      "technological",
+      "तकनीकी"
+    ],
+    [
+      "tectonisch",
+      "tectonic",
+      "भूगर्भिक"
+    ],
+    [
+      "telepathisch",
+      "telepathic",
+      "टेलीपैथिक"
+    ],
+    [
+      "theoreticalisch",
+      "theoretical",
+      "सैद्धांतिक"
+    ],
+    [
+      "thermodynamisch",
+      "thermodynamic",
+      "ऊष्मागतिक"
+    ],
+    [
+      "topographisch",
+      "topographic",
+      "स्थलाकृतिक"
+    ],
+    [
+      "traumatisch",
+      "traumatic",
+      "आघात"
+    ],
+    [
+      "trigonometrisch",
+      "trigonometric",
+      "त्रिकोणमितीय"
+    ],
+    [
+      "typographisch",
+      "typographic",
+      "टाइपोग्राफिक"
+    ],
+    [
+      "ultrasonisch",
+      "ultrasonic",
+      "अल्ट्रासोनिक"
+    ],
+    [
+      "universalisch",
+      "universal",
+      "सार्वभौम"
+    ],
+    [
+      "utilitarianisch",
+      "utilitarian",
+      "उपयोगितावादी"
+    ]
+  ],
+  "pattern_8_ive": [
+    [
+      "activ",
+      "active",
+      "सक्रिय"
+    ],
+    [
+      "passiv",
+      "passive",
+      "निष्क्रिय"
+    ],
+    [
+      "creativ",
+      "creative",
+      "रचनात्मक"
+    ],
+    [
+      "positiv",
+      "positive",
+      "सकारात्मक"
+    ],
+    [
+      "negativ",
+      "negative",
+      "नकारात्मक"
+    ],
+    [
+      "intensiv",
+      "intensive",
+      "गहन"
+    ],
+    [
+      "effectiv",
+      "effective",
+      "प्रभावी"
+    ],
+    [
+      "attractiv",
+      "attractive",
+      "आकर्षक"
+    ],
+    [
+      "impulsiv",
+      "impulsive",
+      "आवेगी"
+    ],
+    [
+      "instinctiv",
+      "instinctive",
+      "सहज"
+    ],
+    [
+      "intuitiv",
+      "intuitive",
+      "सहजज्ञानी"
+    ],
+    [
+      "aggressiv",
+      "aggressive",
+      "आक्रामक"
+    ],
+    [
+      "progressiv",
+      "progressive",
+      "प्रगतिशील"
+    ],
+    [
+      "productiv",
+      "productive",
+      "उत्पादक"
+    ],
+    [
+      "subjectiv",
+      "subjective",
+      "व्यक्तिपरक"
+    ],
+    [
+      "objectiv",
+      "objective",
+      "वस्तुनिष्ठ"
+    ],
+    [
+      "primitiv",
+      "primitive",
+      "आदिम"
+    ],
+    [
+      "sensitiv",
+      "sensitive",
+      "संवेदनशील"
+    ],
+    [
+      "selectiv",
+      "selective",
+      "चयनात्मक"
+    ],
+    [
+      "sportiv",
+      "sportive",
+      "खेलकूद वाला"
+    ],
+    [
+      "nativ",
+      "native",
+      "मूल निवासी"
+    ],
+    [
+      "alternativ",
+      "alternative",
+      "विकल्प"
+    ],
+    [
+      "conservativ",
+      "conservative",
+      "रूढ़िवादी"
+    ],
+    [
+      "decorativ",
+      "decorative",
+      "सजावटी"
+    ],
+    [
+      "defensiv",
+      "defensive",
+      "रक्षात्मक"
+    ],
+    [
+      "offensiv",
+      "offensive",
+      "आपत्तिजनक"
+    ],
+    [
+      "expensiv",
+      "expensive",
+      "महंगा"
+    ],
+    [
+      "extensiv",
+      "extensive",
+      "व्यापक"
+    ],
+    [
+      "massiv",
+      "massive",
+      "बड़ा"
+    ],
+    [
+      "relativ",
+      "relative",
+      "रिश्तेदार"
+    ],
+    [
+      "representativ",
+      "representative",
+      "प्रतिनिधि"
+    ],
+    [
+      "competitiv",
+      "competitive",
+      "प्रतिस्पर्धी"
+    ],
+    [
+      "additiv",
+      "additive",
+      "योजक"
+    ],
+    [
+      "cognitiv",
+      "cognitive",
+      "संज्ञानात्मक"
+    ],
+    [
+      "fugitiv",
+      "fugitive",
+      "भगोड़ा"
+    ],
+    [
+      "narrativ",
+      "narrative",
+      "कथात्मक"
+    ],
+    [
+      "preventiv",
+      "preventive",
+      "निवारक"
+    ],
+    [
+      "respectiv",
+      "respective",
+      "संबंधित"
+    ],
+    [
+      "abusiv",
+      "abusive",
+      "अपमानजनक"
+    ],
+    [
+      "adaptiv",
+      "adaptive",
+      "अनुकूली"
+    ],
+    [
+      "adhesiv",
+      "adhesive",
+      "चिपकने वाला"
+    ],
+    [
+      "administrativ",
+      "administrative",
+      "प्रशासनिक"
+    ],
+    [
+      "affirmativ",
+      "affirmative",
+      "सकारात्मक"
+    ],
+    [
+      "anticipativ",
+      "anticipative",
+      "पूर्वानुमान"
+    ],
+    [
+      "appreciativ",
+      "appreciative",
+      "कृतज्ञ"
+    ],
+    [
+      "argumentativ",
+      "argumentative",
+      "तर्कपूर्ण"
+    ],
+    [
+      "assertiv",
+      "assertive",
+      "मुखर"
+    ],
+    [
+      "associativ",
+      "associative",
+      "साहचर्य"
+    ],
+    [
+      "authoritativ",
+      "authoritative",
+      "आधिकारिक"
+    ],
+    [
+      "collaborativ",
+      "collaborative",
+      "सहयोगी"
+    ],
+    [
+      "collectiv",
+      "collective",
+      "सामूहिक"
+    ],
+    [
+      "combativ",
+      "combative",
+      "लड़ाकू"
+    ],
+    [
+      "commemorativ",
+      "commemorative",
+      "स्मारक"
+    ],
+    [
+      "communicativ",
+      "communicative",
+      "संचारी"
+    ],
+    [
+      "comparativ",
+      "comparative",
+      "तुलनात्मक"
+    ],
+    [
+      "comprehensiv",
+      "comprehensive",
+      "व्यापक"
+    ],
+    [
+      "compulsiv",
+      "compulsive",
+      "बाध्यकारी"
+    ],
+    [
+      "conclusiv",
+      "conclusive",
+      "निर्णायक"
+    ],
+    [
+      "conductiv",
+      "conductive",
+      "सुचालक"
+    ],
+    [
+      "constructiv",
+      "constructive",
+      "रचनात्मक"
+    ],
+    [
+      "contemplativ",
+      "contemplative",
+      "चिंतनशील"
+    ],
+    [
+      "cooperativ",
+      "cooperative",
+      "सहकारी"
+    ],
+    [
+      "correctiv",
+      "corrective",
+      "सुधारात्मक"
+    ],
+    [
+      "cumulativ",
+      "cumulative",
+      "संचयी"
+    ],
+    [
+      "demonstrativ",
+      "demonstrative",
+      "प्रदर्शनात्मक"
+    ],
+    [
+      "descriptiv",
+      "descriptive",
+      "वर्णनात्मक"
+    ],
+    [
+      "destructiv",
+      "destructive",
+      "विनाशकारी"
+    ],
+    [
+      "digestiv",
+      "digestive",
+      "पाचन"
+    ],
+    [
+      "distributiv",
+      "distributive",
+      "वितरणात्मक"
+    ],
+    [
+      "electiv",
+      "elective",
+      "वैकल्पिक"
+    ],
+    [
+      "evocativ",
+      "evocative",
+      "भावपूर्ण"
+    ],
+    [
+      "excessiv",
+      "excessive",
+      "अत्यधिक"
+    ],
+    [
+      "exclusiv",
+      "exclusive",
+      "विशेष"
+    ],
+    [
+      "executiv",
+      "executive",
+      "कार्यकारी"
+    ],
+    [
+      "exhaustiv",
+      "exhaustive",
+      "संपूर्ण"
+    ],
+    [
+      "expansiv",
+      "expansive",
+      "विस्तारशील"
+    ],
+    [
+      "explosiv",
+      "explosive",
+      "विस्फोटक"
+    ],
+    [
+      "expressiv",
+      "expressive",
+      "अभिव्यक्तिपूर्ण"
+    ],
+    [
+      "figurativ",
+      "figurative",
+      "आलंकारिक"
+    ],
+    [
+      "generativ",
+      "generative",
+      "उत्पादक"
+    ],
+    [
+      "imaginativ",
+      "imaginative",
+      "कल्पनाशील"
+    ],
+    [
+      "imperativ",
+      "imperative",
+      "अनिवार्य"
+    ],
+    [
+      "impressiv",
+      "impressive",
+      "प्रभावशाली"
+    ],
+    [
+      "inclusiv",
+      "inclusive",
+      "समावेशी"
+    ],
+    [
+      "indicativ",
+      "indicative",
+      "सूचक"
+    ],
+    [
+      "inductiv",
+      "inductive",
+      "आगमनात्मक"
+    ],
+    [
+      "informativ",
+      "informative",
+      "सूचनाप्रद"
+    ],
+    [
+      "inquisitiv",
+      "inquisitive",
+      "जिज्ञासु"
+    ],
+    [
+      "instructiv",
+      "instructive",
+      "शिक्षाप्रद"
+    ],
+    [
+      "interactiv",
+      "interactive",
+      "पारस्परिक"
+    ],
+    [
+      "invasiv",
+      "invasive",
+      "आक्रामक"
+    ],
+    [
+      "inventiv",
+      "inventive",
+      "अन्वेषी"
+    ],
+    [
+      "iterativ",
+      "iterative",
+      "पुनरावृत्त"
+    ],
+    [
+      "legislativ",
+      "legislative",
+      "विधान"
+    ],
+    [
+      "manipulativ",
+      "manipulative",
+      "हेराफेरी"
+    ],
+    [
+      "nominativ",
+      "nominative",
+      "नामिक"
+    ],
+    [
+      "nutritiv",
+      "nutritive",
+      "पोषक"
+    ],
+    [
+      "operativ",
+      "operative",
+      "कार्यात्मक"
+    ],
+    [
+      "persuasiv",
+      "persuasive",
+      "सम्मोहक"
+    ],
+    [
+      "possessiv",
+      "possessive",
+      "अधिकारात्मक"
+    ],
+    [
+      "prohibitiv",
+      "prohibitive",
+      "निषेधात्मक"
+    ],
+    [
+      "prospectiv",
+      "prospective",
+      "संभावित"
+    ],
+    [
+      "protectiv",
+      "protective",
+      "सुरक्षात्मक"
+    ],
+    [
+      "receptiv",
+      "receptive",
+      "ग्रहणशील"
+    ],
+    [
+      "reflectiv",
+      "reflective",
+      "चिंतनशील"
+    ],
+    [
+      "regenerativ",
+      "regenerative",
+      "पुनर्योजी"
+    ],
+    [
+      "restrictiv",
+      "restrictive",
+      "प्रतिबंधात्मक"
+    ],
+    [
+      "retrospectiv",
+      "retrospective",
+      "पूर्वव्यापी"
+    ],
+    [
+      "speculativ",
+      "speculative",
+      "अटकलबाज"
+    ],
+    [
+      "successiv",
+      "successive",
+      "क्रमिक"
+    ],
+    [
+      "supportiv",
+      "supportive",
+      "सहायक"
+    ],
+    [
+      "suggestiv",
+      "suggestive",
+      "सुझावपूर्ण"
+    ],
+    [
+      "superlativ",
+      "superlative",
+      "उत्तम"
+    ],
+    [
+      "abortiv",
+      "abortive",
+      "निष्फल"
+    ],
+    [
+      "absorptiv",
+      "absorptive",
+      "अवशोषक"
+    ],
+    [
+      "accretiv",
+      "accretive",
+      "संचयी"
+    ],
+    [
+      "accusativ",
+      "accusative",
+      "अभियोग"
+    ],
+    [
+      "acquisitiv",
+      "acquisitive",
+      "अर्जनशील"
+    ],
+    [
+      "adjunctiv",
+      "adjunctive",
+      "संलग्न"
+    ],
+    [
+      "adoptiv",
+      "adoptive",
+      "गोद लेना"
+    ],
+    [
+      "adversativ",
+      "adversative",
+      "विरोधी"
+    ],
+    [
+      "affectiv",
+      "affective",
+      "भावनात्मक"
+    ],
+    [
+      "amusiv",
+      "amusive",
+      "मनोरंजक"
+    ],
+    [
+      "appetitiv",
+      "appetitive",
+      "इच्छाशक्ति"
+    ],
+    [
+      "apprehensiv",
+      "apprehensive",
+      "भयभीत"
+    ],
+    [
+      "approachiv",
+      "approachive",
+      "पहुंच"
+    ],
+    [
+      "appropriativ",
+      "appropriative",
+      "अधिग्रहण"
+    ],
+    [
+      "approximativ",
+      "approximative",
+      "अनुमानित"
+    ],
+    [
+      "assumptiv",
+      "assumptive",
+      "धारणात्मक"
+    ],
+    [
+      "attentiv",
+      "attentive",
+      "सावधान"
+    ],
+    [
+      "attributiv",
+      "attributive",
+      "विशेषण"
+    ],
+    [
+      "auditiv",
+      "auditive",
+      "श्रवण"
+    ],
+    [
+      "augmentativ",
+      "augmentative",
+      "वर्धक"
+    ],
+    [
+      "autosuggestiv",
+      "autosuggestive",
+      "स्व-सुझाव"
+    ],
+    [
+      "aversiv",
+      "aversive",
+      "घृणाजनक"
+    ],
+    [
+      "bequestiv",
+      "bequestive",
+      "वसीयत"
+    ],
+    [
+      "capitativ",
+      "capitative",
+      "प्रति व्यक्ति"
+    ],
+    [
+      "captiv",
+      "captive",
+      "बंदी"
+    ],
+    [
+      "causativ",
+      "causative",
+      "कारण"
+    ],
+    [
+      "coerciv",
+      "coercive",
+      "बलपूर्वक"
+    ],
+    [
+      "cohesiv",
+      "cohesive",
+      "संसक्त"
+    ],
+    [
+      "consumptiv",
+      "consumptive",
+      "क्षय"
+    ],
+    [
+      "contraceptiv",
+      "contraceptive",
+      "गर्भनिरोधक"
+    ],
+    [
+      "conversiv",
+      "conversive",
+      "परिवर्तनशील"
+    ],
+    [
+      "correlativ",
+      "correlative",
+      "सहसंबंधी"
+    ],
+    [
+      "corrosiv",
+      "corrosive",
+      "संक्षारक"
+    ],
+    [
+      "curativ",
+      "curative",
+      "उपचारात्मक"
+    ],
+    [
+      "deductiv",
+      "deductive",
+      "निगमनात्मक"
+    ],
+    [
+      "derivativ",
+      "derivative",
+      "व्युत्पन्न"
+    ],
+    [
+      "detectiv",
+      "detective",
+      "जासूस"
+    ],
+    [
+      "determinativ",
+      "determinative",
+      "निर्धारक"
+    ],
+    [
+      "diminutiv",
+      "diminutive",
+      "क्षुद्र"
+    ],
+    [
+      "directiv",
+      "directive",
+      "निर्देशात्मक"
+    ],
+    [
+      "disruptiv",
+      "disruptive",
+      "विघटनकारी"
+    ],
+    [
+      "divisiv",
+      "divisive",
+      "विभाजनकारी"
+    ],
+    [
+      "emotiv",
+      "emotive",
+      "भावनात्मक"
+    ],
+    [
+      "extractiv",
+      "extractive",
+      "निष्कर्षण"
+    ],
+    [
+      "formativ",
+      "formative",
+      "गठनात्मक"
+    ],
+    [
+      "laxativ",
+      "laxative",
+      "रेचक"
+    ],
+    [
+      "palliativ",
+      "palliative",
+      "पीड़ा निवारक"
+    ],
+    [
+      "suppressiv",
+      "suppressive",
+      "दमनकारी"
+    ]
+  ],
+  "pattern_9_ous": [
+    [
+      "nervös",
+      "nervous",
+      "घबराया हुआ"
+    ],
+    [
+      "curiös",
+      "curious",
+      "जिज्ञासु"
+    ],
+    [
+      "seriös",
+      "serious",
+      "गंभीर"
+    ],
+    [
+      "generös",
+      "generous",
+      "उदार"
+    ],
+    [
+      "mysteriös",
+      "mysterious",
+      "रहस्यमय"
+    ],
+    [
+      "harmoniös",
+      "harmonious",
+      "सामंजस्यपूर्ण"
+    ],
+    [
+      "anonymös",
+      "anonymous",
+      "गुमनाम"
+    ],
+    [
+      "gloriös",
+      "glorious",
+      "शानदार"
+    ],
+    [
+      "luxuriös",
+      "luxurious",
+      "शानदार"
+    ],
+    [
+      "nebulös",
+      "nebulous",
+      "अस्पष्ट"
+    ],
+    [
+      "religiös",
+      "religious",
+      "धार्मिक"
+    ],
+    [
+      "ambitiös",
+      "ambitious",
+      "महत्वाकांक्षी"
+    ],
+    [
+      "infectiös",
+      "infectious",
+      "संक्रामक"
+    ],
+    [
+      "suspiciös",
+      "suspicious",
+      "संदिग्ध"
+    ],
+    [
+      "variös",
+      "various",
+      "विभिन्न"
+    ],
+    [
+      "dangerös",
+      "dangerous",
+      "खतरनाक"
+    ],
+    [
+      "famös",
+      "famous",
+      "प्रसिद्ध"
+    ],
+    [
+      "enormös",
+      "enormous",
+      "विशाल"
+    ],
+    [
+      "numerös",
+      "numerous",
+      "कई"
+    ],
+    [
+      "poisonös",
+      "poisonous",
+      "जहरीला"
+    ],
+    [
+      "marvelös",
+      "marvelous",
+      "अद्भुत"
+    ],
+    [
+      "humorös",
+      "humorous",
+      "मजाकिया"
+    ],
+    [
+      "vigorös",
+      "vigorous",
+      "जोरदार"
+    ],
+    [
+      "courageös",
+      "courageous",
+      "बहादुर"
+    ],
+    [
+      "advantageös",
+      "advantageous",
+      "लाभकारी"
+    ],
+    [
+      "ambiguös",
+      "ambiguous",
+      "अस्पष्ट"
+    ],
+    [
+      "analogös",
+      "analogous",
+      "समान"
+    ],
+    [
+      "autonomös",
+      "autonomous",
+      "स्वायत्त"
+    ],
+    [
+      "continuös",
+      "continuous",
+      "निरंतर"
+    ],
+    [
+      "courteös",
+      "courteous",
+      "विनम्र"
+    ],
+    [
+      "dubiös",
+      "dubious",
+      "संदिग्ध"
+    ],
+    [
+      "erroneös",
+      "erroneous",
+      "गलत"
+    ],
+    [
+      "fabulös",
+      "fabulous",
+      "शानदार"
+    ],
+    [
+      "gorgeös",
+      "gorgeous",
+      "भव्य"
+    ],
+    [
+      "heterogeneös",
+      "heterogeneous",
+      "विषम"
+    ],
+    [
+      "homogeneös",
+      "homogeneous",
+      "समांगी"
+    ],
+    [
+      "instantaneös",
+      "instantaneous",
+      "तात्कालिक"
+    ],
+    [
+      "jealös",
+      "jealous",
+      "ईर्ष्यालु"
+    ],
+    [
+      "joyös",
+      "joyous",
+      "खुश"
+    ],
+    [
+      "laboriös",
+      "laborious",
+      "परिश्रमी"
+    ],
+    [
+      "monotonös",
+      "monotonous",
+      "एकस्वर"
+    ],
+    [
+      "mountainös",
+      "mountainous",
+      "पहाड़ी"
+    ],
+    [
+      "notoriös",
+      "notorious",
+      "कुख्यात"
+    ],
+    [
+      "obviös",
+      "obvious",
+      "स्पष्ट"
+    ],
+    [
+      "piös",
+      "pious",
+      "धार्मिक"
+    ],
+    [
+      "preciös",
+      "precious",
+      "कीमती"
+    ],
+    [
+      "previös",
+      "previous",
+      "पिछला"
+    ],
+    [
+      "righteös",
+      "righteous",
+      "धर्मात्मा"
+    ],
+    [
+      "rigorös",
+      "rigorous",
+      "कठोर"
+    ],
+    [
+      "spontaneös",
+      "spontaneous",
+      "सहज"
+    ],
+    [
+      "strenuös",
+      "strenuous",
+      "कठिन"
+    ],
+    [
+      "superfluös",
+      "superfluous",
+      "अतिरिक्त"
+    ],
+    [
+      "synonymös",
+      "synonymous",
+      "समानार्थी"
+    ],
+    [
+      "tediös",
+      "tedious",
+      "उबाऊ"
+    ],
+    [
+      "unanimös",
+      "unanimous",
+      "सर्वसम्मत"
+    ],
+    [
+      "virtuös",
+      "virtuous",
+      "सदाचारी"
+    ],
+    [
+      "zealös",
+      "zealous",
+      "उत्साही"
+    ],
+    [
+      "atrociös",
+      "atrocious",
+      "भयानक"
+    ],
+    [
+      "capaciös",
+      "capacious",
+      "विशाल"
+    ],
+    [
+      "conscientiös",
+      "conscientious",
+      "ईमानदार"
+    ],
+    [
+      "conspicuös",
+      "conspicuous",
+      "स्पष्ट"
+    ],
+    [
+      "contagiös",
+      "contagious",
+      "संक्रामक"
+    ],
+    [
+      "contentiös",
+      "contentious",
+      "विवादास्पद"
+    ],
+    [
+      "decorös",
+      "decorous",
+      "शिष्ट"
+    ],
+    [
+      "ferociös",
+      "ferocious",
+      "क्रूर"
+    ],
+    [
+      "frivolös",
+      "frivolous",
+      "तुच्छ"
+    ],
+    [
+      "graciös",
+      "gracious",
+      "कृपालु"
+    ],
+    [
+      "hideös",
+      "hideous",
+      "भद्दा"
+    ],
+    [
+      "hilariös",
+      "hilarious",
+      "मजाकिया"
+    ],
+    [
+      "indigenös",
+      "indigenous",
+      "देशी"
+    ],
+    [
+      "ingeniös",
+      "ingenious",
+      "सरल"
+    ],
+    [
+      "miraculös",
+      "miraculous",
+      "चमत्कारी"
+    ],
+    [
+      "ominös",
+      "ominous",
+      "अनिष्टसूचक"
+    ],
+    [
+      "pompös",
+      "pompous",
+      "दिखावटी"
+    ],
+    [
+      "prosperös",
+      "prosperous",
+      "समृद्ध"
+    ],
+    [
+      "ridiculös",
+      "ridiculous",
+      "हास्यास्पद"
+    ],
+    [
+      "adventurös",
+      "adventurous",
+      "साहसी"
+    ],
+    [
+      "aqueös",
+      "aqueous",
+      "जलीय"
+    ],
+    [
+      "carnivorös",
+      "carnivorous",
+      "मांसाहारी"
+    ],
+    [
+      "herbivorös",
+      "herbivorous",
+      "शाकाहारी"
+    ],
+    [
+      "ravenös",
+      "ravenous",
+      "भूखा"
+    ],
+    [
+      "voraciös",
+      "voracious",
+      "लालची"
+    ],
+    [
+      "amphibiös",
+      "amphibious",
+      "उभयचर"
+    ],
+    [
+      "anxiös",
+      "anxious",
+      "चिंतित"
+    ],
+    [
+      "cautiös",
+      "cautious",
+      "सतर्क"
+    ],
+    [
+      "consciös",
+      "conscious",
+      "सचेत"
+    ],
+    [
+      "deliciös",
+      "delicious",
+      "स्वादिष्ट"
+    ],
+    [
+      "furiös",
+      "furious",
+      "क्रोधित"
+    ],
+    [
+      "hazardös",
+      "hazardous",
+      "खतरनाक"
+    ]
+  ],
+  "pattern_10_ary": [
+    [
+      "militär",
+      "military",
+      "सैन्य"
+    ],
+    [
+      "singularär",
+      "singular",
+      "एकवचन"
+    ],
+    [
+      "pluralär",
+      "plural",
+      "बहुवचन"
+    ],
+    [
+      "solarär",
+      "solar",
+      "सौर"
+    ],
+    [
+      "polarär",
+      "polar",
+      "ध्रुवीय"
+    ],
+    [
+      "vulgarär",
+      "vulgar",
+      "अश्लील"
+    ],
+    [
+      "molarär",
+      "molar",
+      "दाढ़"
+    ],
+    [
+      "linearär",
+      "linear",
+      "रैखिक"
+    ],
+    [
+      "regularär",
+      "regular",
+      "नियमित"
+    ],
+    [
+      "popularär",
+      "popular",
+      "लोकप्रिय"
+    ],
+    [
+      "similarär",
+      "similar",
+      "समान"
+    ],
+    [
+      "familiarär",
+      "familiar",
+      "परिचित"
+    ],
+    [
+      "particularär",
+      "particular",
+      "विशेष"
+    ],
+    [
+      "secularär",
+      "secular",
+      "धर्मनिरपेक्ष"
+    ],
+    [
+      "muscularär",
+      "muscular",
+      "मांसल"
+    ],
+    [
+      "tubularär",
+      "tubular",
+      "नलिकाकार"
+    ],
+    [
+      "angularär",
+      "angular",
+      "कोणीय"
+    ],
+    [
+      "granularär",
+      "granular",
+      "दानेदार"
+    ],
+    [
+      "molecularär",
+      "molecular",
+      "आणविक"
+    ],
+    [
+      "spectacularär",
+      "spectacular",
+      "शानदार"
+    ],
+    [
+      "vocabulär",
+      "vocabulary",
+      "शब्दावली"
+    ],
+    [
+      "preliminär",
+      "preliminary",
+      "प्रारंभिक"
+    ],
+    [
+      "secondär",
+      "secondary",
+      "माध्यमिक"
+    ],
+    [
+      "primär",
+      "primary",
+      "प्राथमिक"
+    ],
+    [
+      "temporär",
+      "temporary",
+      "अस्थायी"
+    ],
+    [
+      "arbiträr",
+      "arbitrary",
+      "मनमाना"
+    ],
+    [
+      "contemporär",
+      "contemporary",
+      "समकालीन"
+    ],
+    [
+      "necessär",
+      "necessary",
+      "आवश्यक"
+    ],
+    [
+      "voluntär",
+      "voluntary",
+      "स्वैच्छिक"
+    ],
+    [
+      "customär",
+      "customary",
+      "प्रथागत"
+    ],
+    [
+      "ancillär",
+      "ancillary",
+      "सहायक"
+    ],
+    [
+      "budgetär",
+      "budgetary",
+      "बजट"
+    ],
+    [
+      "capillär",
+      "capillary",
+      "केशिका"
+    ],
+    [
+      "complementär",
+      "complementary",
+      "पूरक"
+    ],
+    [
+      "elementär",
+      "elementary",
+      "प्राथमिक"
+    ],
+    [
+      "evolutionär",
+      "evolutionary",
+      "विकासवादी"
+    ],
+    [
+      "fragmentär",
+      "fragmentary",
+      "खंडित"
+    ],
+    [
+      "hereditär",
+      "hereditary",
+      "वंशानुगत"
+    ],
+    [
+      "honorär",
+      "honorary",
+      "सम्मानित"
+    ],
+    [
+      "imaginär",
+      "imaginary",
+      "काल्पनिक"
+    ],
+    [
+      "involuntär",
+      "involuntary",
+      "अनैच्छिक"
+    ],
+    [
+      "itinerär",
+      "itinerary",
+      "यात्रा कार्यक्रम"
+    ],
+    [
+      "legendär",
+      "legendary",
+      "पौराणिक"
+    ],
+    [
+      "literär",
+      "literary",
+      "साहित्यिक"
+    ],
+    [
+      "momentär",
+      "momentary",
+      "क्षणिक"
+    ],
+    [
+      "monetär",
+      "monetary",
+      "मौद्रिक"
+    ],
+    [
+      "ordinär",
+      "ordinary",
+      "साधारण"
+    ],
+    [
+      "planetär",
+      "planetary",
+      "ग्रह"
+    ],
+    [
+      "reactionär",
+      "reactionary",
+      "प्रतिक्रियावादी"
+    ],
+    [
+      "revolutionär",
+      "revolutionary",
+      "क्रांतिकारी"
+    ],
+    [
+      "sanitär",
+      "sanitary",
+      "स्वच्छता"
+    ],
+    [
+      "sedentär",
+      "sedentary",
+      "गतिहीन"
+    ],
+    [
+      "solitär",
+      "solitary",
+      "एकांत"
+    ],
+    [
+      "stationär",
+      "stationary",
+      "स्थिर"
+    ],
+    [
+      "supplementär",
+      "supplementary",
+      "पूरक"
+    ],
+    [
+      "unitär",
+      "unitary",
+      "एकात्मक"
+    ],
+    [
+      "adversär",
+      "adversary",
+      "प्रतिद्वंद्वी"
+    ],
+    [
+      "anniversär",
+      "anniversary",
+      "वर्षगांठ"
+    ],
+    [
+      "apiär",
+      "apiary",
+      "मधुमक्खी फार्म"
+    ],
+    [
+      "aviär",
+      "aviary",
+      "पक्षी घर"
+    ],
+    [
+      "boundär",
+      "boundary",
+      "सीमा"
+    ],
+    [
+      "commentär",
+      "commentary",
+      "टिप्पणी"
+    ],
+    [
+      "coronär",
+      "coronary",
+      "कोरोनरी"
+    ],
+    [
+      "dietär",
+      "dietary",
+      "आहार"
+    ],
+    [
+      "disciplinär",
+      "disciplinary",
+      "अनुशासनात्मक"
+    ],
+    [
+      "documentär",
+      "documentary",
+      "वृत्तचित्र"
+    ],
+    [
+      "dictionär",
+      "dictionary",
+      "शब्दकोश"
+    ],
+    [
+      "estuär",
+      "estuary",
+      "मुहाना"
+    ],
+    [
+      "functionär",
+      "functionary",
+      "अधिकारी"
+    ],
+    [
+      "genuär",
+      "genuary",
+      "जनवरी"
+    ],
+    [
+      "intermediär",
+      "intermediary",
+      "मध्यस्थ"
+    ],
+    [
+      "judiciär",
+      "judiciary",
+      "न्यायपालिका"
+    ],
+    [
+      "luminär",
+      "luminary",
+      "प्रकाशस्तंभ"
+    ],
+    [
+      "missionär",
+      "missionary",
+      "मिशनरी"
+    ],
+    [
+      "antiquär",
+      "antiquary",
+      "पुरावस्तु"
+    ],
+    [
+      "corollär",
+      "corollary",
+      "परिणाम"
+    ],
+    [
+      "emissär",
+      "emissary",
+      "दूत"
+    ],
+    [
+      "granär",
+      "granary",
+      "अन्नागार"
+    ],
+    [
+      "maxillär",
+      "maxillary",
+      "जबड़ा"
+    ],
+    [
+      "binär",
+      "binary",
+      "द्विआधारी"
+    ],
+    [
+      "complimentär",
+      "complimentary",
+      "प्रशंसात्मक"
+    ]
+  ],
+  "pattern_11_ant": [
+    [
+      "der Migrant",
+      "migrant",
+      "प्रवासी"
+    ],
+    [
+      "der Demonstratant",
+      "demonstrator",
+      "प्रदर्शनकारी"
+    ],
+    [
+      "der Student",
+      "student",
+      "छात्र"
+    ],
+    [
+      "der Assistant",
+      "assistant",
+      "सहायक"
+    ],
+    [
+      "der Consumant",
+      "consumer",
+      "उपभोक्ता"
+    ],
+    [
+      "der Producant",
+      "producer",
+      "निर्माता"
+    ],
+    [
+      "der President",
+      "president",
+      "राष्ट्रपति"
+    ],
+    [
+      "der Resident",
+      "resident",
+      "निवासी"
+    ],
+    [
+      "der Suppliant",
+      "supplier",
+      "आपूर्तिकर्ता"
+    ],
+    [
+      "der Commandant",
+      "commander",
+      "कमांडर"
+    ],
+    [
+      "der Consonant",
+      "consonant",
+      "व्यंजन"
+    ],
+    [
+      "der Diamond",
+      "diamond",
+      "हीरा"
+    ],
+    [
+      "der Elephant",
+      "elephant",
+      "हाथी"
+    ],
+    [
+      "der Guarantant",
+      "guarantor",
+      "गारंटर"
+    ],
+    [
+      "der Informant",
+      "informant",
+      "सूचनादाता"
+    ],
+    [
+      "der Client",
+      "client",
+      "मुवक्किल"
+    ],
+    [
+      "der Opponent",
+      "opponent",
+      "प्रतिद्वंद्वी"
+    ],
+    [
+      "der Emigrant",
+      "emigrant",
+      "उत्प्रवासी"
+    ],
+    [
+      "der Applicant",
+      "applicant",
+      "आवेदक"
+    ],
+    [
+      "der Accountant",
+      "accountant",
+      "लेखाकार"
+    ],
+    [
+      "der Consultant",
+      "consultant",
+      "सलाहकार"
+    ],
+    [
+      "der Participant",
+      "participant",
+      "भागीदार"
+    ],
+    [
+      "der Attendant",
+      "attendant",
+      "परिचारक"
+    ],
+    [
+      "der Defendant",
+      "defendant",
+      "प्रतिवादी"
+    ],
+    [
+      "der Immigrant",
+      "immigrant",
+      "आप्रवासी"
+    ],
+    [
+      "der Merchant",
+      "merchant",
+      "व्यापारी"
+    ],
+    [
+      "der Tenant",
+      "tenant",
+      "किराएदार"
+    ],
+    [
+      "der Servant",
+      "servant",
+      "नौकर"
+    ],
+    [
+      "der Inhabitant",
+      "inhabitant",
+      "निवासी"
+    ],
+    [
+      "der Lieferant",
+      "lieferant",
+      "आपूर्तिकर्ता"
+    ],
+    [
+      "der Kommandant",
+      "kommandant",
+      "कमांडर"
+    ],
+    [
+      "der Laborant",
+      "laborant",
+      "लैब तकनीशियन"
+    ],
+    [
+      "der Kontrahent",
+      "kontrahent",
+      "प्रतिद्वंद्वी"
+    ],
+    [
+      "der Commandant",
+      "commandant",
+      "कमांडर"
+    ],
+    [
+      "der Descendant",
+      "descendant",
+      "वंशज"
+    ],
+    [
+      "der Pharmacist",
+      "pharmacist",
+      "फार्मासिस्ट"
+    ],
+    [
+      "der Protestant",
+      "protestant",
+      "प्रोटेस्टेंट"
+    ],
+    [
+      "der Quadrant",
+      "quadrant",
+      "चतुर्थांश"
+    ],
+    [
+      "der Relaxant",
+      "relaxant",
+      "शामक"
+    ],
+    [
+      "der Truant",
+      "truant",
+      "अनुपस्थित"
+    ],
+    [
+      "der Tyrant",
+      "tyrant",
+      "तानाशाह"
+    ],
+    [
+      "der Vacant",
+      "vacant",
+      "खाली"
+    ],
+    [
+      "der Warrant",
+      "warrant",
+      "वारंट"
+    ],
+    [
+      "der Antioxidant",
+      "antioxidant",
+      "एंटीऑक्सिडेंट"
+    ],
+    [
+      "der Aspirant",
+      "aspirant",
+      "उम्मीदवार"
+    ],
+    [
+      "der Celebrant",
+      "celebrant",
+      "उत्सव मनाने वाला"
+    ],
+    [
+      "der Claimant",
+      "claimant",
+      "दावेदार"
+    ],
+    [
+      "der Combatant",
+      "combatant",
+      "योद्धा"
+    ],
+    [
+      "der Coolant",
+      "coolant",
+      "शीतलक"
+    ],
+    [
+      "der Covenant",
+      "covenant",
+      "संधि"
+    ],
+    [
+      "der Dependant",
+      "dependant",
+      "आश्रित"
+    ],
+    [
+      "der Disputant",
+      "disputant",
+      "विवादी"
+    ],
+    [
+      "der Entrant",
+      "entrant",
+      "प्रवेशक"
+    ],
+    [
+      "der Executant",
+      "executant",
+      "कार्यान्वयक"
+    ],
+    [
+      "der Expectant",
+      "expectant",
+      "गर्भवती"
+    ],
+    [
+      "der Extravagant",
+      "extravagant",
+      "फिजूलखर्च"
+    ],
+    [
+      "der Lubricant",
+      "lubricant",
+      "स्नेहक"
+    ],
+    [
+      "der Oxidant",
+      "oxidant",
+      "ऑक्सीकरण"
+    ],
+    [
+      "der Pollutant",
+      "pollutant",
+      "प्रदूषक"
+    ],
+    [
+      "der Registrant",
+      "registrant",
+      "पंजीकृत"
+    ],
+    [
+      "der Reluctant",
+      "reluctant",
+      "अनिच्छुक"
+    ],
+    [
+      "der Remnant",
+      "remnant",
+      "अवशेष"
+    ],
+    [
+      "der Restaurant",
+      "restaurant",
+      "रेस्तरां"
+    ],
+    [
+      "der Stimulant",
+      "stimulant",
+      "उत्तेजक"
+    ],
+    [
+      "der Disinfectant",
+      "disinfectant",
+      "कीटाणुनाशक"
+    ],
+    [
+      "der Refrigerant",
+      "refrigerant",
+      "शीतलक"
+    ],
+    [
+      "der Suppressant",
+      "suppressant",
+      "दमनकारी"
+    ],
+    [
+      "der Surfactant",
+      "surfactant",
+      "सर्फेक्टेंट"
+    ]
+  ],
+  "pattern_12_ist": [
+    [
+      "der Artist",
+      "artist",
+      "कलाकार"
+    ],
+    [
+      "der Journalist",
+      "journalist",
+      "पत्रकार"
+    ],
+    [
+      "der Tourist",
+      "tourist",
+      "पर्यटक"
+    ],
+    [
+      "der Pianist",
+      "pianist",
+      "पियानोवादक"
+    ],
+    [
+      "der Guitarist",
+      "guitarist",
+      "गिटारवादक"
+    ],
+    [
+      "der Optimist",
+      "optimist",
+      "आशावादी"
+    ],
+    [
+      "der Pessimist",
+      "pessimist",
+      "निराशावादी"
+    ],
+    [
+      "der Specialist",
+      "specialist",
+      "विशेषज्ञ"
+    ],
+    [
+      "der Terrorist",
+      "terrorist",
+      "आतंकवादी"
+    ],
+    [
+      "der Communist",
+      "communist",
+      "कम्युनिस्ट"
+    ],
+    [
+      "der Socialist",
+      "socialist",
+      "समाजवादी"
+    ],
+    [
+      "der Capitalist",
+      "capitalist",
+      "पूंजीवादी"
+    ],
+    [
+      "der Activist",
+      "activist",
+      "कार्यकर्ता"
+    ],
+    [
+      "der Stylist",
+      "stylist",
+      "स्टाइलिस्ट"
+    ],
+    [
+      "der Typist",
+      "typist",
+      "टाइपिस्ट"
+    ],
+    [
+      "der Florist",
+      "florist",
+      "फूलवाला"
+    ],
+    [
+      "der Satirist",
+      "satirist",
+      "व्यंग्यकार"
+    ],
+    [
+      "der Columnist",
+      "columnist",
+      "स्तंभकार"
+    ],
+    [
+      "der Scientist",
+      "scientist",
+      "वैज्ञानिक"
+    ],
+    [
+      "der Economist",
+      "economist",
+      "अर्थशास्त्री"
+    ],
+    [
+      "der Dentist",
+      "dentist",
+      "दंत चिकित्सक"
+    ],
+    [
+      "der Chemist",
+      "chemist",
+      "रसायनज्ञ"
+    ],
+    [
+      "der Physicist",
+      "physicist",
+      "भौतिक विज्ञानी"
+    ],
+    [
+      "der Biologist",
+      "biologist",
+      "जीवविज्ञानी"
+    ],
+    [
+      "der Psychologist",
+      "psychologist",
+      "मनोवैज्ञानिक"
+    ],
+    [
+      "der Sociologist",
+      "sociologist",
+      "समाजशास्त्री"
+    ],
+    [
+      "der Geologist",
+      "geologist",
+      "भूविज्ञानी"
+    ],
+    [
+      "der Archaeologist",
+      "archaeologist",
+      "पुरातत्ववेत्ता"
+    ],
+    [
+      "der Anthropologist",
+      "anthropologist",
+      "मानवविज्ञानी"
+    ],
+    [
+      "der Archivist",
+      "archivist",
+      "संग्रहालय अधिकारी"
+    ],
+    [
+      "der Atheist",
+      "atheist",
+      "नास्तिक"
+    ],
+    [
+      "der Botanist",
+      "botanist",
+      "वनस्पतिशास्त्री"
+    ],
+    [
+      "der Cartoonist",
+      "cartoonist",
+      "कार्टूनिस्ट"
+    ],
+    [
+      "der Cyclist",
+      "cyclist",
+      "साइकिल चालक"
+    ],
+    [
+      "der Environmentalist",
+      "environmentalist",
+      "पर्यावरणवादी"
+    ],
+    [
+      "der Linguist",
+      "linguist",
+      "भाषाविद"
+    ],
+    [
+      "der Motorist",
+      "motorist",
+      "मोटर चालक"
+    ],
+    [
+      "der Novelist",
+      "novelist",
+      "उपन्यासकार"
+    ],
+    [
+      "der Ophthalmologist",
+      "ophthalmologist",
+      "नेत्र रोग विशेषज्ञ"
+    ],
+    [
+      "der Pharmacist",
+      "pharmacist",
+      "फार्मासिस्ट"
+    ],
+    [
+      "der Psychiatrist",
+      "psychiatrist",
+      "मनोचिकित्सक"
+    ],
+    [
+      "der Violinist",
+      "violinist",
+      "वायलिन वादक"
+    ],
+    [
+      "der Anarchist",
+      "anarchist",
+      "अराजकतावादी"
+    ],
+    [
+      "der Dermatologist",
+      "dermatologist",
+      "त्वचा विशेषज्ञ"
+    ],
+    [
+      "der Extremist",
+      "extremist",
+      "चरमपंथी"
+    ],
+    [
+      "der Feminist",
+      "feminist",
+      "नारीवादी"
+    ],
+    [
+      "der Idealist",
+      "idealist",
+      "आदर्शवादी"
+    ],
+    [
+      "der Nationalist",
+      "nationalist",
+      "राष्ट्रवादी"
+    ],
+    [
+      "der Naturalist",
+      "naturalist",
+      "प्रकृतिवादी"
+    ],
+    [
+      "der Neurologist",
+      "neurologist",
+      "न्यूरोलॉजिस्ट"
+    ],
+    [
+      "der Realist",
+      "realist",
+      "यथार्थवादी"
+    ],
+    [
+      "der Therapist",
+      "therapist",
+      "चिकित्सक"
+    ],
+    [
+      "der Analyst",
+      "analyst",
+      "विश्लेषक"
+    ],
+    [
+      "der Hygienist",
+      "hygienist",
+      "स्वच्छता विशेषज्ञ"
+    ],
+    [
+      "der Meteorologist",
+      "meteorologist",
+      "मौसम विज्ञानी"
+    ],
+    [
+      "der Podiatrist",
+      "podiatrist",
+      "पोडियाट्रिस्ट"
+    ]
+  ],
+  "pattern_13_logy": [
+    [
+      "die Biologie",
+      "biology",
+      "जीव विज्ञान"
+    ],
+    [
+      "die Geologie",
+      "geology",
+      "भूविज्ञान"
+    ],
+    [
+      "die Psiechologie",
+      "psychology",
+      "मनोविज्ञान"
+    ],
+    [
+      "die Sociologie",
+      "sociology",
+      "समाजशास्त्र"
+    ],
+    [
+      "die Technologie",
+      "technology",
+      "प्रौद्योगिकी"
+    ],
+    [
+      "die Ecologie",
+      "ecology",
+      "पारिस्थितिकी"
+    ],
+    [
+      "die Miethologie",
+      "mythology",
+      "पौराणिक कथा"
+    ],
+    [
+      "die Astrologie",
+      "astrology",
+      "ज्योतिष"
+    ],
+    [
+      "die Meteorologie",
+      "meteorology",
+      "मौसम विज्ञान"
+    ],
+    [
+      "die Chronologie",
+      "chronology",
+      "कालक्रम"
+    ],
+    [
+      "die Terminologie",
+      "terminology",
+      "शब्दावली"
+    ],
+    [
+      "die Ideologie",
+      "ideology",
+      "विचारधारा"
+    ],
+    [
+      "die Archaeologie",
+      "archaeology",
+      "पुरातत्व"
+    ],
+    [
+      "die Anthropologie",
+      "anthropology",
+      "मानव विज्ञान"
+    ],
+    [
+      "die Pharmacologie",
+      "pharmacology",
+      "फार्माकोलॉजी"
+    ],
+    [
+      "die Radiologie",
+      "radiology",
+      "रेडियोलॉजी"
+    ],
+    [
+      "die Cardiologie",
+      "cardiology",
+      "हृदय विज्ञान"
+    ],
+    [
+      "die Dermatologie",
+      "dermatology",
+      "त्वचा विज्ञान"
+    ],
+    [
+      "die Neurologie",
+      "neurology",
+      "न्यूरोलॉजी"
+    ],
+    [
+      "die Zoologie",
+      "zoology",
+      "प्राणि विज्ञान"
+    ],
+    [
+      "die Pathologie",
+      "pathology",
+      "रोग विज्ञान"
+    ],
+    [
+      "die Phiesiologie",
+      "physiology",
+      "शरीर विज्ञान"
+    ],
+    [
+      "die Theologie",
+      "theology",
+      "धर्मशास्त्र"
+    ],
+    [
+      "die Etiemologie",
+      "etymology",
+      "व्युत्पत्ति"
+    ],
+    [
+      "die Criminologie",
+      "criminology",
+      "अपराध विज्ञान"
+    ],
+    [
+      "die Epidemiologie",
+      "epidemiology",
+      "महामारी विज्ञान"
+    ],
+    [
+      "die Microbiologie",
+      "microbiology",
+      "सूक्ष्म जीव विज्ञान"
+    ],
+    [
+      "die Aetiologie",
+      "aetiology",
+      "कारण विज्ञान"
+    ],
+    [
+      "die Bacteriologie",
+      "bacteriology",
+      "जीवाणु विज्ञान"
+    ],
+    [
+      "die Cosmologie",
+      "cosmology",
+      "ब्रह्मांड विज्ञान"
+    ],
+    [
+      "die Cietologie",
+      "cytology",
+      "कोशिका विज्ञान"
+    ],
+    [
+      "die Embrieologie",
+      "embryology",
+      "भ्रूण विज्ञान"
+    ],
+    [
+      "die Genealoologie",
+      "genealogy",
+      "वंशावली"
+    ],
+    [
+      "die Gerontologie",
+      "gerontology",
+      "वृद्धावस्था विज्ञान"
+    ],
+    [
+      "die Histologie",
+      "histology",
+      "ऊतक विज्ञान"
+    ],
+    [
+      "die Immunologie",
+      "immunology",
+      "प्रतिरक्षा विज्ञान"
+    ],
+    [
+      "die Morphologie",
+      "morphology",
+      "रूप विज्ञान"
+    ],
+    [
+      "die Oncologie",
+      "oncology",
+      "ऑन्कोलॉजी"
+    ],
+    [
+      "die Paleontologie",
+      "paleontology",
+      "जीवाश्म विज्ञान"
+    ],
+    [
+      "die Parasitologie",
+      "parasitology",
+      "परजीवी विज्ञान"
+    ],
+    [
+      "die Rheologie",
+      "rheology",
+      "प्रवाह विज्ञान"
+    ],
+    [
+      "die Seismologie",
+      "seismology",
+      "भूकंप विज्ञान"
+    ],
+    [
+      "die Serologie",
+      "serology",
+      "सीरम विज्ञान"
+    ]
+  ],
+  "pattern_14_graphy": [
+    [
+      "die Photografie",
+      "photography",
+      "फोटोग्राफी"
+    ],
+    [
+      "die Geografie",
+      "geography",
+      "भूगोल"
+    ],
+    [
+      "die Biografie",
+      "biography",
+      "जीवनी"
+    ],
+    [
+      "die Autobiografie",
+      "autobiography",
+      "आत्मकथा"
+    ],
+    [
+      "die Bibliografie",
+      "bibliography",
+      "ग्रंथ सूची"
+    ],
+    [
+      "die Topografie",
+      "topography",
+      "स्थलाकृति"
+    ],
+    [
+      "die Demografie",
+      "demography",
+      "जनसांख्यिकी"
+    ],
+    [
+      "die Choreografie",
+      "choreography",
+      "नृत्य निर्देशन"
+    ],
+    [
+      "die Calligraografie",
+      "calligraphy",
+      "सुलेख"
+    ],
+    [
+      "die Orthografie",
+      "orthography",
+      "वर्तनी"
+    ],
+    [
+      "die Stenografie",
+      "stenography",
+      "आशुलिपि"
+    ],
+    [
+      "die Cartografie",
+      "cartography",
+      "मानचित्रण"
+    ],
+    [
+      "die Oceanografie",
+      "oceanography",
+      "समुद्र विज्ञान"
+    ],
+    [
+      "die Ethnografie",
+      "ethnography",
+      "नृवंशविज्ञान"
+    ],
+    [
+      "die Typografie",
+      "typography",
+      "टाइपोग्राफी"
+    ],
+    [
+      "die Radiografie",
+      "radiography",
+      "रेडियोग्राफी"
+    ],
+    [
+      "die Videografie",
+      "videography",
+      "वीडियोग्राफी"
+    ],
+    [
+      "die Lithografie",
+      "lithography",
+      "लिथोग्राफी"
+    ],
+    [
+      "die Hagiografie",
+      "hagiography",
+      "संत जीवनी"
+    ],
+    [
+      "die Cryptografie",
+      "cryptography",
+      "क्रिप्टोग्राफी"
+    ],
+    [
+      "die Cinematografie",
+      "cinematography",
+      "सिनेमाटोग्राफी"
+    ],
+    [
+      "die Autoradiografie",
+      "autoradiography",
+      "ऑटोरेडियोग्राफी"
+    ],
+    [
+      "die Cosmografie",
+      "cosmography",
+      "ब्रह्मांड विज्ञान"
+    ],
+    [
+      "die Discografie",
+      "discography",
+      "डिस्कोग्राफी"
+    ],
+    [
+      "die Historiografie",
+      "historiography",
+      "इतिहास लेखन"
+    ],
+    [
+      "die Iconografie",
+      "iconography",
+      "चित्रण"
+    ],
+    [
+      "die Mammografie",
+      "mammography",
+      "मैमोग्राफी"
+    ],
+    [
+      "die Palaeografie",
+      "palaeography",
+      "पुरालिपि"
+    ],
+    [
+      "die Petrografie",
+      "petrography",
+      "शैल विज्ञान"
+    ],
+    [
+      "die Phonografie",
+      "phonography",
+      "ध्वनि अंकन"
+    ],
+    [
+      "die Sonografie",
+      "sonography",
+      "अल्ट्रासाउंड"
+    ],
+    [
+      "die Stratigraografie",
+      "stratigraphy",
+      "स्तर विज्ञान"
+    ]
+  ],
+  "pattern_15_meter": [
+    [
+      "der Thermometer",
+      "thermometer",
+      "थर्मामीटर"
+    ],
+    [
+      "der Kilometre",
+      "kilometre",
+      "किलोमीटर"
+    ],
+    [
+      "der Centimetre",
+      "centimetre",
+      "सेंटीमीटर"
+    ],
+    [
+      "der Millimetre",
+      "millimetre",
+      "मिलीमीटर"
+    ],
+    [
+      "der Diameter",
+      "diameter",
+      "व्यास"
+    ],
+    [
+      "der Parameter",
+      "parameter",
+      "पैरामीटर"
+    ],
+    [
+      "der Barometer",
+      "barometer",
+      "बैरोमीटर"
+    ],
+    [
+      "der Speedometer",
+      "speedometer",
+      "स्पीडोमीटर"
+    ],
+    [
+      "der Odometer",
+      "odometer",
+      "ओडोमीटर"
+    ],
+    [
+      "der Voltmeter",
+      "voltmeter",
+      "वोल्टमीटर"
+    ],
+    [
+      "der Ammeter",
+      "ammeter",
+      "अमीटर"
+    ],
+    [
+      "der Hygrometer",
+      "hygrometer",
+      "आर्द्रतामापी"
+    ],
+    [
+      "der Altimeter",
+      "altimeter",
+      "ऊंचाई मापक"
+    ],
+    [
+      "der Chronometer",
+      "chronometer",
+      "क्रोनोमीटर"
+    ],
+    [
+      "der Perimeter",
+      "perimeter",
+      "परिधि"
+    ],
+    [
+      "der Tachometer",
+      "tachometer",
+      "टैकोमीटर"
+    ],
+    [
+      "der Gasometer",
+      "gasometer",
+      "गैसोमीटर"
+    ],
+    [
+      "der Lactometer",
+      "lactometer",
+      "दूध मापक"
+    ],
+    [
+      "der Pedometer",
+      "pedometer",
+      "कदम मापक"
+    ],
+    [
+      "der Galvanometer",
+      "galvanometer",
+      "गैल्वनोमीटर"
+    ],
+    [
+      "der Spectrometer",
+      "spectrometer",
+      "स्पेक्ट्रोमीटर"
+    ],
+    [
+      "der Centimeter",
+      "centimeter",
+      "सेंटीमीटर"
+    ],
+    [
+      "der Hectometer",
+      "hectometer",
+      "हेक्टोमीटर"
+    ],
+    [
+      "der Kilometer",
+      "kilometer",
+      "किलोमीटर"
+    ],
+    [
+      "der Millimeter",
+      "millimeter",
+      "मिलीमीटर"
+    ],
+    [
+      "der Anemometer",
+      "anemometer",
+      "हवा मापक"
+    ],
+    [
+      "der Calorimeter",
+      "calorimeter",
+      "कैलोरीमीटर"
+    ],
+    [
+      "der Dynamometer",
+      "dynamometer",
+      "बल मापक"
+    ],
+    [
+      "der Flowmeter",
+      "flowmeter",
+      "प्रवाह मापक"
+    ],
+    [
+      "der Goniometer",
+      "goniometer",
+      "कोण मापक"
+    ],
+    [
+      "der Inclinometer",
+      "inclinometer",
+      "झुकाव मापक"
+    ],
+    [
+      "der Interferometer",
+      "interferometer",
+      "इंटरफेरोमीटर"
+    ],
+    [
+      "der Manometer",
+      "manometer",
+      "दबाव मापक"
+    ],
+    [
+      "der Multimeter",
+      "multimeter",
+      "मल्टीमीटर"
+    ],
+    [
+      "der Ohmmeter",
+      "ohmmeter",
+      "ओम मापक"
+    ],
+    [
+      "der Photometer",
+      "photometer",
+      "प्रकाश मापक"
+    ],
+    [
+      "der Radiometer",
+      "radiometer",
+      "विकिरण मापक"
+    ],
+    [
+      "der Taximeter",
+      "taximeter",
+      "टैक्सी मीटर"
+    ],
+    [
+      "der Telemeter",
+      "telemeter",
+      "दूर मापक"
+    ]
+  ],
+  "pattern_16_scope": [
+    [
+      "das Microskop",
+      "microscope",
+      "सूक्ष्मदर्शी"
+    ],
+    [
+      "das Teleskop",
+      "telescope",
+      "दूरबीन"
+    ],
+    [
+      "das Stethoskop",
+      "stethoscope",
+      "स्टेथोस्कोप"
+    ],
+    [
+      "das Endoskop",
+      "endoscope",
+      "एंडोस्कोप"
+    ],
+    [
+      "das Periskop",
+      "periscope",
+      "पेरिस्कोप"
+    ],
+    [
+      "das Kaleidoskop",
+      "kaleidoscope",
+      "कैलाइडोस्कोप"
+    ],
+    [
+      "das Horoskop",
+      "horoscope",
+      "कुंडली"
+    ],
+    [
+      "das Gyroskop",
+      "gyroscope",
+      "जाइरोस्कोप"
+    ],
+    [
+      "das Spectroskop",
+      "spectroscope",
+      "स्पेक्ट्रोस्कोप"
+    ],
+    [
+      "das Stereoskop",
+      "stereoscope",
+      "स्टीरियोस्कोप"
+    ],
+    [
+      "das Arthroskop",
+      "arthroscope",
+      "आर्थ्रोस्कोप"
+    ],
+    [
+      "das Laparoskop",
+      "laparoscope",
+      "लैपरोस्कोप"
+    ],
+    [
+      "das Bronchoskop",
+      "bronchoscope",
+      "ब्रोंकोस्कोप"
+    ],
+    [
+      "das Colposkop",
+      "colposcope",
+      "कॉलपोस्कोप"
+    ],
+    [
+      "das Otoskop",
+      "otoscope",
+      "कान दर्शक"
+    ],
+    [
+      "das Ophthalmoskop",
+      "ophthalmoscope",
+      "नेत्र दर्शक"
+    ],
+    [
+      "das Dermatoskop",
+      "dermatoscope",
+      "डर्माटोस्कोप"
+    ],
+    [
+      "das Fluoroskop",
+      "fluoroscope",
+      "फ्लोरोस्कोप"
+    ],
+    [
+      "das Bioskop",
+      "bioscope",
+      "बायोस्कोप"
+    ],
+    [
+      "das Cystoskop",
+      "cystoscope",
+      "मूत्राशय दर्शक"
+    ],
+    [
+      "das Electroskop",
+      "electroscope",
+      "इलेक्ट्रोस्कोप"
+    ],
+    [
+      "das Episkop",
+      "episcope",
+      "एपिस्कोप"
+    ],
+    [
+      "das Fetoskop",
+      "fetoscope",
+      "भ्रूण दर्शक"
+    ],
+    [
+      "das Gastroskop",
+      "gastroscope",
+      "गैस्ट्रोस्कोप"
+    ],
+    [
+      "das Iconoskop",
+      "iconoscope",
+      "आइकनोस्कोप"
+    ],
+    [
+      "das Laryngoskop",
+      "laryngoscope",
+      "स्वर यंत्र दर्शक"
+    ],
+    [
+      "das Oscilloskop",
+      "oscilloscope",
+      "ऑसिलोस्कोप"
+    ],
+    [
+      "das Proctoskop",
+      "proctoscope",
+      "मलाशय दर्शक"
+    ],
+    [
+      "das Retinoskop",
+      "retinoscope",
+      "रेटिनोस्कोप"
+    ],
+    [
+      "das Rhinoskop",
+      "rhinoscope",
+      "नाक दर्शक"
+    ],
+    [
+      "das Sigmoidoskop",
+      "sigmoidoscope",
+      "सिग्मॉइडोस्कोप"
+    ]
+  ],
+  "pattern_17_phobia": [
+    [
+      "die Phobie",
+      "phobia",
+      "भय"
+    ],
+    [
+      "die Arachnophobie",
+      "arachnophobia",
+      "मकड़ी का भय"
+    ],
+    [
+      "die Agoraphobie",
+      "agoraphobia",
+      "खुली जगह का भय"
+    ],
+    [
+      "die Claustrophobie",
+      "claustrophobia",
+      "संकीर्ण स्थान का भय"
+    ],
+    [
+      "die Hydrophobie",
+      "hydrophobia",
+      "पानी का भय"
+    ],
+    [
+      "die Xenophobie",
+      "xenophobia",
+      "विदेशियों का भय"
+    ],
+    [
+      "die Homophobie",
+      "homophobia",
+      "समलैंगिकता का भय"
+    ],
+    [
+      "die Nyctophobie",
+      "nyctophobia",
+      "अंधेरे का भय"
+    ],
+    [
+      "die Acrophobie",
+      "acrophobia",
+      "ऊंचाई का भय"
+    ],
+    [
+      "die Sociophobie",
+      "sociophobia",
+      "सामाजिक भय"
+    ],
+    [
+      "die Technophobie",
+      "technophobia",
+      "तकनीक का भय"
+    ],
+    [
+      "die Dentophobie",
+      "dentophobia",
+      "दांत का भय"
+    ],
+    [
+      "die Aviophobie",
+      "aviophobia",
+      "उड़ान का भय"
+    ],
+    [
+      "die Trypanophobie",
+      "trypanophobia",
+      "इंजेक्शन का भय"
+    ],
+    [
+      "die Emetophobie",
+      "emetophobia",
+      "उल्टी का भय"
+    ],
+    [
+      "die Hemophobie",
+      "hemophobia",
+      "खून का भय"
+    ],
+    [
+      "die Pyrophobie",
+      "pyrophobia",
+      "आग का भय"
+    ],
+    [
+      "die Astraphobie",
+      "astraphobia",
+      "बिजली का भय"
+    ],
+    [
+      "die Aerophobie",
+      "aerophobia",
+      "उड़ान का भय"
+    ],
+    [
+      "die Ailurophobie",
+      "ailurophobia",
+      "बिल्ली का भय"
+    ],
+    [
+      "die Algophobie",
+      "algophobia",
+      "दर्द का भय"
+    ],
+    [
+      "die Apiphobie",
+      "apiphobia",
+      "मधुमक्खी का भय"
+    ],
+    [
+      "die Atelophobie",
+      "atelophobia",
+      "अपूर्णता का भय"
+    ],
+    [
+      "die Autophobie",
+      "autophobia",
+      "अकेलेपन का भय"
+    ],
+    [
+      "die Barophobie",
+      "barophobia",
+      "गुरुत्व का भय"
+    ],
+    [
+      "die Bathmophobie",
+      "bathmophobia",
+      "ढलान का भय"
+    ],
+    [
+      "die Belonephobie",
+      "belonephobia",
+      "सुई का भय"
+    ],
+    [
+      "die Cyberphobie",
+      "cyberphobia",
+      "कंप्यूटर का भय"
+    ],
+    [
+      "die Ergophobie",
+      "ergophobia",
+      "काम का भय"
+    ],
+    [
+      "die Gamophobie",
+      "gamophobia",
+      "विवाह का भय"
+    ],
+    [
+      "die Gynophobie",
+      "gynophobia",
+      "महिलाओं का भय"
+    ],
+    [
+      "die Iatrophobie",
+      "iatrophobia",
+      "डॉक्टर का भय"
+    ],
+    [
+      "die Logophobie",
+      "logophobia",
+      "शब्दों का भय"
+    ],
+    [
+      "die Thanatophobie",
+      "thanatophobia",
+      "मृत्यु का भय"
+    ],
+    [
+      "die Triskaidekaphobie",
+      "triskaidekaphobia",
+      "१३ का भय"
+    ]
+  ],
+  "pattern_18_phile": [
+    [
+      "der Bibliophil",
+      "bibliophile",
+      "पुस्तक प्रेमी"
+    ],
+    [
+      "der Anglophil",
+      "anglophile",
+      "अंग्रेजी प्रेमी"
+    ],
+    [
+      "der Technophil",
+      "technophile",
+      "तकनीक प्रेमी"
+    ],
+    [
+      "der Audiophil",
+      "audiophile",
+      "ध्वनि प्रेमी"
+    ],
+    [
+      "der Francophil",
+      "francophile",
+      "फ्रांस प्रेमी"
+    ],
+    [
+      "der Germanophil",
+      "germanophile",
+      "जर्मन प्रेमी"
+    ],
+    [
+      "der Sinophil",
+      "sinophile",
+      "चीन प्रेमी"
+    ],
+    [
+      "der Japanophil",
+      "japanophile",
+      "जापान प्रेमी"
+    ],
+    [
+      "der Russophil",
+      "russophile",
+      "रूस प्रेमी"
+    ],
+    [
+      "der Indophil",
+      "indophile",
+      "भारत प्रेमी"
+    ],
+    [
+      "der Necrophil",
+      "necrophilia",
+      "मृतक प्रेम"
+    ],
+    [
+      "der Paedophil",
+      "paedophile",
+      "बाल लैंगिक"
+    ],
+    [
+      "der Hemophil",
+      "hemophile",
+      "रक्तस्राव रोग"
+    ],
+    [
+      "der Thermophil",
+      "thermophile",
+      "उष्माप्रिय"
+    ],
+    [
+      "der Halophil",
+      "halophile",
+      "लवणप्रिय"
+    ],
+    [
+      "der Oenophil",
+      "oenophile",
+      "शराब प्रेमी"
+    ],
+    [
+      "der Ailurophil",
+      "ailurophile",
+      "बिल्ली प्रेमी"
+    ],
+    [
+      "der Cinephil",
+      "cinephile",
+      "सिनेमा प्रेमी"
+    ],
+    [
+      "der Logophil",
+      "logophile",
+      "शब्द प्रेमी"
+    ],
+    [
+      "der Necrophil",
+      "necrophile",
+      "मृतक प्रेमी"
+    ],
+    [
+      "der Xenophil",
+      "xenophile",
+      "विदेशी प्रेमी"
+    ],
+    [
+      "der Zoophil",
+      "zoophile",
+      "जानवर प्रेमी"
+    ]
+  ],
+  "pattern_19_age": [
+    [
+      "die Garage",
+      "garage",
+      "गैरेज"
+    ],
+    [
+      "die Passage",
+      "passage",
+      "मार्ग"
+    ],
+    [
+      "die Floorage",
+      "floor",
+      "मंजिल"
+    ],
+    [
+      "die Reportage",
+      "report",
+      "रिपोर्ट"
+    ],
+    [
+      "die Assemblyage",
+      "assembly",
+      "असेंबली"
+    ],
+    [
+      "die Collage",
+      "collage",
+      "कोलाज"
+    ],
+    [
+      "die Parodyage",
+      "parody",
+      "पैरोडी"
+    ],
+    [
+      "die Sabotage",
+      "sabotage",
+      "तोड़फोड़"
+    ],
+    [
+      "die Bandage",
+      "bandage",
+      "पट्टी"
+    ],
+    [
+      "die Courage",
+      "courage",
+      "साहस"
+    ],
+    [
+      "die Embarrassmentage",
+      "embarrassment",
+      "शर्मिंदगी"
+    ],
+    [
+      "die Feeage",
+      "fee",
+      "शुल्क"
+    ],
+    [
+      "die Espionage",
+      "espionage",
+      "जासूसी"
+    ],
+    [
+      "die Massage",
+      "massage",
+      "मालिश"
+    ],
+    [
+      "die Marginage",
+      "margin",
+      "मार्जिन"
+    ],
+    [
+      "die Triage",
+      "triage",
+      "ट्रायज"
+    ],
+    [
+      "die Householdage",
+      "household",
+      "घर"
+    ],
+    [
+      "die Rage",
+      "rage",
+      "क्रोध"
+    ],
+    [
+      "die Image",
+      "image",
+      "छवि"
+    ],
+    [
+      "die Visage",
+      "visage",
+      "चेहरा"
+    ],
+    [
+      "die Voyage",
+      "voyage",
+      "यात्रा"
+    ],
+    [
+      "die Usage",
+      "usage",
+      "उपयोग"
+    ],
+    [
+      "die Storage",
+      "storage",
+      "भंडारण"
+    ],
+    [
+      "die Coverage",
+      "coverage",
+      "कवरेज"
+    ],
+    [
+      "die Percentage",
+      "percentage",
+      "प्रतिशत"
+    ],
+    [
+      "die Damage",
+      "damage",
+      "नुकसान"
+    ],
+    [
+      "die Manage",
+      "manage",
+      "प्रबंधन"
+    ],
+    [
+      "die Marriage",
+      "marriage",
+      "विवाह"
+    ],
+    [
+      "die Carriage",
+      "carriage",
+      "गाड़ी"
+    ],
+    [
+      "die Package",
+      "package",
+      "पैकेज"
+    ],
+    [
+      "die Village",
+      "village",
+      "गांव"
+    ],
+    [
+      "die Advantage",
+      "advantage",
+      "फायदा"
+    ],
+    [
+      "die Barrage",
+      "barrage",
+      "बांध"
+    ],
+    [
+      "die Camouflage",
+      "camouflage",
+      "छलावरण"
+    ],
+    [
+      "die Dosage",
+      "dosage",
+      "खुराक"
+    ],
+    [
+      "die Heritage",
+      "heritage",
+      "विरासत"
+    ],
+    [
+      "die Leakage",
+      "leakage",
+      "रिसाव"
+    ],
+    [
+      "die Luggage",
+      "luggage",
+      "सामान"
+    ],
+    [
+      "die Message",
+      "message",
+      "संदेश"
+    ],
+    [
+      "die Mileage",
+      "mileage",
+      "माइलेज"
+    ],
+    [
+      "die Pilgrimage",
+      "pilgrimage",
+      "तीर्थयात्रा"
+    ],
+    [
+      "die Plumage",
+      "plumage",
+      "पंख"
+    ],
+    [
+      "die Postage",
+      "postage",
+      "डाक शुल्क"
+    ],
+    [
+      "die Shortage",
+      "shortage",
+      "कमी"
+    ],
+    [
+      "die Wreckage",
+      "wreckage",
+      "मलबा"
+    ],
+    [
+      "die Acreage",
+      "acreage",
+      "एकड़"
+    ],
+    [
+      "die Appendage",
+      "appendage",
+      "अनुलग्नक"
+    ],
+    [
+      "die Cleavage",
+      "cleavage",
+      "विभाजन"
+    ],
+    [
+      "die Coinage",
+      "coinage",
+      "सिक्का"
+    ],
+    [
+      "die Foliage",
+      "foliage",
+      "पत्ते"
+    ],
+    [
+      "die Footage",
+      "footage",
+      "फुटेज"
+    ],
+    [
+      "die Hemorrhage",
+      "hemorrhage",
+      "रक्तस्राव"
+    ],
+    [
+      "die Lineage",
+      "lineage",
+      "वंश"
+    ],
+    [
+      "die Mortgage",
+      "mortgage",
+      "बंधक"
+    ],
+    [
+      "die Patronage",
+      "patronage",
+      "संरक्षण"
+    ],
+    [
+      "die Pillage",
+      "pillage",
+      "लूट"
+    ],
+    [
+      "die Reportage",
+      "reportage",
+      "रिपोर्ट"
+    ],
+    [
+      "die Umbrage",
+      "umbrage",
+      "नाराजगी"
+    ],
+    [
+      "die Voltage",
+      "voltage",
+      "वोल्टेज"
+    ]
+  ],
+  "pattern_20_ure": [
+    [
+      "die Culture",
+      "culture",
+      "संस्कृति"
+    ],
+    [
+      "die Nature",
+      "nature",
+      "प्रकृति"
+    ],
+    [
+      "die Temperature",
+      "temperature",
+      "तापमान"
+    ],
+    [
+      "die Structure",
+      "structure",
+      "संरचना"
+    ],
+    [
+      "die Literature",
+      "literature",
+      "साहित्य"
+    ],
+    [
+      "die Architecture",
+      "architecture",
+      "वास्तुकला"
+    ],
+    [
+      "die Construction",
+      "construction",
+      "निर्माण"
+    ],
+    [
+      "die Fracture",
+      "fracture",
+      "फ्रैक्चर"
+    ],
+    [
+      "die Procedure",
+      "procedure",
+      "प्रक्रिया"
+    ],
+    [
+      "die Censorship",
+      "censorship",
+      "सेंसरशिप"
+    ],
+    [
+      "die Dictatorship",
+      "dictatorship",
+      "तानाशाही"
+    ],
+    [
+      "die Caricature",
+      "caricature",
+      "कैरिकेचर"
+    ],
+    [
+      "die Keyboard",
+      "keyboard",
+      "कीबोर्ड"
+    ],
+    [
+      "die Agriculture",
+      "agriculture",
+      "कृषि"
+    ],
+    [
+      "die Sculpture",
+      "sculpture",
+      "मूर्ति"
+    ],
+    [
+      "die Figure",
+      "figure",
+      "आकृति"
+    ],
+    [
+      "die Nomenclature",
+      "nomenclature",
+      "नामकरण"
+    ],
+    [
+      "die Registry",
+      "registry",
+      "रजिस्ट्री"
+    ],
+    [
+      "die Cure",
+      "cure",
+      "उपचार"
+    ],
+    [
+      "die Failure",
+      "failure",
+      "विफलता"
+    ],
+    [
+      "die Pressure",
+      "pressure",
+      "दबाव"
+    ],
+    [
+      "die Measure",
+      "measure",
+      "माप"
+    ],
+    [
+      "die Pleasure",
+      "pleasure",
+      "खुशी"
+    ],
+    [
+      "die Exposure",
+      "exposure",
+      "जोखिम"
+    ],
+    [
+      "die Closure",
+      "closure",
+      "बंद होना"
+    ],
+    [
+      "die Disclosure",
+      "disclosure",
+      "खुलासा"
+    ],
+    [
+      "die Armature",
+      "armature",
+      "आर्मेचर"
+    ],
+    [
+      "die Curvature",
+      "curvature",
+      "वक्रता"
+    ],
+    [
+      "die Signature",
+      "signature",
+      "हस्ताक्षर"
+    ],
+    [
+      "die Texture",
+      "texture",
+      "बनावट"
+    ],
+    [
+      "die Adventure",
+      "adventure",
+      "साहस"
+    ],
+    [
+      "die Aperture",
+      "aperture",
+      "छिद्र"
+    ],
+    [
+      "die Composite",
+      "composite",
+      "मिश्रित"
+    ],
+    [
+      "die Creature",
+      "creature",
+      "प्राणी"
+    ],
+    [
+      "die Departure",
+      "departure",
+      "प्रस्थान"
+    ],
+    [
+      "die Enclosure",
+      "enclosure",
+      "बाड़ा"
+    ],
+    [
+      "die Fixture",
+      "fixture",
+      "फिक्स्चर"
+    ],
+    [
+      "die Furniture",
+      "furniture",
+      "फर्नीचर"
+    ],
+    [
+      "die Gesture",
+      "gesture",
+      "इशारा"
+    ],
+    [
+      "die Legislature",
+      "legislature",
+      "विधानमंडल"
+    ],
+    [
+      "die Mixture",
+      "mixture",
+      "मिश्रण"
+    ],
+    [
+      "die Moisture",
+      "moisture",
+      "नमी"
+    ],
+    [
+      "die Pasture",
+      "pasture",
+      "चरागाह"
+    ],
+    [
+      "die Picture",
+      "picture",
+      "तस्वीर"
+    ],
+    [
+      "die Posture",
+      "posture",
+      "मुद्रा"
+    ],
+    [
+      "die Scripture",
+      "scripture",
+      "धर्मग्रंथ"
+    ],
+    [
+      "die Seizure",
+      "seizure",
+      "जब्ती"
+    ]
+  ],
+  "pattern_21_ary_arie": [
+    [
+      "die Dictionarie",
+      "dictionary",
+      "शब्दकोश"
+    ],
+    [
+      "die Secretarie",
+      "secretary",
+      "सचिव"
+    ],
+    [
+      "die Glossarie",
+      "glossary",
+      "शब्दावली"
+    ],
+    [
+      "die Notarie",
+      "notary",
+      "नोटरी"
+    ],
+    [
+      "die Commentarie",
+      "commentary",
+      "टिप्पणी"
+    ],
+    [
+      "die Vocabularie",
+      "vocabulary",
+      "शब्दावली"
+    ],
+    [
+      "die Ordinarie",
+      "ordinary",
+      "साधारण"
+    ],
+    [
+      "die Temporarie",
+      "temporary",
+      "अस्थायी"
+    ],
+    [
+      "die Primarie",
+      "primary",
+      "प्राथमिक"
+    ],
+    [
+      "die Secondarie",
+      "secondary",
+      "माध्यमिक"
+    ],
+    [
+      "die Sanctuarie",
+      "sanctuary",
+      "अभयारण्य"
+    ],
+    [
+      "die Salarie",
+      "salary",
+      "वेतन"
+    ],
+    [
+      "die Militarie",
+      "military",
+      "सैन्य"
+    ],
+    [
+      "die Necessarie",
+      "necessary",
+      "आवश्यक"
+    ],
+    [
+      "die Preliminarie",
+      "preliminary",
+      "प्रारंभिक"
+    ],
+    [
+      "die Actuarie",
+      "actuary",
+      "बीमा गणितज्ञ"
+    ],
+    [
+      "die Adversarie",
+      "adversary",
+      "प्रतिद्वंद्वी"
+    ],
+    [
+      "die Anniversarie",
+      "anniversary",
+      "वर्षगांठ"
+    ],
+    [
+      "die Auxiliarie",
+      "auxiliary",
+      "सहायक"
+    ],
+    [
+      "die Beneficiarie",
+      "beneficiary",
+      "लाभार्थी"
+    ],
+    [
+      "die Dignitarie",
+      "dignitary",
+      "गणमान्य"
+    ],
+    [
+      "die Dispensarie",
+      "dispensary",
+      "दवाखाना"
+    ],
+    [
+      "die Emissarie",
+      "emissary",
+      "दूत"
+    ],
+    [
+      "die Formularie",
+      "formulary",
+      "सूत्रावली"
+    ],
+    [
+      "die Functionarie",
+      "functionary",
+      "अधिकारी"
+    ],
+    [
+      "die Infirmarie",
+      "infirmary",
+      "चिकित्सालय"
+    ],
+    [
+      "die Itinerarie",
+      "itinerary",
+      "यात्रा कार्यक्रम"
+    ],
+    [
+      "die Lapidarie",
+      "lapidary",
+      "पत्थर काटने वाला"
+    ],
+    [
+      "die Literarie",
+      "literary",
+      "साहित्यिक"
+    ],
+    [
+      "die Mercenarie",
+      "mercenary",
+      "भाड़े का"
+    ],
+    [
+      "die Monastearie",
+      "monastery",
+      "मठ"
+    ]
+  ],
+  "pattern_22_ate": [
+    [
+      "der Candidaat",
+      "candidate",
+      "उम्मीदवार"
+    ],
+    [
+      "der Democrat",
+      "democrat",
+      "लोकतंत्रवादी"
+    ],
+    [
+      "der Diplomat",
+      "diplomat",
+      "राजनयिक"
+    ],
+    [
+      "der Automaton",
+      "automaton",
+      "स्वचालित"
+    ],
+    [
+      "der Piraat",
+      "pirate",
+      "समुद्री डाकू"
+    ],
+    [
+      "der Soldier",
+      "soldier",
+      "सैनिक"
+    ],
+    [
+      "der Pilot",
+      "pilot",
+      "पायलट"
+    ],
+    [
+      "der Idiot",
+      "idiot",
+      "मूर्ख"
+    ],
+    [
+      "der Patriot",
+      "patriot",
+      "देशभक्त"
+    ],
+    [
+      "der Aristocrat",
+      "aristocrat",
+      "अभिजात"
+    ],
+    [
+      "der Bureaucrat",
+      "bureaucrat",
+      "नौकरशाह"
+    ],
+    [
+      "der Technocrat",
+      "technocrat",
+      "तकनीकी विशेषज्ञ"
+    ],
+    [
+      "der Addressee",
+      "addressee",
+      "प्राप्तकर्ता"
+    ],
+    [
+      "das Emirat",
+      "emirate",
+      "अमीरात"
+    ],
+    [
+      "das Plakat",
+      "poster",
+      "पोस्टर"
+    ],
+    [
+      "das Format",
+      "format",
+      "प्रारूप"
+    ],
+    [
+      "das Resultat",
+      "result",
+      "परिणाम"
+    ],
+    [
+      "das Statut",
+      "statute",
+      "कानून"
+    ],
+    [
+      "das Zertifikat",
+      "certificate",
+      "प्रमाणपत्र"
+    ],
+    [
+      "der Graduaat",
+      "graduate",
+      "स्नातक"
+    ],
+    [
+      "der Delegaat",
+      "delegate",
+      "प्रतिनिधि"
+    ],
+    [
+      "der Advocaat",
+      "advocate",
+      "वकील"
+    ],
+    [
+      "der Magistraat",
+      "magistrate",
+      "मजिस्ट्रेट"
+    ],
+    [
+      "der Climaat",
+      "climate",
+      "जलवायु"
+    ],
+    [
+      "der Estimaat",
+      "estimate",
+      "अनुमान"
+    ],
+    [
+      "der Mandaat",
+      "mandate",
+      "जनादेश"
+    ],
+    [
+      "der Dictaat",
+      "dictate",
+      "हुक्म"
+    ],
+    [
+      "der Debaat",
+      "debate",
+      "बहस"
+    ],
+    [
+      "der Staat",
+      "state",
+      "राज्य"
+    ],
+    [
+      "der Aggregaat",
+      "aggregate",
+      "कुल"
+    ],
+    [
+      "der Doctoraat",
+      "doctorate",
+      "डॉक्टरेट"
+    ],
+    [
+      "der Duplicaat",
+      "duplicate",
+      "प्रतिलिपि"
+    ],
+    [
+      "der Privaat",
+      "private",
+      "निजी"
+    ],
+    [
+      "der Separaat",
+      "separate",
+      "अलग"
+    ],
+    [
+      "der Templaat",
+      "template",
+      "टेम्पलेट"
+    ],
+    [
+      "der Affiliaat",
+      "affiliate",
+      "सहयोगी"
+    ],
+    [
+      "der Alternaat",
+      "alternate",
+      "वैकल्पिक"
+    ],
+    [
+      "der Associaat",
+      "associate",
+      "सहयोगी"
+    ],
+    [
+      "der Carbohydraat",
+      "carbohydrate",
+      "कार्बोहाइड्रेट"
+    ],
+    [
+      "der Chocolaat",
+      "chocolate",
+      "चॉकलेट"
+    ],
+    [
+      "der Electoraat",
+      "electorate",
+      "मतदाता"
+    ],
+    [
+      "der Palaat",
+      "palate",
+      "तालू"
+    ],
+    [
+      "der Predicaat",
+      "predicate",
+      "विधेय"
+    ],
+    [
+      "der Primaat",
+      "primate",
+      "प्राइमेट"
+    ],
+    [
+      "der Senaat",
+      "senate",
+      "सीनेट"
+    ],
+    [
+      "der Syndicaat",
+      "syndicate",
+      "सिंडिकेट"
+    ],
+    [
+      "der Triangulaat",
+      "triangulate",
+      "त्रिभुज"
+    ]
+  ]
+}
