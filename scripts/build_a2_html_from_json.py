@@ -28,6 +28,20 @@ def escape_text(s):
     return html_module.escape(str(s))
 
 
+def _article_order(de):
+    """Order for noun article: der=0, die=1, das=2, other=3 (nouns first = der, die, das)."""
+    if not de:
+        return 3
+    s = (de or "").strip().lower()
+    if s.startswith("der "):
+        return 0
+    if s.startswith("die "):
+        return 1
+    if s.startswith("das "):
+        return 2
+    return 3
+
+
 def _noun_sort_key(de):
     """Sort key for German noun (der/die/das X): by X, case-insensitive; umlauts after base letter."""
     if not de:
@@ -87,7 +101,11 @@ def build_main_content(data):
     total = data.get("totalWords", 0)
     subtitle = data.get("subtitle", "")
     categories = data.get("categories", [])
-    categories = sorted(categories, key=lambda c: (c.get("name") or c.get("id") or "").lower())
+    # Nouns first, then all other categories alphabetically by name
+    nouns = [c for c in categories if (c.get("id") or "").lower() == "nouns"]
+    others = [c for c in categories if (c.get("id") or "").lower() != "nouns"]
+    others = sorted(others, key=lambda c: (c.get("name") or c.get("id") or "").lower())
+    categories = nouns + others
     # Subtitle from JSON, or fallback with word count
     sub_line = escape_text(subtitle) if subtitle else escape_text(f"{total} A2 words")
     out = [
@@ -116,30 +134,35 @@ def build_main_content(data):
         words = cat.get("words", [])
 
         if cid == "Nouns":
-            # Nouns: alphabetical order, sections by letter A–Z
-            words_sorted = sorted(words, key=lambda w: _noun_sort_key(w.get("de", "")))
-            letter_groups = []
-            for letter, group in groupby(words_sorted, key=lambda w: _first_letter(w.get("de", ""))):
-                letter_groups.append((letter, list(group)))
-            letter_groups.sort(key=lambda x: x[0])
+            # Nouns: sections by article (der, die, das); inside each article, sections by letter A–Z
+            words_sorted = sorted(
+                words,
+                key=lambda w: (_article_order(w.get("de", "")), _noun_sort_key(w.get("de", ""))),
+            )
+            article_names = ["der", "die", "das"]
             out.append(f'<div class="category" id="{cid}">')
             out.append(f'<div class="category-header" style="background-color: {color};">')
             out.append(f'<span class="emoji">{emoji}</span>')
             out.append(f'<span>{name}</span>')
             out.append(f'<span class="count">{len(words)} words</span>')
             out.append("</div>")
-            row_num = 1
-            for letter, letter_words in letter_groups:
-                lid = escape_attr(f"{cid}-{letter}")
-                out.append(f'<h3 class="letter-section" id="{lid}" style="margin: 16px 0 8px 0; color: {color}; font-size: 1.3em;">{letter}</h3>')
-                out.append("<table>")
-                out.append("<thead><tr><th style=\"width:40px\">#</th><th>German</th><th>English</th><th>Hindi</th></tr></thead>")
-                out.append("<tbody>")
-                for line in _render_table_rows(letter_words, color_alpha, start_index=row_num):
-                    out.append(line)
-                row_num += len(letter_words)
-                out.append("</tbody>")
-                out.append("</table>")
+            for art_order, art_name in enumerate(article_names):
+                art_words = [w for w in words_sorted if _article_order(w.get("de", "")) == art_order]
+                if not art_words:
+                    continue
+                aid = escape_attr(f"{cid}-{art_name}")
+                out.append(f'<h3 class="article-section" id="{aid}" style="margin: 20px 0 10px 0; color: {color}; font-size: 1.4em; border-bottom: 2px solid {color}; padding-bottom: 6px;">{art_name}</h3>')
+                for letter, letter_words in groupby(art_words, key=lambda w: _first_letter(w.get("de", ""))):
+                    letter_words = list(letter_words)
+                    lid = escape_attr(f"{cid}-{art_name}-{letter}")
+                    out.append(f'<h4 class="letter-section" id="{lid}" style="margin: 14px 0 6px 0; color: {color}; font-size: 1.2em;">{letter}</h4>')
+                    out.append("<table>")
+                    out.append("<thead><tr><th style=\"width:40px\">#</th><th>German</th><th>English</th><th>Hindi</th></tr></thead>")
+                    out.append("<tbody>")
+                    for line in _render_table_rows(letter_words, color_alpha, start_index=1):
+                        out.append(line)
+                    out.append("</tbody>")
+                    out.append("</table>")
             out.append("</div>")
         else:
             # Verbs and all others: single section, one table (normal)

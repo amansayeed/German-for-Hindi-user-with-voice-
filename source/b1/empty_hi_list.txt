@@ -1,0 +1,620 @@
+anfahren	to bump into
+ausparken	to reverse out
+das Autorennen	motor racing
+das Autoteil	Autoteile car part
+das Büromaterial	office stationary
+das Elektroauto	electric car
+das Gepäckband	luggage belt
+das Handgepäck	hand luggage
+das Stipendium	Stipendien scholarship
+der	der Abflug departure
+der Abflug	departure
+der Abstellplatz	parking space
+der Auszug	extract
+der Bankeinzug	direct debit
+der Fluggast	passenger
+der Freundeskreis	circle of friends
+der Kofferraum	car boot
+der Milchkarton	milk carton
+der Oldtimer	vintage car
+der Paketbote	parcel carrier
+der Reiseplan	itinerary
+der Skisport	ski sport
+der Sportwagen	sports car
+der Straßenrand	roadside
+der Straßenverkehr	traffic
+der Versand	shipping
+der Wohnwagen	caravan
+der Zeitungsbericht	report in the newspaper
+die Automarke	car make
+die Autoversicherung	car insurance
+die Berufserfahrung	job experience
+die Betriebswirtschaft	business administration
+die Dienstreise	business trip
+die Fahrerseite	driver's side
+die Fluggesellschaft	Fluggesellschaften airline
+die Gepäckausgabe	baggage reclaim
+die Pappe	cardboard
+die Parklücke	parking space
+die Passkontrolle	passport control
+die Pflegekraft	carer
+die Reiseplanung	travel planning
+die Umschulung	re-training
+die Unfallgefahr	risk of accident
+die Versandkosten	(Pl.) shipping fee
+die Versandkostenpauschale	flat shipping rate
+einparken	to pull in
+versandkostenfrei	free of shipping costs
+verärgert	verreisen to travel
+wegfahren	to drive away
+zugeben	to admit
+zurückfahren	to go back
+zügig	zusammenstellen to put together
+anstreichen	to paint
+befestigen	to secure
+das Gesundheitszeugnis	health certificate
+der Bezahlvorgang	payment process
+geduldig	patient
+ungeduldig	impatient
+ungesund	unhealthy
+ärztlich	aufkommen to pay
+übergeben	to be sick
+anprobieren	to try on
+aufkommen	to pay
+das Onlineshopping	online shopping
+das Shopping	shopping
+der Kaufvertrag	sales contract
+der Onlineeinkauf	online shopping
+der Onlineshop	online shop
+der/die Gemüsehändler/in	greengrocer
+der/die Geschäftsführer/in	managing director
+der/die Käufer/in	customer
+die Geschäftsführung	management
+die Kaufbestätigung	purchase confirmation
+die Moderation	presentation
+die Modernisierung	modernisation
+lohnen	to pay
+anstatt	instead
+atmungsaktiv	breathable
+ausprobieren	to try
+das Fertiggericht	ready meal
+das Kochbuch	cookery book
+das Meerschweinchen	guinea pig
+das Trinkwasser	drinking water
+der Biergarten	beer garden
+der Hartweizen	durum wheat
+der Kaffeefilter	coffee filter
+der Milchzucker	milk sugar
+der Spielfilm	feature film
+der/die	der Kaffeefilter coffee filter
+die Atmung	breathing
+die Erstellung	creation
+die Gemeinsamkeit	Gemeinsamkeiten common feature
+die Heizkosten	(Pl.) heating costs
+die Niederlage	defeat
+die Obstschale	Obstschalen fruit skin
+die Speise	Speisen dish
+die Teamfähigkeit	ability to work in a team
+fleischfrei	meat-free
+fleischlos	vegetarian
+grundsätzlich	der Hartweizen durum wheat
+hämmern	heizen to heat
+das Eintrittsdatum	entry date
+das Führungszeugnis	certificate of good conduct
+das Jahrhundert	Jahrhunderte century
+das Jahrzehnt	Jahrzehnte decade
+der Büroalltag	office life
+der Urlaubstag	Urlaubstage paid leave
+der Werktag	Werktage working day
+der Zeitmangel	lack of time
+der Zeitraum	time frame
+die Arbeitszeit	Arbeitszeiten working hours
+die Bürozeit	office hours
+die Einsteigezeit	boarding time
+die Euroeinführung	introduction of the Euro
+die Festanstellung	full-time position
+die Lieblingsbeschäftigung	favourite pastime
+die Nachkriegszeit	post-war years
+die Probezeit	probationary period
+die Ruhezeit	Ruhezeiten rest period
+die Zeitverschwendung	waste of time
+jahrelang	for years
+mehrmals	multiple times
+zeitlich	on time
+berufen	to appoint
+das Berufsleben	professional life
+das Bewerbungsschreiben	letter of application
+das Steuerberatungsbüro	tax consultancy firm
+das Vertragsende	contract end
+das Übersetzungsbüro	translation agency
+der Büroraum	office space
+der Firmensitz	registered office
+der Mietvertrag	rental contract
+der Reinigungsvertrag	cleaning contract
+der/die Büroassistent/in	office assistant
+die Anstellung	employment
+die Arbeitskraft	workforce
+die Arbeitsweise	working method
+die Auftragsnummer	order number
+die Bearbeitung	processing
+die Begleitperson	accompanying person
+die Berufsbezeichnung	job description
+die Berufstätigkeit	professional activity
+die Gehaltsvorstellung	desired salary
+die Jobbezeichnung	job description
+die Kundenbefragung	customer survey
+die Reinigungsfirma	cleaning company
+die Stellenanzeige	Stellenanzeigen job advertisement
+die Vertragsnummer	contract number
+kundenfreundlich	customer friendly
+vertragen	to tolerate
+zusammenarbeiten	to work together
+abdrehen	to change course
+die Institution	Institutionen institution
+angewöhnen	auseinandersetzen to discuss
+ausliefern	to deliver
+das	das Doppelzimmer (DZ) Doppelzimmer double room
+das Besprechungszimmer	meeting room
+das Doppelzimmer	(DZ) Doppelzimmer double room
+das Einzelzimmer	(EZ) single room
+das Energiesparhaus	energy efficient house
+das Naturprodukt	Naturprodukte natural product
+das Seniorenheim	old people's home
+der Gemeinschaftsraum	common room
+der Konferenzraum	conference room
+der Leuchtturm	lighthouse
+der Posteingang	inbox
+der Sonnenuntergang	sunset
+der Umgang	handling
+der Waschraum	laundry room
+der Wirbelsturm	hurricane
+die Anprobe	fitting room
+die Lautsprecherdurchsage	Lautsprecherdurchsagen tannoy announcement
+die Lieferbedingung	Lieferbedingungen delivery conditions
+die Massentierhaltung	livestock farming
+die Nachnahme	cash on delivery
+die Naturkatastrophe	natural disaster
+die Rückscheibe	rear window
+die Rücksendung	return delivery
+die Zimmerlautstärke	room volume
+lebhaft	lively
+traumhaft	wonderful
+wegräumen	to clear away
+zurücktreten	zustellen to deliver
+zustellen	to deliver
+umweltfreundlich	environmentally friendly
+überglücklich	overjoyed
+hilfsbereit	ready to help
+emotional	emotional
+aufdrehen	to open
+beherrschen	to master
+das Nummernschild	Nummernschilder number plate
+ehemalig	former
+eingehen	to enter
+nachsehen	to check
+umdrehen	to turn around
+umgehend	immediately
+versehentlich	accidental
+vorbeigehen	to walk past
+weitergehen	to continue
+zudrehen	to turn off
+erhältlich	eventuell possible
+festkleben	to stick
+wetterfest	waterproof
+die Kommunikationsstärke	strong communication skills
+die Kontaktdaten	(Pl.) contact details
+die Telekommunikation	telecommunication
+eigenverantwortlich	independent
+versenden	to send
+zurückschicken	to send back
+zurücksenden	to send back
+das Finanzwesen	finance
+die Energiekosten	(Pl.) energy costs
+die Mehrkosten	(Pl.) extra costs
+die Portokosten	(Pl.) postage
+die Stromkosten	(Pl.) electricity costs
+luftdurchlässig	die Mehrkosten (Pl.) extra costs
+der Horrorfilm	horror film
+der Zeichentrickfilm	animated film
+die Fotokopie	Fotokopien photocopy
+die Quizshow	quiz show
+die Talkshow	talk show
+berechtigt	justified
+das Balkongeländer	balcony railing
+das Herkunftsland	country of origin
+das Unrecht	unjust
+das Widerrufsrecht	right of revocation
+die Regierung	Regierungen government
+die Staatsgründung	formation of a state
+die Wiedervereinigung	reunification
+fristgerecht	punctual
+gesetzlich	legal
+leistungsgerecht	performance-based
+vereinbar	compatible
+vereinigen	to unite
+wiedervereinigen	to re-unify
+das Erdbeben	earthquake
+der Eierkarton	Eierkartons egg box
+der Eiskunstlauf	ice skating
+die Artikelnummer	Artikelnummern item number
+die Teilkaskoversicherung	(Teilkasko) partial coverage insurance
+ausschlafen	to sleep in
+das Zusammenleben	life together
+die Anzeigetafel	Anzeigetafeln bulletin board
+einschlafen	to fall asleep
+zurücklassen	das Zusammenleben life together
+zusammenstellen	to put together
+das Catering	catering
+der Blinker	Blinker indicator
+der Sprachnachweis	language certificate
+der Tierschutz	animal protection
+die Aufteilung	allocation
+die Beglaubigung	certification
+die Zusatzqualifikation	additional qualifications
+kommunikativ	communicative
+sortieren	to sort
+tierisch	animalistic
+das Getreide	grain
+das Unwetter	Unwetter thunderstorm
+der Klimawandel	climate change
+der Sonnenschein	sunshine
+der Sonnenschirm	Sonnenschirme parasol
+der Tsunami	tsunami
+die Sonnenterrasse	Sonnenterrassen sun terrace
+die Windel	Windeln nappy
+die Windschutzscheibe	windscreen
+trüb	der Tsunami tsunami
+besiegen	to conquer
+der Fußballclub	football club
+der Handball	hand ball
+verlaufen	to continue
+zusammenstoßen	die Zusatzversicherung additional insurance
+der Nationalsozialismus	national socialism
+die Anerkennung	recognition
+die Ergänzung	addition
+die Mülltrennung	waste separation
+die Zigarettenkippe	Zigarettenkippen cigarette butts
+die Öffnung	opening
+mittelständisch	nachdem after
+ausschalten	to turn off
+beschweren	to complain
+das Altpapier	waste paper
+das Altöl	waste oil
+der Behälter	container
+der Check-in-Schalter	check-in desk
+der Erhalt	receipt
+der Gutschein	voucher
+der Neuwagen	Neuwagen new vehicle
+der Versicherungsschutz	insurance cover
+die Haftpflichtversicherung	liability insurance
+die Instandhaltung	maintenance
+die Kaskoversicherung	hull insurance
+die Vergütung	remuneration
+die Vollkaskoversicherung	(Vollkasko) full comprehensive insurance
+die Zusatzversicherung	additional insurance
+einhalten	to comply
+gewährleisten	to ensure
+unnötig	der Verbrauch use
+absolvieren	to complete
+anmachen	to turn on
+aufmachen	to open
+auseinandersetzen	to discuss
+das Briefpapier	letter paper
+die Chemikalie	Chemikalien chemicals
+die Komödie	comedy
+die Leichtathletik	athletics
+entnehmen	to take from
+erwähnen	eskalieren to escalate
+herkommen	to come from
+mitdenken	to follow a thought
+mitreden	to have a say
+rasieren	to shave
+verändern	verlaufen to continue
+vorhersagen	to predict
+zulassen	to allow
+allergisch	allergic
+bescheinigen	to certify
+das Callcenter	call centre
+der Aufruf	call
+der Mauerbau	building of the wall
+der Mauerfall	fall of the Berlin wall
+der Stromanbieter	electricity provider
+die Allergie	allergy
+die Besatzungszone	Besatzungszonen occupied zone
+die Demonstration	Demonstrationen demonstration
+die Dokumentation	(Doku) Dokumentationen (Dokus) documentary
+die Million	Millionen million
+die Reklamation	Reklamationen complaint
+einseitig	one-sided
+irgendwer	anyone
+irgendwie	somehow
+moralisch	morally
+romantisch	romantic
+umfallen	to fall over
+abheften	to file away
+aufteilen	to divide
+beurteilen	to evaluate
+das Mittelfeld	mid-field
+der Hauptgrund	main reason
+der Schadensfall	damage claim
+die Bordkarte	boarding pass
+die Formalität	formality
+die Teilung	Teilungen division
+die Weise	manner
+problemlos	unproblematic
+vergleichbar	comparable
+wegschmeißen	wegwerfen to throw away
+wegwerfen	to throw away
+fristlos	without notice
+irgendwelche	any
+der Außenspiegel	wing mirror
+drinnen	inside
+der Bachelor	Bachelor's degree
+die Privatnummer	private number
+absichtlich	intentional
+absprechen	to arrange
+die Stoßstange	bumper
+schneiden	to cut
+verabreden	to arrange
+verstoßen	to violate
+überzeugen	vegan vegan
+das Gate	gate
+das Weltall	space
+der Auswanderer	Auswanderer emigrant
+der Wanderer	hiker
+die Auswanderung	emigration
+die Einwanderung	immigration
+die Mentalität	mentality
+die Motorhaube	bonnet
+die Wandertour	Wandertouren walking tour
+die Zerstörung	destruction
+die Notunterkunft	emergency accommodation
+die Sammelstelle	collection point
+wasserdicht	waterproof
+weiterhelfen	to help out
+der Wertstoff	Wertstoffe recyclable material
+vorschreiben	to stipulate
+der/die Hörer/in	listener
+der/die König/in	king
+intern	internal
+der Gegenvorschlag	counterproposal
+der Planet	Planeten planet
+General	(General terms and conditions)
+abdecken	to cover
+abschicken	to submit
+abwechslungsreich	varied
+AGB	bedingungen)
+amtlich	official
+andauernd	lasting
+anfassen	to touch
+anheben	to raise
+annulliert	cancelled
+anrechnen	to charge
+anschauen	to look at
+ansteckend	infectious
+ausgewogen	balanced
+bedenklich	questionable
+befragen	to consult
+begeistern	to inspire
+beglaubigen	to certify
+beilegen	to enclose
+belasten	to pollute
+beschimpfen	to insult
+beschädigt	die Bestellhotline order hotline
+betreten	to enter
+bewusst	conscious
+bio	organic
+biologisch	biological
+bohren	to drill
+das Abgas	Abgase exhaust gas
+das Abwasser	sewage
+das Aluminium	aluminium
+das Bioprodukt	Bioprodukte organic produce
+das Boxen	boxing
+das Diagramm	diagram
+das Doppelbett	Doppelbetten double bed
+das Eigentum	property
+das Eishockey	ice hockey
+das Eiweiß	protein
+das Fax	fax
+das Hochwasser	high-tide
+das Hostel	hostel
+das Impressum	imprint
+das Inlineskaten	inline skating
+das Kriegsende	end of war
+das Lagerfeuer	campfire
+das Niveau	level
+das Paradies	paradise
+das Porto	postage
+das Radrennen	cycling race
+das Rücklicht	tail light
+das Taschenmesser	pocket knife
+demnächst	die Detektivgeschichte detective story
+der Anbau	cultivation
+der Anstoß	stimulus
+der Beutel	Beutel bag
+der Blumentopf	flower pot
+der Bürgerkrieg	civil war
+der Campingplatz	campsite
+der Container	Container container
+der Datenschutz	data protection
+der Deckel	lid
+der Diebstahl	theft
+der Döner	kebab
+der Fan	Fans fan
+der Flüchtling	refugee
+der Frieden	peace
+der Frust	frustration
+der Föhn	hairdryer
+der Gebrauchtwagen	Gebrauchtwagen used vehicle
+der Geruch	smell
+der Hagel	hail
+der Kamm	comb
+der Kilometer	kilometre
+der Kratzer	Kratzer scratch
+der Maschinenbau	engineering
+der Meerblick	seaview
+der Mietspiegel	rent index
+der Mord	murder
+der Nährstoff	nutrient
+der Paketdienst	parcel service
+der Papiermüll	paper waste
+der PC	PCs PC
+der Personenschaden	personal injury
+der Pilotenstreik	pilot strike
+der Pool	pool
+der Quark	quark
+der Retourenschein	return order slip
+der Sachschaden	property damage
+der Schadstoff	Schadstoffe hazardous substance
+der Scheinwerfer	Scheinwerfer headlight
+der Schiedsrichter	referee
+der Schläger	bat
+der Sondermüll	hazardous waste
+der Sperrmüll	bulky waste
+der Steuerberater	tax consultant
+der Trend	trend
+der Verbrauch	use
+der Verstoß	violation
+der Verzehr	consumption
+der Warenkorb	basket
+der Wasserhahn	tap
+der Widerspruch	contradiction
+der Zusatzstoff	Zusatzstoffe additives
+der Zutritt	access
+der/die Bürger/in	citizen
+der/die Förster/in	woodsman
+der/die Jude/Jüdin	jew
+der/die Millionär/in	millionaire
+der/die Selbstständige	person
+die	aktiv active
+die Absage	cancellation
+die Abwicklung	settlement
+die Amtssprache	Amtssprachen official language
+die Annahme	acceptance
+die Assistenz	assistance
+die Aufregung	commotion
+die Ausstattung	equipment
+die Belastung	pollution
+die Beleidigung	Beleidigungen insult
+die Beschimpfung	Beschimpfungen swear
+die Bestellhotline	order hotline
+die Bundesrepublik	(BRD) federal republic (FRG)
+die Chips	(Pl.) crisps
+die Detektivgeschichte	detective story
+die Deutsche	Demokratische Republik
+die Dienstleistung	Dienstleistungen service
+die DVD	DVD
+die Eierschale	Eierschalen egg shell
+die Energiesparlampe	energy efficient bulb
+die Energieverschwendung	waste of energy
+die Erderwärmung	global warming
+die Europäische	Union (EU) European union
+die Fantasie	phantasy
+die Formulierung	wording
+die Haftpflicht	liability
+die Handlung	conduct
+die Haselnuss	hazelnut
+die Herstellung	manufacture
+die Hülsenfrucht	pulse
+die Konservendose	preserving jars
+die Kosmetik	cosmetics
+die Krippe	Krippen crib
+die Leine	rope
+die Matratze	mattress
+die Mieterhöhung	rent increase
+die NATO	NATO
+die Nuss	nut
+die Phase	Phasen phase
+die Rangliste	league table
+die Regulierung	regulation
+die Republik	Republiken republic
+die Retoure	Retouren return order
+die Sauberkeit	cleanliness
+die Seifenoper	Seifenopern soap opera
+die Soap	soap opera
+die Solarenergie	solar energy
+die Taschenlampe	torch
+die Tiefkühlpizza	frozen pizza
+die Verschwendung	waste
+die Verstärkung	enhancement
+die Weiterleitung	forwarding
+die Weltmeisterschaft	(WM) World cup
+die Zuverlässigkeit	reliability
+die Überschwemmung	flood
+die Übertragung	transmission
+doof	stupid
+dramatisch	dramatic
+dran	sein to be for it
+durchlässig	ebenso as well
+einchecken	to check-in
+einlegen	to insert
+einreichen	to submit
+einsperren	to confine
+englischsprachig	in English
+entsprechen	to correspond to
+erkundigen	to enquire
+eskalieren	to escalate
+exotisch	exotic
+fix	quick
+friedlich	peaceful
+frustriert	frustrated
+färben	das Fax fax
+förmlich	formal
+gestattet	sein to be permitted
+glutenfrei	gluten-free
+hygienisch	hygienic
+industriell	industrial
+insofern	provided
+kippen	to tilt
+komfortabel	comfortable
+krachen	to crash
+kulinarisch	culinary
+kuscheln	to cuddle
+kümmern	leistungsgerecht performance-based
+laktosefrei	lactose-free
+langfristig	long-term
+lenken	to steer
+lieferbar	in stock
+lüften	massiv solid
+massiv	solid
+meckern	to whinge
+meistern	to master
+miterleben	to experience with
+motiviert	motivated
+nachdenklich	thoughtful
+naschen	to snack
+objektiv	objective
+portofrei	postage paid
+PS	quietschen to screech
+quietschen	to screech
+recyceln	to recycle
+regulieren	to regulate
+rutschen	to slide
+schwingen	to swing
+schädigen	to damage
+senken	to reduce
+soweit	so far as
+spezialisieren	to specialise
+stinksauer	(ugs.) furious
+streiten	to argue
+traditionsreich	steeped in tradition
+tropfen	to drip
+unbefristet	indefinite
+unverbindlich	non-binding
+übereinstimmen	to correspond
+vegan	vegan
+verdrängen	vereinigen to unite
+verfolgen	to follow
+verletzen	to injure
+vermischen	to mix
+verpflichten	to compel
+verschwenden	to disappear
+versorgen	to provide for
+verwerten	to exploit
+widerrufen	disclaimer
+wohlfühlen	das Ziel Ziele aim
+zappen	to channel surf
+zaubern	to conjure
+zerschlagen	to destroy
+zurückkehren	to return
