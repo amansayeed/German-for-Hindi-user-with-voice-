@@ -74,10 +74,26 @@ def _first_letter(de):
     return c
 
 
-def _render_table_rows(words, color_alpha, start_index=1):
-    """Emit <tr> rows for word list. Returns list of HTML lines."""
+def _vocab_sort_key(de):
+    """Sort key for Vocabulary (any German text): case-insensitive, umlauts after base."""
+    if not de:
+        return ""
+    s = (de or "").strip().lower()
+    for a, b in [("\u00e4", "ae"), ("\u00f6", "oe"), ("\u00fc", "ue")]:
+        s = s.replace(a, b)
+    return s
+
+
+def _first_letter_vocab(de):
+    """First letter for Vocabulary A–Z (strip der/die/das if present)."""
+    return _first_letter(de)
+
+
+def _render_table_rows(words, color_alpha, start_index=1, zero_pad=False):
+    """Emit <tr> rows for word list. zero_pad: use 01, 02, ... in # column."""
     lines = []
     for i, w in enumerate(words, start_index):
+        num = f"{i:02d}" if zero_pad else str(i)
         de = w.get("de", "")
         en = w.get("en", "")
         hi = w.get("hi", "")
@@ -87,7 +103,7 @@ def _render_table_rows(words, color_alpha, start_index=1):
         hi_text = escape_text(hi)
         lines.append(
             f'<tr style="background-color: {color_alpha};">'
-            f'<td>{i}</td>'
+            f'<td>{num}</td>'
             f'<td class="german"><span class="audio-btn" onclick="speakGerman(\'{de_attr}\')" title="Click to hear pronunciation">\U0001f50a</span>{de_text}</td>'
             f'<td class="english">{en_text}</td>'
             f'<td class="hindi">{hi_text}</td>'
@@ -101,11 +117,12 @@ def build_main_content(data):
     total = data.get("totalWords", 0)
     subtitle = data.get("subtitle", "")
     categories = data.get("categories", [])
-    # Nouns first, then all other categories alphabetically by name
-    nouns = [c for c in categories if (c.get("id") or "").lower() == "nouns"]
-    others = [c for c in categories if (c.get("id") or "").lower() != "nouns"]
+    # Order: Nouns first, then Vocabulary, then rest alphabetically
+    nouns = [c for c in categories if (c.get("id") or "").strip() == "Nouns"]
+    vocab = [c for c in categories if (c.get("id") or "").strip() == "Vocabulary"]
+    others = [c for c in categories if (c.get("id") or "").strip() not in ("Nouns", "Vocabulary")]
     others = sorted(others, key=lambda c: (c.get("name") or c.get("id") or "").lower())
-    categories = nouns + others
+    categories = nouns + vocab + others
     # Subtitle from JSON, or fallback with word count
     sub_line = escape_text(subtitle) if subtitle else escape_text(f"{total} A2 words")
     out = [
@@ -134,12 +151,12 @@ def build_main_content(data):
         words = cat.get("words", [])
 
         if cid == "Nouns":
-            # Nouns: sections by article (der, die, das); inside each article, sections by letter A–Z
+            # Nouns: sections by article (der, die, das, other); inside each, sections by letter A–Z
             words_sorted = sorted(
                 words,
                 key=lambda w: (_article_order(w.get("de", "")), _noun_sort_key(w.get("de", ""))),
             )
-            article_names = ["der", "die", "das"]
+            article_names = ["der", "die", "das", "other"]
             out.append(f'<div class="category" id="{cid}">')
             out.append(f'<div class="category-header" style="background-color: {color};">')
             out.append(f'<span class="emoji">{emoji}</span>')
@@ -163,6 +180,27 @@ def build_main_content(data):
                         out.append(line)
                     out.append("</tbody>")
                     out.append("</table>")
+            out.append("</div>")
+        elif cid == "Vocabulary":
+            # Vocabulary: letter sections A–Z only (like Nouns but no der/die/das), 01 02 per letter
+            words_sorted = sorted(words, key=lambda w: _vocab_sort_key(w.get("de", "")))
+            out.append(f'<div class="category" id="{cid}">')
+            out.append(f'<div class="category-header" style="background-color: {color};">')
+            out.append(f'<span class="emoji">{emoji}</span>')
+            out.append(f'<span>{name}</span>')
+            out.append(f'<span class="count">{len(words)} words</span>')
+            out.append("</div>")
+            for letter, letter_words in groupby(words_sorted, key=lambda w: _first_letter_vocab(w.get("de", ""))):
+                letter_words = list(letter_words)
+                lid = escape_attr(f"{cid}-{letter}")
+                out.append(f'<h3 class="letter-section" id="{lid}" style="margin: 20px 0 10px 0; color: {color}; font-size: 1.2em; border-bottom: 2px solid {color}; padding-bottom: 6px;">{letter}</h3>')
+                out.append("<table>")
+                out.append("<thead><tr><th style=\"width:40px\">#</th><th>German</th><th>English</th><th>Hindi</th></tr></thead>")
+                out.append("<tbody>")
+                for line in _render_table_rows(letter_words, color_alpha, start_index=1, zero_pad=True):
+                    out.append(line)
+                out.append("</tbody>")
+                out.append("</table>")
             out.append("</div>")
         else:
             # Verbs and all others: single section, one table (normal)

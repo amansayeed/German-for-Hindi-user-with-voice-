@@ -444,12 +444,2791 @@
       "die Transaction",
       "transaction",
       "संबंधित"
+    ],
+    [
+      "die Nourishment",
+      "nourishment",
+      "पोषण"
+    ],
+    [
+      "die Perseverance",
+      "perseverance",
+      "दृढ़ता"
+    ],
+    [
+      "die Persistence",
+      "persistence",
+      "हठ"
+    ],
+    [
+      "die Release",
+      "release",
+      "रिहाई"
+    ],
+    [
+      "die Sustenance",
+      "sustenance",
+      "जीविका"
+    ],
+    [
+      "die Synthesis",
+      "synthesis",
+      "संश्लेषण"
+    ],
+    [
+      "die Contraception",
+      "contraception",
+      "गर्भनिरोध"
+    ],
+    [
+      "die Contraption",
+      "contraption",
+      "उपकरण"
+    ],
+    [
+      "die Contravention",
+      "contravention",
+      "उल्लंघन"
+    ],
+    [
+      "die Convection",
+      "convection",
+      "संवहन"
+    ],
+    [
+      "die Convening",
+      "convening",
+      "आह्वान"
+    ],
+    [
+      "die Decompression",
+      "decompression",
+      "विघटन"
+    ],
+    [
+      "die Deflation",
+      "deflation",
+      "अपस्फीति"
+    ],
+    [
+      "die Deforestation",
+      "deforestation",
+      "वनोन्मूलन"
+    ],
+    [
+      "die Demotion",
+      "demotion",
+      "पदावनति"
+    ],
+    [
+      "die Demystification",
+      "demystification",
+      "रहस्योद्घाटन"
+    ],
+    [
+      "die Denationalization",
+      "denationalization",
+      "विभाजन"
+    ],
+    [
+      "die Denotation",
+      "denotation",
+      "अर्थ"
+    ],
+    [
+      "die Depopulation",
+      "depopulation",
+      "जनसंख्या कमी"
+    ],
+    [
+      "die Deputation",
+      "deputation",
+      "प्रतिनिधिमंडल"
+    ],
+    [
+      "die Desalination",
+      "desalination",
+      "लवणहरण"
+    ],
+    [
+      "die Desegregation",
+      "desegregation",
+      "एकीकरण"
+    ],
+    [
+      "die Desolation",
+      "desolation",
+      "उजाड़"
+    ],
+    [
+      "die Detoxification",
+      "detoxification",
+      "विषहरण"
+    ],
+    [
+      "die Digitization",
+      "digitization",
+      "डिजिटलीकरण"
+    ],
+    [
+      "die Disambiguation",
+      "disambiguation",
+      "स्पष्टीकरण"
+    ],
+    [
+      "die Disqualification",
+      "disqualification",
+      "अयोग्यता"
+    ],
+    [
+      "die Dissemination",
+      "dissemination",
+      "प्रसार"
+    ],
+    [
+      "die Distillation",
+      "distillation",
+      "आसवन"
+    ],
+    [
+      "die Domestication",
+      "domestication",
+      "पालतू बनाना"
+    ],
+    [
+      "die Dramatization",
+      "dramatization",
+      "नाटकीयता"
+    ],
+    [
+      "die Electrification",
+      "electrification",
+      "विद्युतीकरण"
+    ],
+    [
+      "die Elongation",
+      "elongation",
+      "लंबाई"
+    ],
+    [
+      "die Emancipation",
+      "emancipation",
+      "मुक्ति"
+    ],
+    [
+      "die Equalization",
+      "equalization",
+      "समीकरण"
+    ],
+    [
+      "die Equivocation",
+      "equivocation",
+      "अस्पष्टता"
+    ],
+    [
+      "die Exacerbation",
+      "exacerbation",
+      "बिगाड़"
+    ],
+    [
+      "die Exaggeration",
+      "exaggeration",
+      "अतिशयोक्ति"
+    ],
+    [
+      "die Excommunication",
+      "excommunication",
+      "बहिष्कार"
+    ],
+    [
+      "die Exoneration",
+      "exoneration",
+      "दोषमुक्ति"
+    ],
+    [
+      "die Expatriation",
+      "expatriation",
+      "निर्वासन"
+    ],
+    [
+      "die Extermination",
+      "extermination",
+      "विनाश"
+    ],
+    [
+      "die Extrapolation",
+      "extrapolation",
+      "बहिर्वेशन"
+    ],
+    [
+      "die Factorization",
+      "factorization",
+      "गुणनखंडन"
+    ],
+    [
+      "die Falsification",
+      "falsification",
+      "जालसाजी"
+    ],
+    [
+      "die Formalization",
+      "formalization",
+      "औपचारिकता"
+    ],
+    [
+      "die Fortification",
+      "fortification",
+      "किलेबंदी"
+    ],
+    [
+      "die Fossilization",
+      "fossilization",
+      "जीवाश्मीकरण"
+    ],
+    [
+      "die Fractionation",
+      "fractionation",
+      "विभाजन"
+    ],
+    [
+      "die Generalization",
+      "generalization",
+      "सामान्यीकरण"
+    ],
+    [
+      "die Gentrification",
+      "gentrification",
+      "उत्थान"
+    ],
+    [
+      "die Harmonization",
+      "harmonization",
+      "सामंजस्य"
+    ],
+    [
+      "die Hospitalization",
+      "hospitalization",
+      "अस्पताल में भर्ती"
+    ],
+    [
+      "die Humanization",
+      "humanization",
+      "मानवीकरण"
+    ],
+    [
+      "die Hybridization",
+      "hybridization",
+      "संकरण"
+    ],
+    [
+      "die Hydration",
+      "hydration",
+      "जलयोजन"
+    ],
+    [
+      "die Hydrogenation",
+      "hydrogenation",
+      "हाइड्रोजनीकरण"
+    ],
+    [
+      "die Illustration",
+      "illustration",
+      "चित्रण"
+    ],
+    [
+      "die Immunization",
+      "immunization",
+      "प्रतिरक्षण"
+    ],
+    [
+      "die Impersonation",
+      "impersonation",
+      "अनुकरण"
+    ],
+    [
+      "die Impoverishment",
+      "impoverishment",
+      "गरीबी"
+    ],
+    [
+      "die Inauguration",
+      "inauguration",
+      "उद्घाटन"
+    ],
+    [
+      "die Industrialization",
+      "industrialization",
+      "औद्योगिकीकरण"
+    ],
+    [
+      "die Infatuation",
+      "infatuation",
+      "मोह"
+    ],
+    [
+      "die Infestation",
+      "infestation",
+      "संक्रमण"
+    ],
+    [
+      "die Inflammation",
+      "inflammation",
+      "सूजन"
+    ],
+    [
+      "die Infraction",
+      "infraction",
+      "उल्लंघन"
+    ],
+    [
+      "die Inhalation",
+      "inhalation",
+      "साँस"
+    ],
+    [
+      "die Initialization",
+      "initialization",
+      "प्रारंभ"
+    ],
+    [
+      "die Institutionalization",
+      "institutionalization",
+      "संस्थानीकरण"
+    ],
+    [
+      "die Instrumentation",
+      "instrumentation",
+      "उपकरण"
+    ],
+    [
+      "die Insurrection",
+      "insurrection",
+      "विद्रोह"
+    ],
+    [
+      "die Intensification",
+      "intensification",
+      "तीव्रता"
+    ],
+    [
+      "die Internalization",
+      "internalization",
+      "आंतरिकरण"
+    ],
+    [
+      "die Intoxication",
+      "intoxication",
+      "नशा"
+    ],
+    [
+      "die Inundation",
+      "inundation",
+      "बाढ़"
+    ],
+    [
+      "die Ionization",
+      "ionization",
+      "आयनीकरण"
+    ],
+    [
+      "die Legalization",
+      "legalization",
+      "कानूनीकरण"
+    ],
+    [
+      "die Legitimization",
+      "legitimization",
+      "वैधता"
+    ],
+    [
+      "die Liberalization",
+      "liberalization",
+      "उदारीकरण"
+    ],
+    [
+      "die Localization",
+      "localization",
+      "स्थानीकरण"
+    ],
+    [
+      "die Marginalization",
+      "marginalization",
+      "हाशियाकरण"
+    ],
+    [
+      "die Materialization",
+      "materialization",
+      "मूर्त रूप"
+    ],
+    [
+      "die Maximization",
+      "maximization",
+      "अधिकतमीकरण"
+    ],
+    [
+      "die Mechanization",
+      "mechanization",
+      "यंत्रीकरण"
+    ],
+    [
+      "die Meditation",
+      "meditation",
+      "ध्यान"
+    ],
+    [
+      "die Memorization",
+      "memorization",
+      "याद"
+    ],
+    [
+      "die Militarization",
+      "militarization",
+      "सैन्यीकरण"
+    ],
+    [
+      "die Mobilization",
+      "mobilization",
+      "जुटान"
+    ],
+    [
+      "die Modernization",
+      "modernization",
+      "आधुनिकीकरण"
+    ],
+    [
+      "die Mutation",
+      "mutation",
+      "उत्परिवर्तन"
+    ],
+    [
+      "die Nationalization",
+      "nationalization",
+      "राष्ट्रीयकरण"
+    ],
+    [
+      "die Naturalization",
+      "naturalization",
+      "प्राकृतिकरण"
+    ],
+    [
+      "die Neutralization",
+      "neutralization",
+      "निष्प्रभावीकरण"
+    ],
+    [
+      "die Normalization",
+      "normalization",
+      "सामान्यीकरण"
+    ],
+    [
+      "die Nullification",
+      "nullification",
+      "रद्द"
+    ],
+    [
+      "die Numeration",
+      "numeration",
+      "गणना"
+    ],
+    [
+      "die Obfuscation",
+      "obfuscation",
+      "अस्पष्टता"
+    ],
+    [
+      "die Obstruction",
+      "obstruction",
+      "अवरोध"
+    ],
+    [
+      "die Ossification",
+      "ossification",
+      "अस्थिकरण"
+    ],
+    [
+      "die Ostracization",
+      "ostracization",
+      "बहिष्कार"
+    ],
+    [
+      "die Overpopulation",
+      "overpopulation",
+      "जनसंख्या विस्फोट"
+    ],
+    [
+      "die Pacification",
+      "pacification",
+      "शांतिस्थापन"
+    ],
+    [
+      "die Pagination",
+      "pagination",
+      "पृष्ठांकन"
+    ],
+    [
+      "die Pasteurization",
+      "pasteurization",
+      "पाश्चरीकरण"
+    ],
+    [
+      "die Penetration",
+      "penetration",
+      "भेदन"
+    ],
+    [
+      "die Personalization",
+      "personalization",
+      "व्यक्तिकरण"
+    ],
+    [
+      "die Politicization",
+      "politicization",
+      "राजनीतिकरण"
+    ],
+    [
+      "die Polymerization",
+      "polymerization",
+      "बहुलकरण"
+    ],
+    [
+      "die Popularization",
+      "popularization",
+      "लोकप्रियता"
+    ],
+    [
+      "die Predestination",
+      "predestination",
+      "पूर्वनियति"
+    ],
+    [
+      "die Predication",
+      "predication",
+      "विधेय"
+    ],
+    [
+      "die Prefabrication",
+      "prefabrication",
+      "पूर्वनिर्माण"
+    ],
+    [
+      "die Privatization",
+      "privatization",
+      "निजीकरण"
+    ],
+    [
+      "die Probation",
+      "probation",
+      "परिवीक्षा"
+    ],
+    [
+      "die Procrastination",
+      "procrastination",
+      "टालमटोल"
+    ],
+    [
+      "die Promulgation",
+      "promulgation",
+      "घोषणा"
+    ],
+    [
+      "die Proportionality",
+      "proportionality",
+      "आनुपातिकता"
+    ],
+    [
+      "die Proselytization",
+      "proselytization",
+      "धर्मपरिवर्तन"
+    ],
+    [
+      "die Ratification",
+      "ratification",
+      "अनुसमर्थन"
+    ],
+    [
+      "die Rationalization",
+      "rationalization",
+      "युक्तिसंगत"
+    ],
+    [
+      "die Reclamation",
+      "reclamation",
+      "पुनर्प्राप्ति"
+    ],
+    [
+      "die Reclassification",
+      "reclassification",
+      "पुनर्वर्गीकरण"
+    ],
+    [
+      "die Recombination",
+      "recombination",
+      "पुनर्संयोजन"
+    ],
+    [
+      "die Reconfiguration",
+      "reconfiguration",
+      "पुनर्विन्यास"
+    ],
+    [
+      "die Recrimination",
+      "recrimination",
+      "प्रत्यारोप"
+    ],
+    [
+      "die Rectification",
+      "rectification",
+      "सुधार"
+    ],
+    [
+      "die Redecoration",
+      "redecoration",
+      "पुनर्सज्जा"
+    ],
+    [
+      "die Redistribution",
+      "redistribution",
+      "पुनर्वितरण"
+    ],
+    [
+      "die Reeducation",
+      "reeducation",
+      "पुनशिक्षा"
+    ],
+    [
+      "die Reforestation",
+      "reforestation",
+      "पुनर्वनीकरण"
+    ],
+    [
+      "die Reformation",
+      "reformation",
+      "सुधार"
+    ],
+    [
+      "die Refrigeration",
+      "refrigeration",
+      "शीतलन"
+    ],
+    [
+      "die Regimentation",
+      "regimentation",
+      "अनुशासन"
+    ],
+    [
+      "die Regurgitation",
+      "regurgitation",
+      "उल्टी"
+    ],
+    [
+      "die Reification",
+      "reification",
+      "वस्तुकरण"
+    ],
+    [
+      "die Reimplementation",
+      "reimplementation",
+      "पुनर्कार्यान्वयन"
+    ],
+    [
+      "die Reintegration",
+      "reintegration",
+      "पुनःएकीकरण"
+    ],
+    [
+      "die Reinterpretation",
+      "reinterpretation",
+      "पुनर्व्याख्या"
+    ],
+    [
+      "die Reinvention",
+      "reinvention",
+      "पुनर्आविष्कार"
+    ],
+    [
+      "die Rejuvenation",
+      "rejuvenation",
+      "कायाकल्प"
+    ],
+    [
+      "die Remediation",
+      "remediation",
+      "उपचार"
+    ],
+    [
+      "die Remuneration",
+      "remuneration",
+      "पारिश्रमिक"
+    ],
+    [
+      "die Renunciation",
+      "renunciation",
+      "त्याग"
+    ],
+    [
+      "die Reorganization",
+      "reorganization",
+      "पुनर्गठन"
+    ],
+    [
+      "die Repatriation",
+      "repatriation",
+      "प्रत्यावर्तन"
+    ],
+    [
+      "die Replication",
+      "replication",
+      "प्रतिकृति"
+    ],
+    [
+      "die Repositioning",
+      "repositioning",
+      "पुनःस्थिति"
+    ],
+    [
+      "die Repression",
+      "repression",
+      "दमन"
+    ],
+    [
+      "die Repudiation",
+      "repudiation",
+      "अस्वीकृति"
+    ],
+    [
+      "die Requisition",
+      "requisition",
+      "अधिग्रहण"
+    ],
+    [
+      "die Resubmission",
+      "resubmission",
+      "पुनर्समर्पण"
+    ],
+    [
+      "die Retaliation",
+      "retaliation",
+      "प्रतिशोध"
+    ],
+    [
+      "die Retardation",
+      "retardation",
+      "मंदन"
+    ],
+    [
+      "die Retraction",
+      "retraction",
+      "वापसी"
+    ],
+    [
+      "die Reunification",
+      "reunification",
+      "पुनर्मिलन"
+    ],
+    [
+      "die Revaluation",
+      "revaluation",
+      "पुनर्मूल्यांकन"
+    ],
+    [
+      "die Revitalization",
+      "revitalization",
+      "पुनरोद्धार"
+    ],
+    [
+      "die Ritualization",
+      "ritualization",
+      "रीतिकरण"
+    ],
+    [
+      "die Romanticization",
+      "romanticization",
+      "रोमांटिकरण"
+    ],
+    [
+      "die Routinization",
+      "routinization",
+      "दिनचर्या"
+    ],
+    [
+      "die Sanctification",
+      "sanctification",
+      "पवित्रता"
+    ],
+    [
+      "die Sanitization",
+      "sanitization",
+      "स्वच्छता"
+    ],
+    [
+      "die Scarring",
+      "scarring",
+      "निशान"
+    ],
+    [
+      "die Scenario",
+      "scenario",
+      "परिदृश्य"
+    ],
+    [
+      "die Schematization",
+      "schematization",
+      "योजनाकरण"
+    ],
+    [
+      "die Secularization",
+      "secularization",
+      "धर्मनिरपेक्षता"
+    ],
+    [
+      "die Sedimentation",
+      "sedimentation",
+      "अवसादन"
+    ],
+    [
+      "die Segmentation",
+      "segmentation",
+      "खंडन"
+    ],
+    [
+      "die Sensitization",
+      "sensitization",
+      "संवेदीकरण"
+    ],
+    [
+      "die Serialization",
+      "serialization",
+      "क्रमबद्धता"
+    ],
+    [
+      "die Socialization",
+      "socialization",
+      "समाजीकरण"
+    ],
+    [
+      "die Specialization",
+      "specialization",
+      "विशेषज्ञता"
+    ],
+    [
+      "die Stabilization",
+      "stabilization",
+      "स्थिरीकरण"
+    ],
+    [
+      "die Standardization",
+      "standardization",
+      "मानकीकरण"
+    ],
+    [
+      "die Stigmatization",
+      "stigmatization",
+      "कलंकन"
+    ],
+    [
+      "die Stratification",
+      "stratification",
+      "स्तरीकरण"
+    ],
+    [
+      "die Subordination",
+      "subordination",
+      "अधीनता"
+    ],
+    [
+      "die Subsidization",
+      "subsidization",
+      "सब्सिडी"
+    ],
+    [
+      "die Suffocation",
+      "suffocation",
+      "दम घुटना"
+    ],
+    [
+      "die Summarization",
+      "summarization",
+      "सारांश"
+    ],
+    [
+      "die Superimposition",
+      "superimposition",
+      "अध्यारोपण"
+    ],
+    [
+      "die Supplementation",
+      "supplementation",
+      "पूरक"
+    ],
+    [
+      "die Systematization",
+      "systematization",
+      "व्यवस्थापन"
+    ],
+    [
+      "die Temporization",
+      "temporization",
+      "टालमटोल"
+    ],
+    [
+      "die Territorialization",
+      "territorialization",
+      "क्षेत्रीकरण"
+    ],
+    [
+      "die Theorization",
+      "theorization",
+      "सिद्धांतीकरण"
+    ],
+    [
+      "die Tokenization",
+      "tokenization",
+      "टोकनन"
+    ],
+    [
+      "die Totalization",
+      "totalization",
+      "कुलीकरण"
+    ],
+    [
+      "die Traumatization",
+      "traumatization",
+      "आघात"
+    ],
+    [
+      "die Trivialization",
+      "trivialization",
+      "तुच्छीकरण"
+    ],
+    [
+      "die Typification",
+      "typification",
+      "प्रतीकीकरण"
+    ],
+    [
+      "die Unification",
+      "unification",
+      "एकीकरण"
+    ],
+    [
+      "die Unionization",
+      "unionization",
+      "संघीकरण"
+    ],
+    [
+      "die Urbanization",
+      "urbanization",
+      "शहरीकरण"
+    ],
+    [
+      "die Utilization",
+      "utilization",
+      "उपयोग"
+    ],
+    [
+      "die Valorization",
+      "valorization",
+      "मूल्यांकन"
+    ],
+    [
+      "die Vaporization",
+      "vaporization",
+      "वाष्पीकरण"
+    ],
+    [
+      "die Vectorization",
+      "vectorization",
+      "सदिशीकरण"
+    ],
+    [
+      "die Victimization",
+      "victimization",
+      "पीड़ित"
+    ],
+    [
+      "die Vilification",
+      "vilification",
+      "बदनामी"
+    ],
+    [
+      "die Visualization",
+      "visualization",
+      "दृश्यीकरण"
+    ],
+    [
+      "die Vulgarization",
+      "vulgarization",
+      "लोकप्रियता"
+    ],
+    [
+      "die Westernization",
+      "westernization",
+      "पश्चिमीकरण"
+    ],
+    [
+      "die Deoxygenation",
+      "deoxygenation",
+      "अपऑक्सीजनीकरण"
+    ],
+    [
+      "die Recontextualization",
+      "recontextualization",
+      "पुनर्संदर्भीकरण"
+    ],
+    [
+      "die Desulfurization",
+      "desulfurization",
+      "गंधक हरण"
+    ],
+    [
+      "die Demineralization",
+      "demineralization",
+      "विखनिजीकरण"
+    ],
+    [
+      "die Reinitialization",
+      "reinitialization",
+      "पुनः आरंभ"
+    ],
+    [
+      "die Decarboxylation",
+      "decarboxylation",
+      "डीकार्बोक्सिलीकरण"
+    ],
+    [
+      "die Transesterification",
+      "transesterification",
+      "ट्रान्सएस्टरीकरण"
+    ],
+    [
+      "die Esterification",
+      "esterification",
+      "एस्टरीकरण"
+    ],
+    [
+      "die Hydroxylation",
+      "hydroxylation",
+      "हाइड्रॉक्सिलीकरण"
+    ],
+    [
+      "die Carboxylation",
+      "carboxylation",
+      "कार्बोक्सिलीकरण"
+    ],
+    [
+      "die Methylation",
+      "methylation",
+      "मिथाइलेशन"
+    ],
+    [
+      "die Glycosylation",
+      "glycosylation",
+      "ग्लाइकोसिलेशन"
+    ],
+    [
+      "die Phosphorylation",
+      "phosphorylation",
+      "फॉस्फोरिलेशन"
+    ],
+    [
+      "die Acetylation",
+      "acetylation",
+      "एसिटिलेशन"
+    ],
+    [
+      "die Alkylation",
+      "alkylation",
+      "ऐल्किलीकरण"
+    ],
+    [
+      "die Nitration",
+      "nitration",
+      "नाइट्रेशन"
+    ],
+    [
+      "die Sulfonation",
+      "sulfonation",
+      "सल्फोनेशन"
+    ],
+    [
+      "die Halogenation",
+      "halogenation",
+      "हैलोजनीकरण"
+    ],
+    [
+      "die Epoxidation",
+      "epoxidation",
+      "एपॉक्सीकरण"
+    ],
+    [
+      "die Isomerization",
+      "isomerization",
+      "समावयवीकरण"
+    ],
+    [
+      "die Dimerization",
+      "dimerization",
+      "डाइमराइजेशन"
+    ],
+    [
+      "die Oligomerization",
+      "oligomerization",
+      "ऑलिगोमराइजेशन"
+    ],
+    [
+      "die Copolymerization",
+      "copolymerization",
+      "सहबहुलकरण"
+    ],
+    [
+      "die Crosslinking",
+      "crosslinking",
+      "क्रॉसलिंकिंग"
+    ],
+    [
+      "die Functionalization",
+      "functionalization",
+      "कार्यात्मकीकरण"
+    ],
+    [
+      "die Derivatization",
+      "derivatization",
+      "व्युत्पत्ति"
+    ],
+    [
+      "die Characterization",
+      "characterization",
+      "अभिलक्षण"
+    ],
+    [
+      "die Parameterization",
+      "parameterization",
+      "पैरामीटरीकरण"
+    ],
+    [
+      "die Discretization",
+      "discretization",
+      "विवेकन"
+    ],
+    [
+      "die Linearization",
+      "linearization",
+      "रैखिकीकरण"
+    ],
+    [
+      "die Parallelization",
+      "parallelization",
+      "समानांतरीकरण"
+    ],
+    [
+      "die Deoxygenierung",
+      "deoxygenation",
+      "अपऑक्सीजनीकरण"
+    ],
+    [
+      "die Rekontextualisierung",
+      "recontextualization",
+      "पुनर्संदर्भीकरण"
+    ],
+    [
+      "die Entschwefelung",
+      "desulfurization",
+      "गंधक हरण"
+    ],
+    [
+      "die Entmineralisierung",
+      "demineralization",
+      "विखनिजीकरण"
+    ],
+    [
+      "die Decarboxylierung",
+      "decarboxylation",
+      "डीकार्बोक्सिलीकरण"
+    ],
+    [
+      "die Umesterung",
+      "transesterification",
+      "ट्रान्सएस्टरीकरण"
+    ],
+    [
+      "die Veresterung",
+      "esterification",
+      "एस्टरीकरण"
+    ],
+    [
+      "die Hydroxylierung",
+      "hydroxylation",
+      "हाइड्रॉक्सिलीकरण"
+    ],
+    [
+      "die Carboxylierung",
+      "carboxylation",
+      "कार्बोक्सिलीकरण"
+    ],
+    [
+      "die Methylierung",
+      "methylation",
+      "मिथाइलेशन"
+    ],
+    [
+      "die Glykosylierung",
+      "glycosylation",
+      "ग्लाइकोसिलेशन"
+    ],
+    [
+      "die Phosphorylierung",
+      "phosphorylation",
+      "फॉस्फोरिलेशन"
+    ],
+    [
+      "die Acetylierung",
+      "acetylation",
+      "एसिटिलेशन"
+    ],
+    [
+      "die Alkylierung",
+      "alkylation",
+      "ऐल्किलीकरण"
+    ],
+    [
+      "die Nitrierung",
+      "nitration",
+      "नाइट्रेशन"
+    ],
+    [
+      "die Sulfonierung",
+      "sulfonation",
+      "सल्फोनेशन"
+    ],
+    [
+      "die Halogenierung",
+      "halogenation",
+      "हैलोजनीकरण"
+    ],
+    [
+      "die Epoxidierung",
+      "epoxidation",
+      "एपॉक्सीकरण"
+    ],
+    [
+      "die Isomerisierung",
+      "isomerization",
+      "समावयवीकरण"
+    ],
+    [
+      "die Dimersierung",
+      "dimerization",
+      "डाइमराइजेशन"
+    ],
+    [
+      "die Oligomerisierung",
+      "oligomerization",
+      "ऑलिगोमराइजेशन"
+    ],
+    [
+      "die Copolymerisation",
+      "copolymerization",
+      "सहबहुलकरण"
+    ],
+    [
+      "die Vernetzung",
+      "crosslinking",
+      "क्रॉसलिंकिंग"
+    ],
+    [
+      "die Funktionalisierung",
+      "functionalization",
+      "कार्यात्मकीकरण"
+    ],
+    [
+      "die Derivatisierung",
+      "derivatization",
+      "व्युत्पत्ति"
+    ],
+    [
+      "die Charakterisierung",
+      "characterization",
+      "अभिलक्षण"
+    ],
+    [
+      "die Parametrisierung",
+      "parameterization",
+      "पैरामीटरीकरण"
+    ],
+    [
+      "die Diskretisierung",
+      "discretization",
+      "विवेकन"
+    ],
+    [
+      "die Linearisierung",
+      "linearization",
+      "रैखिकीकरण"
+    ],
+    [
+      "die Vektorisierung",
+      "vectorization",
+      "सदिशीकरण"
+    ],
+    [
+      "die Parallelisierung",
+      "parallelization",
+      "समानांतरीकरण"
+    ],
+    [
+      "die Kompostierung",
+      "composting",
+      "कम्पोस्टिंग"
+    ],
+    [
+      "die Verflüssigung",
+      "liquefaction",
+      "द्रवीकरण"
+    ],
+    [
+      "die Vergasung",
+      "gasification",
+      "गैसीकरण"
+    ],
+    [
+      "die Verkohlung",
+      "carbonization",
+      "कार्बनीकरण"
+    ],
+    [
+      "die Verkieselung",
+      "silicification",
+      "सिलिकीकरण"
+    ],
+    [
+      "die Verkalkung",
+      "calcification",
+      "कैल्सीकरण"
+    ],
+    [
+      "die Verfestigung",
+      "solidification",
+      "ठोसीकरण"
+    ],
+    [
+      "die Verflüchtigung",
+      "volatilization",
+      "वाष्पीकरण"
+    ],
+    [
+      "die Veraschung",
+      "incineration",
+      "भस्मीकरण"
+    ],
+    [
+      "die Versinterung",
+      "sintering",
+      "सिंटरिंग"
+    ],
+    [
+      "die Pyrolyse",
+      "pyrolysis",
+      "पायरोलिसिस"
+    ],
+    [
+      "die Hydrolyse",
+      "hydrolysis",
+      "जलअपघटन"
+    ],
+    [
+      "die Elektrolyse",
+      "electrolysis",
+      "विद्युत अपघटन"
+    ],
+    [
+      "die Analyse",
+      "analysis",
+      "विश्लेषण"
+    ],
+    [
+      "die Katalyse",
+      "catalysis",
+      "उत्प्रेरण"
+    ],
+    [
+      "die Dialyse",
+      "dialysis",
+      "डायलिसिस"
+    ],
+    [
+      "die Paralysis",
+      "paralysis",
+      "लकवा"
+    ],
+    [
+      "die Metabolisierung",
+      "metabolization",
+      "चयापचय"
+    ],
+    [
+      "die Immobilisierung",
+      "immobilization",
+      "अचलन"
+    ],
+    [
+      "die Granulierung",
+      "granulation",
+      "दानेदार बनाना"
+    ],
+    [
+      "die Pelletierung",
+      "pelleting",
+      "पेलेटिंग"
+    ],
+    [
+      "die Mikroverkapselung",
+      "microencapsulation",
+      "माइक्रोएनकैप्सुलेशन"
+    ],
+    [
+      "die Nanofiltration",
+      "nanofiltration",
+      "नैनोफिल्ट्रेशन"
+    ],
+    [
+      "die Ultrafiltration",
+      "ultrafiltration",
+      "अल्ट्राफिल्ट्रेशन"
+    ],
+    [
+      "die Umkehrosmose",
+      "reverse osmosis",
+      "उत्क्रम परासरण"
+    ],
+    [
+      "die Elektrodialyse",
+      "electrodialysis",
+      "इलेक्ट्रोडायलिसिस"
     ]
   ],
-  "pattern_2_ism": [],
-  "pattern_4_ty": [],
-  "pattern_7_ic": [],
-  "pattern_8_ive": [],
-  "pattern_5_ment": [],
-  "pattern_1_ance_ence": []
+  "pattern_2_ism": [
+    [
+      "der Nepotismus",
+      "nepotism",
+      "भाई-भतीजावाद"
+    ],
+    [
+      "der Prismus",
+      "prism",
+      "प्रिज्म"
+    ],
+    [
+      "der Solipsismus",
+      "solipsism",
+      "अहंवाद"
+    ],
+    [
+      "der Syllogismus",
+      "syllogism",
+      "न्यायवाक्य"
+    ],
+    [
+      "das Prisma",
+      "prism",
+      "प्रिज्म"
+    ],
+    [
+      "der Exotismus",
+      "exoticism",
+      "विदेशीपन"
+    ]
+  ],
+  "pattern_4_ty": [
+    [
+      "die Absorbabilität",
+      "absorbability",
+      "अवशोषणीयता"
+    ],
+    [
+      "die Acceptabilität",
+      "acceptability",
+      "स्वीकार्यता"
+    ],
+    [
+      "die Accessibilität",
+      "accessibility",
+      "पहुंच"
+    ],
+    [
+      "die Adjustabilität",
+      "adjustability",
+      "समायोज्यता"
+    ],
+    [
+      "die Adoptabilität",
+      "adoptability",
+      "गोद लेने योग्यता"
+    ],
+    [
+      "die Advisabilität",
+      "advisability",
+      "उचितता"
+    ],
+    [
+      "die Agreeabilität",
+      "agreeability",
+      "सहमति"
+    ],
+    [
+      "die Amenabilität",
+      "amenability",
+      "अनुपालन"
+    ],
+    [
+      "die Amiabilität",
+      "amiability",
+      "मित्रता"
+    ],
+    [
+      "die Attainabilität",
+      "attainability",
+      "प्राप्ति"
+    ],
+    [
+      "die Believabilität",
+      "believability",
+      "विश्वसनीयता"
+    ],
+    [
+      "die Changeabilität",
+      "changeability",
+      "परिवर्तनशीलता"
+    ],
+    [
+      "die Conformabilität",
+      "conformability",
+      "अनुरूपता"
+    ],
+    [
+      "die Convertibilität",
+      "convertibility",
+      "परिवर्तनीयता"
+    ],
+    [
+      "die Curabilität",
+      "curability",
+      "उपचार योग्यता"
+    ],
+    [
+      "die Dependabilität",
+      "dependability",
+      "भरोसेमंद"
+    ],
+    [
+      "die Desirabilität",
+      "desirability",
+      "वांछनीयता"
+    ],
+    [
+      "die Educabilität",
+      "educability",
+      "शिक्षणीयता"
+    ],
+    [
+      "die Employabilität",
+      "employability",
+      "रोजगार योग्यता"
+    ],
+    [
+      "die Enforceabilität",
+      "enforceability",
+      "प्रवर्तनीयता"
+    ],
+    [
+      "die Excitabilität",
+      "excitability",
+      "उत्तेजनशीलता"
+    ],
+    [
+      "die Expandabilität",
+      "expandability",
+      "विस्तार योग्यता"
+    ],
+    [
+      "die Explicabilität",
+      "explicability",
+      "व्याख्या योग्यता"
+    ],
+    [
+      "die Habitabilität",
+      "habitability",
+      "रहने योग्यता"
+    ],
+    [
+      "die Immutabilität",
+      "immutability",
+      "अपरिवर्तनीयता"
+    ],
+    [
+      "die Impassabilität",
+      "impassability",
+      "अगम्यता"
+    ],
+    [
+      "die Impressibilität",
+      "impressibility",
+      "संवेदनशीलता"
+    ],
+    [
+      "die Improvabilität",
+      "improvability",
+      "सुधार योग्यता"
+    ],
+    [
+      "die Incapabilität",
+      "incapability",
+      "अक्षमता"
+    ],
+    [
+      "die Incompatibilität",
+      "incompatibility",
+      "अनुकूलता रहित"
+    ],
+    [
+      "die Incompressibilität",
+      "incompressibility",
+      "असंपीड्यता"
+    ],
+    [
+      "die Incontestabilität",
+      "incontestability",
+      "निर्विवादता"
+    ],
+    [
+      "die Incorrigibilität",
+      "incorrigibility",
+      "असुधार्यता"
+    ],
+    [
+      "die Incurabilität",
+      "incurability",
+      "असाध्यता"
+    ],
+    [
+      "die Indestructibilität",
+      "indestructibility",
+      "अविनाशीयता"
+    ],
+    [
+      "die Indispensabilität",
+      "indispensability",
+      "अनिवार्यता"
+    ],
+    [
+      "die Inevitabilität",
+      "inevitability",
+      "अनिवार्यता"
+    ],
+    [
+      "die Infallibilität",
+      "infallibility",
+      "अचूकता"
+    ],
+    [
+      "die Invincibilität",
+      "invincibility",
+      "अजेयता"
+    ],
+    [
+      "die Inviolabilität",
+      "inviolability",
+      "अलंघनीयता"
+    ],
+    [
+      "die Irritabilität",
+      "irritability",
+      "चिड़चिड़ापन"
+    ],
+    [
+      "die Legibilität",
+      "legibility",
+      "पढ़ने योग्यता"
+    ],
+    [
+      "die Maintainabilität",
+      "maintainability",
+      "रखरखाव"
+    ],
+    [
+      "die Manageabilität",
+      "manageability",
+      "प्रबंधनीयता"
+    ],
+    [
+      "die Manipulabilität",
+      "manipulability",
+      "हेराफेरी"
+    ],
+    [
+      "die Marketabilität",
+      "marketability",
+      "विक्रय योग्यता"
+    ],
+    [
+      "die Measurabilität",
+      "measurability",
+      "मापने योग्यता"
+    ],
+    [
+      "die Memorabilität",
+      "memorability",
+      "यादगार"
+    ],
+    [
+      "die Miscibilität",
+      "miscibility",
+      "मिश्रणीयता"
+    ],
+    [
+      "die Movabilität",
+      "movability",
+      "गतिशीलता"
+    ],
+    [
+      "die Mutabilität",
+      "mutability",
+      "परिवर्तनशीलता"
+    ],
+    [
+      "die Navigabilität",
+      "navigability",
+      "नौवहन योग्यता"
+    ],
+    [
+      "die Negligibilität",
+      "negligibility",
+      "नगण्यता"
+    ],
+    [
+      "die Nonabilität",
+      "nonability",
+      "अक्षमता"
+    ],
+    [
+      "die Observabilität",
+      "observability",
+      "अवलोकनीयता"
+    ],
+    [
+      "die Operabilität",
+      "operability",
+      "संचालन योग्यता"
+    ],
+    [
+      "die Opposabilität",
+      "opposability",
+      "विरोध योग्यता"
+    ],
+    [
+      "die Passabilität",
+      "passability",
+      "गम्यता"
+    ],
+    [
+      "die Payabilität",
+      "payability",
+      "भुगतान योग्यता"
+    ],
+    [
+      "die Portabilität",
+      "portability",
+      "पोर्टेबिलिटी"
+    ],
+    [
+      "die Predictabilität",
+      "predictability",
+      "पूर्वानुमान योग्यता"
+    ],
+    [
+      "die Preferabilität",
+      "preferability",
+      "पसंद"
+    ],
+    [
+      "die Processabilität",
+      "processability",
+      "प्रक्रिया योग्यता"
+    ],
+    [
+      "die Programmabilität",
+      "programmability",
+      "प्रोग्राम योग्यता"
+    ],
+    [
+      "die Progressivität",
+      "progressivity",
+      "प्रगतिशीलता"
+    ],
+    [
+      "die Provabilität",
+      "provability",
+      "सिद्धता"
+    ],
+    [
+      "die Readabilität",
+      "readability",
+      "पठनीयता"
+    ],
+    [
+      "die Realizabilität",
+      "realizability",
+      "वास्तविकता"
+    ],
+    [
+      "die Reasonabilität",
+      "reasonability",
+      "उचितता"
+    ],
+    [
+      "die Receptivität",
+      "receptivity",
+      "ग्रहणशीलता"
+    ],
+    [
+      "die Recognizabilität",
+      "recognizability",
+      "पहचान योग्यता"
+    ],
+    [
+      "die Recoverabilität",
+      "recoverability",
+      "पुनर्प्राप्ति"
+    ],
+    [
+      "die Repeatabilität",
+      "repeatability",
+      "दोहराव"
+    ],
+    [
+      "die Replaceabilität",
+      "replaceability",
+      "प्रतिस्थापनीयता"
+    ],
+    [
+      "die Reproducibilität",
+      "reproducibility",
+      "पुनरुत्पादन"
+    ],
+    [
+      "die Resettabilität",
+      "resettability",
+      "रीसेट"
+    ],
+    [
+      "die Scalabilität",
+      "scalability",
+      "मापनीयता"
+    ],
+    [
+      "die Serviceabilität",
+      "serviceability",
+      "सेवा योग्यता"
+    ],
+    [
+      "die Solvabilität",
+      "solvability",
+      "समाधान योग्यता"
+    ],
+    [
+      "die Substitutabilität",
+      "substitutability",
+      "प्रतिस्थापनीयता"
+    ],
+    [
+      "die Traceabilität",
+      "traceability",
+      "अनुरेखणीयता"
+    ],
+    [
+      "die Tractabilität",
+      "tractability",
+      "वश्यता"
+    ],
+    [
+      "die Transferabilität",
+      "transferability",
+      "हस्तांतरणीयता"
+    ],
+    [
+      "die Translatabilität",
+      "translatability",
+      "अनुवाद योग्यता"
+    ],
+    [
+      "die Transportabilität",
+      "transportability",
+      "परिवहन योग्यता"
+    ],
+    [
+      "die Treatabilität",
+      "treatability",
+      "उपचार योग्यता"
+    ],
+    [
+      "die Usabilität",
+      "usability",
+      "उपयोगिता"
+    ],
+    [
+      "die Visibilität",
+      "visibility",
+      "दृश्यता"
+    ],
+    [
+      "die Extensibilität",
+      "extensibility",
+      "विस्तार योग्यता"
+    ],
+    [
+      "die Configurabilität",
+      "configurability",
+      "विन्यास योग्यता"
+    ],
+    [
+      "die Interoperabilität",
+      "interoperability",
+      "अंतरसंचालन"
+    ],
+    [
+      "die Modularität",
+      "modularity",
+      "मॉड्यूलरिटी"
+    ],
+    [
+      "die Testabilität",
+      "testability",
+      "परीक्षण योग्यता"
+    ],
+    [
+      "die Deployabilität",
+      "deployability",
+      "तैनाती योग्यता"
+    ],
+    [
+      "die Composabilität",
+      "composability",
+      "संयोजन योग्यता"
+    ],
+    [
+      "die Reusabilität",
+      "reusability",
+      "पुन: उपयोग"
+    ],
+    [
+      "die Invariabilität",
+      "invariability",
+      "अपरिवर्तनीयता"
+    ],
+    [
+      "die Erweiterbarkeit",
+      "extensibility",
+      "विस्तार योग्यता"
+    ],
+    [
+      "die Konfigurierbarkeit",
+      "configurability",
+      "विन्यास योग्यता"
+    ],
+    [
+      "die Skalierbarkeit",
+      "scalability",
+      "मापनीयता"
+    ],
+    [
+      "die Wartbarkeit",
+      "maintainability",
+      "रखरखाव योग्यता"
+    ],
+    [
+      "die Testbarkeit",
+      "testability",
+      "परीक्षण योग्यता"
+    ],
+    [
+      "die Einsatzfähigkeit",
+      "deployability",
+      "तैनाती योग्यता"
+    ],
+    [
+      "die Wiederverwendbarkeit",
+      "reusability",
+      "पुन: उपयोग"
+    ],
+    [
+      "die Nachvollziehbarkeit",
+      "traceability",
+      "अनुरेखणीयता"
+    ],
+    [
+      "die Übertragbarkeit",
+      "transferability",
+      "हस्तांतरणीयता"
+    ],
+    [
+      "die Übersetzbarkeit",
+      "translatability",
+      "अनुवाद योग्यता"
+    ],
+    [
+      "die Behandelbarkeit",
+      "treatability",
+      "उपचार योग्यता"
+    ],
+    [
+      "die Rückverfolgbarkeit",
+      "traceability",
+      "अनुरेखण"
+    ],
+    [
+      "die Biokompatibilität",
+      "biocompatibility",
+      "जैव अनुकूलता"
+    ],
+    [
+      "die Hämokompatibilität",
+      "hemocompatibility",
+      "रक्त अनुकूलता"
+    ],
+    [
+      "die Sterilisierbarkeit",
+      "sterilizability",
+      "बाँझनीयता"
+    ],
+    [
+      "die Autoklavierbarkeit",
+      "autoclavability",
+      "ऑटोक्लेव योग्यता"
+    ]
+  ],
+  "pattern_7_ic": [
+    [
+      "allelopathisch",
+      "allelopathic",
+      "एलेलोपैथिक"
+    ],
+    [
+      "allosterisch",
+      "allosteric",
+      "ऑलोस्टेरिक"
+    ],
+    [
+      "anabolisch",
+      "anabolic",
+      "उपचय"
+    ],
+    [
+      "antipathisch",
+      "antipathic",
+      "विरोधी"
+    ],
+    [
+      "astrochemicalisch",
+      "astrochemical",
+      "खगोल रासायनिक"
+    ],
+    [
+      "chemotactisch",
+      "chemotactic",
+      "कीमोटैक्टिक"
+    ],
+    [
+      "anabol",
+      "anabolic",
+      "उपचय"
+    ],
+    [
+      "astrophysikalisch",
+      "astrochemical",
+      "खगोल रासायनिक"
+    ],
+    [
+      "chemotaktisch",
+      "chemotactic",
+      "कीमोटैक्टिक"
+    ],
+    [
+      "photovoltaisch",
+      "photovoltaic",
+      "फोटोवोल्टेइक"
+    ],
+    [
+      "piezoelektrisch",
+      "piezoelectric",
+      "पीजोइलेक्ट्रिक"
+    ],
+    [
+      "pyroelektrisch",
+      "pyroelectric",
+      "पायरोइलेक्ट्रिक"
+    ],
+    [
+      "thermoelektrisch",
+      "thermoelectric",
+      "थर्मोइलेक्ट्रिक"
+    ],
+    [
+      "endotherm",
+      "endothermic",
+      "ऊष्माशोषी"
+    ],
+    [
+      "exotherm",
+      "exothermic",
+      "ऊष्माक्षेपी"
+    ],
+    [
+      "isotherm",
+      "isothermal",
+      "समतापी"
+    ],
+    [
+      "adiabatisch",
+      "adiabatic",
+      "रुद्धोष्म"
+    ]
+  ],
+  "pattern_8_ive": [
+    [
+      "akkretiv",
+      "accretive",
+      "संचयी"
+    ],
+    [
+      "korrelativ",
+      "correlative",
+      "सहसंबंधी"
+    ],
+    [
+      "kurativ",
+      "curative",
+      "उपचारात्मक"
+    ],
+    [
+      "deduktiv",
+      "deductive",
+      "निगमनात्मक"
+    ],
+    [
+      "konvulsiv",
+      "convulsive",
+      "ऐंठन"
+    ],
+    [
+      "implosiv",
+      "implosive",
+      "अंतर्विस्फोटक"
+    ]
+  ],
+  "pattern_5_ment": [
+    [
+      "das Medication",
+      "medication",
+      "दवा"
+    ],
+    [
+      "das Embedment",
+      "embedment",
+      "एम्बेडमेंट"
+    ],
+    [
+      "das Encasement",
+      "encasement",
+      "आवरण"
+    ],
+    [
+      "das Entrenchment",
+      "entrenchment",
+      "मजबूती"
+    ],
+    [
+      "das Increment",
+      "increment",
+      "वृद्धि"
+    ],
+    [
+      "das Indictment",
+      "indictment",
+      "अभियोग"
+    ],
+    [
+      "das Infringement",
+      "infringement",
+      "उल्लंघन"
+    ],
+    [
+      "das Instalment",
+      "instalment",
+      "किस्त"
+    ],
+    [
+      "das Einbettung",
+      "embedment",
+      "एम्बेडमेंट"
+    ],
+    [
+      "die Ummantelung",
+      "encasement",
+      "आवरण"
+    ],
+    [
+      "die Verschanzung",
+      "entrenchment",
+      "मजबूती"
+    ],
+    [
+      "der Zuwachs",
+      "increment",
+      "वृद्धि"
+    ],
+    [
+      "die Anklage",
+      "indictment",
+      "अभियोग"
+    ],
+    [
+      "die Verletzung",
+      "infringement",
+      "उल्लंघन"
+    ],
+    [
+      "das Abkommen",
+      "agreement",
+      "समझौता"
+    ],
+    [
+      "das Aufkommen",
+      "revenue",
+      "राजस्व"
+    ],
+    [
+      "das Nachkommen",
+      "descendant",
+      "वंशज"
+    ],
+    [
+      "das Vorhaben",
+      "project",
+      "परियोजना"
+    ],
+    [
+      "das Sediment",
+      "sediment",
+      "तलछट"
+    ],
+    [
+      "das Pigment",
+      "pigment",
+      "वर्णक"
+    ],
+    [
+      "das Reagenz",
+      "reagent",
+      "अभिकर्मक"
+    ],
+    [
+      "das Detergens",
+      "detergent",
+      "डिटर्जेंट"
+    ],
+    [
+      "das Tensid",
+      "surfactant",
+      "सर्फेक्टेंट"
+    ]
+  ],
+  "pattern_1_ance_ence": [
+    [
+      "die Consonanz",
+      "consonance",
+      "स्वर सामंजस्य"
+    ],
+    [
+      "die Extravaganz",
+      "extravagance",
+      "फिजूलखर्च"
+    ],
+    [
+      "die Irrelevanz",
+      "irrelevance",
+      "अप्रासंगिकता"
+    ],
+    [
+      "die Luminanz",
+      "luminance",
+      "चमक"
+    ],
+    [
+      "die Malfeasanz",
+      "malfeasance",
+      "दुराचार"
+    ],
+    [
+      "die Remittanz",
+      "remittance",
+      "भेजी रकम"
+    ],
+    [
+      "die Resonanz",
+      "resonance",
+      "अनुनाद"
+    ],
+    [
+      "die Severanz",
+      "severance",
+      "विच्छेद"
+    ],
+    [
+      "die Turbulenz",
+      "turbulence",
+      "अशांति"
+    ],
+    [
+      "die Varianz",
+      "variance",
+      "अंतर"
+    ],
+    [
+      "die Überweisung",
+      "remittance",
+      "भेजी रकम"
+    ],
+    [
+      "die Abfindung",
+      "severance",
+      "विच्छेद"
+    ],
+    [
+      "die Konsonanz",
+      "consonance",
+      "स्वर सामंजस्य"
+    ],
+    [
+      "die Leuchtdichte",
+      "luminance",
+      "चमक"
+    ],
+    [
+      "die Rechtswidrigkeit",
+      "malfeasance",
+      "दुराचार"
+    ],
+    [
+      "die Koexistenz",
+      "coexistence",
+      "सहअस्तित्व"
+    ],
+    [
+      "die Interdependenz",
+      "interdependence",
+      "अंतर्निर्भरता"
+    ],
+    [
+      "die Konfluenz",
+      "confluence",
+      "संगम"
+    ]
+  ],
+  "pattern_9_ous": [
+    [
+      "androgynös",
+      "androgynous",
+      "उभयलिंगी"
+    ],
+    [
+      "bipedalös",
+      "bipedalous",
+      "द्विपाद"
+    ],
+    [
+      "cavernös",
+      "cavernous",
+      "गुफा जैसा"
+    ],
+    [
+      "androgyn",
+      "androgynous",
+      "उभयलिंगी"
+    ],
+    [
+      "kavernös",
+      "cavernous",
+      "गुफा जैसा"
+    ],
+    [
+      "synonym",
+      "synonymous",
+      "समानार्थी"
+    ],
+    [
+      "nekrotisch",
+      "necrotic",
+      "नेक्रोटिक"
+    ]
+  ],
+  "pattern_11_ant": [
+    [
+      "der Accelerant",
+      "accelerant",
+      "उत्प्रेरक"
+    ],
+    [
+      "der Confidant",
+      "confidant",
+      "विश्वासपात्र"
+    ],
+    [
+      "der Beschleuniger",
+      "accelerant",
+      "उत्प्रेरक"
+    ],
+    [
+      "der Vertraute",
+      "confidant",
+      "विश्वासपात्र"
+    ],
+    [
+      "der Reduktant",
+      "reductant",
+      "अपचायक"
+    ]
+  ],
+  "pattern_12_ist": [
+    [
+      "der Allergist",
+      "allergist",
+      "एलर्जी विशेषज्ञ"
+    ],
+    [
+      "der Anaesthetist",
+      "anaesthetist",
+      "बेहोशी विशेषज्ञ"
+    ],
+    [
+      "der Endocrinologist",
+      "endocrinologist",
+      "अंतःस्राव विशेषज्ञ"
+    ],
+    [
+      "der Geriatrician",
+      "geriatrician",
+      "वृद्धावस्था विशेषज्ञ"
+    ],
+    [
+      "der Neonatologist",
+      "neonatologist",
+      "नवजात विशेषज्ञ"
+    ],
+    [
+      "der Allergologe",
+      "allergist",
+      "एलर्जी विशेषज्ञ"
+    ],
+    [
+      "der Anästhesist",
+      "anaesthetist",
+      "बेहोशी विशेषज्ञ"
+    ],
+    [
+      "der Endokrinologe",
+      "endocrinologist",
+      "अंतःस्राव विशेषज्ञ"
+    ],
+    [
+      "der Geriater",
+      "geriatrician",
+      "वृद्धावस्था विशेषज्ञ"
+    ],
+    [
+      "der Neonatologe",
+      "neonatologist",
+      "नवजात विशेषज्ञ"
+    ],
+    [
+      "der Geochemiker",
+      "geochemist",
+      "भूरसायनज्ञ"
+    ],
+    [
+      "der Astrobiologe",
+      "astrobiologist",
+      "खगोल जीवविज्ञानी"
+    ],
+    [
+      "der Virologe",
+      "virologist",
+      "वायरोलॉजिस्ट"
+    ],
+    [
+      "der Toxikologe",
+      "toxicologist",
+      "विष विज्ञानी"
+    ]
+  ],
+  "pattern_13_logy": [
+    [
+      "die Audiologie",
+      "audiology",
+      "श्रवण विज्ञान"
+    ],
+    [
+      "die Campanologie",
+      "campanology",
+      "घंटा विज्ञान"
+    ],
+    [
+      "die Conchologie",
+      "conchology",
+      "शंख विज्ञान"
+    ],
+    [
+      "die Dendrochronologie",
+      "dendrochronology",
+      "वृक्ष कालक्रम"
+    ],
+    [
+      "die Enologie",
+      "enology",
+      "वाइन विज्ञान"
+    ],
+    [
+      "die Escapologie",
+      "escapology",
+      "भागने का कौशल"
+    ],
+    [
+      "die Kampanologie",
+      "campanology",
+      "घंटा विज्ञान"
+    ],
+    [
+      "die Konchologie",
+      "conchology",
+      "शंख विज्ञान"
+    ],
+    [
+      "die Önologie",
+      "enology",
+      "वाइन विज्ञान"
+    ],
+    [
+      "die Eskapologie",
+      "escapology",
+      "भागने का कौशल"
+    ],
+    [
+      "die Toxikologie",
+      "toxicology",
+      "विष विज्ञान"
+    ],
+    [
+      "die Virologie",
+      "virology",
+      "वायरोलॉजी"
+    ],
+    [
+      "die Nanotechnologie",
+      "nanotechnology",
+      "नैनोतकनीक"
+    ],
+    [
+      "die Bionik",
+      "bionics",
+      "जैवअभियांत्रिकी"
+    ]
+  ],
+  "pattern_14_graphy": [
+    [
+      "die Angiografie",
+      "angiography",
+      "रक्तवाहिका चित्रण"
+    ],
+    [
+      "die Crystallografie",
+      "crystallography",
+      "स्फटिक विज्ञान"
+    ],
+    [
+      "die Kristallografie",
+      "crystallography",
+      "स्फटिक विज्ञान"
+    ],
+    [
+      "die Thermografie",
+      "thermography",
+      "थर्मोग्राफी"
+    ],
+    [
+      "die Fluorografie",
+      "fluorography",
+      "फ्लोरोग्राफी"
+    ]
+  ],
+  "pattern_15_meter": [
+    [
+      "der Accelerometer",
+      "accelerometer",
+      "त्वरणमापी"
+    ],
+    [
+      "der Densitometer",
+      "densitometer",
+      "घनत्वमापी"
+    ],
+    [
+      "der Gravimeter",
+      "gravimeter",
+      "गुरुत्वमापी"
+    ],
+    [
+      "der Beschleunigungsmesser",
+      "accelerometer",
+      "त्वरणमापी"
+    ],
+    [
+      "das Gravimeter",
+      "gravimeter",
+      "गुरुत्वमापी"
+    ],
+    [
+      "der pH-Meter",
+      "pH meter",
+      "pH मीटर"
+    ],
+    [
+      "der Turbidimeter",
+      "turbidimeter",
+      "टर्बिडिमीटर"
+    ]
+  ],
+  "pattern_16_scope": [
+    [
+      "das Auriskop",
+      "auriscope",
+      "कान दर्शक"
+    ],
+    [
+      "das Endomicroskop",
+      "endomicroscope",
+      "एंडोमाइक्रोस्कोप"
+    ],
+    [
+      "das Endomikroskop",
+      "endomicroscope",
+      "एंडोमाइक्रोस्कोप"
+    ]
+  ],
+  "pattern_17_phobia": [
+    [
+      "die Androphobie",
+      "androphobia",
+      "पुरुषों का भय"
+    ]
+  ],
+  "pattern_18_phile": [
+    [
+      "der Acidophil",
+      "acidophile",
+      "अम्लप्रिय"
+    ],
+    [
+      "der Xerophil",
+      "xerophile",
+      "शुष्कप्रिय"
+    ]
+  ],
+  "pattern_20_ure": [
+    [
+      "die Censure",
+      "censure",
+      "निंदा"
+    ],
+    [
+      "die Fissure",
+      "fissure",
+      "दरार"
+    ],
+    [
+      "die Fissur",
+      "fissure",
+      "दरार"
+    ],
+    [
+      "die Mischung",
+      "mixture",
+      "मिश्रण"
+    ],
+    [
+      "die Feuchtigkeit",
+      "moisture",
+      "नमी"
+    ],
+    [
+      "die Kompositur",
+      "composite",
+      "मिश्रित"
+    ]
+  ],
+  "pattern_19_age": [
+    [
+      "die Ménage",
+      "menage",
+      "घर"
+    ],
+    [
+      "die Tonnage",
+      "tonnage",
+      "टन भार"
+    ]
+  ],
+  "pattern_22_ate": [
+    [
+      "der Duplikat",
+      "duplicate",
+      "प्रतिलिपि"
+    ],
+    [
+      "der Klerikat",
+      "clericate",
+      "पादरी"
+    ]
+  ],
+  "pattern_6_al": [
+    [
+      "das Entfernen",
+      "removal",
+      "हटाना"
+    ],
+    [
+      "das Überleben",
+      "survival",
+      "उत्तरजीविता"
+    ],
+    [
+      "das Rektal",
+      "rectal",
+      "मलाशय"
+    ],
+    [
+      "das Nasal",
+      "nasal",
+      "नाक"
+    ]
+  ],
+  "pattern_10_ary": [
+    [
+      "sekundär",
+      "secondary",
+      "माध्यमिक"
+    ],
+    [
+      "tertiär",
+      "tertiary",
+      "तृतीयक"
+    ]
+  ]
 }

@@ -6,11 +6,11 @@ Run: python embed_vocabulary.py
 """
 import json
 import os
+import re
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(DIR, "word-patterns-vocabulary.json")
 HTML_PATH = os.path.join(DIR, "word-patterns-vocabulary.html")
-MARKER = "    <!-- EMBED_VOCABULARY_JSON -->"
 
 def main():
     with open(JSON_PATH, "r", encoding="utf-8") as f:
@@ -22,22 +22,25 @@ def main():
     with open(HTML_PATH, "r", encoding="utf-8") as f:
         html = f.read()
 
-    if MARKER not in html:
-        # Insert before theme.js: after error div
-        old = "    <div id=\"error\" class=\"error\" style=\"display:none;\"></div>\n\n    <script src=\"../../js/theme.js\">"
-        new = "    <div id=\"error\" class=\"error\" style=\"display:none;\"></div>\n\n    <script type=\"application/json\" id=\"word-patterns-data\">\n" + json_str + "\n    </script>\n\n    <script src=\"../../js/theme.js\">"
+    # Replace existing embedded JSON block (script#word-patterns-data)
+    pattern = re.compile(
+        r'(<script\s+type="application/json"\s+id="word-patterns-data">)\s*\n.*?\n(\s*</script>)',
+        re.DOTALL
+    )
+    embed_block = r'\1\n' + json_str + r'\n\2'
+    new_html, n = pattern.subn(embed_block, html, count=1)
+    if n == 0:
+        # No existing block: insert before theme.js
+        old = '    <div id="error" class="error" style="display:none;"></div>\n\n    <script src="../../js/theme.js">'
+        new = '    <div id="error" class="error" style="display:none;"></div>\n\n    <script type="application/json" id="word-patterns-data">\n' + json_str + '\n    </script>\n\n    <script src="../../js/theme.js">'
         if old not in html:
             print("Could not find insertion point in HTML.")
             return 1
-        html = html.replace(old, new)
-    else:
-        # Replace placeholder with embedded JSON
-        embed_block = "    <script type=\"application/json\" id=\"word-patterns-data\">\n" + json_str + "\n    </script>"
-        html = html.replace(MARKER, embed_block)
+        new_html = html.replace(old, new)
 
     with open(HTML_PATH, "w", encoding="utf-8") as f:
-        f.write(html)
-    print("Embedded vocabulary into word-patterns-vocabulary.html")
+        f.write(new_html)
+    print("Embedded vocabulary (%d words) into word-patterns-vocabulary.html" % data.get("totalWords", 0))
     return 0
 
 if __name__ == "__main__":
