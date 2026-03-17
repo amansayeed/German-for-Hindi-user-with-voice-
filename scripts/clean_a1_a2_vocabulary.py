@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Deep clean A1 and A2 vocabulary JSON:
+Deep clean A1, A2, and B1 vocabulary JSON:
 - A1: one entry = one item, base forms, pronunciation, no emojis, dedupe, nouns with article.
 - A2: remove any word already in A1; phrases to base; fix categories; dedupe.
+- B1: remove any word already in A1 or A2; phrases to base; fix categories; dedupe.
 - Recalculate totalWords; keep JSON schema.
 """
 import json
@@ -13,6 +14,7 @@ from collections import defaultdict
 BASE = Path(__file__).resolve().parent.parent
 A1_JSON = BASE / "source" / "a1-650" / "a1-vocabulary.json"
 A2_JSON = BASE / "source" / "a2" / "a2-vocabulary.json"
+B1_JSON = BASE / "source" / "b1" / "b1-vocabulary.json"
 
 
 def normalize_for_overlap(de):
@@ -149,11 +151,51 @@ def clean_a2(data, a1_normalized_set):
     return {"title": data.get("title", "German A2 Vocabulary"), "subtitle": "Goethe-Zertifikat A2. Only words not in A1. Base forms.", "totalWords": total, "categories": out_cats}
 
 
+# ---- B1: phrases -> base; (sich) -> sich verb ----
+def b1_normalize_de(de):
+    if not de:
+        return de
+    de = de.strip()
+    m = re.match(r"^\(sich\)\s*(.+)$", de, re.I)
+    if m:
+        return "sich " + m.group(1).strip()
+    return de
+
+
+def clean_b1(data, a1_normalized_set, a2_normalized_set):
+    seen = set()
+    out_cats = []
+    for cat in data.get("categories", []):
+        new_words = []
+        for w in cat.get("words", []):
+            de = (w.get("de") or "").strip()
+            if not de:
+                continue
+            de = b1_normalize_de(de)
+            norm = normalize_for_overlap(de)
+            if norm in a1_normalized_set or norm in a2_normalized_set:
+                continue
+            if norm in seen:
+                continue
+            seen.add(norm)
+            en = strip_emojis(w.get("en") or "")
+            hi = (w.get("hi") or "").strip()
+            pron = w.get("pronunciation") or ""
+            if not pron and de and " " not in de:
+                pron = simple_pronunciation(de)
+            new_words.append({"de": de, "pronunciation": pron or "", "en": en or "—", "hi": hi or "—"})
+        out_cats.append({**cat, "words": new_words})
+    total = sum(len(c["words"]) for c in out_cats)
+    return {"title": data.get("title", "German B1 Vocabulary"), "subtitle": "Goethe-Zertifikat B1. Only words not in A1/A2. Base forms.", "totalWords": total, "categories": out_cats}
+
+
 def main():
     with open(A1_JSON, "r", encoding="utf-8") as f:
         a1 = json.load(f)
     with open(A2_JSON, "r", encoding="utf-8") as f:
         a2 = json.load(f)
+    with open(B1_JSON, "r", encoding="utf-8") as f:
+        b1 = json.load(f)
 
     a1_cleaned = clean_a1(a1)
     a1_norm_set = set()
@@ -162,14 +204,23 @@ def main():
             a1_norm_set.add(normalize_for_overlap(w.get("de") or ""))
 
     a2_cleaned = clean_a2(a2, a1_norm_set)
+    a2_norm_set = set()
+    for cat in a2_cleaned["categories"]:
+        for w in cat["words"]:
+            a2_norm_set.add(normalize_for_overlap(w.get("de") or ""))
+
+    b1_cleaned = clean_b1(b1, a1_norm_set, a2_norm_set)
 
     with open(A1_JSON, "w", encoding="utf-8") as f:
         json.dump(a1_cleaned, f, ensure_ascii=False, indent=2)
     with open(A2_JSON, "w", encoding="utf-8") as f:
         json.dump(a2_cleaned, f, ensure_ascii=False, indent=2)
+    with open(B1_JSON, "w", encoding="utf-8") as f:
+        json.dump(b1_cleaned, f, ensure_ascii=False, indent=2)
 
     print("A1 totalWords:", a1_cleaned["totalWords"])
     print("A2 totalWords:", a2_cleaned["totalWords"])
+    print("B1 totalWords:", b1_cleaned["totalWords"])
 
 
 if __name__ == "__main__":
