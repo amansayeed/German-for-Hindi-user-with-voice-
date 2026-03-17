@@ -1,0 +1,395 @@
+{
+  "title": "Common English–German Cognates",
+  "subtitle": "Words not in A1/A2/B1/2980/verbs. German, English, Hindi. Total: 58 entries.",
+  "totalWords": 58,
+  "categories": [
+    {
+      "id": "A1_Level",
+      "name": "A1 Level",
+      "nameDe": "A1 Niveau",
+      "nameHi": "",
+      "emoji": "📚",
+      "color": "#e8f5e9",
+      "words": [
+        {
+          "de": "besser",
+          "pronunciation": "बेसर",
+          "hi": "बेहतर",
+          "en": "better"
+        }
+      ]
+    },
+    {
+      "id": "A2_Level",
+      "name": "A2 Level",
+      "nameDe": "A2 Niveau",
+      "nameHi": "",
+      "emoji": "📗",
+      "color": "#fff9c4",
+      "words": [
+        {
+          "de": "die Geiß",
+          "pronunciation": "डी गाइस",
+          "hi": "बकरी",
+          "en": "goat"
+        },
+        {
+          "de": "das Heim(at)",
+          "pronunciation": "डास हाइम",
+          "hi": "घर",
+          "en": "home"
+        }
+      ]
+    },
+    {
+      "id": "B1_Level",
+      "name": "B1 Level",
+      "nameDe": "B1 Niveau",
+      "nameHi": "",
+      "emoji": "📘",
+      "color": "#ffe0b2",
+      "words": [
+        {
+          "de": "der Filz",
+          "pronunciation": "डेयर फिल्ट्स",
+          "hi": "फेल्ट (कपड़ा)",
+          "en": "felt (n)"
+        },
+        {
+          "de": "das Filter",
+          "pronunciation": "डास फिल्टर",
+          "hi": "फिल्टर",
+          "en": "filter"
+        },
+        {
+          "de": "der Floh",
+          "pronunciation": "डेयर फ्लो",
+          "hi": "पिस्सू",
+          "en": "flea"
+        },
+        {
+          "de": "das Fohlen",
+          "pronunciation": "डास फोलेन",
+          "hi": "घोड़े का बच्चा",
+          "en": "foal"
+        },
+        {
+          "de": "begabt",
+          "pronunciation": "बेगाब्ट",
+          "hi": "प्रतिभाशाली",
+          "en": "gifted"
+        },
+        {
+          "de": "der Glanz",
+          "pronunciation": "डेयर ग्लांट्स",
+          "hi": "चमक",
+          "en": "gleam"
+        },
+        {
+          "de": "(wachsen)",
+          "pronunciation": "वाक्सेन",
+          "hi": "बढ़ना",
+          "en": "grow"
+        },
+        {
+          "de": "das Handbuch",
+          "pronunciation": "डास हांटबूख",
+          "hi": "हैंडबुक",
+          "en": "handbook"
+        },
+        {
+          "de": "die Harfe",
+          "pronunciation": "डी हार्फे",
+          "hi": "वीणा",
+          "en": "harp"
+        },
+        {
+          "de": "hohl",
+          "pronunciation": "होल",
+          "hi": "खोखला",
+          "en": "hollow"
+        },
+        {
+          "de": "heilig",
+          "pronunciation": "हाइलिग",
+          "hi": "पवित्र",
+          "en": "holy"
+        },
+        {
+          "de": "die Hürde",
+          "pronunciation": "डी ह्यूर्डे",
+          "hi": "बाधा",
+          "en": "hurdle"
+        },
+        {
+          "de": "die Lerche",
+          "pronunciation": "डी लेर्खे",
+          "hi": "लर्क (पक्षी)",
+          "en": "lark"
+        },
+        {
+          "de": "lose",
+          "pronunciation": "लोज़े",
+          "hi": "ढीला",
+          "en": "loose"
+        },
+        {
+          "de": "lauwarm",
+          "pronunciation": "लाउवार्म",
+          "hi": "गुनगुना",
+          "en": "lukewarm"
+        },
+        {
+          "de": "die Made",
+          "pronunciation": "डी माडे",
+          "hi": "कीड़ा",
+          "en": "maggot"
+        },
+        {
+          "de": "das Mark",
+          "pronunciation": "डास मार्क",
+          "hi": "मज्जा",
+          "en": "marrow"
+        },
+        {
+          "de": "der Mast",
+          "pronunciation": "डेयर मास्ट",
+          "hi": "मस्तूल",
+          "en": "mast"
+        },
+        {
+          "de": "die Nachtigall",
+          "pronunciation": "डी नाख्टिगाल",
+          "hi": "बुलबुल",
+          "en": "nightingale"
+        },
+        {
+          "de": "das Nasenbluten",
+          "pronunciation": "डास नाज़ेनब्लूटेन",
+          "hi": "नाक से खून",
+          "en": "nosebleed"
+        },
+        {
+          "de": "der Eid",
+          "pronunciation": "डेयर आइट",
+          "hi": "शपथ",
+          "en": "oath"
+        },
+        {
+          "de": "der Ochse",
+          "pronunciation": "डेयर ओक्से",
+          "hi": "बैल",
+          "en": "ox"
+        },
+        {
+          "de": "der Pflug",
+          "pronunciation": "डेयर प्फ्लूग",
+          "hi": "हल",
+          "en": "plow"
+        },
+        {
+          "de": "rau",
+          "pronunciation": "राउ",
+          "hi": "खुरदरा",
+          "en": "rough"
+        },
+        {
+          "de": "rostig",
+          "pronunciation": "रोस्टिग",
+          "hi": "जंग लगा",
+          "en": "rusty"
+        },
+        {
+          "de": "schaurig",
+          "pronunciation": "शाउरिग",
+          "hi": "डरावना",
+          "en": "scary"
+        },
+        {
+          "de": "(schaben)",
+          "pronunciation": "शाबेन",
+          "hi": "खुरचना",
+          "en": "scrape"
+        },
+        {
+          "de": "der (Bild)schirm",
+          "pronunciation": "डेयर बिल्टशिर्म",
+          "hi": "स्क्रीन",
+          "en": "screen"
+        },
+        {
+          "de": "die Saat",
+          "pronunciation": "डी ज़ाट",
+          "hi": "बीज",
+          "en": "seed"
+        },
+        {
+          "de": "die Schale",
+          "pronunciation": "डी शाले",
+          "hi": "छिलका",
+          "en": "shell"
+        },
+        {
+          "de": "das Schienbein",
+          "pronunciation": "डास शीनबाइन",
+          "hi": "पिंडली की हड्डी",
+          "en": "shinbone"
+        },
+        {
+          "de": "(das Hemd)",
+          "pronunciation": "डास हेम्ट",
+          "hi": "कमीज़",
+          "en": "shirt"
+        },
+        {
+          "de": "scheu",
+          "pronunciation": "शॉय",
+          "hi": "शर्मीला",
+          "en": "shy"
+        },
+        {
+          "de": "(krank)",
+          "pronunciation": "क्रांक",
+          "hi": "बीमार",
+          "en": "sick"
+        },
+        {
+          "de": "das Sieb",
+          "pronunciation": "डास ज़ीब",
+          "hi": "छलनी",
+          "en": "sieve"
+        },
+        {
+          "de": "die Sehne",
+          "pronunciation": "डी ज़ेने",
+          "hi": "नस",
+          "en": "sinew"
+        },
+        {
+          "de": "schlau",
+          "pronunciation": "श्लाउ",
+          "hi": "चालाक",
+          "en": "sly"
+        },
+        {
+          "de": "die Spindel",
+          "pronunciation": "डी श्पिंडेल",
+          "hi": "तकला",
+          "en": "spindle"
+        },
+        {
+          "de": "der Splitter",
+          "pronunciation": "डेयर श्प्लिटर",
+          "hi": "छिपटी",
+          "en": "splinter"
+        },
+        {
+          "de": "das Stroh",
+          "pronunciation": "डास श्ट्रो",
+          "hi": "पुआल",
+          "en": "straw"
+        },
+        {
+          "de": "zahm",
+          "pronunciation": "त्साम",
+          "hi": "पालतू",
+          "en": "tame"
+        },
+        {
+          "de": "(der Faden)",
+          "pronunciation": "डेयर फाडेन",
+          "hi": "धागा",
+          "en": "thread"
+        },
+        {
+          "de": "das Zinn",
+          "pronunciation": "डास ट्सिन",
+          "hi": "टिन",
+          "en": "tin"
+        },
+        {
+          "de": "zäh",
+          "pronunciation": "त्से",
+          "hi": "सख्त",
+          "en": "tough"
+        },
+        {
+          "de": "der Untergrund",
+          "pronunciation": "डेयर उंटरग्रुंट",
+          "hi": "भूमिगत",
+          "en": "underground"
+        },
+        {
+          "de": "aufrecht",
+          "pronunciation": "आउफरेख्ट",
+          "hi": "सीधा",
+          "en": "upright"
+        },
+        {
+          "de": "die Walnuss",
+          "pronunciation": "डी वालनुस",
+          "hi": "अखरोट",
+          "en": "walnut"
+        },
+        {
+          "de": "das Warenhaus",
+          "pronunciation": "डास वारेनहाउस",
+          "hi": "गोदाम",
+          "en": "warehouse"
+        },
+        {
+          "de": "der Wasserfall",
+          "pronunciation": "डेयर वासरफाल",
+          "hi": "झरना",
+          "en": "waterfall"
+        }
+      ]
+    },
+    {
+      "id": "C1-C2_Level",
+      "name": "C1-C2 Level",
+      "nameDe": "C1-C2 Niveau",
+      "nameHi": "",
+      "emoji": "📙",
+      "color": "#f3e5f5",
+      "words": [
+        {
+          "de": "allmächtig",
+          "pronunciation": "आल्मेख्टिग",
+          "hi": "सर्वशक्तिमान",
+          "en": "almighty"
+        },
+        {
+          "de": "das Blutbad",
+          "pronunciation": "डास ब्लूटबाट",
+          "hi": "रक्तपात",
+          "en": "bloodbath"
+        },
+        {
+          "de": "die Etikette",
+          "pronunciation": "डी एटिकेटे",
+          "hi": "शिष्टाचार",
+          "en": "etiquette"
+        },
+        {
+          "de": "die Voraussicht",
+          "pronunciation": "डी फोराउसिख्ट",
+          "hi": "दूरदर्शिता",
+          "en": "foresight"
+        },
+        {
+          "de": "hastig",
+          "pronunciation": "हास्टिग",
+          "hi": "जल्दबाज़",
+          "en": "hasty"
+        },
+        {
+          "de": "mannigfaltig",
+          "pronunciation": "मानीगफाल्टिग",
+          "hi": "विविध",
+          "en": "manifold"
+        }
+      ]
+    }
+  ]
+}

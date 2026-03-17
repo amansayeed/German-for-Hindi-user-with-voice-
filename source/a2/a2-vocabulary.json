@@ -1,7 +1,7 @@
 {
   "title": "German A2 Vocabulary",
   "subtitle": "Goethe-Zertifikat A2. Only words not in A1. Base forms.",
-  "totalWords": 1293,
+  "totalWords": 1035,
   "categories": [
     {
       "id": "Verbs",
@@ -12,556 +12,10 @@
       "color": "#e8f5e9",
       "words": [
         {
-          "de": "sein",
-          "pronunciation": "SE-IN",
-          "en": "to be",
-          "hi": "होना"
-        },
-        {
-          "de": "abfliegen",
-          "pronunciation": "AB-FLIEGEN",
-          "en": "to take off (plane)",
-          "hi": "उड़ान भरना"
-        },
-        {
-          "de": "austauschen",
-          "pronunciation": "AU-STAUSKHEN",
-          "en": "to exchange",
-          "hi": "अदला-बदली करना"
-        },
-        {
-          "de": "abgeben",
-          "pronunciation": "AB-GEBEN",
-          "en": "to hand in",
-          "hi": "जमा करना"
-        },
-        {
-          "de": "abholen",
-          "pronunciation": "AB-HOLEN",
-          "en": "to pick up",
-          "hi": "लेने आना"
-        },
-        {
-          "de": "abnehmen",
-          "pronunciation": "AB-NEHMEN",
-          "en": "to lose weight",
-          "hi": "वज़न कम करना"
-        },
-        {
-          "de": "abschließen",
-          "pronunciation": "AB-SKHLIESSEN",
-          "en": "to complete; to lock",
-          "hi": "पूरा करना; ताला लगाना"
-        },
-        {
-          "de": "anbieten",
-          "pronunciation": "AN-BIETEN",
-          "en": "to offer",
-          "hi": "पेशकश करना"
-        },
-        {
-          "de": "anfangen",
-          "pronunciation": "AN-FANGEN",
-          "en": "to begin",
-          "hi": "शुरू करना"
-        },
-        {
-          "de": "angeln",
-          "pronunciation": "AN-GELN",
-          "en": "to fish",
-          "hi": "मछली पकड़ना"
-        },
-        {
-          "de": "anmachen",
-          "pronunciation": "AN-MAKHEN",
-          "en": "to turn on",
-          "hi": "चालू करना"
-        },
-        {
-          "de": "ansehen",
-          "pronunciation": "AN-SEHEN",
-          "en": "to look at",
-          "hi": "देखना"
-        },
-        {
-          "de": "aufmachen",
-          "pronunciation": "AU-FMAKHEN",
-          "en": "to open",
-          "hi": "खोलना"
-        },
-        {
-          "de": "aufstehen",
-          "pronunciation": "AU-FSTEHEN",
-          "en": "to get up",
-          "hi": "उठना"
-        },
-        {
-          "de": "ausblasen",
-          "pronunciation": "AU-SBLASEN",
-          "en": "to blow out",
-          "hi": "बुझाना (मोमबत्ती)"
-        },
-        {
-          "de": "auschecken",
-          "pronunciation": "AU-SKHECKEN",
-          "en": "to check out",
-          "hi": "चेक आउट करना"
-        },
-        {
-          "de": "ausgeben",
-          "pronunciation": "AU-SGEBEN",
-          "en": "to spend",
-          "hi": "खर्च करना"
-        },
-        {
-          "de": "ausgehen",
-          "pronunciation": "AU-SGEHEN",
-          "en": "to go out",
-          "hi": "बाहर जाना"
-        },
-        {
-          "de": "ausmachen",
-          "pronunciation": "AU-SMAKHEN",
-          "en": "to turn off; to agree",
-          "hi": "बंद करना; तय करना"
-        },
-        {
-          "de": "auspacken",
-          "pronunciation": "AU-SPACKEN",
-          "en": "to unwrap",
-          "hi": "खोलना (उपहार)"
-        },
-        {
-          "de": "aussehen",
-          "pronunciation": "AU-SSEHEN",
-          "en": "to look (appearance)",
-          "hi": "दिखना"
-        },
-        {
-          "de": "aussprechen",
-          "pronunciation": "AU-SSPREKHEN",
-          "en": "to pronounce",
-          "hi": "उच्चारण करना"
-        },
-        {
-          "de": "austragen",
-          "pronunciation": "AU-STRAGEN",
-          "en": "to deliver",
-          "hi": "वितरण करना"
-        },
-        {
-          "de": "basteln",
-          "pronunciation": "BA-STELN",
-          "en": "to do crafts",
-          "hi": "हस्तशिल्प"
-        },
-        {
-          "de": "bauen",
-          "pronunciation": "BA-UEN",
-          "en": "to build",
-          "hi": "बनाना"
-        },
-        {
-          "de": "bedeuten",
-          "pronunciation": "BE-DEUTEN",
-          "en": "to mean",
-          "hi": "मतलब होना"
-        },
-        {
-          "de": "benutzen",
-          "pronunciation": "BE-NUTZEN",
-          "en": "to use",
-          "hi": "इस्तेमाल करना"
-        },
-        {
-          "de": "bisschen",
-          "pronunciation": "BI-SSKHEN",
-          "en": "a bit",
-          "hi": "थोड़ा"
-        },
-        {
-          "de": "bügeln",
-          "pronunciation": "BU-EGELN",
-          "en": "to iron",
-          "hi": "इस्त्री करना"
-        },
-        {
-          "de": "drüben",
-          "pronunciation": "DR-UEBEN",
-          "en": "over there",
-          "hi": "वहाँ"
-        },
-        {
-          "de": "dünsten",
-          "pronunciation": "DU-ENSTEN",
-          "en": "to steam",
-          "hi": "स्टीम करना"
-        },
-        {
-          "de": "empfehlen",
-          "pronunciation": "EM-PFEHLEN",
-          "en": "to recommend",
-          "hi": "सिफारिश करना"
-        },
-        {
-          "de": "enden",
-          "pronunciation": "EN-DEN",
-          "en": "to end",
-          "hi": "खत्म करना"
-        },
-        {
-          "de": "fehlen",
-          "pronunciation": "FE-HLEN",
-          "en": "to be missing",
-          "hi": "कमी होना"
-        },
-        {
-          "de": "ehren",
-          "pronunciation": "EH-REN",
-          "en": "to honour",
-          "hi": "सम्मान करना"
-        },
-        {
-          "de": "hängen",
-          "pronunciation": "HE-HNGEN",
-          "en": "to hang",
-          "hi": "लटकना / लटकाना"
-        },
-        {
-          "de": "joggen",
-          "pronunciation": "JO-GGEN",
-          "en": "to jog",
-          "hi": "जॉगिंग करना"
-        },
-        {
-          "de": "klappen",
-          "pronunciation": "KL-APPEN",
-          "en": "to work out",
-          "hi": "काम करना"
-        },
-        {
-          "de": "klingeln",
-          "pronunciation": "KL-INGELN",
-          "en": "to ring",
-          "hi": "बजना"
-        },
-        {
-          "de": "lassen",
-          "pronunciation": "LA-SSEN",
-          "en": "to let",
-          "hi": "देना"
-        },
-        {
-          "de": "lügen",
-          "pronunciation": "LU-EGEN",
-          "en": "to lie",
-          "hi": "झूठ बोलना"
-        },
-        {
-          "de": "malen",
-          "pronunciation": "MA-LEN",
-          "en": "to paint",
-          "hi": "पेंट करना"
-        },
-        {
-          "de": "nennen",
-          "pronunciation": "NE-NNEN",
-          "en": "to name",
-          "hi": "नाम देना"
-        },
-        {
-          "de": "packen",
-          "pronunciation": "PA-CKEN",
-          "en": "to pack",
-          "hi": "पैक करना"
-        },
-        {
-          "de": "planen",
-          "pronunciation": "PL-ANEN",
-          "en": "to plan",
-          "hi": "योजना बनाना"
-        },
-        {
-          "de": "prüfen",
-          "pronunciation": "PR-UEFEN",
-          "en": "to check",
-          "hi": "जाँचना"
-        },
-        {
-          "de": "raten",
-          "pronunciation": "RA-TEN",
-          "en": "to advise",
-          "hi": "सलाह देना"
-        },
-        {
-          "de": "rechnen",
-          "pronunciation": "RE-KHNEN",
-          "en": "to calculate",
-          "hi": "गणना करना"
-        },
-        {
-          "de": "recyceln",
-          "pronunciation": "RE-CYCELN",
-          "en": "to recycle",
-          "hi": "रीसाइकल करना"
-        },
-        {
-          "de": "sich ausruhen",
-          "pronunciation": "",
-          "en": "to rest",
-          "hi": "आराम करना"
-        },
-        {
-          "de": "sammeln",
-          "pronunciation": "SA-MMELN",
-          "en": "to collect",
-          "hi": "इकट्ठा करना"
-        },
-        {
-          "de": "schimpfen",
-          "pronunciation": "SK-HIMPFEN",
-          "en": "to scold",
-          "hi": "डाँटना"
-        },
-        {
-          "de": "schlafen gehen",
-          "pronunciation": "",
-          "en": "to go to sleep",
-          "hi": "सोने जाना"
-        },
-        {
-          "de": "schwimmen gehen",
-          "pronunciation": "",
-          "en": "to go swimming",
-          "hi": "तैराकी करने जाना"
-        },
-        {
-          "de": "schützen",
-          "pronunciation": "SK-HUETZEN",
-          "en": "to protect",
-          "hi": "संरक्षण करना"
-        },
-        {
-          "de": "stattfinden",
-          "pronunciation": "ST-ATTFINDEN",
-          "en": "to take place",
-          "hi": "होना"
-        },
-        {
-          "de": "vorstellen",
-          "pronunciation": "VO-RSTELLEN",
-          "en": "to introduce",
-          "hi": "परिचय कराना"
-        },
-        {
-          "de": "streamen",
-          "pronunciation": "ST-REAMEN",
-          "en": "to stream",
-          "hi": "स्ट्रीम करना"
-        },
-        {
-          "de": "stören",
-          "pronunciation": "ST-OEREN",
-          "en": "to disturb",
-          "hi": "परेशान करना"
-        },
-        {
-          "de": "surfen",
-          "pronunciation": "SU-RFEN",
-          "en": "to surf",
-          "hi": "सर्फ करना"
-        },
-        {
-          "de": "tauschen",
-          "pronunciation": "TA-USKHEN",
-          "en": "exchanges",
-          "hi": "अदला-बदली करता है"
-        },
-        {
-          "de": "träumen",
-          "pronunciation": "TR-EHUMEN",
-          "en": "to dream",
-          "hi": "सपना देखना"
-        },
-        {
-          "de": "tun",
-          "pronunciation": "TUN",
-          "en": "to do",
-          "hi": "करना"
-        },
-        {
-          "de": "vorschlagen",
-          "pronunciation": "VO-RSKHLAGEN",
-          "en": "to suggest",
-          "hi": "सुझाव देना"
-        },
-        {
-          "de": "willkommen",
-          "pronunciation": "WI-LLKOMMEN",
-          "en": "welcome",
-          "hi": "स्वागत"
-        },
-        {
-          "de": "wählen",
-          "pronunciation": "WE-HHLEN",
-          "en": "to vote",
-          "hi": "वोट देना"
-        },
-        {
-          "de": "ziehen",
-          "pronunciation": "ZI-EHEN",
-          "en": "puts on/takes off",
-          "hi": "पहनता/उतारता है"
-        },
-        {
-          "de": "zuhören",
-          "pronunciation": "ZU-HOEREN",
-          "en": "to listen",
-          "hi": "सुनना"
-        },
-        {
-          "de": "zumachen",
-          "pronunciation": "ZU-MAKHEN",
-          "en": "to close",
-          "hi": "बंद करना"
-        },
-        {
-          "de": "zunehmen",
-          "pronunciation": "ZU-NEHMEN",
-          "en": "to gain weight",
-          "hi": "वज़न बढ़ना"
-        },
-        {
-          "de": "zusammen",
-          "pronunciation": "ZU-SAMMEN",
-          "en": "together",
-          "hi": "साथ"
-        },
-        {
-          "de": "zustimmen",
-          "pronunciation": "ZU-STIMMEN",
-          "en": "to agree",
-          "hi": "सहमत होना"
-        },
-        {
-          "de": "anmelden",
-          "pronunciation": "AN-MELDEN",
-          "en": "to register",
-          "hi": "पंजीकरण करना"
-        },
-        {
-          "de": "ausruhen",
-          "pronunciation": "AU-SRUHEN",
-          "en": "to rest",
-          "hi": "आराम करना"
-        },
-        {
-          "de": "beraten",
-          "pronunciation": "BE-RATEN",
-          "en": "to advise",
-          "hi": "सलाह देना"
-        },
-        {
-          "de": "berichten",
-          "pronunciation": "BE-RIKHTEN",
-          "en": "to report",
-          "hi": "रिपोर्ट करना"
-        },
-        {
-          "de": "besichtigen",
-          "pronunciation": "BE-SIKHTIGEN",
-          "en": "to visit (sight)",
-          "hi": "देखने जाना"
-        },
-        {
-          "de": "bestätigen",
-          "pronunciation": "BE-STEHTIGEN",
-          "en": "to confirm",
-          "hi": "पुष्टि करना"
-        },
-        {
-          "de": "besuchen",
-          "pronunciation": "BE-SUKHEN",
-          "en": "to visit",
-          "hi": "मिलने जाना"
-        },
-        {
-          "de": "durchfallen",
-          "pronunciation": "DU-RKHFALLEN",
-          "en": "to fail (exam)",
-          "hi": "फेल होना"
-        },
-        {
-          "de": "erinnern",
-          "pronunciation": "ER-INNERN",
-          "en": "to remember",
-          "hi": "याद करना"
-        },
-        {
-          "de": "erlauben",
-          "pronunciation": "ER-LAUBEN",
-          "en": "to allow",
-          "hi": "इजाज़त देना"
-        },
-        {
-          "de": "erziehen",
-          "pronunciation": "ER-ZIEHEN",
-          "en": "to raise (children)",
-          "hi": "पालन-पोषण"
-        },
-        {
-          "de": "fallen",
-          "pronunciation": "FA-LLEN",
-          "en": "to fall",
-          "hi": "गिरना"
-        },
-        {
-          "de": "fotografieren",
-          "pronunciation": "FO-TOGRAFIEREN",
-          "en": "to take a photo",
-          "hi": "फोटो खींचना"
-        },
-        {
-          "de": "gern",
-          "pronunciation": "GE-RN",
-          "en": "gladly",
-          "hi": "खुशी से"
-        },
-        {
-          "de": "informieren",
-          "pronunciation": "IN-FORMIEREN",
-          "en": "to inform",
-          "hi": "सूचित करना"
-        },
-        {
-          "de": "klettern",
-          "pronunciation": "KL-ETTERN",
-          "en": "to climb",
-          "hi": "चढ़ना"
-        },
-        {
-          "de": "kontrollieren",
-          "pronunciation": "KO-NTROLLIEREN",
-          "en": "to check",
-          "hi": "जाँचना"
-        },
-        {
           "de": "kennen lernen",
           "pronunciation": "",
           "en": "gets to know",
           "hi": "जानता है"
-        },
-        {
-          "de": "liefern",
-          "pronunciation": "LI-EFERN",
-          "en": "to deliver",
-          "hi": "डिलीवर करना"
-        },
-        {
-          "de": "merken",
-          "pronunciation": "ME-RKEN",
-          "en": "to notice",
-          "hi": "ध्यान देना"
         },
         {
           "de": "nicht zustimmen",
@@ -570,250 +24,10 @@
           "hi": "असहमत होना"
         },
         {
-          "de": "organisieren",
-          "pronunciation": "OR-GANISIEREN",
-          "en": "to organise",
-          "hi": "व्यवस्थित करना"
-        },
-        {
-          "de": "renovieren",
-          "pronunciation": "RE-NOVIEREN",
-          "en": "to renovate",
-          "hi": "मरम्मत करना"
-        },
-        {
-          "de": "reparieren",
-          "pronunciation": "RE-PARIEREN",
-          "en": "to repair",
-          "hi": "मरम्मत करना"
-        },
-        {
-          "de": "reservieren",
-          "pronunciation": "RE-SERVIEREN",
-          "en": "to reserve",
-          "hi": "आरक्षित करना"
-        },
-        {
-          "de": "sich anziehen",
-          "pronunciation": "",
-          "en": "to get dressed",
-          "hi": "कपड़े पहनना"
-        },
-        {
-          "de": "sich ausziehen",
-          "pronunciation": "",
-          "en": "to undress",
-          "hi": "कपड़े उतारना"
-        },
-        {
-          "de": "sich rasieren",
-          "pronunciation": "",
-          "en": "to shave",
-          "hi": "शेव करना"
-        },
-        {
-          "de": "sich schminken",
-          "pronunciation": "",
-          "en": "to put on makeup",
-          "hi": "मेकअप करना"
-        },
-        {
-          "de": "sich versöhnen",
-          "pronunciation": "",
-          "en": "to make up",
-          "hi": "सुलह करना"
-        },
-        {
           "de": "spazieren gehen",
           "pronunciation": "",
           "en": "to go for a walk",
           "hi": "सैर करना"
-        },
-        {
-          "de": "sterben",
-          "pronunciation": "ST-ERBEN",
-          "en": "to die",
-          "hi": "मरना"
-        },
-        {
-          "de": "trainieren",
-          "pronunciation": "TR-AINIEREN",
-          "en": "to train",
-          "hi": "प्रशिक्षण लेना"
-        },
-        {
-          "de": "unterhalten",
-          "pronunciation": "UN-TERHALTEN",
-          "en": "to converse",
-          "hi": "बातचीत करना"
-        },
-        {
-          "de": "unternehmen",
-          "pronunciation": "UN-TERNEHMEN",
-          "en": "to do (activity)",
-          "hi": "करना"
-        },
-        {
-          "de": "untersuchen",
-          "pronunciation": "UN-TERSUKHEN",
-          "en": "to examine",
-          "hi": "जाँचना"
-        },
-        {
-          "de": "verbieten",
-          "pronunciation": "VE-RBIETEN",
-          "en": "to forbid",
-          "hi": "मना करना"
-        },
-        {
-          "de": "vergessen",
-          "pronunciation": "VE-RGESSEN",
-          "en": "forgets",
-          "hi": "भूल जाता है"
-        },
-        {
-          "de": "verlaufen",
-          "pronunciation": "VE-RLAUFEN",
-          "en": "to get lost",
-          "hi": "रास्ता भूल जाना"
-        },
-        {
-          "de": "verletzen",
-          "pronunciation": "VE-RLETZEN",
-          "en": "to injure",
-          "hi": "चोट लगना"
-        },
-        {
-          "de": "verschieben",
-          "pronunciation": "VE-RSKHIEBEN",
-          "en": "to postpone",
-          "hi": "टालना"
-        },
-        {
-          "de": "verschieden",
-          "pronunciation": "VE-RSKHIEDEN",
-          "en": "different",
-          "hi": "अलग"
-        },
-        {
-          "de": "wandern",
-          "pronunciation": "WA-NDERN",
-          "en": "to hike",
-          "hi": "हाइकिंग करना"
-        },
-        {
-          "de": "ändern",
-          "pronunciation": "EH-NDERN",
-          "en": "to change",
-          "hi": "बदलना"
-        },
-        {
-          "de": "ärgern",
-          "pronunciation": "EH-RGERN",
-          "en": "to get angry",
-          "hi": "गुस्सा होना"
-        },
-        {
-          "de": "übersetzen",
-          "pronunciation": "UE-BERSETZEN",
-          "en": "to translate",
-          "hi": "अनुवाद करना"
-        },
-        {
-          "de": "abheben",
-          "pronunciation": "AB-HEBEN",
-          "en": "to withdraw money",
-          "hi": "पैसे निकालना"
-        },
-        {
-          "de": "arbeiten",
-          "pronunciation": "AR-BEITEN",
-          "en": "to work",
-          "hi": "काम करना"
-        },
-        {
-          "de": "aufpassen",
-          "pronunciation": "AU-FPASSEN",
-          "en": "to pay attention",
-          "hi": "ध्यान देना"
-        },
-        {
-          "de": "ausleihen",
-          "pronunciation": "AU-SLEIHEN",
-          "en": "to borrow",
-          "hi": "उधार लेना"
-        },
-        {
-          "de": "aussteigen",
-          "pronunciation": "AU-SSTEIGEN",
-          "en": "to get off",
-          "hi": "उतरना"
-        },
-        {
-          "de": "baden",
-          "pronunciation": "BA-DEN",
-          "en": "to bathe",
-          "hi": "नहाना"
-        },
-        {
-          "de": "beantworten",
-          "pronunciation": "BE-ANTWORTEN",
-          "en": "to answer",
-          "hi": "जवाब देना"
-        },
-        {
-          "de": "bedanken",
-          "pronunciation": "BE-DANKEN",
-          "en": "to thank",
-          "hi": "धन्यवाद देना"
-        },
-        {
-          "de": "beeilen",
-          "pronunciation": "BE-EILEN",
-          "en": "to hurry",
-          "hi": "जल्दी करना"
-        },
-        {
-          "de": "begründen",
-          "pronunciation": "BE-GRUENDEN",
-          "en": "to justify",
-          "hi": "औचित्य देना"
-        },
-        {
-          "de": "beschreiben",
-          "pronunciation": "BE-SKHREIBEN",
-          "en": "to describe",
-          "hi": "वर्णन करना"
-        },
-        {
-          "de": "bewerben",
-          "pronunciation": "BE-WERBEN",
-          "en": "to apply",
-          "hi": "आवेदन करना"
-        },
-        {
-          "de": "bitten",
-          "pronunciation": "BI-TTEN",
-          "en": "to ask (for)",
-          "hi": "विनती करना"
-        },
-        {
-          "de": "bleiben",
-          "pronunciation": "BL-EIBEN",
-          "en": "to stay",
-          "hi": "रुकना"
-        },
-        {
-          "de": "buchstabieren",
-          "pronunciation": "BU-KHSTABIEREN",
-          "en": "to spell",
-          "hi": "वर्तनी बोलना"
-        },
-        {
-          "de": "chatten",
-          "pronunciation": "KH-ATTEN",
-          "en": "to chat",
-          "hi": "चैट करना"
         },
         {
           "de": "dabei sein",
@@ -822,100 +36,10 @@
           "hi": "साथ होना"
         },
         {
-          "de": "daneben",
-          "pronunciation": "DA-NEBEN",
-          "en": "next to it",
-          "hi": "बगल में"
-        },
-        {
-          "de": "danken",
-          "pronunciation": "DA-NKEN",
-          "en": "to thank",
-          "hi": "धन्यवाद देना"
-        },
-        {
-          "de": "diskutieren",
-          "pronunciation": "DI-SKUTIEREN",
-          "en": "to discuss",
-          "hi": "चर्चा करना"
-        },
-        {
-          "de": "drücken",
-          "pronunciation": "DR-UECKEN",
-          "en": "to press",
-          "hi": "दबाना"
-        },
-        {
-          "de": "eigen",
-          "pronunciation": "EI-GEN",
-          "en": "own (prefix)",
-          "hi": "अपना"
-        },
-        {
-          "de": "einchecken",
-          "pronunciation": "EI-NKHECKEN",
-          "en": "to check in",
-          "hi": "चेक इन करना"
-        },
-        {
-          "de": "einkaufen",
-          "pronunciation": "EI-NKAUFEN",
-          "en": "to shop",
-          "hi": "खरीदारी करना"
-        },
-        {
           "de": "einkaufen gehen",
           "pronunciation": "",
           "en": "to go shopping",
           "hi": "खरीदारी करने जाना"
-        },
-        {
-          "de": "einpacken",
-          "pronunciation": "EI-NPACKEN",
-          "en": "to pack",
-          "hi": "पैक करना"
-        },
-        {
-          "de": "einschlafen",
-          "pronunciation": "EI-NSKHLAFEN",
-          "en": "to fall asleep",
-          "hi": "सो जाना"
-        },
-        {
-          "de": "eintragen",
-          "pronunciation": "EI-NTRAGEN",
-          "en": "to register",
-          "hi": "दर्ज करना"
-        },
-        {
-          "de": "einzahlen",
-          "pronunciation": "EI-NZAHLEN",
-          "en": "to deposit money",
-          "hi": "पैसे जमा करना"
-        },
-        {
-          "de": "einziehen",
-          "pronunciation": "EI-NZIEHEN",
-          "en": "to move in",
-          "hi": "रहने आना"
-        },
-        {
-          "de": "entscheiden",
-          "pronunciation": "EN-TSKHEIDEN",
-          "en": "to decide",
-          "hi": "निर्णय लेना"
-        },
-        {
-          "de": "entschuldigen",
-          "pronunciation": "EN-TSKHULDIGEN",
-          "en": "to apologise",
-          "hi": "माफी माँगना"
-        },
-        {
-          "de": "entspannen",
-          "pronunciation": "EN-TSPANNEN",
-          "en": "to relax",
-          "hi": "आराम करना"
         },
         {
           "de": "erkältet sein",
@@ -930,22 +54,10 @@
           "hi": "इजाज़त होना"
         },
         {
-          "de": "erreichen",
-          "pronunciation": "ER-REIKHEN",
-          "en": "to reach",
-          "hi": "पहुँचना"
-        },
-        {
           "de": "Feierabend machen",
           "pronunciation": "",
           "en": "to finish work",
           "hi": "काम खत्म करना"
-        },
-        {
-          "de": "feiern",
-          "pronunciation": "FE-IERN",
-          "en": "to celebrate",
-          "hi": "मनाना"
         },
         {
           "de": "fertig sein",
@@ -972,40 +84,10 @@
           "hi": "स्वस्थ जीवन जीना"
         },
         {
-          "de": "grillen",
-          "pronunciation": "GR-ILLEN",
-          "en": "to grill",
-          "hi": "ग्रिल करना"
-        },
-        {
           "de": "gültig sein",
           "pronunciation": "",
           "en": "to be valid",
           "hi": "वैध होना"
-        },
-        {
-          "de": "halten",
-          "pronunciation": "HA-LTEN",
-          "en": "to hold",
-          "hi": "पकड़ना"
-        },
-        {
-          "de": "heiraten",
-          "pronunciation": "HE-IRATEN",
-          "en": "to marry",
-          "hi": "शादी करना"
-        },
-        {
-          "de": "heißen",
-          "pronunciation": "HE-ISSEN",
-          "en": "to be called",
-          "hi": "कहलाना"
-        },
-        {
-          "de": "herstellen",
-          "pronunciation": "HE-RSTELLEN",
-          "en": "to produce",
-          "hi": "बनाना"
         },
         {
           "de": "ins Bett gehen",
@@ -1014,34 +96,10 @@
           "hi": "सोने जाना"
         },
         {
-          "de": "kennenlernen",
-          "pronunciation": "KE-NNENLERNEN",
-          "en": "to get to know",
-          "hi": "जानना"
-        },
-        {
           "de": "leidtun",
           "pronunciation": "LE-IDTUN",
           "en": "to be sorry",
           "hi": "अफ़सोस होना"
-        },
-        {
-          "de": "leihen",
-          "pronunciation": "LE-IHEN",
-          "en": "to lend",
-          "hi": "उधार देना"
-        },
-        {
-          "de": "meinen",
-          "pronunciation": "ME-INEN",
-          "en": "to mean",
-          "hi": "मतलब"
-        },
-        {
-          "de": "modern",
-          "pronunciation": "MO-DERN",
-          "en": "modern",
-          "hi": "आधुनिक"
         },
         {
           "de": "nach Hause kommen",
@@ -1050,154 +108,16 @@
           "hi": "घर आना"
         },
         {
-          "de": "nähen",
-          "pronunciation": "NE-HHEN",
-          "en": "to sew",
-          "hi": "सिलाई"
-        },
-        {
-          "de": "werfen",
-          "pronunciation": "WE-RFEN",
-          "en": "to throw",
-          "hi": "फेंकना"
-        },
-        {
-          "de": "notieren",
-          "pronunciation": "NO-TIEREN",
-          "en": "to note",
-          "hi": "नोट करना"
-        },
-        {
-          "de": "parken",
-          "pronunciation": "PA-RKEN",
-          "en": "to park",
-          "hi": "पार्क करना"
-        },
-        {
-          "de": "passieren",
-          "pronunciation": "PA-SSIEREN",
-          "en": "to happen",
-          "hi": "होना"
-        },
-        {
-          "de": "probieren",
-          "pronunciation": "PR-OBIEREN",
-          "en": "to try on",
-          "hi": "ट्राय करना"
-        },
-        {
-          "de": "protestieren",
-          "pronunciation": "PR-OTESTIEREN",
-          "en": "to protest",
-          "hi": "विरोध करना"
-        },
-        {
-          "de": "rauchen",
-          "pronunciation": "RA-UKHEN",
-          "en": "to smoke",
-          "hi": "धूम्रपान करना"
-        },
-        {
-          "de": "reden",
-          "pronunciation": "RE-DEN",
-          "en": "to talk",
-          "hi": "बात करना"
-        },
-        {
-          "de": "reisen",
-          "pronunciation": "RE-ISEN",
-          "en": "to travel",
-          "hi": "यात्रा करना"
-        },
-        {
-          "de": "reiten",
-          "pronunciation": "RE-ITEN",
-          "en": "to ride",
-          "hi": "घुड़सवारी करना"
-        },
-        {
-          "de": "schaffen",
-          "pronunciation": "SK-HAFFEN",
-          "en": "to manage",
-          "hi": "कर लेना"
-        },
-        {
-          "de": "schreiben",
-          "pronunciation": "SK-HREIBEN",
-          "en": "to write",
-          "hi": "लिखना"
-        },
-        {
-          "de": "sich beeilen",
-          "pronunciation": "",
-          "en": "to hurry",
-          "hi": "जल्दी करना"
-        },
-        {
-          "de": "sich streiten",
-          "pronunciation": "",
-          "en": "to argue",
-          "hi": "झगड़ा करना"
-        },
-        {
-          "de": "streiten",
-          "pronunciation": "ST-REITEN",
-          "en": "to argue",
-          "hi": "झगड़ना"
-        },
-        {
-          "de": "stricken",
-          "pronunciation": "ST-RICKEN",
-          "en": "to knit",
-          "hi": "बुनाई"
-        },
-        {
           "de": "surfen im Internet",
           "pronunciation": "",
           "en": "to surf the internet",
           "hi": "इंटरनेट सर्फ करना"
         },
         {
-          "de": "teilen",
-          "pronunciation": "TE-ILEN",
-          "en": "to share",
-          "hi": "बाँटना"
-        },
-        {
-          "de": "teilnehmen",
-          "pronunciation": "TE-ILNEHMEN",
-          "en": "to participate",
-          "hi": "भाग लेना"
-        },
-        {
-          "de": "übernachten",
-          "pronunciation": "UE-BERNAKHTEN",
-          "en": "to stay overnight",
-          "hi": "रात रुकना"
-        },
-        {
-          "de": "überweisen",
-          "pronunciation": "UE-BERWEISEN",
-          "en": "to transfer",
-          "hi": "ट्रांसफर करना"
-        },
-        {
-          "de": "unterschreiben",
-          "pronunciation": "UN-TERSKHREIBEN",
-          "en": "to sign",
-          "hi": "हस्ताक्षर करना"
-        },
-        {
           "de": "unterwegs sein",
           "pronunciation": "",
           "en": "to be on the way",
           "hi": "रास्ते में होना"
-        },
-        {
-          "de": "verabreden",
-          "pronunciation": "VE-RABREDEN",
-          "en": "to arrange to meet",
-          "hi": "मुलाकात तय करना"
         },
         {
           "de": "verabredet sein",
@@ -1212,64 +132,10 @@
           "hi": "मना होना"
         },
         {
-          "de": "vereinbaren",
-          "pronunciation": "VE-REINBAREN",
-          "en": "to agree",
-          "hi": "तय करना"
-        },
-        {
-          "de": "vergleichen",
-          "pronunciation": "VE-RGLEIKHEN",
-          "en": "to compare",
-          "hi": "तुलना करना"
-        },
-        {
-          "de": "verlieben",
-          "pronunciation": "VE-RLIEBEN",
-          "en": "to fall in love",
-          "hi": "प्यार में पड़ना"
-        },
-        {
           "de": "verliebt sein",
           "pronunciation": "",
           "en": "to be in love",
           "hi": "प्यार में होना"
-        },
-        {
-          "de": "vermieten",
-          "pronunciation": "VE-RMIETEN",
-          "en": "to rent out",
-          "hi": "किराये पर देना"
-        },
-        {
-          "de": "verpassen",
-          "pronunciation": "VE-RPASSEN",
-          "en": "to miss",
-          "hi": "चूकना"
-        },
-        {
-          "de": "verreisen",
-          "pronunciation": "VE-RREISEN",
-          "en": "to travel",
-          "hi": "यात्रा पर जाना"
-        },
-        {
-          "de": "vorbereiten",
-          "pronunciation": "VO-RBEREITEN",
-          "en": "to prepare",
-          "hi": "तैयार करना"
-        },
-        {
-          "de": "zeichnen",
-          "pronunciation": "ZE-IKHNEN",
-          "en": "to draw",
-          "hi": "ड्रॉ करना"
-        },
-        {
-          "de": "zeigen",
-          "pronunciation": "ZE-IGEN",
-          "en": "to show",
-          "hi": "दिखाना"
         },
         {
           "de": "zu sein",
@@ -1370,12 +236,6 @@
           "pronunciation": "",
           "en": "withdrawal",
           "hi": "निकासी"
-        },
-        {
-          "de": "die Ahnung",
-          "pronunciation": "",
-          "en": "idea",
-          "hi": "अंदाज़ा"
         },
         {
           "de": "die Akte",
@@ -1708,12 +568,6 @@
           "hi": "समाधान ढूंढना"
         },
         {
-          "de": "die Lüge",
-          "pronunciation": "",
-          "en": "lie",
-          "hi": "झूठ"
-        },
-        {
           "de": "die Marke",
           "pronunciation": "",
           "en": "brand",
@@ -1760,12 +614,6 @@
           "pronunciation": "",
           "en": "nut",
           "hi": "मेवा"
-        },
-        {
-          "de": "die Ordnung",
-          "pronunciation": "",
-          "en": "order",
-          "hi": "क्रम"
         },
         {
           "de": "die Organisation",
@@ -1958,12 +806,6 @@
           "pronunciation": "",
           "en": "tour",
           "hi": "टूर"
-        },
-        {
-          "de": "die Trennung",
-          "pronunciation": "",
-          "en": "separation",
-          "hi": "अलग होना"
         },
         {
           "de": "die Trommel",
@@ -2968,12 +1810,6 @@
           "hi": "ऊर्जा बचाना"
         },
         {
-          "de": "die Entfernung",
-          "pronunciation": "",
-          "en": "distance",
-          "hi": "दूरी"
-        },
-        {
           "de": "die Entzündung",
           "pronunciation": "",
           "en": "inflammation",
@@ -3008,12 +1844,6 @@
           "pronunciation": "",
           "en": "expectation",
           "hi": "उम्मीद"
-        },
-        {
-          "de": "die Eröffnung",
-          "pronunciation": "",
-          "en": "opening",
-          "hi": "उद्घाटन"
         },
         {
           "de": "die Fernsehsendung",
@@ -3484,12 +2314,6 @@
           "hi": "खेल करना"
         },
         {
-          "de": "der Streit",
-          "pronunciation": "",
-          "en": "argument",
-          "hi": "झगड़ा"
-        },
-        {
           "de": "der Teich",
           "pronunciation": "",
           "en": "pond",
@@ -3808,22 +2632,10 @@
           "hi": "ग्राहक संतुष्टि"
         },
         {
-          "de": "die Langeweile",
-          "pronunciation": "",
-          "en": "boredom",
-          "hi": "बोरियत"
-        },
-        {
           "de": "die Luftfeuchtigkeit",
           "pronunciation": "",
           "en": "humidity",
           "hi": "आर्द्रता"
-        },
-        {
-          "de": "die Meinung",
-          "pronunciation": "",
-          "en": "opinion",
-          "hi": "राय"
         },
         {
           "de": "die Meisterschaft",
@@ -4022,12 +2834,6 @@
           "pronunciation": "",
           "en": "full-time job",
           "hi": "पूर्णकालिक नौकरी"
-        },
-        {
-          "de": "die Zeichnung",
-          "pronunciation": "",
-          "en": "drawing",
-          "hi": "ड्राइंग"
         },
         {
           "de": "die Zeit",
@@ -4576,12 +3382,6 @@
           "hi": "डेडलाइन"
         },
         {
-          "de": "pausieren",
-          "pronunciation": "PA-USIEREN",
-          "en": "to take a break",
-          "hi": "ब्रेक लेना"
-        },
-        {
           "de": "die Saison",
           "pronunciation": "",
           "en": "season",
@@ -4592,12 +3392,6 @@
           "pronunciation": "",
           "en": "to drive for hours",
           "hi": "घंटों ड्राइव करना"
-        },
-        {
-          "de": "die Übernachtung",
-          "pronunciation": "",
-          "en": "overnight stay",
-          "hi": "रात रुकना"
         },
         {
           "de": "die Überstunde",
@@ -5486,12 +4280,6 @@
           "pronunciation": "",
           "en": "city center",
           "hi": "शहर का केंद्र"
-        },
-        {
-          "de": "die Toilette",
-          "pronunciation": "",
-          "en": "toilet",
-          "hi": "शौचालय"
         },
         {
           "de": "das Brot",
@@ -6532,12 +5320,6 @@
           "hi": "कचरा डिब्बा"
         },
         {
-          "de": "die Mülltrennung",
-          "pronunciation": "",
-          "en": "waste separation",
-          "hi": "कचरा अलग करना"
-        },
-        {
           "de": "die Recyclingtonne",
           "pronunciation": "",
           "en": "recycling bin",
@@ -6692,48 +5474,6 @@
           "hi": "सभी"
         },
         {
-          "de": "frisch",
-          "pronunciation": "FR-ISKH",
-          "en": "fresh",
-          "hi": "ताज़ा"
-        },
-        {
-          "de": "furchtbar",
-          "pronunciation": "FU-RKHTBAR",
-          "en": "terrible",
-          "hi": "भयानक"
-        },
-        {
-          "de": "mehr",
-          "pronunciation": "ME-HR",
-          "en": "more",
-          "hi": "अधिक"
-        },
-        {
-          "de": "notwendig",
-          "pronunciation": "NO-TWENDIG",
-          "en": "necessary",
-          "hi": "जरूरी"
-        },
-        {
-          "de": "regelmäßig",
-          "pronunciation": "RE-GELMEHSSIG",
-          "en": "regularly",
-          "hi": "नियमित"
-        },
-        {
-          "de": "sympathisch",
-          "pronunciation": "SY-MPATHISKH",
-          "en": "likeable",
-          "hi": "सहानुभूतिपूर्ण"
-        },
-        {
-          "de": "vegetarisch",
-          "pronunciation": "VE-GETARISKH",
-          "en": "vegetarian",
-          "hi": "शाकाहारी"
-        },
-        {
           "de": "witzig",
           "pronunciation": "WI-TZIG",
           "en": "funny",
@@ -6780,12 +5520,6 @@
           "pronunciation": "NU-ETZLIKH",
           "en": "useful",
           "hi": "उपयोगी"
-        },
-        {
-          "de": "plötzlich",
-          "pronunciation": "PL-OETZLIKH",
-          "en": "suddenly",
-          "hi": "अचानक"
         },
         {
           "de": "regnerisch",
@@ -6842,12 +5576,6 @@
           "hi": "सस्ता"
         },
         {
-          "de": "dankbar",
-          "pronunciation": "DA-NKBAR",
-          "en": "grateful",
-          "hi": "कृतज्ञ"
-        },
-        {
           "de": "eilig",
           "pronunciation": "EI-LIG",
           "en": "in a hurry",
@@ -6876,12 +5604,6 @@
           "pronunciation": "FR-EIWILLIG",
           "en": "voluntary",
           "hi": "स्वैच्छिक"
-        },
-        {
-          "de": "genug",
-          "pronunciation": "GE-NUG",
-          "en": "enough",
-          "hi": "काफी"
         },
         {
           "de": "peinlich",
@@ -6948,36 +5670,6 @@
       "color": "#fff3e0",
       "words": [
         {
-          "de": "direkt",
-          "pronunciation": "DI-REKT",
-          "en": "direct",
-          "hi": "सीधा"
-        },
-        {
-          "de": "lange",
-          "pronunciation": "LA-NGE",
-          "en": "long",
-          "hi": "लंबा"
-        },
-        {
-          "de": "live",
-          "pronunciation": "LI-VE",
-          "en": "live",
-          "hi": "लाइव"
-        },
-        {
-          "de": "online",
-          "pronunciation": "ON-LINE",
-          "en": "online",
-          "hi": "ऑनलाइन"
-        },
-        {
-          "de": "so",
-          "pronunciation": "SO",
-          "en": "so",
-          "hi": "इतना"
-        },
-        {
           "de": "zurück",
           "pronunciation": "ZU-RUECK",
           "en": "back",
@@ -6990,12 +5682,6 @@
           "hi": "केवल; पहले"
         },
         {
-          "de": "immer",
-          "pronunciation": "IM-MER",
-          "en": "always",
-          "hi": "हमेशा"
-        },
-        {
           "de": "gleich",
           "pronunciation": "GL-EIKH",
           "en": "same; soon",
@@ -7006,24 +5692,6 @@
           "pronunciation": "LE-IDER",
           "en": "unfortunately",
           "hi": "दुर्भाग्य से"
-        },
-        {
-          "de": "nie",
-          "pronunciation": "NIE",
-          "en": "never",
-          "hi": "कभी नहीं"
-        },
-        {
-          "de": "oft",
-          "pronunciation": "OFT",
-          "en": "often",
-          "hi": "अक्सर"
-        },
-        {
-          "de": "sogar",
-          "pronunciation": "SO-GAR",
-          "en": "even",
-          "hi": "भी"
         },
         {
           "de": "vielleicht",
@@ -7064,22 +5732,10 @@
       "color": "#fce4ec",
       "words": [
         {
-          "de": "pro",
-          "pronunciation": "PRO",
-          "en": "per",
-          "hi": "प्रति"
-        },
-        {
           "de": "außer",
           "pronunciation": "AU-SSER",
           "en": "except",
           "hi": "सिवाय"
-        },
-        {
-          "de": "außerdem",
-          "pronunciation": "AU-SSERDEM",
-          "en": "besides",
-          "hi": "इसके अलावा"
         },
         {
           "de": "außerhalb",
@@ -7104,190 +5760,16 @@
       "color": "#fff8e1",
       "words": [
         {
-          "de": "aktuell",
-          "pronunciation": "AK-TUELL",
-          "en": "current",
-          "hi": "वर्तमान"
-        },
-        {
-          "de": "am liebsten",
-          "pronunciation": "",
-          "en": "most preferably",
-          "hi": "सबसे पसंद"
-        },
-        {
           "de": "auf jeden Fall",
           "pronunciation": "",
           "en": "in any case",
           "hi": "किसी भी हाल में"
         },
         {
-          "de": "bekannt",
-          "pronunciation": "BE-KANNT",
-          "en": "well-known",
-          "hi": "प्रसिद्ध"
-        },
-        {
-          "de": "beliebt",
-          "pronunciation": "BE-LIEBT",
-          "en": "popular",
-          "hi": "लोकप्रिय"
-        },
-        {
-          "de": "bequem",
-          "pronunciation": "BE-QUEM",
-          "en": "comfortable",
-          "hi": "आरामदायक"
-        },
-        {
-          "de": "blöd",
-          "pronunciation": "BL-OED",
-          "en": "stupid",
-          "hi": "बेवकूफ"
-        },
-        {
-          "de": "dringend",
-          "pronunciation": "DR-INGEND",
-          "en": "urgent",
-          "hi": "जरूरी"
-        },
-        {
-          "de": "echt",
-          "pronunciation": "EK-HT",
-          "en": "real",
-          "hi": "असली"
-        },
-        {
-          "de": "egal",
-          "pronunciation": "EG-AL",
-          "en": "doesn't matter",
-          "hi": "कोई बात नहीं"
-        },
-        {
-          "de": "faul",
-          "pronunciation": "FA-UL",
-          "en": "lazy",
-          "hi": "आलसी"
-        },
-        {
-          "de": "fett",
-          "pronunciation": "FE-TT",
-          "en": "fat",
-          "hi": "चर्बी"
-        },
-        {
-          "de": "feucht",
-          "pronunciation": "FE-UKHT",
-          "en": "humid",
-          "hi": "नम"
-        },
-        {
-          "de": "fremd",
-          "pronunciation": "FR-EMD",
-          "en": "strange",
-          "hi": "अजनबी"
-        },
-        {
-          "de": "hart",
-          "pronunciation": "HA-RT",
-          "en": "hard",
-          "hi": "कठोर"
-        },
-        {
-          "de": "intelligent",
-          "pronunciation": "IN-TELLIGENT",
-          "en": "intelligent",
-          "hi": "बुद्धिमान"
-        },
-        {
-          "de": "kontaktlos bezahlen",
-          "pronunciation": "",
-          "en": "contactless payment",
-          "hi": "कॉन्टैक्टलेस पेमेंट"
-        },
-        {
           "de": "letzte",
           "pronunciation": "LE-TZTE",
           "en": "last (prefix)",
           "hi": "आखिरी"
-        },
-        {
-          "de": "nebenan",
-          "pronunciation": "NE-BENAN",
-          "en": "next door",
-          "hi": "बगल में"
-        },
-        {
-          "de": "nirgends",
-          "pronunciation": "NI-RGENDS",
-          "en": "nowhere",
-          "hi": "कहीं नहीं"
-        },
-        {
-          "de": "recht haben",
-          "pronunciation": "",
-          "en": "to be right",
-          "hi": "सही होना"
-        },
-        {
-          "de": "satt",
-          "pronunciation": "SA-TT",
-          "en": "full (after eating)",
-          "hi": "पेट भरा"
-        },
-        {
-          "de": "schade",
-          "pronunciation": "SK-HADE",
-          "en": "pity",
-          "hi": "अफ़सोस"
-        },
-        {
-          "de": "schlimm",
-          "pronunciation": "SK-HLIMM",
-          "en": "bad",
-          "hi": "बुरा"
-        },
-        {
-          "de": "sonst",
-          "pronunciation": "SO-NST",
-          "en": "otherwise",
-          "hi": "वरना"
-        },
-        {
-          "de": "streng",
-          "pronunciation": "ST-RENG",
-          "en": "strict",
-          "hi": "सख्त"
-        },
-        {
-          "de": "tief",
-          "pronunciation": "TI-EF",
-          "en": "deep",
-          "hi": "गहरा"
-        },
-        {
-          "de": "tot",
-          "pronunciation": "TOT",
-          "en": "dead",
-          "hi": "मृत"
-        },
-        {
-          "de": "total",
-          "pronunciation": "TO-TAL",
-          "en": "total",
-          "hi": "कुल"
-        },
-        {
-          "de": "unbedingt",
-          "pronunciation": "UN-BEDINGT",
-          "en": "absolutely",
-          "hi": "अवश्य"
-        },
-        {
-          "de": "vegan",
-          "pronunciation": "VE-GAN",
-          "en": "vegan",
-          "hi": "शुद्ध शाकाहारी"
         },
         {
           "de": "vorwärts",
@@ -7422,12 +5904,6 @@
           "hi": "जन्मदिन मुबारक"
         },
         {
-          "de": "als",
-          "pronunciation": "ALS",
-          "en": "as; when",
-          "hi": "जैसा; जब"
-        },
-        {
           "de": "aufregend",
           "pronunciation": "AU-FREGEND",
           "en": "exciting",
@@ -7444,12 +5920,6 @@
           "pronunciation": "BE-ANTWORTET",
           "en": "answered",
           "hi": "जवाब दिया"
-        },
-        {
-          "de": "bedankt",
-          "pronunciation": "BE-DANKT",
-          "en": "thanked",
-          "hi": "धन्यवाद दिया"
         },
         {
           "de": "beeilt",
@@ -7486,18 +5956,6 @@
           "pronunciation": "BL-OND",
           "en": "blonde",
           "hi": "गोरी/गोरे बाल"
-        },
-        {
-          "de": "braucht",
-          "pronunciation": "BR-AUKHT",
-          "en": "needs",
-          "hi": "जरूरत होती है"
-        },
-        {
-          "de": "damals",
-          "pronunciation": "DA-MALS",
-          "en": "back then",
-          "hi": "उस समय"
         },
         {
           "de": "de Rentner",
@@ -7678,12 +6136,6 @@
           "pronunciation": "RE-IKH",
           "en": "rich",
           "hi": "अमीर"
-        },
-        {
-          "de": "rund",
-          "pronunciation": "RU-ND",
-          "en": "round",
-          "hi": "गोल"
         },
         {
           "de": "schlechte Laune",
